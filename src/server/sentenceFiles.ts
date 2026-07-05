@@ -1,7 +1,7 @@
 /** Discover the available <category>/<int>.json sentence files. */
 import type { SentenceFileRef } from "@/types";
 
-const SENTENCES_DIR = "public/sentences";
+const SENTENCES_DIR = "docs/sentences";
 
 /** Sorted list of every sentence file under a category folder. */
 export function listSentenceFiles(): SentenceFileRef[] {

@@ -2,7 +2,7 @@
 import { build, type BuildConfig } from "bun";
 import plugin from "bun-plugin-tailwind";
 import { existsSync } from "fs";
-import { cp, mkdir, rm, writeFile } from "fs/promises";
+import { mkdir, readdir, rm, writeFile } from "fs/promises";
 import path from "path";
 
 // Print help text if requested
@@ -127,11 +127,13 @@ console.log("\n🚀 Starting build process...\n");
 const cliConfig = parseArgs();
 // Default output is docs/ so GitHub Pages can serve it directly.
 const outdir = cliConfig.outdir || path.join(process.cwd(), "docs");
-const publicDir = path.join(process.cwd(), "public");
 
 if (existsSync(outdir)) {
-  console.log(`🗑️ Cleaning previous build at ${outdir}`);
-  await rm(outdir, { recursive: true, force: true });
+  console.log(`🗑️ Cleaning build artifacts in ${outdir} (keeping sentences/)`);
+  for (const entry of await readdir(outdir)) {
+    if (entry === "sentences") continue;
+    await rm(path.join(outdir, entry), { recursive: true, force: true });
+  }
 }
 
 const start = performance.now();
@@ -168,20 +170,9 @@ const outputTable = result.outputs.map(output => ({
 console.table(outputTable);
 
 // ---- Static hosting assets (GitHub Pages) ---------------------------------
-// 1. Copy everything under public/ to the site root (sentence data, etc.),
-//    skipping Python cache junk.
-if (existsSync(publicDir)) {
-  await cp(publicDir, outdir, {
-    recursive: true,
-    filter: (src: string) =>
-      !src.includes("__pycache__") && !src.endsWith(".pyc"),
-  });
-  console.log("📦 Copied public/ into build output");
-}
-
-// 2. Generate a static sentence manifest (replaces the dynamic /api/sentences
-//    endpoint that the Bun server provides in development).
-const sentencesRoot = path.join(publicDir, "sentences");
+// The sentence JSON already lives in docs/sentences/ (committed source of truth).
+// Regenerate the static manifest that replaces the dynamic /api/sentences listing.
+const sentencesRoot = path.join(outdir, "sentences");
 const refs = existsSync(sentencesRoot)
   ? [...new Bun.Glob("*/*.json").scanSync(sentencesRoot)]
       .map((rel) => rel.match(/^([^/]+)[/](\d+)\.json$/))
