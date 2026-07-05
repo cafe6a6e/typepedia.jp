@@ -44,6 +44,8 @@ export function useTypingGame(settings: Settings) {
   const missRef = useRef(0);
   const startTimeRef = useRef(0);
   const timersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
+  // When true (e.g. the memo modal is open), the global key listener is inert.
+  const keysSuspendedRef = useRef(false);
 
   phaseRef.current = phase;
   settingsRef.current = settings;
@@ -57,6 +59,11 @@ export function useTypingGame(settings: Settings) {
     clearTimers();
     setPhase("idle");
   }, [clearTimers]);
+
+  // Pause/resume the global key listener (used while a modal is open).
+  const suspendKeys = useCallback((v: boolean) => {
+    keysSuspendedRef.current = v;
+  }, []);
 
   const beginPlay = useCallback(() => {
     correctRef.current = 0;
@@ -148,6 +155,7 @@ export function useTypingGame(settings: Settings) {
   // Single global keydown listener for the whole lifecycle.
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
+      if (keysSuspendedRef.current) return;
       const p = phaseRef.current;
       if (e.key === " " && (p === "idle" || p === "result")) {
         e.preventDefault();
@@ -192,5 +200,6 @@ export function useTypingGame(settings: Settings) {
     currentSentence: sentences[sentenceIndex],
     currentMatcher: matchers[sentenceIndex],
     start,
+    suspendKeys,
   };
 }

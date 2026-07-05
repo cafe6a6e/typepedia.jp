@@ -6,7 +6,7 @@ import { StartScreen } from "@/components/StartScreen";
 import { usePageTitle } from "@/hooks/usePageTitle";
 import { useSettings } from "@/hooks/useSettings";
 import { useTypingGame } from "@/hooks/useTypingGame";
-import { DEFAULT_CATEGORY } from "@/lib/categories";
+import { categoryLabel, DEFAULT_CATEGORY } from "@/lib/categories";
 import { getCategories } from "@/lib/sentences";
 
 export function StartPage() {
@@ -61,6 +61,8 @@ export function StartPage() {
             sentence={game.currentSentence}
             matcher={game.currentMatcher}
             engine={game.engine}
+            category={categoryLabel(settings.category)}
+            suspendKeys={game.suspendKeys}
           />
         )}
 
