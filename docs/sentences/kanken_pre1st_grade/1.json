@@ -134,7 +134,7 @@
   {
     "disp": "唐の時代、中国の学者たちが国史を編纂した役所を翰林院と呼びました。",
     "kana": "とうのじだい、ちゅうごくのがくしゃたちがこくしをへんさんしたやくしょをかんりんいんとよびました。",
-    "q": "tounojidai,chuugokunogakushatachigakokushiwohensanshitayakushowokanrinnintoyobimashita.",
+    "q": "tounojidai,chuugokunogakushatachigakokushiwohensanshitayakushowokanrinnnintoyobimashita.",
     "lang": "ja"
   },
   {
@@ -146,7 +146,7 @@
   {
     "disp": "健康と生活習慣には深い関連があると言われています。",
     "kana": "けんこうとせいかつしゅうかんにはぶかいかんれんがあるといわれています。",
-    "q": "kenkoutoseikatsushuukannihabukaikanrengaarutoiwareteimasu.",
+    "q": "kenkoutoseikatsushuukannnihabukaikanrengaarutoiwareteimasu.",
     "lang": "ja"
   },
   {
@@ -158,7 +158,7 @@
   {
     "disp": "師匠の話し方からは、長い経験による貫禄が感じられる。",
     "kana": "ししょうのはなしかたからは、ながいけいけんによるかんろくがかんじられる。",
-    "q": "shishounohanashikatakaraha,nagaikeikenniyorukanrokugakanjirareru.",
+    "q": "shishounohanashikatakaraha,nagaikeikennniyorukanrokugakanjirareru.",
     "lang": "ja"
   },
   {
@@ -246,9 +246,9 @@
     "lang": "ja"
   },
   {
-    "disp": "明日の登山に備えて、今日は近所を歩く程度の足慣らしをしておきます。",
+    "disp": "明日の登山に備えて、今日は近所を歩く程度の足馴らしをしておきます。",
     "kana": "あすのとざんにそなえて、きょうはきんじょをあるくていどのあしならしをしておきます。",
-    "q": "asunotozannisonaete,kyouhakinjowoarukuteidonoashinarashiwoshiteokimasu.",
+    "q": "asunotozannnisonaete,kyouhakinjowoarukuteidonoashinarashiwoshiteokimasu.",
     "lang": "ja"
   },
   {
@@ -308,7 +308,7 @@
   {
     "disp": "相手の真意を掬するよう常に努力を続けるのが大切だと考える。",
     "kana": "あいてのしんいをきくするようつねにどりょくをつづけるのがたいせつだとかんがえる。",
-    "q": "aitenoshinniwokikusuruyoutsunenidoryokuwotsuzukerunogataisetsudatokangaeru.",
+    "q": "aitenoshinnniwokikusuruyoutsunenidoryokuwotsuzukerunogataisetsudatokangaeru.",
     "lang": "ja"
   },
   {
@@ -410,7 +410,7 @@
   {
     "disp": "希少価値の高い品物は高価で簡単には手に入りませんので大切にしましょう。",
     "kana": "きしょうかちのたかいしなものはこうかでかんたんにはてにはいりませんのでたいせつにしましょう。",
-    "q": "kishoukachinotakaishinamonohakoukadekantannihatenihairimasennodetaisetsunishimashou.",
+    "q": "kishoukachinotakaishinamonohakoukadekantannnihatenihairimasennodetaisetsunishimashou.",
     "lang": "ja"
   },
   {
@@ -428,7 +428,7 @@
   {
     "disp": "毎年、父の忌辰には家族で集まり、静かに手を合わせて供養します。",
     "kana": "まいとし、ちちのきしんにはかぞくであつまり、しずかにてをあわせてくようします。",
-    "q": "maitoshi,chichinokishinnihakazokudeatsumari,shizukanitewoawasetekuyoushimasu.",
+    "q": "maitoshi,chichinokishinnnihakazokudeatsumari,shizukanitewoawasetekuyoushimasu.",
     "lang": "ja"
   },
   {
@@ -482,7 +482,7 @@
   {
     "disp": "彼は毅然とした態度で、どんな困難な状況にも立ち向かいました。",
     "kana": "かれはきぜんとしたたいどで、どんなこんなんなじょうきょうにもたちむかいました。",
-    "q": "karehakizentoshitataidode,donnakonnannajoukyounimotachimukaimashita.",
+    "q": "karehakizentoshitataidode,donnnakonnnannnajoukyounimotachimukaimashita.",
     "lang": "ja"
   },
   {
@@ -752,13 +752,13 @@
   {
     "disp": "灸点に灸をすえると、体が温かくなって体調に良い効果があります。",
     "kana": "きゅうてんにきゅうをすえると、からだがあたたかくなってたいちょうによいこうかがあります。",
-    "q": "kyuutennikyuuwosueruto,karadagaatatakakunattetaichouniyoikoukagaarimasu.",
+    "q": "kyuutennnikyuuwosueruto,karadagaatatakakunattetaichouniyoikoukagaarimasu.",
     "lang": "ja"
   },
   {
     "disp": "私たちは旧套に縛られず、柔軟に新しいアイデアを取り入れよう。",
     "kana": "わたしたちはきゅうとうにしばられず、じゅうなんにあたらしいあいであをとりいれよう。",
-    "q": "watashitachihakyuutounishibararezu,juunanniatarashiiaideawotoriireyou.",
+    "q": "watashitachihakyuutounishibararezu,juunannniatarashiiaideawotoriireyou.",
     "lang": "ja"
   },
   {
@@ -872,7 +872,7 @@
   {
     "disp": "犯人は凶刃を隠し持っていたため、すぐに逮捕された。",
     "kana": "はんにんはきょうじんをかくしもっていたため、すぐにたいほされた。",
-    "q": "hanninhakyoujinwokakushimotteitatame,sugunitaihosareta.",
+    "q": "hannninhakyoujinwokakushimotteitatame,sugunitaihosareta.",
     "lang": "ja"
   },
   {
@@ -962,7 +962,7 @@
   {
     "disp": "予期せぬ凶変に巻き込まれないよう、いつも用心している。",
     "kana": "よきせぬきょうへんにまきこまれないよう、いつもようじんしている。",
-    "q": "yokisenukyouhennimakikomarenaiyou,itsumoyoujinshiteiru.",
+    "q": "yokisenukyouhennnimakikomarenaiyou,itsumoyoujinshiteiru.",
     "lang": "ja"
   },
   {
@@ -974,7 +974,7 @@
   {
     "disp": "公園の案内板に「喬木」とあり、昔の高木の呼び名だと知りました。",
     "kana": "こうえんのあんないばんに「きょうぼく」とあり、むかしのたかぎのよびなだとしりました。",
-    "q": "kouennoannaibannikyoubokutoari,mukashinotakaginoyobinadatoshirimashita.",
+    "q": "kouennoannnaibannnikyoubokutoari,mukashinotakaginoyobinadatoshirimashita.",
     "lang": "ja"
   },
   {
@@ -1022,7 +1022,7 @@
   {
     "disp": "巨軀の彼が部屋に入ると、空間にとても圧迫感があった。",
     "kana": "きょくのかれがへやにはいると、くうかんにとてもあっぱくかんがあった。",
-    "q": "kyokunokaregaheyanihairuto,kuukannitotemoappakukangaatta.",
+    "q": "kyokunokaregaheyanihairuto,kuukannnitotemoappakukangaatta.",
     "lang": "ja"
   },
   {
@@ -1052,7 +1052,7 @@
   {
     "disp": "魚鱗が光を反射して、水槽の中でとても綺麗に見えたので写真に撮った。",
     "kana": "ぎょりんがひかりをはんしゃして、すいそうのなかでとてもきれいにみえたのでしゃしんにとった。",
-    "q": "gyoringahikariwohanshashite,suisounonakadetotemokireinimietanodeshashinnitotta.",
+    "q": "gyoringahikariwohanshashite,suisounonakadetotemokireinimietanodeshashinnnitotta.",
     "lang": "ja"
   },
   {
@@ -1130,7 +1130,7 @@
   {
     "disp": "父が生前に、一生の文集を家族のために謹撰しておきました。",
     "kana": "ちちがせいぜんに、いっしょうのぶんしゅうをかぞくのためにきんせんしておきました。",
-    "q": "chichigaseizenni,isshounobunshuuwokazokunotamenikinsenshiteokimashita.",
+    "q": "chichigaseizennni,isshounobunshuuwokazokunotamenikinsenshiteokimashita.",
     "lang": "ja"
   },
   {
@@ -1166,7 +1166,7 @@
   {
     "disp": "選手は大会で優勝し、長年の夢だった金色の金牌を手にして喜んだ。",
     "kana": "せんしゅはたいかいでゆうしょうし、ながねんのゆめだったきんいろのきんぱいをてにしてよろこんだ。",
-    "q": "senshuhataikaideyuushoushi,naganennoyumedattakinnironokinpaiwotenishiteyorokonda.",
+    "q": "senshuhataikaideyuushoushi,naganennoyumedattakinnnironokinpaiwotenishiteyorokonda.",
     "lang": "ja"
   },
   {
@@ -1196,7 +1196,7 @@
   {
     "disp": "彼の誠実な人柄にいつも深く欽慕していますので、見本にします。",
     "kana": "かれのせいじつなひとがらにいつもふかくきんぼしていますので、みほんにします。",
-    "q": "karenoseijitsunahitogaraniitsumofukakukinboshiteimasunode,mihonnishimasu.",
+    "q": "karenoseijitsunahitogaraniitsumofukakukinboshiteimasunode,mihonnnishimasu.",
     "lang": "ja"
   },
   {
@@ -1256,7 +1256,7 @@
   {
     "disp": "この本には、生活のヒントとなる寓意が込められています。",
     "kana": "このほんには、せいかつのひんととなるぐういがこめられています。",
-    "q": "konohonniha,seikatsunohintotonaruguuigakomerareteimasu.",
+    "q": "konohonnniha,seikatsunohintotonaruguuigakomerareteimasu.",
     "lang": "ja"
   },
   {
@@ -1298,7 +1298,7 @@
   {
     "disp": "姉さんに相談したら、とても良いアドバイスをもらえて助かった。",
     "kana": "あねさんにそうだんしたら、とてもよいあどばいすをもらえてたすかった。",
-    "q": "anesannisoudanshitara,totemoyoiadobaisuwomoraetetasukatta.",
+    "q": "anesannnisoudanshitara,totemoyoiadobaisuwomoraetetasukatta.",
     "lang": "ja"
   },
   {
@@ -1316,7 +1316,7 @@
   {
     "disp": "姿勢を正すためには、躯幹の筋肉を鍛えることがとても大切です。",
     "kana": "しせいをただすためには、くかんのきんにくをきたえることがとてもたいせつです。",
-    "q": "shiseiwotadasutameniha,kukannokinnikuwokitaerukotogatotemotaisetsudesu.",
+    "q": "shiseiwotadasutameniha,kukannokinnnikuwokitaerukotogatotemotaisetsudesu.",
     "lang": "ja"
   },
   {
@@ -1334,7 +1334,7 @@
   {
     "disp": "歴史の教科書で、公卿という昔の高官について詳しく学びました。",
     "kana": "れきしのきょうかしょで、くぎょうというむかしのこうかんについてくわしくまなびました。",
-    "q": "rekishinokyoukashode,kugyoutoiumukashinokoukannitsuitekuwashikumanabimashita.",
+    "q": "rekishinokyoukashode,kugyoutoiumukashinokoukannnitsuitekuwashikumanabimashita.",
     "lang": "ja"
   },
   {
@@ -1376,7 +1376,7 @@
   {
     "disp": "あの阿婆擦れな女は、遠慮なく人の前を横切るのが好きだ。",
     "kana": "あのあばずれなおんなは、えんりょなくひとのまえをよこぎるのがすきだ。",
-    "q": "anoabazurenaonnaha,enryonakuhitonomaewoyokogirunogasukida.",
+    "q": "anoabazurenaonnnaha,enryonakuhitonomaewoyokogirunogasukida.",
     "lang": "ja"
   },
   {
@@ -1424,7 +1424,7 @@
   {
     "disp": "工場から出るくず鉄はほとんどリサイクルされて新しい製品になる。",
     "kana": "こうじょうからでるくずてつはほとんどりさいくるされてあたらしいせいひんになる。",
-    "q": "koujoukaraderukuzutetsuhahotondorisaikurusareteatarashiiseihinninaru.",
+    "q": "koujoukaraderukuzutetsuhahotondorisaikurusareteatarashiiseihinnninaru.",
     "lang": "ja"
   },
   {
@@ -1436,7 +1436,7 @@
   {
     "disp": "弟はくそ力を使って、とても重たいドアを簡単に開けた。",
     "kana": "おとうとはくそぢからをつかって、とてもおもたいどあをかんたんにあけた。",
-    "q": "otoutohakusojikarawotsukatte,totemoomotaidoawokantanniaketa.",
+    "q": "otoutohakusojikarawotsukatte,totemoomotaidoawokantannniaketa.",
     "lang": "ja"
   },
   {
@@ -1488,7 +1488,7 @@
     "lang": "ja"
   },
   {
-    "disp": "新しい食材は口慣らしに一口だけ食べて、味に慣れましょう。",
+    "disp": "新しい食材は口馴らしに一口だけ食べて、味に慣れましょう。",
     "kana": "あたらしいしょくざいはくちならしにひとくちだけたべて、あじになれましょう。",
     "q": "atarashiishokuzaihakuchinarashinihitokuchidaketabete,ajininaremashou.",
     "lang": "ja"
@@ -1544,7 +1544,7 @@
   {
     "disp": "母からもらった金色の首飾りを毎日身につけているのが好きだ。",
     "kana": "ははからもらったきんいろのくびかざりをまいにちみにつけているのがすきだ。",
-    "q": "hahakaramorattakinnironokubikazariwomainichiminitsuketeirunogasukida.",
+    "q": "hahakaramorattakinnnironokubikazariwomainichiminitsuketeirunogasukida.",
     "lang": "ja"
   },
   {
@@ -1592,7 +1592,7 @@
   {
     "disp": "道路のくぼ地に水が溜まりやすいため、運転には十分注意しましょう。",
     "kana": "どうろのくぼちにみずがたまりやすいため、うんてんにはじゅうぶんちゅういしましょう。",
-    "q": "douronokubochinimizugatamariyasuitame,untennihajuubunchuuishimashou.",
+    "q": "douronokubochinimizugatamariyasuitame,untennnihajuubunchuuishimashou.",
     "lang": "ja"
   },
   {
@@ -1604,7 +1604,7 @@
   {
     "disp": "地面にできた大きな窪みに、水が溜まっていて転びそうでした。",
     "kana": "じめんにできたおおきなくぼみに、みずがたまっていてころびそうでした。",
-    "q": "jimennidekitaookinakubomini,mizugatamatteitekorobisoudeshita.",
+    "q": "jimennnidekitaookinakubomini,mizugatamatteitekorobisoudeshita.",
     "lang": "ja"
   },
   {
@@ -1682,7 +1682,7 @@
   {
     "disp": "脳と脊髄を包む三層の髄膜の中間にあるのが、くも膜です。",
     "kana": "のうとせきずいをつつむさんそうのずいまくのちゅうかんにあるのが、くもまくです。",
-    "q": "noutosekizuiwotsutsumusansounozuimakunochuukanniarunoga,kumomakudesu.",
+    "q": "noutosekizuiwotsutsumusansounozuimakunochuukannniarunoga,kumomakudesu.",
     "lang": "ja"
   },
   {
@@ -1862,7 +1862,7 @@
   {
     "disp": "新しい挑戦には荊棘がつきものですが、諦めずに進みましょう。",
     "kana": "あたらしいちょうせんにはけいきょくがつきものですが、あきらめずにすすみましょう。",
-    "q": "atarashiichousennihakeikyokugatsukimonodesuga,akiramezunisusumimashou.",
+    "q": "atarashiichousennnihakeikyokugatsukimonodesuga,akiramezunisusumimashou.",
     "lang": "ja"
   },
   {
@@ -1874,13 +1874,13 @@
   {
     "disp": "友人には荊妻と呼んで妻を紹介するのが正しいマナーです。",
     "kana": "ゆうじんにはけいさいとよんでつまをしょうかいするのがただしいまなーです。",
-    "q": "yuujinnihakeisaitoyondetsumawoshoukaisurunogatadashiimana-desu.",
+    "q": "yuujinnnihakeisaitoyondetsumawoshoukaisurunogatadashiimana-desu.",
     "lang": "ja"
   },
   {
     "disp": "珪酸は石鹸や化粧品など、身の回りの製品に含まれる化合物です。",
     "kana": "けいさんはせっけんやけしょうひんなど、みのまわりのせいひんにふくまれるかごうものです。",
-    "q": "keisanhasekkennyakeshouhinnado,minomawarinoseihinnifukumarerukagoumonodesu.",
+    "q": "keisanhasekkennyakeshouhinnado,minomawarinoseihinnnifukumarerukagoumonodesu.",
     "lang": "ja"
   },
   {
@@ -2006,7 +2006,7 @@
   {
     "disp": "上司の逆鱗に触れないよう、慎重な言葉選びをした。",
     "kana": "じょうしのげきりんにふれないよう、しんちょうなことばえらびをした。",
-    "q": "joushinogekirinnifurenaiyou,shinchounakotobaerabiwoshita.",
+    "q": "joushinogekirinnnifurenaiyou,shinchounakotobaerabiwoshita.",
     "lang": "ja"
   },
   {
@@ -2022,7 +2022,7 @@
     "lang": "ja"
   },
   {
-    "disp": "最近見た映画で、武士がけさ懸けで敵を一刀両断した。",
+    "disp": "最近見た映画で、武士が袈裟懸けで敵を一刀両断した。",
     "kana": "さいきんみたえいがで、ぶしがけさがけでてきをいちとうりょうだんした。",
     "q": "saikinmitaeigade,bushigakesagakedetekiwoichitouryoudanshita.",
     "lang": "ja"
@@ -2042,7 +2042,7 @@
   {
     "disp": "薪を燃やした後は、専用の消し壺に入れて火を完全に消します。",
     "kana": "たきぎをもやしたあとは、せんようのけしつぼにいれてひをかんぜんにけします。",
-    "q": "takigiwomoyashitaatoha,sennyounokeshitsuboniiretehiwokanzennikeshimasu.",
+    "q": "takigiwomoyashitaatoha,sennyounokeshitsuboniiretehiwokanzennnikeshimasu.",
     "lang": "ja"
   },
   {
@@ -2186,7 +2186,7 @@
   {
     "disp": "彼は意気軒昂の姿で、新しい仕事に熱心に挑戦した。",
     "kana": "かれはいきけんこうのすがたで、あたらしいしごとにねっしんにちょうせんした。",
-    "q": "karehaikikenkounosugatade,atarashiishigotoninesshinnichousenshita.",
+    "q": "karehaikikenkounosugatade,atarashiishigotoninesshinnnichousenshita.",
     "lang": "ja"
   },
   {
@@ -2324,7 +2324,7 @@
   {
     "disp": "彼は自分の成功を世間に喧伝することをいつも嫌っていた。",
     "kana": "かれはじぶんのせいこうをせけんにけんでんすることをいつもきらっていた。",
-    "q": "karehajibunnoseikouwosekennikendensurukotowoitsumokiratteita.",
+    "q": "karehajibunnoseikouwosekennnikendensurukotowoitsumokiratteita.",
     "lang": "ja"
   },
   {
@@ -2336,7 +2336,7 @@
   {
     "disp": "剣呑な雰囲気が漂っていたので、みんな何も話さなかった。",
     "kana": "けんのんなふんいきがただよっていたので、みんななんもはなさなかった。",
-    "q": "kennonnafunnikigatadayotteitanode,minnananmohanasanakatta.",
+    "q": "kennonnnafunnikigatadayotteitanode,minnananmohanasanakatta.",
     "lang": "ja"
   },
   {
@@ -2372,7 +2372,7 @@
   {
     "disp": "絢爛なドレスを着た彼女は、まるで人形のようにとても華やかだった。",
     "kana": "けんらんなどれすをきたかのじょは、まるでにんぎょうのようにとてもはなやかだった。",
-    "q": "kenrannadoresuwokitakanojoha,marudeningyounoyounitotemohanayakadatta.",
+    "q": "kenrannnadoresuwokitakanojoha,marudeningyounoyounitotemohanayakadatta.",
     "lang": "ja"
   },
   {
@@ -2426,7 +2426,7 @@
   {
     "disp": "部屋を掃除したら、こう広くて快適な空間になってとても嬉しいです。",
     "kana": "へやをそうじしたら、こうひろくてかいてきなくうかんになってとてもうれしいです。",
-    "q": "heyawosoujishitara,kouhirokutekaitekinakuukanninattetotemoureshiidesu.",
+    "q": "heyawosoujishitara,kouhirokutekaitekinakuukannninattetotemoureshiidesu.",
     "lang": "ja"
   },
   {
@@ -2456,13 +2456,13 @@
   {
     "disp": "恩師からの高恩に心より感謝し、これからも努力を続けたいと思います。",
     "kana": "おんしからのこうおんにこころよりかんしゃし、これからもどりょくをつづけたいとおもいます。",
-    "q": "onshikaranokouonnikokoroyorikanshashi,korekaramodoryokuwotsuzuketaitoomoimasu.",
+    "q": "onshikaranokouonnnikokoroyorikanshashi,korekaramodoryokuwotsuzuketaitoomoimasu.",
     "lang": "ja"
   },
   {
     "disp": "工事現場から聞こえる重機の轟音に、みんな驚いて振り返った。",
     "kana": "こうじげんばからきこえるじゅうきのごうおんに、みんなおどろいてふりかえった。",
-    "q": "koujigenbakarakikoerujuukinogouonni,minnaodoroitefurikaetta.",
+    "q": "koujigenbakarakikoerujuukinogouonnni,minnaodoroitefurikaetta.",
     "lang": "ja"
   },
   {
@@ -2480,13 +2480,13 @@
   {
     "disp": "巷間に広まっている流行を信じて、新しいカフェに行ってみた。",
     "kana": "こうかんにひろまっているりゅうこうをしんじて、あたらしいかふぇにいってみた。",
-    "q": "koukannihiromatteiruryuukouwoshinjite,atarashiikafeniittemita.",
+    "q": "koukannnihiromatteiruryuukouwoshinjite,atarashiikafeniittemita.",
     "lang": "ja"
   },
   {
     "disp": "図書館には浩瀚な蔵書があり、調べものがしやすいので便利です。",
     "kana": "としょかんにはこうかんなぞうしょがあり、しらべものがしやすいのでべんりです。",
-    "q": "toshokannihakoukannazoushogaari,shirabemonogashiyasuinodebenridesu.",
+    "q": "toshokannnihakoukannnazoushogaari,shirabemonogashiyasuinodebenridesu.",
     "lang": "ja"
   },
   {
@@ -2516,7 +2516,7 @@
   {
     "disp": "彼は困難に直面しても剛毅な心で諦めずに挑戦し続けた。",
     "kana": "かれはこんなんにちょくめんしてもごうきなこころであきらめずにちょうせんしつづけた。",
-    "q": "karehakonnannichokumenshitemogoukinakokorodeakiramezunichousenshitsuzuketa.",
+    "q": "karehakonnnannnichokumenshitemogoukinakokorodeakiramezunichousenshitsuzuketa.",
     "lang": "ja"
   },
   {
@@ -2582,7 +2582,7 @@
   {
     "disp": "道路が交差する場所では、車の動きに十分注意して安全に渡りましょう。",
     "kana": "どうろがこうさするばしょでは、くるまのうごきにじゅうぶんちゅういしてあんぜんにわたりましょう。",
-    "q": "dourogakousasurubashodeha,kurumanougokinijuubunchuuishiteanzenniwatarimashou.",
+    "q": "dourogakousasurubashodeha,kurumanougokinijuubunchuuishiteanzennniwatarimashou.",
     "lang": "ja"
   },
   {
@@ -2606,7 +2606,7 @@
   {
     "disp": "彼は謝罪のために、深く額を地面につけて叩首した。",
     "kana": "かれはしゃざいのために、ふかくがくをじめんにつけてこうしゅした。",
-    "q": "karehashazainotameni,fukakugakuwojimennitsuketekoushushita.",
+    "q": "karehashazainotameni,fukakugakuwojimennnitsuketekoushushita.",
     "lang": "ja"
   },
   {
@@ -2720,7 +2720,7 @@
   {
     "disp": "彼は昂然と胸を張り、新しい人生の大きな挑戦に臨んだ。",
     "kana": "かれはこうぜんとむねをはり、あたらしいじんせいのおおきなちょうせんにのぞんだ。",
-    "q": "karehakouzentomunewohari,atarashiijinseinoookinachousenninozonda.",
+    "q": "karehakouzentomunewohari,atarashiijinseinoookinachousennninozonda.",
     "lang": "ja"
   },
   {
@@ -2744,7 +2744,7 @@
   {
     "disp": "巷談によると、あの人気店が来月末に閉店するらしい。",
     "kana": "こうだんによると、あのにんきてんがらいげつまつにへいてんするらしい。",
-    "q": "koudanniyoruto,anoninkitengaraigetsumatsuniheitensururashii.",
+    "q": "koudannniyoruto,anoninkitengaraigetsumatsuniheitensururashii.",
     "lang": "ja"
   },
   {
@@ -2846,7 +2846,7 @@
   {
     "disp": "この映画シリーズは前編に続き、後編が公開されるのを待っている。",
     "kana": "このえいがしりーずはぜんぺんにつづき、こうへんがこうかいされるのをまっている。",
-    "q": "konoeigashiri-zuhazenpennitsuzuki,kouhengakoukaisarerunowomatteiru.",
+    "q": "konoeigashiri-zuhazenpennnitsuzuki,kouhengakoukaisarerunowomatteiru.",
     "lang": "ja"
   },
   {
@@ -2894,7 +2894,7 @@
   {
     "disp": "一度ハマると抜け出せない、その困難な状況はまさに蟻地獄だ。",
     "kana": "いちどはまるとぬけだせない、そのこんなんなじょうきょうはまさにありじごくだ。",
-    "q": "ichidohamarutonukedasenai,sonokonnannajoukyouhamasaniarijigokuda.",
+    "q": "ichidohamarutonukedasenai,sonokonnnannnajoukyouhamasaniarijigokuda.",
     "lang": "ja"
   },
   {
@@ -2996,7 +2996,7 @@
   {
     "disp": "鼓弓は三味線に似た楽器で、馬の尾の毛の弓で弾いてみた。",
     "kana": "こきゅうはしゃみせんににたがっきで、うまのおのけのゆみでひいてみた。",
-    "q": "kokyuuhashamisenninitagakkide,umanoonokenoyumidehiitemita.",
+    "q": "kokyuuhashamisennninitagakkide,umanoonokenoyumidehiitemita.",
     "lang": "ja"
   },
   {
@@ -3044,13 +3044,13 @@
   {
     "disp": "高山に生える苔桃は、赤い丸い酸っぱい実をつけ、冬でも葉は緑色です。",
     "kana": "こうざんにはえるこけももは、あかいまるいすっぱいじつをつけ、ふゆでもははみどりいろです。",
-    "q": "kouzannihaerukokemomoha,akaimaruisuppaijitsuwotsuke,fuyudemohahamidoriirodesu.",
+    "q": "kouzannnihaerukokemomoha,akaimaruisuppaijitsuwotsuke,fuyudemohahamidoriirodesu.",
     "lang": "ja"
   },
   {
     "disp": "古諺には昔からの知恵が詰まっているので、とても参考になる。",
     "kana": "こげんにはむかしからのちえがつまっているので、とてもさんこうになる。",
-    "q": "kogennihamukashikaranochiegatsumatteirunode,totemosankouninaru.",
+    "q": "kogennnihamukashikaranochiegatsumatteirunode,totemosankouninaru.",
     "lang": "ja"
   },
   {
@@ -3302,7 +3302,7 @@
   {
     "disp": "石を強く叩き続けると、ついに粉みじんになってしまった。",
     "kana": "いしをつよくたたきつづけると、ついにこなみじんになってしまった。",
-    "q": "ishiwotsuyokutatakitsuzukeruto,tsuinikonamijinninatteshimatta.",
+    "q": "ishiwotsuyokutatakitsuzukeruto,tsuinikonamijinnninatteshimatta.",
     "lang": "ja"
   },
   {
@@ -3344,7 +3344,7 @@
   {
     "disp": "玄関にある新しい塵溜めに、ゴミを捨てる前に一時的に入れておこう。",
     "kana": "げんかんにあるあたらしいごみために、ごみをすてるまえにいちじてきにいれておこう。",
-    "q": "genkanniaruatarashiigomitameni,gomiwosuterumaeniichijitekiniireteokou.",
+    "q": "genkannniaruatarashiigomitameni,gomiwosuterumaeniichijitekiniireteokou.",
     "lang": "ja"
   },
   {
@@ -3440,7 +3440,7 @@
   {
     "disp": "案ずるに、そんな心配は必要なかったですね。",
     "kana": "あんずるに、そんなしんぱいはひつようなかったですね。",
-    "q": "anzuruni,sonnashinpaihahitsuyounakattadesune.",
+    "q": "anzuruni,sonnnashinpaihahitsuyounakattadesune.",
     "lang": "ja"
   },
   {
@@ -3500,7 +3500,7 @@
   {
     "disp": "食事の後に冷たい杏仁豆腐を食べて、とてもさっぱりとしました。",
     "kana": "しょくじのあとにつめたいあんにんどうふをたべて、とてもさっぱりとしました。",
-    "q": "shokujinoatonitsumetaiannindoufuwotabete,totemosapparitoshimashita.",
+    "q": "shokujinoatonitsumetaiannnindoufuwotabete,totemosapparitoshimashita.",
     "lang": "ja"
   },
   {
@@ -3518,7 +3518,7 @@
   {
     "disp": "体育の時間に鞍馬の練習をして、少し自信がつきました。",
     "kana": "たいいくのじかんにあんばのれんしゅうをして、すこしじしんがつきました。",
-    "q": "taiikunojikannianbanorenshuuwoshite,sukoshijishingatsukimashita.",
+    "q": "taiikunojikannnianbanorenshuuwoshite,sukoshijishingatsukimashita.",
     "lang": "ja"
   },
   {
@@ -3572,7 +3572,7 @@
   {
     "disp": "豺狼のような悪意に満ちた人間には近づいてはいけない。",
     "kana": "さいろうのようなあくいにみちたにんげんにはちかづいてはいけない。",
-    "q": "sairounoyounaakuinimichitaningennihachikazuitehaikenai.",
+    "q": "sairounoyounaakuinimichitaningennnihachikazuitehaikenai.",
     "lang": "ja"
   },
   {
@@ -3812,7 +3812,7 @@
   {
     "disp": "静かな水面に細波が立ち、私の心も少し揺れました。",
     "kana": "しずかなすいめんにさざなみがたち、わたしのこころもすこしゆれました。",
-    "q": "shizukanasuimennisazanamigatachi,watashinokokoromosukoshiyuremashita.",
+    "q": "shizukanasuimennnisazanamigatachi,watashinokokoromosukoshiyuremashita.",
     "lang": "ja"
   },
   {
@@ -3992,7 +3992,7 @@
   {
     "disp": "寒い冬の日には、温かい座布団に座って本を読むのが好きだ。",
     "kana": "さむいふゆのひには、あたたかいざぶとんにすわってほんをよむのがすきだ。",
-    "q": "samuifuyunohiniha,atatakaizabutonnisuwattehonwoyomunogasukida.",
+    "q": "samuifuyunohiniha,atatakaizabutonnnisuwattehonwoyomunogasukida.",
     "lang": "ja"
   },
   {
@@ -4052,7 +4052,7 @@
   {
     "disp": "この和菓子は、表面に晒し餡をまぶしてあるのでとても美味しいです。",
     "kana": "このわかしは、ひょうめんにさらしあんをまぶしてあるのでとてもおいしいです。",
-    "q": "konowakashiha,hyoumennisarashianwomabushitearunodetotemooishiidesu.",
+    "q": "konowakashiha,hyoumennnisarashianwomabushitearunodetotemooishiidesu.",
     "lang": "ja"
   },
   {
@@ -4088,7 +4088,7 @@
   {
     "disp": "暑い日の昼ご飯に、刻んだ海苔を乗せた笊蕎麦を食べました。",
     "kana": "あついひのひるごはんに、きざんだのりをのせたざるそばをたべました。",
-    "q": "atsuihinohirugohanni,kizandanoriwonosetazarusobawotabemashita.",
+    "q": "atsuihinohirugohannni,kizandanoriwonosetazarusobawotabemashita.",
     "lang": "ja"
   },
   {
@@ -4142,7 +4142,7 @@
   {
     "disp": "昔の山賊たちは、険しい山塞を拠点にしてたびたび襲撃を行った。",
     "kana": "むかしのさんぞくたちは、けわしいさんさいをきょてんにしてたびたびしゅうげきをおこなった。",
-    "q": "mukashinosanzokutachiha,kewashiisansaiwokyotennishitetabitabishuugekiwookonatta.",
+    "q": "mukashinosanzokutachiha,kewashiisansaiwokyotennnishitetabitabishuugekiwookonatta.",
     "lang": "ja"
   },
   {
@@ -4226,7 +4226,7 @@
   {
     "disp": "彼は緊張すると言い淀むので、事前に練習するようになった。",
     "kana": "かれはきんちょうするといいよどむので、じぜんにれんしゅうするようになった。",
-    "q": "karehakinchousurutoiiyodomunode,jizennirenshuusuruyouninatta.",
+    "q": "karehakinchousurutoiiyodomunode,jizennnirenshuusuruyouninatta.",
     "lang": "ja"
   },
   {
@@ -4238,7 +4238,7 @@
   {
     "disp": "静かな部屋で、人生の根本について深く思惟した。",
     "kana": "しずかなへやで、じんせいのこんぽんについてふかくしいした。",
-    "q": "shizukanaheyade,jinseinokonponnitsuitefukakushiishita.",
+    "q": "shizukanaheyade,jinseinokonponnnitsuitefukakushiishita.",
     "lang": "ja"
   },
   {
@@ -4304,7 +4304,7 @@
   {
     "disp": "斯学を専門にしている先生に教えてもらうことにした。",
     "kana": "しがくをせんもんにしているせんせいにおしえてもらうことにした。",
-    "q": "shigakuwosenmonnishiteirusenseinioshietemoraukotonishita.",
+    "q": "shigakuwosenmonnnishiteirusenseinioshietemoraukotonishita.",
     "lang": "ja"
   },
   {
@@ -4364,7 +4364,7 @@
   {
     "disp": "市場で安く手に入った烏賊を、今夜の晩ご飯にすることにしました。",
     "kana": "しじょうでやすくてにはいったいかを、こんやのばんごはんにすることにしました。",
-    "q": "shijoudeyasukutenihaittaikawo,konnyanobangohannisurukotonishimashita.",
+    "q": "shijoudeyasukutenihaittaikawo,konnyanobangohannnisurukotonishimashita.",
     "lang": "ja"
   },
   {
@@ -4412,7 +4412,7 @@
   {
     "disp": "秋の散歩道で、地面に落ちている毬栗を拾って帰りました。",
     "kana": "あきのさんぽどうで、じめんにおちているいがぐりをひろってかえりました。",
-    "q": "akinosanpodoude,jimenniochiteiruigaguriwohirottekaerimashita.",
+    "q": "akinosanpodoude,jimennniochiteiruigaguriwohirottekaerimashita.",
     "lang": "ja"
   },
   {
@@ -4472,13 +4472,13 @@
   {
     "disp": "爺むさい服装をしていると、周りに変に思われるよ。",
     "kana": "じじむさいふくそうをしていると、まわりにへんにおもわれるよ。",
-    "q": "jijimusaifukusouwoshiteiruto,mawarinihenniomowareruyo.",
+    "q": "jijimusaifukusouwoshiteiruto,mawarinihennniomowareruyo.",
     "lang": "ja"
   },
   {
     "disp": "今日市場で買った大きな肉叢を、今夜の夕食に使います。",
-    "kana": "こんにちしじょうでかったおおきなししむらを、こんやのゆうしょくにつかいます。",
-    "q": "konnichishijoudekattaookinashishimurawo,konnyanoyuushokunitsukaimasu.",
+    "kana": "きょういちばでかったおおきなししむらを、こんやのゆうしょくにつかいます。",
+    "q": "kyouichibadekattaookinashishimurawo,konnyanoyuushokunitsukaimasu.",
     "lang": "ja"
   },
   {
@@ -4676,7 +4676,7 @@
   {
     "disp": "そんな阿漕な真似はしないで、正直に話してくださいね。",
     "kana": "そんなあこぎなまねはしないで、しょうじきにはなしてくださいね。",
-    "q": "sonnaakoginamanehashinaide,shoujikinihanashitekudasaine.",
+    "q": "sonnnaakoginamanehashinaide,shoujikinihanashitekudasaine.",
     "lang": "ja"
   },
   {
@@ -4730,7 +4730,7 @@
   {
     "disp": "朝、温かいお味噌汁を杓うして、お椀に静かに注ぎました。",
     "kana": "あさ、あたたかいおみそしるをしゃくうして、おわんにしずかにそそぎました。",
-    "q": "asa,atatakaiomisoshiruwoshakuushite,owannishizukanisosogimashita.",
+    "q": "asa,atatakaiomisoshiruwoshakuushite,owannnishizukanisosogimashita.",
     "lang": "ja"
   },
   {
@@ -4808,7 +4808,7 @@
   {
     "disp": "彼は自信に充溢しており、堂々と大きな声で話していた。",
     "kana": "かれはじしんにじゅういつしており、どうどうとおおきなこえではなしていた。",
-    "q": "karehajishinnijuuitsushiteori,doudoutoookinakoedehanashiteita.",
+    "q": "karehajishinnnijuuitsushiteori,doudoutoookinakoedehanashiteita.",
     "lang": "ja"
   },
   {
@@ -4898,7 +4898,7 @@
   {
     "disp": "膝が腫脹していて歩けないので、病院に行きました。",
     "kana": "ひざがしゅちょうしていてあるけないので、びょういんにいきました。",
-    "q": "hizagashuchoushiteitearukenainode,byouinniikimashita.",
+    "q": "hizagashuchoushiteitearukenainode,byouinnniikimashita.",
     "lang": "ja"
   },
   {
@@ -4981,8 +4981,8 @@
   },
   {
     "disp": "四年に一度やってくる閏年は、二月が二十九日まである年です。",
-    "kana": "よんねんにいちどやってくるじゅんねんは、にがつがにじゅうきゅうにちまであるとしです。",
-    "q": "yonnenniichidoyattekurujunnenha,nigatsuganijuukyuunichimadearutoshidesu.",
+    "kana": "よねんにいちどやってくるじゅんねんは、にがつがにじゅうきゅうにちまであるとしです。",
+    "q": "yonennniichidoyattekurujunnenha,nigatsuganijuukyuunichimadearutoshidesu.",
     "lang": "ja"
   },
   {
@@ -5042,7 +5042,7 @@
   {
     "disp": "兵士たちは敵の攻撃を警戒して、夜間に哨戒を行っている。",
     "kana": "へいしたちはてきのこうげきをけいかいして、やかんにしょうかいをおこなっている。",
-    "q": "heishitachihatekinokougekiwokeikaishite,yakannishoukaiwookonatteiru.",
+    "q": "heishitachihatekinokougekiwokeikaishite,yakannnishoukaiwookonatteiru.",
     "lang": "ja"
   },
   {
@@ -5072,7 +5072,7 @@
   {
     "disp": "この本には、かつての娼妓が宴席で客を楽しませていた様子が描かれています。",
     "kana": "このほんには、かつてのしょうぎがえんせきできゃくをたのしませていたようすがえがかれています。",
-    "q": "konohonniha,katsutenoshougigaensekidekyakuwotanoshimaseteitayousugaegakareteimasu.",
+    "q": "konohonnniha,katsutenoshougigaensekidekyakuwotanoshimaseteitayousugaegakareteimasu.",
     "lang": "ja"
   },
   {
@@ -5114,7 +5114,7 @@
   {
     "disp": "毎年上巳の節句、三月三日には女の子のために雛人形を飾ります。",
     "kana": "まいとしじょうしのせっく、さんがつみっかにはおんなのこのためにひなにんぎょうをかざります。",
-    "q": "maitoshijoushinosekku,sangatsumikkanihaonnanokonotamenihinaningyouwokazarimasu.",
+    "q": "maitoshijoushinosekku,sangatsumikkanihaonnnanokonotamenihinaningyouwokazarimasu.",
     "lang": "ja"
   },
   {
@@ -5150,7 +5150,7 @@
   {
     "disp": "昨日の大会で、優勝チームに金色の賞牌が贈られました。",
     "kana": "きのうのたいかいで、ゆうしょうちーむにきんいろのしょうはいがおくられました。",
-    "q": "kinounotaikaide,yuushouchi-munikinnironoshouhaigaokuraremashita.",
+    "q": "kinounotaikaide,yuushouchi-munikinnnironoshouhaigaokuraremashita.",
     "lang": "ja"
   },
   {
@@ -5162,7 +5162,7 @@
   {
     "disp": "その本には、かつての娼婦の生活が詳しく描かれていました。",
     "kana": "そのほんには、かつてのしょうふのせいかつがくわしくえがかれていました。",
-    "q": "sonohonniha,katsutenoshoufunoseikatsugakuwashikuegakareteimashita.",
+    "q": "sonohonnniha,katsutenoshoufunoseikatsugakuwashikuegakareteimashita.",
     "lang": "ja"
   },
   {
@@ -5246,7 +5246,7 @@
   {
     "disp": "久しぶりに会っていない友人に、書簡で元気な様子を伝えました。",
     "kana": "ひさしぶりにあっていないゆうじんに、しょかんでげんきなようすをつたえました。",
-    "q": "hisashiburiniatteinaiyuujinni,shokandegenkinayousuwotsutaemashita.",
+    "q": "hisashiburiniatteinaiyuujinnni,shokandegenkinayousuwotsutaemashita.",
     "lang": "ja"
   },
   {
@@ -5414,7 +5414,7 @@
   {
     "disp": "川遊びの時は、深淵には近づかないように注意しましょう。",
     "kana": "かわあそびのときは、しんえんにはちかづかないようにちゅういしましょう。",
-    "q": "kawaasobinotokiha,shinnennihachikazukanaiyounichuuishimashou.",
+    "q": "kawaasobinotokiha,shinnennnihachikazukanaiyounichuuishimashou.",
     "lang": "ja"
   },
   {
@@ -5438,7 +5438,7 @@
   {
     "disp": "偽物かどうか不安なので、このバッグの真贋を調べてみました。",
     "kana": "にせものかどうかふあんなので、このばっぐのしんがんをしらべてみました。",
-    "q": "nisemonokadoukafuannanode,konobaggunoshinganwoshirabetemimashita.",
+    "q": "nisemonokadoukafuannnanode,konobaggunoshinganwoshirabetemimashita.",
     "lang": "ja"
   },
   {
@@ -5510,7 +5510,7 @@
   {
     "disp": "裁判官は法廷で証人に対して慎重に尋問を行いました。",
     "kana": "さいばんかんはほうていでしょうにんにたいしてしんちょうにじんもんをおこないました。",
-    "q": "saibankanhahouteideshouninnitaishiteshinchounijinmonwookonaimashita.",
+    "q": "saibankanhahouteideshouninnnitaishiteshinchounijinmonwookonaimashita.",
     "lang": "ja"
   },
   {
@@ -5522,7 +5522,7 @@
   {
     "disp": "湖底に土砂がたまり、水面に州が現れて鳥たちが止まっている。",
     "kana": "こていにどしゃがたまり、すいめんにすがあらわれてとりたちがとまっている。",
-    "q": "koteinidoshagatamari,suimennisugaarawaretetoritachigatomatteiru.",
+    "q": "koteinidoshagatamari,suimennnisugaarawaretetoritachigatomatteiru.",
     "lang": "ja"
   },
   {
@@ -5576,7 +5576,7 @@
   {
     "disp": "今年は瑞兆を感じて、とても幸せな一年になりそうです。",
     "kana": "ことしはずいちょうをかんじて、とてもしあわせないちねんになりそうです。",
-    "q": "kotoshihazuichouwokanjite,totemoshiawasenaichinenninarisoudesu.",
+    "q": "kotoshihazuichouwokanjite,totemoshiawasenaichinennninarisoudesu.",
     "lang": "ja"
   },
   {
@@ -5936,7 +5936,7 @@
   {
     "disp": "先生が漢詩の一聯について、意味を詳しく教えてくれました。",
     "kana": "せんせいがかんしのいちれんについて、いみをくわしくおしえてくれました。",
-    "q": "senseigakanshinoichirennitsuite,imiwokuwashikuoshietekuremashita.",
+    "q": "senseigakanshinoichirennnitsuite,imiwokuwashikuoshietekuremashita.",
     "lang": "ja"
   },
   {
