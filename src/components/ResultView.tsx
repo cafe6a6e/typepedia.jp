@@ -1,38 +1,12 @@
-import { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import { postScore } from "@/lib/api";
 import type { ScoreResult } from "@/types";
 
 interface Props {
   result: ScoreResult;
-  username: string;
   onRetry: () => void;
 }
 
-/** Result screen: score breakdown, submit-to-ranking, and retry. */
-export function ResultView({ result, username, onRetry }: Props) {
-  const navigate = useNavigate();
-  const [status, setStatus] = useState<"idle" | "sending" | "done" | "error">(
-    "idle",
-  );
-
-  const submit = async () => {
-    setStatus("sending");
-    try {
-      await postScore({
-        username: username || "anonymous",
-        score: result.score,
-        cpm: result.cpm,
-        wpm: result.wpm,
-        accuracy: result.accuracy,
-      });
-      setStatus("done");
-      navigate("/ranking");
-    } catch {
-      setStatus("error");
-    }
-  };
-
+/** Result screen: score breakdown and retry. */
+export function ResultView({ result, onRetry }: Props) {
   const rows: [string, string][] = [
     ["正解打鍵", `${result.correct}`],
     ["ミス", `${result.miss}`],
@@ -63,21 +37,6 @@ export function ResultView({ result, username, onRetry }: Props) {
       </table>
 
       <div className="flex flex-col gap-3 items-center">
-        <button
-          type="button"
-          onClick={submit}
-          disabled={status === "sending" || status === "done"}
-          className="px-6 py-2 bg-green-600 hover:bg-green-500 disabled:opacity-50 rounded-md font-semibold"
-        >
-          {status === "sending"
-            ? "送信中…"
-            : status === "done"
-              ? "送信済み"
-              : "ランキングに送信"}
-        </button>
-        {status === "error" && (
-          <p className="text-red-400 text-sm">送信に失敗しました</p>
-        )}
         <button
           type="button"
           onClick={onRetry}

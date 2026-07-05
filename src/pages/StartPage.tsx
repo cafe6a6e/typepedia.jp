@@ -65,11 +65,7 @@ export function StartPage() {
         )}
 
       {game.phase === "result" && game.result && (
-        <ResultView
-          result={game.result}
-          username={settings.username}
-          onRetry={game.start}
-        />
+        <ResultView result={game.result} onRetry={game.start} />
       )}
 
       {game.phase === "aborted" && (

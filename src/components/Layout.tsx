@@ -3,7 +3,6 @@ import { NavLink, Outlet } from "react-router-dom";
 const tabs = [
   { to: "/start", label: "Start" },
   { to: "/settings", label: "Settings" },
-  { to: "/ranking", label: "Ranking" },
 ];
 
 export function Layout() {

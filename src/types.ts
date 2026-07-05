@@ -67,13 +67,3 @@ export interface ScoreResult {
   accuracy: number;
   score: number;
 }
-
-/** A ranking entry as stored on the server and returned to clients. */
-export interface ScoreEntry {
-  username: string;
-  score: number;
-  cpm: number;
-  wpm: number;
-  accuracy: number;
-  ts: number;
-}
