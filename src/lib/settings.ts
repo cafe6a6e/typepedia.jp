@@ -7,7 +7,7 @@ const STORAGE_KEY = "typing-game:settings";
 
 export const DEFAULT_SETTINGS: Settings = {
   username: "",
-  questionCount: 5,
+  questionCount: 10,
   category: DEFAULT_CATEGORY,
   cMapping: { ...DEFAULT_C_MAPPING },
 };

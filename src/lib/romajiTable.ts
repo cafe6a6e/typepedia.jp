@@ -94,16 +94,16 @@ export const C_CHOICES: Record<string, Record<CSide, string>> = {
 /** Stable order for the settings UI. */
 export const C_INPUTS = Object.keys(C_CHOICES);
 
-/** Defaults follow the hard/soft-c rule (ca→か, ci→し, cu→く …). */
+/** Defaults: hard/soft-c rule for ca–co (ca→か, ci→し, cu→く …); cy- → さ行 (cya→しゃ). */
 export const DEFAULT_C_MAPPING: Record<string, CSide> = {
   ca: "k",
   ci: "s",
   cu: "k",
   ce: "s",
   co: "k",
-  cya: "k",
-  cyu: "k",
-  cyo: "k",
+  cya: "s",
+  cyu: "s",
+  cyo: "s",
 };
 
 const VOWELS = new Set(["a", "i", "u", "e", "o"]);
