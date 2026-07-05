@@ -67,13 +67,6 @@ export function StartPage() {
       {game.phase === "result" && game.result && (
         <ResultView result={game.result} onRetry={game.start} />
       )}
-
-      {game.phase === "aborted" && (
-        <div className="text-center">
-          <p className="text-2xl mb-4">中断しました</p>
-          <p className="text-white/50">Space でもう一度</p>
-        </div>
-      )}
     </div>
   );
 }

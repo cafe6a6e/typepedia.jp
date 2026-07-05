@@ -1,5 +1,6 @@
 /**
- * Game-loop state machine: idle → countdown → playing → result (or aborted).
+ * Game-loop state machine: idle → countdown → playing → result.
+ * Esc during countdown/playing returns to idle (the start / course-select screen).
  *
  * Gameplay-critical values live in refs so the single global keydown listener
  * always reads fresh data without re-attaching; state mirrors are kept in sync
@@ -17,13 +18,7 @@ import type {
   Settings,
 } from "@/types";
 
-export type Phase =
-  | "idle"
-  | "loading"
-  | "countdown"
-  | "playing"
-  | "result"
-  | "aborted";
+export type Phase = "idle" | "loading" | "countdown" | "playing" | "result";
 
 const INITIAL_ENGINE: EngineState = { slotIndex: 0, buffer: "" };
 
@@ -117,11 +112,6 @@ export function useTypingGame(settings: Settings) {
     timersRef.current.push(setTimeout(() => beginPlay(), 3000));
   }, [beginPlay, clearTimers]);
 
-  const abort = useCallback(() => {
-    clearTimers();
-    setPhase("aborted");
-  }, [clearTimers]);
-
   const handlePlayKey = useCallback(
     (key: string) => {
       const matcher = matchersRef.current[sentenceIndexRef.current];
@@ -159,18 +149,15 @@ export function useTypingGame(settings: Settings) {
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
       const p = phaseRef.current;
-      if (
-        e.key === " " &&
-        (p === "idle" || p === "result" || p === "aborted")
-      ) {
+      if (e.key === " " && (p === "idle" || p === "result")) {
         e.preventDefault();
         start();
         return;
       }
+      // Esc bails out of a run back to the start / course-select screen.
       if (e.key === "Escape" && (p === "playing" || p === "countdown")) {
         e.preventDefault();
-        if (p === "countdown") goIdle();
-        else abort();
+        goIdle();
         return;
       }
       if (
@@ -186,7 +173,7 @@ export function useTypingGame(settings: Settings) {
     };
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
-  }, [start, abort, goIdle, handlePlayKey]);
+  }, [start, goIdle, handlePlayKey]);
 
   // Cleanup any pending timers on unmount.
   useEffect(() => clearTimers, [clearTimers]);

@@ -13,7 +13,7 @@ interface Props {
   engine: EngineState;
 }
 
-/** The active typing screen: progress bar, sentence, and abort hint. */
+/** The active typing screen: progress bar, sentence, and Esc hint. */
 export function PlayingView({
   index,
   total,
@@ -37,7 +37,7 @@ export function PlayingView({
         <span className="text-red-400">ミス {miss}</span>
       </div>
       <SentenceView sentence={sentence} matcher={matcher} engine={engine} />
-      <p className="text-xs text-white/30">Esc で中断</p>
+      <p className="text-xs text-white/30">Esc でコース選択に戻る</p>
     </div>
   );
 }
