@@ -1,4 +1,5 @@
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
+import { ConfirmModal } from "@/components/ConfirmModal";
 import { usePageTitle } from "@/hooks/usePageTitle";
 import { type Memo, deleteMemos, formatTimestamp, getMemos } from "@/lib/memo";
 
@@ -7,27 +8,6 @@ export function MemoPage() {
   const [memos, setMemos] = useState<Memo[]>(() => getMemos());
   const [selected, setSelected] = useState<Set<string>>(new Set());
   const [confirmOpen, setConfirmOpen] = useState(false);
-
-  // Focus trap for the confirm modal: only Cancel / 削除 are tabbable.
-  const cancelRef = useRef<HTMLButtonElement>(null);
-  const deleteRef = useRef<HTMLButtonElement>(null);
-  useEffect(() => {
-    if (confirmOpen) cancelRef.current?.focus();
-  }, [confirmOpen]);
-
-  const onModalKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === "Escape") {
-      setConfirmOpen(false);
-      return;
-    }
-    if (e.key === "Tab") {
-      // Only two focusable controls, so Tab / Shift+Tab just toggle between them.
-      e.preventDefault();
-      const next =
-        document.activeElement === cancelRef.current ? deleteRef : cancelRef;
-      next.current?.focus();
-    }
-  };
 
   const toggle = (id: string) => {
     setSelected((prev) => {
@@ -116,41 +96,13 @@ export function MemoPage() {
       )}
 
       {confirmOpen && (
-        // biome-ignore lint/a11y/noStaticElementInteractions: overlay click-to-dismiss.
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4"
-          onClick={() => setConfirmOpen(false)}
-          onKeyDown={onModalKeyDown}
-        >
-          {/* biome-ignore lint/a11y/noStaticElementInteractions: stop overlay dismiss. */}
-          <div
-            className="w-full max-w-sm rounded-lg border border-white/15 bg-neutral-900 p-6 shadow-xl"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <h3 className="mb-2 text-lg font-bold">削除の確認</h3>
-            <p className="mb-5 text-sm text-white/70">
-              選択した {selected.size} 件のメモを削除します。よろしいですか？
-            </p>
-            <div className="flex justify-end gap-3">
-              <button
-                ref={cancelRef}
-                type="button"
-                onClick={() => setConfirmOpen(false)}
-                className="rounded-md px-4 py-2 text-sm text-white/60 hover:bg-white/5"
-              >
-                Cancel
-              </button>
-              <button
-                ref={deleteRef}
-                type="button"
-                onClick={confirmDelete}
-                className="rounded-md bg-red-600 px-5 py-2 text-sm font-semibold hover:bg-red-500"
-              >
-                削除
-              </button>
-            </div>
-          </div>
-        </div>
+        <ConfirmModal
+          title="削除の確認"
+          message={`選択した ${selected.size} 件のメモを削除します。よろしいですか？`}
+          confirmLabel="削除"
+          onCancel={() => setConfirmOpen(false)}
+          onConfirm={confirmDelete}
+        />
       )}
     </div>
   );

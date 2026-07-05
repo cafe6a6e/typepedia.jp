@@ -3,6 +3,7 @@ import { Countdown } from "@/components/Countdown";
 import { PlayingView } from "@/components/PlayingView";
 import { ResultView } from "@/components/ResultView";
 import { StartScreen } from "@/components/StartScreen";
+import { useCourseGuard } from "@/hooks/useCourseGuard";
 import { usePageTitle } from "@/hooks/usePageTitle";
 import { useSettings } from "@/hooks/useSettings";
 import { useTypingGame } from "@/hooks/useTypingGame";
@@ -13,7 +14,14 @@ export function StartPage() {
   usePageTitle();
   const { settings, update } = useSettings();
   const game = useTypingGame(settings);
+  const { setActive } = useCourseGuard();
   const [categories, setCategories] = useState<string[]>([]);
+
+  // Let the nav guard know when a course is running (countdown or playing).
+  useEffect(() => {
+    setActive(game.phase === "countdown" || game.phase === "playing");
+    return () => setActive(false);
+  }, [game.phase, setActive]);
 
   useEffect(() => {
     getCategories()
@@ -67,7 +75,7 @@ export function StartPage() {
         )}
 
       {game.phase === "result" && game.result && (
-        <ResultView result={game.result} onRetry={game.start} />
+        <ResultView result={game.result} onBack={game.goIdle} />
       )}
     </div>
   );

@@ -2,11 +2,11 @@ import type { ScoreResult } from "@/types";
 
 interface Props {
   result: ScoreResult;
-  onRetry: () => void;
+  onBack: () => void;
 }
 
-/** Result screen: score breakdown and retry. */
-export function ResultView({ result, onRetry }: Props) {
+/** Result screen: score breakdown, then back to course selection. */
+export function ResultView({ result, onBack }: Props) {
   const rows: [string, string][] = [
     ["正解打鍵", `${result.correct}`],
     ["ミス", `${result.miss}`],
@@ -39,10 +39,10 @@ export function ResultView({ result, onRetry }: Props) {
       <div className="flex flex-col gap-3 items-center">
         <button
           type="button"
-          onClick={onRetry}
+          onClick={onBack}
           className="text-white/50 hover:text-white text-sm"
         >
-          もう一度（Space）
+          コース選択に戻る（Space）
         </button>
       </div>
     </div>

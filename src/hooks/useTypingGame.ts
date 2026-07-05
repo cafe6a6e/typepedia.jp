@@ -157,9 +157,15 @@ export function useTypingGame(settings: Settings) {
     const onKeyDown = (e: KeyboardEvent) => {
       if (keysSuspendedRef.current) return;
       const p = phaseRef.current;
-      if (e.key === " " && (p === "idle" || p === "result")) {
+      if (e.key === " " && p === "idle") {
         e.preventDefault();
         start();
+        return;
+      }
+      // After a course ends, Space returns to the course-select screen.
+      if (e.key === " " && p === "result") {
+        e.preventDefault();
+        goIdle();
         return;
       }
       // Esc bails out of a run back to the start / course-select screen.
@@ -200,6 +206,7 @@ export function useTypingGame(settings: Settings) {
     currentSentence: sentences[sentenceIndex],
     currentMatcher: matchers[sentenceIndex],
     start,
+    goIdle,
     suspendKeys,
   };
 }

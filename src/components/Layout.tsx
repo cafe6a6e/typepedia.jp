@@ -1,4 +1,7 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { useState } from "react";
+import { NavLink, Outlet, useLocation, useNavigate } from "react-router-dom";
+import { ConfirmModal } from "@/components/ConfirmModal";
+import { useCourseGuard } from "@/hooks/useCourseGuard";
 
 const tabs = [
   { to: "/start", label: "Start" },
@@ -7,6 +10,12 @@ const tabs = [
 ];
 
 export function Layout() {
+  const { active, setActive } = useCourseGuard();
+  const location = useLocation();
+  const navigate = useNavigate();
+  // Target path pending confirmation when navigating away mid-course.
+  const [pending, setPending] = useState<string | null>(null);
+
   return (
     <div className="flex min-h-screen">
       <nav className="w-56 shrink-0 border-r border-white/10 p-4 flex flex-col gap-2">
@@ -20,6 +29,13 @@ export function Layout() {
           <NavLink
             key={tab.to}
             to={tab.to}
+            onClick={(e) => {
+              // While a course is running, confirm before leaving the screen.
+              if (active && tab.to !== location.pathname) {
+                e.preventDefault();
+                setPending(tab.to);
+              }
+            }}
             className={({ isActive }) =>
               `px-3 py-2 rounded-md transition-colors ${
                 isActive
@@ -35,6 +51,21 @@ export function Layout() {
       <main className="flex-1 min-w-0">
         <Outlet />
       </main>
+
+      {pending && (
+        <ConfirmModal
+          title="コースを終了しますか？"
+          message="プレイ中です。移動するとこのコースは終了します。"
+          confirmLabel="終了"
+          onCancel={() => setPending(null)}
+          onConfirm={() => {
+            const to = pending;
+            setPending(null);
+            setActive(false);
+            navigate(to);
+          }}
+        />
+      )}
     </div>
   );
 }
