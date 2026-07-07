@@ -56,7 +56,11 @@ export function SentenceView({ sentence, matcher, engine }: Props) {
 
   return (
     <div className="flex flex-col items-center gap-6 w-full max-w-3xl">
-      <p className="text-4xl font-bold text-center leading-relaxed">
+      <p
+        className={`text-4xl font-bold text-center leading-relaxed ${
+          sentence.lang === "ja" ? "biz-udmincho-regular" : ""
+        }`}
+      >
         {sentence.disp}
       </p>
 

@@ -32,6 +32,13 @@ export function AboutPage() {
           </p>
         </div>
       </section>
+
+      <section className="mt-10">
+        <h3 className="text-lg font-semibold mb-3">フォント</h3>
+        <p className="text-sm leading-relaxed text-white/70">
+          「BIZ UDMincho」© Morisawa Inc.（SIL Open Font License 1.1）
+        </p>
+      </section>
     </div>
   );
 }
