@@ -194,6 +194,14 @@ console.log(`🗂️  Wrote sentences/manifest.json (${refs.length} files)`);
 // 3. Disable Jekyll processing so files/folders are served verbatim.
 await writeFile(path.join(outdir, ".nojekyll"), "");
 
+// 4. Forbid machine access to the sentence JSON (crawlers, scrapers).
+//    Copyright: all sentence text belongs to cafe6a6e; reproduction is prohibited.
+await writeFile(
+  path.join(outdir, "robots.txt"),
+  ["User-agent: *", "Disallow: /sentences/", ""].join("\n"),
+);
+console.log("🤖 Wrote robots.txt (disallow /sentences/)");
+
 const buildTime = (end - start).toFixed(2);
 
 console.log(`\n✅ Build completed in ${buildTime}ms → ${outdir}\n`);

@@ -7,6 +7,7 @@ const tabs = [
   { to: "/start", label: "Start" },
   { to: "/settings", label: "Settings" },
   { to: "/memo", label: "Memo" },
+  { to: "/about", label: "About" },
 ];
 
 export function Layout() {

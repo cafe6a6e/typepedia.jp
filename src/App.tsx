@@ -1,6 +1,7 @@
 import { HashRouter, Navigate, Route, Routes } from "react-router-dom";
 import { Layout } from "@/components/Layout";
 import { CourseGuardProvider } from "@/hooks/useCourseGuard";
+import { AboutPage } from "@/pages/AboutPage";
 import { MemoPage } from "@/pages/MemoPage";
 import { SettingsPage } from "@/pages/SettingsPage";
 import { StartPage } from "@/pages/StartPage";
@@ -16,6 +17,7 @@ export function App() {
             <Route path="/start" element={<StartPage />} />
             <Route path="/settings" element={<SettingsPage />} />
             <Route path="/memo" element={<MemoPage />} />
+            <Route path="/about" element={<AboutPage />} />
             <Route path="*" element={<Navigate to="/start" replace />} />
           </Route>
         </Routes>
