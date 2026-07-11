@@ -1,7 +1,7 @@
 import { createContext, type ReactNode, useContext, useState } from "react";
 
 interface CourseGuard {
-  /** True while a course is in progress (countdown or playing). */
+  /** True while a course is in progress (playing). */
   active: boolean;
   setActive: (v: boolean) => void;
 }

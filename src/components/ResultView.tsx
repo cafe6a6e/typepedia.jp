@@ -7,14 +7,19 @@ interface Props {
 
 /** Result screen: score breakdown, then back to course selection. */
 export function ResultView({ result, onBack }: Props) {
-  const rows: [string, string][] = [
+  // 1段目：正確性の指標（最優先）
+  const accuracyRows: [string, string][] = [
+    ["正確率", `${(result.accuracy * 100).toFixed(1)} %`],
     ["正解打鍵", `${result.correct}`],
     ["ミス", `${result.miss}`],
     ["総打鍵", `${result.total}`],
+  ];
+
+  // 2段目：速度・時間の指標（重要度低）
+  const speedRows: [string, string][] = [
     ["時間", `${(result.elapsedMs / 1000).toFixed(1)} 秒`],
     ["CPM (1分あたり)", `${result.cpm}`],
     ["WPM", `${result.wpm}`],
-    ["正確率", `${(result.accuracy * 100).toFixed(1)} %`],
   ];
 
   return (
@@ -25,12 +30,29 @@ export function ResultView({ result, onBack }: Props) {
       </div>
       <p className="text-xs text-white/40 mb-6">score = round(CPM × 正確率)</p>
 
-      <table className="w-full text-sm mb-6">
+      {/* 1段目：正確性 */}
+      <table className="w-full text-base mb-6">
         <tbody>
-          {rows.map(([label, value]) => (
+          {accuracyRows.map(([label, value]) => (
             <tr key={label} className="border-b border-white/10">
-              <td className="py-2 text-left text-white/60">{label}</td>
-              <td className="py-2 text-right font-mono">{value}</td>
+              <td className="py-2.5 text-left text-white/80">{label}</td>
+              <td className="py-2.5 text-right font-mono font-semibold">
+                {value}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+
+      {/* 2段目：速度・時間（重要度低） */}
+      <table className="w-full text-xs mb-6">
+        <tbody>
+          {speedRows.map(([label, value]) => (
+            <tr key={label} className="border-b border-white/5">
+              <td className="py-1.5 text-left text-white/40">{label}</td>
+              <td className="py-1.5 text-right font-mono text-white/50">
+                {value}
+              </td>
             </tr>
           ))}
         </tbody>

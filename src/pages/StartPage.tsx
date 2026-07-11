@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Countdown } from "@/components/Countdown";
 import { PlayingView } from "@/components/PlayingView";
 import { ResultView } from "@/components/ResultView";
 import { StartScreen } from "@/components/StartScreen";
@@ -17,9 +16,9 @@ export function StartPage() {
   const { setActive } = useCourseGuard();
   const [categories, setCategories] = useState<string[]>([]);
 
-  // Let the nav guard know when a course is running (countdown or playing).
+  // Let the nav guard know when a course is running.
   useEffect(() => {
-    setActive(game.phase === "countdown" || game.phase === "playing");
+    setActive(game.phase === "playing");
     return () => setActive(false);
   }, [game.phase, setActive]);
 
@@ -54,8 +53,6 @@ export function StartPage() {
           onSelect={(c) => update({ category: c })}
         />
       )}
-
-      {game.phase === "countdown" && <Countdown value={game.countdown} />}
 
       {game.phase === "playing" &&
         game.currentSentence &&

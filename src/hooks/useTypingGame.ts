@@ -1,6 +1,6 @@
 /**
- * Game-loop state machine: idle → countdown → playing → result.
- * Esc during countdown/playing returns to idle (the start / course-select screen).
+ * Game-loop state machine: idle → playing → result.
+ * Esc during playing returns to idle (the start / course-select screen).
  *
  * Gameplay-critical values live in refs so the single global keydown listener
  * always reads fresh data without re-attaching; state mirrors are kept in sync
@@ -18,13 +18,12 @@ import type {
   Settings,
 } from "@/types";
 
-export type Phase = "idle" | "loading" | "countdown" | "playing" | "result";
+export type Phase = "idle" | "loading" | "playing" | "result";
 
 const INITIAL_ENGINE: EngineState = { slotIndex: 0, buffer: "" };
 
 export function useTypingGame(settings: Settings) {
   const [phase, setPhase] = useState<Phase>("idle");
-  const [countdown, setCountdown] = useState(3);
   const [sentences, setSentences] = useState<Sentence[]>([]);
   const [matchers, setMatchers] = useState<Matcher[]>([]);
   const [sentenceIndex, setSentenceIndex] = useState(0);
@@ -111,12 +110,7 @@ export function useTypingGame(settings: Settings) {
     setMatchers(compiled);
     matchersRef.current = compiled;
 
-    // 3-2-1 countdown, then play.
-    setPhase("countdown");
-    setCountdown(3);
-    timersRef.current.push(setTimeout(() => setCountdown(2), 1000));
-    timersRef.current.push(setTimeout(() => setCountdown(1), 2000));
-    timersRef.current.push(setTimeout(() => beginPlay(), 3000));
+    beginPlay();
   }, [beginPlay, clearTimers]);
 
   const handlePlayKey = useCallback(
@@ -169,7 +163,7 @@ export function useTypingGame(settings: Settings) {
         return;
       }
       // Esc bails out of a run back to the start / course-select screen.
-      if (e.key === "Escape" && (p === "playing" || p === "countdown")) {
+      if (e.key === "Escape" && p === "playing") {
         e.preventDefault();
         goIdle();
         return;
@@ -194,7 +188,6 @@ export function useTypingGame(settings: Settings) {
 
   return {
     phase,
-    countdown,
     sentences,
     matchers,
     sentenceIndex,
