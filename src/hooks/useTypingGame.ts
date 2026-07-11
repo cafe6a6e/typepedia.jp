@@ -10,9 +10,11 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { compileMatcher, feedKey } from "@/lib/romajiEngine";
 import { computeScore } from "@/lib/scoring";
 import { loadGameSentences } from "@/lib/sentences";
+import { recordReview } from "@/lib/study";
 import type {
   EngineState,
   Matcher,
+  ReviewInfo,
   ScoreResult,
   Sentence,
   Settings,
@@ -25,6 +27,7 @@ const INITIAL_ENGINE: EngineState = { slotIndex: 0, buffer: "" };
 export function useTypingGame(settings: Settings) {
   const [phase, setPhase] = useState<Phase>("idle");
   const [sentences, setSentences] = useState<Sentence[]>([]);
+  const [reviews, setReviews] = useState<(ReviewInfo | null)[]>([]);
   const [matchers, setMatchers] = useState<Matcher[]>([]);
   const [sentenceIndex, setSentenceIndex] = useState(0);
   const [engine, setEngine] = useState<EngineState>(INITIAL_ENGINE);
@@ -37,6 +40,9 @@ export function useTypingGame(settings: Settings) {
   const phaseRef = useRef(phase);
   const settingsRef = useRef(settings);
   const matchersRef = useRef<Matcher[]>([]);
+  // Mirror of sentences/reviews so the key listener can record a completed review.
+  const sentencesRef = useRef<Sentence[]>([]);
+  const reviewsRef = useRef<(ReviewInfo | null)[]>([]);
   const sentenceIndexRef = useRef(0);
   const engineRef = useRef<EngineState>(INITIAL_ENGINE);
   const correctRef = useRef(0);
@@ -88,11 +94,15 @@ export function useTypingGame(settings: Settings) {
     setResult(null);
     setPhase("loading");
     let loaded: Sentence[];
+    let loadedReviews: (ReviewInfo | null)[];
     try {
-      loaded = await loadGameSentences(
+      const load = await loadGameSentences(
         settingsRef.current.category,
         settingsRef.current.questionCount,
+        settingsRef.current.study,
       );
+      loaded = load.sentences;
+      loadedReviews = load.reviews;
     } catch (e) {
       setError(e instanceof Error ? e.message : "Failed to load sentences");
       setPhase("idle");
@@ -107,8 +117,11 @@ export function useTypingGame(settings: Settings) {
       compileMatcher(s.q, settingsRef.current, s.lang),
     );
     setSentences(loaded);
+    setReviews(loadedReviews);
     setMatchers(compiled);
     matchersRef.current = compiled;
+    sentencesRef.current = loaded;
+    reviewsRef.current = loadedReviews;
 
     beginPlay();
   }, [beginPlay, clearTimers]);
@@ -132,6 +145,11 @@ export function useTypingGame(settings: Settings) {
       setStats({ correct: correctRef.current, miss: missRef.current });
 
       if (res === "complete-all") {
+        // If the just-finished question was a review, book it as reviewed.
+        if (reviewsRef.current[sentenceIndexRef.current]) {
+          const done = sentencesRef.current[sentenceIndexRef.current];
+          if (done) recordReview(settingsRef.current.category, done.q);
+        }
         const next = sentenceIndexRef.current + 1;
         if (next >= matchersRef.current.length) {
           finish();
@@ -198,6 +216,7 @@ export function useTypingGame(settings: Settings) {
     error,
     currentSentence: sentences[sentenceIndex],
     currentMatcher: matchers[sentenceIndex],
+    currentReview: reviews[sentenceIndex] ?? null,
     start,
     goIdle,
     suspendKeys,

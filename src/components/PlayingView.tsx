@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import { MemoModal } from "@/components/MemoModal";
 import { SentenceView } from "@/components/SentenceView";
-import { addMemo } from "@/lib/memo";
-import type { EngineState, Matcher, Sentence } from "@/types";
+import { addMemo, formatTimestamp } from "@/lib/memo";
+import { isLearning, setLearning } from "@/lib/study";
+import type { EngineState, Matcher, ReviewInfo, Sentence } from "@/types";
 
 interface Props {
   index: number;
@@ -14,8 +15,12 @@ interface Props {
   sentence: Sentence;
   matcher: Matcher;
   engine: EngineState;
-  /** Material / category label (題材) recorded with memos. */
+  /** Material / category label (題材) shown to the user. */
   category: string;
+  /** Category folder id — identity key for memos and study status. */
+  categoryId: string;
+  /** Set when this question is a review; drives the reference banner. */
+  review: ReviewInfo | null;
   /** Pause/resume the game key listener while the memo modal is open. */
   suspendKeys: (v: boolean) => void;
 }
@@ -31,6 +36,8 @@ export function PlayingView({
   matcher,
   engine,
   category,
+  categoryId,
+  review,
   suspendKeys,
 }: Props) {
   const [memoOpen, setMemoOpen] = useState(false);
@@ -82,6 +89,15 @@ export function PlayingView({
           <span>正解 {correct}</span>
           <span className="text-red-400">ミス {miss}</span>
         </div>
+        {review && (
+          <p className="rounded-full bg-amber-500/15 px-3 py-1 text-xs text-amber-300">
+            復習 {review.attempt} 回目（最終出題{" "}
+            {review.lastReviewedTs > 0
+              ? formatTimestamp(review.lastReviewedTs)
+              : "初回"}
+            ）
+          </p>
+        )}
         <SentenceView sentence={sentence} matcher={matcher} engine={engine} />
         <p className="text-xs text-white/30">
           Shift+Enter でメモ / Esc でコース選択に戻る
@@ -93,9 +109,12 @@ export function PlayingView({
           category={category}
           disp={sentence.disp}
           q={sentence.q}
+          initialLearning={isLearning(categoryId, sentence.q)}
           onCancel={closeMemo}
-          onSave={(note) => {
-            addMemo({ category, disp: sentence.disp, q: sentence.q, note });
+          onSave={(note, learning) => {
+            if (note.trim())
+              addMemo({ category, disp: sentence.disp, q: sentence.q, note });
+            setLearning(categoryId, sentence, learning);
             closeMemo();
           }}
         />

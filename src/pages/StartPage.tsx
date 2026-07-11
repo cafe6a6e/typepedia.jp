@@ -67,6 +67,8 @@ export function StartPage() {
             matcher={game.currentMatcher}
             engine={game.engine}
             category={categoryLabel(settings.category)}
+            categoryId={settings.category}
+            review={game.currentReview}
             suspendKeys={game.suspendKeys}
           />
         )}

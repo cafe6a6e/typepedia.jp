@@ -1,15 +1,22 @@
 /** Load/save user settings in localStorage with safe defaults. */
 import { DEFAULT_CATEGORY } from "@/lib/categories";
 import { C_INPUTS, DEFAULT_C_MAPPING } from "@/lib/romajiTable";
-import type { Settings } from "@/types";
+import type { Settings, StudySettings } from "@/types";
 
 const STORAGE_KEY = "typing-game:settings";
+
+export const DEFAULT_STUDY_SETTINGS: StudySettings = {
+  reviewFrequencyHours: 8,
+  reviewCount: 3,
+  reviewRatio: 0.5,
+};
 
 export const DEFAULT_SETTINGS: Settings = {
   username: "",
   questionCount: 10,
   category: DEFAULT_CATEGORY,
   cMapping: { ...DEFAULT_C_MAPPING },
+  study: { ...DEFAULT_STUDY_SETTINGS },
 };
 
 /** Keep only known inputs and valid sides, filling gaps from the defaults. */
@@ -24,6 +31,29 @@ function normalizeCMapping(raw: unknown): Record<string, "k" | "s"> {
         : DEFAULT_C_MAPPING[input];
   }
   return result;
+}
+
+/** Clamp/validate the study settings, filling gaps from the defaults. */
+function normalizeStudy(raw: unknown): StudySettings {
+  const s =
+    raw && typeof raw === "object" ? (raw as Record<string, unknown>) : {};
+  const freq = Number(s.reviewFrequencyHours);
+  const count = Number(s.reviewCount);
+  const ratio = Number(s.reviewRatio);
+  return {
+    reviewFrequencyHours:
+      Number.isFinite(freq) && freq > 0
+        ? freq
+        : DEFAULT_STUDY_SETTINGS.reviewFrequencyHours,
+    reviewCount:
+      Number.isFinite(count) && count >= 1
+        ? Math.floor(count)
+        : DEFAULT_STUDY_SETTINGS.reviewCount,
+    reviewRatio:
+      Number.isFinite(ratio) && ratio >= 0 && ratio <= 1
+        ? ratio
+        : DEFAULT_STUDY_SETTINGS.reviewRatio,
+  };
 }
 
 export function loadSettings(): Settings {
@@ -47,6 +77,7 @@ export function loadSettings(): Settings {
           ? parsed.category
           : DEFAULT_SETTINGS.category,
       cMapping: normalizeCMapping(parsed.cMapping),
+      study: normalizeStudy(parsed.study),
     };
   } catch {
     return { ...DEFAULT_SETTINGS };

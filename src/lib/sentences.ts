@@ -1,5 +1,13 @@
 /** Fetch and prepare sentences for a game. */
-import type { Lang, RawSentence, Sentence, SentenceFileRef } from "@/types";
+import { getDueReviews, reviewInfoOf } from "@/lib/study";
+import type {
+  Lang,
+  RawSentence,
+  ReviewInfo,
+  Sentence,
+  SentenceFileRef,
+  StudySettings,
+} from "@/types";
 
 /** Heuristic: treat an entry as English when disp equals q and it is ASCII. */
 function inferLang(raw: RawSentence): Lang {
@@ -58,19 +66,51 @@ export function pickN<T>(items: T[], n: number): T[] {
   return copy.slice(0, Math.min(n, copy.length));
 }
 
+/** A game's sentences plus, for each slot, its review info (null when fresh). */
+export interface GameLoad {
+  sentences: Sentence[];
+  reviews: (ReviewInfo | null)[];
+}
+
 /**
- * Load one game's worth of sentences from a category: pick a random file in that
- * category, then sample N from it.
+ * Load one game's worth of sentences from a category. A fraction of the slots
+ * (復習割合) is filled with due review items for that category; the rest are
+ * sampled fresh from a random file in the category. The combined set is
+ * shuffled so reviews and fresh questions interleave.
  */
 export async function loadGameSentences(
   category: string,
   n: number,
-): Promise<Sentence[]> {
+  study: StudySettings,
+): Promise<GameLoad> {
   const files = (await getSentenceFiles()).filter(
     (f) => f.category === category,
   );
   if (files.length === 0)
     throw new Error(`No sentence files for category: ${category}`);
   const file = await fetchSentenceFile(pick(files));
-  return pickN(file, n);
+
+  // Reserve up to 復習割合 of the slots for due reviews.
+  const reviewSlots = Math.min(Math.round(n * study.reviewRatio), n);
+  const due = getDueReviews(category, study);
+  const pickedReviews = pickN(due, reviewSlots);
+  const reviewQs = new Set(pickedReviews.map((it) => it.q));
+
+  // Fill the rest with fresh questions not already chosen as reviews.
+  const freshPool = file.filter((s) => !reviewQs.has(s.q));
+  const pickedFresh = pickN(freshPool, n - pickedReviews.length);
+
+  const combined: { sentence: Sentence; review: ReviewInfo | null }[] = [
+    ...pickedReviews.map((it) => ({
+      sentence: { disp: it.disp, q: it.q, lang: it.lang },
+      review: reviewInfoOf(it),
+    })),
+    ...pickedFresh.map((s) => ({ sentence: s, review: null })),
+  ];
+  const shuffled = pickN(combined, combined.length);
+
+  return {
+    sentences: shuffled.map((x) => x.sentence),
+    reviews: shuffled.map((x) => x.review),
+  };
 }

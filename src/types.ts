@@ -46,6 +46,16 @@ export interface EngineState {
 /** Result of feeding one keystroke into the engine. */
 export type FeedResult = "progress" | "complete-slot" | "complete-all" | "miss";
 
+/** Spaced-review parameters for the "学習中" feature. */
+export interface StudySettings {
+  /** 復習頻度: hours that must pass before an item is due again. */
+  reviewFrequencyHours: number;
+  /** 復習回数: how many times a learning item is re-presented before graduating. */
+  reviewCount: number;
+  /** 復習割合: fraction (0–1) of a game's questions drawn from due reviews. */
+  reviewRatio: number;
+}
+
 /** User settings, persisted to localStorage. */
 export interface Settings {
   username: string;
@@ -54,6 +64,16 @@ export interface Settings {
   category: string;
   /** Ambiguous c-/cy- input -> "k" (か行) or "s" (さ行). One side always chosen. */
   cMapping: Record<string, "k" | "s">;
+  /** 学習設定: spaced-review parameters. */
+  study: StudySettings;
+}
+
+/** Reference info attached to a review question shown during play. */
+export interface ReviewInfo {
+  /** 1-based: this is the Nth review (復習n回目). */
+  attempt: number;
+  /** Epoch ms of the previous presentation; 0 when this is the first review. */
+  lastReviewedTs: number;
 }
 
 /** A computed score for one finished game. */
