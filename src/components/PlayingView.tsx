@@ -44,6 +44,20 @@ export function PlayingView({
     suspendKeys(false);
   };
 
+  // Shift+Enter opens the memo modal during play. (Esc closes it via the
+  // modal's own handler, without ending the course.)
+  useEffect(() => {
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Enter" && e.shiftKey && !memoOpen) {
+        e.preventDefault();
+        suspendKeys(true);
+        setMemoOpen(true);
+      }
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [memoOpen, suspendKeys]);
+
   // Safety: always resume keys if this screen unmounts with the modal open.
   useEffect(() => () => suspendKeys(false), [suspendKeys]);
 
@@ -69,7 +83,9 @@ export function PlayingView({
           <span className="text-red-400">ミス {miss}</span>
         </div>
         <SentenceView sentence={sentence} matcher={matcher} engine={engine} />
-        <p className="text-xs text-white/30">Esc でコース選択に戻る</p>
+        <p className="text-xs text-white/30">
+          Shift+Enter でメモ / Esc でコース選択に戻る
+        </p>
       </div>
 
       {memoOpen && (
