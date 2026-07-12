@@ -154,7 +154,12 @@ export function useTypingGame(settings: Settings) {
         // If the just-finished question was a review, book it as reviewed.
         if (reviewsRef.current[sentenceIndexRef.current]) {
           const done = sentencesRef.current[sentenceIndexRef.current];
-          if (done) recordReview(settingsRef.current.category, done.q);
+          if (done)
+            recordReview(
+              settingsRef.current.category,
+              done.q,
+              settingsRef.current.study.reviewCount,
+            );
         }
         const next = sentenceIndexRef.current + 1;
         if (next >= matchersRef.current.length) {
