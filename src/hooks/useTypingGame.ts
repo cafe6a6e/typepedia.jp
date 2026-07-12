@@ -47,7 +47,8 @@ export function useTypingGame(settings: Settings) {
   const engineRef = useRef<EngineState>(INITIAL_ENGINE);
   const correctRef = useRef(0);
   const missRef = useRef(0);
-  const startTimeRef = useRef(0);
+  // Miss tally keyed by the character being typed when each miss occurred.
+  const missByCharRef = useRef<Record<string, number>>({});
   const timersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
   // When true (e.g. the memo modal is open), the global key listener is inert.
   const keysSuspendedRef = useRef(false);
@@ -73,9 +74,9 @@ export function useTypingGame(settings: Settings) {
   const beginPlay = useCallback(() => {
     correctRef.current = 0;
     missRef.current = 0;
+    missByCharRef.current = {};
     sentenceIndexRef.current = 0;
     engineRef.current = INITIAL_ENGINE;
-    startTimeRef.current = performance.now();
     setStats({ correct: 0, miss: 0 });
     setSentenceIndex(0);
     setEngine(INITIAL_ENGINE);
@@ -83,8 +84,9 @@ export function useTypingGame(settings: Settings) {
   }, []);
 
   const finish = useCallback(() => {
-    const elapsed = performance.now() - startTimeRef.current;
-    setResult(computeScore(correctRef.current, missRef.current, elapsed));
+    setResult(
+      computeScore(correctRef.current, missRef.current, missByCharRef.current),
+    );
     setPhase("result");
   }, []);
 
@@ -134,6 +136,10 @@ export function useTypingGame(settings: Settings) {
 
       if (res === "miss") {
         missRef.current += 1;
+        // Attribute the miss to the character currently being typed.
+        const slot = matcher[engineRef.current.slotIndex];
+        const ch = slot ? slot.kana || slot.display : key;
+        missByCharRef.current[ch] = (missByCharRef.current[ch] ?? 0) + 1;
         setStats({ correct: correctRef.current, miss: missRef.current });
         setMissFlash((f) => f + 1);
         return;

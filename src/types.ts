@@ -76,14 +76,22 @@ export interface ReviewInfo {
   lastReviewedTs: number;
 }
 
-/** A computed score for one finished game. */
+/** One mistyped character and how it contributed to the total misses. */
+export interface MissCount {
+  /** The character being typed when the miss happened (kana, or ASCII char). */
+  char: string;
+  count: number;
+  /** Share of all misses attributed to this char (0–1). */
+  ratio: number;
+}
+
+/** A computed result for one finished game. */
 export interface ScoreResult {
   correct: number;
   miss: number;
   total: number;
-  elapsedMs: number;
-  cpm: number;
-  wpm: number;
+  /** correct / total (0–1). */
   accuracy: number;
-  score: number;
+  /** Most-mistyped characters, highest first (top 10). */
+  missByChar: MissCount[];
 }

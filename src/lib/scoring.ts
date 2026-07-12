@@ -1,29 +1,27 @@
-/** Score computation for a finished game. */
+/** Result computation for a finished game. */
 import type { ScoreResult } from "@/types";
 
+/** How many mistyped characters to surface in the breakdown. */
+const TOP_MISSES = 10;
+
 /**
- * CPM = correct keystrokes per minute, WPM = CPM / 5 (standard word length),
- * accuracy = correct / (correct + miss), score = round(CPM * accuracy).
+ * accuracy = correct / (correct + miss). The miss breakdown ranks the
+ * characters that were mistyped most, each with its share of total misses.
  */
 export function computeScore(
   correct: number,
   miss: number,
-  elapsedMs: number,
+  missByChar: Record<string, number>,
 ): ScoreResult {
   const total = correct + miss;
-  const minutes = elapsedMs / 60000;
-  const cpm = minutes > 0 ? correct / minutes : 0;
-  const wpm = cpm / 5;
   const accuracy = total > 0 ? correct / total : 0;
-  const score = Math.round(cpm * accuracy);
-  return {
-    correct,
-    miss,
-    total,
-    elapsedMs,
-    cpm: Math.round(cpm),
-    wpm: Math.round(wpm),
-    accuracy,
-    score,
-  };
+  const breakdown = Object.entries(missByChar)
+    .map(([char, count]) => ({
+      char,
+      count,
+      ratio: miss > 0 ? count / miss : 0,
+    }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, TOP_MISSES);
+  return { correct, miss, total, accuracy, missByChar: breakdown };
 }

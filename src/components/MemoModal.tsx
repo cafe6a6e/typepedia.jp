@@ -48,13 +48,13 @@ export function MemoModal({
           role="switch"
           aria-checked={learning}
           onClick={() => setLearning((v) => !v)}
-          className={`relative h-7 w-12 shrink-0 rounded-full transition-colors ${
+          className={`flex h-7 w-12 shrink-0 items-center rounded-full px-1 transition-colors ${
             learning ? "bg-green-500" : "bg-white/20"
           }`}
         >
           <span
-            className={`absolute top-1 h-5 w-5 rounded-full bg-white transition-transform ${
-              learning ? "translate-x-6" : "translate-x-1"
+            className={`h-5 w-5 rounded-full bg-white transition-transform ${
+              learning ? "translate-x-5" : "translate-x-0"
             }`}
           />
         </button>

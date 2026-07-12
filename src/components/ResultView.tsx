@@ -5,58 +5,74 @@ interface Props {
   onBack: () => void;
 }
 
-/** Result screen: score breakdown, then back to course selection. */
-export function ResultView({ result, onBack }: Props) {
-  // 1段目：正確性の指標（最優先）
-  const accuracyRows: [string, string][] = [
-    ["正確率", `${(result.accuracy * 100).toFixed(1)} %`],
-    ["正解打鍵", `${result.correct}`],
-    ["ミス", `${result.miss}`],
-    ["総打鍵", `${result.total}`],
-  ];
+/** Make an otherwise-invisible space visible in the breakdown. */
+function visChar(ch: string): string {
+  return ch === " " ? "␣" : ch;
+}
 
-  // 2段目：速度・時間の指標（重要度低）
-  const speedRows: [string, string][] = [
-    ["時間", `${(result.elapsedMs / 1000).toFixed(1)} 秒`],
-    ["CPM (1分あたり)", `${result.cpm}`],
-    ["WPM", `${result.wpm}`],
-  ];
+/** Result screen: accuracy summary and miss breakdown, then back to selection. */
+export function ResultView({ result, onBack }: Props) {
+  const { correct, miss, total, accuracy } = result;
+  const accuracyPct = (accuracy * 100).toFixed(1);
+  const missPct = (total > 0 ? (miss / total) * 100 : 0).toFixed(1);
 
   return (
     <div className="text-center w-full max-w-md">
-      <h2 className="text-2xl font-bold mb-2">結果</h2>
-      <div className="text-6xl font-bold text-green-400 mb-1">
-        {result.score}
-      </div>
-      <p className="text-xs text-white/40 mb-6">score = round(CPM × 正確率)</p>
+      <h2 className="text-2xl font-bold mb-6">結果</h2>
 
-      {/* 1段目：正確性 */}
-      <table className="w-full text-base mb-6">
-        <tbody>
-          {accuracyRows.map(([label, value]) => (
-            <tr key={label} className="border-b border-white/10">
-              <td className="py-2.5 text-left text-white/80">{label}</td>
-              <td className="py-2.5 text-right font-mono font-semibold">
-                {value}
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <section className="mb-8 text-left">
+        <h3 className="mb-2 text-sm font-semibold text-white/60">サマリ</h3>
+        <div className="flex flex-col gap-2 rounded-md bg-white/5 px-4 py-3 text-sm">
+          <p>
+            正解率 = <span className="font-bold">{accuracyPct}%</span>{" "}
+            <span className="text-white/50">
+              （正解数 <span className="font-mono text-green-400">{correct}</span>{" "}
+              / 総打鍵数 <span className="font-mono text-white">{total}</span>）
+            </span>
+          </p>
+          <p>
+            ミス率 = <span className="font-bold">{missPct}%</span>{" "}
+            <span className="text-white/50">
+              （ミス数 <span className="font-mono text-red-400">{miss}</span> /
+              総打鍵数 <span className="font-mono text-white">{total}</span>）
+            </span>
+          </p>
+        </div>
+      </section>
 
-      {/* 2段目：速度・時間（重要度低） */}
-      <table className="w-full text-xs mb-6">
-        <tbody>
-          {speedRows.map(([label, value]) => (
-            <tr key={label} className="border-b border-white/5">
-              <td className="py-1.5 text-left text-white/40">{label}</td>
-              <td className="py-1.5 text-right font-mono text-white/50">
-                {value}
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <section className="mb-8 text-left">
+        <h3 className="mb-2 text-sm font-semibold text-white/60">
+          ミス内訳（上位10文字）
+        </h3>
+        {result.missByChar.length === 0 ? (
+          <p className="rounded-md bg-white/5 px-4 py-3 text-sm text-white/50">
+            ミスはありませんでした 🎉
+          </p>
+        ) : (
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="text-xs text-white/40">
+                <th className="py-1 text-left font-normal">文字</th>
+                <th className="py-1 text-right font-normal">ミス数</th>
+                <th className="py-1 text-right font-normal">ミス率</th>
+              </tr>
+            </thead>
+            <tbody>
+              {result.missByChar.map((m) => (
+                <tr key={m.char} className="border-b border-white/10">
+                  <td className="py-2 text-left font-mono text-lg text-red-300">
+                    {visChar(m.char)}
+                  </td>
+                  <td className="py-2 text-right font-mono">{m.count}</td>
+                  <td className="py-2 text-right font-mono text-white/60">
+                    {(m.ratio * 100).toFixed(1)}%
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        )}
+      </section>
 
       <div className="flex flex-col gap-3 items-center">
         <button
