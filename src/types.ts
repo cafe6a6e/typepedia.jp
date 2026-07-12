@@ -76,6 +76,13 @@ export interface ReviewInfo {
   lastReviewedTs: number;
 }
 
+/** A key that was actually pressed by mistake, with how often. */
+export interface WrongKey {
+  /** The key the user actually pressed (a single character). */
+  key: string;
+  count: number;
+}
+
 /** One mistyped character and how it contributed to the total misses. */
 export interface MissCount {
   /** The character being typed when the miss happened (kana, or ASCII char). */
@@ -83,6 +90,8 @@ export interface MissCount {
   count: number;
   /** Share of all misses attributed to this char (0–1). */
   ratio: number;
+  /** Which keys were wrongly pressed for this char, most-frequent first (top 5). */
+  wrongKeys: WrongKey[];
 }
 
 /** A computed result for one finished game. */
@@ -94,4 +103,6 @@ export interface ScoreResult {
   accuracy: number;
   /** Most-mistyped characters, highest first (top 10). */
   missByChar: MissCount[];
+  /** Keys mis-pressed the fewest times overall, least-first (top 10). */
+  leastMissedKeys: WrongKey[];
 }

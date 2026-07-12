@@ -6,38 +6,59 @@ test("accuracy is correct/total and zero when nothing was typed", () => {
   expect(empty.total).toBe(0);
   expect(empty.accuracy).toBe(0);
   expect(empty.missByChar).toEqual([]);
+  expect(empty.leastMissedKeys).toEqual([]);
 
-  const r = computeScore(9, 1, { z: 1 });
+  const r = computeScore(9, 1, { z: { x: 1 } });
   expect(r.total).toBe(10);
   expect(r.accuracy).toBeCloseTo(0.9, 5);
 });
 
-test("no misses yields an empty breakdown", () => {
-  const r = computeScore(42, 0, {});
-  expect(r.miss).toBe(0);
-  expect(r.missByChar).toEqual([]);
+test("per-char count sums its wrong keys; ratio = count/miss", () => {
+  const r = computeScore(0, 10, { あ: { x: 3, y: 2 }, か: { z: 5 } });
+  const a = r.missByChar.find((m) => m.char === "あ");
+  expect(a?.count).toBe(5);
+  expect(a?.ratio).toBeCloseTo(0.5, 5);
 });
 
-test("breakdown is sorted by count desc with ratio = count/miss", () => {
-  const r = computeScore(0, 10, { a: 5, b: 3, c: 2 });
-  expect(r.missByChar.map((m) => m.char)).toEqual(["a", "b", "c"]);
-  expect(r.missByChar[0]).toEqual({ char: "a", count: 5, ratio: 0.5 });
-  expect(r.missByChar[1].ratio).toBeCloseTo(0.3, 5);
-  // Ratios sum to 1 when every miss is attributed.
-  const sum = r.missByChar.reduce((s, m) => s + m.ratio, 0);
-  expect(sum).toBeCloseTo(1, 5);
-});
-
-test("breakdown is truncated to the top 10 characters", () => {
-  const missByChar: Record<string, number> = {};
-  // 12 distinct chars with descending counts 12..1.
+test("breakdown is sorted by count desc and truncated to 10 chars", () => {
+  const detail: Record<string, Record<string, number>> = {};
   for (let i = 0; i < 12; i++) {
-    missByChar[String.fromCharCode(97 + i)] = 12 - i;
+    detail[String.fromCharCode(97 + i)] = { z: 12 - i };
   }
-  const totalMiss = Object.values(missByChar).reduce((a, b) => a + b, 0);
-  const r = computeScore(0, totalMiss, missByChar);
+  const miss = Object.values(detail).reduce(
+    (s, k) => s + Object.values(k)[0],
+    0,
+  );
+  const r = computeScore(0, miss, detail);
   expect(r.missByChar).toHaveLength(10);
-  expect(r.missByChar[0].char).toBe("a");
-  // The two smallest (k=2, l=1) are dropped.
-  expect(r.missByChar.map((m) => m.char)).not.toContain("l");
+  expect(r.missByChar[0].char).toBe("a"); // count 12
+  expect(r.missByChar.map((m) => m.char)).not.toContain("l"); // count 1 dropped
+});
+
+test("wrong keys per char are most-frequent first and capped at 5", () => {
+  const keys: Record<string, number> = {};
+  for (let i = 0; i < 7; i++) keys[String.fromCharCode(97 + i)] = i + 1; // a..g = 1..7
+  const r = computeScore(0, 28, { あ: keys });
+  const wk = r.missByChar[0].wrongKeys;
+  expect(wk).toHaveLength(5);
+  expect(wk[0]).toEqual({ key: "g", count: 7 });
+  expect(wk.map((w) => w.key)).not.toContain("a"); // smallest dropped
+});
+
+test("least-missed keys aggregate across chars, least-first, capped at 10", () => {
+  const r = computeScore(0, 10, { あ: { x: 3, y: 2 }, か: { z: 5, x: 1 } });
+  // Totals: x=4, y=2, z=5 -> ascending y, x, z.
+  expect(r.leastMissedKeys).toEqual([
+    { key: "y", count: 2 },
+    { key: "x", count: 4 },
+    { key: "z", count: 5 },
+  ]);
+});
+
+test("least-missed keys are truncated to 10", () => {
+  const keys: Record<string, number> = {};
+  for (let i = 0; i < 12; i++) keys[String.fromCharCode(97 + i)] = i + 1;
+  const r = computeScore(0, 78, { あ: keys });
+  expect(r.leastMissedKeys).toHaveLength(10);
+  expect(r.leastMissedKeys[0]).toEqual({ key: "a", count: 1 }); // least first
 });

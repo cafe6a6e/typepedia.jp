@@ -9,8 +9,20 @@ const base: ScoreResult = {
   total: 100,
   accuracy: 0.9,
   missByChar: [
-    { char: "a", count: 6, ratio: 0.6 },
-    { char: "b", count: 4, ratio: 0.4 },
+    {
+      char: "a",
+      count: 6,
+      ratio: 0.6,
+      wrongKeys: [
+        { key: "s", count: 4 },
+        { key: "q", count: 2 },
+      ],
+    },
+    { char: "b", count: 4, ratio: 0.4, wrongKeys: [{ key: "v", count: 4 }] },
+  ],
+  leastMissedKeys: [
+    { key: "q", count: 2 },
+    { key: "v", count: 4 },
   ],
 };
 
@@ -30,6 +42,17 @@ test("miss breakdown lists the mistyped characters and their share", () => {
   expect(screen.getByText("60.0%")).toBeDefined(); // a's share of misses
 });
 
+test("shows per-char wrong keys and the least-mistaken keys columns", () => {
+  render(<ResultView result={base} onBack={mock(() => {})} />);
+  // Column headers.
+  expect(screen.getByText(/誤入力キー/)).toBeDefined();
+  expect(screen.getByText(/ミスが少ないキー/)).toBeDefined();
+  // The wrong key "s" pressed for char "a", and its red count 4.
+  expect(screen.getByText("s")).toBeDefined();
+  // "q" appears both as a wrong key for "a" and in the least-missed column.
+  expect(screen.getAllByText("q").length).toBeGreaterThanOrEqual(1);
+});
+
 test("no misses shows the celebratory empty state", () => {
   const clean: ScoreResult = {
     correct: 20,
@@ -37,6 +60,7 @@ test("no misses shows the celebratory empty state", () => {
     total: 20,
     accuracy: 1,
     missByChar: [],
+    leastMissedKeys: [],
   };
   render(<ResultView result={clean} onBack={mock(() => {})} />);
   expect(screen.getByText(/ミスはありませんでした/)).toBeDefined();

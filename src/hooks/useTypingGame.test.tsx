@@ -108,6 +108,25 @@ test("a wrong key counts as a miss without advancing", async () => {
   expect(result.current.phase).toBe("playing");
 });
 
+test("the result records which wrong key was pressed for a character", async () => {
+  installFetch([{ disp: "a", q: "a" }]);
+  const { result } = renderHook(() =>
+    useTypingGame(settings({ questionCount: 1 })),
+  );
+  await press(" ");
+  await waitFor(() => expect(result.current.phase).toBe("playing"));
+
+  await press("z"); // wrong key for target "a"
+  await type("a"); // then correct -> finishes
+  expect(result.current.phase).toBe("result");
+
+  const entry = result.current.result?.missByChar.find((m) => m.char === "a");
+  expect(entry?.wrongKeys).toEqual([{ key: "z", count: 1 }]);
+  expect(result.current.result?.leastMissedKeys).toEqual([
+    { key: "z", count: 1 },
+  ]);
+});
+
 test("suspendKeys makes the global listener inert (Space ignored)", async () => {
   installFetch([{ disp: "a", q: "a" }]);
   const { result } = renderHook(() =>

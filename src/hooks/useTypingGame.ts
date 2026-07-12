@@ -47,8 +47,8 @@ export function useTypingGame(settings: Settings) {
   const engineRef = useRef<EngineState>(INITIAL_ENGINE);
   const correctRef = useRef(0);
   const missRef = useRef(0);
-  // Miss tally keyed by the character being typed when each miss occurred.
-  const missByCharRef = useRef<Record<string, number>>({});
+  // Miss tally: intended character -> wrong key actually pressed -> count.
+  const missByCharRef = useRef<Record<string, Record<string, number>>>({});
   const timersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
   // When true (e.g. the memo modal is open), the global key listener is inert.
   const keysSuspendedRef = useRef(false);
@@ -136,10 +136,11 @@ export function useTypingGame(settings: Settings) {
 
       if (res === "miss") {
         missRef.current += 1;
-        // Attribute the miss to the character currently being typed.
+        // Attribute the miss to the character being typed and the key pressed.
         const slot = matcher[engineRef.current.slotIndex];
         const ch = slot ? slot.kana || slot.display : key;
-        missByCharRef.current[ch] = (missByCharRef.current[ch] ?? 0) + 1;
+        const byKey = (missByCharRef.current[ch] ??= {});
+        byKey[key] = (byKey[key] ?? 0) + 1;
         setStats({ correct: correctRef.current, miss: missRef.current });
         setMissFlash((f) => f + 1);
         return;
