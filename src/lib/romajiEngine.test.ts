@@ -114,3 +114,43 @@ describe("c-mapping customization", () => {
     expect(playC("sho", "cyo", { cyo: "s" })).toBe(true);
   });
 });
+
+describe("boundary cases", () => {
+  test("ん before や行 (y) requires nn (ほんや)", () => {
+    // Tokenizes to ほ・ん・や; ん before y forces the double-n spelling.
+    expect(play("honnya", "honnya").completed).toBe(true);
+    expect(play("honnya", "honya").completed).toBe(false);
+  });
+
+  test("sokuon doubles a multi-char variant (っしゃ)", () => {
+    expect(play("ssha", "ssha").completed).toBe(true);
+  });
+
+  test("sokuon interacts with a c-mapping variant (っか via cca)", () => {
+    // Default mapping keeps ca -> か, so the sokuon doubles it to "cca".
+    const slots = compileMatcher("kka", DEFAULT_SETTINGS, "ja");
+    let state = { slotIndex: 0, buffer: "" };
+    let completed = false;
+    for (const ch of "cca") {
+      const r = feedKey(slots, state, ch);
+      state = r.state;
+      if (r.result === "complete-all") completed = true;
+    }
+    expect(completed).toBe(true);
+  });
+
+  test("feedKey is pure: it never mutates the input state", () => {
+    const slots = compileMatcher("ka", DEFAULT_SETTINGS, "ja");
+    const state = { slotIndex: 0, buffer: "" };
+    const r = feedKey(slots, state, "k");
+    expect(state).toEqual({ slotIndex: 0, buffer: "" }); // unchanged
+    expect(r.state).toEqual({ slotIndex: 0, buffer: "k" });
+    expect(r.result).toBe("progress");
+  });
+
+  test("feeding past the end of a sentence is a miss", () => {
+    const slots = compileMatcher("a", DEFAULT_SETTINGS, "ja");
+    const r = feedKey(slots, { slotIndex: 1, buffer: "" }, "a");
+    expect(r.result).toBe("miss");
+  });
+});

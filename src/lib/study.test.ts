@@ -8,25 +8,7 @@ import {
   setLearning,
 } from "@/lib/study";
 
-// Minimal in-memory localStorage so the study lib is exercisable under bun test.
-class MemStorage {
-  private store = new Map<string, string>();
-  getItem(k: string): string | null {
-    return this.store.has(k) ? (this.store.get(k) as string) : null;
-  }
-  setItem(k: string, v: string): void {
-    this.store.set(k, v);
-  }
-  removeItem(k: string): void {
-    this.store.delete(k);
-  }
-  clear(): void {
-    this.store.clear();
-  }
-}
-
-// biome-ignore lint/suspicious/noExplicitAny: test shim for the global.
-(globalThis as any).localStorage = new MemStorage();
+// localStorage is provided by happy-dom (see test/setup.ts).
 
 const CAT = "eiken_1st_grade";
 const S: Sentence = { disp: "apple", q: "apple", lang: "en" };
@@ -88,4 +70,54 @@ test("later reviews show the actual last-presented time", () => {
   const info = reviewInfoOf(item);
   expect(info.attempt).toBe(2);
   expect(info.lastReviewedTs).toBeGreaterThanOrEqual(t0);
+});
+
+// --- boundary conditions ---
+
+test("getDueReviews only returns items in the requested category", () => {
+  setLearning(CAT, S, true);
+  setLearning("kanken_pre1st_grade", { disp: "犬", q: "inu", lang: "ja" }, true);
+  const due = getDueReviews(CAT, NOW);
+  expect(due).toHaveLength(1);
+  expect(due[0].q).toBe(S.q);
+});
+
+test("getDueReviews is inclusive at exactly the frequency boundary", () => {
+  setLearning(CAT, S, true);
+  // registeredTs is "now"; a 0h window means now - reg (>= 0) qualifies.
+  expect(getDueReviews(CAT, { ...STUDY, reviewFrequencyHours: 0 })).toHaveLength(
+    1,
+  );
+});
+
+test("a graduated item (reviewsDone == reviewCount) is never due", () => {
+  setLearning(CAT, S, true);
+  for (let i = 0; i < STUDY.reviewCount; i++) {
+    recordReview(CAT, S.q, STUDY.reviewCount);
+  }
+  // Even with a 0h window it is excluded (learning cleared + count reached).
+  expect(getDueReviews(CAT, NOW)).toHaveLength(0);
+});
+
+test("re-enabling learning while still learning preserves progress", () => {
+  setLearning(CAT, S, true);
+  recordReview(CAT, S.q, 99); // high count so it stays learning; reviewsDone=1
+  setLearning(CAT, S, true); // re-affirm while already learning
+  const [item] = getDueReviews(CAT, NOW);
+  expect(item.reviewsDone).toBe(1); // not reset
+});
+
+test("enabling learning fresh resets progress", () => {
+  setLearning(CAT, S, true);
+  recordReview(CAT, S.q, 99); // reviewsDone=1, still learning
+  setLearning(CAT, S, false); // turn off
+  setLearning(CAT, S, true); // turn back on -> fresh cycle
+  const [item] = getDueReviews(CAT, NOW);
+  expect(item.reviewsDone).toBe(0); // reset
+});
+
+test("setLearning(false) on an untracked item is a no-op", () => {
+  setLearning(CAT, S, false);
+  expect(isLearning(CAT, S.q)).toBe(false);
+  expect(getDueReviews(CAT, NOW)).toHaveLength(0);
 });
