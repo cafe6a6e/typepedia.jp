@@ -76,6 +76,7 @@ export function ResultView({ result, onBack }: Props) {
                   <th className="py-1 pl-4 text-left font-normal">
                     ミスが少ないキー（上位10）
                   </th>
+                  <th className="py-1 text-right font-normal">ミス数</th>
                 </tr>
               </thead>
               <tbody>
@@ -95,8 +96,11 @@ export function ResultView({ result, onBack }: Props) {
                           {m.wrongKeys.map(keyChip)}
                         </span>
                       </td>
-                      <td className="py-2 pl-4 text-left">
-                        {least ? keyChip(least) : null}
+                      <td className="py-2 pl-4 text-left font-mono text-lg text-green-300">
+                        {least ? visChar(least.key) : null}
+                      </td>
+                      <td className="py-2 text-right font-mono">
+                        {least ? least.count : null}
                       </td>
                     </tr>
                   );
