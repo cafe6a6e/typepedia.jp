@@ -28,13 +28,20 @@ export function computeScore(
   const total = correct + miss;
   const accuracy = total > 0 ? correct / total : 0;
 
+  // Distinct mistakes tallied in the breakdown (first wrong key of each run).
+  const countedMiss = Object.values(missDetail).reduce(
+    (s, keys) => s + Object.values(keys).reduce((a, b) => a + b, 0),
+    0,
+  );
+
   const missByChar = Object.entries(missDetail)
     .map(([char, keys]) => {
       const count = Object.values(keys).reduce((a, b) => a + b, 0);
       const wrongKeys = toWrongKeys(keys)
         .sort((a, b) => b.count - a.count)
         .slice(0, TOP_WRONG_KEYS);
-      return { char, count, ratio: miss > 0 ? count / miss : 0, wrongKeys };
+      const ratio = countedMiss > 0 ? count / countedMiss : 0;
+      return { char, count, ratio, wrongKeys };
     })
     .sort((a, b) => b.count - a.count)
     .slice(0, TOP_MISSES);

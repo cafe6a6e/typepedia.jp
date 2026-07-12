@@ -56,7 +56,7 @@ export function ResultView({ result, onBack }: Props) {
 
       <section className="mb-8 text-left">
         <h3 className="mb-2 text-sm font-semibold text-white/60">
-          ミス内訳（上位10文字）
+          キーストローク統計（上位10文字）
         </h3>
         {result.missByChar.length === 0 ? (
           <p className="rounded-md bg-white/5 px-4 py-3 text-sm text-white/50">

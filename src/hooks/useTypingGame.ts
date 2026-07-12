@@ -48,7 +48,10 @@ export function useTypingGame(settings: Settings) {
   const correctRef = useRef(0);
   const missRef = useRef(0);
   // Miss tally: intended character -> wrong key actually pressed -> count.
+  // Only the first wrong key of each consecutive run is tallied here.
   const missByCharRef = useRef<Record<string, Record<string, number>>>({});
+  // Whether the previous keystroke was a miss (to skip repeated mistakes).
+  const lastWasMissRef = useRef(false);
   const timersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
   // When true (e.g. the memo modal is open), the global key listener is inert.
   const keysSuspendedRef = useRef(false);
@@ -75,6 +78,7 @@ export function useTypingGame(settings: Settings) {
     correctRef.current = 0;
     missRef.current = 0;
     missByCharRef.current = {};
+    lastWasMissRef.current = false;
     sentenceIndexRef.current = 0;
     engineRef.current = INITIAL_ENGINE;
     setStats({ correct: 0, miss: 0 });
@@ -136,16 +140,21 @@ export function useTypingGame(settings: Settings) {
 
       if (res === "miss") {
         missRef.current += 1;
-        // Attribute the miss to the character being typed and the key pressed.
-        const slot = matcher[engineRef.current.slotIndex];
-        const ch = slot ? slot.kana || slot.display : key;
-        const byKey = (missByCharRef.current[ch] ??= {});
-        byKey[key] = (byKey[key] ?? 0) + 1;
+        // Only the first miss of a consecutive run counts toward the keystroke
+        // statistics (e.g. "abck" for "k" tallies only the wrong "a").
+        if (!lastWasMissRef.current) {
+          const slot = matcher[engineRef.current.slotIndex];
+          const ch = slot ? slot.kana || slot.display : key;
+          const byKey = (missByCharRef.current[ch] ??= {});
+          byKey[key] = (byKey[key] ?? 0) + 1;
+        }
+        lastWasMissRef.current = true;
         setStats({ correct: correctRef.current, miss: missRef.current });
         setMissFlash((f) => f + 1);
         return;
       }
 
+      lastWasMissRef.current = false;
       correctRef.current += 1;
       engineRef.current = state;
       setEngine(state);

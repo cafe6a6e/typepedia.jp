@@ -13,11 +13,18 @@ test("accuracy is correct/total and zero when nothing was typed", () => {
   expect(r.accuracy).toBeCloseTo(0.9, 5);
 });
 
-test("per-char count sums its wrong keys; ratio = count/miss", () => {
+test("per-char count sums its wrong keys; ratio is share of counted misses", () => {
   const r = computeScore(0, 10, { あ: { x: 3, y: 2 }, か: { z: 5 } });
   const a = r.missByChar.find((m) => m.char === "あ");
   expect(a?.count).toBe(5);
-  expect(a?.ratio).toBeCloseTo(0.5, 5);
+  expect(a?.ratio).toBeCloseTo(0.5, 5); // 5 of 10 counted misses
+});
+
+test("ratio uses counted (tallied) misses, not the physical miss total", () => {
+  // Physical miss total (20) exceeds tallied misses (4) after de-duping runs.
+  const r = computeScore(0, 20, { あ: { x: 2 }, か: { y: 2 } });
+  const a = r.missByChar.find((m) => m.char === "あ");
+  expect(a?.ratio).toBeCloseTo(0.5, 5); // 2 of 4 counted, not 2/20
 });
 
 test("breakdown is sorted by count desc and truncated to 10 chars", () => {

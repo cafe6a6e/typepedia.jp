@@ -127,6 +127,46 @@ test("the result records which wrong key was pressed for a character", async () 
   ]);
 });
 
+test("only the first key of a consecutive miss run is tallied", async () => {
+  installFetch([{ disp: "a", q: "a" }]);
+  const { result } = renderHook(() =>
+    useTypingGame(settings({ questionCount: 1 })),
+  );
+  await press(" ");
+  await waitFor(() => expect(result.current.phase).toBe("playing"));
+
+  // Three consecutive wrong keys for target "a", then the correct one.
+  await type("zxq");
+  await type("a");
+  expect(result.current.phase).toBe("result");
+
+  // All three physical misses count toward the summary...
+  expect(result.current.result?.miss).toBe(3);
+  // ...but only the first wrong key ("z") is tallied in the breakdown.
+  const entry = result.current.result?.missByChar.find((m) => m.char === "a");
+  expect(entry?.wrongKeys).toEqual([{ key: "z", count: 1 }]);
+  expect(entry?.count).toBe(1);
+});
+
+test('the "example" / "dxexamplde" spec: e gets d(2)', async () => {
+  installFetch([{ disp: "example", q: "example" }]);
+  const { result } = renderHook(() =>
+    useTypingGame(settings({ questionCount: 1 })),
+  );
+  await press(" ");
+  await waitFor(() => expect(result.current.phase).toBe("playing"));
+
+  await type("dxexamplde");
+  expect(result.current.phase).toBe("result");
+
+  const e = result.current.result?.missByChar.find((m) => m.char === "e");
+  expect(e?.wrongKeys).toEqual([{ key: "d", count: 2 }]);
+  expect(e?.count).toBe(2);
+  expect(result.current.result?.leastMissedKeys).toEqual([
+    { key: "d", count: 2 },
+  ]);
+});
+
 test("suspendKeys makes the global listener inert (Space ignored)", async () => {
   installFetch([{ disp: "a", q: "a" }]);
   const { result } = renderHook(() =>
