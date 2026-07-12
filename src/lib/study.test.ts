@@ -31,14 +31,19 @@ class MemStorage {
 const CAT = "eiken_1st_grade";
 const S: Sentence = { disp: "apple", q: "apple", lang: "en" };
 const STUDY = { reviewFrequencyHours: 8, reviewCount: 3, reviewRatio: 0.5 };
-
-// A study item that is already past the review-frequency window (so it is due).
-function overdue() {
-  return getDueReviews(CAT, STUDY);
-}
+// Same settings but due immediately (used to retrieve items regardless of time).
+const NOW = { ...STUDY, reviewFrequencyHours: 0 };
 
 beforeEach(() => {
   localStorage.clear();
+});
+
+test("a new learning item is not due until 復習頻度 elapses", () => {
+  setLearning(CAT, S, true);
+  // Registered just now → not due within the 8h window...
+  expect(getDueReviews(CAT, STUDY)).toHaveLength(0);
+  // ...but a 0h window makes it due immediately.
+  expect(getDueReviews(CAT, NOW)).toHaveLength(1);
 });
 
 test("first review's 最終出題日時 falls back to the registration time", () => {
@@ -46,7 +51,7 @@ test("first review's 最終出題日時 falls back to the registration time", ()
   setLearning(CAT, S, true);
   const after = Date.now();
 
-  const [item] = overdue();
+  const [item] = getDueReviews(CAT, NOW);
   expect(item).toBeTruthy();
   const info = reviewInfoOf(item);
   expect(info.attempt).toBe(1);
