@@ -74,14 +74,14 @@ export function ResultView({ result, onBack }: Props) {
                     誤入力キー（多い順・上位5）
                   </th>
                   <th className="py-1 pl-4 text-left font-normal">
-                    ミスが少ないキー（上位10）
+                    正解率の高いキー（上位10）
                   </th>
-                  <th className="py-1 text-right font-normal">ミス数</th>
+                  <th className="py-1 text-right font-normal">正解率</th>
                 </tr>
               </thead>
               <tbody>
                 {result.missByChar.map((m, i) => {
-                  const least = result.leastMissedKeys[i];
+                  const best = result.topAccuracyKeys[i];
                   return (
                     <tr key={m.char} className="border-b border-white/10">
                       <td className="py-2 text-left font-mono text-lg text-red-300">
@@ -97,10 +97,18 @@ export function ResultView({ result, onBack }: Props) {
                         </span>
                       </td>
                       <td className="py-2 pl-4 text-left font-mono text-lg text-green-300">
-                        {least ? visChar(least.key) : null}
+                        {best ? visChar(best.key) : null}
                       </td>
                       <td className="py-2 text-right font-mono">
-                        {least ? least.count : null}
+                        {best ? (
+                          <>
+                            {(best.accuracy * 100).toFixed(1)}%
+                            <span className="text-white/40">
+                              {" "}
+                              ({best.correct}/{best.total})
+                            </span>
+                          </>
+                        ) : null}
                       </td>
                     </tr>
                   );

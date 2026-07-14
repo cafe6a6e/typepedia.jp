@@ -50,6 +50,10 @@ export function useTypingGame(settings: Settings) {
   // Miss tally: intended character -> wrong key actually pressed -> count.
   // Only the first wrong key of each consecutive run is tallied here.
   const missByCharRef = useRef<Record<string, Record<string, number>>>({});
+  // Per-key press accuracy: pressed key -> { correct, total }.
+  const keyStatsRef = useRef<Record<string, { correct: number; total: number }>>(
+    {},
+  );
   // Whether the previous keystroke was a miss (to skip repeated mistakes).
   const lastWasMissRef = useRef(false);
   const timersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
@@ -78,6 +82,7 @@ export function useTypingGame(settings: Settings) {
     correctRef.current = 0;
     missRef.current = 0;
     missByCharRef.current = {};
+    keyStatsRef.current = {};
     lastWasMissRef.current = false;
     sentenceIndexRef.current = 0;
     engineRef.current = INITIAL_ENGINE;
@@ -89,7 +94,12 @@ export function useTypingGame(settings: Settings) {
 
   const finish = useCallback(() => {
     setResult(
-      computeScore(correctRef.current, missRef.current, missByCharRef.current),
+      computeScore(
+        correctRef.current,
+        missRef.current,
+        missByCharRef.current,
+        keyStatsRef.current,
+      ),
     );
     setPhase("result");
   }, []);
@@ -137,6 +147,11 @@ export function useTypingGame(settings: Settings) {
       const matcher = matchersRef.current[sentenceIndexRef.current];
       if (!matcher) return;
       const { state, result: res } = feedKey(matcher, engineRef.current, key);
+
+      // Per-key accuracy: every physical keystroke counts toward its key.
+      const ks = (keyStatsRef.current[key] ??= { correct: 0, total: 0 });
+      ks.total += 1;
+      if (res !== "miss") ks.correct += 1;
 
       if (res === "miss") {
         missRef.current += 1;

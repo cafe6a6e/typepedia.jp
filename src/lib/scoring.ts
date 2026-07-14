@@ -5,11 +5,14 @@ import type { ScoreResult, WrongKey } from "@/types";
 const TOP_MISSES = 10;
 /** How many wrong keys to list per mistyped character. */
 const TOP_WRONG_KEYS = 5;
-/** How many least-mistaken keys to surface. */
-const LEAST_KEYS = 10;
+/** How many highest-accuracy keys to surface. */
+const TOP_ACCURACY_KEYS = 10;
 
 /** Nested miss tally: intended character -> pressed wrong key -> count. */
 export type MissDetail = Record<string, Record<string, number>>;
+
+/** Per-key press tally: key -> { correct presses, total presses }. */
+export type KeyStats = Record<string, { correct: number; total: number }>;
 
 function toWrongKeys(keys: Record<string, number>): WrongKey[] {
   return Object.entries(keys).map(([key, count]) => ({ key, count }));
@@ -17,13 +20,15 @@ function toWrongKeys(keys: Record<string, number>): WrongKey[] {
 
 /**
  * accuracy = correct / (correct + miss). The breakdown ranks the characters
- * mistyped most; for each it lists the keys pressed by mistake (most-first),
- * and separately the keys mis-pressed the fewest times overall (least-first).
+ * mistyped most; for each it lists the keys pressed by mistake (most-first).
+ * Separately it ranks keys by press accuracy (best-first) — this uses accuracy
+ * rather than raw miss counts so ties don't dominate the ordering.
  */
 export function computeScore(
   correct: number,
   miss: number,
   missDetail: MissDetail,
+  keyStats: KeyStats,
 ): ScoreResult {
   const total = correct + miss;
   const accuracy = total > 0 ? correct / total : 0;
@@ -46,16 +51,21 @@ export function computeScore(
     .sort((a, b) => b.count - a.count)
     .slice(0, TOP_MISSES);
 
-  // Aggregate wrong-key counts across every character, then take the least.
-  const keyTotals: Record<string, number> = {};
-  for (const keys of Object.values(missDetail)) {
-    for (const [key, count] of Object.entries(keys)) {
-      keyTotals[key] = (keyTotals[key] ?? 0) + count;
-    }
-  }
-  const leastMissedKeys = toWrongKeys(keyTotals)
-    .sort((a, b) => a.count - b.count)
-    .slice(0, LEAST_KEYS);
+  // Highest-accuracy keys; break ties by volume (more presses first), then key.
+  const topAccuracyKeys = Object.entries(keyStats)
+    .map(([key, s]) => ({
+      key,
+      correct: s.correct,
+      total: s.total,
+      accuracy: s.total > 0 ? s.correct / s.total : 0,
+    }))
+    .sort(
+      (a, b) =>
+        b.accuracy - a.accuracy ||
+        b.total - a.total ||
+        a.key.localeCompare(b.key),
+    )
+    .slice(0, TOP_ACCURACY_KEYS);
 
-  return { correct, miss, total, accuracy, missByChar, leastMissedKeys };
+  return { correct, miss, total, accuracy, missByChar, topAccuracyKeys };
 }

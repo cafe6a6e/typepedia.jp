@@ -122,9 +122,10 @@ test("the result records which wrong key was pressed for a character", async () 
 
   const entry = result.current.result?.missByChar.find((m) => m.char === "a");
   expect(entry?.wrongKeys).toEqual([{ key: "z", count: 1 }]);
-  expect(result.current.result?.leastMissedKeys).toEqual([
-    { key: "z", count: 1 },
-  ]);
+  // "a" was typed correctly (100%); "z" was a wrong press (0%).
+  const keys = result.current.result?.topAccuracyKeys ?? [];
+  expect(keys[0]).toEqual({ key: "a", correct: 1, total: 1, accuracy: 1 });
+  expect(keys.find((k) => k.key === "z")?.accuracy).toBe(0);
 });
 
 test("only the first key of a consecutive miss run is tallied", async () => {
@@ -162,9 +163,11 @@ test('the "example" / "dxexamplde" spec: e gets d(2)', async () => {
   const e = result.current.result?.missByChar.find((m) => m.char === "e");
   expect(e?.wrongKeys).toEqual([{ key: "d", count: 2 }]);
   expect(e?.count).toBe(2);
-  expect(result.current.result?.leastMissedKeys).toEqual([
-    { key: "d", count: 2 },
-  ]);
+  // "e" was typed correctly twice (100%); "d" was only ever a wrong press (0%).
+  const keys = result.current.result?.topAccuracyKeys ?? [];
+  expect(keys[0].key).toBe("e");
+  expect(keys[0].accuracy).toBe(1);
+  expect(keys.find((k) => k.key === "d")?.accuracy).toBe(0);
 });
 
 test("suspendKeys makes the global listener inert (Space ignored)", async () => {

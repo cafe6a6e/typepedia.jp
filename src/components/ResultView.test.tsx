@@ -20,15 +20,16 @@ const base: ScoreResult = {
     },
     { char: "b", count: 4, ratio: 0.4, wrongKeys: [{ key: "v", count: 4 }] },
   ],
-  leastMissedKeys: [
-    { key: "q", count: 2 },
-    { key: "v", count: 4 },
+  topAccuracyKeys: [
+    { key: "e", correct: 20, total: 20, accuracy: 1 },
+    { key: "t", correct: 8, total: 10, accuracy: 0.8 },
   ],
 };
 
 test("summary shows accuracy and miss rates with counts", () => {
   render(<ResultView result={base} onBack={mock(() => {})} />);
-  expect(screen.getByText(/正解率/)).toBeDefined();
+  // 正解率 also appears as a table header, so allow multiple.
+  expect(screen.getAllByText(/正解率/).length).toBeGreaterThan(0);
   // The value spans are unique (labels like ミス率 also appear as a table header).
   expect(screen.getByText("90.0%")).toBeDefined(); // accuracy
   expect(screen.getByText("10.0%")).toBeDefined(); // miss rate
@@ -42,15 +43,17 @@ test("miss breakdown lists the mistyped characters and their share", () => {
   expect(screen.getByText("60.0%")).toBeDefined(); // a's share of misses
 });
 
-test("shows per-char wrong keys and the least-mistaken keys columns", () => {
+test("shows per-char wrong keys and the top-accuracy keys columns", () => {
   render(<ResultView result={base} onBack={mock(() => {})} />);
   // Column headers.
   expect(screen.getByText(/誤入力キー/)).toBeDefined();
-  expect(screen.getByText(/ミスが少ないキー/)).toBeDefined();
-  // The wrong key "s" pressed for char "a", and its red count 4.
+  expect(screen.getByText(/正解率の高いキー/)).toBeDefined();
+  // The wrong key "s" pressed for char "a".
   expect(screen.getByText("s")).toBeDefined();
-  // "q" appears both as a wrong key for "a" and in the least-missed column.
-  expect(screen.getAllByText("q").length).toBeGreaterThanOrEqual(1);
+  // The top-accuracy key "e" and its accuracy with the correct/total detail.
+  expect(screen.getByText("e")).toBeDefined();
+  expect(screen.getByText(/100\.0%/)).toBeDefined();
+  expect(screen.getByText(/\(20\/20\)/)).toBeDefined();
 });
 
 test("no misses shows the celebratory empty state", () => {
@@ -60,7 +63,7 @@ test("no misses shows the celebratory empty state", () => {
     total: 20,
     accuracy: 1,
     missByChar: [],
-    leastMissedKeys: [],
+    topAccuracyKeys: [],
   };
   render(<ResultView result={clean} onBack={mock(() => {})} />);
   expect(screen.getByText(/ミスはありませんでした/)).toBeDefined();
