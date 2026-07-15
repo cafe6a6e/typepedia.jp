@@ -120,12 +120,10 @@ test("the result records which wrong key was pressed for a character", async () 
   await type("a"); // then correct -> finishes
   expect(result.current.phase).toBe("result");
 
-  const entry = result.current.result?.missByChar.find((m) => m.char === "a");
-  expect(entry?.wrongKeys).toEqual([{ key: "z", count: 1 }]);
-  // "a" was typed correctly (100%); "z" was a wrong press (0%).
-  const keys = result.current.result?.topAccuracyKeys ?? [];
-  expect(keys[0]).toEqual({ key: "a", correct: 1, total: 1, accuracy: 1 });
-  expect(keys.find((k) => k.key === "z")?.accuracy).toBe(0);
+  // "a" was expected: hit once, missed once (wrong key "z").
+  const low = result.current.result?.lowAccuracyKeys ?? [];
+  expect(low[0]).toMatchObject({ key: "a", correct: 1, miss: 1 });
+  expect(low[0].wrongKeys).toEqual([{ key: "z", count: 1 }]);
 });
 
 test("only the first key of a consecutive miss run is tallied", async () => {
@@ -143,10 +141,12 @@ test("only the first key of a consecutive miss run is tallied", async () => {
 
   // All three physical misses count toward the summary...
   expect(result.current.result?.miss).toBe(3);
-  // ...but only the first wrong key ("z") is tallied in the breakdown.
-  const entry = result.current.result?.missByChar.find((m) => m.char === "a");
+  // ...but only the first wrong key ("z") is tallied for key "a".
+  const entry = result.current.result?.lowAccuracyKeys.find(
+    (s) => s.key === "a",
+  );
   expect(entry?.wrongKeys).toEqual([{ key: "z", count: 1 }]);
-  expect(entry?.count).toBe(1);
+  expect(entry?.miss).toBe(1);
 });
 
 test('the "example" / "dxexamplde" spec: e gets d(2)', async () => {
@@ -160,14 +160,11 @@ test('the "example" / "dxexamplde" spec: e gets d(2)', async () => {
   await type("dxexamplde");
   expect(result.current.phase).toBe("result");
 
-  const e = result.current.result?.missByChar.find((m) => m.char === "e");
+  // Key "e" was expected twice, hit right twice, fumbled twice — each fumble
+  // pressing "d" (the "x" was a repeat within the run and is not tallied).
+  const e = result.current.result?.lowAccuracyKeys.find((s) => s.key === "e");
+  expect(e).toMatchObject({ key: "e", correct: 2, miss: 2 });
   expect(e?.wrongKeys).toEqual([{ key: "d", count: 2 }]);
-  expect(e?.count).toBe(2);
-  // "e" was typed correctly twice (100%); "d" was only ever a wrong press (0%).
-  const keys = result.current.result?.topAccuracyKeys ?? [];
-  expect(keys[0].key).toBe("e");
-  expect(keys[0].accuracy).toBe(1);
-  expect(keys.find((k) => k.key === "d")?.accuracy).toBe(0);
 });
 
 test("suspendKeys makes the global listener inert (Space ignored)", async () => {

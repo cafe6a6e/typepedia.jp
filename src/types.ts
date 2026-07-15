@@ -83,26 +83,23 @@ export interface WrongKey {
   count: number;
 }
 
-/** Per-key typing accuracy: how often pressing this key was correct. */
-export interface KeyAccuracy {
-  /** The keyboard key (a single character). */
+/**
+ * Per-key typing statistics, keyed by the expected keystroke. `correct` is how
+ * often the key was hit right; `miss` counts fumbled attempts at it (the first
+ * wrong key of each consecutive run); `wrongKeys` are what was pressed instead.
+ */
+export interface KeyStat {
+  /** The keyboard key that was expected (a single character). */
   key: string;
-  /** Times this key was pressed correctly. */
   correct: number;
-  /** Total times this key was pressed (correct + wrong). */
+  miss: number;
+  /** correct + miss. */
   total: number;
   /** correct / total (0–1). */
   accuracy: number;
-}
-
-/** One mistyped character and how it contributed to the total misses. */
-export interface MissCount {
-  /** The character being typed when the miss happened (kana, or ASCII char). */
-  char: string;
-  count: number;
-  /** Share of all misses attributed to this char (0–1). */
-  ratio: number;
-  /** Which keys were wrongly pressed for this char, most-frequent first (top 5). */
+  /** miss / total (0–1). */
+  missRate: number;
+  /** Keys pressed instead when this key was expected, most-first (top 5). */
   wrongKeys: WrongKey[];
 }
 
@@ -113,8 +110,8 @@ export interface ScoreResult {
   total: number;
   /** correct / total (0–1). */
   accuracy: number;
-  /** Most-mistyped characters, highest first (top 10). */
-  missByChar: MissCount[];
-  /** Keys with the highest press accuracy, best-first (top 10). */
-  topAccuracyKeys: KeyAccuracy[];
+  /** Keys with the lowest accuracy (that had misses), worst-first (bottom 10). */
+  lowAccuracyKeys: KeyStat[];
+  /** Keys with the highest accuracy, best-first (top 10). */
+  highAccuracyKeys: KeyStat[];
 }

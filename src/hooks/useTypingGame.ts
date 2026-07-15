@@ -47,13 +47,11 @@ export function useTypingGame(settings: Settings) {
   const engineRef = useRef<EngineState>(INITIAL_ENGINE);
   const correctRef = useRef(0);
   const missRef = useRef(0);
-  // Miss tally: intended character -> wrong key actually pressed -> count.
-  // Only the first wrong key of each consecutive run is tallied here.
-  const missByCharRef = useRef<Record<string, Record<string, number>>>({});
-  // Per-key press accuracy: pressed key -> { correct, total }.
-  const keyStatsRef = useRef<Record<string, { correct: number; total: number }>>(
-    {},
-  );
+  // Per-expected-key statistics, keyed by the key that should have been pressed.
+  // keyCorrect: right hits. keyMiss: expected key -> wrong key pressed -> count,
+  // counting only the first wrong key of each consecutive run.
+  const keyCorrectRef = useRef<Record<string, number>>({});
+  const keyMissRef = useRef<Record<string, Record<string, number>>>({});
   // Whether the previous keystroke was a miss (to skip repeated mistakes).
   const lastWasMissRef = useRef(false);
   const timersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
@@ -81,8 +79,8 @@ export function useTypingGame(settings: Settings) {
   const beginPlay = useCallback(() => {
     correctRef.current = 0;
     missRef.current = 0;
-    missByCharRef.current = {};
-    keyStatsRef.current = {};
+    keyCorrectRef.current = {};
+    keyMissRef.current = {};
     lastWasMissRef.current = false;
     sentenceIndexRef.current = 0;
     engineRef.current = INITIAL_ENGINE;
@@ -97,8 +95,8 @@ export function useTypingGame(settings: Settings) {
       computeScore(
         correctRef.current,
         missRef.current,
-        missByCharRef.current,
-        keyStatsRef.current,
+        keyCorrectRef.current,
+        keyMissRef.current,
       ),
     );
     setPhase("result");
@@ -146,21 +144,22 @@ export function useTypingGame(settings: Settings) {
     (key: string) => {
       const matcher = matchersRef.current[sentenceIndexRef.current];
       if (!matcher) return;
+      const { slotIndex, buffer } = engineRef.current;
       const { state, result: res } = feedKey(matcher, engineRef.current, key);
-
-      // Per-key accuracy: every physical keystroke counts toward its key.
-      const ks = (keyStatsRef.current[key] ??= { correct: 0, total: 0 });
-      ks.total += 1;
-      if (res !== "miss") ks.correct += 1;
 
       if (res === "miss") {
         missRef.current += 1;
         // Only the first miss of a consecutive run counts toward the keystroke
-        // statistics (e.g. "abck" for "k" tallies only the wrong "a").
+        // statistics (e.g. "abck" for "k" tallies only the wrong "a"). Attribute
+        // it to the key that was expected, recording what was pressed instead.
         if (!lastWasMissRef.current) {
-          const slot = matcher[engineRef.current.slotIndex];
-          const ch = slot ? slot.kana || slot.display : key;
-          const byKey = (missByCharRef.current[ch] ??= {});
+          const slot = matcher[slotIndex];
+          const variant =
+            slot?.variants.find((v) => v.startsWith(buffer)) ??
+            slot?.variants[0] ??
+            "";
+          const expected = variant[buffer.length] ?? key;
+          const byKey = (keyMissRef.current[expected] ??= {});
           byKey[key] = (byKey[key] ?? 0) + 1;
         }
         lastWasMissRef.current = true;
@@ -170,6 +169,8 @@ export function useTypingGame(settings: Settings) {
       }
 
       lastWasMissRef.current = false;
+      // A correct keystroke: the pressed key is the expected key.
+      keyCorrectRef.current[key] = (keyCorrectRef.current[key] ?? 0) + 1;
       correctRef.current += 1;
       engineRef.current = state;
       setEngine(state);
