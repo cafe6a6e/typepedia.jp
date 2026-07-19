@@ -67,7 +67,10 @@ export function SentenceView({ sentence, matcher, engine }: Props) {
       <p className="text-2xl font-mono tracking-wide text-center leading-relaxed">
         {sentence.lang === "en"
           ? renderWordWrapped(matcher, renderSlot)
-          : matcher.map((slot, i) => renderSlot(slot, i))}
+          : matcher.flatMap((slot, i) => [
+              renderSlot(slot, i),
+              <wbr key={`b${i}`} />,
+            ])}
       </p>
     </div>
   );
