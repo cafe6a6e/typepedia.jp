@@ -2077,8 +2077,8 @@
   },
   {
     "disp": "その人の失敗を兎や角言わずに、優しく見守りましょう。",
-    "kana": "そのひとのしっぱいをとやこういわずに、やさしくみまもりましょう。",
-    "q": "sonohitonoshippaiwotoyakouiwazuni,yasashikumimamorimashou.",
+    "kana": "そのひとのしっぱいをとやかくいわずに、やさしくみまもりましょう。",
+    "q": "sonohitonoshippaiwotoyakakuiwazuni,yasashikumimamorimashou.",
     "lang": "ja"
   },
   {
@@ -2677,8 +2677,8 @@
   },
   {
     "disp": "朝ごはんは、お母さんが漬けた美味しい糠漬です。",
-    "kana": "あさごはんは、おははさんがつけたおいしいぬかづけです。",
-    "q": "asagohannha,ohahasanngatsuketaoishiinukadukedesu.",
+    "kana": "あさごはんは、おかあさんがつけたおいしいぬかづけです。",
+    "q": "asagohannha,okaasanngatsuketaoishiinukadukedesu.",
     "lang": "ja"
   },
   {
@@ -2989,8 +2989,8 @@
   },
   {
     "disp": "赤ちゃんが這い這いして、お母さんの足元をすり抜けていく姿が可愛い。",
-    "kana": "あかちゃんがはいはいして、おははさんのあしもとをすりぬけていくすがたがかわいい。",
-    "q": "akachanngahaihaishite,ohahasannnoashimotowosurinuketeikusugatagakawaii.",
+    "kana": "あかちゃんがはいはいして、おかあさんのあしもとをすりぬけていくすがたがかわいい。",
+    "q": "akachanngahaihaishite,okaasannnoashimotowosurinuketeikusugatagakawaii.",
     "lang": "ja"
   },
   {
