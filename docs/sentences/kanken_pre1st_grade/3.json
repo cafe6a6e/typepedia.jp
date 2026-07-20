@@ -451,8 +451,8 @@
   },
   {
     "disp": "散歩道で見つけた下萌えに、春の訪れを感じました。",
-    "kana": "さんぽどうでみつけたしたもえに、はるのおとずれをかんじました。",
-    "q": "sannpodoudemitsuketashitamoeni,harunootozurewokannjimashita.",
+    "kana": "さんぽみちでみつけたしたもえに、はるのおとずれをかんじました。",
+    "q": "sannpomichidemitsuketashitamoeni,harunootozurewokannjimashita.",
     "lang": "ja"
   },
   {
@@ -2173,8 +2173,8 @@
   },
   {
     "disp": "慧日は仏の知恵を太陽に例えた言葉で、人々の心を照らす力です。",
-    "kana": "えにちはふつのちえをたいようにたとえたことばで、ひとびとのこころをてらすちからです。",
-    "q": "enichihafutsunochiewotaiyounitatoetakotobade,hitobitonokokorowoterasuchikaradesu.",
+    "kana": "えにちはほとけのちえをたいようにたとえたことばで、ひとびとのこころをてらすちからです。",
+    "q": "enichihahotokenochiewotaiyounitatoetakotobade,hitobitonokokorowoterasuchikaradesu.",
     "lang": "ja"
   },
   {
@@ -2844,9 +2844,9 @@
     "lang": "ja"
   },
   {
-    "disp": "子供の之無から漢字を教え始めると、将来の学習に良い影響があります。",
-    "kana": "こどものしむからかんじをおしえはじめると、しょうらいのがくしゅうによいえいきょうがあります。",
-    "q": "kodomonoshimukarakannjiwooshiehajimeruto,shourainogakushuuniyoieikyougaarimasu.",
+    "disp": "之の字のように曲がりくねった坂道を之字路という。",
+    "kana": "しのじのようにまがりくねったさかみちをしじろという。",
+    "q": "shinojinoyounimagarikunettasakamichiwoshijirotoiu.",
     "lang": "ja"
   },
   {

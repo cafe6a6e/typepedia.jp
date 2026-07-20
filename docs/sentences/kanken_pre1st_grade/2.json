@@ -1165,8 +1165,8 @@
   },
   {
     "disp": "昔の市場では、米の重さを量るために大きな杠秤が使われていた。",
-    "kana": "むかしのしじょうでは、べいのおもさをはかるためにおおきなちきりがつかわれていた。",
-    "q": "mukashinoshijoudeha,beinoomosawohakarutameniookinachikirigatsukawareteita.",
+    "kana": "むかしのいちばでは、こめのおもさをはかるためにおおきなちきりがつかわれていた。",
+    "q": "mukashinoichibadeha,komenoomosawohakarutameniookinachikirigatsukawareteita.",
     "lang": "ja"
   },
   {
@@ -2041,8 +2041,8 @@
   },
   {
     "disp": "手ぬぐいの碧い巴の柄が、とても可愛らしくて気に入りました。",
-    "kana": "てぬぐいのあおいともえのがらが、とてもかわいらしくてきにはいりました。",
-    "q": "tenuguinoaoitomoenogaraga,totemokawairashikutekinihairimashita.",
+    "kana": "てぬぐいのあおいともえのがらが、とてもかわいらしくてきにいりました。",
+    "q": "tenuguinoaoitomoenogaraga,totemokawairashikutekiniirimashita.",
     "lang": "ja"
   },
   {
@@ -2935,8 +2935,8 @@
   },
   {
     "disp": "歴史を学ぶなら正史だけでなく稗史も読むと興味深い発見がある。",
-    "kana": "れきしをまなぶならせいしだけでなくはいしもよむときょうみふかいはっけんがある。",
-    "q": "rekishiwomanabunaraseishidakedenakuhaishimoyomutokyoumifukaihakkenngaaru.",
+    "kana": "れきしをまなぶならせいしだけでなくはいしもよむときょうみぶかいはっけんがある。",
+    "q": "rekishiwomanabunaraseishidakedenakuhaishimoyomutokyoumibukaihakkenngaaru.",
     "lang": "ja"
   },
   {
@@ -3067,8 +3067,8 @@
   },
   {
     "disp": "孫の七五三に合わせて、昔ながらの袴着の儀式を行いました。",
-    "kana": "まごのななごさんにあわせて、むかしながらのはかまぎのぎしきをおこないました。",
-    "q": "magononanagosannniawasete,mukashinagaranohakamaginogishikiwookonaimashita.",
+    "kana": "まごのしちごさんにあわせて、むかしながらのはかまぎのぎしきをおこないました。",
+    "q": "magonoshichigosannniawasete,mukashinagaranohakamaginogishikiwookonaimashita.",
     "lang": "ja"
   },
   {
@@ -3403,8 +3403,8 @@
   },
   {
     "disp": "彼が忙しそうに一日中この部屋を馳回る姿を見た。",
-    "kana": "かれがいそがしそうにいちにちちゅうこのへやをはせまわるすがたをみた。",
-    "q": "karegaisogashisouniichinichichuukonoheyawohasemawarusugatawomita.",
+    "kana": "かれがいそがしそうにいちにちじゅうこのへやをはせまわるすがたをみた。",
+    "q": "karegaisogashisouniichinichijuukonoheyawohasemawarusugatawomita.",
     "lang": "ja"
   },
   {
@@ -3847,8 +3847,8 @@
   },
   {
     "disp": "誕生日のプレゼントは紐付で、開けるときにとても便利です。",
-    "kana": "たんじょうひのぷれぜんとはひもつきで、あけるときにとてもべんりです。",
-    "q": "tannjouhinopurezenntohahimotsukide,akerutokinitotemobennridesu.",
+    "kana": "たんじょうびのぷれぜんとはひもつきで、あけるときにとてもべんりです。",
+    "q": "tannjoubinopurezenntohahimotsukide,akerutokinitotemobennridesu.",
     "lang": "ja"
   },
   {
@@ -4926,7 +4926,7 @@
     "lang": "ja"
   },
   {
-    "disp": "春が近づくと、庭の草木が鮮やかにもえ出る。",
+    "disp": "春が近づくと、庭の草木が鮮やかに萌え出る。",
     "kana": "はるがちかづくと、にわのくさきがあざやかにもえでる。",
     "q": "harugachikadukuto,niwanokusakigaazayakanimoederu.",
     "lang": "ja"
