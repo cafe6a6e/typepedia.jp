@@ -4,6 +4,7 @@ export const DEFAULT_CATEGORY = "eiken_1st_grade";
 
 export const CATEGORY_LABELS: Record<string, string> = {
   eiken_1st_grade: "英語（英検1級）",
+  eiken_pre1st_grade: "英語（英検準1級）",
   kanken_pre1st_grade: "日本語（漢検準1級）",
   yoji_01_kyu5: "四字熟語（漢検5級）",
   yoji_02_kyu4: "四字熟語（漢検4級）",

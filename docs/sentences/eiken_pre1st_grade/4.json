@@ -1,0 +1,4002 @@
+[
+  {
+    "disp": "その弁護士は古い契約書の法的な抜け穴を見つけました。",
+    "q": "The lawyer found a legal loophole in the old contract.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は税金を免れるために抜け穴を見つけようとしました。",
+    "q": "He tried to find a loophole to escape paying taxes.",
+    "lang": "en"
+  },
+  {
+    "disp": "果物を保存するために、脱水する必要があります。",
+    "q": "We need to dehydrate the fruit to store it safely.",
+    "lang": "en"
+  },
+  {
+    "disp": "直射日光は夏に地面を非常に早く脱水します。",
+    "q": "Direct sunlight will dehydrate the ground very fast during summer.",
+    "lang": "en"
+  },
+  {
+    "disp": "あなたは大きな音を立てると、本当にイライラさせます。",
+    "q": "You really annoy me when you make such loud noises.",
+    "lang": "en"
+  },
+  {
+    "disp": "私は彼の失礼な言葉でイライラさせられないようにしています。",
+    "q": "I try not to let his rude words annoy me.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は毎晩幼い子供たちに健全な本を読み聞かせます。",
+    "q": "She reads wholesome books to her young children every night.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らはすべての若い聴衆を勇気づけるために健全な物語を語ります。",
+    "q": "They tell wholesome stories to inspire all the young listeners.",
+    "lang": "en"
+  },
+  {
+    "disp": "私は今週はお酒を飲むのを控えることにします。",
+    "q": "I will abstain from drinking alcohol for the whole week.",
+    "lang": "en"
+  },
+  {
+    "disp": "スタッフは会議中は携帯電話の使用を控えてください。",
+    "q": "All staff must abstain from using their phones during meetings.",
+    "lang": "en"
+  },
+  {
+    "disp": "会社は税務署に適正な開示書類を提出する必要があります。",
+    "q": "The company must file proper disclosure with the tax office.",
+    "lang": "en"
+  },
+  {
+    "disp": "あなたは、このローンに関する適正な開示書類を提出する必要があります。",
+    "q": "You must provide a proper disclosure statement regarding this loan.",
+    "lang": "en"
+  },
+  {
+    "disp": "誰も部屋に入る前に、燻蒸する必要があります。",
+    "q": "We must fumigate the room before anyone enters it today.",
+    "lang": "en"
+  },
+  {
+    "disp": "作業員は害虫を防ぐために木々を燻蒸します。",
+    "q": "The workers fumigate the trees to protect them from pests.",
+    "lang": "en"
+  },
+  {
+    "disp": "友達の前で私を恥ずかしがらないでください。",
+    "q": "Please do not embarrass me in front of my friends.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼の不注意なミスは授業中に先生を恥じさせるでしょう。",
+    "q": "His careless mistake will definitely embarrass the teacher in class.",
+    "lang": "en"
+  },
+  {
+    "disp": "大きな音は、今寝ている赤ちゃんをイライラさせます。",
+    "q": "Loud noises can irritate the baby who is sleeping now.",
+    "lang": "en"
+  },
+  {
+    "disp": "今日はその冗談で友人をイライラさせてはいけません。",
+    "q": "You should not irritate your friends with that joke today.",
+    "lang": "en"
+  },
+  {
+    "disp": "市は今日、古い建物を解体する計画です。",
+    "q": "The city plans to tear down the old building today.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちはすぐにでもそのフェンスを解体する予定です。",
+    "q": "We are going to tear down that fence very soon.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女はおかしな冗談を言う弟をからかうのが大好きです。",
+    "q": "She loves to tease her brother about his silly jokes.",
+    "lang": "en"
+  },
+  {
+    "disp": "あなたの素敵な裏庭で子犬をからかわないようにしてください。",
+    "q": "Please do not tease the puppy in your nice backyard.",
+    "lang": "en"
+  },
+  {
+    "disp": "他の誰にも聞こえないように、そっと囁いてください。",
+    "q": "Please whisper so that no one else can hear it.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は私の耳に優しい秘密を囁きたい。",
+    "q": "She wants to whisper a soft secret into my ear.",
+    "lang": "en"
+  },
+  {
+    "disp": "あなたはストレスに対処する方法を見つける必要があります。",
+    "q": "You must find a way to cope with the stress.",
+    "lang": "en"
+  },
+  {
+    "disp": "この寒い天気に対処するのは難しいです。",
+    "q": "It is hard to cope with all this cold weather.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼はのどから痰を咳き出そうとした。",
+    "q": "He tried to cough up the phlegm from his throat.",
+    "lang": "en"
+  },
+  {
+    "disp": "その泥棒は盗んだ金を全部吐き出さなければならなかった。",
+    "q": "The thief had to cough up all his stolen money.",
+    "lang": "en"
+  },
+  {
+    "disp": "私は友人たちに嘘をつくことを本当に恥じています。",
+    "q": "I feel truly ashamed about lying to all my friends.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女はテストの結果を私たちに見せることを恥じた。",
+    "q": "She was ashamed to show her test results to us.",
+    "lang": "en"
+  },
+  {
+    "disp": "ソーシャルメディアは毎日使う人にとって中毒性があります。",
+    "q": "Social media is addictive for many people using it daily.",
+    "lang": "en"
+  },
+  {
+    "disp": "このビデオゲームは多くのオンラインプレイヤーにとって中毒性が非常に高いです。",
+    "q": "The video game is highly addictive for many players online.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は彼の携帯電話をのぞく衝動を抑えた。",
+    "q": "She resisted the impulse to look at his phone secretly.",
+    "lang": "en"
+  },
+  {
+    "disp": "衝動買いは通常、非常に悪い経済的な選択です。",
+    "q": "Buying on impulse is usually a very bad financial idea.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は来月から有給の産休を利用する予定です。",
+    "q": "She plans to take her paid maternity leave next month.",
+    "lang": "en"
+  },
+  {
+    "disp": "その病院は妊婦向けにマタニティークラスを多数提供しています。",
+    "q": "The hospital offers many interesting maternity classes for expecting parents.",
+    "lang": "en"
+  },
+  {
+    "disp": "霧は古い城の周りに不気味な雰囲気を作り出した。",
+    "q": "The fog created an eerie atmosphere around the old castle.",
+    "lang": "en"
+  },
+  {
+    "disp": "その不気味な沈黙は小さな女の子を非常に怖がらせた。",
+    "q": "The eerie silence made the little girl feel very afraid.",
+    "lang": "en"
+  },
+  {
+    "disp": "通話する適切な時間を選ぶべきです。",
+    "q": "You should choose the proper time to make the call.",
+    "lang": "en"
+  },
+  {
+    "disp": "この機械を修理する際は適切な手順に従ってください。",
+    "q": "Please follow the proper procedures when you fix this machine.",
+    "lang": "en"
+  },
+  {
+    "disp": "従来の方法はいつも非常に最善の選択とは限りません。",
+    "q": "Conventional methods are not always the very best choice today.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は新しい作品でついに従来の思考を捨てた。",
+    "q": "He finally broke from conventional thinking in his new artwork.",
+    "lang": "en"
+  },
+  {
+    "disp": "その接着剤は湿った紙にうまくくっつきません。",
+    "q": "The glue will not adhere to the wet paper properly.",
+    "lang": "en"
+  },
+  {
+    "disp": "そのステッカーがガラスにしっかりくっつくことを確認してください。",
+    "q": "Make sure the sticker does adhere to the glass tightly.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は重大な犯罪から逃れるために証拠を捏造しようとした。",
+    "q": "He tried to fabricate evidence to escape the serious crime.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らは実際に起こらなかった出来事について嘘の物語をでっち上げる。",
+    "q": "They fabricate false stories about events that never actually happened.",
+    "lang": "en"
+  },
+  {
+    "disp": "その男は生徒たちの間で喧嘩を扇動しようとした。",
+    "q": "The man wanted to instigate a fight among the students.",
+    "lang": "en"
+  },
+  {
+    "disp": "職場の同僚に不必要なトラブルを扇動しないでください。",
+    "q": "Do not instigate unnecessary trouble with your colleagues at work.",
+    "lang": "en"
+  },
+  {
+    "disp": "今すぐサポートチームに連絡する際、ためらわないでください。",
+    "q": "Please do not hesitate to contact our support team now.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は会議中に質問に答える際、ためらわなかった。",
+    "q": "He did not hesitate to answer questions during the meeting.",
+    "lang": "en"
+  },
+  {
+    "disp": "パーティーのために曲を作ってくれませんか。",
+    "q": "Can you help me compose a song for the party?",
+    "lang": "en"
+  },
+  {
+    "disp": "多くの小さな星がこの星座の美しい形を構成しています。",
+    "q": "Many small stars compose the beautiful shape of this constellation.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は家族の財産を非常に注意深く管理しました。",
+    "q": "She managed the family estate with great care and attention.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らは財産をすべての家族に分配する予定です。",
+    "q": "They plan to distribute the estate among all family members.",
+    "lang": "en"
+  },
+  {
+    "disp": "それは多くの人々が無視する非常に奇妙な考えです。",
+    "q": "That is a very strange notion which many people ignore.",
+    "lang": "en"
+  },
+  {
+    "disp": "課題を解決する方法について全く考えがありません。",
+    "q": "I have no notion of how to solve the issue.",
+    "lang": "en"
+  },
+  {
+    "disp": "会社は明日の朝、完全に新しい電話機を明らかにする予定だ。",
+    "q": "The company will unveil their completely new phone tomorrow morning.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは次の会議で完全な計画を明らかにする。",
+    "q": "We will unveil the full plan at the next meeting.",
+    "lang": "en"
+  },
+  {
+    "disp": "薬を服用することで、今日の重度の腹痛を和らげるはずです。",
+    "q": "Taking this medicine should help alleviate severe stomach pain today.",
+    "lang": "en"
+  },
+  {
+    "disp": "交通渋滞を軽減するための有効な手段を見つける必要があります。",
+    "q": "We need to find effective ways to alleviate traffic congestion.",
+    "lang": "en"
+  },
+  {
+    "disp": "雨が降ればその旅行を中止するかもしれません。",
+    "q": "We might call off the trip if it rains soon.",
+    "lang": "en"
+  },
+  {
+    "disp": "夕食を中止する必要がある場合は教えてください。",
+    "q": "Please tell me if you need to call off dinner.",
+    "lang": "en"
+  },
+  {
+    "disp": "その古いボートはゆっくりと水面を漂い始めました。",
+    "q": "The old boat started to drift slowly on the water.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女の心は講義が長い時に漂い始めます。",
+    "q": "Her mind starts to drift when the lecture is long.",
+    "lang": "en"
+  },
+  {
+    "disp": "この家の主な特徴は、素晴らしい庭です。",
+    "q": "The main feature of this house is the great garden.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは毎週、料理ブログで新しいレシピを特集しています。",
+    "q": "We feature new recipes every week on our cooking blog.",
+    "lang": "en"
+  },
+  {
+    "disp": "昔の友人はこの戦争で私の死の敵になった。",
+    "q": "My old friend became my deadly foe in this war.",
+    "lang": "en"
+  },
+  {
+    "disp": "我々は常に隠れた敵には非常に注意が必要だ。",
+    "q": "We must always be very careful with a hidden foe.",
+    "lang": "en"
+  },
+  {
+    "disp": "昨日、元の計画にはわずかな変更がありました。",
+    "q": "There was a minor alteration to the original plan yesterday.",
+    "lang": "en"
+  },
+  {
+    "disp": "今日必要なすべての変更に対して正式な申請を出してください。",
+    "q": "Please submit a formal request for every alteration needed today.",
+    "lang": "en"
+  },
+  {
+    "disp": "戦争がこれらの隣国間で間もなく勃発する可能性があります。",
+    "q": "War could break out between these two neighboring nations soon.",
+    "lang": "en"
+  },
+  {
+    "disp": "試合中に彼らの間で喧嘩が勃発するかもしれない。",
+    "q": "The fight might break out between them during the game.",
+    "lang": "en"
+  },
+  {
+    "disp": "衛星は地球の周りで安定した円軌道にとどまっています。",
+    "q": "The satellite stays in a stable circular orbit around Earth.",
+    "lang": "en"
+  },
+  {
+    "disp": "地球は太陽の周りをわずかに楕円形の軌道を進んでいます。",
+    "q": "The Earth follows a slightly elliptical orbit around the sun.",
+    "lang": "en"
+  },
+  {
+    "disp": "技師は今日、安全のために橋を完全に検査する必要があります。",
+    "q": "The engineer must fully inspect the bridge for safety today.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは今、安全上の理由で車を検査する必要があります。",
+    "q": "We need to inspect the car for safety reasons now.",
+    "lang": "en"
+  },
+  {
+    "disp": "魔法使いはトリックで若い子供たちを楽しませようとした。",
+    "q": "The magician tried to amuse the young children with tricks.",
+    "lang": "en"
+  },
+  {
+    "disp": "旅行中に自分を楽しませるために本を買った。",
+    "q": "I bought a book to amuse myself on the trip.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女の優しい笑顔には、特別な魅力が感じられます。",
+    "q": "Her gentle smile shows a special kind of charm today.",
+    "lang": "en"
+  },
+  {
+    "disp": "その古い家は過去からの独特な魅力を持っています。",
+    "q": "That old house has a unique charm from the past.",
+    "lang": "en"
+  },
+  {
+    "disp": "富を成長させるためには価値ある資産を買う必要があります。",
+    "q": "We need to buy a valuable asset to grow wealth.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女の経験は新しいプロジェクトにとって価値ある資産です。",
+    "q": "Her experience is a valuable asset for the new project.",
+    "lang": "en"
+  },
+  {
+    "disp": "夕暮れになると、街路灯はゆっくりと消えていきました。",
+    "q": "As evening came, the street lights began to fade out.",
+    "lang": "en"
+  },
+  {
+    "disp": "部屋からの音は次第に消えていきました。",
+    "q": "The sounds from the room began to slowly fade out.",
+    "lang": "en"
+  },
+  {
+    "disp": "望遠鏡は地球のみんなのために遠い星を拡大できます。",
+    "q": "The telescope can magnify distant stars for everyone on Earth.",
+    "lang": "en"
+  },
+  {
+    "disp": "心の中で問題をこれ以上拡大しないでください。",
+    "q": "Do not magnify your problems too much in your mind.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は来週のレスリングの試合のためにしっかりと練習しました。",
+    "q": "He trained hard for the upcoming wrestling bout next week.",
+    "lang": "en"
+  },
+  {
+    "disp": "トーナメントのメインのボクシングの試合を見ましたか？",
+    "q": "Did you see the main boxing bout at the tournament?",
+    "lang": "en"
+  },
+  {
+    "disp": "このレストランは非常に洗練された雰囲気と素晴らしい料理を持っています。",
+    "q": "This restaurant has a very sophisticated atmosphere and excellent food.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女はいつもカジュアルなストリートスタイルよりも洗練された服を好みます。",
+    "q": "She always prefers wearing sophisticated clothing over casual street styles.",
+    "lang": "en"
+  },
+  {
+    "disp": "地元の警察局はこの町で重大な犯罪を調査しています。",
+    "q": "The local police bureau investigates serious crimes in our town.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は古いたんすを磨いて、光沢のある表面を回復しました。",
+    "q": "She polished the old bureau to restore its shiny surface.",
+    "lang": "en"
+  },
+  {
+    "disp": "あの大きな音は確実に私たちの重要な会議を混乱させるでしょう。",
+    "q": "That loud noise will definitely disrupt our important meeting now.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちはこの静かな図書館の平和を混乱させてはいけません。",
+    "q": "We should not disrupt the peace of this quiet library.",
+    "lang": "en"
+  },
+  {
+    "disp": "新しい安全規則について大きな論争があります。",
+    "q": "There is a large dispute regarding the new safety regulations.",
+    "lang": "en"
+  },
+  {
+    "disp": "警官が出した証拠に異議を唱えることはできません。",
+    "q": "We cannot dispute the evidence provided by the police officer.",
+    "lang": "en"
+  },
+  {
+    "disp": "隣人たちは最近の争いにもかかわらず友好的な関係を維持した。",
+    "q": "The neighbors kept an amicable relationship despite their recent arguments.",
+    "lang": "en"
+  },
+  {
+    "disp": "元ビジネスパートナーとは友好的であり続けることが重要です。",
+    "q": "It is important to stay amicable with former business partners.",
+    "lang": "en"
+  },
+  {
+    "disp": "土に植えた小さな豆は、もうすぐ芽を出すでしょう。",
+    "q": "The small bean planted in soil will sprout very soon.",
+    "lang": "en"
+  },
+  {
+    "disp": "新しい新芽が毎日伸びる様子を見てください。",
+    "q": "Please watch the new sprout grow each and every day.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らは暴風雨の中で車を放棄すると決めた。",
+    "q": "They decided to abandon their car during the heavy storm.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らが深く困っている時に友人を見捨ててはいけません。",
+    "q": "Never abandon your friends when they are in deep trouble.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は寒い朝に気難しいクマのように振る舞う。",
+    "q": "He acts like a grumpy bear on a cold morning.",
+    "lang": "en"
+  },
+  {
+    "disp": "私の母はコーヒーがまだなかったので、気難しい態度だった。",
+    "q": "My mother was grumpy because she had no coffee yet.",
+    "lang": "en"
+  },
+  {
+    "disp": "この図書館での大きなおしゃべりをすぐにやめてください。",
+    "q": "Please stop the loud chatter in this library right now.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らのおしゃべりは静かな試験期間中とても大きかった。",
+    "q": "Their chatter was very loud during the quiet exam period.",
+    "lang": "en"
+  },
+  {
+    "disp": "叔父は腹が減るといつもとても不機嫌になります。",
+    "q": "My uncle always gets very grouchy when he is hungry.",
+    "lang": "en"
+  },
+  {
+    "disp": "みんなは月曜日の朝に彼女が不機嫌になることに気づく。",
+    "q": "Everyone notices how grouchy she becomes on Monday mornings.",
+    "lang": "en"
+  },
+  {
+    "disp": "この課題のためにいくつか関連のある情報を見つけられますか。",
+    "q": "Could you find some relevant information for this class assignment?",
+    "lang": "en"
+  },
+  {
+    "disp": "この特定のトピックは主要な議論には関連がありません。",
+    "q": "This specific topic is not relevant to the main discussion.",
+    "lang": "en"
+  },
+  {
+    "disp": "陪審員はすべての罪状で被告人を無罪にすると決めた。",
+    "q": "The jury decided to acquit the defendant of all charges.",
+    "lang": "en"
+  },
+  {
+    "disp": "弁護士は裁判で被告人を無罪にすることを期待している。",
+    "q": "The lawyer hopes to acquit the accused man in court.",
+    "lang": "en"
+  },
+  {
+    "disp": "私は今、あなたを助けるために全力を尽くす約束をします。",
+    "q": "I promise to commit my best to help you now.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は自分の秘密を彼らに委ねることは望みませんでした。",
+    "q": "He did not want to commit his secrets to them.",
+    "lang": "en"
+  },
+  {
+    "disp": "鮮やかなオウムは丈夫な木製の止まり木に静かにとまった。",
+    "q": "The colorful parrot landed gently on the sturdy wooden perch.",
+    "lang": "en"
+  },
+  {
+    "disp": "毎朝、猫は高い止まり木に飛び上がる。",
+    "q": "Every morning, the cat jumps up to the high perch.",
+    "lang": "en"
+  },
+  {
+    "disp": "車を修理しようとした私のすべての努力は無駄でした。",
+    "q": "All my efforts to fix the car were in vain.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らは昨日、行方不明の鍵を無駄に探しました。",
+    "q": "They searched in vain for the lost keys yesterday.",
+    "lang": "en"
+  },
+  {
+    "disp": "その役職は名目上のもので、実際の権力や権限はありません。",
+    "q": "The title is purely nominal without real power or authority.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らはこの特定のサービスに対して名目上の費用だけを請求します。",
+    "q": "They charge only a nominal fee for this specific service.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は会議中に大きな笑い声を抑えられませんでした。",
+    "q": "He could not suppress his loud laughter during the meeting.",
+    "lang": "en"
+  },
+  {
+    "disp": "政府は今日、言論の自由を抑圧し始めた。",
+    "q": "The government began to suppress the freedom of speech today.",
+    "lang": "en"
+  },
+  {
+    "disp": "この太い緑の茎は、今の重い花を完璧に支えています。",
+    "q": "This thick green stem supports the heavy flower perfectly now.",
+    "lang": "en"
+  },
+  {
+    "disp": "固い外側の茎を取り除く前に、この野菜を洗ってください。",
+    "q": "Please wash this vegetable before removing the hard outer stem.",
+    "lang": "en"
+  },
+  {
+    "disp": "あなたは半透明のプラスチックシートを通して影を見ることができます。",
+    "q": "You can see shadows through the translucent plastic sheet easily.",
+    "lang": "en"
+  },
+  {
+    "disp": "月は夜空で半透明で淡く見えます。",
+    "q": "The moon looks translucent and pale in the night sky.",
+    "lang": "en"
+  },
+  {
+    "disp": "時間を賢明に使うことは、しばしば大きな成功につながります。",
+    "q": "A judicious use of time often leads to great success.",
+    "lang": "en"
+  },
+  {
+    "disp": "賢明な選択をすることは、良いキャリアのために重要です。",
+    "q": "Making a judicious choice is crucial for a good career.",
+    "lang": "en"
+  },
+  {
+    "disp": "地球は毎日、その軸の周りを一周して自転します。",
+    "q": "The Earth spins around its central axis once each day.",
+    "lang": "en"
+  },
+  {
+    "disp": "機械を始める前に軸を合わせなければなりません。",
+    "q": "We need to align the axis before starting the machine.",
+    "lang": "en"
+  },
+  {
+    "disp": "あなたは今日、この難しいパズルを解くのを手伝ってくれますか。",
+    "q": "Can you help me figure out this difficult puzzle today?",
+    "lang": "en"
+  },
+  {
+    "disp": "私は行方不明のペットに関する真実を見つけ出します。",
+    "q": "I will figure out the truth about the missing pet.",
+    "lang": "en"
+  },
+  {
+    "disp": "ソフトな音楽を聴くことで、疲れた心を落ち着かせることができます。",
+    "q": "Listening to soft music can truly soothe your tired mind.",
+    "lang": "en"
+  },
+  {
+    "disp": "怒っている子供を寝る前に落ち着かせるために優しく話しかけてください。",
+    "q": "Please speak softly to soothe your angry child before bed.",
+    "lang": "en"
+  },
+  {
+    "disp": "ちょうど一分間、始めるまで待ってください。",
+    "q": "Please wait for exactly one minute before you start now.",
+    "lang": "en"
+  },
+  {
+    "disp": "この議事録を紙のシートに今すぐに署名してください。",
+    "q": "Please sign the meeting minute on the paper sheet now.",
+    "lang": "en"
+  },
+  {
+    "disp": "群衆は今日、誇らしげに国歌を歌いました。",
+    "q": "The crowd sang the national anthem with great pride today.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちがゲームに勝ったとき、彼らは勝利の賛歌を演奏しました。",
+    "q": "They played the victory anthem when we won the game.",
+    "lang": "en"
+  },
+  {
+    "disp": "医師は傷が単に表面的で軽いと言った。",
+    "q": "The doctor said the cut was merely superficial and minor.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女のその分野の知識は完全に表面的で浅い。",
+    "q": "Her knowledge of the subject is purely superficial and shallow.",
+    "lang": "en"
+  },
+  {
+    "disp": "これは誰も読んだことのない奇妙な本です。",
+    "q": "This is a peculiar book that no one has read.",
+    "lang": "en"
+  },
+  {
+    "disp": "私は暗闇の中で奇妙な安らぎを感じました。",
+    "q": "I felt a peculiar sense of comfort in the dark.",
+    "lang": "en"
+  },
+  {
+    "disp": "オレンジから全ての果汁を絞る必要があります。",
+    "q": "I need to squeeze all the juice from the orange.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは小さなバスにとても詰め込まなければなりませんでした。",
+    "q": "We had to squeeze very tightly into the small bus.",
+    "lang": "en"
+  },
+  {
+    "disp": "会社は近々世界規模で事業活動を拡大する予定だ。",
+    "q": "The company plans to expand its business operations globally soon.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちはこの新しいトピックについての知識を広げる必要があります。",
+    "q": "We need to expand our knowledge about this new topic.",
+    "lang": "en"
+  },
+  {
+    "disp": "その有名な画家は政治家の風刺画を描きました。",
+    "q": "The famous artist drew a funny caricature of the politician.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は友人たちの面白い風刺画を描くのが好きです。",
+    "q": "She loves to draw a funny caricature of her friends.",
+    "lang": "en"
+  },
+  {
+    "disp": "この現在のプロジェクトは予算内で実行可能でしょうか。",
+    "q": "Is this current project actually feasible within our tight budget?",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは今日仕事を終えることを実行可能だと考えています。",
+    "q": "We think it is feasible to finish the work today.",
+    "lang": "en"
+  },
+  {
+    "disp": "その時代遅れのスタイルは、今の若者にはもはや人気はありません。",
+    "q": "That outdated style is no longer popular among young people.",
+    "lang": "en"
+  },
+  {
+    "disp": "システムを使用する前に、その時代遅れのソフトウェアをすぐに更新してください。",
+    "q": "Please update that outdated software immediately before using the system.",
+    "lang": "en"
+  },
+  {
+    "disp": "理由なく日々の仕事を無視してはいけません。",
+    "q": "You must not neglect your daily tasks without any excuse.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らは忙しすぎて、安全チェックを無視することが多い。",
+    "q": "People often neglect safety checks when they are too busy.",
+    "lang": "en"
+  },
+  {
+    "disp": "社会において、税を回避することに道義的な正当性はありません。",
+    "q": "There is no moral justification for tax evasion in society.",
+    "lang": "en"
+  },
+  {
+    "disp": "兵役を回避することはいくつかの国で可能です。",
+    "q": "Legal evasion of military service is possible in some nations.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は最も困難な時でも決して揺らぎませんでした。",
+    "q": "He did not waver even in the most difficult times.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女が話している間、声は揺らぎ始めた。",
+    "q": "Her voice began to waver while she gave the speech.",
+    "lang": "en"
+  },
+  {
+    "disp": "障害を乗り越える方法を学べば、あなたは成功するでしょう。",
+    "q": "You will succeed if you learn to surmount the obstacles.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは今日、これらの困難な挑戦を乗り越えるために頑張らなければなりません。",
+    "q": "We must work hard to surmount these difficult challenges today.",
+    "lang": "en"
+  },
+  {
+    "disp": "これらの写真をすべて年代順に並替えてください。",
+    "q": "Please organize all of these photos into a chronological sequence.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは今日、過去の出来事を年代順に見直します。",
+    "q": "We will review the past events in chronological order today.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は後方から迫ってくる危険に全く気づいていなかった。",
+    "q": "He was completely oblivious to the danger coming from behind.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は人生の突然の変化に気づいていなかった。",
+    "q": "She remained oblivious to the sudden changes in her life.",
+    "lang": "en"
+  },
+  {
+    "disp": "老いた馬は寒い冬の日にも丈夫なままでした。",
+    "q": "The old horse remained hardy despite the cold winter days.",
+    "lang": "en"
+  },
+  {
+    "disp": "これらの丈夫な植物は乾いた土壌でもよく育ちます。",
+    "q": "These hardy plants can grow well even in dry soil.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は毎日地下鉄で市役所まで通勤しています。",
+    "q": "She commutes to the city office by subway every day.",
+    "lang": "en"
+  },
+  {
+    "disp": "裁判官はその囚人の重い刑期を減刑すると決めた。",
+    "q": "The judge decided to commute the prisoner's very heavy sentence.",
+    "lang": "en"
+  },
+  {
+    "disp": "写真を撮っている間は瞬きしないでください。",
+    "q": "Do not blink your eyes while I take the photo.",
+    "lang": "en"
+  },
+  {
+    "disp": "長い時間が瞬きひとつで過ぎ去ることがあります。",
+    "q": "Sometimes a long time passes in just a single blink.",
+    "lang": "en"
+  },
+  {
+    "disp": "ウェイターは非常に丁寧で、料理を素早くサービスしました。",
+    "q": "The waiter was extremely courteous and served the food quickly.",
+    "lang": "en"
+  },
+  {
+    "disp": "お部屋に入る際は、必ず皆に対して丁寧にするべきです。",
+    "q": "Please remember to be courteous when you enter the room.",
+    "lang": "en"
+  },
+  {
+    "disp": "ここには騒音を抑えるという暗黙のルールがあります。",
+    "q": "There is an implicit rule about keeping the noise down.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は一言も言わずに暗黙のうちに同意しました。",
+    "q": "His acceptance was implicit despite never saying a single word.",
+    "lang": "en"
+  },
+  {
+    "disp": "多くの人は生活が平凡すぎるため退屈を感じている。",
+    "q": "Many people feel bored because their lives are too mundane.",
+    "lang": "en"
+  },
+  {
+    "disp": "平凡な作業時間中はやる気を保つのは難しい。",
+    "q": "It is hard to stay motivated during mundane work hours.",
+    "lang": "en"
+  },
+  {
+    "disp": "荷物を上部の区画に安全に入れてください。",
+    "q": "Please place your luggage safely in the overhead compartment now.",
+    "lang": "en"
+  },
+  {
+    "disp": "このスーツケースは服を整理するための多くの区画があります。",
+    "q": "This suitcase has many small compartments for organizing your clothes.",
+    "lang": "en"
+  },
+  {
+    "disp": "先生は授業中に喋ったことで、その男の子を戒めるだろう。",
+    "q": "The teacher will admonish the boy for talking in class.",
+    "lang": "en"
+  },
+  {
+    "disp": "賢明な指導者は、ミスが多い時には部下を戒めるだろう。",
+    "q": "A wise leader will admonish staff when errors occur often.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は問題を自分のミスのせいにはしない。",
+    "q": "She does not ascribe the problem to her own mistakes.",
+    "lang": "en"
+  },
+  {
+    "disp": "確かな証拠なしに他者に責任を転嫁してはならない。",
+    "q": "You should not ascribe blame to others without strong evidence.",
+    "lang": "en"
+  },
+  {
+    "disp": "皆にこれほど率直であるには勇気が必要です。",
+    "q": "It takes great courage to be so candid with everyone.",
+    "lang": "en"
+  },
+  {
+    "disp": "会議中の非常に率直なフィードバックをありがとうございました。",
+    "q": "Thank you for your very candid feedback during the meeting.",
+    "lang": "en"
+  },
+  {
+    "disp": "その古い木樽は村の水を蓄えていました。",
+    "q": "The old wooden barrel held fresh water for the village.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は今日、重たい樽を狭い階段を転がしました。",
+    "q": "He rolled the heavy barrel down the narrow stairs today.",
+    "lang": "en"
+  },
+  {
+    "disp": "傍観者は深刻な事故を目撃したが、介入しなかった。",
+    "q": "The bystander witnessed the serious accident but did not intervene.",
+    "lang": "en"
+  },
+  {
+    "disp": "その日、彼女はただの傍観者でいたことに罪悪感を感じた。",
+    "q": "She felt guilty for remaining just a bystander that day.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は朝の会議中にすべてのアイデアを簡単に説明しました。",
+    "q": "He briefly explained all his ideas during the morning meeting.",
+    "lang": "en"
+  },
+  {
+    "disp": "このソフトウェアの使用経験について簡単に説明してもらえますか。",
+    "q": "Could you briefly describe your full experience with this software?",
+    "lang": "en"
+  },
+  {
+    "disp": "店では毎回の購入に対して少しの手数料を請求されます。",
+    "q": "The shop charges a small commission for every purchase made.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は新しいプロジェクトのデザインを委託されました。",
+    "q": "She has received a commission to design the new project.",
+    "lang": "en"
+  },
+  {
+    "disp": "会話が終わったら電話を切ってください。",
+    "q": "Please hang up the phone when the conversation is complete.",
+    "lang": "en"
+  },
+  {
+    "disp": "プロジェクトを来週の開始まで中断する必要があります。",
+    "q": "We must hang up the project until next week starts.",
+    "lang": "en"
+  },
+  {
+    "disp": "警察はその事件について全面的な調査を行っています。",
+    "q": "The police are conducting a full investigation of the case.",
+    "lang": "en"
+  },
+  {
+    "disp": "この深刻な謎を解くには徹底的な調査が必要です。",
+    "q": "A thorough investigation is necessary to solve this serious mystery.",
+    "lang": "en"
+  },
+  {
+    "disp": "壁の陰に隠れるのは臆病な行為でした。",
+    "q": "It was a cowardly act to hide behind the wall.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は会議の前に逃げるという臆病な決断をした。",
+    "q": "He made a cowardly decision to leave before the meeting.",
+    "lang": "en"
+  },
+  {
+    "disp": "交通がメイン道路で完全な停止状態になりました。",
+    "q": "Traffic came to a complete standstill on the main road.",
+    "lang": "en"
+  },
+  {
+    "disp": "嵐の間、町全体が停止状態になりました。",
+    "q": "The whole city came to a standstill during the storm.",
+    "lang": "en"
+  },
+  {
+    "disp": "施錠された部屋に弾薬を安全に保管する必要があります。",
+    "q": "We need to store ammunition safely in the locked room.",
+    "lang": "en"
+  },
+  {
+    "disp": "狩人は主要な目標に到達する前に弾薬を失いました。",
+    "q": "The hunter lost his ammunition before reaching the main target.",
+    "lang": "en"
+  },
+  {
+    "disp": "後でお店に同行していただけませんか。",
+    "q": "Could you please accompany me to the store later today?",
+    "lang": "en"
+  },
+  {
+    "disp": "昨日、彼は母親を病院に付き添うことにしました。",
+    "q": "He decided to accompany his mother to the hospital yesterday.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は膝の腫れを和らげるために氷を使いました。",
+    "q": "He used ice to relieve the swelling on his knee.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちの疲れた教師たちの重い負担を軽減してください。",
+    "q": "Please help relieve the heavy burden on our tired teachers.",
+    "lang": "en"
+  },
+  {
+    "disp": "真の親族関係には、互いへの深い愛と支援が必要です。",
+    "q": "True kinship involves deep love and support for each other.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らは隣人との間に強い絆を感じていました。",
+    "q": "They felt a strong kinship with the neighbors next door.",
+    "lang": "en"
+  },
+  {
+    "disp": "その小さい兵士集団は長い道を行進した。",
+    "q": "The small troop of soldiers marched down the long road.",
+    "lang": "en"
+  },
+  {
+    "disp": "川に近い大きな象の群れを見ていました。",
+    "q": "We watched a large troop of elephants near the river.",
+    "lang": "en"
+  },
+  {
+    "disp": "医師は私が今日はとても健康であると証明するでしょう。",
+    "q": "The doctor will certify that I am quite healthy today.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちはその建物があなたにとって非常に安全であると証明しなければなりません。",
+    "q": "We must certify the building is very safe for you.",
+    "lang": "en"
+  },
+  {
+    "disp": "過度な日光への暴露はあなたの肌を最終的に傷めます。",
+    "q": "Too much sun exposure can seriously damage your skin eventually.",
+    "lang": "en"
+  },
+  {
+    "disp": "秘密の突然の暴露は今日大きな問題を引き起こしました。",
+    "q": "The sudden exposure of the secret caused major problems today.",
+    "lang": "en"
+  },
+  {
+    "disp": "その赤ちゃんはとても愛らしい笑顔をしていますね。",
+    "q": "The baby has such an adorable smile on her face.",
+    "lang": "en"
+  },
+  {
+    "disp": "その子犬は寝ている時、とても愛らしく見えます。",
+    "q": "That little puppy looks so very adorable when it sleeps.",
+    "lang": "en"
+  },
+  {
+    "disp": "先生は生徒の良い成績を褒めました。",
+    "q": "The teacher decided to commend the student for good work.",
+    "lang": "en"
+  },
+  {
+    "disp": "私はあなたの努力と献身的な取り組みを深く賞賛します。",
+    "q": "I deeply commend you for your hard work and dedication.",
+    "lang": "en"
+  },
+  {
+    "disp": "現在、彼女の表情に微妙な変化があります。",
+    "q": "There is a subtle change in her facial expression now.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は空気中に微妙なバニラの香りを感じ取りました。",
+    "q": "He noticed the subtle scent of vanilla in the air.",
+    "lang": "en"
+  },
+  {
+    "disp": "会社は来週月曜日に新しいマネージャーを正式に任命します。",
+    "q": "The company will officially appoint a new manager next Monday.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らは彼を新しいチームリーダーに任命することに決めました。",
+    "q": "They decided to appoint him as the new team leader.",
+    "lang": "en"
+  },
+  {
+    "disp": "その子供は古くて木製の椅子にまたがるのが好きです。",
+    "q": "The child likes to straddle the old wooden chair comfortably.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らはアイデンティティを失わずに両方の伝統をまたぎたいと考えています。",
+    "q": "They want to straddle both traditions without losing their identity.",
+    "lang": "en"
+  },
+  {
+    "disp": "ビジネス会議での成功には、プロフェッショナルな礼儀作法の維持が必要です。",
+    "q": "Maintaining professional propriety is necessary for success in business meetings.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女はパーティでの彼の行動の可否を疑った。",
+    "q": "She questioned the propriety of his actions at the party.",
+    "lang": "en"
+  },
+  {
+    "disp": "独立した監査人が本日、財務諸表を慎重に確認します。",
+    "q": "An independent auditor will review our financial statements today carefully.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちの会社は帳簿を確認するために良い監査人を必要とします。",
+    "q": "Our company needs a good auditor to check our books.",
+    "lang": "en"
+  },
+  {
+    "disp": "社会は公共の場で無礼な行動を眉をひそめます。",
+    "q": "Society tends to frown upon rude behavior in public places.",
+    "lang": "en"
+  },
+  {
+    "disp": "多くの厳しい教師は重要な試験中の不正を眉をひそめます。",
+    "q": "Many strict teachers will frown upon cheating during important exams.",
+    "lang": "en"
+  },
+  {
+    "disp": "友達に本当に新しいことを試すように勇気づけてください。",
+    "q": "Please encourage your friend to try something really new today.",
+    "lang": "en"
+  },
+  {
+    "disp": "困難な時には、私たちは皆互いを励ます必要があります。",
+    "q": "We all need to encourage each other during difficult times.",
+    "lang": "en"
+  },
+  {
+    "disp": "若者たちは毎年軍隊に入隊することを選びます。",
+    "q": "Young people choose to enlist in the army every year.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は慈善団体でボランティアとして活動することにしました。",
+    "q": "She decided to enlist as a volunteer at the charity.",
+    "lang": "en"
+  },
+  {
+    "disp": "次のビジネス旅行の詳細な旅程は何ですか。",
+    "q": "What is the detailed itinerary for our next business trip?",
+    "lang": "en"
+  },
+  {
+    "disp": "私はホテルのプランと飛行機の旅程の詳細を今日更新しました。",
+    "q": "I updated the hotel plan and flight itinerary details today.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らは私たちに有機食品を生産するために畑を耕作します。",
+    "q": "They cultivate the fields to produce organic food for us.",
+    "lang": "en"
+  },
+  {
+    "disp": "農家たちは植物が良く育つように土を深く耕作します。",
+    "q": "Farmers cultivate the soil deeply to help plants grow well.",
+    "lang": "en"
+  },
+  {
+    "disp": "この複雑なシステムを理解するために、この図を参照してください。",
+    "q": "Please study this diagram to understand the complex system better.",
+    "lang": "en"
+  },
+  {
+    "disp": "今、私の発表のために簡単な図を描いてくれますか？",
+    "q": "Can you draw a simple diagram for my presentation now?",
+    "lang": "en"
+  },
+  {
+    "disp": "学校旅行が失敗したら、別の計画が必要です。",
+    "q": "We need an alternate plan if the school trip fails.",
+    "lang": "en"
+  },
+  {
+    "disp": "最終会議のための別の日程はありますか？",
+    "q": "Do you have an alternate date for our final meeting?",
+    "lang": "en"
+  },
+  {
+    "disp": "私の見解では、この計画は全員にとって非常に危険です。",
+    "q": "From my perspective, this plan looks very risky for everyone.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は経済状況について独自の視点を提供しました。",
+    "q": "She offered a unique perspective on the current economic situation.",
+    "lang": "en"
+  },
+  {
+    "disp": "特定のガスは人間の目には完全に見えない。",
+    "q": "Some specific gases are completely invisible to the human eye.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼はそのカメラには見えないスーツを着ていた。",
+    "q": "He wore a suit that is invisible to the camera.",
+    "lang": "en"
+  },
+  {
+    "disp": "その古い歌を聴くと、私は非常に懐かしい気持ちになります。",
+    "q": "I feel very nostalgic when I hear that old song.",
+    "lang": "en"
+  },
+  {
+    "disp": "それらの古い写真は毎日、私を非常に懐かしい気持ちにさせます。",
+    "q": "Those old photographs make me feel quite nostalgic every day.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は会議中に突然の怒りの爆発を見せた。",
+    "q": "He had a sudden outburst of anger during the meeting.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は部屋で突然の笑い声の爆発を見せた。",
+    "q": "She showed a sudden outburst of laughter in the room.",
+    "lang": "en"
+  },
+  {
+    "disp": "空はゆっくりと非常に暗く不吉な色に変わりました。",
+    "q": "The sky turned a very dark and ominous color slowly.",
+    "lang": "en"
+  },
+  {
+    "disp": "その古い家には部屋の中に不吉な匂いがありました。",
+    "q": "The old house had an ominous smell inside the room.",
+    "lang": "en"
+  },
+  {
+    "disp": "この仕事を私への負担にしないでください。",
+    "q": "Please do not make this work a burden for me.",
+    "lang": "en"
+  },
+  {
+    "disp": "新しい政策は私たちの日常の仕事に負担を加えます。",
+    "q": "The new policy adds a burden to our daily work.",
+    "lang": "en"
+  },
+  {
+    "disp": "その弁護士は貧困層の権利を主張するでしょう。",
+    "q": "The lawyer will advocate for the rights of the poor.",
+    "lang": "en"
+  },
+  {
+    "disp": "人々は都市の居住条件を改善するために政策変更を提唱します。",
+    "q": "People advocate for policy change to improve city living conditions.",
+    "lang": "en"
+  },
+  {
+    "disp": "この本を読むことは本当に価値のあるリラックスする方法です。",
+    "q": "Reading this book is a truly worthwhile way to relax.",
+    "lang": "en"
+  },
+  {
+    "disp": "ここにもう一晩泊まることは本当に価値がありますか。",
+    "q": "Is it really worthwhile to stay here for another night?",
+    "lang": "en"
+  },
+  {
+    "disp": "私は生のニンジンが好きです。とてもカリカリしています。",
+    "q": "I love eating raw carrots because they taste very crunchy.",
+    "lang": "en"
+  },
+  {
+    "disp": "クッキーはおいしかったです。私にはカリカリしすぎでした。",
+    "q": "The cookies tasted good but were too crunchy for me.",
+    "lang": "en"
+  },
+  {
+    "disp": "来月、古い台所を全面的に改修する予定です。",
+    "q": "We plan to fully renovate the old kitchen next month.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らは価値を上げるために家を改装したいです。",
+    "q": "They want to renovate their house to increase its value.",
+    "lang": "en"
+  },
+  {
+    "disp": "今日は外出する前にあなたの部屋を片付けてください。",
+    "q": "Please tidy up your room before you go outside today.",
+    "lang": "en"
+  },
+  {
+    "disp": "夕食を作った後は台所を片付ける必要があります。",
+    "q": "You need to tidy up the kitchen after cooking dinner.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは常に会社の規則を遵守しなければなりません。",
+    "q": "We must abide by the company rules at all times.",
+    "lang": "en"
+  },
+  {
+    "disp": "訪問者はセキュリティプロトコルを厳格に遵守する必要があります。",
+    "q": "Visitors are required to abide by the security protocols strictly.",
+    "lang": "en"
+  },
+  {
+    "disp": "私はその車を直す方法が全くわかりませんでした。",
+    "q": "I am completely clueless about how to fix this car.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は難しい質問の答えが全くわかりませんでした。",
+    "q": "She was clueless about the answer to that hard question.",
+    "lang": "en"
+  },
+  {
+    "disp": "私は古い木製の引き出しの中に多くの雑多な書類を見つけた。",
+    "q": "I found many miscellaneous papers inside the old wooden drawer.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は近くのコンビニで今日、雑多なお菓子を買った。",
+    "q": "She bought miscellaneous snacks at the convenience store nearby today.",
+    "lang": "en"
+  },
+  {
+    "disp": "医者はその傷が今日非常に速く治っていると話しました。",
+    "q": "The doctor said the wound is healing much faster today.",
+    "lang": "en"
+  },
+  {
+    "disp": "感染を防ぐために、開いた傷に触らないでください。",
+    "q": "Please do not touch the open wound to prevent infection.",
+    "lang": "en"
+  },
+  {
+    "disp": "先生はその喧嘩について生徒を厳しく叱ることにしました。",
+    "q": "The teacher decided to reprimand the student for the fight.",
+    "lang": "en"
+  },
+  {
+    "disp": "犬が靴を噛んだからといって、厳しく叱らないでください。",
+    "q": "Please do not reprimand the dog for chewing the shoe.",
+    "lang": "en"
+  },
+  {
+    "disp": "二つの隣国は昨日正式に平和条約に調印しました。",
+    "q": "The two neighboring countries officially signed a peace treaty yesterday.",
+    "lang": "en"
+  },
+  {
+    "disp": "この重要な条約はすべての人の基本的権利を守ります。",
+    "q": "This important treaty protects the basic rights of all people.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちはこの薬の効能を慎重にテストする必要があります。",
+    "q": "We need to test the efficacy of this drug carefully.",
+    "lang": "en"
+  },
+  {
+    "disp": "その研究は新しいトレーニングプログラムの効果を測定しました。",
+    "q": "The study measured the efficacy of the new training program.",
+    "lang": "en"
+  },
+  {
+    "disp": "健全な職場環境には相互の尊重が絶対に不可欠です。",
+    "q": "Mutual respect is absolutely essential for a healthy working environment.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らは共有された将来の計画について相互の理解を持っています。",
+    "q": "They have a mutual understanding about their shared future plans.",
+    "lang": "en"
+  },
+  {
+    "disp": "忠実度の高いオーディオシステムは高価ですが、そのコストに見合っています。",
+    "q": "High fidelity audio systems are expensive but worth the cost.",
+    "lang": "en"
+  },
+  {
+    "disp": "芸術家は元の音楽的ビジョンへの忠実さを深く重視していました。",
+    "q": "The artist valued fidelity to his original musical vision deeply.",
+    "lang": "en"
+  },
+  {
+    "disp": "会議が始まる前に、システム全体をオーバーホールします。",
+    "q": "We will overhaul the entire system before the meeting starts.",
+    "lang": "en"
+  },
+  {
+    "disp": "整備士は古いエンジンをオーバーホールして直します。",
+    "q": "The mechanic must overhaul the old engine to fix it.",
+    "lang": "en"
+  },
+  {
+    "disp": "植物は太陽光を吸収して、丈夫な葉を作ります。",
+    "q": "Plants absorb sunlight energy to help them grow strong leaves.",
+    "lang": "en"
+  },
+  {
+    "disp": "スポンジは床にこぼれたすべての水を吸収します。",
+    "q": "The sponge will absorb all the water from the floor.",
+    "lang": "en"
+  },
+  {
+    "disp": "少年は正午まで部屋から現れなかった。",
+    "q": "The boy did not emerge from his room until noon.",
+    "lang": "en"
+  },
+  {
+    "disp": "警告を無視すると多くの問題が現れる。",
+    "q": "Many problems will emerge if we ignore the warning signs.",
+    "lang": "en"
+  },
+  {
+    "disp": "雨は私たちの明日の旅行計画を妨げるでしょう。",
+    "q": "Heavy rain will hinder our plans for the trip tomorrow.",
+    "lang": "en"
+  },
+  {
+    "disp": "恐れがあなたの夢を達成するのを妨げないようにしてください。",
+    "q": "Do not let fear hinder you from achieving your dreams.",
+    "lang": "en"
+  },
+  {
+    "disp": "強い風は、古い木製の塔を簡単に倒すかもしれません。",
+    "q": "The strong wind could topple the old wooden tower easily.",
+    "lang": "en"
+  },
+  {
+    "disp": "重力の力が本のかたまりを倒させました。",
+    "q": "The force of gravity made the stack of books topple.",
+    "lang": "en"
+  },
+  {
+    "disp": "この儀式は彼らの毎日の習慣にとって重要な一部です。",
+    "q": "This ritual is an important part of their daily routine.",
+    "lang": "en"
+  },
+  {
+    "disp": "式典には故人を敬うための象徴的な儀式が含まれていました。",
+    "q": "The ceremony included a symbolic ritual to honor the dead.",
+    "lang": "en"
+  },
+  {
+    "disp": "夕食の時間までに日々の雑用を終わらせる必要があります。",
+    "q": "I need to finish my daily chores before dinner time.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は全ての雑用を終わらせて外で遊ぶために出かけた。",
+    "q": "He finished all his chores and went out to play.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は長い静かな午後、小声でつぶやき始めた。",
+    "q": "He started to mumble softly during the long quiet afternoon.",
+    "lang": "en"
+  },
+  {
+    "disp": "私と話しているときは、答えを小声でつぶやかないでください。",
+    "q": "Please do not mumble your answer when speaking to me.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちはしばしば成功を努力ではなく偶然に帰する。",
+    "q": "We often attribute success to luck instead of hard work.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は自分の勝ちを厳しい毎日の練習に帰する。",
+    "q": "He attributes his win to his strict daily training routine.",
+    "lang": "en"
+  },
+  {
+    "disp": "その店で、あなたは多くの種類の調味料を買うことができます。",
+    "q": "You can buy many kinds of condiment in the store.",
+    "lang": "en"
+  },
+  {
+    "disp": "より良い味のためにあなたのサラダにこの調味料を加えてください。",
+    "q": "Please add this condiment to your salad for better flavor.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは締切までにこの問題を解決する必要があります。",
+    "q": "We need to resolve this problem before the deadline arrives.",
+    "lang": "en"
+  },
+  {
+    "disp": "私は今、毎日スキルを向上させることを決心しています。",
+    "q": "I resolve to improve my skills every single day now.",
+    "lang": "en"
+  },
+  {
+    "disp": "熱い日差しで、私の手に痛い水膨れができました。",
+    "q": "The hot sun caused a painful blister on my hand.",
+    "lang": "en"
+  },
+  {
+    "disp": "その水膨れが治るまで、決して潰さないでください。",
+    "q": "Please do not pop that blister until it heals well.",
+    "lang": "en"
+  },
+  {
+    "disp": "その爆発は部屋全体に強力な爆風をもたらしました。",
+    "q": "The explosion sent a powerful blast through the entire room.",
+    "lang": "en"
+  },
+  {
+    "disp": "突然の冷たい突風が紙を部屋中に吹き飛ばしました。",
+    "q": "A sudden blast of cold wind blew the papers everywhere.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は成功する芸術家になる寸前です。",
+    "q": "She is on the verge of becoming a successful artist.",
+    "lang": "en"
+  },
+  {
+    "disp": "子供たちはよく道路の草むらのそばで遊びます。",
+    "q": "Children often play near the grassy verge of the road.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼の陽気な性格は、友達の間でとても人気があった。",
+    "q": "His jovial personality made him very popular among his friends.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は陽気な笑顔と温かい言葉で私たちを迎えた。",
+    "q": "She greeted us with a jovial smile and warm words.",
+    "lang": "en"
+  },
+  {
+    "disp": "この装置は床から汚れを取り除くために吸引を使います。",
+    "q": "This device uses suction to remove dirt from the floor.",
+    "lang": "en"
+  },
+  {
+    "disp": "今日は掃除機の吸引パワーを強くしてください。",
+    "q": "Please increase the suction power on the vacuum cleaner today.",
+    "lang": "en"
+  },
+  {
+    "disp": "その妄想のうちにいることは、あなたに大きな苦しみだけをもたらす。",
+    "q": "Living in that delusion will only cause you great pain.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は無限の権力という妄想に完全に飲み込まれた。",
+    "q": "She was consumed by the total delusion of unlimited power.",
+    "lang": "en"
+  },
+  {
+    "disp": "五米ドルは三百円に相当します。",
+    "q": "Five US dollars is equivalent to three hundred Japanese yen.",
+    "lang": "en"
+  },
+  {
+    "disp": "この役職は事務所のマネージャーと同等です。",
+    "q": "This position is equivalent to a manager in the office.",
+    "lang": "en"
+  },
+  {
+    "disp": "その悪いニュースは投資家たちを全くがっかりさせませんでした。",
+    "q": "The bad news did not dismay the investors at all.",
+    "lang": "en"
+  },
+  {
+    "disp": "そのような衝撃的な結果は部屋にいるみんなを失望させるかもしれません。",
+    "q": "Such a shocking result may dismay everyone in the room.",
+    "lang": "en"
+  },
+  {
+    "disp": "単一の誤った仮定に基づいて計画を建ててはいけません。",
+    "q": "Do not build your plans on a single faulty assumption.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちの成功はこの仮定の真実性に完全に依存しています。",
+    "q": "Our success depends entirely on the truth of this assumption.",
+    "lang": "en"
+  },
+  {
+    "disp": "あなたは手だけで簡単に電線をねじることができます。",
+    "q": "You can twist the wire easily with just your hand.",
+    "lang": "en"
+  },
+  {
+    "disp": "その物語は結末で驚くべきねじれがありました。",
+    "q": "The story had a surprising twist at the very end.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は真実を隠すために書類を改ざんしようとした。",
+    "q": "He tried to falsify the documents to hide the truth.",
+    "lang": "en"
+  },
+  {
+    "disp": "余分な給料をもらうためにタイムシートを改ざんしないでください。",
+    "q": "Do not falsify your time sheets to get more pay.",
+    "lang": "en"
+  },
+  {
+    "disp": "この小さな箱の中に紙を乱雑にしないでください。",
+    "q": "Please do not jumble your papers inside this small box.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女はカードを配る前にそれらを乱雑に混ぜます。",
+    "q": "She will jumble the cards before she deals them out.",
+    "lang": "en"
+  },
+  {
+    "disp": "この赤くて強い糸で服を縫ってください。",
+    "q": "Please use this strong red thread to sew the shirt.",
+    "lang": "en"
+  },
+  {
+    "disp": "そのジャケットの緩んだ糸をすぐに直してください。",
+    "q": "You must fix this loose thread on your jacket quickly.",
+    "lang": "en"
+  },
+  {
+    "disp": "1人の貴族は昨日午後、大きな公園をゆっくり歩いていました。",
+    "q": "An aristocrat walked slowly through the big park yesterday afternoon.",
+    "lang": "en"
+  },
+  {
+    "disp": "その貴族は彼の富む家族から巨大な領地を相続しました。",
+    "q": "The aristocrat inherited huge estates from his wealthy family members.",
+    "lang": "en"
+  },
+  {
+    "disp": "どうか、この重要な書類を今日、一瞥してください。",
+    "q": "Please take a quick glance at this important document today.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は歩きながら、不安そうに肩越しに一瞥した。",
+    "q": "He cast a nervous glance over his shoulder while walking.",
+    "lang": "en"
+  },
+  {
+    "disp": "その白鳥は冷たい青い水の上を優雅に滑っていくでしょう。",
+    "q": "The swan will glide gracefully across the cold blue water.",
+    "lang": "en"
+  },
+  {
+    "disp": "その古い椅子はこの床の上を滑らかに動き続けています。",
+    "q": "The old chair continues to glide smoothly on this floor.",
+    "lang": "en"
+  },
+  {
+    "disp": "私は庭で偶然、古い硬貨を見つけました。",
+    "q": "I accidentally came across an old coin in the garden.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は旅行中に新しいアイデアを見つけることを願っています。",
+    "q": "She hopes to come across new ideas during her trip.",
+    "lang": "en"
+  },
+  {
+    "disp": "ロープ芸人は今ワイヤーをきつく締め上げます。",
+    "q": "The tightrope artist will tighten up the wire right now.",
+    "lang": "en"
+  },
+  {
+    "disp": "ネジが落ちる前にそれをきつく締めてください。",
+    "q": "You must tighten up the screw before it falls down.",
+    "lang": "en"
+  },
+  {
+    "disp": "学者は借用した文章には常に引用を記載する必要があります。",
+    "q": "Scholars must provide a citation for any borrowed written material.",
+    "lang": "en"
+  },
+  {
+    "disp": "他の著者の著作を使うときは、必ず引用をする必要があります。",
+    "q": "You need a citation whenever you use another author's work.",
+    "lang": "en"
+  },
+  {
+    "disp": "部屋を適切に換気するために窓を開けるべきです。",
+    "q": "You should open the window to ventilate the room properly.",
+    "lang": "en"
+  },
+  {
+    "disp": "肉を調理した後は、台所を換気することが重要です。",
+    "q": "It is important to ventilate your kitchen after cooking meat.",
+    "lang": "en"
+  },
+  {
+    "disp": "この生存可能な計画はこの種が冬を生き抜くのを助けます。",
+    "q": "This viable plan helps the species survive the cold winter.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちはこの大きな嵐を生き抜くために生存可能な方法が必要です。",
+    "q": "We need a viable way to survive this big storm.",
+    "lang": "en"
+  },
+  {
+    "disp": "当店の価格は季節と現在の在庫によって異なります。",
+    "q": "Our prices vary based on the season and current stock.",
+    "lang": "en"
+  },
+  {
+    "disp": "到着時間は変更される可能性がありますので、まずお電話ください。",
+    "q": "Your arrival time may vary, so please call us first.",
+    "lang": "en"
+  },
+  {
+    "disp": "この一時的な気持ちは単に、すぐに終わってしまうでしょう。",
+    "q": "This temporary feeling is merely transient and will end soon.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは人生の一時的な瞬間を今大切にするべきです。",
+    "q": "We should cherish the transient moments in our life now.",
+    "lang": "en"
+  },
+  {
+    "disp": "山々の旅は皆にとって本当に危険でした。",
+    "q": "The journey through the mountains was truly perilous for everyone.",
+    "lang": "en"
+  },
+  {
+    "disp": "夜に一人で歩くのは危険な決断です。",
+    "q": "It is a perilous decision to walk alone at night.",
+    "lang": "en"
+  },
+  {
+    "disp": "この白い石造りの正面は、この建物にとって非常に印象的です。",
+    "q": "The white stone facade looks very impressive on this building.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らは建物の正面全体を鮮やかな黄色のペンキで塗りました。",
+    "q": "They painted the entire front facade with bright yellow paint.",
+    "lang": "en"
+  },
+  {
+    "disp": "連邦政府はすべての重要な国家法を非常に厳格に執行します。",
+    "q": "The federal government enforces all important national laws very strictly.",
+    "lang": "en"
+  },
+  {
+    "disp": "多くの国は中央政府のために連邦制を採用しています。",
+    "q": "Many countries have a federal system for their national government.",
+    "lang": "en"
+  },
+  {
+    "disp": "政府は昨年全国の軍事武装を大幅に増強した。",
+    "q": "The government increased the nation's military armament significantly last year.",
+    "lang": "en"
+  },
+  {
+    "disp": "兵士は戦闘が始まる前に武装を確認しなければならない。",
+    "q": "Every soldier must check the armament before the battle begins.",
+    "lang": "en"
+  },
+  {
+    "disp": "新鮮なパンの香りが台所いっぱいに広がりました。",
+    "q": "The smell of fresh bread began to permeate the kitchen.",
+    "lang": "en"
+  },
+  {
+    "disp": "安心感が彼女の全身に染み込んできました。",
+    "q": "A sense of calm began to permeate her entire body.",
+    "lang": "en"
+  },
+  {
+    "disp": "兵士たちは昨日、敵軍と戦うために必死に戦った。",
+    "q": "The soldiers fought hard to combat the enemy army yesterday.",
+    "lang": "en"
+  },
+  {
+    "disp": "定期的な運動は健康の問題に対抗する素晴らしい方法です。",
+    "q": "Regular exercise is a great way to combat health issues.",
+    "lang": "en"
+  },
+  {
+    "disp": "重い雨の中で、私はかろうじて道を見ることができました。",
+    "q": "I could barely see the road in the heavy rain.",
+    "lang": "en"
+  },
+  {
+    "disp": "バスが出発する前に彼女はやっと乗ることができました。",
+    "q": "She barely managed to catch the bus before it left.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は父から事業を継承するつもりだ。",
+    "q": "He plans to take over the business from his father.",
+    "lang": "en"
+  },
+  {
+    "disp": "定年後に誰があなたの現在の役割を引き継ぐのでしょうか。",
+    "q": "Who will take over your current duties after you retire?",
+    "lang": "en"
+  },
+  {
+    "disp": "上司は彼の悪いパフォーマンスのために降格を与えた。",
+    "q": "The manager gave a demotion for his poor work performance.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は懸命に働いたので突然の降格は避けられることを願った。",
+    "q": "She hoped her hard work would avoid a sudden demotion.",
+    "lang": "en"
+  },
+  {
+    "disp": "ここにいる全員に聞こえるように、お話しください。",
+    "q": "Please speak so your voice is audible to everyone here.",
+    "lang": "en"
+  },
+  {
+    "disp": "大きな群衆の騒音の中では、その微かな音はほとんど聞こえませんでした。",
+    "q": "The faint sound was barely audible over loud crowd noise.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼の非常に慎重な観察が、謎の事件を解決するのを助けた。",
+    "q": "His very careful observation helped them solve the mystery case.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は長いフィールド調査中に重要な観察をすべて記録した。",
+    "q": "She recorded every important observation during the long field trip.",
+    "lang": "en"
+  },
+  {
+    "disp": "問題を効果的に解決するために、統一された戦略が必要です。",
+    "q": "We need a unified strategy to solve this problem effectively.",
+    "lang": "en"
+  },
+  {
+    "disp": "国々は長く困難な冬の間も、統一されたままでした。",
+    "q": "The nations remained unified during the long and difficult winter.",
+    "lang": "en"
+  },
+  {
+    "disp": "これらのノートを単一の明確な要約に統合してください。",
+    "q": "Please synthesize all these notes into a single clear summary.",
+    "lang": "en"
+  },
+  {
+    "disp": "科学者はよく特別な機械を使って化学化合物を毎日合成します。",
+    "q": "Scientists often use special machines to synthesize chemical compounds daily.",
+    "lang": "en"
+  },
+  {
+    "disp": "あなたの先入観が今日の最終決定に影響しないようにしてください。",
+    "q": "Do not let your prejudice affect your final decision today.",
+    "lang": "en"
+  },
+  {
+    "disp": "この仕事を始める前に、あらゆる先入観を捨てなければなりません。",
+    "q": "You must remove any prejudice before you start this work.",
+    "lang": "en"
+  },
+  {
+    "disp": "メカニックはエンジンの壊れた金属軸を交換しました。",
+    "q": "The mechanic replaced the broken metal shaft in the engine.",
+    "lang": "en"
+  },
+  {
+    "disp": "重たい鋼鉄の軸がモーターを車輪に接続します。",
+    "q": "A heavy steel shaft connects the motor to the wheel.",
+    "lang": "en"
+  },
+  {
+    "disp": "台所の床の濡れた汚れを拭き取ってください。",
+    "q": "Please wipe up the wet mess on the kitchen floor.",
+    "lang": "en"
+  },
+  {
+    "disp": "食べ終わった後でパン粉をすべて拭き取ってください。",
+    "q": "You should wipe up the crumbs after we finish eating.",
+    "lang": "en"
+  },
+  {
+    "disp": "このドアを開けるには、取っ手を強く掴む必要があります。",
+    "q": "You need to grasp the handle tightly to open this door.",
+    "lang": "en"
+  },
+  {
+    "disp": "この難しい文の意味を把握してみてください。",
+    "q": "Please try to grasp the meaning of this difficult sentence.",
+    "lang": "en"
+  },
+  {
+    "disp": "私が助けを求めた時、彼は肩をすくめた。",
+    "q": "He just shrugged his shoulders when I asked for help.",
+    "lang": "en"
+  },
+  {
+    "disp": "私が話している間は、私に向かって肩をすくめないでください。",
+    "q": "Please do not shrug when I am talking to you.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は見知らぬ人というより、親切な知人のようです。",
+    "q": "He seems like a friendly acquaintance rather than a stranger.",
+    "lang": "en"
+  },
+  {
+    "disp": "私はこの昔の知人との連絡を取り続ける必要があります。",
+    "q": "I need to maintain contact with this one old acquaintance.",
+    "lang": "en"
+  },
+  {
+    "disp": "このゴムバンドは非常に弾力性があり、すぐに元に戻ります。",
+    "q": "This rubber band is very resilient and snaps back instantly.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は非常に回復力のある人で、希望を諦めません。",
+    "q": "She is a resilient person who never gives up hope.",
+    "lang": "en"
+  },
+  {
+    "disp": "二つの主な選択肢の間には明確な区別があります。",
+    "q": "There is a clear distinction between the two main options.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは今、善と悪の区別をつけなければならない。",
+    "q": "We must make a distinction between right and wrong now.",
+    "lang": "en"
+  },
+  {
+    "disp": "結果が非常に良いことは明白に思えます。",
+    "q": "It is quite apparent that the results are very good.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼の深い恐怖は勇敢な顔にもかかわらず明白でした。",
+    "q": "His deep fear was quite apparent despite his brave face.",
+    "lang": "en"
+  },
+  {
+    "disp": "今日はこのプロジェクトを終えるのに十分な時間がありますか？",
+    "q": "Do we have adequate time to finish this project today?",
+    "lang": "en"
+  },
+  {
+    "disp": "冬に外に出る際は適切な服装をするべきです。",
+    "q": "You should wear adequate clothing when going outside in winter.",
+    "lang": "en"
+  },
+  {
+    "disp": "なぜあなたはなおもそんな古い習慣にしがみつくのですか。",
+    "q": "Why do you still cling to such an old habit?",
+    "lang": "en"
+  },
+  {
+    "disp": "その小さな子供は母親に強くしがみつき始めました。",
+    "q": "The small child began to cling to his mother tightly.",
+    "lang": "en"
+  },
+  {
+    "disp": "あなたは毎日の習慣に新しいエネルギーを注入する必要があります。",
+    "q": "You must inject some new energy into your daily routine.",
+    "lang": "en"
+  },
+  {
+    "disp": "医師はあなたの静脈に特別な薬を注入します。",
+    "q": "The doctor will inject a special medicine into your vein.",
+    "lang": "en"
+  },
+  {
+    "disp": "良い料理を作るには材料の正しい比率が必要です。",
+    "q": "You need the right ratio of ingredients for good cooking.",
+    "lang": "en"
+  },
+  {
+    "disp": "ボスと従業員の給与比率は非常に不公平です。",
+    "q": "The salary ratio between bosses and employees is very unfair.",
+    "lang": "en"
+  },
+  {
+    "disp": "両国は先週、公式な同盟協定に署名しました。",
+    "q": "The two countries signed a formal alliance agreement last week.",
+    "lang": "en"
+  },
+  {
+    "disp": "敵と戦うために彼らは強力な同盟を結んだ。",
+    "q": "They formed a powerful alliance to fight against the enemy.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らは職場近くの高級なカフェで食事することを好みます。",
+    "q": "They prefer eating at an upscale cafe near their office.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は非常に高級な店で素敵なドレスを買いました。",
+    "q": "She bought a beautiful dress at that very upscale shop.",
+    "lang": "en"
+  },
+  {
+    "disp": "このゲートは堅い金属製の軸一つで自由に回転します。",
+    "q": "This gate rotates freely on a single sturdy metal pivot.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は計画全体の回転軸となる人物です。",
+    "q": "He is the pivot around which the whole plan turns.",
+    "lang": "en"
+  },
+  {
+    "disp": "最終的に、私たちは昨日その大きな山の頂上に到達しました。",
+    "q": "We finally reached the summit of the big mountain yesterday.",
+    "lang": "en"
+  },
+  {
+    "disp": "頂上からの素晴らしい眺めは今日とても美しく見えます。",
+    "q": "The amazing view from the summit looks very beautiful today.",
+    "lang": "en"
+  },
+  {
+    "disp": "その若い馬はとても扱いやすく、訓練しやすいです。",
+    "q": "The young horse is quite docile and easy to train.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は自分の意見を聞いてくれる扱いやすい友達を好みます。",
+    "q": "She prefers a docile friend who listens to her ideas.",
+    "lang": "en"
+  },
+  {
+    "disp": "その安易な言い訳は、あなたの努力不足を正当化しません。",
+    "q": "That facile excuse does not justify your lack of effort.",
+    "lang": "en"
+  },
+  {
+    "disp": "安易な答えは、私たちが直面する複雑な問題をほとんど解決しません。",
+    "q": "A facile answer rarely solves the complex problems we face.",
+    "lang": "en"
+  },
+  {
+    "disp": "その計画は現在の予算と一致しません。",
+    "q": "The plan does not accord well with our current budget.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼はそこで年上の従業員に適切な敬意を払うべきです。",
+    "q": "He must accord proper respect to the older employees there.",
+    "lang": "en"
+  },
+  {
+    "disp": "この手紙で気持ちをうまく伝えるにはどうすればいいですか。",
+    "q": "How can I best convey my feelings through this letter?",
+    "lang": "en"
+  },
+  {
+    "disp": "これらの重い箱を安全に運ぶにはトラックが必要です。",
+    "q": "A truck is needed to convey these heavy boxes safely.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは夢を追い求め、将来成功するつもりです。",
+    "q": "We will pursue our dreams and succeed in the future.",
+    "lang": "en"
+  },
+  {
+    "disp": "警官たちはその泥棒を今夜すぐに追跡する必要がある。",
+    "q": "The police officers need to pursue the thief immediately tonight.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は新しい気候変動記事に題する予定です。",
+    "q": "He plans to entitle his new article about Climate Change.",
+    "lang": "en"
+  },
+  {
+    "disp": "特定のプロジェクトタイトルで今日この文書を題してください。",
+    "q": "Please entitle this document with the specific project title today.",
+    "lang": "en"
+  },
+  {
+    "disp": "この新しい機械はコーヒーと紅茶を現在無料で分配します。",
+    "q": "This new machine will dispense free coffee and tea now.",
+    "lang": "en"
+  },
+  {
+    "disp": "医師は常にすべての患者に薬を慎重に配布しなければなりません。",
+    "q": "Doctors must always dispense medication carefully to all their patients.",
+    "lang": "en"
+  },
+  {
+    "disp": "有名な俳優がファンのために私の写真に署名しました。",
+    "q": "The famous actor signed my photo for a fan autograph.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は特別な箱の中にその署名を大切に保管していました。",
+    "q": "She kept the autograph safely inside her special memory box.",
+    "lang": "en"
+  },
+  {
+    "disp": "会議でスケジュールを詰め込みすぎないようにしてください。",
+    "q": "Please do not cram your schedule with so many meetings.",
+    "lang": "en"
+  },
+  {
+    "disp": "多くの学生は大試験の前夜にすべて詰め込みます。",
+    "q": "Many students cram everything the night before the big exam.",
+    "lang": "en"
+  },
+  {
+    "disp": "嘘をついていると私をほのめかさないでください。",
+    "q": "Please do not imply that I am telling a lie.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は私たちが去る必要があるとほのめかしたと思います。",
+    "q": "I believe he did imply that we need to leave.",
+    "lang": "en"
+  },
+  {
+    "disp": "山への長いハイキングは、皆にとって非常に困難だった。",
+    "q": "The long hike up the mountain was arduous for everyone.",
+    "lang": "en"
+  },
+  {
+    "disp": "新しい言語を学ぶことは、しばしば非常に骨の折れる過程である。",
+    "q": "Learning a new language can be quite an arduous process.",
+    "lang": "en"
+  },
+  {
+    "disp": "緊急性の高いメールに非常に迅速な返信を送ってください。",
+    "q": "Please send a very prompt reply to my urgent email.",
+    "lang": "en"
+  },
+  {
+    "disp": "昨日受けた迅速な手助けは非常に感謝されました。",
+    "q": "The prompt help we received yesterday was very much appreciated.",
+    "lang": "en"
+  },
+  {
+    "disp": "この大きなセラミック製の容器は、旅行用の新鮮な水を入れています。",
+    "q": "This large ceramic vessel holds fresh water for the trip.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らは油を安全に保管するために特別な金属容器を使いました。",
+    "q": "They used a special metal vessel to store the oil safely.",
+    "lang": "en"
+  },
+  {
+    "disp": "犯罪ギャングはその会社から多額の身代金を要求した。",
+    "q": "The criminal gang demanded a large ransom from the company.",
+    "lang": "en"
+  },
+  {
+    "disp": "子供のための身代金を支払うことに誰も同意しなかった。",
+    "q": "No one agreed to pay the ransom for the child.",
+    "lang": "en"
+  },
+  {
+    "disp": "信頼は構築に必要な忍耐を伴う触れられない資産です。",
+    "q": "Trust is an intangible asset that requires patience to build.",
+    "lang": "en"
+  },
+  {
+    "disp": "友情は世界中の人々をつなぐ触れられない絆です。",
+    "q": "Friendship is an intangible bond connecting people around the world.",
+    "lang": "en"
+  },
+  {
+    "disp": "我々は決定を下す前に状況を評価しなければならない。",
+    "q": "We must assess the situation before we make any decisions.",
+    "lang": "en"
+  },
+  {
+    "disp": "専門家たちはすぐに古い建物の状態を評価する。",
+    "q": "Experts will assess the condition of the old building soon.",
+    "lang": "en"
+  },
+  {
+    "disp": "契約の正式な終了は来週行われます。",
+    "q": "The official termination of the contract will happen next week.",
+    "lang": "en"
+  },
+  {
+    "disp": "終了手続きには両当事者からの書面通知が必要です。",
+    "q": "The termination process requires written notice from both involved parties.",
+    "lang": "en"
+  },
+  {
+    "disp": "その部屋は単純な線のみで、厳格なデザインでした。",
+    "q": "The room had an austere design with simple lines only.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は将来のためにお金を貯めるために厳格な生活を送りました。",
+    "q": "She lived an austere life to save money for later.",
+    "lang": "en"
+  },
+  {
+    "disp": "この店の店子は毎月、時間通りに家賃を支払います。",
+    "q": "The shop tenant pays rent every single month on time.",
+    "lang": "en"
+  },
+  {
+    "disp": "この店子は毎日、建物ルールを厳守する必要があります。",
+    "q": "This tenant must follow all building rules strictly every day.",
+    "lang": "en"
+  },
+  {
+    "disp": "大きな人生の選択をするときは、いつも私の直感を信じています。",
+    "q": "I always trust my intuition when making big life choices.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女の強い直感はいつもその大きな間違いを避けてくれました。",
+    "q": "Her strong intuition always helped her avoid that big mistake.",
+    "lang": "en"
+  },
+  {
+    "disp": "その少年は将来、家族の遺産を相続するでしょう。",
+    "q": "The young boy will inherit his family heritage one day.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らは現金のために全家族の遺産を売ると決めた。",
+    "q": "They decided to sell the entire family heritage for cash.",
+    "lang": "en"
+  },
+  {
+    "disp": "その論争的な決定は世論を非常にすぐに分極化する傾向がある。",
+    "q": "The controversial decision tends to polarize public opinion very quickly.",
+    "lang": "en"
+  },
+  {
+    "disp": "これらの具体的なトピックは人々を対立する側に容易に分極化させる。",
+    "q": "These specific topics easily polarize people into opposing sides today.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は非常に派手なネックレスを着けて、みんなの目を引きました。",
+    "q": "She wore a very gaudy necklace that caught everyone's eye.",
+    "lang": "en"
+  },
+  {
+    "disp": "その派手な建物は明るい日光の下でとても醜く見えました。",
+    "q": "The gaudy building looked very ugly in the bright sunlight.",
+    "lang": "en"
+  },
+  {
+    "disp": "地質学的隆起は、長い時間の中で山脈を大きく変えました。",
+    "q": "The geological uplift changed the mountain range significantly over time.",
+    "lang": "en"
+  },
+  {
+    "disp": "科学者たちは、火山の隆起が作物に与える影響を観察しています。",
+    "q": "Scientists observe the effects of the volcanic uplift on crops.",
+    "lang": "en"
+  },
+  {
+    "disp": "女性は、この事務所のスタッフの大多数を構成しています。",
+    "q": "Women constitute the majority of the staff in this office.",
+    "lang": "en"
+  },
+  {
+    "disp": "これらの異なる部品がこのエンジンの核構造を構成しています。",
+    "q": "These different pieces constitute the core structure of this engine.",
+    "lang": "en"
+  },
+  {
+    "disp": "きれいな白い皿に油の汚れがあります。",
+    "q": "There is a greasy smudge on the clean white plate.",
+    "lang": "en"
+  },
+  {
+    "disp": "透明なガラス窓から、その汚れを取り除いてください。",
+    "q": "Please remove that dirty smudge from the clear glass window.",
+    "lang": "en"
+  },
+  {
+    "disp": "大聖堂の天井には、高い石造りの丸天井があります。",
+    "q": "The cathedral features a high stone vault on the ceiling.",
+    "lang": "en"
+  },
+  {
+    "disp": "多くの建築家は教会に石造りの丸天井を好みます。",
+    "q": "Many architects love to build a stone vault in churches.",
+    "lang": "en"
+  },
+  {
+    "disp": "強い痛みは新しい薬を服用することで軽減されました。",
+    "q": "The severe pain was alleviated by taking the new medicine.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼のストレスレベルはリラックスした夏の休暇で軽減されました。",
+    "q": "His stress levels were alleviated by the relaxing summer vacation.",
+    "lang": "en"
+  },
+  {
+    "disp": "この用語の明確な定義を教えていただけますか？",
+    "q": "Could you please provide a clear definition of this term?",
+    "lang": "en"
+  },
+  {
+    "disp": "多くの人は真の幸福の定義を見つけるのに苦労します。",
+    "q": "Many people struggle to find the definition of true happiness.",
+    "lang": "en"
+  },
+  {
+    "disp": "経験豊富な医師が、怪我したランナーをすばらしい技術で治療しました。",
+    "q": "The experienced physician treated the injured runner with great skill.",
+    "lang": "en"
+  },
+  {
+    "disp": "あなたはかかりつけ医との予約をする必要があります。",
+    "q": "You need to make an appointment with your family physician.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は外見も振る舞いも祖母に似ています。",
+    "q": "She takes after her grandmother in looks and her behavior.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は多くの点で父親に似ていません。",
+    "q": "He does not take after his father in many ways.",
+    "lang": "en"
+  },
+  {
+    "disp": "体に過剰な砂糖があるのは良くないことです。",
+    "q": "It is bad to have excess sugar in your body.",
+    "lang": "en"
+  },
+  {
+    "disp": "マネージャーは今日、過剰な在庫を全て売りたいと思っています。",
+    "q": "The manager wants to sell all the excess stock today.",
+    "lang": "en"
+  },
+  {
+    "disp": "上司は彼を低い地位に左遷することに決めた。",
+    "q": "The manager decided to relegate him to a lower position.",
+    "lang": "en"
+  },
+  {
+    "disp": "今、この書類を優先度の低いフォルダに左遷してください。",
+    "q": "Please relegate this document to the lower priority folder now.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は自分の家族の幸福のために大きな犠牲を払いました。",
+    "q": "He made a great sacrifice for his own family's happiness.",
+    "lang": "en"
+  },
+  {
+    "disp": "健康をお金のために犠牲にしてはいけません。",
+    "q": "You cannot sacrifice your good health just for money's sake.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は彼らのビジネスの将来について深い不安を抱えていた。",
+    "q": "She held deep apprehension about the future of their business.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は試験の結果を待ちながら不安を感じていた。",
+    "q": "He waited in apprehension for the results of his test.",
+    "lang": "en"
+  },
+  {
+    "disp": "今日は彼女は頭の上に薄い白いベールをかぶりました。",
+    "q": "She wore a thin white veil over her head today.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らは真実を隠すために嘘を覆いとして使いました。",
+    "q": "They used lies as a veil to hide the truth.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女はいつも新鮮なハーブで食事をおしゃれに飾るのが好きです。",
+    "q": "She always likes to garnish the meal with fresh herbs.",
+    "lang": "en"
+  },
+  {
+    "disp": "シェフはその料理に色鮮やかな野菜で飾りつけます。",
+    "q": "The chef can garnish the dish with some colorful vegetables.",
+    "lang": "en"
+  },
+  {
+    "disp": "私は本当に今日新しいキッチン家電を買いたいです。",
+    "q": "I really want to buy a new kitchen appliance today.",
+    "lang": "en"
+  },
+  {
+    "disp": "あなたはこの壊れた電化製品を今日すぐに直してください。",
+    "q": "You must fix this broken appliance right away today please.",
+    "lang": "en"
+  },
+  {
+    "disp": "先生は生徒たちに良い価値観を教え込もうとした。",
+    "q": "The teacher tried to instill good values in the students.",
+    "lang": "en"
+  },
+  {
+    "disp": "親は子供たちに読書への愛を打ち込むべきだ。",
+    "q": "Parents should instill a love of reading in their children.",
+    "lang": "en"
+  },
+  {
+    "disp": "清潔な水へのアクセスは、すべての人にとって極めて重要です。",
+    "q": "Access to clean fresh water is truly vital for everyone.",
+    "lang": "en"
+  },
+  {
+    "disp": "十分な睡眠をとることは、健康を維持する上で極めて重要です。",
+    "q": "Getting enough sleep is absolutely vital for maintaining good health.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は昼食後にソファでうとうと眠るのが好きです。",
+    "q": "He likes to doze off on the sofa after lunch.",
+    "lang": "en"
+  },
+  {
+    "disp": "車を運転している間、うとうと眠らないでください。",
+    "q": "Do not doze off while you are driving the car.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼はコインを拾うために体をかがめました。",
+    "q": "He had to lean down to pick up the coin.",
+    "lang": "en"
+  },
+  {
+    "disp": "今、手すりにあまり強く寄りかからないでください。",
+    "q": "Please do not lean on the railing too hard now.",
+    "lang": "en"
+  },
+  {
+    "disp": "この深刻な問題を解決するために、抜本的な解決策が必要です。",
+    "q": "We need a radical solution to fix this serious issue.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女の急進的な見解は静かな会議室の全員を驚かせました。",
+    "q": "Her radical views shocked everyone in the quiet meeting room.",
+    "lang": "en"
+  },
+  {
+    "disp": "その古いレンガの建物は来年夏に大規模な改装を受ける。",
+    "q": "The old brick building will undergo major renovation next summer.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は深刻な病気を治すために手術を受けることに決めた。",
+    "q": "She decided to undergo surgery to cure her serious illness.",
+    "lang": "en"
+  },
+  {
+    "disp": "小さな変化の累積的な影響は、しばしば非常に強力になります。",
+    "q": "The cumulative effect of small changes often becomes very powerful.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは昨年の累積的な損失を追跡する必要があります。",
+    "q": "We must track the cumulative loss from the last year.",
+    "lang": "en"
+  },
+  {
+    "disp": "来年の経済見通しは非常に有望なようです。",
+    "q": "The economic outlook for the next year looks very promising.",
+    "lang": "en"
+  },
+  {
+    "disp": "将来市場動向についての見通しを説明してもらえますか？",
+    "q": "Could you explain your outlook on the future market trends?",
+    "lang": "en"
+  },
+  {
+    "disp": "この抽象的な理論は非常に多くの深い思考を必要とします。",
+    "q": "This abstract theory requires quite a lot of deep thinking.",
+    "lang": "en"
+  },
+  {
+    "disp": "抽象的な概念を現実世界のものとは混同しないでください。",
+    "q": "Please do not confuse abstract concepts with real world things.",
+    "lang": "en"
+  },
+  {
+    "disp": "現代の作家たちは、私たちの現在の社会に関連するテーマをよく探求します。",
+    "q": "Contemporary writers often explore themes relevant to our current society.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は常に現代的な服を、古い伝統的な衣装よりも好みます。",
+    "q": "She always prefers wearing contemporary clothes over old traditional outfits.",
+    "lang": "en"
+  },
+  {
+    "disp": "あなたは常に相手に対して敬意と優しさを示すべきです。",
+    "q": "You should always treat your opponent with respect and kindness.",
+    "lang": "en"
+  },
+  {
+    "disp": "その相手は非常に強く、素晴らしい技で戦った。",
+    "q": "The opponent was very strong and fought with great skill.",
+    "lang": "en"
+  },
+  {
+    "disp": "風が乾燥した庭の芝生に種をばらまきます。",
+    "q": "The wind will scatter seeds across the dry garden grass.",
+    "lang": "en"
+  },
+  {
+    "disp": "リビングの床におもちゃをまき散らさないでください。",
+    "q": "Do not scatter your toys over the living room floor.",
+    "lang": "en"
+  },
+  {
+    "disp": "計画の成功はこの一つの原理に依存しています。",
+    "q": "The success of the plan depends on this one principle.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は自身の生活で一つの原理に従っています。",
+    "q": "He follows one guiding principle in his own daily life.",
+    "lang": "en"
+  },
+  {
+    "disp": "古い木造の橋は嵐の間に崩壊するかもしれない。",
+    "q": "The old wooden bridge might collapse during a heavy storm.",
+    "lang": "en"
+  },
+  {
+    "disp": "その疲れ切った走者はレースの後に疲労で倒れるかもしれない。",
+    "q": "The tired runner could collapse from exhaustion after the race.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は大きな割引をとても愛する倹約な買い物上手です。",
+    "q": "She is a very thrifty shopper who loves big discounts.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は倹約な人で、全てのお金を注意深く貯めています。",
+    "q": "He is a thrifty man who saves every penny carefully.",
+    "lang": "en"
+  },
+  {
+    "disp": "あなたがそれを成し遂げる能力には、私は完全な信頼を置いています。",
+    "q": "I have full faith in your ability to do it.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は困難な時期でも友人たちへの信頼を維持しました。",
+    "q": "He kept faith in his friends during the difficult times.",
+    "lang": "en"
+  },
+  {
+    "disp": "警官は偽造の兆候を見つけるように訓練されています。",
+    "q": "Police officers are trained to spot any signs of forgery.",
+    "lang": "en"
+  },
+  {
+    "disp": "偽札を作ることは偽造と呼ばれる重罪です。",
+    "q": "Creating fake money is a serious crime known as forgery.",
+    "lang": "en"
+  },
+  {
+    "disp": "軍は敵を倒すために戦術的な動きを使いました。",
+    "q": "The military used tactical maneuvers to defeat the enemy forces.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は新技術に投資するために戦術的な決定をしました。",
+    "q": "He made a tactical decision to invest in new tech.",
+    "lang": "en"
+  },
+  {
+    "disp": "大きな小惑星が私たちの広大な太陽系を素早く移動しました。",
+    "q": "A large asteroid traveled quickly through our vast solar system.",
+    "lang": "en"
+  },
+  {
+    "disp": "科学者たちは地球に近い新しい小惑星を見つけました。",
+    "q": "Scientists recently found a new asteroid moving close to Earth.",
+    "lang": "en"
+  },
+  {
+    "disp": "水はすべての人間が生き延びるために不可欠です。",
+    "q": "Fresh water is essential for every human being to survive.",
+    "lang": "en"
+  },
+  {
+    "disp": "誠実は毎日良い健全な関係を築くために不可欠です。",
+    "q": "Honesty is essential for good and healthy relationships every day.",
+    "lang": "en"
+  },
+  {
+    "disp": "砂糖はこのおいしいデザートレシピの主な成分です。",
+    "q": "Sugar is a main component in this delicious dessert recipe.",
+    "lang": "en"
+  },
+  {
+    "disp": "水は健康な毎日の食事における重要な成分です。",
+    "q": "Water is a key component in a healthy daily diet.",
+    "lang": "en"
+  },
+  {
+    "disp": "職場の状況はますます混沌としています。",
+    "q": "The situation at work is becoming more and more chaotic.",
+    "lang": "en"
+  },
+  {
+    "disp": "梳かすのを忘れたため、彼女の髪は混沌としていました。",
+    "q": "Her hair was chaotic after she forgot to brush it.",
+    "lang": "en"
+  },
+  {
+    "disp": "公園で会った時のことを覚えていますか。",
+    "q": "Do you recall the time we met at the park?",
+    "lang": "en"
+  },
+  {
+    "disp": "会社はこの工場のすべての車を回収すると決めた。",
+    "q": "The company decided to recall all cars from this plant.",
+    "lang": "en"
+  },
+  {
+    "disp": "海外に行けば、多くの新しい友人に出会うでしょう。",
+    "q": "You will encounter many new friends if you travel abroad.",
+    "lang": "en"
+  },
+  {
+    "disp": "新しいシステムを使うときに、問題に遭遇しましたか？",
+    "q": "Did you encounter any problems when using the new system?",
+    "lang": "en"
+  },
+  {
+    "disp": "彼はすぐに日本で新しい冒険的事業を始めたいと考えている。",
+    "q": "He plans to start a new venture in Japan soon.",
+    "lang": "en"
+  },
+  {
+    "disp": "その事業は危険だったが、そこから学んだ。",
+    "q": "That business venture was risky but we learned from it.",
+    "lang": "en"
+  },
+  {
+    "disp": "嵐は彼らにとって非常に大きな経済大惨事を引き起こした。",
+    "q": "The storm caused a very massive financial catastrophe for them.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは同様の災害が真の大惨事にならないように努める。",
+    "q": "We must ensure no similar disaster becomes a true catastrophe.",
+    "lang": "en"
+  },
+  {
+    "disp": "そんなカジュアルな金曜日のパーティで、あなたは少しきついですね。",
+    "q": "You seem too uptight for such a casual Friday party.",
+    "lang": "en"
+  },
+  {
+    "disp": "ここで小さなことについて、そんなにきつい態度をとらないでください。",
+    "q": "Please do not get so uptight about small things here.",
+    "lang": "en"
+  },
+  {
+    "disp": "パッキングする際に、緩いケーブル同士を絡めないでください。",
+    "q": "Do not tangle the loose wires together while you pack.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女の長い髪は雨の中で絡まりやすかった。",
+    "q": "Her long hair tended to tangle easily in the rain.",
+    "lang": "en"
+  },
+  {
+    "disp": "我々はこれらの貧しい居住条件を改善するために努力しなければならない。",
+    "q": "We must work hard to ameliorate these poor living conditions.",
+    "lang": "en"
+  },
+  {
+    "disp": "この新しい法律は現在の経済状況を改善することを目的としている。",
+    "q": "This new law aims to ameliorate the current economic situation.",
+    "lang": "en"
+  },
+  {
+    "disp": "ソースを弱火でゆっくり煮ておいてください。",
+    "q": "Please allow the sauce to simmer gently on low heat.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼の怒りはいつも内側で静かに煮え始めた。",
+    "q": "His temper always started to simmer quietly beneath the surface.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは雨を悲しい気持ちの感覚と結び付けます。",
+    "q": "We often associate rain with a sense of sad feelings.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は腐敗した政治団体とは交際しないと決めました。",
+    "q": "He decided not to associate with any corrupt political groups.",
+    "lang": "en"
+  },
+  {
+    "disp": "王は危機に対処するために特別な使者を送った。",
+    "q": "The king sent a special envoy to handle the crisis.",
+    "lang": "en"
+  },
+  {
+    "disp": "我々は契約に署名するために使者を送る必要がある。",
+    "q": "We need to send an envoy to sign the agreement.",
+    "lang": "en"
+  },
+  {
+    "disp": "その女性はウェイターをテーブルまで手招きした。",
+    "q": "The lady beckoned the waiter to come to the table.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は手を振って近くの犬を手招きした。",
+    "q": "He waved his hand to beckon the dog near him.",
+    "lang": "en"
+  },
+  {
+    "disp": "現在の計画について話し合う適切な時間を選んでください。",
+    "q": "Please choose an appropriate time to discuss our current plans.",
+    "lang": "en"
+  },
+  {
+    "disp": "これは今後の学校の行事に適した制服ですか。",
+    "q": "Is this the appropriate uniform for the upcoming school event?",
+    "lang": "en"
+  },
+  {
+    "disp": "この記念品を安全に保管し、あなたを思い出せるようにしてください。",
+    "q": "Please keep this memento safely so I can remember you.",
+    "lang": "en"
+  },
+  {
+    "disp": "この小さな記念品は私の祖母の特別な愛を思い出させます。",
+    "q": "This small memento reminds me of my grandmother's special love.",
+    "lang": "en"
+  },
+  {
+    "disp": "鳥は眠る前に木に集まります。",
+    "q": "Birds congregate in the trees before they go to sleep.",
+    "lang": "en"
+  },
+  {
+    "disp": "人々はラッシュ時に駅前に集まるのが好きです。",
+    "q": "People like to congregate near the station during rush hour.",
+    "lang": "en"
+  },
+  {
+    "disp": "自分自身のために戦うには、本当に大胆さが必要です。",
+    "q": "It takes some real audacity to stand up for yourself.",
+    "lang": "en"
+  },
+  {
+    "disp": "先生に嘘をついた彼の大胆さは完全に受け入れられませんでした。",
+    "q": "His audacity to lie to the teacher was completely unacceptable.",
+    "lang": "en"
+  },
+  {
+    "disp": "高所恐怖症は、一般的な恐怖症の一種です。",
+    "q": "A fear of heights is a common type of phobia.",
+    "lang": "en"
+  },
+  {
+    "disp": "多くの人が特定の恐怖症を抱え、誰にも話していません。",
+    "q": "Many people live with a specific phobia without telling anyone.",
+    "lang": "en"
+  },
+  {
+    "disp": "警察はついに財布を盗んだ泥棒を逮捕しました。",
+    "q": "The police finally arrested the thief who stole my wallet.",
+    "lang": "en"
+  },
+  {
+    "disp": "その泥棒は長い間刑務所へ行くことになりました。",
+    "q": "That thief will go to prison for a long time.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは家族のために恒久的な家を見つけることを願っています。",
+    "q": "We hope to find a permanent home for our family.",
+    "lang": "en"
+  },
+  {
+    "disp": "このスタイルのタトゥーは永久なので、今慎重に考えてください。",
+    "q": "This style of tattoo is permanent, so think carefully now.",
+    "lang": "en"
+  },
+  {
+    "disp": "私はこのニュースがかなり良いことを保証できます。",
+    "q": "I can assure you that this news is quite good.",
+    "lang": "en"
+  },
+  {
+    "disp": "顧客にデータが安全であると保証する必要があります。",
+    "q": "He must assure the customers that the data is secure.",
+    "lang": "en"
+  },
+  {
+    "disp": "重要な会議が始まる前にスケジュールを同期する必要があります。",
+    "q": "We must synchronize our schedules before the important meeting starts.",
+    "lang": "en"
+  },
+  {
+    "disp": "今すぐにラップトップのファイルを同期する必要があります。",
+    "q": "You need to synchronize the files on your laptop now.",
+    "lang": "en"
+  },
+  {
+    "disp": "気分が悪くなり、すぐに吐くのだと分かりました。",
+    "q": "I felt sick and knew I would throw up soon.",
+    "lang": "en"
+  },
+  {
+    "disp": "その匂いで、彼は吐くような気分になりました。",
+    "q": "The smell made him feel like he would throw up.",
+    "lang": "en"
+  },
+  {
+    "disp": "議会は論争を呼んでいる新しい法律を廃止するための投票を行います。",
+    "q": "The parliament will vote to repeal the controversial new law.",
+    "lang": "en"
+  },
+  {
+    "disp": "当局者は公園での喫煙禁止を廃止することを願っています。",
+    "q": "Officials hope to repeal the smoking ban in the park.",
+    "lang": "en"
+  },
+  {
+    "disp": "蒸気が配管の割れ目から突き上げた。",
+    "q": "The steam thrust upward from the crack in the pipe.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は壁を乗り越えるために体を突き上げた。",
+    "q": "She thrust her body upward to jump over the wall.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は誰よりも先にボールをつかもうとしました。",
+    "q": "He tried to seize the ball before anyone else could.",
+    "lang": "en"
+  },
+  {
+    "disp": "反乱軍は、間もなく首都を占拠する計画を立てていた。",
+    "q": "The rebels planned to seize the capital city very soon.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は大きなハグで昔の友人を抱きしめるでしょう。",
+    "q": "She will embrace her old friend with a big hug.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは現代社会の多くの変化を受け入れるべきです。",
+    "q": "We should embrace the many changes in our modern society.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は聞いた非常に面白い冗談に静かにくすくすと笑った。",
+    "q": "He chuckled softly at the very funny joke he heard.",
+    "lang": "en"
+  },
+  {
+    "disp": "長い会議中に、彼女の唇から静かな笑い声が漏れた。",
+    "q": "A quiet chuckle escaped her lips during the long meeting.",
+    "lang": "en"
+  },
+  {
+    "disp": "システムが今日効果的に動作するには特定の構成を必要とします。",
+    "q": "The system requires a specific configuration to run effectively today.",
+    "lang": "en"
+  },
+  {
+    "disp": "オンラインに接続する前に、完全なネットワーク構成を確認してください。",
+    "q": "Please verify the full network configuration before you connect online.",
+    "lang": "en"
+  },
+  {
+    "disp": "その金属製の格子は、開いた排水口の上で錆びています。",
+    "q": "The metal grate over the open drain is rusty now.",
+    "lang": "en"
+  },
+  {
+    "disp": "夕食の調理を始める前に、汚れた格子を掃除してください。",
+    "q": "Please clean the dirty grate before you start cooking dinner.",
+    "lang": "en"
+  },
+  {
+    "disp": "夕食を食べる間は、まっすぐ座ってください。",
+    "q": "Please sit up straight while you are eating your dinner.",
+    "lang": "en"
+  },
+  {
+    "disp": "先生は試験中はまっすぐ座るように言いました。",
+    "q": "The teacher told us to sit up during the exam.",
+    "lang": "en"
+  },
+  {
+    "disp": "家に帰る途中で東京に立ち寄るつもりです。",
+    "q": "I will stop over in Tokyo on my way home.",
+    "lang": "en"
+  },
+  {
+    "disp": "そのお店に途中、立ち寄ることができますか。",
+    "q": "Can you stop over at the shop on the way?",
+    "lang": "en"
+  },
+  {
+    "disp": "なぜあなたは新しい車を自慢したがるのですか？",
+    "q": "Why do you like to brag about your new car?",
+    "lang": "en"
+  },
+  {
+    "disp": "決して証明できないことを自慢してはいけません。",
+    "q": "Do not brag about things that you simply cannot prove.",
+    "lang": "en"
+  },
+  {
+    "disp": "工場の機械は夜勤の間に停止状態に保たれています。",
+    "q": "The factory machines are kept idle during the night shift.",
+    "lang": "en"
+  },
+  {
+    "disp": "古いコンピューターを長時間停止状態にしないでください。",
+    "q": "Do not leave the old computer idle for too long.",
+    "lang": "en"
+  },
+  {
+    "disp": "多くの人々は本当に祖先が自分たちを見守っていると信じています。",
+    "q": "Many people truly believe their ancestors are watching them closely.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは、私たちを助けてくれた祖先を敬うべきです。",
+    "q": "We should honor our ancestors who have helped us greatly.",
+    "lang": "en"
+  },
+  {
+    "disp": "その重い作業はあなたを夕方までに疲れ果てさせるでしょう。",
+    "q": "The heavy labor will exhaust you completely by evening time.",
+    "lang": "en"
+  },
+  {
+    "disp": "このデバイスのバッテリーを今は消耗させないでください。",
+    "q": "Please do not exhaust the battery in this device now.",
+    "lang": "en"
+  },
+  {
+    "disp": "新しい規則は従業員をオフィスビルに限定します。",
+    "q": "The new rules confine the employees to the office building.",
+    "lang": "en"
+  },
+  {
+    "disp": "発言を議論中のトピックに限定してください。",
+    "q": "Please confine your comments to the topic we are discussing.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは平和の記念のために特別なイベントを開催します。",
+    "q": "We hold a special event for the commemoration of peace.",
+    "lang": "en"
+  },
+  {
+    "disp": "その記念碑は戦争への公的な記念として立っています。",
+    "q": "The monument stands as a public commemoration of the war.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は仲間に並ぶと背が高い。",
+    "q": "He has a tall stature when standing next to peers.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼の会社の地位は過去数年で大きく高まった。",
+    "q": "His stature in the company grew greatly over past years.",
+    "lang": "en"
+  },
+  {
+    "disp": "あの奇妙な新しい食べ物を食べた後、少し吐き気がする。",
+    "q": "I feel slightly nauseous after eating that strange new food.",
+    "lang": "en"
+  },
+  {
+    "disp": "ボートの荒い揺れで、みんな吐き気がした。",
+    "q": "The rough motion of the boat made everyone feel nauseous.",
+    "lang": "en"
+  },
+  {
+    "disp": "そのリーダーはライバル全員に対する完全な支配を素早く求めました。",
+    "q": "The leader sought total dominance over all his rivals quickly.",
+    "lang": "en"
+  },
+  {
+    "disp": "文化の支配は、メディアやエンターテインメント業界を通じて今日よく広がります。",
+    "q": "Cultural dominance often spreads through media and entertainment industries today.",
+    "lang": "en"
+  },
+  {
+    "disp": "消極的であるよりも、発言したほうがずっと良いのです。",
+    "q": "It is much better to speak up than stay passive.",
+    "lang": "en"
+  },
+  {
+    "disp": "主語が分からない場合は受動態を使うと良いでしょう。",
+    "q": "Use passive voice if the main actor is not known.",
+    "lang": "en"
+  },
+  {
+    "disp": "新しい仕事に慣れるには時間がかかります。",
+    "q": "It takes time to accustom yourself to a new job.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女はそこでの寒さに慣れるのに苦労しました。",
+    "q": "She struggled to accustom herself to the cold weather there.",
+    "lang": "en"
+  },
+  {
+    "disp": "熊はエネルギーを節約するために寒い冬に冬眠します。",
+    "q": "Bears hibernate during the cold winter months to save energy.",
+    "lang": "en"
+  },
+  {
+    "disp": "多くのカメは冬の間、泥の中で冬眠します。",
+    "q": "Many turtles hibernate in the mud during the winter season.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼はその車で五千ドルを入札することに決めました。",
+    "q": "He decided to bid five thousand dollars for the car.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは過払いしないよう注意深く入札する必要があります。",
+    "q": "We must bid carefully to ensure we do not overpay.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは新しい大きなプロジェクトに予算をさらに割り当てる必要があります。",
+    "q": "We must allocate more budget for the new large project.",
+    "lang": "en"
+  },
+  {
+    "disp": "マネージャーは今日すべての重要な会議に時間を割り当てます。",
+    "q": "The manager will allocate time for all important meetings today.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らは契約に署名する代わりに口頭での合意に達しました。",
+    "q": "They reached a verbal agreement instead of signing a contract.",
+    "lang": "en"
+  },
+  {
+    "disp": "新しいポリシーの変更に関する口頭での説明を提供してください。",
+    "q": "Please provide a verbal explanation regarding the new policy changes.",
+    "lang": "en"
+  },
+  {
+    "disp": "男の子は自分の寝室の壁に小さな壁画を描きました。",
+    "q": "The boy painted a small mural on his bedroom wall.",
+    "lang": "en"
+  },
+  {
+    "disp": "市は町の広場の近くに新しい壁画を追加しました。",
+    "q": "The city added a new mural near the town square.",
+    "lang": "en"
+  },
+  {
+    "disp": "空に有名な星座オリオンが見えます。",
+    "q": "I can see the famous constellation Orion in the sky.",
+    "lang": "en"
+  },
+  {
+    "disp": "人々はその星座を有名な神話の英雄にちなんで名付けました。",
+    "q": "People named the constellation after a very famous mythological hero.",
+    "lang": "en"
+  },
+  {
+    "disp": "私の私事についてそんなに詮索しないでください。",
+    "q": "Please stop being so nosy about my personal affairs now.",
+    "lang": "en"
+  },
+  {
+    "disp": "なぜあなたはあんなに詮索好きな人なのでしょう？",
+    "q": "Why do you have to be such a nosy person?",
+    "lang": "en"
+  },
+  {
+    "disp": "人間や他の動物は長い時間をかけて進化する。",
+    "q": "Humans and other animals evolve over long periods of time.",
+    "lang": "en"
+  },
+  {
+    "disp": "新しい技術は現代世界で急速に進化し続けています。",
+    "q": "New technology continues to evolve rapidly in our modern world.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は患者を上手に治療する有能な看護師です。",
+    "q": "She is a competent nurse who treats the patients well.",
+    "lang": "en"
+  },
+  {
+    "disp": "このプロジェクトを率いる非常に有能な人が必要です。",
+    "q": "We need a very competent person to lead this project.",
+    "lang": "en"
+  },
+  {
+    "disp": "真の共感は、他者の気持ちを深く理解する助けとなります。",
+    "q": "True empathy allows you to understand another person's feelings deeply.",
+    "lang": "en"
+  },
+  {
+    "disp": "誰もが成長できるよう、毎日共感を練習すべきです。",
+    "q": "We should practice empathy every day to help everyone grow.",
+    "lang": "en"
+  },
+  {
+    "disp": "気をつけて、そのオンラインオファーは明らかにただの詐欺です。",
+    "q": "Be careful, that online offer is definitely just a scam.",
+    "lang": "en"
+  },
+  {
+    "disp": "多くの人が、その金融詐欺を信じたためお金を失いました。",
+    "q": "Many people lost money because they trusted that financial scam.",
+    "lang": "en"
+  },
+  {
+    "disp": "そのプログラムは読み書きのできない大人に読み方を教えます。",
+    "q": "The program aims to help illiterate adults learn to read.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は英語で読み書きができなかったのでとても恥ずかしかったです。",
+    "q": "He felt very embarrassed because he was illiterate in English.",
+    "lang": "en"
+  },
+  {
+    "disp": "政府は囚人たちへの恩赦を与えることを決定しました。",
+    "q": "The government has decided to grant amnesty to the prisoners.",
+    "lang": "en"
+  },
+  {
+    "disp": "大統領はまもなく多くの犯罪者に恩赦を発表するでしょう。",
+    "q": "The president will announce an amnesty for many criminals soon.",
+    "lang": "en"
+  },
+  {
+    "disp": "その重要なファイルを今すぐメールに添付してください。",
+    "q": "Please attach the important file to the email message now.",
+    "lang": "en"
+  },
+  {
+    "disp": "今すぐ、その切手を封筒に貼る必要があります。",
+    "q": "You need to attach the stamp to the envelope now.",
+    "lang": "en"
+  },
+  {
+    "disp": "多くの学生は学期中、大学の寮で一緒に住んでいます。",
+    "q": "Many students live together in a university dormitory during school.",
+    "lang": "en"
+  },
+  {
+    "disp": "寮のルールは騒音と清潔さについて厳格です。",
+    "q": "Our dormitory rules are strict about noise and cleanliness too.",
+    "lang": "en"
+  },
+  {
+    "disp": "無理に重いものを持ち上げて筋肉を痛めないでください。",
+    "q": "Do not strain your muscles by lifting heavy objects carelessly.",
+    "lang": "en"
+  },
+  {
+    "disp": "デバイスを抜くときはコードを無理に引っ張らないでください。",
+    "q": "Please do not strain the cord when unplugging the device.",
+    "lang": "en"
+  },
+  {
+    "disp": "私は今日、孤独の中で平和と安らぎを見出します。",
+    "q": "I find great peace and comfort in my solitude today.",
+    "lang": "en"
+  },
+  {
+    "disp": "一部の人は作業している間に静寂と孤独を楽しみます。",
+    "q": "Some people enjoy silence and solitude while working on projects.",
+    "lang": "en"
+  },
+  {
+    "disp": "近くで侵入者を見つけたら、警察に電話してください。",
+    "q": "Please call the police if you see an intruder nearby.",
+    "lang": "en"
+  },
+  {
+    "disp": "警備員はドアの後ろに隠れていた侵入者をすぐに発見した。",
+    "q": "The guard quickly found the intruder hiding behind the door.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は計画なしに世界中を放浪することを決心しました。",
+    "q": "She decided to wander the entire world with no plans.",
+    "lang": "en"
+  },
+  {
+    "disp": "明るい空の下、私たちで畑を歩き回りましょう。",
+    "q": "Let us wander the fields under the bright sunny skies.",
+    "lang": "en"
+  },
+  {
+    "disp": "失敗によって再び挑戦することを落胆させないでください。",
+    "q": "Please do not let failure discourage you from trying again.",
+    "lang": "en"
+  },
+  {
+    "disp": "悪天候は多くの人々が都市を訪れることを落胆させます。",
+    "q": "Bad weather will discourage many people from visiting the city.",
+    "lang": "en"
+  },
+  {
+    "disp": "先生は今日教室で厳格なルールを課さなければなりません。",
+    "q": "The teacher must impose strict rules in the classroom today.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは他の国に価値観を押し付けてはいけません。",
+    "q": "We cannot impose our values on other countries too heavily.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼はその大きなプロジェクトを今日完了させるために絶対的な決意を示した。",
+    "q": "He showed absolute determination to finish the big project today.",
+    "lang": "en"
+  },
+  {
+    "disp": "この非常に奇妙な状況には絶対的な真実は存在しない。",
+    "q": "There is no absolute truth in this very strange situation.",
+    "lang": "en"
+  },
+  {
+    "disp": "可燃性液体を熱源や裸火の近くには置かないでください。",
+    "q": "Do not store flammable liquids near heat or open flames.",
+    "lang": "en"
+  },
+  {
+    "disp": "この化学物質は非常に可燃性であり、特別な保管が必要です。",
+    "q": "This chemical is highly flammable and requires special storage care.",
+    "lang": "en"
+  },
+  {
+    "disp": "毎日仕事を確認すれば、多くの誤りを取り除くことができます。",
+    "q": "You can eliminate many errors by checking your work daily.",
+    "lang": "en"
+  },
+  {
+    "disp": "その会社はもっとお金を節約するために廃棄物を排除したいと考えています。",
+    "q": "The company wants to eliminate waste to save more money.",
+    "lang": "en"
+  },
+  {
+    "disp": "科学者たちは今日、試験区域の外でミサイルを爆発させます。",
+    "q": "Scientists will detonate the missile outside the test zone today.",
+    "lang": "en"
+  },
+  {
+    "disp": "この小さな部屋で花火を爆発させないでください。",
+    "q": "Please do not detonate the fireworks in this small room.",
+    "lang": "en"
+  },
+  {
+    "disp": "鳥はここから森全体を見渡すことができます。",
+    "q": "The birds can look over the entire forest from here.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは高い丘から街を見渡しました。",
+    "q": "We stood on the hill to look over the city.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は誰もいない公園をさまよう間、非常に目的のない気分だった。",
+    "q": "He felt quite aimless while wandering through the empty park.",
+    "lang": "en"
+  },
+  {
+    "disp": "それは決して完成しなかった非常に目的のないプロジェクトでした。",
+    "q": "That was a very aimless project that never got finished.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は昨年、アメリカ合衆国への移住を決めました。",
+    "q": "He decided to immigrate to the United States last year.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らは来年の夏、暖かい気候の国へ移住する予定だ。",
+    "q": "They plan to immigrate to a warmer climate next summer.",
+    "lang": "en"
+  },
+  {
+    "disp": "古いファイルをその保存場所に移動させる必要があります。",
+    "q": "We must move the old files to the archive location.",
+    "lang": "en"
+  },
+  {
+    "disp": "重要な記録はメインの保存場所に保管してください。",
+    "q": "Please keep your important records in the main archive folder.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは今日、穏やかな湾をボートで航行しました。",
+    "q": "We sailed our boat through the calm gulf waters today.",
+    "lang": "en"
+  },
+  {
+    "disp": "深い湾が、その地域の二つの島を分けています。",
+    "q": "A deep gulf separates the two islands in that region.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは今すぐ、濡れた床から水を排水する必要があります。",
+    "q": "We must drain the water from the wet floor now.",
+    "lang": "en"
+  },
+  {
+    "disp": "詰まらないように、そのシンクを排水してください。",
+    "q": "Please drain the sink so that it does not clog.",
+    "lang": "en"
+  },
+  {
+    "disp": "コンピュータープログラムを閉じる前にディスクを抜き出す必要があります。",
+    "q": "You must eject the disk before closing the computer program.",
+    "lang": "en"
+  },
+  {
+    "disp": "管理者は今日、彼を会社から追い出すことに決めました。",
+    "q": "The manager decided to eject him from the company today.",
+    "lang": "en"
+  },
+  {
+    "disp": "戸を開けっ放しにしておくと泥棒が押し入る可能性があります。",
+    "q": "Burglars can break in if you leave the door open.",
+    "lang": "en"
+  },
+  {
+    "disp": "今夜、泥棒が押し入らないように窓を必ずロックしてください。",
+    "q": "Please lock the window so thieves cannot break in tonight.",
+    "lang": "en"
+  },
+  {
+    "disp": "その悪役のキャラクターはいつも長い黒いマントを着ていました。",
+    "q": "The villainous character always wore a very long black cape.",
+    "lang": "en"
+  },
+  {
+    "disp": "それは悪人が犯した極悪な行為でした。",
+    "q": "That was a villainous act committed by the bad guy.",
+    "lang": "en"
+  },
+  {
+    "disp": "遊ぶ前に、すべての前の仕事を終えてください。",
+    "q": "You should finish all your prior work before playing games.",
+    "lang": "en"
+  },
+  {
+    "disp": "これは最終決定で、事前の通知はありません。",
+    "q": "This is the final decision, with no prior notice given.",
+    "lang": "en"
+  },
+  {
+    "disp": "誰もが正確に未来を予測することは難しいです。",
+    "q": "It is difficult to predict the future accurately for everyone.",
+    "lang": "en"
+  },
+  {
+    "disp": "専門家は来年の株価の動向を予測します。",
+    "q": "Experts will predict the stock market trends for next year.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は発表スキルに関する非常に誠実な褒め言葉に感謝しました。",
+    "q": "She appreciated the very sincere compliment regarding her presentation skills.",
+    "lang": "en"
+  },
+  {
+    "disp": "友達に褒め言葉を言って笑顔をさせましょう。",
+    "q": "Give a compliment to your friend to make them smile.",
+    "lang": "en"
+  },
+  {
+    "disp": "将来のために、この歴史的な遺物を保護する必要があります。",
+    "q": "We need to protect this historic artifact for future generations.",
+    "lang": "en"
+  },
+  {
+    "disp": "科学者たちは歴史を学ぶために、すべての古代遺物を慎重に研究します。",
+    "q": "Scientists study every single ancient artifact carefully to learn history.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は金を使って友達の小さなビジネスを救済した。",
+    "q": "He used money to bail out his friend's small business.",
+    "lang": "en"
+  },
+  {
+    "disp": "パイロットは冷たい海の上で脱出しなければならなかった。",
+    "q": "The pilot had to bail out over the cold ocean.",
+    "lang": "en"
+  },
+  {
+    "disp": "一日中、この努力を維持する必要があります。",
+    "q": "We need to sustain this effort for the full day.",
+    "lang": "en"
+  },
+  {
+    "disp": "その程度の圧力を一人で維持するのは難しいです。",
+    "q": "It is hard to sustain that kind of pressure alone.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちはこの重要なプロジェクトを非常に早く実行する必要があります。",
+    "q": "We need to carry out this important project very soon.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らは遅延なくその計画を実行することに決めました。",
+    "q": "They decided to carry out the plan without any delay.",
+    "lang": "en"
+  },
+  {
+    "disp": "それをしまう前に服をきれいに折りたたむ必要があります。",
+    "q": "You must fold the clothes neatly before putting them away.",
+    "lang": "en"
+  },
+  {
+    "disp": "封筒に入れるために、この紙を半分に折ってください。",
+    "q": "Please fold this paper in half carefully for the envelope.",
+    "lang": "en"
+  },
+  {
+    "disp": "広大な北極地方は非常に寒い気候で知られています。",
+    "q": "The vast Arctic region is known for extremely cold weather.",
+    "lang": "en"
+  },
+  {
+    "disp": "人々は北極地域で生き残るために暖かい服が必要です。",
+    "q": "People need warm clothes to survive in the Arctic zone.",
+    "lang": "en"
+  },
+  {
+    "disp": "健康のためにも、糖分を控えたほうがいいですよ。",
+    "q": "You should really cut back on sugar for better health.",
+    "lang": "en"
+  },
+  {
+    "disp": "今週は支出を減らす必要があります。",
+    "q": "We need to cut back on spending money this week.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は生き残るために落ちた岩を避ける必要があった。",
+    "q": "He needed to dodge the falling rock to survive.",
+    "lang": "en"
+  },
+  {
+    "disp": "靴が濡れないように、その水たまりを避けてください。",
+    "q": "Please dodge the puddle so your shoes stay dry.",
+    "lang": "en"
+  },
+  {
+    "disp": "会社はすべてのお金を失ったために破産状態です。",
+    "q": "The company is bankrupt because they lost all the money.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は、自分の小さなビジネスがすぐに破産すると恐れていました。",
+    "q": "He was afraid his small business would become bankrupt soon.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは仕事を始める前に契約書に署名する必要があります。",
+    "q": "We need to sign the contract before starting the job.",
+    "lang": "en"
+  },
+  {
+    "disp": "契約書にある条項は少し厳しすぎるように思えます。",
+    "q": "The terms in the contract seem a bit too strict.",
+    "lang": "en"
+  },
+  {
+    "disp": "遅刻した理由を正当化する必要があります。",
+    "q": "You need to justify why you were late for work.",
+    "lang": "en"
+  },
+  {
+    "disp": "昨日のひどいミスを正当化するものは何もない。",
+    "q": "Nothing could ever justify the terrible mistakes he made yesterday.",
+    "lang": "en"
+  },
+  {
+    "disp": "冬になる前に食料品を補充しなければなりません。",
+    "q": "We must replenish our food supplies before the winter season.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は買い物をするときに美容用品を補充するでしょう。",
+    "q": "She will replenish her hair products when she goes shopping.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは本当に今日、この大きな課題を乗り越える必要があります。",
+    "q": "We really need to clear this one big hurdle today.",
+    "lang": "en"
+  },
+  {
+    "disp": "あなたの日常生活における最大の困難は何ですか。",
+    "q": "What is the biggest hurdle you face in daily life?",
+    "lang": "en"
+  },
+  {
+    "disp": "現在の入場料には、メイン展示へのアクセスが含まれています。",
+    "q": "The current admission price includes access to the main exhibit.",
+    "lang": "en"
+  },
+  {
+    "disp": "学生はこの映画館で特別な入場割引を利用できます。",
+    "q": "Students can get special admission discounts at this cinema today.",
+    "lang": "en"
+  },
+  {
+    "disp": "多くの旅行者は本当に今は国内線の飛行機のみを好みます。",
+    "q": "Many travelers really prefer to take only domestic flights now.",
+    "lang": "en"
+  },
+  {
+    "disp": "家庭内暴力は私たちの社会で非常に深刻な問題です。",
+    "q": "Domestic violence is a very serious problem in our society.",
+    "lang": "en"
+  },
+  {
+    "disp": "体をよく養うためには、適切な食事が必要です。",
+    "q": "A proper diet is needed to nourish your body well.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは日々の愛情と親切で関係性を養うべきです。",
+    "q": "We should nourish our relationships with daily care and kindness.",
+    "lang": "en"
+  },
+  {
+    "disp": "静かな部屋のなかで、家族全員が緊張を感じました。",
+    "q": "The whole family felt the tension in the quiet room.",
+    "lang": "en"
+  },
+  {
+    "disp": "最終決定の前に、空気は緊張で重かった。",
+    "q": "The air was heavy with tension before the final decision.",
+    "lang": "en"
+  },
+  {
+    "disp": "このデータは、あなたが書き留めたメモに対応する必要があります。",
+    "q": "This data must correspond with the notes you wrote down.",
+    "lang": "en"
+  },
+  {
+    "disp": "スケジュール変更について、マネージャーに対応してください。",
+    "q": "Please correspond with the manager about the schedule changes today.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちはお客様に広範囲のサービスを提供しています。",
+    "q": "We provide a wide range of services to our customers.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は非常に広範囲の外国語を熟知しています。",
+    "q": "She knows a wide range of foreign languages very well.",
+    "lang": "en"
+  },
+  {
+    "disp": "その証人は昨日の長い裁判で重要な証言をしました。",
+    "q": "The witness gave important testimony during the long trial yesterday.",
+    "lang": "en"
+  },
+  {
+    "disp": "あなたは道で起きた事故を目撃しましたか？",
+    "q": "Did you witness the accident that happened on the road?",
+    "lang": "en"
+  },
+  {
+    "disp": "昔の人々は非常に原始的な道具を使って狩りをしました。",
+    "q": "Humans used very primitive tools to hunt animals long ago.",
+    "lang": "en"
+  },
+  {
+    "disp": "夜になる前に、原始的な家を建てなければなりません。",
+    "q": "We need to build a primitive shelter before night falls.",
+    "lang": "en"
+  },
+  {
+    "disp": "親しい友人には、自分の過ちを率直に認めるべきです。",
+    "q": "You should acknowledge your mistakes openly to your close friends.",
+    "lang": "en"
+  },
+  {
+    "disp": "できるだけ早くこのメールの受領を確認してください。",
+    "q": "Please acknowledge receipt of this email as soon as possible.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは、国際的な援助がすぐにこれらの人々を助けることを願っています。",
+    "q": "We hope that international aid will help these people soon.",
+    "lang": "en"
+  },
+  {
+    "disp": "この旅行には、救急キットを必ず持参してください。",
+    "q": "Please bring first aid kit with you on this trip.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼はあなたが仕事で重大なミスをすれば降格するかもしれません。",
+    "q": "He may demote you for making serious mistakes at work.",
+    "lang": "en"
+  },
+  {
+    "disp": "明確なフィードバックなしに従業員を降格しないでください。",
+    "q": "Please do not demote any employees without providing clear feedback.",
+    "lang": "en"
+  },
+  {
+    "disp": "しまっておく前に、余った食べ物を箔で包んでください。",
+    "q": "Wrap the leftovers in foil before you put them away.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は焼けるのを防ぐために、皿の上に箔を置きました。",
+    "q": "She placed the foil over the dish to prevent burning.",
+    "lang": "en"
+  },
+  {
+    "disp": "その破損したファイルは画面のテキストを文字化けさせるかもしれません。",
+    "q": "A broken file could garble the text on your screen.",
+    "lang": "en"
+  },
+  {
+    "disp": "悪い電波はあなたが彼女に送るメッセージを文字化けさせるかもしれません。",
+    "q": "Bad signals might garble the message you send to her.",
+    "lang": "en"
+  },
+  {
+    "disp": "新郎は今日、スーツに黒のネクタイを着用しています。",
+    "q": "The groom wears a black tie with his suit today.",
+    "lang": "en"
+  },
+  {
+    "disp": "花嫁は新郎と一緒に今、歩道を歩いています。",
+    "q": "The bride walks with the groom down the aisle now.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは工場の安全規則を厳守しなければなりません。",
+    "q": "We must adhere strictly to safety rules in the factory.",
+    "lang": "en"
+  },
+  {
+    "disp": "あなたは管理職が設定した締め切りに従わなければなりません。",
+    "q": "You need to adhere to deadlines set by your manager.",
+    "lang": "en"
+  },
+  {
+    "disp": "多くの絶滅の危機にある動物は、生き残るために本当に私たちの助けを必要としています。",
+    "q": "Many endangered animals truly need our help to survive now.",
+    "lang": "en"
+  },
+  {
+    "disp": "政府は絶滅の危機にあるトラを保護するために必死に努力しています。",
+    "q": "The government is trying hard to protect the endangered tigers.",
+    "lang": "en"
+  },
+  {
+    "disp": "音楽会は今夜メインの講堂で間もなく始まります。",
+    "q": "The concert will start soon inside the main auditorium tonight.",
+    "lang": "en"
+  },
+  {
+    "disp": "メインの講堂に入る前に座席を素早く見つけてください。",
+    "q": "Please find your seats quickly before entering the main auditorium.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は自分の部屋の清潔さについてとても小うるさいです。",
+    "q": "He is very fussy about the cleanliness of his room.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女はピザしか食べないとても小うるさい人です。",
+    "q": "She is a very fussy eater who only likes pizza.",
+    "lang": "en"
+  },
+  {
+    "disp": "布を温かい水に浸して毎日きれいにしてね。",
+    "q": "Immerse the cloth in the warm water for cleaning daily.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちは今日、プロジェクトの仕事に没入する必要があります。",
+    "q": "We need to immerse ourselves in the project work today.",
+    "lang": "en"
+  },
+  {
+    "disp": "医師は私にアルコールを完全に控えるよう勧めました。",
+    "q": "The doctor advised me to abstain from drinking alcohol completely.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は肺を改善するために喫煙を控えることにしました。",
+    "q": "He decided to abstain from smoking to improve his lungs.",
+    "lang": "en"
+  },
+  {
+    "disp": "清潔な柔らかい布でそのガラスを速く拭いてください。",
+    "q": "Please quickly swipe that glass with the clean soft cloth.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちが夕食を食べる前にテーブルをきれいに拭くべきです。",
+    "q": "You should wipe the table clean before we eat dinner.",
+    "lang": "en"
+  },
+  {
+    "disp": "それは年配の政治家が語った露骨な嘘でした。",
+    "q": "It was a blatant lie told by the old politician.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼のあからさまな無礼さは、その状況を非常に気まずくしました。",
+    "q": "His blatant disrespect made the entire situation feel very awkward.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は新しい友達から追放されたような扱いを受けた。",
+    "q": "She was treated like an outcast by her new friends.",
+    "lang": "en"
+  },
+  {
+    "disp": "多くの人が窓際に座る悲しい追放された人を憐れんでいる。",
+    "q": "Many people pity the sad outcast sitting by the window.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は食べが速く、パンを喉に詰まらせるかもしれません。",
+    "q": "He ate too quickly and might choke on his bread.",
+    "lang": "en"
+  },
+  {
+    "disp": "水を速く飲みすぎると、喉に詰まらせることがあります。",
+    "q": "Drinking water too fast can make you choke on it.",
+    "lang": "en"
+  },
+  {
+    "disp": "このりんごは非常に新鮮で、とてもパリッとしています。",
+    "q": "This fresh apple is very crisp and tastes so good.",
+    "lang": "en"
+  },
+  {
+    "disp": "そのさっぱりした空気は本当に涼しく、非常に新鮮でした。",
+    "q": "The crisp air felt really cool and very fresh today.",
+    "lang": "en"
+  },
+  {
+    "disp": "私たちはとても長い暗い廊下をゆっくり一人で歩きました。",
+    "q": "We walked slowly down the very long dark corridor alone.",
+    "lang": "en"
+  },
+  {
+    "disp": "今、メインの廊下を歩く際は静かにしてください。",
+    "q": "Please keep quiet while walking in the main corridor now.",
+    "lang": "en"
+  },
+  {
+    "disp": "原子力発電所は国内の多くの都市に電気を発生させます。",
+    "q": "Nuclear plants generate electricity for many cities across the country.",
+    "lang": "en"
+  },
+  {
+    "disp": "強い風は嵐の季節に大きな波を発生させることがあります。",
+    "q": "High winds can generate huge waves during the storm season.",
+    "lang": "en"
+  },
+  {
+    "disp": "この様なずさんな間違いは二度としないようにしてください。",
+    "q": "Please do not make a sloppy mistake like this again.",
+    "lang": "en"
+  },
+  {
+    "disp": "そのずさんな態度がチーム全体に深刻な問題を引き起こしました。",
+    "q": "His sloppy attitude caused serious problems for the entire team.",
+    "lang": "en"
+  },
+  {
+    "disp": "私の兄と妹の間に対立があります。",
+    "q": "There is a conflict between my brother and my sister.",
+    "lang": "en"
+  },
+  {
+    "disp": "この争いが問題を引き起こす前に解決すべきです。",
+    "q": "We should solve this conflict before it causes any trouble.",
+    "lang": "en"
+  },
+  {
+    "disp": "古い屋根は激しい嵐の間に陥没するかもしれません。",
+    "q": "The old roof might cave in during the heavy storm.",
+    "lang": "en"
+  },
+  {
+    "disp": "深く掘れば地面が陥没するかもしれません。",
+    "q": "The ground will cave in if we dig too deep.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は将来の計画について強い信念を持って話した。",
+    "q": "She spoke with great conviction about the future plans today.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は激しい批判にもかかわらず、強い信念を持って行動した。",
+    "q": "He acted with strong conviction despite the heavy criticism faced.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は穏やかな部屋で好きな小説を読んでいました。",
+    "q": "She sat in a serene room reading her favorite novel.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼の穏やかな笑顔は、混乱したシーンでも皆を落ち着かせました。",
+    "q": "His serene smile calmed everyone down during the chaotic scene.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女は左手に花の束を持っていました。",
+    "q": "She held a bundle of flowers in her left hand.",
+    "lang": "en"
+  },
+  {
+    "disp": "薪の束が乾いた地面のそこにありました。",
+    "q": "A bundle of sticks lay there on the dry ground.",
+    "lang": "en"
+  },
+  {
+    "disp": "最終請求書に20%の心付けを加えてください。",
+    "q": "Please add a twenty percent gratuity to my final bill.",
+    "lang": "en"
+  },
+  {
+    "disp": "心付けは常にサービス料に含まれるわけではありません。",
+    "q": "A gratuity is not always included in the service charge.",
+    "lang": "en"
+  },
+  {
+    "disp": "画像を明確に説明するためにテキスト注釈を追加してください。",
+    "q": "Please add a text annotation to explain the image clearly.",
+    "lang": "en"
+  },
+  {
+    "disp": "この文書には法用語に関する有用な注釈が含まれています。",
+    "q": "This document contains a useful annotation regarding the legal terms.",
+    "lang": "en"
+  },
+  {
+    "disp": "今日はあなたの声に皮肉がはっきり聞こえます。",
+    "q": "I can clearly hear the sarcasm in your voice today.",
+    "lang": "en"
+  },
+  {
+    "disp": "あなたは真剣でない時、いつも皮肉を使いますね。",
+    "q": "You always use sarcasm when you are not being serious.",
+    "lang": "en"
+  },
+  {
+    "disp": "重要な人生の選択をするときは、直感を信じてください。",
+    "q": "Trust your inner instinct when you make important life choices.",
+    "lang": "en"
+  },
+  {
+    "disp": "多くの動物は家族を守るための強い本能を持っています。",
+    "q": "Many animals have a strong instinct to protect their families.",
+    "lang": "en"
+  },
+  {
+    "disp": "濃い森が強風に対する緩衝として機能しています。",
+    "q": "The dense forest serves as a buffer against strong winds.",
+    "lang": "en"
+  },
+  {
+    "disp": "全ての緊急事態のために経済的な緩衝として貯金が必要です。",
+    "q": "We need savings as a financial buffer for all emergencies.",
+    "lang": "en"
+  },
+  {
+    "disp": "このコンピューターモデルは今日ではかなり時代遅れです。",
+    "q": "This model of computer is quite out of date today.",
+    "lang": "en"
+  },
+  {
+    "disp": "その古い政策は時代遅れで変更が必要です。",
+    "q": "The old policy is out of date and needs changing.",
+    "lang": "en"
+  },
+  {
+    "disp": "酸雨は森林内の多くの建物や植物を損傷させます。",
+    "q": "Acid rain damages many buildings and plants in the forest.",
+    "lang": "en"
+  },
+  {
+    "disp": "強力な酸性溶液は人の肌に非常に危険です。",
+    "q": "The strong acid solution is very dangerous for human skin.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らの人種を理由に他の人々を差別してはいけません。",
+    "q": "You should never discriminate against others due to their race.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼らの異なる背景を理由に人々を差別してはいけません。",
+    "q": "Do not discriminate against people because of their different backgrounds.",
+    "lang": "en"
+  },
+  {
+    "disp": "理性的でいて、私の論理的な説明を注意深く聞いてください。",
+    "q": "Please be rational and listen to my logical explanation carefully.",
+    "lang": "en"
+  },
+  {
+    "disp": "事実に基づいた合理的な選択をし、感情だけで決断しないでください。",
+    "q": "Make a rational choice based on facts, not just feelings.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼は今日、将来のキャリアのために堅固な土台を築きました。",
+    "q": "He laid a solid foundation for his future career today.",
+    "lang": "en"
+  },
+  {
+    "disp": "この件に対するあなたの信念の根拠は何ですか。",
+    "q": "What is the foundation of your belief in this matter?",
+    "lang": "en"
+  },
+  {
+    "disp": "その祭りは全ての訪問者に活気ある雰囲気を作ります。",
+    "q": "The festival creates a truly vibrant atmosphere for all visitors.",
+    "lang": "en"
+  },
+  {
+    "disp": "彼女の活気のある性格は群衆の全員に喜びをもたらします。",
+    "q": "Her vibrant personality brings joy to everyone in the crowd.",
+    "lang": "en"
+  }
+]
