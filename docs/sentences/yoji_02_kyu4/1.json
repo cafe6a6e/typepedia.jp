@@ -1,0 +1,2432 @@
+[
+  {
+    "disp": "合縁奇縁",
+    "kana": "あいえんきえん",
+    "q": "aienkien",
+    "lang": "ja"
+  },
+  {
+    "disp": "愛別離苦",
+    "kana": "あいべつりく",
+    "q": "aibetsuriku",
+    "lang": "ja"
+  },
+  {
+    "disp": "青息吐息",
+    "kana": "あおいきといき",
+    "q": "aoikitoiki",
+    "lang": "ja"
+  },
+  {
+    "disp": "悪戦苦闘",
+    "kana": "あくせんくとう",
+    "q": "akusenkutou",
+    "lang": "ja"
+  },
+  {
+    "disp": "悪木盗泉",
+    "kana": "あくぼくとうせん",
+    "q": "akubokutousen",
+    "lang": "ja"
+  },
+  {
+    "disp": "暗雲低迷",
+    "kana": "あんうんていめい",
+    "q": "annunteimei",
+    "lang": "ja"
+  },
+  {
+    "disp": "暗中飛躍",
+    "kana": "あんちゅうひやく",
+    "q": "anchuuhiyaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "安分守己",
+    "kana": "あんぶんしゅき",
+    "q": "anbunshuki",
+    "lang": "ja"
+  },
+  {
+    "disp": "意志薄弱",
+    "kana": "いしはくじゃく",
+    "q": "ishihakujaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "一意攻苦",
+    "kana": "いちいこうく",
+    "q": "ichiikouku",
+    "lang": "ja"
+  },
+  {
+    "disp": "一月三舟",
+    "kana": "いちがつさんしゅう",
+    "q": "ichigatsusanshuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "一元描写",
+    "kana": "いちげんびょうしゃ",
+    "q": "ichigenbyousha",
+    "lang": "ja"
+  },
+  {
+    "disp": "一族郎党",
+    "kana": "いちぞくろうとう",
+    "q": "ichizokuroutou",
+    "lang": "ja"
+  },
+  {
+    "disp": "一読三嘆",
+    "kana": "いちどくさんたん",
+    "q": "ichidokusantan",
+    "lang": "ja"
+  },
+  {
+    "disp": "一念発起",
+    "kana": "いちねんほっき",
+    "q": "ichinenhokki",
+    "lang": "ja"
+  },
+  {
+    "disp": "一暴十寒",
+    "kana": "いちばくじっかん",
+    "q": "ichibakujikkan",
+    "lang": "ja"
+  },
+  {
+    "disp": "一罰百戒",
+    "kana": "いちばつひゃっかい",
+    "q": "ichibatsuhyakkai",
+    "lang": "ja"
+  },
+  {
+    "disp": "一網打尽",
+    "kana": "いちもうだじん",
+    "q": "ichimoudajin",
+    "lang": "ja"
+  },
+  {
+    "disp": "一毛不抜",
+    "kana": "いちもうふばつ",
+    "q": "ichimoufubatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "一粒万倍",
+    "kana": "いちりゅうまんばい",
+    "q": "ichiryuumanbai",
+    "lang": "ja"
+  },
+  {
+    "disp": "一口両舌",
+    "kana": "いっこうりょうぜつ",
+    "q": "ikkouryouzetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "一切有情",
+    "kana": "いっさいうじょう",
+    "q": "issaiujou",
+    "lang": "ja"
+  },
+  {
+    "disp": "一切合切",
+    "kana": "いっさいがっさい",
+    "q": "issaigassai",
+    "lang": "ja"
+  },
+  {
+    "disp": "一笑千金",
+    "kana": "いっしょうせんきん",
+    "q": "isshousenkin",
+    "lang": "ja"
+  },
+  {
+    "disp": "一将万骨",
+    "kana": "いっしょうばんこつ",
+    "q": "isshoubankotsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "一触即発",
+    "kana": "いっしょくそくはつ",
+    "q": "isshokusokuhatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "一心発起",
+    "kana": "いっしんほっき",
+    "q": "isshinhokki",
+    "lang": "ja"
+  },
+  {
+    "disp": "一寸光陰",
+    "kana": "いっすんのこういん",
+    "q": "issunnokouin",
+    "lang": "ja"
+  },
+  {
+    "disp": "一寸丹心",
+    "kana": "いっすんのたんしん",
+    "q": "issunnotanshin",
+    "lang": "ja"
+  },
+  {
+    "disp": "一朝一夕",
+    "kana": "いっちょういっせき",
+    "q": "icchouisseki",
+    "lang": "ja"
+  },
+  {
+    "disp": "一天万乗",
+    "kana": "いってんばんじょう",
+    "q": "ittenbanjou",
+    "lang": "ja"
+  },
+  {
+    "disp": "一片氷心",
+    "kana": "いっぺんのひょうしん",
+    "q": "ippennohyoushin",
+    "lang": "ja"
+  },
+  {
+    "disp": "移風易俗",
+    "kana": "いふうえきぞく",
+    "q": "ifuuekizoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "遺風残香",
+    "kana": "いふうざんこう",
+    "q": "ifuuzankou",
+    "lang": "ja"
+  },
+  {
+    "disp": "威風堂堂",
+    "kana": "いふうどうどう",
+    "q": "ifuudoudou",
+    "lang": "ja"
+  },
+  {
+    "disp": "緯武経文",
+    "kana": "いぶけいぶん",
+    "q": "ibukeibun",
+    "lang": "ja"
+  },
+  {
+    "disp": "飲灰洗胃",
+    "kana": "いんかいせんい",
+    "q": "inkaisenni",
+    "lang": "ja"
+  },
+  {
+    "disp": "陰徳陽報",
+    "kana": "いんとくようほう",
+    "q": "intokuyouhou",
+    "lang": "ja"
+  },
+  {
+    "disp": "陰陽五行",
+    "kana": "いんようごぎょう",
+    "q": "innyougogyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "有為転変",
+    "kana": "ういてんぺん",
+    "q": "uitenpen",
+    "lang": "ja"
+  },
+  {
+    "disp": "有為無常",
+    "kana": "ういむじょう",
+    "q": "uimujou",
+    "lang": "ja"
+  },
+  {
+    "disp": "雨奇晴好",
+    "kana": "うきせいこう",
+    "q": "ukiseikou",
+    "lang": "ja"
+  },
+  {
+    "disp": "有象無象",
+    "kana": "うぞうむぞう",
+    "q": "uzoumuzou",
+    "lang": "ja"
+  },
+  {
+    "disp": "有頂天外",
+    "kana": "うちょうてんがい",
+    "q": "uchoutengai",
+    "lang": "ja"
+  },
+  {
+    "disp": "有無相生",
+    "kana": "うむそうせい",
+    "q": "umusousei",
+    "lang": "ja"
+  },
+  {
+    "disp": "雲合霧集",
+    "kana": "うんごうむしゅう",
+    "q": "ungoumushuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "雲集霧散",
+    "kana": "うんしゅうむさん",
+    "q": "unshuumusan",
+    "lang": "ja"
+  },
+  {
+    "disp": "永垂不朽",
+    "kana": "えいすいふきゅう",
+    "q": "eisuifukyuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "易姓革命",
+    "kana": "えきせいかくめい",
+    "q": "ekiseikakumei",
+    "lang": "ja"
+  },
+  {
+    "disp": "遠交近攻",
+    "kana": "えんこうきんこう",
+    "q": "enkoukinkou",
+    "lang": "ja"
+  },
+  {
+    "disp": "鉛刀一割",
+    "kana": "えんとういっかつ",
+    "q": "entouikkatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "縁木求魚",
+    "kana": "えんぼくきゅうぎょ",
+    "q": "enbokukyuugyo",
+    "lang": "ja"
+  },
+  {
+    "disp": "応接不暇",
+    "kana": "おうせつふか",
+    "q": "ousetsufuka",
+    "lang": "ja"
+  },
+  {
+    "disp": "応病与薬",
+    "kana": "おうびょうよやく",
+    "q": "oubyouyoyaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "大盤振舞",
+    "kana": "おおばんぶるまい",
+    "q": "oobanburumai",
+    "lang": "ja"
+  },
+  {
+    "disp": "恩威並行",
+    "kana": "おんいへいこう",
+    "q": "onniheikou",
+    "lang": "ja"
+  },
+  {
+    "disp": "音吐朗朗",
+    "kana": "おんとろうろう",
+    "q": "ontorourou",
+    "lang": "ja"
+  },
+  {
+    "disp": "回山倒海",
+    "kana": "かいざんとうかい",
+    "q": "kaizantoukai",
+    "lang": "ja"
+  },
+  {
+    "disp": "階前万里",
+    "kana": "かいぜんばんり",
+    "q": "kaizenbanri",
+    "lang": "ja"
+  },
+  {
+    "disp": "海内奇士",
+    "kana": "かいだいのきし",
+    "q": "kaidainokishi",
+    "lang": "ja"
+  },
+  {
+    "disp": "夏雲奇峰",
+    "kana": "かうんきほう",
+    "q": "kaunkihou",
+    "lang": "ja"
+  },
+  {
+    "disp": "格致日新",
+    "kana": "かくちにっしん",
+    "q": "kakuchinisshin",
+    "lang": "ja"
+  },
+  {
+    "disp": "格物致知",
+    "kana": "かくぶつちち",
+    "q": "kakubutsuchichi",
+    "lang": "ja"
+  },
+  {
+    "disp": "家書万金",
+    "kana": "かしょばんきん",
+    "q": "kashobankin",
+    "lang": "ja"
+  },
+  {
+    "disp": "家常茶飯",
+    "kana": "かじょうさはん",
+    "q": "kajousahan",
+    "lang": "ja"
+  },
+  {
+    "disp": "花朝月夕",
+    "kana": "かちょうげっせき",
+    "q": "kachougesseki",
+    "lang": "ja"
+  },
+  {
+    "disp": "活計歓楽",
+    "kana": "かっけいかんらく",
+    "q": "kakkeikanraku",
+    "lang": "ja"
+  },
+  {
+    "disp": "家徒四壁",
+    "kana": "かとしへき",
+    "q": "katoshiheki",
+    "lang": "ja"
+  },
+  {
+    "disp": "家貧孝子",
+    "kana": "かひんこうし",
+    "q": "kahinkoushi",
+    "lang": "ja"
+  },
+  {
+    "disp": "歓天喜地",
+    "kana": "かんてんきち",
+    "q": "kantenkichi",
+    "lang": "ja"
+  },
+  {
+    "disp": "雅人深致",
+    "kana": "がじんしんち",
+    "q": "gajinshinchi",
+    "lang": "ja"
+  },
+  {
+    "disp": "我田引水",
+    "kana": "がでんいんすい",
+    "q": "gadenninsui",
+    "lang": "ja"
+  },
+  {
+    "disp": "奇貨可居",
+    "kana": "きかかきょ",
+    "q": "kikakakyo",
+    "lang": "ja"
+  },
+  {
+    "disp": "危機一髪",
+    "kana": "ききいっぱつ",
+    "q": "kikiippatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "旗鼓堂堂",
+    "kana": "きこどうどう",
+    "q": "kikodoudou",
+    "lang": "ja"
+  },
+  {
+    "disp": "妙計奇策",
+    "kana": "みょうけいきさく",
+    "q": "myoukeikisaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "鬼出電入",
+    "kana": "きしゅつでんにゅう",
+    "q": "kishutsudennyuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "貴種流離",
+    "kana": "きしゅりゅうり",
+    "q": "kishuryuuri",
+    "lang": "ja"
+  },
+  {
+    "disp": "奇想天外",
+    "kana": "きそうてんがい",
+    "q": "kisoutengai",
+    "lang": "ja"
+  },
+  {
+    "disp": "鬼面仏心",
+    "kana": "きめんぶっしん",
+    "q": "kimenbusshin",
+    "lang": "ja"
+  },
+  {
+    "disp": "旧態依然",
+    "kana": "きゅうたいいぜん",
+    "q": "kyuutaiizen",
+    "lang": "ja"
+  },
+  {
+    "disp": "弓道八節",
+    "kana": "きゅうどうはっせつ",
+    "q": "kyuudouhassetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "面壁九年",
+    "kana": "めんぺきくねん",
+    "q": "menpekikunen",
+    "lang": "ja"
+  },
+  {
+    "disp": "吸風飲露",
+    "kana": "きゅうふういんろ",
+    "q": "kyuufuuinro",
+    "lang": "ja"
+  },
+  {
+    "disp": "狂喜乱舞",
+    "kana": "きょうきらんぶ",
+    "q": "kyoukiranbu",
+    "lang": "ja"
+  },
+  {
+    "disp": "驚天動地",
+    "kana": "きょうてんどうち",
+    "q": "kyoutendouchi",
+    "lang": "ja"
+  },
+  {
+    "disp": "曲折浮沈",
+    "kana": "きょくせつふちん",
+    "q": "kyokusetsufuchin",
+    "lang": "ja"
+  },
+  {
+    "disp": "舞文曲筆",
+    "kana": "ぶぶんきょくひつ",
+    "q": "bubunkyokuhitsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "挙国一致",
+    "kana": "きょこくいっち",
+    "q": "kyokokuicchi",
+    "lang": "ja"
+  },
+  {
+    "disp": "金口木舌",
+    "kana": "きんこうぼくぜつ",
+    "q": "kinkoubokuzetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "金谷酒数",
+    "kana": "きんこくのしゅすう",
+    "q": "kinkokunoshusuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "金城鉄壁",
+    "kana": "きんじょうてっぺき",
+    "q": "kinjouteppeki",
+    "lang": "ja"
+  },
+  {
+    "disp": "近所合壁",
+    "kana": "きんじょがっぺき",
+    "q": "kinjogappeki",
+    "lang": "ja"
+  },
+  {
+    "disp": "金声玉振",
+    "kana": "きんせいぎょくしん",
+    "q": "kinseigyokushin",
+    "lang": "ja"
+  },
+  {
+    "disp": "疑心暗鬼",
+    "kana": "ぎしんあんき",
+    "q": "gishinnanki",
+    "lang": "ja"
+  },
+  {
+    "disp": "空空寂寂",
+    "kana": "くうくうじゃくじゃく",
+    "q": "kuukuujakujaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "空即是色",
+    "kana": "くうそくぜしき",
+    "q": "kuusokuzeshiki",
+    "lang": "ja"
+  },
+  {
+    "disp": "君子三戒",
+    "kana": "くんしのさんかい",
+    "q": "kunshinosankai",
+    "lang": "ja"
+  },
+  {
+    "disp": "君子万年",
+    "kana": "くんしばんねん",
+    "q": "kunshibannen",
+    "lang": "ja"
+  },
+  {
+    "disp": "群雄割拠",
+    "kana": "ぐんゆうかっきょ",
+    "q": "gunnyuukakkyo",
+    "lang": "ja"
+  },
+  {
+    "disp": "形影相同",
+    "kana": "けいえいそうどう",
+    "q": "keieisoudou",
+    "lang": "ja"
+  },
+  {
+    "disp": "傾国美女",
+    "kana": "けいこくのびじょ",
+    "q": "keikokunobijo",
+    "lang": "ja"
+  },
+  {
+    "disp": "軽薄短小",
+    "kana": "けいはくたんしょう",
+    "q": "keihakutanshou",
+    "lang": "ja"
+  },
+  {
+    "disp": "兼愛交利",
+    "kana": "けんあいこうり",
+    "q": "kennaikouri",
+    "lang": "ja"
+  },
+  {
+    "disp": "兼愛無私",
+    "kana": "けんあいむし",
+    "q": "kennaimushi",
+    "lang": "ja"
+  },
+  {
+    "disp": "堅白同異",
+    "kana": "けんぱくどうい",
+    "q": "kenpakudoui",
+    "lang": "ja"
+  },
+  {
+    "disp": "外題学問",
+    "kana": "げだいがくもん",
+    "q": "gedaigakumon",
+    "lang": "ja"
+  },
+  {
+    "disp": "元軽白俗",
+    "kana": "げんけいはくぞく",
+    "q": "genkeihakuzoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "言行一致",
+    "kana": "げんこういっち",
+    "q": "genkouicchi",
+    "lang": "ja"
+  },
+  {
+    "disp": "言笑自若",
+    "kana": "げんしょうじじゃく",
+    "q": "genshoujijaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "現状維持",
+    "kana": "げんじょういじ",
+    "q": "genjouiji",
+    "lang": "ja"
+  },
+  {
+    "disp": "言文一致",
+    "kana": "げんぶんいっち",
+    "q": "genbunnicchi",
+    "lang": "ja"
+  },
+  {
+    "disp": "香囲粉陣",
+    "kana": "こういふんじん",
+    "q": "kouifunjin",
+    "lang": "ja"
+  },
+  {
+    "disp": "厚顔無恥",
+    "kana": "こうがんむち",
+    "q": "kouganmuchi",
+    "lang": "ja"
+  },
+  {
+    "disp": "好機到来",
+    "kana": "こうきとうらい",
+    "q": "koukitourai",
+    "lang": "ja"
+  },
+  {
+    "disp": "光彩陸離",
+    "kana": "こうさいりくり",
+    "q": "kousairikuri",
+    "lang": "ja"
+  },
+  {
+    "disp": "口耳講説",
+    "kana": "こうじこうせつ",
+    "q": "koujikousetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "向上機縁",
+    "kana": "こうじょうのきえん",
+    "q": "koujounokien",
+    "lang": "ja"
+  },
+  {
+    "disp": "攻城野戦",
+    "kana": "こうじょうやせん",
+    "q": "koujouyasen",
+    "lang": "ja"
+  },
+  {
+    "disp": "公序良俗",
+    "kana": "こうじょりょうぞく",
+    "q": "koujoryouzoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "口耳四寸",
+    "kana": "こうじよんすん",
+    "q": "koujiyonsun",
+    "lang": "ja"
+  },
+  {
+    "disp": "高談雄弁",
+    "kana": "こうだんゆうべん",
+    "q": "koudannyuuben",
+    "lang": "ja"
+  },
+  {
+    "disp": "口中雌黄",
+    "kana": "こうちゅうのしおう",
+    "q": "kouchuunoshiou",
+    "lang": "ja"
+  },
+  {
+    "disp": "項背相望",
+    "kana": "こうはいそうぼう",
+    "q": "kouhaisoubou",
+    "lang": "ja"
+  },
+  {
+    "disp": "刻舟求剣",
+    "kana": "こくしゅうきゅうけん",
+    "q": "kokushuukyuuken",
+    "lang": "ja"
+  },
+  {
+    "disp": "国色天香",
+    "kana": "こくしょくてんこう",
+    "q": "kokushokutenkou",
+    "lang": "ja"
+  },
+  {
+    "disp": "刻露清秀",
+    "kana": "こくろせいしゅう",
+    "q": "kokuroseishuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "今是昨非",
+    "kana": "こんぜさくひ",
+    "q": "konzesakuhi",
+    "lang": "ja"
+  },
+  {
+    "disp": "極悪非道",
+    "kana": "ごくあくひどう",
+    "q": "gokuakuhidou",
+    "lang": "ja"
+  },
+  {
+    "disp": "極楽往生",
+    "kana": "ごくらくおうじょう",
+    "q": "gokurakuoujou",
+    "lang": "ja"
+  },
+  {
+    "disp": "五里霧中",
+    "kana": "ごりむちゅう",
+    "q": "gorimuchuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "歳寒三友",
+    "kana": "さいかんさんゆう",
+    "q": "saikansannyuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "歳月不待",
+    "kana": "さいげつふたい",
+    "q": "saigetsufutai",
+    "lang": "ja"
+  },
+  {
+    "disp": "才色兼備",
+    "kana": "さいしょくけんび",
+    "q": "saishokukenbi",
+    "lang": "ja"
+  },
+  {
+    "disp": "祭政一致",
+    "kana": "さいせいいっち",
+    "q": "saiseiicchi",
+    "lang": "ja"
+  },
+  {
+    "disp": "山簡倒載",
+    "kana": "さんかんとうさい",
+    "q": "sankantousai",
+    "lang": "ja"
+  },
+  {
+    "disp": "三軍暴骨",
+    "kana": "さんぐんばくこつ",
+    "q": "sangunbakukotsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "山紫水明",
+    "kana": "さんしすいめい",
+    "q": "sanshisuimei",
+    "lang": "ja"
+  },
+  {
+    "disp": "三舎退避",
+    "kana": "さんしゃたいひ",
+    "q": "sanshataihi",
+    "lang": "ja"
+  },
+  {
+    "disp": "山中暦日",
+    "kana": "さんちゅうれきじつ",
+    "q": "sanchuurekijitsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "三令五申",
+    "kana": "さんれいごしん",
+    "q": "sanreigoshin",
+    "lang": "ja"
+  },
+  {
+    "disp": "三老五更",
+    "kana": "さんろうごこう",
+    "q": "sanrougokou",
+    "lang": "ja"
+  },
+  {
+    "disp": "子為父隠",
+    "kana": "しいふいん",
+    "q": "shiifuin",
+    "lang": "ja"
+  },
+  {
+    "disp": "四海兄弟",
+    "kana": "しかいけいてい",
+    "q": "shikaikeitei",
+    "lang": "ja"
+  },
+  {
+    "disp": "死灰復然",
+    "kana": "しかいふくねん",
+    "q": "shikaifukunen",
+    "lang": "ja"
+  },
+  {
+    "disp": "色即是空",
+    "kana": "しきそくぜくう",
+    "q": "shikisokuzekuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "四荒八極",
+    "kana": "しこうはっきょく",
+    "q": "shikouhakkyoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "四書五経",
+    "kana": "ししょごきょう",
+    "q": "shishogokyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "四十不惑",
+    "kana": "しじゅうふわく",
+    "q": "shijuufuwaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "志操堅固",
+    "kana": "しそうけんご",
+    "q": "shisoukengo",
+    "lang": "ja"
+  },
+  {
+    "disp": "詩腸鼓吹",
+    "kana": "しちょうのこすい",
+    "q": "shichounokosui",
+    "lang": "ja"
+  },
+  {
+    "disp": "四鳥別離",
+    "kana": "しちょうべつり",
+    "q": "shichoubetsuri",
+    "lang": "ja"
+  },
+  {
+    "disp": "失笑噴飯",
+    "kana": "しっしょうふんぱん",
+    "q": "shisshoufunpan",
+    "lang": "ja"
+  },
+  {
+    "disp": "七珍万宝",
+    "kana": "しっちんまんぽう",
+    "q": "shicchinmanpou",
+    "lang": "ja"
+  },
+  {
+    "disp": "射石飲羽",
+    "kana": "しゃせきいんう",
+    "q": "shasekiinnu",
+    "lang": "ja"
+  },
+  {
+    "disp": "秀外恵中",
+    "kana": "しゅうがいけいちゅう",
+    "q": "shuugaikeichuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "衆口一致",
+    "kana": "しゅうこういっち",
+    "q": "shuukouicchi",
+    "lang": "ja"
+  },
+  {
+    "disp": "離合集散",
+    "kana": "りごうしゅうさん",
+    "q": "rigoushuusan",
+    "lang": "ja"
+  },
+  {
+    "disp": "舟中敵国",
+    "kana": "しゅうちゅうてきこく",
+    "q": "shuuchuutekikoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "主客転倒",
+    "kana": "しゅかくてんとう",
+    "q": "shukakutentou",
+    "lang": "ja"
+  },
+  {
+    "disp": "出将入相",
+    "kana": "しゅっしょうにゅうしょう",
+    "q": "shusshounyuushou",
+    "lang": "ja"
+  },
+  {
+    "disp": "手舞足踏",
+    "kana": "しゅぶそくとう",
+    "q": "shubusokutou",
+    "lang": "ja"
+  },
+  {
+    "disp": "春日遅遅",
+    "kana": "しゅんじつちち",
+    "q": "shunjitsuchichi",
+    "lang": "ja"
+  },
+  {
+    "disp": "笑止千万",
+    "kana": "しょうしせんばん",
+    "q": "shoushisenban",
+    "lang": "ja"
+  },
+  {
+    "disp": "小心翼翼",
+    "kana": "しょうしんよくよく",
+    "q": "shoushinnyokuyoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "笑比河清",
+    "kana": "しょうひかせい",
+    "q": "shouhikasei",
+    "lang": "ja"
+  },
+  {
+    "disp": "傷風敗俗",
+    "kana": "しょうふうはいぞく",
+    "q": "shoufuuhaizoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "食前方丈",
+    "kana": "しょくぜんほうじょう",
+    "q": "shokuzenhoujou",
+    "lang": "ja"
+  },
+  {
+    "disp": "諸法無我",
+    "kana": "しょほうむが",
+    "q": "shohoumuga",
+    "lang": "ja"
+  },
+  {
+    "disp": "思慮分別",
+    "kana": "しりょふんべつ",
+    "q": "shiryofunbetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "新鬼故鬼",
+    "kana": "しんきこき",
+    "q": "shinkikoki",
+    "lang": "ja"
+  },
+  {
+    "disp": "神機妙算",
+    "kana": "しんきみょうさん",
+    "q": "shinkimyousan",
+    "lang": "ja"
+  },
+  {
+    "disp": "身軽言微",
+    "kana": "しんけいげんび",
+    "q": "shinkeigenbi",
+    "lang": "ja"
+  },
+  {
+    "disp": "慎始敬終",
+    "kana": "しんしけいしゅう",
+    "q": "shinshikeishuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "信賞必罰",
+    "kana": "しんしょうひつばつ",
+    "q": "shinshouhitsubatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "神色自若",
+    "kana": "しんしょくじじゃく",
+    "q": "shinshokujijaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "新進気鋭",
+    "kana": "しんしんきえい",
+    "q": "shinshinkiei",
+    "lang": "ja"
+  },
+  {
+    "disp": "身体髪膚",
+    "kana": "しんたいはっぷ",
+    "q": "shintaihappu",
+    "lang": "ja"
+  },
+  {
+    "disp": "震天動地",
+    "kana": "しんてんどうち",
+    "q": "shintendouchi",
+    "lang": "ja"
+  },
+  {
+    "disp": "自己矛盾",
+    "kana": "じこむじゅん",
+    "q": "jikomujun",
+    "lang": "ja"
+  },
+  {
+    "disp": "耳熟能詳",
+    "kana": "じじゅくのうしょう",
+    "q": "jijukunoushou",
+    "lang": "ja"
+  },
+  {
+    "disp": "実事求是",
+    "kana": "じつじきゅうぜ",
+    "q": "jitsujikyuuze",
+    "lang": "ja"
+  },
+  {
+    "disp": "耳提面命",
+    "kana": "じていめんめい",
+    "q": "jiteimenmei",
+    "lang": "ja"
+  },
+  {
+    "disp": "縦横無尽",
+    "kana": "じゅうおうむじん",
+    "q": "juuoumujin",
+    "lang": "ja"
+  },
+  {
+    "disp": "重厚長大",
+    "kana": "じゅうこうちょうだい",
+    "q": "juukouchoudai",
+    "lang": "ja"
+  },
+  {
+    "disp": "十年一剣",
+    "kana": "じゅうねんいっけん",
+    "q": "juunennikken",
+    "lang": "ja"
+  },
+  {
+    "disp": "熟思黙想",
+    "kana": "じゅくしもくそう",
+    "q": "jukushimokusou",
+    "lang": "ja"
+  },
+  {
+    "disp": "熟慮断行",
+    "kana": "じゅくりょだんこう",
+    "q": "jukuryodankou",
+    "lang": "ja"
+  },
+  {
+    "disp": "上援下推",
+    "kana": "じょうえんかすい",
+    "q": "jouenkasui",
+    "lang": "ja"
+  },
+  {
+    "disp": "自力更生",
+    "kana": "じりきこうせい",
+    "q": "jirikikousei",
+    "lang": "ja"
+  },
+  {
+    "disp": "尋章摘句",
+    "kana": "じんしょうてきく",
+    "q": "jinshoutekiku",
+    "lang": "ja"
+  },
+  {
+    "disp": "尋常一様",
+    "kana": "じんじょういちよう",
+    "q": "jinjouichiyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "人跡未踏",
+    "kana": "じんせきみとう",
+    "q": "jinsekimitou",
+    "lang": "ja"
+  },
+  {
+    "disp": "尽善尽美",
+    "kana": "じんぜんじんび",
+    "q": "jinzenjinbi",
+    "lang": "ja"
+  },
+  {
+    "disp": "尽忠報国",
+    "kana": "じんちゅうほうこく",
+    "q": "jinchuuhoukoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "人品骨柄",
+    "kana": "じんぴんこつがら",
+    "q": "jinpinkotsugara",
+    "lang": "ja"
+  },
+  {
+    "disp": "人面獣心",
+    "kana": "じんめんじゅうしん",
+    "q": "jinmenjuushin",
+    "lang": "ja"
+  },
+  {
+    "disp": "人面獣身",
+    "kana": "じんめんじゅうしん",
+    "q": "jinmenjuushin",
+    "lang": "ja"
+  },
+  {
+    "disp": "人面桃花",
+    "kana": "じんめんとうか",
+    "q": "jinmentouka",
+    "lang": "ja"
+  },
+  {
+    "disp": "寸歩不離",
+    "kana": "すんぽふり",
+    "q": "sunpofuri",
+    "lang": "ja"
+  },
+  {
+    "disp": "誠歓誠喜",
+    "kana": "せいかんせいき",
+    "q": "seikanseiki",
+    "lang": "ja"
+  },
+  {
+    "disp": "青史汗簡",
+    "kana": "せいしかんかん",
+    "q": "seishikankan",
+    "lang": "ja"
+  },
+  {
+    "disp": "精神一到",
+    "kana": "せいしんいっとう",
+    "q": "seishinnittou",
+    "lang": "ja"
+  },
+  {
+    "disp": "青銭万選",
+    "kana": "せいせんばんせん",
+    "q": "seisenbansen",
+    "lang": "ja"
+  },
+  {
+    "disp": "盛徳大業",
+    "kana": "せいとくたいぎょう",
+    "q": "seitokutaigyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "精疲力尽",
+    "kana": "せいひりきじん",
+    "q": "seihirikijin",
+    "lang": "ja"
+  },
+  {
+    "disp": "生離死別",
+    "kana": "せいりしべつ",
+    "q": "seirishibetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "世外桃源",
+    "kana": "せがいとうげん",
+    "q": "segaitougen",
+    "lang": "ja"
+  },
+  {
+    "disp": "積羽沈舟",
+    "kana": "せきうちんしゅう",
+    "q": "sekiuchinshuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "積厚流光",
+    "kana": "せきこうりゅうこう",
+    "q": "sekikouryuukou",
+    "lang": "ja"
+  },
+  {
+    "disp": "石破天驚",
+    "kana": "せきはてんきょう",
+    "q": "sekihatenkyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "切歯腐心",
+    "kana": "せっしふしん",
+    "q": "sesshifushin",
+    "lang": "ja"
+  },
+  {
+    "disp": "雪裏清香",
+    "kana": "せつりせいこう",
+    "q": "setsuriseikou",
+    "lang": "ja"
+  },
+  {
+    "disp": "扇影衣香",
+    "kana": "せんえいいこう",
+    "q": "senneiikou",
+    "lang": "ja"
+  },
+  {
+    "disp": "浅学非才",
+    "kana": "せんがくひさい",
+    "q": "sengakuhisai",
+    "lang": "ja"
+  },
+  {
+    "disp": "千客万来",
+    "kana": "せんきゃくばんらい",
+    "q": "senkyakubanrai",
+    "lang": "ja"
+  },
+  {
+    "disp": "千軍万馬",
+    "kana": "せんぐんばんば",
+    "q": "sengunbanba",
+    "lang": "ja"
+  },
+  {
+    "disp": "千言万語",
+    "kana": "せんげんばんご",
+    "q": "sengenbango",
+    "lang": "ja"
+  },
+  {
+    "disp": "千紅万紫",
+    "kana": "せんこうばんし",
+    "q": "senkoubanshi",
+    "lang": "ja"
+  },
+  {
+    "disp": "千差万別",
+    "kana": "せんさばんべつ",
+    "q": "sensabanbetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "千山万水",
+    "kana": "せんざんばんすい",
+    "q": "senzanbansui",
+    "lang": "ja"
+  },
+  {
+    "disp": "千思万考",
+    "kana": "せんしばんこう",
+    "q": "senshibankou",
+    "lang": "ja"
+  },
+  {
+    "disp": "千姿万態",
+    "kana": "せんしばんたい",
+    "q": "senshibantai",
+    "lang": "ja"
+  },
+  {
+    "disp": "万古千秋",
+    "kana": "ばんこせんしゅう",
+    "q": "bankosenshuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "千秋万歳",
+    "kana": "せんしゅうばんざい",
+    "q": "senshuubanzai",
+    "lang": "ja"
+  },
+  {
+    "disp": "千状万態",
+    "kana": "せんじょうばんたい",
+    "q": "senjoubantai",
+    "lang": "ja"
+  },
+  {
+    "disp": "先制攻撃",
+    "kana": "せんせいこうげき",
+    "q": "senseikougeki",
+    "lang": "ja"
+  },
+  {
+    "disp": "千村万落",
+    "kana": "せんそんばんらく",
+    "q": "sensonbanraku",
+    "lang": "ja"
+  },
+  {
+    "disp": "先難後獲",
+    "kana": "せんなんこうかく",
+    "q": "sennankoukaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "千変万化",
+    "kana": "せんぺんばんか",
+    "q": "senpenbanka",
+    "lang": "ja"
+  },
+  {
+    "disp": "千慮一失",
+    "kana": "せんりょのいっしつ",
+    "q": "senryonoisshitsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "千慮一得",
+    "kana": "せんりょのいっとく",
+    "q": "senryonoittoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "是是非非",
+    "kana": "ぜぜひひ",
+    "q": "zezehihi",
+    "lang": "ja"
+  },
+  {
+    "disp": "是非曲直",
+    "kana": "ぜひきょくちょく",
+    "q": "zehikyokuchoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "是非善悪",
+    "kana": "ぜひぜんあく",
+    "q": "zehizennaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "前人未到",
+    "kana": "ぜんじんみとう",
+    "q": "zenjinmitou",
+    "lang": "ja"
+  },
+  {
+    "disp": "前程万里",
+    "kana": "ぜんていばんり",
+    "q": "zenteibanri",
+    "lang": "ja"
+  },
+  {
+    "disp": "前途多難",
+    "kana": "ぜんとたなん",
+    "q": "zentotanan",
+    "lang": "ja"
+  },
+  {
+    "disp": "前途有望",
+    "kana": "ぜんとゆうぼう",
+    "q": "zentoyuubou",
+    "lang": "ja"
+  },
+  {
+    "disp": "前途洋洋",
+    "kana": "ぜんとようよう",
+    "q": "zentoyouyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "善男善女",
+    "kana": "ぜんなんぜんにょ",
+    "q": "zennanzennyo",
+    "lang": "ja"
+  },
+  {
+    "disp": "善隣友好",
+    "kana": "ぜんりんゆうこう",
+    "q": "zenrinnyuukou",
+    "lang": "ja"
+  },
+  {
+    "disp": "創意工夫",
+    "kana": "そういくふう",
+    "q": "souikufuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "草行露宿",
+    "kana": "そうこうろしゅく",
+    "q": "soukouroshuku",
+    "lang": "ja"
+  },
+  {
+    "disp": "送故迎新",
+    "kana": "そうこげいしん",
+    "q": "soukogeishin",
+    "lang": "ja"
+  },
+  {
+    "disp": "相即不離",
+    "kana": "そうそくふり",
+    "q": "sousokufuri",
+    "lang": "ja"
+  },
+  {
+    "disp": "草木皆兵",
+    "kana": "そうもくかいへい",
+    "q": "soumokukaihei",
+    "lang": "ja"
+  },
+  {
+    "disp": "即時一杯",
+    "kana": "そくじいっぱい",
+    "q": "sokujiippai",
+    "lang": "ja"
+  },
+  {
+    "disp": "速戦即決",
+    "kana": "そくせんそっけつ",
+    "q": "sokusensokketsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "即断即決",
+    "kana": "そくだんそっけつ",
+    "q": "sokudansokketsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "率先垂範",
+    "kana": "そっせんすいはん",
+    "q": "sossensuihan",
+    "lang": "ja"
+  },
+  {
+    "disp": "属毛離裏",
+    "kana": "ぞくもうりり",
+    "q": "zokumouriri",
+    "lang": "ja"
+  },
+  {
+    "disp": "大隠朝市",
+    "kana": "たいいんちょうし",
+    "q": "taiinchoushi",
+    "lang": "ja"
+  },
+  {
+    "disp": "大驚失色",
+    "kana": "たいきょうしっしょく",
+    "q": "taikyoushisshoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "大味必淡",
+    "kana": "たいみひったん",
+    "q": "taimihittan",
+    "lang": "ja"
+  },
+  {
+    "disp": "大惑不解",
+    "kana": "たいわくふかい",
+    "q": "taiwakufukai",
+    "lang": "ja"
+  },
+  {
+    "disp": "度徳量力",
+    "kana": "たくとくりょうりき",
+    "q": "takutokuryouriki",
+    "lang": "ja"
+  },
+  {
+    "disp": "多事多端",
+    "kana": "たじたたん",
+    "q": "tajitatan",
+    "lang": "ja"
+  },
+  {
+    "disp": "多蔵厚亡",
+    "kana": "たぞうこうぼう",
+    "q": "tazoukoubou",
+    "lang": "ja"
+  },
+  {
+    "disp": "端木辞金",
+    "kana": "たんぼくじきん",
+    "q": "tanbokujikin",
+    "lang": "ja"
+  },
+  {
+    "disp": "短慮軽率",
+    "kana": "たんりょけいそつ",
+    "q": "tanryokeisotsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "弾丸雨注",
+    "kana": "だんがんうちゅう",
+    "q": "dangannuchuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "弾丸黒子",
+    "kana": "だんがんこくし",
+    "q": "dangankokushi",
+    "lang": "ja"
+  },
+  {
+    "disp": "談言微中",
+    "kana": "だんげんびちゅう",
+    "q": "dangenbichuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "断髪文身",
+    "kana": "だんぱつぶんしん",
+    "q": "danpatsubunshin",
+    "lang": "ja"
+  },
+  {
+    "disp": "知者不惑",
+    "kana": "ちしゃふわく",
+    "q": "chishafuwaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "忠言逆耳",
+    "kana": "ちゅうげんぎゃくじ",
+    "q": "chuugengyakuji",
+    "lang": "ja"
+  },
+  {
+    "disp": "忠孝一致",
+    "kana": "ちゅうこういっち",
+    "q": "chuukouicchi",
+    "lang": "ja"
+  },
+  {
+    "disp": "昼夜兼行",
+    "kana": "ちゅうやけんこう",
+    "q": "chuuyakenkou",
+    "lang": "ja"
+  },
+  {
+    "disp": "忠勇義烈",
+    "kana": "ちゅうゆうぎれつ",
+    "q": "chuuyuugiretsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "朝雲暮雨",
+    "kana": "ちょううんぼう",
+    "q": "chouunbou",
+    "lang": "ja"
+  },
+  {
+    "disp": "朝改暮変",
+    "kana": "ちょうかいぼへん",
+    "q": "choukaibohen",
+    "lang": "ja"
+  },
+  {
+    "disp": "朝過夕改",
+    "kana": "ちょうかせきかい",
+    "q": "choukasekikai",
+    "lang": "ja"
+  },
+  {
+    "disp": "朝観夕覧",
+    "kana": "ちょうかんせきらん",
+    "q": "choukansekiran",
+    "lang": "ja"
+  },
+  {
+    "disp": "鳥語花香",
+    "kana": "ちょうごかこう",
+    "q": "chougokakou",
+    "lang": "ja"
+  },
+  {
+    "disp": "朝三暮四",
+    "kana": "ちょうさんぼし",
+    "q": "chousanboshi",
+    "lang": "ja"
+  },
+  {
+    "disp": "鳥尽弓蔵",
+    "kana": "ちょうじんきゅうぞう",
+    "q": "choujinkyuuzou",
+    "lang": "ja"
+  },
+  {
+    "disp": "朝生暮死",
+    "kana": "ちょうせいぼし",
+    "q": "chouseiboshi",
+    "lang": "ja"
+  },
+  {
+    "disp": "朝朝暮暮",
+    "kana": "ちょうちょうぼぼ",
+    "q": "chouchoubobo",
+    "lang": "ja"
+  },
+  {
+    "disp": "飛耳長目",
+    "kana": "ひじちょうもく",
+    "q": "hijichoumoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "朝令暮改",
+    "kana": "ちょうれいぼかい",
+    "q": "choureibokai",
+    "lang": "ja"
+  },
+  {
+    "disp": "沈思黙考",
+    "kana": "ちんしもっこう",
+    "q": "chinshimokkou",
+    "lang": "ja"
+  },
+  {
+    "disp": "沈博絶麗",
+    "kana": "ちんぱくぜつれい",
+    "q": "chinpakuzetsurei",
+    "lang": "ja"
+  },
+  {
+    "disp": "提耳面命",
+    "kana": "ていじめんめい",
+    "q": "teijimenmei",
+    "lang": "ja"
+  },
+  {
+    "disp": "低頭傾首",
+    "kana": "ていとうけいしゅ",
+    "q": "teitoukeishu",
+    "lang": "ja"
+  },
+  {
+    "disp": "滴水成氷",
+    "kana": "てきすいせいひょう",
+    "q": "tekisuiseihyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "天地玄黄",
+    "kana": "てんちげんこう",
+    "q": "tenchigenkou",
+    "lang": "ja"
+  },
+  {
+    "disp": "電光影裏",
+    "kana": "でんこうえいり",
+    "q": "denkoueiri",
+    "lang": "ja"
+  },
+  {
+    "disp": "電光朝露",
+    "kana": "でんこうちょうろ",
+    "q": "denkouchouro",
+    "lang": "ja"
+  },
+  {
+    "disp": "当意即妙",
+    "kana": "とういそくみょう",
+    "q": "touisokumyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "桃園結義",
+    "kana": "とうえんけつぎ",
+    "q": "touenketsugi",
+    "lang": "ja"
+  },
+  {
+    "disp": "刀光剣影",
+    "kana": "とうこうけんえい",
+    "q": "toukoukennei",
+    "lang": "ja"
+  },
+  {
+    "disp": "刀山剣樹",
+    "kana": "とうざんけんじゅ",
+    "q": "touzankenju",
+    "lang": "ja"
+  },
+  {
+    "disp": "頭髪上指",
+    "kana": "とうはつじょうし",
+    "q": "touhatsujoushi",
+    "lang": "ja"
+  },
+  {
+    "disp": "得意忘形",
+    "kana": "とくいぼうけい",
+    "q": "tokuiboukei",
+    "lang": "ja"
+  },
+  {
+    "disp": "得意忘言",
+    "kana": "とくいぼうげん",
+    "q": "tokuibougen",
+    "lang": "ja"
+  },
+  {
+    "disp": "吐故納新",
+    "kana": "とこのうしん",
+    "q": "tokonoushin",
+    "lang": "ja"
+  },
+  {
+    "disp": "同床異夢",
+    "kana": "どうしょういむ",
+    "q": "doushouimu",
+    "lang": "ja"
+  },
+  {
+    "disp": "同声異俗",
+    "kana": "どうせいいぞく",
+    "q": "douseiizoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "読書三到",
+    "kana": "どくしょさんとう",
+    "q": "dokushosantou",
+    "lang": "ja"
+  },
+  {
+    "disp": "内清外濁",
+    "kana": "ないせいがいだく",
+    "q": "naiseigaidaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "難攻不落",
+    "kana": "なんこうふらく",
+    "q": "nankoufuraku",
+    "lang": "ja"
+  },
+  {
+    "disp": "日常茶飯",
+    "kana": "にちじょうさはん",
+    "q": "nichijousahan",
+    "lang": "ja"
+  },
+  {
+    "disp": "二人三脚",
+    "kana": "ににんさんきゃく",
+    "q": "nininsankyaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "女人禁制",
+    "kana": "にょにんきんせい",
+    "q": "nyoninkinsei",
+    "lang": "ja"
+  },
+  {
+    "disp": "年年歳歳",
+    "kana": "ねんねんさいさい",
+    "q": "nennensaisai",
+    "lang": "ja"
+  },
+  {
+    "disp": "杯水車薪",
+    "kana": "はいすいしゃしん",
+    "q": "haisuishashin",
+    "lang": "ja"
+  },
+  {
+    "disp": "破顔一笑",
+    "kana": "はがんいっしょう",
+    "q": "hagannisshou",
+    "lang": "ja"
+  },
+  {
+    "disp": "波及効果",
+    "kana": "はきゅうこうか",
+    "q": "hakyuukouka",
+    "lang": "ja"
+  },
+  {
+    "disp": "薄志弱行",
+    "kana": "はくしじゃっこう",
+    "q": "hakushijakkou",
+    "lang": "ja"
+  },
+  {
+    "disp": "白砂青松",
+    "kana": "はくしゃせいしょう",
+    "q": "hakushaseishou",
+    "lang": "ja"
+  },
+  {
+    "disp": "薄物細故",
+    "kana": "はくぶつさいこ",
+    "q": "hakubutsusaiko",
+    "lang": "ja"
+  },
+  {
+    "disp": "薄利多売",
+    "kana": "はくりたばい",
+    "q": "hakuritabai",
+    "lang": "ja"
+  },
+  {
+    "disp": "破天荒解",
+    "kana": "はてんこうかい",
+    "q": "hatenkoukai",
+    "lang": "ja"
+  },
+  {
+    "disp": "反首抜舎",
+    "kana": "はんしゅばっしゃ",
+    "q": "hanshubassha",
+    "lang": "ja"
+  },
+  {
+    "disp": "売剣買牛",
+    "kana": "ばいけんばいぎゅう",
+    "q": "baikenbaigyuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "馬耳東風",
+    "kana": "ばじとうふう",
+    "q": "bajitoufuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "抜苦与楽",
+    "kana": "ばっくよらく",
+    "q": "bakkuyoraku",
+    "lang": "ja"
+  },
+  {
+    "disp": "抜来報往",
+    "kana": "ばつらいほうおう",
+    "q": "batsuraihouou",
+    "lang": "ja"
+  },
+  {
+    "disp": "万古長青",
+    "kana": "ばんこちょうせい",
+    "q": "bankochousei",
+    "lang": "ja"
+  },
+  {
+    "disp": "万古不易",
+    "kana": "ばんこふえき",
+    "q": "bankofueki",
+    "lang": "ja"
+  },
+  {
+    "disp": "万死一生",
+    "kana": "ばんしいっせい",
+    "q": "banshiissei",
+    "lang": "ja"
+  },
+  {
+    "disp": "万世一系",
+    "kana": "ばんせいいっけい",
+    "q": "banseiikkei",
+    "lang": "ja"
+  },
+  {
+    "disp": "万世不易",
+    "kana": "ばんせいふえき",
+    "q": "banseifueki",
+    "lang": "ja"
+  },
+  {
+    "disp": "万世不刊",
+    "kana": "ばんせいふかん",
+    "q": "banseifukan",
+    "lang": "ja"
+  },
+  {
+    "disp": "万代不易",
+    "kana": "ばんだいふえき",
+    "q": "bandaifueki",
+    "lang": "ja"
+  },
+  {
+    "disp": "万能一心",
+    "kana": "ばんのういっしん",
+    "q": "bannouisshin",
+    "lang": "ja"
+  },
+  {
+    "disp": "万万千千",
+    "kana": "ばんばんせんせん",
+    "q": "banbansensen",
+    "lang": "ja"
+  },
+  {
+    "disp": "万物一馬",
+    "kana": "ばんぶついちば",
+    "q": "banbutsuichiba",
+    "lang": "ja"
+  },
+  {
+    "disp": "万夫不当",
+    "kana": "ばんぷふとう",
+    "q": "banpufutou",
+    "lang": "ja"
+  },
+  {
+    "disp": "万里同風",
+    "kana": "ばんりどうふう",
+    "q": "banridoufuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "万緑一紅",
+    "kana": "ばんりょくいっこう",
+    "q": "banryokuikkou",
+    "lang": "ja"
+  },
+  {
+    "disp": "被堅執鋭",
+    "kana": "ひけんしつえい",
+    "q": "hikenshitsuei",
+    "lang": "ja"
+  },
+  {
+    "disp": "皮相浅薄",
+    "kana": "ひそうせんぱく",
+    "q": "hisousenpaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "匹夫匹婦",
+    "kana": "ひっぷひっぷ",
+    "q": "hippuhippu",
+    "lang": "ja"
+  },
+  {
+    "disp": "肥肉厚酒",
+    "kana": "ひにくこうしゅ",
+    "q": "hinikukoushu",
+    "lang": "ja"
+  },
+  {
+    "disp": "被髪文身",
+    "kana": "ひはつぶんしん",
+    "q": "hihatsubunshin",
+    "lang": "ja"
+  },
+  {
+    "disp": "百依百順",
+    "kana": "ひゃくいひゃくじゅん",
+    "q": "hyakuihyakujun",
+    "lang": "ja"
+  },
+  {
+    "disp": "百川帰海",
+    "kana": "ひゃくせんきかい",
+    "q": "hyakusenkikai",
+    "lang": "ja"
+  },
+  {
+    "disp": "百代過客",
+    "kana": "ひゃくだいのかかく",
+    "q": "hyakudainokakaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "百鬼夜行",
+    "kana": "ひゃっきやこう",
+    "q": "hyakkiyakou",
+    "lang": "ja"
+  },
+  {
+    "disp": "表裏一体",
+    "kana": "ひょうりいったい",
+    "q": "hyouriittai",
+    "lang": "ja"
+  },
+  {
+    "disp": "比翼連理",
+    "kana": "ひよくれんり",
+    "q": "hiyokurenri",
+    "lang": "ja"
+  },
+  {
+    "disp": "皮裏陽秋",
+    "kana": "ひりのようしゅう",
+    "q": "hirinoyoushuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "微言大義",
+    "kana": "びげんたいぎ",
+    "q": "bigentaigi",
+    "lang": "ja"
+  },
+  {
+    "disp": "美辞麗句",
+    "kana": "びじれいく",
+    "q": "bijireiku",
+    "lang": "ja"
+  },
+  {
+    "disp": "美人薄命",
+    "kana": "びじんはくめい",
+    "q": "bijinhakumei",
+    "lang": "ja"
+  },
+  {
+    "disp": "微妙玄通",
+    "kana": "びみょうげんつう",
+    "q": "bimyougentsuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "風雲月露",
+    "kana": "ふううんげつろ",
+    "q": "fuuungetsuro",
+    "lang": "ja"
+  },
+  {
+    "disp": "風月玄度",
+    "kana": "ふうげつげんたく",
+    "q": "fuugetsugentaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "風俗壊乱",
+    "kana": "ふうぞくかいらん",
+    "q": "fuuzokukairan",
+    "lang": "ja"
+  },
+  {
+    "disp": "浮雲朝露",
+    "kana": "ふうんちょうろ",
+    "q": "fuunchouro",
+    "lang": "ja"
+  },
+  {
+    "disp": "不可抗力",
+    "kana": "ふかこうりょく",
+    "q": "fukakouryoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "不将不迎",
+    "kana": "ふしょうふげい",
+    "q": "fushoufugei",
+    "lang": "ja"
+  },
+  {
+    "disp": "浮声切響",
+    "kana": "ふせいせっきょう",
+    "q": "fuseisekkyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "浮石沈木",
+    "kana": "ふせきちんぼく",
+    "q": "fusekichinboku",
+    "lang": "ja"
+  },
+  {
+    "disp": "不即不離",
+    "kana": "ふそくふり",
+    "q": "fusokufuri",
+    "lang": "ja"
+  },
+  {
+    "disp": "普天率土",
+    "kana": "ふてんそつど",
+    "q": "futensotsudo",
+    "lang": "ja"
+  },
+  {
+    "disp": "不眠不休",
+    "kana": "ふみんふきゅう",
+    "q": "fuminfukyuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "粉飾決算",
+    "kana": "ふんしょくけっさん",
+    "q": "funshokukessan",
+    "lang": "ja"
+  },
+  {
+    "disp": "物議騒然",
+    "kana": "ぶつぎそうぜん",
+    "q": "butsugisouzen",
+    "lang": "ja"
+  },
+  {
+    "disp": "文武一途",
+    "kana": "ぶんぶいっと",
+    "q": "bunbuitto",
+    "lang": "ja"
+  },
+  {
+    "disp": "平談俗語",
+    "kana": "へいだんぞくご",
+    "q": "heidanzokugo",
+    "lang": "ja"
+  },
+  {
+    "disp": "平平凡凡",
+    "kana": "へいへいぼんぼん",
+    "q": "heiheibonbon",
+    "lang": "ja"
+  },
+  {
+    "disp": "辺幅修飾",
+    "kana": "へんぷくしゅうしょく",
+    "q": "henpukushuushoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "片利共生",
+    "kana": "へんりきょうせい",
+    "q": "henrikyousei",
+    "lang": "ja"
+  },
+  {
+    "disp": "砲煙弾雨",
+    "kana": "ほうえんだんう",
+    "q": "houendannu",
+    "lang": "ja"
+  },
+  {
+    "disp": "漫言放語",
+    "kana": "まんげんほうご",
+    "q": "mangenhougo",
+    "lang": "ja"
+  },
+  {
+    "disp": "抱薪救火",
+    "kana": "ほうしんきゅうか",
+    "q": "houshinkyuuka",
+    "lang": "ja"
+  },
+  {
+    "disp": "本末転倒",
+    "kana": "ほんまつてんとう",
+    "q": "honmatsutentou",
+    "lang": "ja"
+  },
+  {
+    "disp": "暮雲春樹",
+    "kana": "ぼうんしゅんじゅ",
+    "q": "bounshunju",
+    "lang": "ja"
+  },
+  {
+    "disp": "三日坊主",
+    "kana": "みっかぼうず",
+    "q": "mikkabouzu",
+    "lang": "ja"
+  },
+  {
+    "disp": "妙法一乗",
+    "kana": "みょうほういちじょう",
+    "q": "myouhouichijou",
+    "lang": "ja"
+  },
+  {
+    "disp": "無為自然",
+    "kana": "むいしぜん",
+    "q": "muishizen",
+    "lang": "ja"
+  },
+  {
+    "disp": "無為徒食",
+    "kana": "むいとしょく",
+    "q": "muitoshoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "無為無策",
+    "kana": "むいむさく",
+    "q": "muimusaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "無為無能",
+    "kana": "むいむのう",
+    "q": "muimunou",
+    "lang": "ja"
+  },
+  {
+    "disp": "無我夢中",
+    "kana": "むがむちゅう",
+    "q": "mugamuchuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "無味乾燥",
+    "kana": "むみかんそう",
+    "q": "mumikansou",
+    "lang": "ja"
+  },
+  {
+    "disp": "迷者不問",
+    "kana": "めいしゃふもん",
+    "q": "meishafumon",
+    "lang": "ja"
+  },
+  {
+    "disp": "迷惑千万",
+    "kana": "めいわくせんばん",
+    "q": "meiwakusenban",
+    "lang": "ja"
+  },
+  {
+    "disp": "綿裏包針",
+    "kana": "めんりほうしん",
+    "q": "menrihoushin",
+    "lang": "ja"
+  },
+  {
+    "disp": "目食耳視",
+    "kana": "もくしょくじし",
+    "q": "mokushokujishi",
+    "lang": "ja"
+  },
+  {
+    "disp": "物我一体",
+    "kana": "もつがいったい",
+    "q": "motsugaittai",
+    "lang": "ja"
+  },
+  {
+    "disp": "野戦攻城",
+    "kana": "やせんこうじょう",
+    "q": "yasenkoujou",
+    "lang": "ja"
+  },
+  {
+    "disp": "夜郎自大",
+    "kana": "やろうじだい",
+    "q": "yaroujidai",
+    "lang": "ja"
+  },
+  {
+    "disp": "有脚陽春",
+    "kana": "ゆうきゃくようしゅん",
+    "q": "yuukyakuyoushun",
+    "lang": "ja"
+  },
+  {
+    "disp": "有厚無厚",
+    "kana": "ゆうこうむこう",
+    "q": "yuukoumukou",
+    "lang": "ja"
+  },
+  {
+    "disp": "雄材大略",
+    "kana": "ゆうざいたいりゃく",
+    "q": "yuuzaitairyaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "優勝劣敗",
+    "kana": "ゆうしょうれっぱい",
+    "q": "yuushoureppai",
+    "lang": "ja"
+  },
+  {
+    "disp": "優柔不断",
+    "kana": "ゆうじゅうふだん",
+    "q": "yuujuufudan",
+    "lang": "ja"
+  },
+  {
+    "disp": "勇猛精進",
+    "kana": "ゆうもうしょうじん",
+    "q": "yuumoushoujin",
+    "lang": "ja"
+  },
+  {
+    "disp": "用意周到",
+    "kana": "よういしゅうとう",
+    "q": "youishuutou",
+    "lang": "ja"
+  },
+  {
+    "disp": "陽関三畳",
+    "kana": "ようかんさんじょう",
+    "q": "youkansanjou",
+    "lang": "ja"
+  },
+  {
+    "disp": "要害堅固",
+    "kana": "ようがいけんご",
+    "q": "yougaikengo",
+    "lang": "ja"
+  },
+  {
+    "disp": "容姿端麗",
+    "kana": "ようしたんれい",
+    "q": "youshitanrei",
+    "lang": "ja"
+  },
+  {
+    "disp": "用和為貴",
+    "kana": "ようわいき",
+    "q": "youwaiki",
+    "lang": "ja"
+  },
+  {
+    "disp": "乱離拡散",
+    "kana": "らんりかくさん",
+    "q": "ranrikakusan",
+    "lang": "ja"
+  },
+  {
+    "disp": "力戦奮闘",
+    "kana": "りきせんふんとう",
+    "q": "rikisenfuntou",
+    "lang": "ja"
+  },
+  {
+    "disp": "流連荒亡",
+    "kana": "りゅうれんこうぼう",
+    "q": "ryuurenkoubou",
+    "lang": "ja"
+  },
+  {
+    "disp": "良弓難張",
+    "kana": "りょうきゅうなんちょう",
+    "q": "ryoukyuunanchou",
+    "lang": "ja"
+  },
+  {
+    "disp": "良風美俗",
+    "kana": "りょうふうびぞく",
+    "q": "ryoufuubizoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "六十耳順",
+    "kana": "ろくじゅうじじゅん",
+    "q": "rokujuujijun",
+    "lang": "ja"
+  },
+  {
+    "disp": "論旨明快",
+    "kana": "ろんしめいかい",
+    "q": "ronshimeikai",
+    "lang": "ja"
+  },
+  {
+    "disp": "和敬清寂",
+    "kana": "わけいせいじゃく",
+    "q": "wakeiseijaku",
+    "lang": "ja"
+  }
+]

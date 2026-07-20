@@ -1,0 +1,860 @@
+[
+  {
+    "disp": "哀毀骨立",
+    "kana": "あいきこつりつ",
+    "q": "aikikotsuritsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "握髪吐哺",
+    "kana": "あくはつとほ",
+    "q": "akuhatsutoho",
+    "lang": "ja"
+  },
+  {
+    "disp": "衣錦還郷",
+    "kana": "いきんかんきょう",
+    "q": "ikinkankyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "一行三昧",
+    "kana": "いちぎょうざんまい",
+    "q": "ichigyouzanmai",
+    "lang": "ja"
+  },
+  {
+    "disp": "一目瞭然",
+    "kana": "いちもくりょうぜん",
+    "q": "ichimokuryouzen",
+    "lang": "ja"
+  },
+  {
+    "disp": "一旦緩急",
+    "kana": "いったんかんきゅう",
+    "q": "ittankankyuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "一筆勾消",
+    "kana": "いっぴつこうしょう",
+    "q": "ippitsukoushou",
+    "lang": "ja"
+  },
+  {
+    "disp": "鬱鬱勃勃",
+    "kana": "うつうつぼつぼつ",
+    "q": "utsuutsubotsubotsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "円頓止観",
+    "kana": "えんどんしかん",
+    "q": "endonshikan",
+    "lang": "ja"
+  },
+  {
+    "disp": "横眉怒目",
+    "kana": "おうびどもく",
+    "q": "oubidomoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "岡目八目",
+    "kana": "おかめはちもく",
+    "q": "okamehachimoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "怨親平等",
+    "kana": "おんしんびょうどう",
+    "q": "onshinbyoudou",
+    "lang": "ja"
+  },
+  {
+    "disp": "怨憎会苦",
+    "kana": "おんぞうえく",
+    "q": "onzoueku",
+    "lang": "ja"
+  },
+  {
+    "disp": "怨敵退散",
+    "kana": "おんてきたいさん",
+    "q": "ontekitaisan",
+    "lang": "ja"
+  },
+  {
+    "disp": "苛政猛虎",
+    "kana": "かせいもうこ",
+    "q": "kaseimouko",
+    "lang": "ja"
+  },
+  {
+    "disp": "甘言蜜語",
+    "kana": "かんげんみつご",
+    "q": "kangenmitsugo",
+    "lang": "ja"
+  },
+  {
+    "disp": "簡単明瞭",
+    "kana": "かんたんめいりょう",
+    "q": "kantanmeiryou",
+    "lang": "ja"
+  },
+  {
+    "disp": "蓋棺事定",
+    "kana": "がいかんじてい",
+    "q": "gaikanjitei",
+    "lang": "ja"
+  },
+  {
+    "disp": "外巧内嫉",
+    "kana": "がいこうないしつ",
+    "q": "gaikounaishitsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "蓋天蓋地",
+    "kana": "がいてんがいち",
+    "q": "gaitengaichi",
+    "lang": "ja"
+  },
+  {
+    "disp": "土崩瓦解",
+    "kana": "どほうがかい",
+    "q": "dohougakai",
+    "lang": "ja"
+  },
+  {
+    "disp": "陶犬瓦鶏",
+    "kana": "とうけんがけい",
+    "q": "toukengakei",
+    "lang": "ja"
+  },
+  {
+    "disp": "玩人喪徳",
+    "kana": "がんじんそうとく",
+    "q": "ganjinsoutoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "玩物喪志",
+    "kana": "がんぶつそうし",
+    "q": "ganbutsusoushi",
+    "lang": "ja"
+  },
+  {
+    "disp": "含哺鼓腹",
+    "kana": "がんぽこふく",
+    "q": "ganpokofuku",
+    "lang": "ja"
+  },
+  {
+    "disp": "奇技淫巧",
+    "kana": "きぎいんこう",
+    "q": "kigiinkou",
+    "lang": "ja"
+  },
+  {
+    "disp": "亀甲獣骨",
+    "kana": "きっこうじゅうこつ",
+    "q": "kikkoujuukotsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "挙案斉眉",
+    "kana": "きょあんせいび",
+    "q": "kyoanseibi",
+    "lang": "ja"
+  },
+  {
+    "disp": "錦衣玉食",
+    "kana": "きんいぎょくしょく",
+    "q": "kinnigyokushoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "金亀換酒",
+    "kana": "きんきかんしゅ",
+    "q": "kinkikanshu",
+    "lang": "ja"
+  },
+  {
+    "disp": "錦上添花",
+    "kana": "きんじょうてんか",
+    "q": "kinjoutenka",
+    "lang": "ja"
+  },
+  {
+    "disp": "玉砕瓦全",
+    "kana": "ぎょくさいがぜん",
+    "q": "gyokusaigazen",
+    "lang": "ja"
+  },
+  {
+    "disp": "吟風弄月",
+    "kana": "ぎんぷうろうげつ",
+    "q": "ginpuurougetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "苦髪楽爪",
+    "kana": "くがみらくづめ",
+    "q": "kugamirakuzume",
+    "lang": "ja"
+  },
+  {
+    "disp": "苦爪楽髪",
+    "kana": "くづめらくがみ",
+    "q": "kuzumerakugami",
+    "lang": "ja"
+  },
+  {
+    "disp": "君子三畏",
+    "kana": "くんしのさんい",
+    "q": "kunshinosanni",
+    "lang": "ja"
+  },
+  {
+    "disp": "傾蓋知己",
+    "kana": "けいがいのちき",
+    "q": "keigainochiki",
+    "lang": "ja"
+  },
+  {
+    "disp": "犬牙相制",
+    "kana": "けんがそうせい",
+    "q": "kengasousei",
+    "lang": "ja"
+  },
+  {
+    "disp": "堅塞固塁",
+    "kana": "けんさいこるい",
+    "q": "kensaikorui",
+    "lang": "ja"
+  },
+  {
+    "disp": "懸頭刺股",
+    "kana": "けんとうしこ",
+    "q": "kentoushiko",
+    "lang": "ja"
+  },
+  {
+    "disp": "賢明愚昧",
+    "kana": "けんめいぐまい",
+    "q": "kenmeigumai",
+    "lang": "ja"
+  },
+  {
+    "disp": "後生可畏",
+    "kana": "こうせいかい",
+    "q": "kouseikai",
+    "lang": "ja"
+  },
+  {
+    "disp": "向天吐唾",
+    "kana": "こうてんとだ",
+    "q": "koutentoda",
+    "lang": "ja"
+  },
+  {
+    "disp": "荒唐無稽",
+    "kana": "こうとうむけい",
+    "q": "koutoumukei",
+    "lang": "ja"
+  },
+  {
+    "disp": "黄霧四塞",
+    "kana": "こうむしそく",
+    "q": "koumushisoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "克伐怨欲",
+    "kana": "こくばつえんよく",
+    "q": "kokubatsuennyoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "虎渓三笑",
+    "kana": "こけいさんしょう",
+    "q": "kokeisanshou",
+    "lang": "ja"
+  },
+  {
+    "disp": "虎穴虎子",
+    "kana": "こけつこし",
+    "q": "koketsukoshi",
+    "lang": "ja"
+  },
+  {
+    "disp": "虎頭蛇尾",
+    "kana": "ことうだび",
+    "q": "kotoudabi",
+    "lang": "ja"
+  },
+  {
+    "disp": "虎尾春氷",
+    "kana": "こびしゅんぴょう",
+    "q": "kobishunpyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "金輪奈落",
+    "kana": "こんりんならく",
+    "q": "konrinnaraku",
+    "lang": "ja"
+  },
+  {
+    "disp": "傲岸不遜",
+    "kana": "ごうがんふそん",
+    "q": "gouganfuson",
+    "lang": "ja"
+  },
+  {
+    "disp": "塞翁失馬",
+    "kana": "さいおうしつば",
+    "q": "saioushitsuba",
+    "lang": "ja"
+  },
+  {
+    "disp": "左戚右賢",
+    "kana": "させきゆうけん",
+    "q": "sasekiyuuken",
+    "lang": "ja"
+  },
+  {
+    "disp": "沙中偶語",
+    "kana": "さちゅうのぐうご",
+    "q": "sachuunoguugo",
+    "lang": "ja"
+  },
+  {
+    "disp": "沙羅双樹",
+    "kana": "さらそうじゅ",
+    "q": "sarasouju",
+    "lang": "ja"
+  },
+  {
+    "disp": "三人成虎",
+    "kana": "さんにんせいこ",
+    "q": "sanninseiko",
+    "lang": "ja"
+  },
+  {
+    "disp": "斬新奇抜",
+    "kana": "ざんしんきばつ",
+    "q": "zanshinkibatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "歯牙余論",
+    "kana": "しがのよろん",
+    "q": "shiganoyoron",
+    "lang": "ja"
+  },
+  {
+    "disp": "市虎三伝",
+    "kana": "しこさんでん",
+    "q": "shikosanden",
+    "lang": "ja"
+  },
+  {
+    "disp": "羞花閉月",
+    "kana": "しゅうかへいげつ",
+    "q": "shuukaheigetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "袖手旁観",
+    "kana": "しゅうしゅぼうかん",
+    "q": "shuushuboukan",
+    "lang": "ja"
+  },
+  {
+    "disp": "衆酔独醒",
+    "kana": "しゅうすいどくせい",
+    "q": "shuusuidokusei",
+    "lang": "ja"
+  },
+  {
+    "disp": "神采英抜",
+    "kana": "しんさいえいばつ",
+    "q": "shinsaieibatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "自家薬籠",
+    "kana": "じかやくろう",
+    "q": "jikayakurou",
+    "lang": "ja"
+  },
+  {
+    "disp": "慈眉善目",
+    "kana": "じびぜんもく",
+    "q": "jibizenmoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "熟読玩味",
+    "kana": "じゅくどくがんみ",
+    "q": "jukudokuganmi",
+    "lang": "ja"
+  },
+  {
+    "disp": "精衛塡海",
+    "kana": "せいえいてんかい",
+    "q": "seieitenkai",
+    "lang": "ja"
+  },
+  {
+    "disp": "凄凄切切",
+    "kana": "せいせいせつせつ",
+    "q": "seiseisetsusetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "青藍氷水",
+    "kana": "せいらんひょうすい",
+    "q": "seiranhyousui",
+    "lang": "ja"
+  },
+  {
+    "disp": "赤手空拳",
+    "kana": "せきしゅくうけん",
+    "q": "sekishukuuken",
+    "lang": "ja"
+  },
+  {
+    "disp": "刹那主義",
+    "kana": "せつなしゅぎ",
+    "q": "setsunashugi",
+    "lang": "ja"
+  },
+  {
+    "disp": "煎水作氷",
+    "kana": "せんすいさくひょう",
+    "q": "sensuisakuhyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "戦戦慄慄",
+    "kana": "せんせんりつりつ",
+    "q": "sensenritsuritsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "舌端月旦",
+    "kana": "ぜったんげったん",
+    "q": "zettangettan",
+    "lang": "ja"
+  },
+  {
+    "disp": "痩骨窮骸",
+    "kana": "そうこつきゅうがい",
+    "q": "soukotsukyuugai",
+    "lang": "ja"
+  },
+  {
+    "disp": "堆金積玉",
+    "kana": "たいきんせきぎょく",
+    "q": "taikinsekigyoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "大賢虎変",
+    "kana": "たいけんこへん",
+    "q": "taikenkohen",
+    "lang": "ja"
+  },
+  {
+    "disp": "披星戴月",
+    "kana": "ひせいたいげつ",
+    "q": "hiseitaigetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "大人虎変",
+    "kana": "たいじんこへん",
+    "q": "taijinkohen",
+    "lang": "ja"
+  },
+  {
+    "disp": "体貌閑雅",
+    "kana": "たいぼうかんが",
+    "q": "taiboukanga",
+    "lang": "ja"
+  },
+  {
+    "disp": "戴盆望天",
+    "kana": "たいぼんぼうてん",
+    "q": "taibonbouten",
+    "lang": "ja"
+  },
+  {
+    "disp": "断崖絶壁",
+    "kana": "だんがいぜっぺき",
+    "q": "dangaizeppeki",
+    "lang": "ja"
+  },
+  {
+    "disp": "池魚籠鳥",
+    "kana": "ちぎょろうちょう",
+    "q": "chigyorouchou",
+    "lang": "ja"
+  },
+  {
+    "disp": "中秋玩月",
+    "kana": "ちゅうしゅうがんげつ",
+    "q": "chuushuugangetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "長袖善舞",
+    "kana": "ちょうしゅうぜんぶ",
+    "q": "choushuuzenbu",
+    "lang": "ja"
+  },
+  {
+    "disp": "朝成暮毀",
+    "kana": "ちょうせいぼき",
+    "q": "chouseiboki",
+    "lang": "ja"
+  },
+  {
+    "disp": "張眉怒目",
+    "kana": "ちょうびどもく",
+    "q": "choubidomoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "頂門金椎",
+    "kana": "ちょうもんのきんつい",
+    "q": "choumonnokintsui",
+    "lang": "ja"
+  },
+  {
+    "disp": "沈鬱頓挫",
+    "kana": "ちんうつとんざ",
+    "q": "chinnutsutonza",
+    "lang": "ja"
+  },
+  {
+    "disp": "程孔傾蓋",
+    "kana": "ていこうけいがい",
+    "q": "teikoukeigai",
+    "lang": "ja"
+  },
+  {
+    "disp": "天人冥合",
+    "kana": "てんじんめいごう",
+    "q": "tenjinmeigou",
+    "lang": "ja"
+  },
+  {
+    "disp": "天造草昧",
+    "kana": "てんぞうそうまい",
+    "q": "tenzousoumai",
+    "lang": "ja"
+  },
+  {
+    "disp": "揚眉吐気",
+    "kana": "ようびとき",
+    "q": "youbitoki",
+    "lang": "ja"
+  },
+  {
+    "disp": "徒手空拳",
+    "kana": "としゅくうけん",
+    "q": "toshukuuken",
+    "lang": "ja"
+  },
+  {
+    "disp": "頓首再拝",
+    "kana": "とんしゅさいはい",
+    "q": "tonshusaihai",
+    "lang": "ja"
+  },
+  {
+    "disp": "土木形骸",
+    "kana": "どぼくけいがい",
+    "q": "dobokukeigai",
+    "lang": "ja"
+  },
+  {
+    "disp": "熱願冷諦",
+    "kana": "ねつがんれいてい",
+    "q": "netsuganreitei",
+    "lang": "ja"
+  },
+  {
+    "disp": "念仏三昧",
+    "kana": "ねんぶつざんまい",
+    "q": "nenbutsuzanmai",
+    "lang": "ja"
+  },
+  {
+    "disp": "杯酒解怨",
+    "kana": "はいしゅかいえん",
+    "q": "haishukaien",
+    "lang": "ja"
+  },
+  {
+    "disp": "廃仏毀釈",
+    "kana": "はいぶつきしゃく",
+    "q": "haibutsukishaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "伯牙絶弦",
+    "kana": "はくがぜつげん",
+    "q": "hakugazetsugen",
+    "lang": "ja"
+  },
+  {
+    "disp": "拍手喝采",
+    "kana": "はくしゅかっさい",
+    "q": "hakushukassai",
+    "lang": "ja"
+  },
+  {
+    "disp": "白眉最良",
+    "kana": "はくびさいりょう",
+    "q": "hakubisairyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "白璧断獄",
+    "kana": "はくへきだんごく",
+    "q": "hakuhekidangoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "薄暮冥冥",
+    "kana": "はくぼめいめい",
+    "q": "hakubomeimei",
+    "lang": "ja"
+  },
+  {
+    "disp": "破綻百出",
+    "kana": "はたんひゃくしゅつ",
+    "q": "hatanhyakushutsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "氾愛兼利",
+    "kana": "はんあいけんり",
+    "q": "hannaikenri",
+    "lang": "ja"
+  },
+  {
+    "disp": "半醒半睡",
+    "kana": "はんせいはんすい",
+    "q": "hanseihansui",
+    "lang": "ja"
+  },
+  {
+    "disp": "汎濫停蓄",
+    "kana": "はんらんていちく",
+    "q": "hanranteichiku",
+    "lang": "ja"
+  },
+  {
+    "disp": "馬鹿果報",
+    "kana": "ばかかほう",
+    "q": "bakakahou",
+    "lang": "ja"
+  },
+  {
+    "disp": "抜本塞源",
+    "kana": "ばっぽんそくげん",
+    "q": "bapponsokugen",
+    "lang": "ja"
+  },
+  {
+    "disp": "抜山蓋世",
+    "kana": "ばつざんがいせい",
+    "q": "batsuzangaisei",
+    "lang": "ja"
+  },
+  {
+    "disp": "馬良白眉",
+    "kana": "ばりょうはくび",
+    "q": "baryouhakubi",
+    "lang": "ja"
+  },
+  {
+    "disp": "氷消瓦解",
+    "kana": "ひょうしょうがかい",
+    "q": "hyoushougakai",
+    "lang": "ja"
+  },
+  {
+    "disp": "眉間一尺",
+    "kana": "びかんいっしゃく",
+    "q": "bikannisshaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "眉目秀麗",
+    "kana": "びもくしゅうれい",
+    "q": "bimokushuurei",
+    "lang": "ja"
+  },
+  {
+    "disp": "眉目清秀",
+    "kana": "びもくせいしゅう",
+    "q": "bimokuseishuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "風流三昧",
+    "kana": "ふうりゅうざんまい",
+    "q": "fuuryuuzanmai",
+    "lang": "ja"
+  },
+  {
+    "disp": "粉愁香怨",
+    "kana": "ふんしゅうこうえん",
+    "q": "funshuukouen",
+    "lang": "ja"
+  },
+  {
+    "disp": "舞文弄法",
+    "kana": "ぶぶんろうほう",
+    "q": "bubunrouhou",
+    "lang": "ja"
+  },
+  {
+    "disp": "閉口頓首",
+    "kana": "へいこうとんしゅ",
+    "q": "heikoutonshu",
+    "lang": "ja"
+  },
+  {
+    "disp": "平沙万里",
+    "kana": "へいさばんり",
+    "q": "heisabanri",
+    "lang": "ja"
+  },
+  {
+    "disp": "報怨以徳",
+    "kana": "ほうえんいとく",
+    "q": "houennitoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "方底円蓋",
+    "kana": "ほうていえんがい",
+    "q": "houteiengai",
+    "lang": "ja"
+  },
+  {
+    "disp": "蜂房水渦",
+    "kana": "ほうぼうすいか",
+    "q": "houbousuika",
+    "lang": "ja"
+  },
+  {
+    "disp": "法華三昧",
+    "kana": "ほっけざんまい",
+    "q": "hokkezanmai",
+    "lang": "ja"
+  },
+  {
+    "disp": "貌合心離",
+    "kana": "ぼうごうしんり",
+    "q": "bougoushinri",
+    "lang": "ja"
+  },
+  {
+    "disp": "名詮自性",
+    "kana": "みょうせんじしょう",
+    "q": "myousenjishou",
+    "lang": "ja"
+  },
+  {
+    "disp": "無影無踪",
+    "kana": "むえいむそう",
+    "q": "mueimusou",
+    "lang": "ja"
+  },
+  {
+    "disp": "冥頑不霊",
+    "kana": "めいがんふれい",
+    "q": "meiganfurei",
+    "lang": "ja"
+  },
+  {
+    "disp": "盲亀浮木",
+    "kana": "もうきふぼく",
+    "q": "moukifuboku",
+    "lang": "ja"
+  },
+  {
+    "disp": "冶金踊躍",
+    "kana": "やきんようやく",
+    "q": "yakinnyouyaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "雄心勃勃",
+    "kana": "ゆうしんぼつぼつ",
+    "q": "yuushinbotsubotsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "妖怪変化",
+    "kana": "ようかいへんげ",
+    "q": "youkaihenge",
+    "lang": "ja"
+  },
+  {
+    "disp": "妖言惑衆",
+    "kana": "ようげんわくしゅう",
+    "q": "yougenwakushuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "羊質虎皮",
+    "kana": "ようしつこひ",
+    "q": "youshitsukohi",
+    "lang": "ja"
+  },
+  {
+    "disp": "沃野千里",
+    "kana": "よくやせんり",
+    "q": "yokuyasenri",
+    "lang": "ja"
+  },
+  {
+    "disp": "抑揚頓挫",
+    "kana": "よくようとんざ",
+    "q": "yokuyoutonza",
+    "lang": "ja"
+  },
+  {
+    "disp": "藍田生玉",
+    "kana": "らんでんしょうぎょく",
+    "q": "randenshougyoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "冷嘲熱罵",
+    "kana": "れいちょうねつば",
+    "q": "reichounetsuba",
+    "lang": "ja"
+  },
+  {
+    "disp": "冷土荒堆",
+    "kana": "れいどこうたい",
+    "q": "reidokoutai",
+    "lang": "ja"
+  },
+  {
+    "disp": "籠鳥恋雲",
+    "kana": "ろうちょうれんうん",
+    "q": "rouchourennun",
+    "lang": "ja"
+  }
+]

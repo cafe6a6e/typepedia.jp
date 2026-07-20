@@ -1,0 +1,5942 @@
+[
+  {
+    "disp": "哀鳴啾啾",
+    "kana": "あいめいしゅうしゅう",
+    "q": "aimeishuushuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "鴉雀無声",
+    "kana": "あじゃくむせい",
+    "q": "ajakumusei",
+    "lang": "ja"
+  },
+  {
+    "disp": "鴉巣生鳳",
+    "kana": "あそうせいほう",
+    "q": "asouseihou",
+    "lang": "ja"
+  },
+  {
+    "disp": "遏悪揚善",
+    "kana": "あつあくようぜん",
+    "q": "atsuakuyouzen",
+    "lang": "ja"
+  },
+  {
+    "disp": "蛙鳴蝉噪",
+    "kana": "あめいせんそう",
+    "q": "ameisensou",
+    "lang": "ja"
+  },
+  {
+    "disp": "阿爺下頷",
+    "kana": "あやあがん",
+    "q": "ayaagan",
+    "lang": "ja"
+  },
+  {
+    "disp": "阿諛傾奪",
+    "kana": "あゆけいだつ",
+    "q": "ayukeidatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "阿諛追従",
+    "kana": "あゆついしょう",
+    "q": "ayutsuishou",
+    "lang": "ja"
+  },
+  {
+    "disp": "阿諛便佞",
+    "kana": "あゆべんねい",
+    "q": "ayubennei",
+    "lang": "ja"
+  },
+  {
+    "disp": "阿轆轆地",
+    "kana": "あろくろくじ",
+    "q": "arokurokuji",
+    "lang": "ja"
+  },
+  {
+    "disp": "晏嬰狐裘",
+    "kana": "あんえいこきゅう",
+    "q": "anneikokyuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "安閑恬静",
+    "kana": "あんかんてんせい",
+    "q": "ankantensei",
+    "lang": "ja"
+  },
+  {
+    "disp": "晏子高節",
+    "kana": "あんしのこうせつ",
+    "q": "anshinokousetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "按図索驥",
+    "kana": "あんずさくき",
+    "q": "anzusakuki",
+    "lang": "ja"
+  },
+  {
+    "disp": "帷幄上奏",
+    "kana": "いあくじょうそう",
+    "q": "iakujousou",
+    "lang": "ja"
+  },
+  {
+    "disp": "伊尹負鼎",
+    "kana": "いいんふてい",
+    "q": "iinfutei",
+    "lang": "ja"
+  },
+  {
+    "disp": "意気消沈",
+    "kana": "いきしょうちん",
+    "q": "ikishouchin",
+    "lang": "ja"
+  },
+  {
+    "disp": "意気沮喪",
+    "kana": "いきそそう",
+    "q": "ikisosou",
+    "lang": "ja"
+  },
+  {
+    "disp": "衣錦尚絅",
+    "kana": "いきんしょうけい",
+    "q": "ikinshoukei",
+    "lang": "ja"
+  },
+  {
+    "disp": "佩韋佩弦",
+    "kana": "はいいはいげん",
+    "q": "haiihaigen",
+    "lang": "ja"
+  },
+  {
+    "disp": "為虎傅翼",
+    "kana": "いこふよく",
+    "q": "ikofuyoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "意識朦朧",
+    "kana": "いしきもうろう",
+    "q": "ishikimourou",
+    "lang": "ja"
+  },
+  {
+    "disp": "意匠惨澹",
+    "kana": "いしょうさんたん",
+    "q": "ishousantan",
+    "lang": "ja"
+  },
+  {
+    "disp": "渭樹江雲",
+    "kana": "いじゅこううん",
+    "q": "ijukouun",
+    "lang": "ja"
+  },
+  {
+    "disp": "韋駄天走",
+    "kana": "いだてんばしり",
+    "q": "idatenbashiri",
+    "lang": "ja"
+  },
+  {
+    "disp": "一觴一詠",
+    "kana": "いっしょういちえい",
+    "q": "isshouichiei",
+    "lang": "ja"
+  },
+  {
+    "disp": "一字褒貶",
+    "kana": "いちじほうへん",
+    "q": "ichijihouhen",
+    "lang": "ja"
+  },
+  {
+    "disp": "一望無垠",
+    "kana": "いちぼうむぎん",
+    "q": "ichiboumugin",
+    "lang": "ja"
+  },
+  {
+    "disp": "一縷千鈞",
+    "kana": "いちるせんきん",
+    "q": "ichirusenkin",
+    "lang": "ja"
+  },
+  {
+    "disp": "一攫千金",
+    "kana": "いっかくせんきん",
+    "q": "ikkakusenkin",
+    "lang": "ja"
+  },
+  {
+    "disp": "一家眷族",
+    "kana": "いっかけんぞく",
+    "q": "ikkakenzoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "一家団欒",
+    "kana": "いっかだんらん",
+    "q": "ikkadanran",
+    "lang": "ja"
+  },
+  {
+    "disp": "一気呵成",
+    "kana": "いっきかせい",
+    "q": "ikkikasei",
+    "lang": "ja"
+  },
+  {
+    "disp": "一饋十起",
+    "kana": "いっきじっき",
+    "q": "ikkijikki",
+    "lang": "ja"
+  },
+  {
+    "disp": "一簣之功",
+    "kana": "いっきのこう",
+    "q": "ikkinokou",
+    "lang": "ja"
+  },
+  {
+    "disp": "一丘一壑",
+    "kana": "いっきゅういちがく",
+    "q": "ikkyuuichigaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "一裘一葛",
+    "kana": "いっきゅういっかつ",
+    "q": "ikkyuuikkatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "一丘之貉",
+    "kana": "いっきゅうのかく",
+    "q": "ikkyuunokaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "一薫一蕕",
+    "kana": "いっくんいちゆう",
+    "q": "ikkunnichiyuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "一蹶不振",
+    "kana": "いっけつふしん",
+    "q": "ikketsufushin",
+    "lang": "ja"
+  },
+  {
+    "disp": "一闔一闢",
+    "kana": "いっこういちびゃく",
+    "q": "ikkouichibyaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "一狐之腋",
+    "kana": "いっこのえき",
+    "q": "ikkonoeki",
+    "lang": "ja"
+  },
+  {
+    "disp": "一糸一毫",
+    "kana": "いっしいちごう",
+    "q": "isshiichigou",
+    "lang": "ja"
+  },
+  {
+    "disp": "一士諤諤",
+    "kana": "いっしがくがく",
+    "q": "isshigakugaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "一瀉千里",
+    "kana": "いっしゃせんり",
+    "q": "isshasenri",
+    "lang": "ja"
+  },
+  {
+    "disp": "一倡三歎",
+    "kana": "いっしょうさんたん",
+    "q": "isshousantan",
+    "lang": "ja"
+  },
+  {
+    "disp": "一世風靡",
+    "kana": "いっせいふうび",
+    "q": "isseifuubi",
+    "lang": "ja"
+  },
+  {
+    "disp": "一箭双雕",
+    "kana": "いっせんそうちょう",
+    "q": "issensouchou",
+    "lang": "ja"
+  },
+  {
+    "disp": "一朝之忿",
+    "kana": "いっちょうのいかり",
+    "q": "icchounoikari",
+    "lang": "ja"
+  },
+  {
+    "disp": "一擲千金",
+    "kana": "いってきせんきん",
+    "q": "ittekisenkin",
+    "lang": "ja"
+  },
+  {
+    "disp": "一髪千鈞",
+    "kana": "いっぱつせんきん",
+    "q": "ippatsusenkin",
+    "lang": "ja"
+  },
+  {
+    "disp": "一嚬一笑",
+    "kana": "いっぴんいっしょう",
+    "q": "ippinnisshou",
+    "lang": "ja"
+  },
+  {
+    "disp": "鷸蚌之争",
+    "kana": "いつぼうのあらそい",
+    "q": "itsubounoarasoi",
+    "lang": "ja"
+  },
+  {
+    "disp": "猗頓之富",
+    "kana": "いとんのとみ",
+    "q": "itonnotomi",
+    "lang": "ja"
+  },
+  {
+    "disp": "倚馬七紙",
+    "kana": "いばしちし",
+    "q": "ibashichishi",
+    "lang": "ja"
+  },
+  {
+    "disp": "夷蛮戎狄",
+    "kana": "いばんじゅうてき",
+    "q": "ibanjuuteki",
+    "lang": "ja"
+  },
+  {
+    "disp": "渭浜漁父",
+    "kana": "いひんのぎょほ",
+    "q": "ihinnogyoho",
+    "lang": "ja"
+  },
+  {
+    "disp": "萎靡沈滞",
+    "kana": "いびちんたい",
+    "q": "ibichintai",
+    "lang": "ja"
+  },
+  {
+    "disp": "異聞奇譚",
+    "kana": "いぶんきたん",
+    "q": "ibunkitan",
+    "lang": "ja"
+  },
+  {
+    "disp": "韋編三絶",
+    "kana": "いへんさんぜつ",
+    "q": "ihensanzetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "倚門之望",
+    "kana": "いもんのぼう",
+    "q": "imonnobou",
+    "lang": "ja"
+  },
+  {
+    "disp": "異類無礙",
+    "kana": "いるいむげ",
+    "q": "iruimuge",
+    "lang": "ja"
+  },
+  {
+    "disp": "殷鑑不遠",
+    "kana": "いんかんふえん",
+    "q": "inkanfuen",
+    "lang": "ja"
+  },
+  {
+    "disp": "因果覿面",
+    "kana": "いんがてきめん",
+    "q": "ingatekimen",
+    "lang": "ja"
+  },
+  {
+    "disp": "婬虐暴戻",
+    "kana": "いんぎゃくぼうれい",
+    "q": "ingyakubourei",
+    "lang": "ja"
+  },
+  {
+    "disp": "慇懃無礼",
+    "kana": "いんぎんぶれい",
+    "q": "inginburei",
+    "lang": "ja"
+  },
+  {
+    "disp": "因循苟且",
+    "kana": "いんじゅんこうしょ",
+    "q": "injunkousho",
+    "lang": "ja"
+  },
+  {
+    "disp": "飲鴆止渇",
+    "kana": "いんちんしかつ",
+    "q": "inchinshikatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "陰謀詭計",
+    "kana": "いんぼうきけい",
+    "q": "inboukikei",
+    "lang": "ja"
+  },
+  {
+    "disp": "烏焉魯魚",
+    "kana": "うえんろぎょ",
+    "q": "uenrogyo",
+    "lang": "ja"
+  },
+  {
+    "disp": "于公高門",
+    "kana": "うこうこうもん",
+    "q": "ukoukoumon",
+    "lang": "ja"
+  },
+  {
+    "disp": "禹行舜趨",
+    "kana": "うこうしゅんすう",
+    "q": "ukoushunsuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "右顧左眄",
+    "kana": "うこさべん",
+    "q": "ukosaben",
+    "lang": "ja"
+  },
+  {
+    "disp": "迂疎空闊",
+    "kana": "うそくうかつ",
+    "q": "usokuukatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "鬱肉漏脯",
+    "kana": "うつにくろうほ",
+    "q": "utsunikurouho",
+    "lang": "ja"
+  },
+  {
+    "disp": "禹湯文武",
+    "kana": "うとうぶんぶ",
+    "q": "utoubunbu",
+    "lang": "ja"
+  },
+  {
+    "disp": "烏兎匆匆",
+    "kana": "うとそうそう",
+    "q": "utosousou",
+    "lang": "ja"
+  },
+  {
+    "disp": "嫗伏孕鬻",
+    "kana": "うふうよういく",
+    "q": "ufuuyouiku",
+    "lang": "ja"
+  },
+  {
+    "disp": "禹歩舜趨",
+    "kana": "うほしゅんすう",
+    "q": "uhoshunsuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "紆余委蛇",
+    "kana": "うよいだ",
+    "q": "uyoida",
+    "lang": "ja"
+  },
+  {
+    "disp": "紆余曲折",
+    "kana": "うよきょくせつ",
+    "q": "uyokyokusetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "盂蘭盆会",
+    "kana": "うらぼんえ",
+    "q": "urabonne",
+    "lang": "ja"
+  },
+  {
+    "disp": "雨霖鈴曲",
+    "kana": "うりんれいきょく",
+    "q": "urinreikyoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "雲雨巫山",
+    "kana": "うんうふざん",
+    "q": "unnufuzan",
+    "lang": "ja"
+  },
+  {
+    "disp": "雲烟過眼",
+    "kana": "うんえんかがん",
+    "q": "unnenkagan",
+    "lang": "ja"
+  },
+  {
+    "disp": "雲烟万里",
+    "kana": "うんえんばんり",
+    "q": "unnenbanri",
+    "lang": "ja"
+  },
+  {
+    "disp": "雲烟飛動",
+    "kana": "うんえんひどう",
+    "q": "unnenhidou",
+    "lang": "ja"
+  },
+  {
+    "disp": "雲烟縹渺",
+    "kana": "うんえんひょうびょう",
+    "q": "unnenhyoubyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "雲遊萍寄",
+    "kana": "うんゆうへいき",
+    "q": "unnyuuheiki",
+    "lang": "ja"
+  },
+  {
+    "disp": "雲容烟態",
+    "kana": "うんようえんたい",
+    "q": "unnyouentai",
+    "lang": "ja"
+  },
+  {
+    "disp": "栄諧伉儷",
+    "kana": "えいかいこうれい",
+    "q": "eikaikourei",
+    "lang": "ja"
+  },
+  {
+    "disp": "影駭響震",
+    "kana": "えいがいきょうしん",
+    "q": "eigaikyoushin",
+    "lang": "ja"
+  },
+  {
+    "disp": "英姿颯爽",
+    "kana": "えいしさっそう",
+    "q": "eishisassou",
+    "lang": "ja"
+  },
+  {
+    "disp": "郢書燕説",
+    "kana": "えいしょえんせつ",
+    "q": "eishoensetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "盈満之咎",
+    "kana": "えいまんのとがめ",
+    "q": "eimannotogame",
+    "lang": "ja"
+  },
+  {
+    "disp": "英明闊達",
+    "kana": "えいめいかったつ",
+    "q": "eimeikattatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "慧可断臂",
+    "kana": "えかだんぴ",
+    "q": "ekadanpi",
+    "lang": "ja"
+  },
+  {
+    "disp": "依怙贔屓",
+    "kana": "えこひいき",
+    "q": "ekohiiki",
+    "lang": "ja"
+  },
+  {
+    "disp": "越俎代庖",
+    "kana": "えっそだいほう",
+    "q": "essodaihou",
+    "lang": "ja"
+  },
+  {
+    "disp": "越俎之罪",
+    "kana": "えっそのつみ",
+    "q": "essonotsumi",
+    "lang": "ja"
+  },
+  {
+    "disp": "越鳧楚乙",
+    "kana": "えつふそいつ",
+    "q": "etsufusoitsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "宴安酖毒",
+    "kana": "えんあんちんどく",
+    "q": "ennanchindoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "烟雲過眼",
+    "kana": "えんうんかがん",
+    "q": "ennunkagan",
+    "lang": "ja"
+  },
+  {
+    "disp": "蜿蜿長蛇",
+    "kana": "えんえんちょうだ",
+    "q": "ennenchouda",
+    "lang": "ja"
+  },
+  {
+    "disp": "円滑洒脱",
+    "kana": "えんかつしゃだつ",
+    "q": "enkatsushadatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "烟霞痼疾",
+    "kana": "えんかのこしつ",
+    "q": "enkanokoshitsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "燕頷虎頸",
+    "kana": "えんがんこけい",
+    "q": "engankokei",
+    "lang": "ja"
+  },
+  {
+    "disp": "燕頷虎頭",
+    "kana": "えんがんことう",
+    "q": "engankotou",
+    "lang": "ja"
+  },
+  {
+    "disp": "燕頷投筆",
+    "kana": "えんがんとうひつ",
+    "q": "engantouhitsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "婉曲迂遠",
+    "kana": "えんきょくうえん",
+    "q": "enkyokuuen",
+    "lang": "ja"
+  },
+  {
+    "disp": "延頸挙踵",
+    "kana": "えんけいきょしょう",
+    "q": "enkeikyoshou",
+    "lang": "ja"
+  },
+  {
+    "disp": "猿猴取月",
+    "kana": "えんこうしゅげつ",
+    "q": "enkoushugetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "怨女曠夫",
+    "kana": "えんじょこうふ",
+    "q": "enjokoufu",
+    "lang": "ja"
+  },
+  {
+    "disp": "烟波縹渺",
+    "kana": "えんぱひょうびょう",
+    "q": "enpahyoubyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "猿臂之勢",
+    "kana": "えんぴのいきおい",
+    "q": "enpinoikioi",
+    "lang": "ja"
+  },
+  {
+    "disp": "偃武修文",
+    "kana": "えんぶしゅうぶん",
+    "q": "enbushuubun",
+    "lang": "ja"
+  },
+  {
+    "disp": "閻浮檀金",
+    "kana": "えんぶだごん",
+    "q": "enbudagon",
+    "lang": "ja"
+  },
+  {
+    "disp": "厭聞飫聴",
+    "kana": "えんぶんよちょう",
+    "q": "enbunnyochou",
+    "lang": "ja"
+  },
+  {
+    "disp": "婉娩聴従",
+    "kana": "えんべんちょうじゅう",
+    "q": "enbenchoujuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "衍曼流爛",
+    "kana": "えんまんりゅうらん",
+    "q": "enmanryuuran",
+    "lang": "ja"
+  },
+  {
+    "disp": "轅門二竜",
+    "kana": "えんもんにりょう",
+    "q": "enmonniryou",
+    "lang": "ja"
+  },
+  {
+    "disp": "厭離穢土",
+    "kana": "おんりえど",
+    "q": "onriedo",
+    "lang": "ja"
+  },
+  {
+    "disp": "円頭方足",
+    "kana": "えんとうほうそく",
+    "q": "entouhousoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "嘔啞嘲哳",
+    "kana": "おうあちょうたつ",
+    "q": "ouachoutatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "桜花爛漫",
+    "kana": "おうからんまん",
+    "q": "oukaranman",
+    "lang": "ja"
+  },
+  {
+    "disp": "枉駕来臨",
+    "kana": "おうがらいりん",
+    "q": "ougarairin",
+    "lang": "ja"
+  },
+  {
+    "disp": "横行闊歩",
+    "kana": "おうこうかっぽ",
+    "q": "oukoukappo",
+    "lang": "ja"
+  },
+  {
+    "disp": "横行跋扈",
+    "kana": "おうこうばっこ",
+    "q": "oukoubakko",
+    "lang": "ja"
+  },
+  {
+    "disp": "往事渺茫",
+    "kana": "おうじびょうぼう",
+    "q": "oujibyoubou",
+    "lang": "ja"
+  },
+  {
+    "disp": "往事茫茫",
+    "kana": "おうじぼうぼう",
+    "q": "oujiboubou",
+    "lang": "ja"
+  },
+  {
+    "disp": "枉尺直尋",
+    "kana": "おうせきちょくじん",
+    "q": "ousekichokujin",
+    "lang": "ja"
+  },
+  {
+    "disp": "枉法徇私",
+    "kana": "おうほうじゅんし",
+    "q": "ouhoujunshi",
+    "lang": "ja"
+  },
+  {
+    "disp": "甕牖縄枢",
+    "kana": "おうゆうじょうすう",
+    "q": "ouyuujousuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "王楊盧駱",
+    "kana": "おうようろらく",
+    "q": "ouyouroraku",
+    "lang": "ja"
+  },
+  {
+    "disp": "甕裡醯鶏",
+    "kana": "おうりけいけい",
+    "q": "ourikeikei",
+    "lang": "ja"
+  },
+  {
+    "disp": "恩讎分明",
+    "kana": "おんしゅうぶんめい",
+    "q": "onshuubunmei",
+    "lang": "ja"
+  },
+  {
+    "disp": "温凊定省",
+    "kana": "おんせいていせい",
+    "q": "onseiteisei",
+    "lang": "ja"
+  },
+  {
+    "disp": "誨盗誨淫",
+    "kana": "かいとうかいいん",
+    "q": "kaitoukaiin",
+    "lang": "ja"
+  },
+  {
+    "disp": "海闊天空",
+    "kana": "かいかつてんくう",
+    "q": "kaikatsutenkuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "海市蜃楼",
+    "kana": "かいししんろう",
+    "q": "kaishishinrou",
+    "lang": "ja"
+  },
+  {
+    "disp": "人口膾炙",
+    "kana": "じんこうかいしゃ",
+    "q": "jinkoukaisha",
+    "lang": "ja"
+  },
+  {
+    "disp": "喙長三尺",
+    "kana": "かいちょうさんじゃく",
+    "q": "kaichousanjaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "海底撈月",
+    "kana": "かいていろうげつ",
+    "q": "kaiteirougetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "開天闢地",
+    "kana": "かいてんへきち",
+    "q": "kaitenhekichi",
+    "lang": "ja"
+  },
+  {
+    "disp": "槐門棘路",
+    "kana": "かいもんきょくろ",
+    "q": "kaimonkyokuro",
+    "lang": "ja"
+  },
+  {
+    "disp": "傀儡政権",
+    "kana": "かいらいせいけん",
+    "q": "kairaiseiken",
+    "lang": "ja"
+  },
+  {
+    "disp": "偕老同穴",
+    "kana": "かいろうどうけつ",
+    "q": "kairoudouketsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "薤露蒿里",
+    "kana": "かいろこうり",
+    "q": "kairokouri",
+    "lang": "ja"
+  },
+  {
+    "disp": "柯会之盟",
+    "kana": "かかいのめい",
+    "q": "kakainomei",
+    "lang": "ja"
+  },
+  {
+    "disp": "蝸角之争",
+    "kana": "かかくのあらそい",
+    "q": "kakakunoarasoi",
+    "lang": "ja"
+  },
+  {
+    "disp": "呵呵大笑",
+    "kana": "かかたいしょう",
+    "q": "kakataishou",
+    "lang": "ja"
+  },
+  {
+    "disp": "夏癸殷辛",
+    "kana": "かきいんしん",
+    "q": "kakiinshin",
+    "lang": "ja"
+  },
+  {
+    "disp": "蝸牛角上",
+    "kana": "かぎゅうかくじょう",
+    "q": "kagyuukakujou",
+    "lang": "ja"
+  },
+  {
+    "disp": "鶴立企佇",
+    "kana": "かくりつきちょ",
+    "q": "kakuritsukicho",
+    "lang": "ja"
+  },
+  {
+    "disp": "家鶏野雉",
+    "kana": "かけいやち",
+    "q": "kakeiyachi",
+    "lang": "ja"
+  },
+  {
+    "disp": "歌功頌徳",
+    "kana": "かこうしょうとく",
+    "q": "kakoushoutoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "華胥之夢",
+    "kana": "かしょのゆめ",
+    "q": "kashonoyume",
+    "lang": "ja"
+  },
+  {
+    "disp": "軻親断機",
+    "kana": "かしんだんき",
+    "q": "kashindanki",
+    "lang": "ja"
+  },
+  {
+    "disp": "花鳥諷詠",
+    "kana": "かちょうふうえい",
+    "q": "kachoufuuei",
+    "lang": "ja"
+  },
+  {
+    "disp": "隔靴搔痒",
+    "kana": "かっかそうよう",
+    "q": "kakkasouyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "渇驥奔泉",
+    "kana": "かっきほんせん",
+    "q": "kakkihonsen",
+    "lang": "ja"
+  },
+  {
+    "disp": "精励恪勤",
+    "kana": "せいれいかっきん",
+    "q": "seireikakkin",
+    "lang": "ja"
+  },
+  {
+    "disp": "闊達自在",
+    "kana": "かったつじざい",
+    "q": "kattatsujizai",
+    "lang": "ja"
+  },
+  {
+    "disp": "豁達大度",
+    "kana": "かったつたいど",
+    "q": "kattatsutaido",
+    "lang": "ja"
+  },
+  {
+    "disp": "豁然大悟",
+    "kana": "かつぜんたいご",
+    "q": "katsuzentaigo",
+    "lang": "ja"
+  },
+  {
+    "disp": "刮目相待",
+    "kana": "かつもくそうたい",
+    "q": "katsumokusoutai",
+    "lang": "ja"
+  },
+  {
+    "disp": "華亭鶴唳",
+    "kana": "かていかくれい",
+    "q": "kateikakurei",
+    "lang": "ja"
+  },
+  {
+    "disp": "禍福倚伏",
+    "kana": "かふくいふく",
+    "q": "kafukuifuku",
+    "lang": "ja"
+  },
+  {
+    "disp": "苛斂誅求",
+    "kana": "かれんちゅうきゅう",
+    "q": "karenchuukyuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "夏鑪冬扇",
+    "kana": "かろとうせん",
+    "q": "karotousen",
+    "lang": "ja"
+  },
+  {
+    "disp": "籠鳥檻猿",
+    "kana": "ろうちょうかんえん",
+    "q": "rouchoukannen",
+    "lang": "ja"
+  },
+  {
+    "disp": "干戈倥偬",
+    "kana": "かんかこうそう",
+    "q": "kankakousou",
+    "lang": "ja"
+  },
+  {
+    "disp": "鰥寡孤独",
+    "kana": "かんかこどく",
+    "q": "kankakodoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "轗軻不遇",
+    "kana": "かんかふぐう",
+    "q": "kankafuguu",
+    "lang": "ja"
+  },
+  {
+    "disp": "侃侃諤諤",
+    "kana": "かんかんがくがく",
+    "q": "kankangakugaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "関関雎鳩",
+    "kana": "かんかんしょきゅう",
+    "q": "kankanshokyuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "歓喜抃舞",
+    "kana": "かんきべんぶ",
+    "q": "kankibenbu",
+    "lang": "ja"
+  },
+  {
+    "disp": "管窺蠡測",
+    "kana": "かんきれいそく",
+    "q": "kankireisoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "関雎之化",
+    "kana": "かんしょのか",
+    "q": "kanshonoka",
+    "lang": "ja"
+  },
+  {
+    "disp": "韓信匍匐",
+    "kana": "かんしんほふく",
+    "q": "kanshinhofuku",
+    "lang": "ja"
+  },
+  {
+    "disp": "甘井先竭",
+    "kana": "かんせいせんけつ",
+    "q": "kanseisenketsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "干戚羽旄",
+    "kana": "かんせきうぼう",
+    "q": "kansekiubou",
+    "lang": "ja"
+  },
+  {
+    "disp": "邯鄲之歩",
+    "kana": "かんたんのほ",
+    "q": "kantannoho",
+    "lang": "ja"
+  },
+  {
+    "disp": "邯鄲之夢",
+    "kana": "かんたんのゆめ",
+    "q": "kantannoyume",
+    "lang": "ja"
+  },
+  {
+    "disp": "寒煖饑飽",
+    "kana": "かんだんきほう",
+    "q": "kandankihou",
+    "lang": "ja"
+  },
+  {
+    "disp": "奸知術数",
+    "kana": "かんちじゅっすう",
+    "q": "kanchijussuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "旱天慈雨",
+    "kana": "かんてんじう",
+    "q": "kantenjiu",
+    "lang": "ja"
+  },
+  {
+    "disp": "撼天動地",
+    "kana": "かんてんどうち",
+    "q": "kantendouchi",
+    "lang": "ja"
+  },
+  {
+    "disp": "甘棠之愛",
+    "kana": "かんとうのあい",
+    "q": "kantounoai",
+    "lang": "ja"
+  },
+  {
+    "disp": "環堵蕭然",
+    "kana": "かんとしょうぜん",
+    "q": "kantoshouzen",
+    "lang": "ja"
+  },
+  {
+    "disp": "艱難辛苦",
+    "kana": "かんなんしんく",
+    "q": "kannanshinku",
+    "lang": "ja"
+  },
+  {
+    "disp": "奸佞邪智",
+    "kana": "かんねいじゃち",
+    "q": "kanneijachi",
+    "lang": "ja"
+  },
+  {
+    "disp": "銜尾相随",
+    "kana": "かんびそうずい",
+    "q": "kanbisouzui",
+    "lang": "ja"
+  },
+  {
+    "disp": "勧百諷一",
+    "kana": "かんぴゃくふういつ",
+    "q": "kanpyakufuuitsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "管鮑之交",
+    "kana": "かんぽうのまじわり",
+    "q": "kanpounomajiwari",
+    "lang": "ja"
+  },
+  {
+    "disp": "蓋瓦級甎",
+    "kana": "がいがきゅうせん",
+    "q": "gaigakyuusen",
+    "lang": "ja"
+  },
+  {
+    "disp": "睚眥之怨",
+    "kana": "がいさいのうらみ",
+    "q": "gaisainourami",
+    "lang": "ja"
+  },
+  {
+    "disp": "亥豕之譌",
+    "kana": "がいしのか",
+    "q": "gaishinoka",
+    "lang": "ja"
+  },
+  {
+    "disp": "磑風舂雨",
+    "kana": "がいふうしょうう",
+    "q": "gaifuushouu",
+    "lang": "ja"
+  },
+  {
+    "disp": "諤諤之臣",
+    "kana": "がくがくのしん",
+    "q": "gakugakunoshin",
+    "lang": "ja"
+  },
+  {
+    "disp": "画脂鏤氷",
+    "kana": "がしろうひょう",
+    "q": "gashirouhyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "画竜点睛",
+    "kana": "がりょうてんせい",
+    "q": "garyoutensei",
+    "lang": "ja"
+  },
+  {
+    "disp": "銜哀致誠",
+    "kana": "がんあいちせい",
+    "q": "gannaichisei",
+    "lang": "ja"
+  },
+  {
+    "disp": "含英咀華",
+    "kana": "がんえいしょか",
+    "q": "ganneishoka",
+    "lang": "ja"
+  },
+  {
+    "disp": "頷下之珠",
+    "kana": "がんかのしゅ",
+    "q": "gankanoshu",
+    "lang": "ja"
+  },
+  {
+    "disp": "眼光炯炯",
+    "kana": "がんこうけいけい",
+    "q": "gankoukeikei",
+    "lang": "ja"
+  },
+  {
+    "disp": "顔厚忸怩",
+    "kana": "がんこうじくじ",
+    "q": "gankoujikuji",
+    "lang": "ja"
+  },
+  {
+    "disp": "翫歳愒日",
+    "kana": "がんさいかいじつ",
+    "q": "gansaikaijitsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "頑廉懦立",
+    "kana": "がんれんだりつ",
+    "q": "ganrendaritsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "既往不咎",
+    "kana": "きおうふきゅう",
+    "q": "kioufukyuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "鬼瞰之禍",
+    "kana": "きかんのわざわい",
+    "q": "kikannowazawai",
+    "lang": "ja"
+  },
+  {
+    "disp": "騏驥過隙",
+    "kana": "ききかげき",
+    "q": "kikikageki",
+    "lang": "ja"
+  },
+  {
+    "disp": "熙熙壌壌",
+    "kana": "ききじょうじょう",
+    "q": "kikijoujou",
+    "lang": "ja"
+  },
+  {
+    "disp": "崎嶇坎坷",
+    "kana": "きくかんか",
+    "q": "kikukanka",
+    "lang": "ja"
+  },
+  {
+    "disp": "危言覈論",
+    "kana": "きげんかくろん",
+    "q": "kigenkakuron",
+    "lang": "ja"
+  },
+  {
+    "disp": "跂行喙息",
+    "kana": "きこうかいそく",
+    "q": "kikoukaisoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "鬼哭啾啾",
+    "kana": "きこくしゅうしゅう",
+    "q": "kikokushuushuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "旗幟鮮明",
+    "kana": "きしせんめい",
+    "q": "kishisenmei",
+    "lang": "ja"
+  },
+  {
+    "disp": "杞人天憂",
+    "kana": "きじんてんゆう",
+    "q": "kijintennyuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "羈紲之僕",
+    "kana": "きせつのぼく",
+    "q": "kisetsunoboku",
+    "lang": "ja"
+  },
+  {
+    "disp": "鞠躬尽瘁",
+    "kana": "きっきゅうじんすい",
+    "q": "kikkyuujinsui",
+    "lang": "ja"
+  },
+  {
+    "disp": "驥服塩車",
+    "kana": "きふくえんしゃ",
+    "q": "kifukuensha",
+    "lang": "ja"
+  },
+  {
+    "disp": "三槐九棘",
+    "kana": "さんかいきゅうきょく",
+    "q": "sankaikyuukyoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "鳩居鵲巣",
+    "kana": "きゅうきょじゃくそう",
+    "q": "kyuukyojakusou",
+    "lang": "ja"
+  },
+  {
+    "disp": "実践躬行",
+    "kana": "じっせんきゅうこう",
+    "q": "jissenkyuukou",
+    "lang": "ja"
+  },
+  {
+    "disp": "泣斬馬謖",
+    "kana": "きゅうざんばしょく",
+    "q": "kyuuzanbashoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "宮車晏駕",
+    "kana": "きゅうしゃあんが",
+    "q": "kyuushaanga",
+    "lang": "ja"
+  },
+  {
+    "disp": "窮途之哭",
+    "kana": "きゅうとのこく",
+    "q": "kyuutonokoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "朽木糞牆",
+    "kana": "きゅうぼくふんしょう",
+    "q": "kyuubokufunshou",
+    "lang": "ja"
+  },
+  {
+    "disp": "矯枉過直",
+    "kana": "きょうおうかちょく",
+    "q": "kyououkachoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "空谷跫音",
+    "kana": "くうこくのきょうおん",
+    "q": "kuukokunokyouon",
+    "lang": "ja"
+  },
+  {
+    "disp": "兢兢業業",
+    "kana": "きょうきょうぎょうぎょう",
+    "q": "kyoukyougyougyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "恐懼感激",
+    "kana": "きょうくかんげき",
+    "q": "kyoukukangeki",
+    "lang": "ja"
+  },
+  {
+    "disp": "薑桂之性",
+    "kana": "きょうけいのせい",
+    "q": "kyoukeinosei",
+    "lang": "ja"
+  },
+  {
+    "disp": "狂言綺語",
+    "kana": "きょうげんきご",
+    "q": "kyougenkigo",
+    "lang": "ja"
+  },
+  {
+    "disp": "恐惶謹言",
+    "kana": "きょうこうきんげん",
+    "q": "kyoukoukingen",
+    "lang": "ja"
+  },
+  {
+    "disp": "匡衡壁鑿",
+    "kana": "きょうこうへきさく",
+    "q": "kyoukouhekisaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "驕奢淫逸",
+    "kana": "きょうしゃいんいつ",
+    "q": "kyoushainnitsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "拱手傍観",
+    "kana": "きょうしゅぼうかん",
+    "q": "kyoushuboukan",
+    "lang": "ja"
+  },
+  {
+    "disp": "驚心動魄",
+    "kana": "きょうしんどうはく",
+    "q": "kyoushindouhaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "戮力協心",
+    "kana": "りくりょくきょうしん",
+    "q": "rikuryokukyoushin",
+    "lang": "ja"
+  },
+  {
+    "disp": "驕兵必敗",
+    "kana": "きょうへいひっぱい",
+    "q": "kyouheihippai",
+    "lang": "ja"
+  },
+  {
+    "disp": "嚮壁虚造",
+    "kana": "きょうへききょぞう",
+    "q": "kyouhekikyozou",
+    "lang": "ja"
+  },
+  {
+    "disp": "狂瀾怒濤",
+    "kana": "きょうらんどとう",
+    "q": "kyourandotou",
+    "lang": "ja"
+  },
+  {
+    "disp": "流觴曲水",
+    "kana": "りゅうしょうきょくすい",
+    "q": "ryuushoukyokusui",
+    "lang": "ja"
+  },
+  {
+    "disp": "曲突徙薪",
+    "kana": "きょくとつししん",
+    "q": "kyokutotsushishin",
+    "lang": "ja"
+  },
+  {
+    "disp": "虚静恬淡",
+    "kana": "きょせいてんたん",
+    "q": "kyoseitentan",
+    "lang": "ja"
+  },
+  {
+    "disp": "虚無縹渺",
+    "kana": "きょむひょうびょう",
+    "q": "kyomuhyoubyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "毀誉褒貶",
+    "kana": "きよほうへん",
+    "q": "kiyohouhen",
+    "lang": "ja"
+  },
+  {
+    "disp": "騎驢覓驢",
+    "kana": "きろべきろ",
+    "q": "kirobekiro",
+    "lang": "ja"
+  },
+  {
+    "disp": "金甌無欠",
+    "kana": "きんおうむけつ",
+    "q": "kinnoumuketsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "金塊珠礫",
+    "kana": "きんかいしゅれき",
+    "q": "kinkaishureki",
+    "lang": "ja"
+  },
+  {
+    "disp": "槿花一朝",
+    "kana": "きんかいっちょう",
+    "q": "kinkaicchou",
+    "lang": "ja"
+  },
+  {
+    "disp": "巾幗之贈",
+    "kana": "きんかくのぞう",
+    "q": "kinkakunozou",
+    "lang": "ja"
+  },
+  {
+    "disp": "緊褌一番",
+    "kana": "きんこんいちばん",
+    "q": "kinkonnichiban",
+    "lang": "ja"
+  },
+  {
+    "disp": "琴瑟相和",
+    "kana": "きんしつそうわ",
+    "q": "kinshitsusouwa",
+    "lang": "ja"
+  },
+  {
+    "disp": "擒縦自在",
+    "kana": "きんしょうじざい",
+    "q": "kinshoujizai",
+    "lang": "ja"
+  },
+  {
+    "disp": "禽獣夷狄",
+    "kana": "きんじゅういてき",
+    "q": "kinjuuiteki",
+    "lang": "ja"
+  },
+  {
+    "disp": "疑雲猜霧",
+    "kana": "ぎうんさいむ",
+    "q": "giunsaimu",
+    "lang": "ja"
+  },
+  {
+    "disp": "巍然屹立",
+    "kana": "ぎぜんきつりつ",
+    "q": "gizenkitsuritsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "牛驥同皁",
+    "kana": "ぎゅうきどうそう",
+    "q": "gyuukidousou",
+    "lang": "ja"
+  },
+  {
+    "disp": "牛溲馬勃",
+    "kana": "ぎゅうしゅうばぼつ",
+    "q": "gyuushuubabotsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "仰観俯察",
+    "kana": "ぎょうかんふさつ",
+    "q": "gyoukanfusatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "澆季溷濁",
+    "kana": "ぎょうきこんだく",
+    "q": "gyoukikondaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "澆季末世",
+    "kana": "ぎょうきまっせ",
+    "q": "gyoukimasse",
+    "lang": "ja"
+  },
+  {
+    "disp": "仰天不愧",
+    "kana": "ぎょうてんふき",
+    "q": "gyoutenfuki",
+    "lang": "ja"
+  },
+  {
+    "disp": "玉石混淆",
+    "kana": "ぎょくせきこんこう",
+    "q": "gyokusekikonkou",
+    "lang": "ja"
+  },
+  {
+    "disp": "玉石同匱",
+    "kana": "ぎょくせきどうき",
+    "q": "gyokusekidouki",
+    "lang": "ja"
+  },
+  {
+    "disp": "玉蟾金兎",
+    "kana": "ぎょくせんきんと",
+    "q": "gyokusenkinto",
+    "lang": "ja"
+  },
+  {
+    "disp": "玉兎銀蟾",
+    "kana": "ぎょくとぎんせん",
+    "q": "gyokutoginsen",
+    "lang": "ja"
+  },
+  {
+    "disp": "魚爛土崩",
+    "kana": "ぎょらんどほう",
+    "q": "gyorandohou",
+    "lang": "ja"
+  },
+  {
+    "disp": "苦心惨憺",
+    "kana": "くしんさんたん",
+    "q": "kushinsantan",
+    "lang": "ja"
+  },
+  {
+    "disp": "狗吠緇衣",
+    "kana": "くはいしい",
+    "q": "kuhaishii",
+    "lang": "ja"
+  },
+  {
+    "disp": "狗尾続貂",
+    "kana": "くびぞくちょう",
+    "q": "kubizokuchou",
+    "lang": "ja"
+  },
+  {
+    "disp": "区聞陬見",
+    "kana": "くぶんすうけん",
+    "q": "kubunsuuken",
+    "lang": "ja"
+  },
+  {
+    "disp": "君恩海壑",
+    "kana": "くんおんかいがく",
+    "q": "kunnonkaigaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "葷酒山門",
+    "kana": "くんしゅさんもん",
+    "q": "kunshusanmon",
+    "lang": "ja"
+  },
+  {
+    "disp": "群蟻附羶",
+    "kana": "ぐんぎふせん",
+    "q": "gungifusen",
+    "lang": "ja"
+  },
+  {
+    "disp": "閨英闈秀",
+    "kana": "けいえいいしゅう",
+    "q": "keieiishuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "経営惨憺",
+    "kana": "けいえいさんたん",
+    "q": "keieisantan",
+    "lang": "ja"
+  },
+  {
+    "disp": "軽裘肥馬",
+    "kana": "けいきゅうひば",
+    "q": "keikyuuhiba",
+    "lang": "ja"
+  },
+  {
+    "disp": "荊棘叢裏",
+    "kana": "けいきょくそうり",
+    "q": "keikyokusouri",
+    "lang": "ja"
+  },
+  {
+    "disp": "銅駝荊棘",
+    "kana": "どうだけいきょく",
+    "q": "doudakeikyoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "桂玉之艱",
+    "kana": "けいぎょくのかん",
+    "q": "keigyokunokan",
+    "lang": "ja"
+  },
+  {
+    "disp": "荊釵布裙",
+    "kana": "けいさいふくん",
+    "q": "keisaifukun",
+    "lang": "ja"
+  },
+  {
+    "disp": "鶏尸牛従",
+    "kana": "けいしぎゅうしょう",
+    "q": "keishigyuushou",
+    "lang": "ja"
+  },
+  {
+    "disp": "瓊枝玉葉",
+    "kana": "けいしぎょくよう",
+    "q": "keishigyokuyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "瓊枝栴檀",
+    "kana": "けいしせんだん",
+    "q": "keishisendan",
+    "lang": "ja"
+  },
+  {
+    "disp": "勁草之節",
+    "kana": "けいそうのせつ",
+    "q": "keisounosetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "傾側偃仰",
+    "kana": "けいそくえんぎょう",
+    "q": "keisokuengyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "軽佻浮薄",
+    "kana": "けいちょうふはく",
+    "q": "keichoufuhaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "軽妙洒脱",
+    "kana": "けいみょうしゃだつ",
+    "q": "keimyoushadatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "形容枯槁",
+    "kana": "けいようここう",
+    "q": "keiyoukokou",
+    "lang": "ja"
+  },
+  {
+    "disp": "厥角稽首",
+    "kana": "けっかくけいしゅ",
+    "q": "kekkakukeishu",
+    "lang": "ja"
+  },
+  {
+    "disp": "結跏趺坐",
+    "kana": "けっかふざ",
+    "q": "kekkafuza",
+    "lang": "ja"
+  },
+  {
+    "disp": "譎詭変幻",
+    "kana": "けっきへんげん",
+    "q": "kekkihengen",
+    "lang": "ja"
+  },
+  {
+    "disp": "狷介孤高",
+    "kana": "けんかいここう",
+    "q": "kenkaikokou",
+    "lang": "ja"
+  },
+  {
+    "disp": "狷介固陋",
+    "kana": "けんかいころう",
+    "q": "kenkaikorou",
+    "lang": "ja"
+  },
+  {
+    "disp": "狷介不羈",
+    "kana": "けんかいふき",
+    "q": "kenkaifuki",
+    "lang": "ja"
+  },
+  {
+    "disp": "懸崖勒馬",
+    "kana": "けんがいろくば",
+    "q": "kengairokuba",
+    "lang": "ja"
+  },
+  {
+    "disp": "喧喧囂囂",
+    "kana": "けんけんごうごう",
+    "q": "kenkengougou",
+    "lang": "ja"
+  },
+  {
+    "disp": "蹇蹇匪躬",
+    "kana": "けんけんひきゅう",
+    "q": "kenkenhikyuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "拳拳服膺",
+    "kana": "けんけんふくよう",
+    "q": "kenkenfukuyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "乾坤一擲",
+    "kana": "けんこんいってき",
+    "q": "kenkonnitteki",
+    "lang": "ja"
+  },
+  {
+    "disp": "妍姿艶質",
+    "kana": "けんしえんしつ",
+    "q": "kenshienshitsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "乾端坤倪",
+    "kana": "けんたんこんげい",
+    "q": "kentankongei",
+    "lang": "ja"
+  },
+  {
+    "disp": "驢鳴犬吠",
+    "kana": "ろめいけんばい",
+    "q": "romeikenbai",
+    "lang": "ja"
+  },
+  {
+    "disp": "剣抜弩張",
+    "kana": "けんばつどちょう",
+    "q": "kenbatsudochou",
+    "lang": "ja"
+  },
+  {
+    "disp": "肩摩轂撃",
+    "kana": "けんまこくげき",
+    "q": "kenmakokugeki",
+    "lang": "ja"
+  },
+  {
+    "disp": "豪華絢爛",
+    "kana": "ごうかけんらん",
+    "q": "goukakenran",
+    "lang": "ja"
+  },
+  {
+    "disp": "牽攣乖隔",
+    "kana": "けんれんかいかく",
+    "q": "kenrenkaikaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "黔驢之技",
+    "kana": "けんろのぎ",
+    "q": "kenronogi",
+    "lang": "ja"
+  },
+  {
+    "disp": "霓裳羽衣",
+    "kana": "げいしょううい",
+    "q": "geishouui",
+    "lang": "ja"
+  },
+  {
+    "disp": "月下推敲",
+    "kana": "げっかすいこう",
+    "q": "gekkasuikou",
+    "lang": "ja"
+  },
+  {
+    "disp": "月中蟾蜍",
+    "kana": "げっちゅうのせんじょ",
+    "q": "gecchuunosenjo",
+    "lang": "ja"
+  },
+  {
+    "disp": "阮簡曠達",
+    "kana": "げんかんこうたつ",
+    "q": "genkankoutatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "言行齟齬",
+    "kana": "げんこうそご",
+    "q": "genkousogo",
+    "lang": "ja"
+  },
+  {
+    "disp": "厳塞要徼",
+    "kana": "げんさいようきょう",
+    "q": "gensaiyoukyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "阮籍青眼",
+    "kana": "げんせきせいがん",
+    "q": "gensekiseigan",
+    "lang": "ja"
+  },
+  {
+    "disp": "縞衣綦巾",
+    "kana": "こういききん",
+    "q": "kouikikin",
+    "lang": "ja"
+  },
+  {
+    "disp": "黄衣廩食",
+    "kana": "こういりんしょく",
+    "q": "kouirinshoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "後悔噬臍",
+    "kana": "こうかいぜいせい",
+    "q": "koukaizeisei",
+    "lang": "ja"
+  },
+  {
+    "disp": "篝火狐鳴",
+    "kana": "こうかこめい",
+    "q": "koukakomei",
+    "lang": "ja"
+  },
+  {
+    "disp": "効果覿面",
+    "kana": "こうかてきめん",
+    "q": "koukatekimen",
+    "lang": "ja"
+  },
+  {
+    "disp": "広厦万間",
+    "kana": "こうかばんげん",
+    "q": "koukabangen",
+    "lang": "ja"
+  },
+  {
+    "disp": "慷慨憤激",
+    "kana": "こうがいふんげき",
+    "q": "kougaifungeki",
+    "lang": "ja"
+  },
+  {
+    "disp": "高牙大纛",
+    "kana": "こうがだいとう",
+    "q": "kougadaitou",
+    "lang": "ja"
+  },
+  {
+    "disp": "香気芬芬",
+    "kana": "こうきふんぷん",
+    "q": "koukifunpun",
+    "lang": "ja"
+  },
+  {
+    "disp": "敲金撃石",
+    "kana": "こうきんげきせき",
+    "q": "koukingekiseki",
+    "lang": "ja"
+  },
+  {
+    "disp": "皓月千里",
+    "kana": "こうげつせんり",
+    "q": "kougetsusenri",
+    "lang": "ja"
+  },
+  {
+    "disp": "槁項黄馘",
+    "kana": "こうこうこうかく",
+    "q": "koukoukoukaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "恍恍惚惚",
+    "kana": "こうこうこつこつ",
+    "q": "koukoukotsukotsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "膏肓之疾",
+    "kana": "こうこうのしつ",
+    "q": "koukounoshitsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "行尸走肉",
+    "kana": "こうしそうにく",
+    "q": "koushisouniku",
+    "lang": "ja"
+  },
+  {
+    "disp": "高車駟馬",
+    "kana": "こうしゃしば",
+    "q": "koushashiba",
+    "lang": "ja"
+  },
+  {
+    "disp": "鉤章棘句",
+    "kana": "こうしょうきょくく",
+    "q": "koushoukyokuku",
+    "lang": "ja"
+  },
+  {
+    "disp": "苟且偸安",
+    "kana": "こうしょとうあん",
+    "q": "koushotouan",
+    "lang": "ja"
+  },
+  {
+    "disp": "嚆矢濫觴",
+    "kana": "こうしらんしょう",
+    "q": "koushiranshou",
+    "lang": "ja"
+  },
+  {
+    "disp": "曠日弥久",
+    "kana": "こうじつびきゅう",
+    "q": "koujitsubikyuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "曠世之感",
+    "kana": "こうせいのかん",
+    "q": "kouseinokan",
+    "lang": "ja"
+  },
+  {
+    "disp": "曠世之才",
+    "kana": "こうせいのさい",
+    "q": "kouseinosai",
+    "lang": "ja"
+  },
+  {
+    "disp": "曠世不羈",
+    "kana": "こうせいふき",
+    "q": "kouseifuki",
+    "lang": "ja"
+  },
+  {
+    "disp": "荒瘠斥鹵",
+    "kana": "こうせきせきろ",
+    "q": "kousekisekiro",
+    "lang": "ja"
+  },
+  {
+    "disp": "恍然大悟",
+    "kana": "こうぜんたいご",
+    "q": "kouzentaigo",
+    "lang": "ja"
+  },
+  {
+    "disp": "高談闊歩",
+    "kana": "こうだんかっぽ",
+    "q": "koudankappo",
+    "lang": "ja"
+  },
+  {
+    "disp": "狡兎三窟",
+    "kana": "こうとさんくつ",
+    "q": "koutosankutsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "狡兎良狗",
+    "kana": "こうとりょうく",
+    "q": "koutoryouku",
+    "lang": "ja"
+  },
+  {
+    "disp": "黄髪垂髫",
+    "kana": "こうはつすいちょう",
+    "q": "kouhatsusuichou",
+    "lang": "ja"
+  },
+  {
+    "disp": "洪範九疇",
+    "kana": "こうはんきゅうちゅう",
+    "q": "kouhankyuuchuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "敲氷求火",
+    "kana": "こうひょうきゅうか",
+    "q": "kouhyoukyuuka",
+    "lang": "ja"
+  },
+  {
+    "disp": "好評嘖嘖",
+    "kana": "こうひょうさくさく",
+    "q": "kouhyousakusaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "光風霽月",
+    "kana": "こうふうせいげつ",
+    "q": "koufuuseigetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "咬文嚼字",
+    "kana": "こうぶんしゃくじ",
+    "q": "koubunshakuji",
+    "lang": "ja"
+  },
+  {
+    "disp": "光芒一閃",
+    "kana": "こうぼういっせん",
+    "q": "koubouissen",
+    "lang": "ja"
+  },
+  {
+    "disp": "槁木死灰",
+    "kana": "こうぼくしかい",
+    "q": "koubokushikai",
+    "lang": "ja"
+  },
+  {
+    "disp": "孔翊絶書",
+    "kana": "こうよくぜっしょ",
+    "q": "kouyokuzessho",
+    "lang": "ja"
+  },
+  {
+    "disp": "洽覧深識",
+    "kana": "こうらんしんしき",
+    "q": "kouranshinshiki",
+    "lang": "ja"
+  },
+  {
+    "disp": "黄粱一炊",
+    "kana": "こうりょういっすい",
+    "q": "kouryouissui",
+    "lang": "ja"
+  },
+  {
+    "disp": "膏粱子弟",
+    "kana": "こうりょうしてい",
+    "q": "kouryoushitei",
+    "lang": "ja"
+  },
+  {
+    "disp": "蛟竜毒蛇",
+    "kana": "こうりょうどくだ",
+    "q": "kouryoudokuda",
+    "lang": "ja"
+  },
+  {
+    "disp": "亢竜有悔",
+    "kana": "こうりょうゆうかい",
+    "q": "kouryouyuukai",
+    "lang": "ja"
+  },
+  {
+    "disp": "大廈高楼",
+    "kana": "たいかこうろう",
+    "q": "taikakourou",
+    "lang": "ja"
+  },
+  {
+    "disp": "孤影悄然",
+    "kana": "こえいしょうぜん",
+    "q": "koeishouzen",
+    "lang": "ja"
+  },
+  {
+    "disp": "胡漢陵轢",
+    "kana": "こかんりょうれき",
+    "q": "kokanryoureki",
+    "lang": "ja"
+  },
+  {
+    "disp": "狐裘羔袖",
+    "kana": "こきゅうこうしゅう",
+    "q": "kokyuukoushuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "狐裘蒙戎",
+    "kana": "こきゅうもうじゅう",
+    "q": "kokyuumoujuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "狐疑逡巡",
+    "kana": "こぎしゅんじゅん",
+    "q": "kogishunjun",
+    "lang": "ja"
+  },
+  {
+    "disp": "枯魚銜索",
+    "kana": "こぎょかんさく",
+    "q": "kogyokansaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "哭岐泣練",
+    "kana": "こくききゅうれん",
+    "q": "kokukikyuuren",
+    "lang": "ja"
+  },
+  {
+    "disp": "黒貂之裘",
+    "kana": "こくちょうのきゅう",
+    "q": "kokuchounokyuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "黒白混淆",
+    "kana": "こくびゃくこんこう",
+    "q": "kokubyakukonkou",
+    "lang": "ja"
+  },
+  {
+    "disp": "国歩艱難",
+    "kana": "こくほかんなん",
+    "q": "kokuhokannan",
+    "lang": "ja"
+  },
+  {
+    "disp": "虎視眈眈",
+    "kana": "こしたんたん",
+    "q": "koshitantan",
+    "lang": "ja"
+  },
+  {
+    "disp": "虎嘯風生",
+    "kana": "こしょうふうしょう",
+    "q": "koshoufuushou",
+    "lang": "ja"
+  },
+  {
+    "disp": "古人糟魄",
+    "kana": "こじんのそうはく",
+    "q": "kojinnosouhaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "鼓舌揺脣",
+    "kana": "こぜつようしん",
+    "q": "kozetsuyoushin",
+    "lang": "ja"
+  },
+  {
+    "disp": "滑稽洒脱",
+    "kana": "こっけいしゃだつ",
+    "q": "kokkeishadatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "涸轍鮒魚",
+    "kana": "こてつのふぎょ",
+    "q": "kotetsunofugyo",
+    "lang": "ja"
+  },
+  {
+    "disp": "孤独矜寡",
+    "kana": "こどくかんか",
+    "q": "kodokukanka",
+    "lang": "ja"
+  },
+  {
+    "disp": "虚融澹泊",
+    "kana": "こゆうたんぱく",
+    "q": "koyuutanpaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "孤陋寡聞",
+    "kana": "ころうかぶん",
+    "q": "koroukabun",
+    "lang": "ja"
+  },
+  {
+    "disp": "璞玉渾金",
+    "kana": "はくぎょくこんきん",
+    "q": "hakugyokukonkin",
+    "lang": "ja"
+  },
+  {
+    "disp": "渾渾沌沌",
+    "kana": "こんこんとんとん",
+    "q": "konkontonton",
+    "lang": "ja"
+  },
+  {
+    "disp": "根深柢固",
+    "kana": "こんしんていこ",
+    "q": "konshinteiko",
+    "lang": "ja"
+  },
+  {
+    "disp": "渾然一体",
+    "kana": "こんぜんいったい",
+    "q": "konzennittai",
+    "lang": "ja"
+  },
+  {
+    "disp": "昏定晨省",
+    "kana": "こんていしんせい",
+    "q": "konteishinsei",
+    "lang": "ja"
+  },
+  {
+    "disp": "蒟蒻問答",
+    "kana": "こんにゃくもんどう",
+    "q": "konnyakumondou",
+    "lang": "ja"
+  },
+  {
+    "disp": "魂飛魄散",
+    "kana": "こんひはくさん",
+    "q": "konhihakusan",
+    "lang": "ja"
+  },
+  {
+    "disp": "渾崙呑棗",
+    "kana": "こんろんどんそう",
+    "q": "konrondonsou",
+    "lang": "ja"
+  },
+  {
+    "disp": "合歓綢繆",
+    "kana": "ごうかんちゅうびゅう",
+    "q": "goukanchuubyuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "剛毅木訥",
+    "kana": "ごうきぼくとつ",
+    "q": "goukibokutotsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "豪放磊落",
+    "kana": "ごうほうらいらく",
+    "q": "gouhourairaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "毫末之利",
+    "kana": "ごうまつのり",
+    "q": "goumatsunori",
+    "lang": "ja"
+  },
+  {
+    "disp": "毫毛斧柯",
+    "kana": "ごうもうふか",
+    "q": "goumoufuka",
+    "lang": "ja"
+  },
+  {
+    "disp": "毫釐千里",
+    "kana": "ごうりせんり",
+    "q": "gourisenri",
+    "lang": "ja"
+  },
+  {
+    "disp": "五蘊皆空",
+    "kana": "ごうんかいくう",
+    "q": "gounkaikuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "呉牛喘月",
+    "kana": "ごぎゅうぜんげつ",
+    "q": "gogyuuzengetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "五行相剋",
+    "kana": "ごぎょうそうこく",
+    "q": "gogyousoukoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "極楽蜻蛉",
+    "kana": "ごくらくとんぼ",
+    "q": "gokurakutonbo",
+    "lang": "ja"
+  },
+  {
+    "disp": "五臓六腑",
+    "kana": "ごぞうろっぷ",
+    "q": "gozouroppu",
+    "lang": "ja"
+  },
+  {
+    "disp": "寤寐思服",
+    "kana": "ごびしふく",
+    "q": "gobishifuku",
+    "lang": "ja"
+  },
+  {
+    "disp": "斎戒沐浴",
+    "kana": "さいかいもくよく",
+    "q": "saikaimokuyoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "才気煥発",
+    "kana": "さいきかんぱつ",
+    "q": "saikikanpatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "灑灑落落",
+    "kana": "さいさいらくらく",
+    "q": "saisairakuraku",
+    "lang": "ja"
+  },
+  {
+    "disp": "妻子眷族",
+    "kana": "さいしけんぞく",
+    "q": "saishikenzoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "載籍浩瀚",
+    "kana": "さいせきこうかん",
+    "q": "saisekikoukan",
+    "lang": "ja"
+  },
+  {
+    "disp": "灑掃応対",
+    "kana": "さいそうおうたい",
+    "q": "saisououtai",
+    "lang": "ja"
+  },
+  {
+    "disp": "彩鳳随鴉",
+    "kana": "さいほうずいあ",
+    "q": "saihouzuia",
+    "lang": "ja"
+  },
+  {
+    "disp": "菜圃麦隴",
+    "kana": "さいほばくろう",
+    "q": "saihobakurou",
+    "lang": "ja"
+  },
+  {
+    "disp": "豺狼当路",
+    "kana": "さいろうとうろ",
+    "q": "sairoutouro",
+    "lang": "ja"
+  },
+  {
+    "disp": "鑿歯尺牘",
+    "kana": "さくしせきとく",
+    "q": "sakushisekitoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "鑿壁偸光",
+    "kana": "さくへきとうこう",
+    "q": "sakuhekitoukou",
+    "lang": "ja"
+  },
+  {
+    "disp": "瑣砕細膩",
+    "kana": "ささいさいじ",
+    "q": "sasaisaiji",
+    "lang": "ja"
+  },
+  {
+    "disp": "蹉跎歳月",
+    "kana": "さたさいげつ",
+    "q": "satasaigetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "三跪九叩",
+    "kana": "さんききゅうこう",
+    "q": "sankikyuukou",
+    "lang": "ja"
+  },
+  {
+    "disp": "三釁三浴",
+    "kana": "さんきんさんよく",
+    "q": "sankinsannyoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "三薫三沐",
+    "kana": "さんくんさんもく",
+    "q": "sankunsanmoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "三豕渉河",
+    "kana": "さんししょうか",
+    "q": "sanshishouka",
+    "lang": "ja"
+  },
+  {
+    "disp": "三世一爨",
+    "kana": "さんせいいっさん",
+    "q": "sanseiissan",
+    "lang": "ja"
+  },
+  {
+    "disp": "三面六臂",
+    "kana": "さんめんろっぴ",
+    "q": "sanmenroppi",
+    "lang": "ja"
+  },
+  {
+    "disp": "在邇求遠",
+    "kana": "ざいじきゅうえん",
+    "q": "zaijikyuuen",
+    "lang": "ja"
+  },
+  {
+    "disp": "斬釘截鉄",
+    "kana": "ざんていせってつ",
+    "q": "zanteisettetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "讒諂面諛",
+    "kana": "ざんてんめんゆ",
+    "q": "zantenmennyu",
+    "lang": "ja"
+  },
+  {
+    "disp": "残杯冷炙",
+    "kana": "ざんぱいれいしゃ",
+    "q": "zanpaireisha",
+    "lang": "ja"
+  },
+  {
+    "disp": "罵詈讒謗",
+    "kana": "ばりざんぼう",
+    "q": "barizanbou",
+    "lang": "ja"
+  },
+  {
+    "disp": "尸位素餐",
+    "kana": "しいそさん",
+    "q": "shiisosan",
+    "lang": "ja"
+  },
+  {
+    "disp": "侈衣美食",
+    "kana": "しいびしょく",
+    "q": "shiibishoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "駟介旁旁",
+    "kana": "しかいほうほう",
+    "q": "shikaihouhou",
+    "lang": "ja"
+  },
+  {
+    "disp": "四衢八街",
+    "kana": "しくはちがい",
+    "q": "shikuhachigai",
+    "lang": "ja"
+  },
+  {
+    "disp": "舐糠及米",
+    "kana": "しこうきゅうまい",
+    "q": "shikoukyuumai",
+    "lang": "ja"
+  },
+  {
+    "disp": "豕交獣畜",
+    "kana": "しこうじゅうちく",
+    "q": "shikoujuuchiku",
+    "lang": "ja"
+  },
+  {
+    "disp": "師曠之聡",
+    "kana": "しこうのそう",
+    "q": "shikounosou",
+    "lang": "ja"
+  },
+  {
+    "disp": "獅子搏兎",
+    "kana": "ししはくと",
+    "q": "shishihakuto",
+    "lang": "ja"
+  },
+  {
+    "disp": "舐痔得車",
+    "kana": "しじとくしゃ",
+    "q": "shijitokusha",
+    "lang": "ja"
+  },
+  {
+    "disp": "詩人蛻骨",
+    "kana": "しじんぜいこつ",
+    "q": "shijinzeikotsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "死生契闊",
+    "kana": "しせいけっかつ",
+    "q": "shiseikekkatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "咫尺之書",
+    "kana": "しせきのしょ",
+    "q": "shisekinosho",
+    "lang": "ja"
+  },
+  {
+    "disp": "紫髯緑眼",
+    "kana": "しぜんりょくがん",
+    "q": "shizenryokugan",
+    "lang": "ja"
+  },
+  {
+    "disp": "七嘴八舌",
+    "kana": "しちしはちぜつ",
+    "q": "shichishihachizetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "七種菜羹",
+    "kana": "しちしゅのさいこう",
+    "q": "shichishunosaikou",
+    "lang": "ja"
+  },
+  {
+    "disp": "七縦七擒",
+    "kana": "しちしょうしちきん",
+    "q": "shichishoushichikin",
+    "lang": "ja"
+  },
+  {
+    "disp": "史籀大篆",
+    "kana": "しちゅうだいてん",
+    "q": "shichuudaiten",
+    "lang": "ja"
+  },
+  {
+    "disp": "失魂落魄",
+    "kana": "しっこんらくはく",
+    "q": "shikkonrakuhaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "叱咤激励",
+    "kana": "しったげきれい",
+    "q": "shittagekirei",
+    "lang": "ja"
+  },
+  {
+    "disp": "疾風勁草",
+    "kana": "しっぷうけいそう",
+    "q": "shippuukeisou",
+    "lang": "ja"
+  },
+  {
+    "disp": "櫛風沐雨",
+    "kana": "しっぷうもくう",
+    "q": "shippuumokuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "疾言遽色",
+    "kana": "しつげんきょしょく",
+    "q": "shitsugenkyoshoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "舐犢之愛",
+    "kana": "しとくのあい",
+    "q": "shitokunoai",
+    "lang": "ja"
+  },
+  {
+    "disp": "子墨兎毫",
+    "kana": "しぼくとごう",
+    "q": "shibokutogou",
+    "lang": "ja"
+  },
+  {
+    "disp": "徙木之信",
+    "kana": "しぼくのしん",
+    "q": "shibokunoshin",
+    "lang": "ja"
+  },
+  {
+    "disp": "揣摩臆測",
+    "kana": "しまおくそく",
+    "q": "shimaokusoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "鴟目虎吻",
+    "kana": "しもくこふん",
+    "q": "shimokukofun",
+    "lang": "ja"
+  },
+  {
+    "disp": "車胤聚蛍",
+    "kana": "しゃいんしゅうけい",
+    "q": "shainshuukei",
+    "lang": "ja"
+  },
+  {
+    "disp": "奢侈淫佚",
+    "kana": "しゃしいんいつ",
+    "q": "shashiinnitsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "奢侈文弱",
+    "kana": "しゃしぶんじゃく",
+    "q": "shashibunjaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "洒洒落落",
+    "kana": "しゃしゃらくらく",
+    "q": "shasharakuraku",
+    "lang": "ja"
+  },
+  {
+    "disp": "社稷之臣",
+    "kana": "しゃしょくのしん",
+    "q": "shashokunoshin",
+    "lang": "ja"
+  },
+  {
+    "disp": "社稷之守",
+    "kana": "しゃしょくのまもり",
+    "q": "shashokunomamori",
+    "lang": "ja"
+  },
+  {
+    "disp": "煮豆燃萁",
+    "kana": "しゃとうねんき",
+    "q": "shatounenki",
+    "lang": "ja"
+  },
+  {
+    "disp": "醜悪奸邪",
+    "kana": "しゅうあくかんじゃ",
+    "q": "shuuakukanja",
+    "lang": "ja"
+  },
+  {
+    "disp": "拾遺補闕",
+    "kana": "しゅういほけつ",
+    "q": "shuuihoketsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "衆賢茅茹",
+    "kana": "しゅうけんぼうじょ",
+    "q": "shuukenboujo",
+    "lang": "ja"
+  },
+  {
+    "disp": "秋毫之末",
+    "kana": "しゅうごうのすえ",
+    "q": "shuugounosue",
+    "lang": "ja"
+  },
+  {
+    "disp": "聚散十春",
+    "kana": "しゅうさんじっしゅん",
+    "q": "shuusanjisshun",
+    "lang": "ja"
+  },
+  {
+    "disp": "袖手旁観",
+    "kana": "しゅうしゅぼうかん",
+    "q": "shuushuboukan",
+    "lang": "ja"
+  },
+  {
+    "disp": "秋風冽冽",
+    "kana": "しゅうふうれつれつ",
+    "q": "shuufuuretsuretsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "聚蚊成雷",
+    "kana": "しゅうぶんせいらい",
+    "q": "shuubunseirai",
+    "lang": "ja"
+  },
+  {
+    "disp": "酒甕飯嚢",
+    "kana": "しゅおうはんのう",
+    "q": "shuouhannou",
+    "lang": "ja"
+  },
+  {
+    "disp": "夙夜夢寐",
+    "kana": "しゅくやむび",
+    "q": "shukuyamubi",
+    "lang": "ja"
+  },
+  {
+    "disp": "朱脣皓歯",
+    "kana": "しゅしんこうし",
+    "q": "shushinkoushi",
+    "lang": "ja"
+  },
+  {
+    "disp": "珠襦玉匣",
+    "kana": "しゅじゅぎょっこう",
+    "q": "shujugyokkou",
+    "lang": "ja"
+  },
+  {
+    "disp": "朱墨爛然",
+    "kana": "しゅぼくらんぜん",
+    "q": "shubokuranzen",
+    "lang": "ja"
+  },
+  {
+    "disp": "春寒料峭",
+    "kana": "しゅんかんりょうしょう",
+    "q": "shunkanryoushou",
+    "lang": "ja"
+  },
+  {
+    "disp": "春風駘蕩",
+    "kana": "しゅんぷうたいとう",
+    "q": "shunpuutaitou",
+    "lang": "ja"
+  },
+  {
+    "disp": "宵衣旰食",
+    "kana": "しょういかんしょく",
+    "q": "shouikanshoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "笙磬同音",
+    "kana": "しょうけいどうおん",
+    "q": "shoukeidouon",
+    "lang": "ja"
+  },
+  {
+    "disp": "商山四皓",
+    "kana": "しょうざんしこう",
+    "q": "shouzanshikou",
+    "lang": "ja"
+  },
+  {
+    "disp": "銷鑠縮栗",
+    "kana": "しょうしゃくしゅくりつ",
+    "q": "shoushakushukuritsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "漿酒霍肉",
+    "kana": "しょうしゅかくにく",
+    "q": "shoushukakuniku",
+    "lang": "ja"
+  },
+  {
+    "disp": "瀟湘八景",
+    "kana": "しょうしょうはっけい",
+    "q": "shoushouhakkei",
+    "lang": "ja"
+  },
+  {
+    "disp": "牀上施牀",
+    "kana": "しょうじょうししょう",
+    "q": "shoujoushishou",
+    "lang": "ja"
+  },
+  {
+    "disp": "爛額焦頭",
+    "kana": "らんがくしょうとう",
+    "q": "rangakushoutou",
+    "lang": "ja"
+  },
+  {
+    "disp": "嘯風弄月",
+    "kana": "しょうふうろうげつ",
+    "q": "shoufuurougetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "生滅滅已",
+    "kana": "しょうめつめつい",
+    "q": "shoumetsumetsui",
+    "lang": "ja"
+  },
+  {
+    "disp": "逍遥自在",
+    "kana": "しょうようじざい",
+    "q": "shouyoujizai",
+    "lang": "ja"
+  },
+  {
+    "disp": "逍遥法外",
+    "kana": "しょうようほうがい",
+    "q": "shouyouhougai",
+    "lang": "ja"
+  },
+  {
+    "disp": "蜀犬吠日",
+    "kana": "しょくけんはいじつ",
+    "q": "shokukenhaijitsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "嗇夫利口",
+    "kana": "しょくふりこう",
+    "q": "shokufurikou",
+    "lang": "ja"
+  },
+  {
+    "disp": "緇林杏壇",
+    "kana": "しりんきょうだん",
+    "q": "shirinkyoudan",
+    "lang": "ja"
+  },
+  {
+    "disp": "砥礪切磋",
+    "kana": "しれいせっさ",
+    "q": "shireisessa",
+    "lang": "ja"
+  },
+  {
+    "disp": "眥裂髪指",
+    "kana": "しれつはっし",
+    "q": "shiretsuhasshi",
+    "lang": "ja"
+  },
+  {
+    "disp": "四六駢儷",
+    "kana": "しろくべんれい",
+    "q": "shirokubenrei",
+    "lang": "ja"
+  },
+  {
+    "disp": "神韻縹渺",
+    "kana": "しんいんひょうびょう",
+    "q": "shinninhyoubyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "心悸亢進",
+    "kana": "しんきこうしん",
+    "q": "shinkikoushin",
+    "lang": "ja"
+  },
+  {
+    "disp": "晨去暮来",
+    "kana": "しんきょぼらい",
+    "q": "shinkyoborai",
+    "lang": "ja"
+  },
+  {
+    "disp": "心広体胖",
+    "kana": "しんこうたいはん",
+    "q": "shinkoutaihan",
+    "lang": "ja"
+  },
+  {
+    "disp": "深根固柢",
+    "kana": "しんこんこてい",
+    "q": "shinkonkotei",
+    "lang": "ja"
+  },
+  {
+    "disp": "脣歯輔車",
+    "kana": "しんしほしゃ",
+    "q": "shinshihosha",
+    "lang": "ja"
+  },
+  {
+    "disp": "斟酌折衷",
+    "kana": "しんしゃくせっちゅう",
+    "q": "shinshakusecchuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "浸潤之譖",
+    "kana": "しんじゅんのそしり",
+    "q": "shinjunnososhiri",
+    "lang": "ja"
+  },
+  {
+    "disp": "晨星落落",
+    "kana": "しんせいらくらく",
+    "q": "shinseirakuraku",
+    "lang": "ja"
+  },
+  {
+    "disp": "振臂一呼",
+    "kana": "しんぴいっこ",
+    "q": "shinpiikko",
+    "lang": "ja"
+  },
+  {
+    "disp": "神仏混淆",
+    "kana": "しんぶつこんこう",
+    "q": "shinbutsukonkou",
+    "lang": "ja"
+  },
+  {
+    "disp": "脣亡歯寒",
+    "kana": "しんぼうしかん",
+    "q": "shinboushikan",
+    "lang": "ja"
+  },
+  {
+    "disp": "瞋目張胆",
+    "kana": "しんもくちょうたん",
+    "q": "shinmokuchoutan",
+    "lang": "ja"
+  },
+  {
+    "disp": "晨夜兼道",
+    "kana": "しんやけんどう",
+    "q": "shinnyakendou",
+    "lang": "ja"
+  },
+  {
+    "disp": "深厲浅掲",
+    "kana": "しんれいせんけい",
+    "q": "shinreisenkei",
+    "lang": "ja"
+  },
+  {
+    "disp": "舳艫千里",
+    "kana": "じくろせんり",
+    "q": "jikurosenri",
+    "lang": "ja"
+  },
+  {
+    "disp": "自己韜晦",
+    "kana": "じことうかい",
+    "q": "jikotoukai",
+    "lang": "ja"
+  },
+  {
+    "disp": "日月逾邁",
+    "kana": "じつげつゆまい",
+    "q": "jitsugetsuyumai",
+    "lang": "ja"
+  },
+  {
+    "disp": "鵲巣鳩占",
+    "kana": "じゃくそうきゅうせん",
+    "q": "jakusoukyuusen",
+    "lang": "ja"
+  },
+  {
+    "disp": "獣聚鳥散",
+    "kana": "じゅうしゅうちょうさん",
+    "q": "juushuuchousan",
+    "lang": "ja"
+  },
+  {
+    "disp": "戎馬倥偬",
+    "kana": "じゅうばこうそう",
+    "q": "juubakousou",
+    "lang": "ja"
+  },
+  {
+    "disp": "朮羹艾酒",
+    "kana": "じゅっこうがいしゅ",
+    "q": "jukkougaishu",
+    "lang": "ja"
+  },
+  {
+    "disp": "蓴羹鱸膾",
+    "kana": "じゅんこうろかい",
+    "q": "junkourokai",
+    "lang": "ja"
+  },
+  {
+    "disp": "自由闊達",
+    "kana": "じゆうかったつ",
+    "q": "jiyuukattatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "常山蛇勢",
+    "kana": "じょうざんのだせい",
+    "q": "jouzannodasei",
+    "lang": "ja"
+  },
+  {
+    "disp": "畳牀架屋",
+    "kana": "じょうしょうかおく",
+    "q": "joushoukaoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "躡足附耳",
+    "kana": "じょうそくふじ",
+    "q": "jousokufuji",
+    "lang": "ja"
+  },
+  {
+    "disp": "攘臂疾言",
+    "kana": "じょうひしつげん",
+    "q": "jouhishitsugen",
+    "lang": "ja"
+  },
+  {
+    "disp": "常備不懈",
+    "kana": "じょうびふかい",
+    "q": "joubifukai",
+    "lang": "ja"
+  },
+  {
+    "disp": "持粱歯肥",
+    "kana": "じりょうしひ",
+    "q": "jiryoushihi",
+    "lang": "ja"
+  },
+  {
+    "disp": "人権蹂躙",
+    "kana": "じんけんじゅうりん",
+    "q": "jinkenjuurin",
+    "lang": "ja"
+  },
+  {
+    "disp": "人口稠密",
+    "kana": "じんこうちゅうみつ",
+    "q": "jinkouchuumitsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "人心洶洶",
+    "kana": "じんしんきょうきょう",
+    "q": "jinshinkyoukyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "人心収攬",
+    "kana": "じんしんしゅうらん",
+    "q": "jinshinshuuran",
+    "lang": "ja"
+  },
+  {
+    "disp": "塵飯塗羹",
+    "kana": "じんぱんとこう",
+    "q": "jinpantokou",
+    "lang": "ja"
+  },
+  {
+    "disp": "吹影鏤塵",
+    "kana": "すいえいろうじん",
+    "q": "suieiroujin",
+    "lang": "ja"
+  },
+  {
+    "disp": "酔眼朦朧",
+    "kana": "すいがんもうろう",
+    "q": "suiganmourou",
+    "lang": "ja"
+  },
+  {
+    "disp": "垂拱之化",
+    "kana": "すいきょうのか",
+    "q": "suikyounoka",
+    "lang": "ja"
+  },
+  {
+    "disp": "炊金饌玉",
+    "kana": "すいきんせんぎょく",
+    "q": "suikinsengyoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "垂涎三尺",
+    "kana": "すいぜんさんじゃく",
+    "q": "suizensanjaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "翠帳紅閨",
+    "kana": "すいちょうこうけい",
+    "q": "suichoukoukei",
+    "lang": "ja"
+  },
+  {
+    "disp": "垂髫戴白",
+    "kana": "すいちょうたいはく",
+    "q": "suichoutaihaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "水天髣髴",
+    "kana": "すいてんほうふつ",
+    "q": "suitenhoufutsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "彗氾画塗",
+    "kana": "すいはんがと",
+    "q": "suihangato",
+    "lang": "ja"
+  },
+  {
+    "disp": "酔歩蹣跚",
+    "kana": "すいほまんさん",
+    "q": "suihomansan",
+    "lang": "ja"
+  },
+  {
+    "disp": "垂名竹帛",
+    "kana": "すいめいちくはく",
+    "q": "suimeichikuhaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "吹毛求疵",
+    "kana": "すいもうきゅうし",
+    "q": "suimoukyuushi",
+    "lang": "ja"
+  },
+  {
+    "disp": "鄒衍降霜",
+    "kana": "すうえんこうそう",
+    "q": "suuenkousou",
+    "lang": "ja"
+  },
+  {
+    "disp": "鄒魯遺風",
+    "kana": "すうろいふう",
+    "q": "suuroifuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "寸草春暉",
+    "kana": "すんそうしゅんき",
+    "q": "sunsoushunki",
+    "lang": "ja"
+  },
+  {
+    "disp": "隋珠和璧",
+    "kana": "ずいしゅかへき",
+    "q": "zuishukaheki",
+    "lang": "ja"
+  },
+  {
+    "disp": "青鞋布韈",
+    "kana": "せいあいふべつ",
+    "q": "seiaifubetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "臍下丹田",
+    "kana": "せいかたんでん",
+    "q": "seikatanden",
+    "lang": "ja"
+  },
+  {
+    "disp": "星火燎原",
+    "kana": "せいかりょうげん",
+    "q": "seikaryougen",
+    "lang": "ja"
+  },
+  {
+    "disp": "旌旗巻舒",
+    "kana": "せいきけんじょ",
+    "q": "seikikenjo",
+    "lang": "ja"
+  },
+  {
+    "disp": "生気溌溂",
+    "kana": "せいきはつらつ",
+    "q": "seikihatsuratsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "誠惶誠恐",
+    "kana": "せいこうせいきょう",
+    "q": "seikouseikyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "井渫不食",
+    "kana": "せいせつふしょく",
+    "q": "seisetsufushoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "悽愴流涕",
+    "kana": "せいそうりゅうてい",
+    "q": "seisouryuutei",
+    "lang": "ja"
+  },
+  {
+    "disp": "青天霹靂",
+    "kana": "せいてんのへきれき",
+    "q": "seitennohekireki",
+    "lang": "ja"
+  },
+  {
+    "disp": "声名狼藉",
+    "kana": "せいめいろうぜき",
+    "q": "seimeirouzeki",
+    "lang": "ja"
+  },
+  {
+    "disp": "積悪余殃",
+    "kana": "せきあくのよおう",
+    "q": "sekiakunoyoou",
+    "lang": "ja"
+  },
+  {
+    "disp": "跖狗吠尭",
+    "kana": "せきくはいぎょう",
+    "q": "sekikuhaigyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "尺沢之鯢",
+    "kana": "せきたくのげい",
+    "q": "sekitakunogei",
+    "lang": "ja"
+  },
+  {
+    "disp": "折花攀柳",
+    "kana": "せっかはんりゅう",
+    "q": "sekkahanryuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "折檻諫言",
+    "kana": "せっかんかんげん",
+    "q": "sekkankangen",
+    "lang": "ja"
+  },
+  {
+    "disp": "切磋琢磨",
+    "kana": "せっさたくま",
+    "q": "sessatakuma",
+    "lang": "ja"
+  },
+  {
+    "disp": "切歯扼腕",
+    "kana": "せっしやくわん",
+    "q": "sesshiyakuwan",
+    "lang": "ja"
+  },
+  {
+    "disp": "氷姿雪魄",
+    "kana": "ひょうしせっぱく",
+    "q": "hyoushiseppaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "雪萼霜葩",
+    "kana": "せつがくそうは",
+    "q": "setsugakusouha",
+    "lang": "ja"
+  },
+  {
+    "disp": "窃玉偸香",
+    "kana": "せつぎょくとうこう",
+    "q": "setsugyokutoukou",
+    "lang": "ja"
+  },
+  {
+    "disp": "截断衆流",
+    "kana": "せつだんしゅる",
+    "q": "setsudanshuru",
+    "lang": "ja"
+  },
+  {
+    "disp": "千巌万壑",
+    "kana": "せんがんばんがく",
+    "q": "senganbangaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "弊帚千金",
+    "kana": "へいそうせんきん",
+    "q": "heisousenkin",
+    "lang": "ja"
+  },
+  {
+    "disp": "千荊万棘",
+    "kana": "せんけいばんきょく",
+    "q": "senkeibankyoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "鮮血淋漓",
+    "kana": "せんけつりんり",
+    "q": "senketsurinri",
+    "lang": "ja"
+  },
+  {
+    "disp": "洗垢索瘢",
+    "kana": "せんこうさくはん",
+    "q": "senkousakuhan",
+    "lang": "ja"
+  },
+  {
+    "disp": "僭賞濫刑",
+    "kana": "せんしょうらんけい",
+    "q": "senshourankei",
+    "lang": "ja"
+  },
+  {
+    "disp": "浅酌低唱",
+    "kana": "せんしゃくていしょう",
+    "q": "senshakuteishou",
+    "lang": "ja"
+  },
+  {
+    "disp": "先従隗始",
+    "kana": "せんじゅうかいし",
+    "q": "senjuukaishi",
+    "lang": "ja"
+  },
+  {
+    "disp": "千仞之谿",
+    "kana": "せんじんのたに",
+    "q": "senjinnotani",
+    "lang": "ja"
+  },
+  {
+    "disp": "泉石膏肓",
+    "kana": "せんせきこうこう",
+    "q": "sensekikoukou",
+    "lang": "ja"
+  },
+  {
+    "disp": "戦戦兢兢",
+    "kana": "せんせんきょうきょう",
+    "q": "sensenkyoukyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "翦草除根",
+    "kana": "せんそうじょこん",
+    "q": "sensoujokon",
+    "lang": "ja"
+  },
+  {
+    "disp": "吮疽之仁",
+    "kana": "せんそのじん",
+    "q": "sensonojin",
+    "lang": "ja"
+  },
+  {
+    "disp": "千朶万朶",
+    "kana": "せんだばんだ",
+    "q": "sendabanda",
+    "lang": "ja"
+  },
+  {
+    "disp": "扇枕温衾",
+    "kana": "せんちんおんきん",
+    "q": "senchinnonkin",
+    "lang": "ja"
+  },
+  {
+    "disp": "旋転囲繞",
+    "kana": "せんてんいじょう",
+    "q": "sentennijou",
+    "lang": "ja"
+  },
+  {
+    "disp": "瞻望咨嗟",
+    "kana": "せんぼうしさ",
+    "q": "senboushisa",
+    "lang": "ja"
+  },
+  {
+    "disp": "千里無烟",
+    "kana": "せんりむえん",
+    "q": "senrimuen",
+    "lang": "ja"
+  },
+  {
+    "disp": "賤斂貴発",
+    "kana": "せんれんきはつ",
+    "q": "senrenkihatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "噬指棄薪",
+    "kana": "ぜいしきしん",
+    "q": "zeishikishin",
+    "lang": "ja"
+  },
+  {
+    "disp": "贅沢三昧",
+    "kana": "ぜいたくざんまい",
+    "q": "zeitakuzanmai",
+    "lang": "ja"
+  },
+  {
+    "disp": "前倨後恭",
+    "kana": "ぜんきょこうきょう",
+    "q": "zenkyokoukyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "草偃風従",
+    "kana": "そうえんふうじゅう",
+    "q": "souenfuujuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "滄海桑田",
+    "kana": "そうかいそうでん",
+    "q": "soukaisouden",
+    "lang": "ja"
+  },
+  {
+    "disp": "滄海遺珠",
+    "kana": "そうかいのいしゅ",
+    "q": "soukainoishu",
+    "lang": "ja"
+  },
+  {
+    "disp": "滄海一粟",
+    "kana": "そうかいのいちぞく",
+    "q": "soukainoichizoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "走尸行肉",
+    "kana": "そうしこうにく",
+    "q": "soushikouniku",
+    "lang": "ja"
+  },
+  {
+    "disp": "簇酒斂衣",
+    "kana": "そうしゅれんい",
+    "q": "soushurenni",
+    "lang": "ja"
+  },
+  {
+    "disp": "蚤寝晏起",
+    "kana": "そうしんあんき",
+    "q": "soushinnanki",
+    "lang": "ja"
+  },
+  {
+    "disp": "痩身矮躯",
+    "kana": "そうしんわいく",
+    "q": "soushinwaiku",
+    "lang": "ja"
+  },
+  {
+    "disp": "宋襄之仁",
+    "kana": "そうじょうのじん",
+    "q": "soujounojin",
+    "lang": "ja"
+  },
+  {
+    "disp": "漱石枕流",
+    "kana": "そうせきちんりゅう",
+    "q": "sousekichinryuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "桑土綢繆",
+    "kana": "そうどちゅうびゅう",
+    "q": "soudochuubyuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "曾母投杼",
+    "kana": "そうぼとうちょ",
+    "q": "soubotoucho",
+    "lang": "ja"
+  },
+  {
+    "disp": "草満囹圄",
+    "kana": "そうまんれいご",
+    "q": "soumanreigo",
+    "lang": "ja"
+  },
+  {
+    "disp": "草莽之臣",
+    "kana": "そうもうのしん",
+    "q": "soumounoshin",
+    "lang": "ja"
+  },
+  {
+    "disp": "蒼蠅驥尾",
+    "kana": "そうようきび",
+    "q": "souyoukibi",
+    "lang": "ja"
+  },
+  {
+    "disp": "草廬三顧",
+    "kana": "そうろさんこ",
+    "q": "sourosanko",
+    "lang": "ja"
+  },
+  {
+    "disp": "足音跫然",
+    "kana": "そくおんきょうぜん",
+    "q": "sokuonkyouzen",
+    "lang": "ja"
+  },
+  {
+    "disp": "束皙竹簡",
+    "kana": "そくせきちくかん",
+    "q": "sokusekichikukan",
+    "lang": "ja"
+  },
+  {
+    "disp": "束帛加璧",
+    "kana": "そくはくかへき",
+    "q": "sokuhakukaheki",
+    "lang": "ja"
+  },
+  {
+    "disp": "束髪封帛",
+    "kana": "そくはつふうはく",
+    "q": "sokuhatsufuuhaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "麁枝大葉",
+    "kana": "そしたいよう",
+    "q": "soshitaiyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "率先躬行",
+    "kana": "そっせんきゅうこう",
+    "q": "sossenkyuukou",
+    "lang": "ja"
+  },
+  {
+    "disp": "樽俎折衝",
+    "kana": "そんそせっしょう",
+    "q": "sonsosesshou",
+    "lang": "ja"
+  },
+  {
+    "disp": "孫楚漱石",
+    "kana": "そんそそうせき",
+    "q": "sonsosouseki",
+    "lang": "ja"
+  },
+  {
+    "disp": "尊皇攘夷",
+    "kana": "そんのうじょうい",
+    "q": "sonnoujoui",
+    "lang": "ja"
+  },
+  {
+    "disp": "造言蜚語",
+    "kana": "ぞうげんひご",
+    "q": "zougenhigo",
+    "lang": "ja"
+  },
+  {
+    "disp": "造次顛沛",
+    "kana": "ぞうじてんぱい",
+    "q": "zoujitenpai",
+    "lang": "ja"
+  },
+  {
+    "disp": "俗臭芬芬",
+    "kana": "ぞくしゅうふんぷん",
+    "q": "zokushuufunpun",
+    "lang": "ja"
+  },
+  {
+    "disp": "鏃礪括羽",
+    "kana": "ぞくれいかつう",
+    "q": "zokureikatsuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "大海撈針",
+    "kana": "たいかいろうしん",
+    "q": "taikairoushin",
+    "lang": "ja"
+  },
+  {
+    "disp": "大廈棟梁",
+    "kana": "たいかのとうりょう",
+    "q": "taikanotouryou",
+    "lang": "ja"
+  },
+  {
+    "disp": "大衾長枕",
+    "kana": "たいきんちょうちん",
+    "q": "taikinchouchin",
+    "lang": "ja"
+  },
+  {
+    "disp": "大桀小桀",
+    "kana": "たいけつしょうけつ",
+    "q": "taiketsushouketsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "太羹玄酒",
+    "kana": "たいこうげんしゅ",
+    "q": "taikougenshu",
+    "lang": "ja"
+  },
+  {
+    "disp": "対牀風雪",
+    "kana": "たいしょうふうせつ",
+    "q": "taishoufuusetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "夜雨対牀",
+    "kana": "やうたいしょう",
+    "q": "yautaishou",
+    "lang": "ja"
+  },
+  {
+    "disp": "頽堕委靡",
+    "kana": "たいだいび",
+    "q": "taidaibi",
+    "lang": "ja"
+  },
+  {
+    "disp": "黛蓄膏渟",
+    "kana": "たいちくこうてい",
+    "q": "taichikukoutei",
+    "lang": "ja"
+  },
+  {
+    "disp": "大貉小貉",
+    "kana": "たいばくしょうばく",
+    "q": "taibakushoubaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "帯礪之誓",
+    "kana": "たいれいのちかい",
+    "q": "taireinochikai",
+    "lang": "ja"
+  },
+  {
+    "disp": "対驢撫琴",
+    "kana": "たいろぶきん",
+    "q": "tairobukin",
+    "lang": "ja"
+  },
+  {
+    "disp": "濯纓濯足",
+    "kana": "たくえいたくそく",
+    "q": "takueitakusoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "多銭善賈",
+    "kana": "たせんぜんこ",
+    "q": "tasenzenko",
+    "lang": "ja"
+  },
+  {
+    "disp": "箪食壺漿",
+    "kana": "たんしこしょう",
+    "q": "tanshikoshou",
+    "lang": "ja"
+  },
+  {
+    "disp": "袒裼裸裎",
+    "kana": "たんせきらてい",
+    "q": "tansekiratei",
+    "lang": "ja"
+  },
+  {
+    "disp": "貪夫徇財",
+    "kana": "たんぷじゅんざい",
+    "q": "tanpujunzai",
+    "lang": "ja"
+  },
+  {
+    "disp": "探驪獲珠",
+    "kana": "たんりかくしゅ",
+    "q": "tanrikakushu",
+    "lang": "ja"
+  },
+  {
+    "disp": "湛盧之剣",
+    "kana": "たんろのけん",
+    "q": "tanronoken",
+    "lang": "ja"
+  },
+  {
+    "disp": "濁流滾滾",
+    "kana": "だくりゅうこんこん",
+    "q": "dakuryuukonkon",
+    "lang": "ja"
+  },
+  {
+    "disp": "飽食煖衣",
+    "kana": "ほうしょくだんい",
+    "q": "houshokudanni",
+    "lang": "ja"
+  },
+  {
+    "disp": "断鶴続鳧",
+    "kana": "だんかくぞくふ",
+    "q": "dankakuzokufu",
+    "lang": "ja"
+  },
+  {
+    "disp": "弾丸黒子",
+    "kana": "だんがんこくし",
+    "q": "dangankokushi",
+    "lang": "ja"
+  },
+  {
+    "disp": "断薺画粥",
+    "kana": "だんせいかくしゅく",
+    "q": "danseikakushuku",
+    "lang": "ja"
+  },
+  {
+    "disp": "談天雕竜",
+    "kana": "だんてんちょうりょう",
+    "q": "dantenchouryou",
+    "lang": "ja"
+  },
+  {
+    "disp": "断爛朝報",
+    "kana": "だんらんちょうほう",
+    "q": "danranchouhou",
+    "lang": "ja"
+  },
+  {
+    "disp": "遅疑逡巡",
+    "kana": "ちぎしゅんじゅん",
+    "q": "chigishunjun",
+    "lang": "ja"
+  },
+  {
+    "disp": "池魚之殃",
+    "kana": "ちぎょのわざわい",
+    "q": "chigyonowazawai",
+    "lang": "ja"
+  },
+  {
+    "disp": "竹帛之功",
+    "kana": "ちくはくのこう",
+    "q": "chikuhakunokou",
+    "lang": "ja"
+  },
+  {
+    "disp": "竹苞松茂",
+    "kana": "ちくほうしょうも",
+    "q": "chikuhoushoumo",
+    "lang": "ja"
+  },
+  {
+    "disp": "蟄居屏息",
+    "kana": "ちっきょへいそく",
+    "q": "chikkyoheisoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "魑魅魍魎",
+    "kana": "ちみもうりょう",
+    "q": "chimimouryou",
+    "lang": "ja"
+  },
+  {
+    "disp": "中権後勁",
+    "kana": "ちゅうけんこうけい",
+    "q": "chuukenkoukei",
+    "lang": "ja"
+  },
+  {
+    "disp": "昼耕夜誦",
+    "kana": "ちゅうこうやしょう",
+    "q": "chuukouyashou",
+    "lang": "ja"
+  },
+  {
+    "disp": "誅心之法",
+    "kana": "ちゅうしんのほう",
+    "q": "chuushinnohou",
+    "lang": "ja"
+  },
+  {
+    "disp": "疇昔之夜",
+    "kana": "ちゅうせきのよ",
+    "q": "chuusekinoyo",
+    "lang": "ja"
+  },
+  {
+    "disp": "躊躇逡巡",
+    "kana": "ちゅうちょしゅんじゅん",
+    "q": "chuuchoshunjun",
+    "lang": "ja"
+  },
+  {
+    "disp": "綢繆未雨",
+    "kana": "ちゅうびゅうみう",
+    "q": "chuubyuumiu",
+    "lang": "ja"
+  },
+  {
+    "disp": "仲連蹈海",
+    "kana": "ちゅうれんとうかい",
+    "q": "chuurentoukai",
+    "lang": "ja"
+  },
+  {
+    "disp": "黜陟幽明",
+    "kana": "ちゅっちょくゆうめい",
+    "q": "chucchokuyuumei",
+    "lang": "ja"
+  },
+  {
+    "disp": "超軼絶塵",
+    "kana": "ちょういつぜつじん",
+    "q": "chouitsuzetsujin",
+    "lang": "ja"
+  },
+  {
+    "disp": "張王李趙",
+    "kana": "ちょうおうりちょう",
+    "q": "chouourichou",
+    "lang": "ja"
+  },
+  {
+    "disp": "重熙累洽",
+    "kana": "ちょうきるいこう",
+    "q": "choukiruikou",
+    "lang": "ja"
+  },
+  {
+    "disp": "長頸烏喙",
+    "kana": "ちょうけいうかい",
+    "q": "choukeiukai",
+    "lang": "ja"
+  },
+  {
+    "disp": "朝憲紊乱",
+    "kana": "ちょうけんびんらん",
+    "q": "choukenbinran",
+    "lang": "ja"
+  },
+  {
+    "disp": "懲羹吹膾",
+    "kana": "ちょうこうすいかい",
+    "q": "choukousuikai",
+    "lang": "ja"
+  },
+  {
+    "disp": "長江天塹",
+    "kana": "ちょうこうてんざん",
+    "q": "choukoutenzan",
+    "lang": "ja"
+  },
+  {
+    "disp": "朝耕暮耘",
+    "kana": "ちょうこうぼうん",
+    "q": "choukouboun",
+    "lang": "ja"
+  },
+  {
+    "disp": "彫心鏤骨",
+    "kana": "ちょうしんるこつ",
+    "q": "choushinrukotsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "朝齏暮塩",
+    "kana": "ちょうせいぼえん",
+    "q": "chouseiboen",
+    "lang": "ja"
+  },
+  {
+    "disp": "冢中枯骨",
+    "kana": "ちょうちゅうここつ",
+    "q": "chouchuukokotsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "彫虫篆刻",
+    "kana": "ちょうちゅうてんこく",
+    "q": "chouchuutenkoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "喋喋喃喃",
+    "kana": "ちょうちょうなんなん",
+    "q": "chouchounannan",
+    "lang": "ja"
+  },
+  {
+    "disp": "糶糴斂散",
+    "kana": "ちょうてきれんさん",
+    "q": "choutekirensan",
+    "lang": "ja"
+  },
+  {
+    "disp": "嘲風哢月",
+    "kana": "ちょうふうろうげつ",
+    "q": "choufuurougetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "雕文刻鏤",
+    "kana": "ちょうぶんこくる",
+    "q": "choubunkokuru",
+    "lang": "ja"
+  },
+  {
+    "disp": "跳梁跋扈",
+    "kana": "ちょうりょうばっこ",
+    "q": "chouryoubakko",
+    "lang": "ja"
+  },
+  {
+    "disp": "直往邁進",
+    "kana": "ちょくおうまいしん",
+    "q": "chokuoumaishin",
+    "lang": "ja"
+  },
+  {
+    "disp": "直截簡明",
+    "kana": "ちょくせつかんめい",
+    "q": "chokusetsukanmei",
+    "lang": "ja"
+  },
+  {
+    "disp": "佇思停機",
+    "kana": "ちょしていき",
+    "q": "choshiteiki",
+    "lang": "ja"
+  },
+  {
+    "disp": "樗櫟散木",
+    "kana": "ちょれきさんぼく",
+    "q": "chorekisanboku",
+    "lang": "ja"
+  },
+  {
+    "disp": "樗櫟之材",
+    "kana": "ちょれきのざい",
+    "q": "chorekinozai",
+    "lang": "ja"
+  },
+  {
+    "disp": "枕戈待旦",
+    "kana": "ちんかたいたん",
+    "q": "chinkataitan",
+    "lang": "ja"
+  },
+  {
+    "disp": "陳蔡之厄",
+    "kana": "ちんさいのやく",
+    "q": "chinsainoyaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "墜茵落溷",
+    "kana": "ついいんらくこん",
+    "q": "tsuiinrakukon",
+    "lang": "ja"
+  },
+  {
+    "disp": "低徊趣味",
+    "kana": "ていかいしゅみ",
+    "q": "teikaishumi",
+    "lang": "ja"
+  },
+  {
+    "disp": "棣鄂之情",
+    "kana": "ていがくのじょう",
+    "q": "teigakunojou",
+    "lang": "ja"
+  },
+  {
+    "disp": "渟膏湛碧",
+    "kana": "ていこうたんぺき",
+    "q": "teikoutanpeki",
+    "lang": "ja"
+  },
+  {
+    "disp": "鼎鐺玉石",
+    "kana": "ていそうぎょくせき",
+    "q": "teisougyokuseki",
+    "lang": "ja"
+  },
+  {
+    "disp": "面折廷諍",
+    "kana": "めんせつていそう",
+    "q": "mensetsuteisou",
+    "lang": "ja"
+  },
+  {
+    "disp": "剃頭辮髪",
+    "kana": "ていとうべんぱつ",
+    "q": "teitoubenpatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "擲果満車",
+    "kana": "てきかまんしゃ",
+    "q": "tekikamansha",
+    "lang": "ja"
+  },
+  {
+    "disp": "北轅適楚",
+    "kana": "ほくえんてきそ",
+    "q": "hokuentekiso",
+    "lang": "ja"
+  },
+  {
+    "disp": "鉄中錚錚",
+    "kana": "てっちゅうのそうそう",
+    "q": "tecchuunosousou",
+    "lang": "ja"
+  },
+  {
+    "disp": "跌蕩放言",
+    "kana": "てっとうほうげん",
+    "q": "tettouhougen",
+    "lang": "ja"
+  },
+  {
+    "disp": "轍乱旗靡",
+    "kana": "てつらんきび",
+    "q": "tetsurankibi",
+    "lang": "ja"
+  },
+  {
+    "disp": "天威咫尺",
+    "kana": "てんいしせき",
+    "q": "tennishiseki",
+    "lang": "ja"
+  },
+  {
+    "disp": "天宇地廬",
+    "kana": "てんうちろ",
+    "q": "tennuchiro",
+    "lang": "ja"
+  },
+  {
+    "disp": "天顔咫尺",
+    "kana": "てんがんしせき",
+    "q": "tenganshiseki",
+    "lang": "ja"
+  },
+  {
+    "disp": "天真爛漫",
+    "kana": "てんしんらんまん",
+    "q": "tenshinranman",
+    "lang": "ja"
+  },
+  {
+    "disp": "点睛開眼",
+    "kana": "てんせいかいがん",
+    "q": "tenseikaigan",
+    "lang": "ja"
+  },
+  {
+    "disp": "霑体塗足",
+    "kana": "てんたいとそく",
+    "q": "tentaitosoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "恬淡寡欲",
+    "kana": "てんたんかよく",
+    "q": "tentankayoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "椽大之筆",
+    "kana": "てんだいのふで",
+    "q": "tendainofude",
+    "lang": "ja"
+  },
+  {
+    "disp": "天地開闢",
+    "kana": "てんちかいびゃく",
+    "q": "tenchikaibyaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "輾転反側",
+    "kana": "てんてんはんそく",
+    "q": "tentenhansoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "天罰覿面",
+    "kana": "てんばつてきめん",
+    "q": "tenbatsutekimen",
+    "lang": "ja"
+  },
+  {
+    "disp": "顛沛流浪",
+    "kana": "てんぱいるろう",
+    "q": "tenpairurou",
+    "lang": "ja"
+  },
+  {
+    "disp": "典謨訓誥",
+    "kana": "てんぼくんこう",
+    "q": "tenbokunkou",
+    "lang": "ja"
+  },
+  {
+    "disp": "天歩艱難",
+    "kana": "てんぽかんなん",
+    "q": "tenpokannan",
+    "lang": "ja"
+  },
+  {
+    "disp": "天門開闔",
+    "kana": "てんもんかいこう",
+    "q": "tenmonkaikou",
+    "lang": "ja"
+  },
+  {
+    "disp": "泥首銜玉",
+    "kana": "でいしゅかんぎょく",
+    "q": "deishukangyoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "蕩佚簡易",
+    "kana": "とういつかんい",
+    "q": "touitsukanni",
+    "lang": "ja"
+  },
+  {
+    "disp": "桃花癸水",
+    "kana": "とうかきすい",
+    "q": "toukakisui",
+    "lang": "ja"
+  },
+  {
+    "disp": "韜光晦迹",
+    "kana": "とうこうかいせき",
+    "q": "toukoukaiseki",
+    "lang": "ja"
+  },
+  {
+    "disp": "騰蛟起鳳",
+    "kana": "とうこうきほう",
+    "q": "toukoukihou",
+    "lang": "ja"
+  },
+  {
+    "disp": "桃弧棘矢",
+    "kana": "とうこきょくし",
+    "q": "toukokyokushi",
+    "lang": "ja"
+  },
+  {
+    "disp": "倒載干戈",
+    "kana": "とうさいかんか",
+    "q": "tousaikanka",
+    "lang": "ja"
+  },
+  {
+    "disp": "桃傷李仆",
+    "kana": "とうしょうりふ",
+    "q": "toushourifu",
+    "lang": "ja"
+  },
+  {
+    "disp": "蹈常襲故",
+    "kana": "とうじょうしゅうこ",
+    "q": "toujoushuuko",
+    "lang": "ja"
+  },
+  {
+    "disp": "蹈節死義",
+    "kana": "とうせつしぎ",
+    "q": "tousetsushigi",
+    "lang": "ja"
+  },
+  {
+    "disp": "頭童歯豁",
+    "kana": "とうどうしかつ",
+    "q": "toudoushikatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "螳臂当車",
+    "kana": "とうひとうしゃ",
+    "q": "touhitousha",
+    "lang": "ja"
+  },
+  {
+    "disp": "橦末之伎",
+    "kana": "とうまつのぎ",
+    "q": "toumatsunogi",
+    "lang": "ja"
+  },
+  {
+    "disp": "桃李成蹊",
+    "kana": "とうりせいけい",
+    "q": "touriseikei",
+    "lang": "ja"
+  },
+  {
+    "disp": "螳螂之衛",
+    "kana": "とうろうのえい",
+    "q": "tourounoei",
+    "lang": "ja"
+  },
+  {
+    "disp": "螳螂之斧",
+    "kana": "とうろうのおの",
+    "q": "tourounoono",
+    "lang": "ja"
+  },
+  {
+    "disp": "兎起鶻落",
+    "kana": "ときこつらく",
+    "q": "tokikotsuraku",
+    "lang": "ja"
+  },
+  {
+    "disp": "兎起鳧挙",
+    "kana": "ときふきょ",
+    "q": "tokifukyo",
+    "lang": "ja"
+  },
+  {
+    "disp": "蠹居棊処",
+    "kana": "ときょきしょ",
+    "q": "tokyokisho",
+    "lang": "ja"
+  },
+  {
+    "disp": "得魚忘筌",
+    "kana": "とくぎょぼうせん",
+    "q": "tokugyobousen",
+    "lang": "ja"
+  },
+  {
+    "disp": "得隴望蜀",
+    "kana": "とくろうぼうしょく",
+    "q": "tokurouboushoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "斗斛之禄",
+    "kana": "とこくのろく",
+    "q": "tokokunoroku",
+    "lang": "ja"
+  },
+  {
+    "disp": "斗筲之人",
+    "kana": "としょうのひと",
+    "q": "toshounohito",
+    "lang": "ja"
+  },
+  {
+    "disp": "屠所之羊",
+    "kana": "としょのひつじ",
+    "q": "toshonohitsuji",
+    "lang": "ja"
+  },
+  {
+    "disp": "咄嗟叱咤",
+    "kana": "とっさしった",
+    "q": "tossashitta",
+    "lang": "ja"
+  },
+  {
+    "disp": "訥言敏行",
+    "kana": "とつげんびんこう",
+    "q": "totsugenbinkou",
+    "lang": "ja"
+  },
+  {
+    "disp": "咄咄怪事",
+    "kana": "とつとつかいじ",
+    "q": "totsutotsukaiji",
+    "lang": "ja"
+  },
+  {
+    "disp": "突怒偃蹇",
+    "kana": "とつどえんけん",
+    "q": "totsudoenken",
+    "lang": "ja"
+  },
+  {
+    "disp": "屠毒筆墨",
+    "kana": "とどくのひつぼく",
+    "q": "todokunohitsuboku",
+    "lang": "ja"
+  },
+  {
+    "disp": "屠羊之肆",
+    "kana": "とようのし",
+    "q": "toyounoshi",
+    "lang": "ja"
+  },
+  {
+    "disp": "斗量帚掃",
+    "kana": "とりょうそうそう",
+    "q": "toryousousou",
+    "lang": "ja"
+  },
+  {
+    "disp": "屠竜之技",
+    "kana": "とりょうのぎ",
+    "q": "toryounogi",
+    "lang": "ja"
+  },
+  {
+    "disp": "敦煌五竜",
+    "kana": "とんこうごりょう",
+    "q": "tonkougoryou",
+    "lang": "ja"
+  },
+  {
+    "disp": "道揆法守",
+    "kana": "どうきほうしゅ",
+    "q": "doukihoushu",
+    "lang": "ja"
+  },
+  {
+    "disp": "同衾共枕",
+    "kana": "どうきんきょうちん",
+    "q": "doukinkyouchin",
+    "lang": "ja"
+  },
+  {
+    "disp": "恫疑虚喝",
+    "kana": "どうぎきょかつ",
+    "q": "dougikyokatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "銅牆鉄壁",
+    "kana": "どうしょうてっぺき",
+    "q": "doushouteppeki",
+    "lang": "ja"
+  },
+  {
+    "disp": "戮力同心",
+    "kana": "りくりょくどうしん",
+    "q": "rikuryokudoushin",
+    "lang": "ja"
+  },
+  {
+    "disp": "同袍同沢",
+    "kana": "どうほうどうたく",
+    "q": "douhoudoutaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "瞠目結舌",
+    "kana": "どうもくけつぜつ",
+    "q": "doumokuketsuzetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "独学孤陋",
+    "kana": "どくがくころう",
+    "q": "dokugakukorou",
+    "lang": "ja"
+  },
+  {
+    "disp": "独立不羈",
+    "kana": "どくりつふき",
+    "q": "dokuritsufuki",
+    "lang": "ja"
+  },
+  {
+    "disp": "独立不撓",
+    "kana": "どくりつふとう",
+    "q": "dokuritsufutou",
+    "lang": "ja"
+  },
+  {
+    "disp": "駑馬十駕",
+    "kana": "どばじゅうが",
+    "q": "dobajuuga",
+    "lang": "ja"
+  },
+  {
+    "disp": "呑刀刮腸",
+    "kana": "どんとうかっちょう",
+    "q": "dontoukacchou",
+    "lang": "ja"
+  },
+  {
+    "disp": "南轅北轍",
+    "kana": "なんえんほくてつ",
+    "q": "nannenhokutetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "南橘北枳",
+    "kana": "なんきつほくき",
+    "q": "nankitsuhokuki",
+    "lang": "ja"
+  },
+  {
+    "disp": "南洽北暢",
+    "kana": "なんこうほくちょう",
+    "q": "nankouhokuchou",
+    "lang": "ja"
+  },
+  {
+    "disp": "南蛮鴃舌",
+    "kana": "なんばんげきぜつ",
+    "q": "nanbangekizetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "南蛮北狄",
+    "kana": "なんばんほくてき",
+    "q": "nanbanhokuteki",
+    "lang": "ja"
+  },
+  {
+    "disp": "肉山脯林",
+    "kana": "にくざんほりん",
+    "q": "nikuzanhorin",
+    "lang": "ja"
+  },
+  {
+    "disp": "肉袒牽羊",
+    "kana": "にくたんけんよう",
+    "q": "nikutankennyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "肉袒負荊",
+    "kana": "にくたんふけい",
+    "q": "nikutanfukei",
+    "lang": "ja"
+  },
+  {
+    "disp": "日昃之労",
+    "kana": "にっしょくのろう",
+    "q": "nisshokunorou",
+    "lang": "ja"
+  },
+  {
+    "disp": "涅槃寂静",
+    "kana": "ねはんじゃくじょう",
+    "q": "nehanjakujou",
+    "lang": "ja"
+  },
+  {
+    "disp": "拈華微笑",
+    "kana": "ねんげみしょう",
+    "q": "nengemishou",
+    "lang": "ja"
+  },
+  {
+    "disp": "年災月殃",
+    "kana": "ねんさいげつおう",
+    "q": "nensaigetsuou",
+    "lang": "ja"
+  },
+  {
+    "disp": "悖出悖入",
+    "kana": "はいしゅつはいにゅう",
+    "q": "haishutsuhainyuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "悖徳没倫",
+    "kana": "はいとくぼつりん",
+    "q": "haitokubotsurin",
+    "lang": "ja"
+  },
+  {
+    "disp": "悖入悖出",
+    "kana": "はいにゅうはいしゅつ",
+    "q": "hainyuuhaishutsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "杯盤狼藉",
+    "kana": "はいばんろうぜき",
+    "q": "haibanrouzeki",
+    "lang": "ja"
+  },
+  {
+    "disp": "破戒無慙",
+    "kana": "はかいむざん",
+    "q": "hakaimuzan",
+    "lang": "ja"
+  },
+  {
+    "disp": "波詭雲譎",
+    "kana": "はきうんけつ",
+    "q": "hakiunketsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "博引旁証",
+    "kana": "はくいんぼうしょう",
+    "q": "hakuinboushou",
+    "lang": "ja"
+  },
+  {
+    "disp": "白玉微瑕",
+    "kana": "はくぎょくのびか",
+    "q": "hakugyokunobika",
+    "lang": "ja"
+  },
+  {
+    "disp": "博識洽聞",
+    "kana": "はくしきこうぶん",
+    "q": "hakushikikoubun",
+    "lang": "ja"
+  },
+  {
+    "disp": "白荼赤火",
+    "kana": "はくとせきか",
+    "q": "hakutosekika",
+    "lang": "ja"
+  },
+  {
+    "disp": "白髪青袗",
+    "kana": "はくはつせいしん",
+    "q": "hakuhatsuseishin",
+    "lang": "ja"
+  },
+  {
+    "disp": "白璧微瑕",
+    "kana": "はくへきのびか",
+    "q": "hakuhekinobika",
+    "lang": "ja"
+  },
+  {
+    "disp": "伯兪泣杖",
+    "kana": "はくゆきゅうじょう",
+    "q": "hakuyukyuujou",
+    "lang": "ja"
+  },
+  {
+    "disp": "八面玲瓏",
+    "kana": "はちめんれいろう",
+    "q": "hachimenreirou",
+    "lang": "ja"
+  },
+  {
+    "disp": "八面六臂",
+    "kana": "はちめんろっぴ",
+    "q": "hachimenroppi",
+    "lang": "ja"
+  },
+  {
+    "disp": "撥雲見日",
+    "kana": "はつうんけんじつ",
+    "q": "hatsuunkenjitsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "撥乱反正",
+    "kana": "はつらんはんせい",
+    "q": "hatsuranhansei",
+    "lang": "ja"
+  },
+  {
+    "disp": "跛鼈千里",
+    "kana": "はべつせんり",
+    "q": "habetsusenri",
+    "lang": "ja"
+  },
+  {
+    "disp": "爬羅剔抉",
+    "kana": "はらてきけつ",
+    "q": "haratekiketsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "波瀾曲折",
+    "kana": "はらんきょくせつ",
+    "q": "harankyokusetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "波瀾万丈",
+    "kana": "はらんばんじょう",
+    "q": "haranbanjou",
+    "lang": "ja"
+  },
+  {
+    "disp": "跛立箕坐",
+    "kana": "はりゅうきざ",
+    "q": "haryuukiza",
+    "lang": "ja"
+  },
+  {
+    "disp": "攀轅臥轍",
+    "kana": "はんえんがてつ",
+    "q": "hannengatetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "半饑半渇",
+    "kana": "はんきはんかつ",
+    "q": "hankihankatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "班女辞輦",
+    "kana": "はんじょじれん",
+    "q": "hanjojiren",
+    "lang": "ja"
+  },
+  {
+    "disp": "繁文縟礼",
+    "kana": "はんぶんじょくれい",
+    "q": "hanbunjokurei",
+    "lang": "ja"
+  },
+  {
+    "disp": "攀竜附驥",
+    "kana": "はんりょうふき",
+    "q": "hanryoufuki",
+    "lang": "ja"
+  },
+  {
+    "disp": "攀竜附鳳",
+    "kana": "はんりょうふほう",
+    "q": "hanryoufuhou",
+    "lang": "ja"
+  },
+  {
+    "disp": "倍日并行",
+    "kana": "ばいじつへいこう",
+    "q": "baijitsuheikou",
+    "lang": "ja"
+  },
+  {
+    "disp": "馬鹿慇懃",
+    "kana": "ばかいんぎん",
+    "q": "bakaingin",
+    "lang": "ja"
+  },
+  {
+    "disp": "漠漠濛濛",
+    "kana": "ばくばくもうもう",
+    "q": "bakubakumoumou",
+    "lang": "ja"
+  },
+  {
+    "disp": "跋山渉水",
+    "kana": "ばつざんしょうすい",
+    "q": "batsuzanshousui",
+    "lang": "ja"
+  },
+  {
+    "disp": "罵詈雑言",
+    "kana": "ばりぞうごん",
+    "q": "barizougon",
+    "lang": "ja"
+  },
+  {
+    "disp": "蛮夷戎狄",
+    "kana": "ばんいじゅうてき",
+    "q": "bannijuuteki",
+    "lang": "ja"
+  },
+  {
+    "disp": "槃根錯節",
+    "kana": "ばんこんさくせつ",
+    "q": "bankonsakusetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "万寿無疆",
+    "kana": "ばんじゅむきょう",
+    "q": "banjumukyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "万物殷富",
+    "kana": "ばんぶついんぷ",
+    "q": "banbutsuinpu",
+    "lang": "ja"
+  },
+  {
+    "disp": "万目睚眥",
+    "kana": "まんもくがいさい",
+    "q": "manmokugaisai",
+    "lang": "ja"
+  },
+  {
+    "disp": "悲歌慷慨",
+    "kana": "ひかこうがい",
+    "q": "hikakougai",
+    "lang": "ja"
+  },
+  {
+    "disp": "卑躬屈節",
+    "kana": "ひきゅうくっせつ",
+    "q": "hikyuukussetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "匪躬之節",
+    "kana": "ひきゅうのせつ",
+    "q": "hikyuunosetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "披荊斬棘",
+    "kana": "ひけいざんきょく",
+    "q": "hikeizankyoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "比肩随踵",
+    "kana": "ひけんずいしょう",
+    "q": "hikenzuishou",
+    "lang": "ja"
+  },
+  {
+    "disp": "悲傷憔悴",
+    "kana": "ひしょうしょうすい",
+    "q": "hishoushousui",
+    "lang": "ja"
+  },
+  {
+    "disp": "飛絮漂花",
+    "kana": "ひじょひょうか",
+    "q": "hijohyouka",
+    "lang": "ja"
+  },
+  {
+    "disp": "悲壮淋漓",
+    "kana": "ひそうりんり",
+    "q": "hisourinri",
+    "lang": "ja"
+  },
+  {
+    "disp": "筆削褒貶",
+    "kana": "ひっさくほうへん",
+    "q": "hissakuhouhen",
+    "lang": "ja"
+  },
+  {
+    "disp": "筆力扛鼎",
+    "kana": "ひつりょくこうてい",
+    "q": "hitsuryokukoutei",
+    "lang": "ja"
+  },
+  {
+    "disp": "篳路藍縷",
+    "kana": "ひつろらんる",
+    "q": "hitsuroranru",
+    "lang": "ja"
+  },
+  {
+    "disp": "非難囂囂",
+    "kana": "ひなんごうごう",
+    "q": "hinangougou",
+    "lang": "ja"
+  },
+  {
+    "disp": "髀肉之嘆",
+    "kana": "ひにくのたん",
+    "q": "hinikunotan",
+    "lang": "ja"
+  },
+  {
+    "disp": "被髪纓冠",
+    "kana": "ひはつえいかん",
+    "q": "hihatsueikan",
+    "lang": "ja"
+  },
+  {
+    "disp": "被髪左衽",
+    "kana": "ひはつさじん",
+    "q": "hihatsusajin",
+    "lang": "ja"
+  },
+  {
+    "disp": "被髪佯狂",
+    "kana": "ひはつようきょう",
+    "q": "hihatsuyoukyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "悲憤慷慨",
+    "kana": "ひふんこうがい",
+    "q": "hifunkougai",
+    "lang": "ja"
+  },
+  {
+    "disp": "百姓一揆",
+    "kana": "ひゃくしょういっき",
+    "q": "hyakushouikki",
+    "lang": "ja"
+  },
+  {
+    "disp": "百折不撓",
+    "kana": "ひゃくせつふとう",
+    "q": "hyakusetsufutou",
+    "lang": "ja"
+  },
+  {
+    "disp": "百様玲瓏",
+    "kana": "ひゃくようれいろう",
+    "q": "hyakuyoureirou",
+    "lang": "ja"
+  },
+  {
+    "disp": "百花繚乱",
+    "kana": "ひゃっかりょうらん",
+    "q": "hyakkaryouran",
+    "lang": "ja"
+  },
+  {
+    "disp": "百孔千瘡",
+    "kana": "ひゃっこうせんそう",
+    "q": "hyakkousensou",
+    "lang": "ja"
+  },
+  {
+    "disp": "氷甌雪椀",
+    "kana": "ひょうおうせつわん",
+    "q": "hyouousetsuwan",
+    "lang": "ja"
+  },
+  {
+    "disp": "飄忽震蕩",
+    "kana": "ひょうこつしんとう",
+    "q": "hyoukotsushintou",
+    "lang": "ja"
+  },
+  {
+    "disp": "剽疾軽悍",
+    "kana": "ひょうしつけいかん",
+    "q": "hyoushitsukeikan",
+    "lang": "ja"
+  },
+  {
+    "disp": "飛揚跋扈",
+    "kana": "ひようばっこ",
+    "q": "hiyoubakko",
+    "lang": "ja"
+  },
+  {
+    "disp": "疲労困憊",
+    "kana": "ひろうこんぱい",
+    "q": "hiroukonpai",
+    "lang": "ja"
+  },
+  {
+    "disp": "牝鶏之晨",
+    "kana": "ひんけいのしん",
+    "q": "hinkeinoshin",
+    "lang": "ja"
+  },
+  {
+    "disp": "牝牡驪黄",
+    "kana": "ひんぼりこう",
+    "q": "hinborikou",
+    "lang": "ja"
+  },
+  {
+    "disp": "媚眼秋波",
+    "kana": "びがんしゅうは",
+    "q": "biganshuuha",
+    "lang": "ja"
+  },
+  {
+    "disp": "尾大不掉",
+    "kana": "びだいふとう",
+    "q": "bidaifutou",
+    "lang": "ja"
+  },
+  {
+    "disp": "病入膏肓",
+    "kana": "びょうにゅうこうこう",
+    "q": "byounyuukoukou",
+    "lang": "ja"
+  },
+  {
+    "disp": "馮異大樹",
+    "kana": "ふういたいじゅ",
+    "q": "fuuitaiju",
+    "lang": "ja"
+  },
+  {
+    "disp": "風雨淒淒",
+    "kana": "ふううせいせい",
+    "q": "fuuuseisei",
+    "lang": "ja"
+  },
+  {
+    "disp": "風雨対牀",
+    "kana": "ふううたいしょう",
+    "q": "fuuutaishou",
+    "lang": "ja"
+  },
+  {
+    "disp": "風鬟雨鬢",
+    "kana": "ふうかんうびん",
+    "q": "fuukannubin",
+    "lang": "ja"
+  },
+  {
+    "disp": "風岸孤峭",
+    "kana": "ふうがんこしょう",
+    "q": "fuugankoshou",
+    "lang": "ja"
+  },
+  {
+    "disp": "風紀紊乱",
+    "kana": "ふうきびんらん",
+    "q": "fuukibinran",
+    "lang": "ja"
+  },
+  {
+    "disp": "風光明媚",
+    "kana": "ふうこうめいび",
+    "q": "fuukoumeibi",
+    "lang": "ja"
+  },
+  {
+    "disp": "風櫛雨沐",
+    "kana": "ふうしつうもく",
+    "q": "fuushitsuumoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "風声鶴唳",
+    "kana": "ふうせいかくれい",
+    "q": "fuuseikakurei",
+    "lang": "ja"
+  },
+  {
+    "disp": "浮雲翳日",
+    "kana": "ふうんえいじつ",
+    "q": "fuunneijitsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "巫雲蜀雨",
+    "kana": "ふうんしょくう",
+    "q": "fuunshokuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "浮家泛宅",
+    "kana": "ふかはんたく",
+    "q": "fukahantaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "不羈之才",
+    "kana": "ふきのさい",
+    "q": "fukinosai",
+    "lang": "ja"
+  },
+  {
+    "disp": "不羈奔放",
+    "kana": "ふきほんぽう",
+    "q": "fukihonpou",
+    "lang": "ja"
+  },
+  {
+    "disp": "俯仰之間",
+    "kana": "ふぎょうのかん",
+    "q": "fugyounokan",
+    "lang": "ja"
+  },
+  {
+    "disp": "伏寇在側",
+    "kana": "ふくこうざいそく",
+    "q": "fukukouzaisoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "不撓不屈",
+    "kana": "ふとうふくつ",
+    "q": "futoufukutsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "巫山之夢",
+    "kana": "ふざんのゆめ",
+    "q": "fuzannoyume",
+    "lang": "ja"
+  },
+  {
+    "disp": "俛首帖耳",
+    "kana": "ふしゅちょうじ",
+    "q": "fushuchouji",
+    "lang": "ja"
+  },
+  {
+    "disp": "膚受之愬",
+    "kana": "ふじゅのうったえ",
+    "q": "fujunouttae",
+    "lang": "ja"
+  },
+  {
+    "disp": "鳧趨雀躍",
+    "kana": "ふすうじゃくやく",
+    "q": "fusuujakuyaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "附贅懸疣",
+    "kana": "ふぜいけんゆう",
+    "q": "fuzeikennyuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "榑木之地",
+    "kana": "ふぼくのち",
+    "q": "fubokunochi",
+    "lang": "ja"
+  },
+  {
+    "disp": "蜉蝣一期",
+    "kana": "ふゆうのいちご",
+    "q": "fuyuunoichigo",
+    "lang": "ja"
+  },
+  {
+    "disp": "不埒千万",
+    "kana": "ふらちせんばん",
+    "q": "furachisenban",
+    "lang": "ja"
+  },
+  {
+    "disp": "刎頸之交",
+    "kana": "ふんけいのまじわり",
+    "q": "funkeinomajiwari",
+    "lang": "ja"
+  },
+  {
+    "disp": "物論囂囂",
+    "kana": "ぶつろんごうごう",
+    "q": "butsurongougou",
+    "lang": "ja"
+  },
+  {
+    "disp": "蚊子咬牛",
+    "kana": "ぶんしこうぎゅう",
+    "q": "bunshikougyuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "文恬武嬉",
+    "kana": "ぶんてんぶき",
+    "q": "buntenbuki",
+    "lang": "ja"
+  },
+  {
+    "disp": "敝衣蓬髪",
+    "kana": "へいいほうはつ",
+    "q": "heiihouhatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "兵戈槍攘",
+    "kana": "へいかそうじょう",
+    "q": "heikasoujou",
+    "lang": "ja"
+  },
+  {
+    "disp": "秉燭夜遊",
+    "kana": "へいしょくやゆう",
+    "q": "heishokuyayuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "萍水相逢",
+    "kana": "へいすいそうほう",
+    "q": "heisuisouhou",
+    "lang": "ja"
+  },
+  {
+    "disp": "瓶墜簪折",
+    "kana": "へいついしんせつ",
+    "q": "heitsuishinsetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "兵馬倥偬",
+    "kana": "へいばこうそう",
+    "q": "heibakousou",
+    "lang": "ja"
+  },
+  {
+    "disp": "壁立千仞",
+    "kana": "へきりつせんじん",
+    "q": "hekiritsusenjin",
+    "lang": "ja"
+  },
+  {
+    "disp": "霹靂一声",
+    "kana": "へきれきいっせい",
+    "q": "hekirekiissei",
+    "lang": "ja"
+  },
+  {
+    "disp": "霹靂閃電",
+    "kana": "へきれきせんでん",
+    "q": "hekirekisenden",
+    "lang": "ja"
+  },
+  {
+    "disp": "偏袒扼腕",
+    "kana": "へんたんやくわん",
+    "q": "hentannyakuwan",
+    "lang": "ja"
+  },
+  {
+    "disp": "胼胝之労",
+    "kana": "へんちのろう",
+    "q": "henchinorou",
+    "lang": "ja"
+  },
+  {
+    "disp": "偏旁冠脚",
+    "kana": "へんぼうかんきゃく",
+    "q": "henboukankyaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "汨羅之鬼",
+    "kana": "べきらのき",
+    "q": "bekiranoki",
+    "lang": "ja"
+  },
+  {
+    "disp": "弁才無礙",
+    "kana": "べんざいむげ",
+    "q": "benzaimuge",
+    "lang": "ja"
+  },
+  {
+    "disp": "駢四儷六",
+    "kana": "べんしれいろく",
+    "q": "benshireiroku",
+    "lang": "ja"
+  },
+  {
+    "disp": "鞭辟近裏",
+    "kana": "べんぺききんり",
+    "q": "benpekikinri",
+    "lang": "ja"
+  },
+  {
+    "disp": "駢拇枝指",
+    "kana": "べんぼしし",
+    "q": "benboshishi",
+    "lang": "ja"
+  },
+  {
+    "disp": "逢掖之衣",
+    "kana": "ほうえきのい",
+    "q": "houekinoi",
+    "lang": "ja"
+  },
+  {
+    "disp": "鳳凰于飛",
+    "kana": "ほうおううひ",
+    "q": "hououuhi",
+    "lang": "ja"
+  },
+  {
+    "disp": "鳳凰銜書",
+    "kana": "ほうおうがんしょ",
+    "q": "houougansho",
+    "lang": "ja"
+  },
+  {
+    "disp": "法界悋気",
+    "kana": "ほうかいりんき",
+    "q": "houkairinki",
+    "lang": "ja"
+  },
+  {
+    "disp": "抱関撃柝",
+    "kana": "ほうかんげきたく",
+    "q": "houkangekitaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "泛駕之馬",
+    "kana": "ほうがのうま",
+    "q": "houganouma",
+    "lang": "ja"
+  },
+  {
+    "disp": "判官贔屓",
+    "kana": "ほうがんびいき",
+    "q": "houganbiiki",
+    "lang": "ja"
+  },
+  {
+    "disp": "封豕長蛇",
+    "kana": "ほうしちょうだ",
+    "q": "houshichouda",
+    "lang": "ja"
+  },
+  {
+    "disp": "宝鈿玉釵",
+    "kana": "ほうでんぎょくさい",
+    "q": "houdengyokusai",
+    "lang": "ja"
+  },
+  {
+    "disp": "放蕩不羈",
+    "kana": "ほうとうふき",
+    "q": "houtoufuki",
+    "lang": "ja"
+  },
+  {
+    "disp": "放辟邪侈",
+    "kana": "ほうへきじゃし",
+    "q": "houhekijashi",
+    "lang": "ja"
+  },
+  {
+    "disp": "蜂目豺声",
+    "kana": "ほうもくさいせい",
+    "q": "houmokusaisei",
+    "lang": "ja"
+  },
+  {
+    "disp": "鳳友鸞交",
+    "kana": "ほうゆうらんこう",
+    "q": "houyuurankou",
+    "lang": "ja"
+  },
+  {
+    "disp": "匍匐膝行",
+    "kana": "ほふくしっこう",
+    "q": "hofukushikkou",
+    "lang": "ja"
+  },
+  {
+    "disp": "賁育之勇",
+    "kana": "ほんいくのゆう",
+    "q": "honnikunoyuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "本地垂迹",
+    "kana": "ほんちすいじゃく",
+    "q": "honchisuijaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "冒雨剪韭",
+    "kana": "ぼううせんきゅう",
+    "q": "bouusenkyuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "茅屋采椽",
+    "kana": "ぼうおくさいてん",
+    "q": "bouokusaiten",
+    "lang": "ja"
+  },
+  {
+    "disp": "暴虎馮河",
+    "kana": "ぼうこひょうが",
+    "q": "boukohyouga",
+    "lang": "ja"
+  },
+  {
+    "disp": "望蜀之嘆",
+    "kana": "ぼうしょくのたん",
+    "q": "boushokunotan",
+    "lang": "ja"
+  },
+  {
+    "disp": "亡脣寒歯",
+    "kana": "ぼうしんかんし",
+    "q": "boushinkanshi",
+    "lang": "ja"
+  },
+  {
+    "disp": "旁時掣肘",
+    "kana": "ぼうじせいちゅう",
+    "q": "boujiseichuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "茫然自失",
+    "kana": "ぼうぜんじしつ",
+    "q": "bouzenjishitsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "茅堵蕭然",
+    "kana": "ぼうとしょうぜん",
+    "q": "boutoshouzen",
+    "lang": "ja"
+  },
+  {
+    "disp": "尨眉皓髪",
+    "kana": "ぼうびこうはつ",
+    "q": "boubikouhatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "墨痕淋漓",
+    "kana": "ぼっこんりんり",
+    "q": "bokkonrinri",
+    "lang": "ja"
+  },
+  {
+    "disp": "麻姑搔痒",
+    "kana": "まこそうよう",
+    "q": "makosouyou",
+    "lang": "ja"
+  },
+  {
+    "disp": "摩頂放踵",
+    "kana": "まちょうほうしょう",
+    "q": "machouhoushou",
+    "lang": "ja"
+  },
+  {
+    "disp": "満身創痍",
+    "kana": "まんしんそうい",
+    "q": "manshinsoui",
+    "lang": "ja"
+  },
+  {
+    "disp": "満目蕭条",
+    "kana": "まんもくしょうじょう",
+    "q": "manmokushoujou",
+    "lang": "ja"
+  },
+  {
+    "disp": "曼理皓歯",
+    "kana": "まんりこうし",
+    "q": "manrikoushi",
+    "lang": "ja"
+  },
+  {
+    "disp": "無辜之民",
+    "kana": "むこのたみ",
+    "q": "mukonotami",
+    "lang": "ja"
+  },
+  {
+    "disp": "無根無蔕",
+    "kana": "むこんむてい",
+    "q": "mukonmutei",
+    "lang": "ja"
+  },
+  {
+    "disp": "無慙無愧",
+    "kana": "むざんむき",
+    "q": "muzanmuki",
+    "lang": "ja"
+  },
+  {
+    "disp": "無病呻吟",
+    "kana": "むびょうしんぎん",
+    "q": "mubyoushingin",
+    "lang": "ja"
+  },
+  {
+    "disp": "霧鬢風鬟",
+    "kana": "むびんふうかん",
+    "q": "mubinfuukan",
+    "lang": "ja"
+  },
+  {
+    "disp": "無辺無礙",
+    "kana": "むへんむげ",
+    "q": "muhenmuge",
+    "lang": "ja"
+  },
+  {
+    "disp": "毋望之禍",
+    "kana": "むぼうのわざわい",
+    "q": "mubounowazawai",
+    "lang": "ja"
+  },
+  {
+    "disp": "無欲恬淡",
+    "kana": "むよくてんたん",
+    "q": "muyokutentan",
+    "lang": "ja"
+  },
+  {
+    "disp": "無余涅槃",
+    "kana": "むよねはん",
+    "q": "muyonehan",
+    "lang": "ja"
+  },
+  {
+    "disp": "銘肌鏤骨",
+    "kana": "めいきるこつ",
+    "q": "meikirukotsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "明察秋毫",
+    "kana": "めいさつしゅうごう",
+    "q": "meisatsushuugou",
+    "lang": "ja"
+  },
+  {
+    "disp": "明窓浄几",
+    "kana": "めいそうじょうき",
+    "q": "meisoujouki",
+    "lang": "ja"
+  },
+  {
+    "disp": "明眸皓歯",
+    "kana": "めいぼうこうし",
+    "q": "meiboukoushi",
+    "lang": "ja"
+  },
+  {
+    "disp": "明朗闊達",
+    "kana": "めいろうかったつ",
+    "q": "meiroukattatsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "罔極之恩",
+    "kana": "もうきょくのおん",
+    "q": "moukyokunoon",
+    "lang": "ja"
+  },
+  {
+    "disp": "毛骨悚然",
+    "kana": "もうこつしょうぜん",
+    "q": "moukotsushouzen",
+    "lang": "ja"
+  },
+  {
+    "disp": "沐浴抒溷",
+    "kana": "もくよくじょこん",
+    "q": "mokuyokujokon",
+    "lang": "ja"
+  },
+  {
+    "disp": "門巷塡隘",
+    "kana": "もんこうてんあい",
+    "q": "monkoutennai",
+    "lang": "ja"
+  },
+  {
+    "disp": "悶絶躄地",
+    "kana": "もんぜつびゃくじ",
+    "q": "monzetsubyakuji",
+    "lang": "ja"
+  },
+  {
+    "disp": "八咫之鏡",
+    "kana": "やたのかがみ",
+    "q": "yatanokagami",
+    "lang": "ja"
+  },
+  {
+    "disp": "黝堊丹漆",
+    "kana": "ゆうあくたんしつ",
+    "q": "yuuakutanshitsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "游雲驚竜",
+    "kana": "ゆううんきょうりょう",
+    "q": "yuuunkyouryou",
+    "lang": "ja"
+  },
+  {
+    "disp": "勇往邁進",
+    "kana": "ゆうおうまいしん",
+    "q": "yuuoumaishin",
+    "lang": "ja"
+  },
+  {
+    "disp": "勇気凜凜",
+    "kana": "ゆうきりんりん",
+    "q": "yuukirinrin",
+    "lang": "ja"
+  },
+  {
+    "disp": "融通無礙",
+    "kana": "ゆうずうむげ",
+    "q": "yuuzuumuge",
+    "lang": "ja"
+  },
+  {
+    "disp": "優游涵泳",
+    "kana": "ゆうゆうかんえい",
+    "q": "yuuyuukannei",
+    "lang": "ja"
+  },
+  {
+    "disp": "余韻嫋嫋",
+    "kana": "よいんじょうじょう",
+    "q": "yoinjoujou",
+    "lang": "ja"
+  },
+  {
+    "disp": "羊裘垂釣",
+    "kana": "ようきゅうすいちょう",
+    "q": "youkyuusuichou",
+    "lang": "ja"
+  },
+  {
+    "disp": "羊很狼貪",
+    "kana": "ようこんろうどん",
+    "q": "youkonroudon",
+    "lang": "ja"
+  },
+  {
+    "disp": "妖姿媚態",
+    "kana": "ようしびたい",
+    "q": "youshibitai",
+    "lang": "ja"
+  },
+  {
+    "disp": "揺頭擺尾",
+    "kana": "ようとうはいび",
+    "q": "youtouhaibi",
+    "lang": "ja"
+  },
+  {
+    "disp": "瑶林瓊樹",
+    "kana": "ようりんけいじゅ",
+    "q": "yourinkeiju",
+    "lang": "ja"
+  },
+  {
+    "disp": "薏苡明珠",
+    "kana": "よくいめいしゅ",
+    "q": "yokuimeishu",
+    "lang": "ja"
+  },
+  {
+    "disp": "翼覆嫗煦",
+    "kana": "よくふうく",
+    "q": "yokufuuku",
+    "lang": "ja"
+  },
+  {
+    "disp": "余裕綽綽",
+    "kana": "よゆうしゃくしゃく",
+    "q": "yoyuushakushaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "雷陳膠漆",
+    "kana": "らいちんこうしつ",
+    "q": "raichinkoushitsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "雷霆万鈞",
+    "kana": "らいていばんきん",
+    "q": "raiteibankin",
+    "lang": "ja"
+  },
+  {
+    "disp": "磊磊落落",
+    "kana": "らいらいらくらく",
+    "q": "rairairakuraku",
+    "lang": "ja"
+  },
+  {
+    "disp": "落英繽紛",
+    "kana": "らくえいひんぷん",
+    "q": "rakueihinpun",
+    "lang": "ja"
+  },
+  {
+    "disp": "落穽下石",
+    "kana": "らくせいかせき",
+    "q": "rakuseikaseki",
+    "lang": "ja"
+  },
+  {
+    "disp": "落花狼藉",
+    "kana": "らっかろうぜき",
+    "q": "rakkarouzeki",
+    "lang": "ja"
+  },
+  {
+    "disp": "蘭薫桂馥",
+    "kana": "らんくんけいふく",
+    "q": "rankunkeifuku",
+    "lang": "ja"
+  },
+  {
+    "disp": "蘭摧玉折",
+    "kana": "らんさいぎょくせつ",
+    "q": "ransaigyokusetsu",
+    "lang": "ja"
+  },
+  {
+    "disp": "鸞翔鳳集",
+    "kana": "らんしょうほうしゅう",
+    "q": "ranshouhoushuu",
+    "lang": "ja"
+  },
+  {
+    "disp": "乱暴狼藉",
+    "kana": "らんぼうろうぜき",
+    "q": "ranbourouzeki",
+    "lang": "ja"
+  },
+  {
+    "disp": "六韜三略",
+    "kana": "りくとうさんりゃく",
+    "q": "rikutousanryaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "流汗淋漓",
+    "kana": "りゅうかんりんり",
+    "q": "ryuukanrinri",
+    "lang": "ja"
+  },
+  {
+    "disp": "流金鑠石",
+    "kana": "りゅうきんしゃくせき",
+    "q": "ryuukinshakuseki",
+    "lang": "ja"
+  },
+  {
+    "disp": "流言蜚語",
+    "kana": "りゅうげんひご",
+    "q": "ryuugenhigo",
+    "lang": "ja"
+  },
+  {
+    "disp": "梁冀跋扈",
+    "kana": "りょうきばっこ",
+    "q": "ryoukibakko",
+    "lang": "ja"
+  },
+  {
+    "disp": "竜吟虎嘯",
+    "kana": "りょうぎんこしょう",
+    "q": "ryouginkoshou",
+    "lang": "ja"
+  },
+  {
+    "disp": "竜虎相搏",
+    "kana": "りょうこそうはく",
+    "q": "ryoukosouhaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "竜舟鷁首",
+    "kana": "りょうしゅうげきしゅ",
+    "q": "ryoushuugekishu",
+    "lang": "ja"
+  },
+  {
+    "disp": "凌霄之志",
+    "kana": "りょうしょうのこころざし",
+    "q": "ryoushounokokorozashi",
+    "lang": "ja"
+  },
+  {
+    "disp": "竜驤虎視",
+    "kana": "りょうじょうこし",
+    "q": "ryoujoukoshi",
+    "lang": "ja"
+  },
+  {
+    "disp": "竜攘虎搏",
+    "kana": "りょうじょうこはく",
+    "q": "ryoujoukohaku",
+    "lang": "ja"
+  },
+  {
+    "disp": "竜驤麟振",
+    "kana": "りょうじょうりんしん",
+    "q": "ryoujourinshin",
+    "lang": "ja"
+  },
+  {
+    "disp": "竜頭鷁首",
+    "kana": "りょうとうげきしゅ",
+    "q": "ryoutougekishu",
+    "lang": "ja"
+  },
+  {
+    "disp": "遼東之豕",
+    "kana": "りょうとうのいのこ",
+    "q": "ryoutounoinoko",
+    "lang": "ja"
+  },
+  {
+    "disp": "竜蟠虎踞",
+    "kana": "りょうばんこきょ",
+    "q": "ryoubankokyo",
+    "lang": "ja"
+  },
+  {
+    "disp": "霖雨蒼生",
+    "kana": "りんうそうせい",
+    "q": "rinnusousei",
+    "lang": "ja"
+  },
+  {
+    "disp": "麟角鳳嘴",
+    "kana": "りんかくほうし",
+    "q": "rinkakuhoushi",
+    "lang": "ja"
+  },
+  {
+    "disp": "輪奐一新",
+    "kana": "りんかんいっしん",
+    "q": "rinkannisshin",
+    "lang": "ja"
+  },
+  {
+    "disp": "琳琅珠玉",
+    "kana": "りんろうしゅぎょく",
+    "q": "rinroushugyoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "琳琅満目",
+    "kana": "りんろうまんもく",
+    "q": "rinroumanmoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "縷縷綿綿",
+    "kana": "るるめんめん",
+    "q": "rurumenmen",
+    "lang": "ja"
+  },
+  {
+    "disp": "零絹尺楮",
+    "kana": "れいけんせきちょ",
+    "q": "reikensekicho",
+    "lang": "ja"
+  },
+  {
+    "disp": "鴒原之情",
+    "kana": "れいげんのじょう",
+    "q": "reigennojou",
+    "lang": "ja"
+  },
+  {
+    "disp": "藜杖韋帯",
+    "kana": "れいじょういたい",
+    "q": "reijouitai",
+    "lang": "ja"
+  },
+  {
+    "disp": "烈士徇名",
+    "kana": "れっしじゅんめい",
+    "q": "resshijunmei",
+    "lang": "ja"
+  },
+  {
+    "disp": "聯袂辞職",
+    "kana": "れんべいじしょく",
+    "q": "renbeijishoku",
+    "lang": "ja"
+  },
+  {
+    "disp": "連璧賁臨",
+    "kana": "れんぺきひりん",
+    "q": "renpekihirin",
+    "lang": "ja"
+  },
+  {
+    "disp": "老驥伏櫪",
+    "kana": "ろうきふくれき",
+    "q": "roukifukureki",
+    "lang": "ja"
+  },
+  {
+    "disp": "螻蟻潰堤",
+    "kana": "ろうぎかいてい",
+    "q": "rougikaitei",
+    "lang": "ja"
+  },
+  {
+    "disp": "螻蟻之誠",
+    "kana": "ろうぎのせい",
+    "q": "rouginosei",
+    "lang": "ja"
+  },
+  {
+    "disp": "魯魚亥豕",
+    "kana": "ろぎょがいし",
+    "q": "rogyogaishi",
+    "lang": "ja"
+  },
+  {
+    "disp": "盧生之夢",
+    "kana": "ろせいのゆめ",
+    "q": "roseinoyume",
+    "lang": "ja"
+  },
+  {
+    "disp": "矮子看戯",
+    "kana": "わいしかんぎ",
+    "q": "waishikangi",
+    "lang": "ja"
+  },
+  {
+    "disp": "和気藹藹",
+    "kana": "わきあいあい",
+    "q": "wakiaiai",
+    "lang": "ja"
+  },
+  {
+    "disp": "和羹塩梅",
+    "kana": "わこうあんばい",
+    "q": "wakouanbai",
+    "lang": "ja"
+  }
+]
