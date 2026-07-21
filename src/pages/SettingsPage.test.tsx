@@ -58,6 +58,7 @@ test("choosing a romaji c-mapping side persists it", () => {
 test("the ？ tip reveals its explanation on click", () => {
   render(<SettingsPage />);
   expect(screen.queryByText(/前回の出題から/)).toBeNull();
-  fireEvent.click(screen.getAllByLabelText("説明を表示")[0]);
+  // Tips in DOM order: [0] 音声再生, [1] 復習頻度, ... — click the 復習頻度 tip.
+  fireEvent.click(screen.getAllByLabelText("説明を表示")[1]);
   expect(screen.getByText(/前回の出題から/)).toBeDefined();
 });

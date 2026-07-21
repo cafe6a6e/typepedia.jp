@@ -29,6 +29,7 @@ test("saveSettings / loadSettings round-trips a full settings object", () => {
     category: "kanken_pre1st_grade",
     cMapping: { ...DEFAULT_SETTINGS.cMapping, ca: "s" },
     study: { reviewFrequencyHours: 12, reviewCount: 5, reviewRatio: 0.25 },
+    autoPlayAudio: false,
   };
   saveSettings(custom);
   expect(loadSettings()).toEqual(custom);

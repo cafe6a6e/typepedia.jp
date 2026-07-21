@@ -17,6 +17,7 @@ export const DEFAULT_SETTINGS: Settings = {
   category: DEFAULT_CATEGORY,
   cMapping: { ...DEFAULT_C_MAPPING },
   study: { ...DEFAULT_STUDY_SETTINGS },
+  autoPlayAudio: true,
 };
 
 /** Keep only known inputs and valid sides, filling gaps from the defaults. */
@@ -78,6 +79,10 @@ export function loadSettings(): Settings {
           : DEFAULT_SETTINGS.category,
       cMapping: normalizeCMapping(parsed.cMapping),
       study: normalizeStudy(parsed.study),
+      autoPlayAudio:
+        typeof parsed.autoPlayAudio === "boolean"
+          ? parsed.autoPlayAudio
+          : DEFAULT_SETTINGS.autoPlayAudio,
     };
   } catch {
     return { ...DEFAULT_SETTINGS };

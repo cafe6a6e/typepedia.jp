@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { MemoModal } from "@/components/MemoModal";
 import { SentenceView } from "@/components/SentenceView";
 import { addMemo, formatTimestamp } from "@/lib/memo";
+import { canSpeak, speak } from "@/lib/speech";
 import { isLearning, setLearning } from "@/lib/study";
 import type { EngineState, Matcher, ReviewInfo, Sentence } from "@/types";
 
@@ -21,6 +22,8 @@ interface Props {
   categoryId: string;
   /** Set when this question is a review; drives the reference banner. */
   review: ReviewInfo | null;
+  /** Auto-play the question audio when an English question is shown. */
+  autoPlayAudio: boolean;
   /** Pause/resume the game key listener while the memo modal is open. */
   suspendKeys: (v: boolean) => void;
 }
@@ -38,9 +41,21 @@ export function PlayingView({
   category,
   categoryId,
   review,
+  autoPlayAudio,
   suspendKeys,
 }: Props) {
   const [memoOpen, setMemoOpen] = useState(false);
+
+  // 英語題材では問題文（q）が英文なので、それを読み上げる。
+  const isEnglish = sentence.lang === "en";
+  const audioText = sentence.q;
+  const canPlayAudio = isEnglish && canSpeak();
+
+  // 出題（=index が変わるたび）と同時に、設定が有効なら自動再生する。
+  // index を依存に含めることで、同じ英文が連続しても問題が変われば再生される。
+  useEffect(() => {
+    if (canPlayAudio && autoPlayAudio) speak(audioText);
+  }, [index, canPlayAudio, autoPlayAudio, audioText]);
 
   const openMemo = () => {
     suspendKeys(true);
@@ -99,6 +114,21 @@ export function PlayingView({
           </p>
         )}
         <SentenceView sentence={sentence} matcher={matcher} engine={engine} />
+        {canPlayAudio && (
+          <button
+            type="button"
+            onClick={(e) => {
+              // クリックでフォーカスを奪わない（Space はタイピング入力のため）。
+              e.currentTarget.blur();
+              speak(audioText);
+            }}
+            aria-label="問題文を読み上げる"
+            className="flex items-center gap-2 rounded-full border border-white/15 px-4 py-1.5 text-sm text-white/70 hover:bg-white/5"
+          >
+            <span aria-hidden="true">🔊</span>
+            音声を再生
+          </button>
+        )}
         <p className="text-xs text-white/30">
           Shift+Enter でメモ / Esc でコース選択に戻る
         </p>

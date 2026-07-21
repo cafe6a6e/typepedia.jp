@@ -70,6 +70,19 @@ export function SettingsPage() {
             className="px-3 py-2 bg-white/5 border border-white/10 rounded-md"
           />
         </label>
+
+        <label className="flex items-center gap-3 cursor-pointer max-w-md">
+          <input
+            type="checkbox"
+            checked={settings.autoPlayAudio}
+            onChange={(e) => update({ autoPlayAudio: e.target.checked })}
+            className="h-4 w-4 accent-green-500"
+          />
+          <span className="text-sm text-white/60">
+            出題と同時に音声を再生
+            <Tip text="英語の題材で、問題が表示されると同時に英文を自動で読み上げます。オフにしても、出題画面の「音声を再生」ボタンでいつでも再生できます。" />
+          </span>
+        </label>
       </section>
 
       <section className="mb-8">

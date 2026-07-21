@@ -69,6 +69,7 @@ export function StartPage() {
             category={categoryLabel(settings.category)}
             categoryId={settings.category}
             review={game.currentReview}
+            autoPlayAudio={settings.autoPlayAudio}
             suspendKeys={game.suspendKeys}
           />
         )}

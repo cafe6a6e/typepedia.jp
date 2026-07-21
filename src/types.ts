@@ -66,6 +66,8 @@ export interface Settings {
   cMapping: Record<string, "k" | "s">;
   /** 学習設定: spaced-review parameters. */
   study: StudySettings;
+  /** 英語題材で、出題と同時に問題文の音声を自動再生するか。 */
+  autoPlayAudio: boolean;
 }
 
 /** Reference info attached to a review question shown during play. */

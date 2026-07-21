@@ -24,6 +24,7 @@ function renderView(suspendKeys = mock(() => {})) {
       category="英語（英検1級）"
       categoryId={CAT}
       review={null}
+      autoPlayAudio={false}
       suspendKeys={suspendKeys}
     />,
   );
@@ -63,6 +64,7 @@ test("shows a review banner when the question is a review", () => {
       category="英語（英検1級）"
       categoryId={CAT}
       review={{ attempt: 2, lastReviewedTs: Date.now() }}
+      autoPlayAudio={false}
       suspendKeys={mock(() => {})}
     />,
   );
