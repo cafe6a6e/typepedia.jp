@@ -1,4 +1,7 @@
-import { CategorySelect } from "@/components/CategorySelect";
+import {
+  type CategoryProgress,
+  CategorySelect,
+} from "@/components/CategorySelect";
 
 interface Props {
   loading: boolean;
@@ -7,6 +10,7 @@ interface Props {
   categories: string[];
   selected: string;
   onSelect: (category: string) => void;
+  progress?: Record<string, CategoryProgress>;
 }
 
 /** Idle screen: pick a category, then press Space to start. */
@@ -17,6 +21,7 @@ export function StartScreen({
   categories,
   selected,
   onSelect,
+  progress,
 }: Props) {
   return (
     <div className="text-center">
@@ -29,6 +34,7 @@ export function StartScreen({
         categories={categories}
         selected={selected}
         onSelect={onSelect}
+        progress={progress}
       />
 
       {loading ? (

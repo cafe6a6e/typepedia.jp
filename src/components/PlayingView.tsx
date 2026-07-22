@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { MemoModal } from "@/components/MemoModal";
 import { SentenceView } from "@/components/SentenceView";
+import { isMastered, setMastered } from "@/lib/mastery";
 import { addMemo, formatTimestamp } from "@/lib/memo";
 import { canSpeak, speak } from "@/lib/speech";
 import { isLearning, setLearning } from "@/lib/study";
@@ -140,11 +141,13 @@ export function PlayingView({
           disp={sentence.disp}
           q={sentence.q}
           initialLearning={isLearning(categoryId, sentence.q)}
+          initialMastered={isMastered(sentence.uuid)}
           onCancel={closeMemo}
-          onSave={(note, learning) => {
+          onSave={(note, learning, mastered) => {
             if (note.trim())
               addMemo({ category, disp: sentence.disp, q: sentence.q, note });
             setLearning(categoryId, sentence, learning);
+            setMastered(sentence.uuid, categoryId, mastered);
             closeMemo();
           }}
         />

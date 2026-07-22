@@ -1,9 +1,5 @@
 import { afterEach, beforeEach, expect, test } from "bun:test";
-import {
-  fetchSentenceFile,
-  loadGameSentences,
-  pickN,
-} from "@/lib/sentences";
+import { fetchSentenceFile, loadGameSentences, pickN } from "@/lib/sentences";
 import { setLearning } from "@/lib/study";
 import type { RawSentence, Sentence, StudySettings } from "@/types";
 
@@ -58,9 +54,7 @@ function jsonRes(data: unknown) {
 function installFetch(manifest: unknown, fileData: RawSentence[]) {
   // @ts-expect-error minimal fetch stub for tests
   globalThis.fetch = (url: string) =>
-    url === "sentences/manifest.json"
-      ? jsonRes(manifest)
-      : jsonRes(fileData);
+    url === "sentences/manifest.json" ? jsonRes(manifest) : jsonRes(fileData);
 }
 
 const CAT = "eiken_1st_grade";
@@ -99,7 +93,7 @@ function seedLearning(count: number): Set<string> {
   const qs = new Set<string>();
   for (let i = 0; i < count; i++) {
     const q = `review${i}`;
-    setLearning(CAT, { disp: q, q, lang: "en" }, true);
+    setLearning(CAT, { disp: q, q, lang: "en", uuid: `uuid-${q}` }, true);
     qs.add(q);
   }
   return qs;

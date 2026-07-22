@@ -3,11 +3,13 @@
 /** Language of a sentence. "ja" = Japanese (q is romaji), "en" = plain ASCII. */
 export type Lang = "ja" | "en";
 
-/** Raw entry as authored in /sentences/<n>.json. `lang` is optional. */
+/** Raw entry as authored in /sentences/<n>.json. `lang`/`uuid` are optional. */
 export interface RawSentence {
   disp: string;
   q: string;
   lang?: Lang;
+  /** Stable per-sentence identity (added by scripts/addUuids.ts). */
+  uuid?: string;
 }
 
 /** Normalized sentence used internally (lang always resolved). */
@@ -15,6 +17,8 @@ export interface Sentence {
   disp: string;
   q: string;
   lang: Lang;
+  /** Stable per-sentence identity. Empty string only for ad-hoc/test sentences. */
+  uuid: string;
 }
 
 /**
@@ -35,6 +39,8 @@ export type Matcher = Slot[];
 export interface SentenceFileRef {
   category: string;
   id: number;
+  /** Number of sentences in the file (for per-category totals). */
+  count?: number;
 }
 
 /** Position state while typing a single sentence. */
@@ -68,6 +74,8 @@ export interface Settings {
   study: StudySettings;
   /** 英語題材で、出題と同時に問題文の音声を自動再生するか。 */
   autoPlayAudio: boolean;
+  /** 「完全に覚えた」問題を今後の出題から除外するか（既定 true）。 */
+  hideMastered: boolean;
 }
 
 /** Reference info attached to a review question shown during play. */

@@ -1,4 +1,5 @@
 /** Fetch and prepare sentences for a game. */
+import { getMasteredSet } from "@/lib/mastery";
 import { getDueReviews, reviewInfoOf } from "@/lib/study";
 import type {
   Lang,
@@ -18,7 +19,12 @@ function inferLang(raw: RawSentence): Lang {
 }
 
 function normalize(raw: RawSentence): Sentence {
-  return { disp: raw.disp, q: raw.q, lang: inferLang(raw) };
+  return {
+    disp: raw.disp,
+    q: raw.q,
+    lang: inferLang(raw),
+    uuid: raw.uuid ?? "",
+  };
 }
 
 /** Available sentence files across all categories.
@@ -37,6 +43,19 @@ export async function getSentenceFiles(): Promise<SentenceFileRef[]> {
 export async function getCategories(): Promise<string[]> {
   const files = await getSentenceFiles();
   return [...new Set(files.map((f) => f.category))];
+}
+
+/**
+ * Total number of sentences per category id, summed from the manifest's
+ * per-file `count`. Files predating the count field contribute 0.
+ */
+export async function getCategoryTotals(): Promise<Record<string, number>> {
+  const files = await getSentenceFiles();
+  const totals: Record<string, number> = {};
+  for (const f of files) {
+    totals[f.category] = (totals[f.category] ?? 0) + (f.count ?? 0);
+  }
+  return totals;
 }
 
 /** Fetch and normalize one sentence file. */
@@ -82,6 +101,7 @@ export async function loadGameSentences(
   category: string,
   n: number,
   study: StudySettings,
+  hideMastered = false,
 ): Promise<GameLoad> {
   const files = (await getSentenceFiles()).filter(
     (f) => f.category === category,
@@ -90,19 +110,25 @@ export async function loadGameSentences(
     throw new Error(`No sentence files for category: ${category}`);
   const file = await fetchSentenceFile(pick(files));
 
+  // When enabled, "完全に覚えた" sentences are excluded from both reviews and
+  // fresh questions. Items without a uuid (legacy state) are never excluded.
+  const mastered = hideMastered ? getMasteredSet() : new Set<string>();
+  const isHidden = (uuid: string | undefined) =>
+    Boolean(uuid) && mastered.has(uuid as string);
+
   // Reserve up to 復習割合 of the slots for due reviews.
   const reviewSlots = Math.min(Math.round(n * study.reviewRatio), n);
-  const due = getDueReviews(category, study);
+  const due = getDueReviews(category, study).filter((it) => !isHidden(it.uuid));
   const pickedReviews = pickN(due, reviewSlots);
   const reviewQs = new Set(pickedReviews.map((it) => it.q));
 
   // Fill the rest with fresh questions not already chosen as reviews.
-  const freshPool = file.filter((s) => !reviewQs.has(s.q));
+  const freshPool = file.filter((s) => !reviewQs.has(s.q) && !isHidden(s.uuid));
   const pickedFresh = pickN(freshPool, n - pickedReviews.length);
 
   const combined: { sentence: Sentence; review: ReviewInfo | null }[] = [
     ...pickedReviews.map((it) => ({
-      sentence: { disp: it.disp, q: it.q, lang: it.lang },
+      sentence: { disp: it.disp, q: it.q, lang: it.lang, uuid: it.uuid ?? "" },
       review: reviewInfoOf(it),
     })),
     ...pickedFresh.map((s) => ({ sentence: s, review: null })),

@@ -83,6 +83,19 @@ export function SettingsPage() {
             <Tip text="英語の題材で、問題が表示されると同時に英文を自動で読み上げます。オフにしても、出題画面の「音声を再生」ボタンでいつでも再生できます。" />
           </span>
         </label>
+
+        <label className="flex items-center gap-3 cursor-pointer max-w-md">
+          <input
+            type="checkbox"
+            checked={settings.hideMastered}
+            onChange={(e) => update({ hideMastered: e.target.checked })}
+            className="h-4 w-4 accent-green-500"
+          />
+          <span className="text-sm text-white/60">
+            覚えた問題を出題しない
+            <Tip text="メモ画面で「完全に覚えた」にした問題を、今後の出題（新規・復習とも）から除外します。オフにすると、覚えた問題も通常どおり出題されます。進捗率にはどちらの設定でも反映されます。" />
+          </span>
+        </label>
       </section>
 
       <section className="mb-8">
@@ -104,7 +117,10 @@ export function SettingsPage() {
               value={settings.study.reviewFrequencyHours}
               onChange={(e) =>
                 updateStudy({
-                  reviewFrequencyHours: Math.max(1, Number(e.target.value) || 1),
+                  reviewFrequencyHours: Math.max(
+                    1,
+                    Number(e.target.value) || 1,
+                  ),
                 })
               }
               className="px-3 py-2 bg-white/5 border border-white/10 rounded-md"
@@ -123,7 +139,10 @@ export function SettingsPage() {
               value={settings.study.reviewCount}
               onChange={(e) =>
                 updateStudy({
-                  reviewCount: Math.max(1, Math.floor(Number(e.target.value) || 1)),
+                  reviewCount: Math.max(
+                    1,
+                    Math.floor(Number(e.target.value) || 1),
+                  ),
                 })
               }
               className="px-3 py-2 bg-white/5 border border-white/10 rounded-md"
@@ -142,7 +161,10 @@ export function SettingsPage() {
               step={5}
               value={Math.round(settings.study.reviewRatio * 100)}
               onChange={(e) => {
-                const pct = Math.min(100, Math.max(0, Number(e.target.value) || 0));
+                const pct = Math.min(
+                  100,
+                  Math.max(0, Number(e.target.value) || 0),
+                );
                 updateStudy({ reviewRatio: pct / 100 });
               }}
               className="px-3 py-2 bg-white/5 border border-white/10 rounded-md"

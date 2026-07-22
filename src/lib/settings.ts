@@ -18,6 +18,7 @@ export const DEFAULT_SETTINGS: Settings = {
   cMapping: { ...DEFAULT_C_MAPPING },
   study: { ...DEFAULT_STUDY_SETTINGS },
   autoPlayAudio: true,
+  hideMastered: true,
 };
 
 /** Keep only known inputs and valid sides, filling gaps from the defaults. */
@@ -83,6 +84,10 @@ export function loadSettings(): Settings {
         typeof parsed.autoPlayAudio === "boolean"
           ? parsed.autoPlayAudio
           : DEFAULT_SETTINGS.autoPlayAudio,
+      hideMastered:
+        typeof parsed.hideMastered === "boolean"
+          ? parsed.hideMastered
+          : DEFAULT_SETTINGS.hideMastered,
     };
   } catch {
     return { ...DEFAULT_SETTINGS };

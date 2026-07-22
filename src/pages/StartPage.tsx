@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import type { CategoryProgress } from "@/components/CategorySelect";
 import { PlayingView } from "@/components/PlayingView";
 import { ResultView } from "@/components/ResultView";
 import { StartScreen } from "@/components/StartScreen";
@@ -7,7 +8,8 @@ import { usePageTitle } from "@/hooks/usePageTitle";
 import { useSettings } from "@/hooks/useSettings";
 import { useTypingGame } from "@/hooks/useTypingGame";
 import { categoryLabel, DEFAULT_CATEGORY } from "@/lib/categories";
-import { getCategories } from "@/lib/sentences";
+import { getMasteredCountByCategory } from "@/lib/mastery";
+import { getCategories, getCategoryTotals } from "@/lib/sentences";
 
 export function StartPage() {
   usePageTitle();
@@ -15,6 +17,8 @@ export function StartPage() {
   const game = useTypingGame(settings);
   const { setActive } = useCourseGuard();
   const [categories, setCategories] = useState<string[]>([]);
+  const [totals, setTotals] = useState<Record<string, number>>({});
+  const [mastered, setMastered] = useState<Record<string, number>>({});
 
   // Let the nav guard know when a course is running.
   useEffect(() => {
@@ -26,7 +30,24 @@ export function StartPage() {
     getCategories()
       .then(setCategories)
       .catch(() => setCategories([]));
+    getCategoryTotals()
+      .then(setTotals)
+      .catch(() => setTotals({}));
   }, []);
+
+  // Refresh the mastered counts whenever we return to the idle screen (e.g.
+  // after marking questions during a course).
+  useEffect(() => {
+    if (game.phase === "idle") setMastered(getMasteredCountByCategory());
+  }, [game.phase]);
+
+  const progress = useMemo(() => {
+    const map: Record<string, CategoryProgress> = {};
+    for (const c of categories) {
+      map[c] = { learned: mastered[c] ?? 0, total: totals[c] ?? 0 };
+    }
+    return map;
+  }, [categories, totals, mastered]);
 
   // If the saved category isn't available, fall back to the default (or first).
   useEffect(() => {
@@ -51,6 +72,7 @@ export function StartPage() {
           categories={categories}
           selected={settings.category}
           onSelect={(c) => update({ category: c })}
+          progress={progress}
         />
       )}
 

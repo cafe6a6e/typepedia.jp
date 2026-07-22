@@ -180,7 +180,7 @@ test("suspendKeys makes the global listener inert (Space ignored)", async () => 
 
 test("completing a review question records the review", async () => {
   // One learning item, all slots reviews, due immediately.
-  setLearning(CAT, { disp: "ab", q: "ab", lang: "en" }, true);
+  setLearning(CAT, { disp: "ab", q: "ab", lang: "en", uuid: "uuid-ab" }, true);
   installFetch([{ disp: "ab", q: "ab" }]);
   const { result } = renderHook(() =>
     useTypingGame(

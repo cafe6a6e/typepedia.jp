@@ -1,13 +1,15 @@
 import { beforeEach, expect, mock, test } from "bun:test";
 import { fireEvent, render, screen } from "@testing-library/react";
 import { PlayingView } from "@/components/PlayingView";
+import { isMastered } from "@/lib/mastery";
 import { getMemos } from "@/lib/memo";
 import { compileMatcher } from "@/lib/romajiEngine";
 import { DEFAULT_SETTINGS } from "@/lib/settings";
 import { isLearning } from "@/lib/study";
 
 const CAT = "eiken_1st_grade";
-const sentence = { disp: "apple", q: "apple", lang: "en" as const };
+const UUID = "test-uuid-apple";
+const sentence = { disp: "apple", q: "apple", lang: "en" as const, uuid: UUID };
 const matcher = compileMatcher("apple", DEFAULT_SETTINGS, "en");
 
 function renderView(suspendKeys = mock(() => {})) {
@@ -77,7 +79,7 @@ test("saving a memo with a note persists the memo and learning status", () => {
   fireEvent.click(screen.getByRole("button", { name: "Memo" }));
 
   // Turn learning on and write a note.
-  fireEvent.click(screen.getByRole("switch"));
+  fireEvent.click(screen.getByRole("switch", { name: "学習中" }));
   fireEvent.change(screen.getByRole("textbox"), {
     target: { value: "覚える" },
   });
@@ -92,9 +94,18 @@ test("saving a memo with a note persists the memo and learning status", () => {
 test("saving with an empty note records learning but no memo", () => {
   renderView();
   fireEvent.click(screen.getByRole("button", { name: "Memo" }));
-  fireEvent.click(screen.getByRole("switch")); // learning on
+  fireEvent.click(screen.getByRole("switch", { name: "学習中" })); // learning on
   fireEvent.click(screen.getByRole("button", { name: "OK" }));
 
   expect(getMemos()).toHaveLength(0);
   expect(isLearning(CAT, "apple")).toBe(true);
+});
+
+test("marking 完全に覚えた persists by uuid", () => {
+  renderView();
+  fireEvent.click(screen.getByRole("button", { name: "Memo" }));
+  fireEvent.click(screen.getByRole("switch", { name: "完全に覚えた" }));
+  fireEvent.click(screen.getByRole("button", { name: "OK" }));
+
+  expect(isMastered(UUID)).toBe(true);
 });

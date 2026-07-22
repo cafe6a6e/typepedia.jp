@@ -3,3606 +3,4207 @@
     "disp": "悪衣悪食",
     "kana": "あくいあくしょく",
     "q": "akuiakushoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "5b1f4523-29de-4361-bf6b-6df6bcf03dc8"
   },
   {
     "disp": "悪因悪果",
     "kana": "あくいんあっか",
     "q": "akuinnakka",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a053ecaa-bd13-41dd-b670-6515bc3d729d"
   },
   {
     "disp": "悪逆無道",
     "kana": "あくぎゃくむどう",
     "q": "akugyakumudou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "957f944c-0839-426a-8721-0524636fafd3"
   },
   {
     "disp": "悪事千里",
     "kana": "あくじせんり",
     "q": "akujisenri",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "510b16c5-2f16-4dc0-880a-43a43a8833ef"
   },
   {
     "disp": "悪人正機",
     "kana": "あくにんしょうき",
     "q": "akuninshouki",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "fdad7690-1e88-46df-9d0a-273b15361bbc"
   },
   {
     "disp": "悪口雑言",
     "kana": "あっこうぞうごん",
     "q": "akkouzougon",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "8ee7b298-bc9b-44c4-b08a-a022e341c68c"
   },
   {
     "disp": "安居危思",
     "kana": "あんきょきし",
     "q": "ankyokishi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "66abe4d2-d061-4eae-b7fa-1b8e0c412eb3"
   },
   {
     "disp": "安居楽業",
     "kana": "あんきょらくぎょう",
     "q": "ankyorakugyou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "83bb48b7-25d6-4c95-bc15-6cac0768f01d"
   },
   {
     "disp": "安心立命",
     "kana": "あんじんりつめい",
     "q": "anjinritsumei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "9ef32180-c4ce-477a-8baf-1c12e2d259b2"
   },
   {
     "disp": "暗送秋波",
     "kana": "あんそうしゅうは",
     "q": "ansoushuuha",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "1bda364a-cc00-4006-bbd1-38ba3418a1fc"
   },
   {
     "disp": "安宅正路",
     "kana": "あんたくせいろ",
     "q": "antakuseiro",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "9dc2004a-5dc2-4016-a977-f9e3bb5869f0"
   },
   {
     "disp": "易往易行",
     "kana": "いおういぎょう",
     "q": "iouigyou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ced22e7d-e7e4-4176-846d-0730d7383b66"
   },
   {
     "disp": "意気投合",
     "kana": "いきとうごう",
     "q": "ikitougou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "572a5210-d2fa-4bf3-851d-999cfc2d0d0f"
   },
   {
     "disp": "異曲同工",
     "kana": "いきょくどうこう",
     "q": "ikyokudoukou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d2530422-cc92-4901-a2d4-fac438b90eb7"
   },
   {
     "disp": "異口同音",
     "kana": "いくどうおん",
     "q": "ikudouon",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "4a642ce0-7edb-4639-b993-d8fe09f905aa"
   },
   {
     "disp": "意在言外",
     "kana": "いざいげんがい",
     "q": "izaigengai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d5c3c956-4093-486c-b64c-25e742be26d7"
   },
   {
     "disp": "医食同源",
     "kana": "いしょくどうげん",
     "q": "ishokudougen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "8836780a-d1b2-40aa-ba0b-1277f36f669d"
   },
   {
     "disp": "以心伝心",
     "kana": "いしんでんしん",
     "q": "ishindenshin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d2d2a947-3088-4a4a-b899-4e4b4adb522a"
   },
   {
     "disp": "衣帯中賛",
     "kana": "いたいちゅうのさん",
     "q": "itaichuunosan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "00f284e0-382c-458a-b549-bbaf280f951b"
   },
   {
     "disp": "異体同心",
     "kana": "いたいどうしん",
     "q": "itaidoushin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d9376a0c-47e6-4bb1-904d-70f9c1b94cc0"
   },
   {
     "disp": "衣帯不解",
     "kana": "いたいふかい",
     "q": "itaifukai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "19abbe5d-03de-4756-a84e-d9b5cb64d94b"
   },
   {
     "disp": "一意専心",
     "kana": "いちいせんしん",
     "q": "ichiisenshin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "e3210f6a-4002-41e4-8715-c9b568a55d2a"
   },
   {
     "disp": "一衣帯水",
     "kana": "いちいたいすい",
     "q": "ichiitaisui",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "4c77b984-dd35-494e-8773-195c3f800242"
   },
   {
     "disp": "一往一来",
     "kana": "いちおういちらい",
     "q": "ichiouichirai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "86ad5706-5fe5-4ea5-bf17-d5a4c8835b18"
   },
   {
     "disp": "一牛鳴地",
     "kana": "いちぎゅうめいち",
     "q": "ichigyuumeichi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "0636f3ac-0513-4a60-898a-7d22a59d02c0"
   },
   {
     "disp": "一言一行",
     "kana": "いちげんいっこう",
     "q": "ichigennikkou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "efaba805-3dfd-43a5-81f7-bb9e5b2b22ff"
   },
   {
     "disp": "一言半句",
     "kana": "いちごんはんく",
     "q": "ichigonhanku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "e1233309-cc5f-4f0d-b2a0-546e70cc7e9f"
   },
   {
     "disp": "一新紀元",
     "kana": "いちしんきげん",
     "q": "ichishinkigen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "9068597a-3673-4f31-8268-4823e7b25170"
   },
   {
     "disp": "一字千金",
     "kana": "いちじせんきん",
     "q": "ichijisenkin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "8f9d76d5-744c-4f87-83b6-019c2fc3dcaf"
   },
   {
     "disp": "一日三秋",
     "kana": "いちじつさんしゅう",
     "q": "ichijitsusanshuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "77ad9019-0d4c-4aae-8d2b-01e34f124f47"
   },
   {
     "disp": "一日千秋",
     "kana": "いちじつせんしゅう",
     "q": "ichijitsusenshuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f985b1f5-e99d-4e51-9750-75c863c84fe8"
   },
   {
     "disp": "一字不説",
     "kana": "いちじふせつ",
     "q": "ichijifusetsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "aa5cc2b4-f19e-4bf4-8a43-cd2269299615"
   },
   {
     "disp": "一上一下",
     "kana": "いちじょういちげ",
     "q": "ichijouichige",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "0bfabc43-c9bc-4152-8d9d-849b55c0fbc4"
   },
   {
     "disp": "一場春夢",
     "kana": "いちじょうのしゅんむ",
     "q": "ichijounoshunmu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "02ef3c1a-38ef-4cc9-9a5f-b9ed61a4522a"
   },
   {
     "disp": "一時流行",
     "kana": "いちじりゅうこう",
     "q": "ichijiryuukou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d3f9d45a-e048-43df-8706-094462a9410d"
   },
   {
     "disp": "一大決心",
     "kana": "いちだいけっしん",
     "q": "ichidaikesshin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a6b9f6bb-0ee6-40f4-a901-b33b1bc1bf84"
   },
   {
     "disp": "一団和気",
     "kana": "いちだんのわき",
     "q": "ichidannowaki",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "e8fee93b-d0de-47d7-934f-b42f814f9d6c"
   },
   {
     "disp": "一日不食",
     "kana": "いちにちふしょく",
     "q": "ichinichifushoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "b3136f2e-1922-4509-be1d-2f8f0254627f"
   },
   {
     "disp": "一人当千",
     "kana": "いちにんとうせん",
     "q": "ichinintousen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "5cf4d66f-38cd-4923-950f-469279c75605"
   },
   {
     "disp": "一病息災",
     "kana": "いちびょうそくさい",
     "q": "ichibyousokusai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "e8a15f87-a40c-41c6-ba3e-db0e81377203"
   },
   {
     "disp": "一部始終",
     "kana": "いちぶしじゅう",
     "q": "ichibushijuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "b10a2f73-b3ea-486b-9769-e9dab639a74d"
   },
   {
     "disp": "一別以来",
     "kana": "いちべついらい",
     "q": "ichibetsuirai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "3ad85a9a-b0c8-4938-a385-494b1acdce61"
   },
   {
     "disp": "一望千里",
     "kana": "いちぼうせんり",
     "q": "ichibousenri",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "b625c976-5015-464e-8fc1-63774eed6931"
   },
   {
     "disp": "一木一草",
     "kana": "いちぼくいっそう",
     "q": "ichibokuissou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "279d95e4-2c9b-42f4-bca5-62c9f0e22e08"
   },
   {
     "disp": "一枚看板",
     "kana": "いちまいかんばん",
     "q": "ichimaikanban",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "1c38b9d4-7063-48e7-9ba5-2bfccebbc7a4"
   },
   {
     "disp": "一味徒党",
     "kana": "いちみととう",
     "q": "ichimitotou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "fd3fd845-45af-4358-a190-9c6d15f5b6df"
   },
   {
     "disp": "一味同心",
     "kana": "いちみどうしん",
     "q": "ichimidoushin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "caa8d88a-6e89-4a16-8c1b-8dde75e820f7"
   },
   {
     "disp": "一目十行",
     "kana": "いちもくじゅうぎょう",
     "q": "ichimokujuugyou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "1e1282d7-db6f-4a4a-875c-746f7108e917"
   },
   {
     "disp": "一問一答",
     "kana": "いちもんいっとう",
     "q": "ichimonnittou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f5f39fe2-b204-4028-8bb3-4f56e1809d3d"
   },
   {
     "disp": "一文半銭",
     "kana": "いちもんはんせん",
     "q": "ichimonhansen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "85c57b8e-1625-437e-ae05-50faf597f476"
   },
   {
     "disp": "一文不通",
     "kana": "いちもんふつう",
     "q": "ichimonfutsuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "5afb5343-b2d1-4220-97ad-82b88fa22e6d"
   },
   {
     "disp": "一夜十起",
     "kana": "いちやじっき",
     "q": "ichiyajikki",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "99179ca8-adf5-4be6-8199-ab51033af3ec"
   },
   {
     "disp": "一遊一予",
     "kana": "いちゆういちよ",
     "q": "ichiyuuichiyo",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a272ded3-9fdc-4c72-8e31-900b6f0a6dd3"
   },
   {
     "disp": "一葉知秋",
     "kana": "いちようちしゅう",
     "q": "ichiyouchishuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "394ad245-b64d-400b-a7dc-8d05c0918ee9"
   },
   {
     "disp": "一陽来復",
     "kana": "いちようらいふく",
     "q": "ichiyouraifuku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "505943fa-4aba-4119-8dcf-d5b4bab934af"
   },
   {
     "disp": "一利一害",
     "kana": "いちりいちがい",
     "q": "ichiriichigai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "31e2ce63-732f-40d7-9587-1720271c94d9"
   },
   {
     "disp": "一路順風",
     "kana": "いちろじゅんぷう",
     "q": "ichirojunpuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a56a176a-52a5-4291-8bce-bf854034a3c5"
   },
   {
     "disp": "一路平安",
     "kana": "いちろへいあん",
     "q": "ichiroheian",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "2f336298-6d12-453b-957c-ce0bf607c45d"
   },
   {
     "disp": "一挙一動",
     "kana": "いっきょいちどう",
     "q": "ikkyoichidou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "af4d2521-340a-44d1-8477-d7716caa1f01"
   },
   {
     "disp": "一挙両失",
     "kana": "いっきょりょうしつ",
     "q": "ikkyoryoushitsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d1cc717b-99d6-4382-8982-0c74cfd23715"
   },
   {
     "disp": "一挙両得",
     "kana": "いっきょりょうとく",
     "q": "ikkyoryoutoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d61bf8fc-8c2e-4dc4-a66f-f6010dcf7083"
   },
   {
     "disp": "一件落着",
     "kana": "いっけんらくちゃく",
     "q": "ikkenrakuchaku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c76562b0-4816-46af-87bc-8750e3f32ad9"
   },
   {
     "disp": "一刻千金",
     "kana": "いっこくせんきん",
     "q": "ikkokusenkin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c5486af8-2fc5-4a68-8a95-e0dc6ffc4566"
   },
   {
     "disp": "一死七生",
     "kana": "いっししちしょう",
     "q": "isshishichishou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "85fe285f-cd89-481c-9002-0063b54aaa92"
   },
   {
     "disp": "一子相伝",
     "kana": "いっしそうでん",
     "q": "isshisouden",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ba95d6cf-5534-4e3b-bb9b-53aa45535d98"
   },
   {
     "disp": "一視同仁",
     "kana": "いっしどうじん",
     "q": "isshidoujin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "b3b1b434-2d32-4265-acbb-ac43927d2a6f"
   },
   {
     "disp": "一紙半銭",
     "kana": "いっしはんせん",
     "q": "isshihansen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "14a6f633-d1a5-4f34-8e34-33de1cb75dfd"
   },
   {
     "disp": "一死報国",
     "kana": "いっしほうこく",
     "q": "isshihoukoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "048c15b6-602f-442b-9989-94ef6e4dc3fc"
   },
   {
     "disp": "一宿一飯",
     "kana": "いっしゅくいっぱん",
     "q": "isshukuippan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "49cd2402-0f05-4b2d-860d-1fea89596c68"
   },
   {
     "disp": "一進一退",
     "kana": "いっしんいったい",
     "q": "isshinnittai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f171eed9-f617-4489-970e-6627ed89e305"
   },
   {
     "disp": "一心同体",
     "kana": "いっしんどうたい",
     "q": "isshindoutai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "4c8262e0-ea68-49f6-92de-a6e4a03c6cec"
   },
   {
     "disp": "一心不乱",
     "kana": "いっしんふらん",
     "q": "isshinfuran",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "13641597-0610-4697-bb2a-d255f5e964e2"
   },
   {
     "disp": "一世一代",
     "kana": "いっせいちだい",
     "q": "isseichidai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "96fb4dd0-04e0-44dc-b9e8-5f10b958e9b8"
   },
   {
     "disp": "一石二鳥",
     "kana": "いっせきにちょう",
     "q": "issekinichou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "be0336a8-fff3-4f02-81a3-072cfe88cbc4"
   },
   {
     "disp": "一体分身",
     "kana": "いったいぶんしん",
     "q": "ittaibunshin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f58648bc-5640-4c32-be5d-8e8f3409a152"
   },
   {
     "disp": "一長一短",
     "kana": "いっちょういったん",
     "q": "icchouittan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "586edfd4-e3e6-485a-94a8-e84fd9e4e5b7"
   },
   {
     "disp": "一治一乱",
     "kana": "いっちいちらん",
     "q": "icchiichiran",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d061a92d-1ac2-4770-a77b-abe640e7939b"
   },
   {
     "disp": "一知半解",
     "kana": "いっちはんかい",
     "q": "icchihankai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "56e1e589-d28b-468a-ab1e-ee5a93b65fdf"
   },
   {
     "disp": "一点一画",
     "kana": "いってんいっかく",
     "q": "ittennikkaku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "cc5f8018-369b-4ee8-86c1-936176e75648"
   },
   {
     "disp": "一天四海",
     "kana": "いってんしかい",
     "q": "ittenshikai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "061da24f-0902-4eb7-a349-dadc9a9d8be7"
   },
   {
     "disp": "一刀両断",
     "kana": "いっとうりょうだん",
     "q": "ittouryoudan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "b805e17e-1e27-4a89-a100-8e72a7add42d"
   },
   {
     "disp": "一得一失",
     "kana": "いっとくいっしつ",
     "q": "ittokuisshitsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d41b39e7-8872-4cae-9a11-e37a32778c35"
   },
   {
     "disp": "一徳一心",
     "kana": "いっとくいっしん",
     "q": "ittokuisshin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "8977a390-5719-47ca-b559-4993a5f1c8be"
   },
   {
     "disp": "一飯千金",
     "kana": "いっぱんせんきん",
     "q": "ippansenkin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "85cf2575-beb0-45fa-8f3a-34189196a017"
   },
   {
     "disp": "以毒制毒",
     "kana": "いどくせいどく",
     "q": "idokuseidoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "b0b67735-0247-4e5a-b6dd-89e427f34021"
   },
   {
     "disp": "意味深長",
     "kana": "いみしんちょう",
     "q": "imishinchou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a8b8712b-6a27-43ae-b6bc-b61ef5bc7ece"
   },
   {
     "disp": "異類中行",
     "kana": "いるいちゅうぎょう",
     "q": "iruichuugyou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "33f5ca18-7c77-4042-90f0-afeb5003f5d3"
   },
   {
     "disp": "異路同帰",
     "kana": "いろどうき",
     "q": "irodouki",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f97e8ce1-921f-44e6-ba8d-15fe588138f6"
   },
   {
     "disp": "飲河満腹",
     "kana": "いんかまんぷく",
     "q": "inkamanpuku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "7c1f3583-8991-4bb0-8e7e-c239ac384646"
   },
   {
     "disp": "因果応報",
     "kana": "いんがおうほう",
     "q": "ingaouhou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "bd8a2e45-329b-4bc1-90df-f4887e417191"
   },
   {
     "disp": "因機説法",
     "kana": "いんきせっぽう",
     "q": "inkiseppou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ef10ed8f-50c2-443c-aaed-fe0febfed736"
   },
   {
     "disp": "因小失大",
     "kana": "いんしょうしつだい",
     "q": "inshoushitsudai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "acf40c5d-5ffc-4ef0-a87e-1a5f06a8c22a"
   },
   {
     "disp": "印象批評",
     "kana": "いんしょうひひょう",
     "q": "inshouhihyou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "fd7d3551-b038-43ba-b904-598d498be412"
   },
   {
     "disp": "飲水思源",
     "kana": "いんすいしげん",
     "q": "insuishigen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f16b0065-3530-4725-bbdf-3f5655af57c4"
   },
   {
     "disp": "右往左往",
     "kana": "うおうさおう",
     "q": "uousaou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f50c7ef7-5cf2-4277-8aae-3888365427a9"
   },
   {
     "disp": "雨過天晴",
     "kana": "うかてんせい",
     "q": "ukatensei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f25a70ea-7c41-4976-b5de-522b9ca448cc"
   },
   {
     "disp": "海千山千",
     "kana": "うみせんやません",
     "q": "umisennyamasen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "6cae2036-9245-4779-97b0-5bab026bd2ba"
   },
   {
     "disp": "雲心月性",
     "kana": "うんしんげっせい",
     "q": "unshingessei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ab0377bd-92c5-41a1-848d-3144a3caa983"
   },
   {
     "disp": "永字八法",
     "kana": "えいじはっぽう",
     "q": "eijihappou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "242f9e4b-c836-4fcf-89e9-e577465f4ffe"
   },
   {
     "disp": "益者三友",
     "kana": "えきしゃさんゆう",
     "q": "ekishasannyuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ecae1e6a-1915-46ee-8139-e93c3de38162"
   },
   {
     "disp": "得手勝手",
     "kana": "えてかって",
     "q": "etekatte",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "05d323f6-828b-4932-a47d-26375fc8552d"
   },
   {
     "disp": "円頭方足",
     "kana": "えんとうほうそく",
     "q": "entouhousoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "eadfdfeb-43e5-47b7-82cf-a7f57d087df8"
   },
   {
     "disp": "遠水近火",
     "kana": "えんすいきんか",
     "q": "ensuikinka",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a970c021-588a-480b-a61d-fc248b1e63be"
   },
   {
     "disp": "円頂黒衣",
     "kana": "えんちょうこくい",
     "q": "enchoukokui",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "dc19b158-3a1a-4aa2-a28d-fcc50664c39b"
   },
   {
     "disp": "円満具足",
     "kana": "えんまんぐそく",
     "q": "enmangusoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "7059d551-a4a7-4503-954a-0a70f0eb7076"
   },
   {
     "disp": "延命息災",
     "kana": "えんめいそくさい",
     "q": "enmeisokusai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "fef9e820-8502-4852-985c-2208590d4f5f"
   },
   {
     "disp": "応機接物",
     "kana": "おうきせつもつ",
     "q": "oukisetsumotsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "1eebe462-dba4-45e6-9c37-660be9d1e399"
   },
   {
     "disp": "往古来今",
     "kana": "おうこらいこん",
     "q": "oukoraikon",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "12cfb7d1-f156-4b72-8800-6d1fcdea8558"
   },
   {
     "disp": "王道楽土",
     "kana": "おうどうらくど",
     "q": "oudourakudo",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "6c2492d5-dd5c-405b-8094-78c5dcd9f12e"
   },
   {
     "disp": "温故知新",
     "kana": "おんこちしん",
     "q": "onkochishin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "55a132c8-18b8-4585-8946-3c33873a6a8d"
   },
   {
     "disp": "音信不通",
     "kana": "おんしんふつう",
     "q": "onshinfutsuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "78884589-55e6-4b7b-90f9-0c17576fa73e"
   },
   {
     "disp": "解衣推食",
     "kana": "かいいすいしょく",
     "q": "kaiisuishoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "9cf11e18-6aac-41b8-af16-e298232b8390"
   },
   {
     "disp": "改過自新",
     "kana": "かいかじしん",
     "q": "kaikajishin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "6b8787fa-ccda-4c36-b245-fc69b37768fd"
   },
   {
     "disp": "開巻有益",
     "kana": "かいかんゆうえき",
     "q": "kaikannyuueki",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "bcb02471-baf9-4e27-8e9e-5870cc67efc0"
   },
   {
     "disp": "開心見誠",
     "kana": "かいしんけんせい",
     "q": "kaishinkensei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "008c6cdf-7de8-4b67-b801-c1ebb13ec15c"
   },
   {
     "disp": "下意上達",
     "kana": "かいじょうたつ",
     "q": "kaijoutatsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "3c2896bb-16ac-4584-bcae-5ac383875dde"
   },
   {
     "disp": "起死回生",
     "kana": "きしかいせい",
     "q": "kishikaisei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "6cc58630-ea36-47f8-a8da-3bcd0ce80a88"
   },
   {
     "disp": "回天事業",
     "kana": "かいてんじぎょう",
     "q": "kaitenjigyou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "714b6b65-ed65-41a7-88f2-3d048cec8803"
   },
   {
     "disp": "開物成務",
     "kana": "かいぶつせいむ",
     "q": "kaibutsuseimu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f36442f0-f63e-4ad8-bf7b-ad047c2c16c4"
   },
   {
     "disp": "夏下冬上",
     "kana": "かかとうじょう",
     "q": "kakatoujou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "061836dd-ae5c-406b-9c47-eb4662d61d8b"
   },
   {
     "disp": "下学上達",
     "kana": "かがくじょうたつ",
     "q": "kagakujoutatsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "996249bd-1d8f-4cca-9a34-74fd5d23727d"
   },
   {
     "disp": "家給人足",
     "kana": "かきゅうじんそく",
     "q": "kakyuujinsoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "1c080438-c2cc-4ae4-afb9-72015421f7a5"
   },
   {
     "disp": "科挙圧巻",
     "kana": "かきょあっかん",
     "q": "kakyoakkan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "2a36dd3c-7bc8-40c8-baa7-ac668bf69213"
   },
   {
     "disp": "夏虫疑氷",
     "kana": "かちゅうぎひょう",
     "q": "kachuugihyou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "e828c71f-19f7-49b6-a322-1e4267d9280a"
   },
   {
     "disp": "花鳥風月",
     "kana": "かちょうふうげつ",
     "q": "kachoufuugetsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "940a785d-651e-48a8-9deb-ca83519397e8"
   },
   {
     "disp": "活殺自在",
     "kana": "かっさつじざい",
     "q": "kassatsujizai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a0f965a6-c018-42a0-9298-4f4ce4b8a1e3"
   },
   {
     "disp": "観感興起",
     "kana": "かんかんこうき",
     "q": "kankankouki",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "919d5d29-03b7-4349-9f13-da496378b422"
   },
   {
     "disp": "官官接待",
     "kana": "かんかんせったい",
     "q": "kankansettai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c76623e2-e1bf-4c5f-8cd7-b6d2c86ff601"
   },
   {
     "disp": "完全無欠",
     "kana": "かんぜんむけつ",
     "q": "kanzenmuketsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "125de9e6-b7d3-47cc-a81e-a8591c87bdb0"
   },
   {
     "disp": "感奮興起",
     "kana": "かんぷんこうき",
     "q": "kanpunkouki",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "5361caae-27b5-4f98-a33f-9a4731a3c81e"
   },
   {
     "disp": "外交辞令",
     "kana": "がいこうじれい",
     "q": "gaikoujirei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "38274430-9549-4c45-bcd8-73bd0e3b3279"
   },
   {
     "disp": "学知利行",
     "kana": "がくちりこう",
     "q": "gakuchirikou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "4b2b32d7-82f5-4f6f-bba5-002212edd5e2"
   },
   {
     "disp": "眼光紙背",
     "kana": "がんこうしはい",
     "q": "gankoushihai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ea69292e-2172-4605-87f1-990d1dd79058"
   },
   {
     "disp": "眼高手低",
     "kana": "がんこうしゅてい",
     "q": "gankoushutei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "130c4c56-3bb9-4edd-9497-4d45ed1aedb6"
   },
   {
     "disp": "顔常山舌",
     "kana": "がんじょうざんのした",
     "q": "ganjouzannoshita",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "6c9456ae-d492-4f41-bf65-b122a64ab5c3"
   },
   {
     "disp": "危急存亡",
     "kana": "ききゅうそんぼう",
     "q": "kikyuusonbou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "bff19baa-ad50-4bc0-8fe5-8afbd1325ce1"
   },
   {
     "disp": "危言危行",
     "kana": "きげんきこう",
     "q": "kigenkikou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "77e242ca-650e-4903-89e0-5e2aacef2ae7"
   },
   {
     "disp": "起承転結",
     "kana": "きしょうてんけつ",
     "q": "kishoutenketsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ad3a3b22-3cd3-4309-8795-8ed6ba2eae54"
   },
   {
     "disp": "喜色満面",
     "kana": "きしょくまんめん",
     "q": "kishokumanmen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "205c9bea-2c88-4d38-8a2b-4c30f0a5caf6"
   },
   {
     "disp": "帰馬放牛",
     "kana": "きばほうぎゅう",
     "q": "kibahougyuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "3bed4e73-b97d-4d3a-a09c-c43a422a0233"
   },
   {
     "disp": "旧雨今雨",
     "kana": "きゅううこんう",
     "q": "kyuuukonnu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "02619e2a-73a9-46c8-a46b-b7609b8fdfcc"
   },
   {
     "disp": "九牛一毛",
     "kana": "きゅうぎゅうのいちもう",
     "q": "kyuugyuunoichimou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "727903a2-fe42-446c-951f-dfde61476321"
   },
   {
     "disp": "九死一生",
     "kana": "きゅうしいっしょう",
     "q": "kyuushiisshou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "9aef9541-a405-46d9-9741-1cc4f45ac6c0"
   },
   {
     "disp": "救世済民",
     "kana": "きゅうせいさいみん",
     "q": "kyuuseisaimin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "73136314-9b4b-48b0-8ca1-d833466d1439"
   },
   {
     "disp": "九腸寸断",
     "kana": "きゅうちょうすんだん",
     "q": "kyuuchousundan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "178fbd06-4e52-40d7-8266-9a0b081c5cac"
   },
   {
     "disp": "急転直下",
     "kana": "きゅうてんちょっか",
     "q": "kyuutenchokka",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "fc32a0c9-5ef5-4db2-9886-06f115451a0e"
   },
   {
     "disp": "急流勇退",
     "kana": "きゅうりゅうゆうたい",
     "q": "kyuuryuuyuutai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "66ae3ed8-c2a4-43f0-9630-5ffa4b76af10"
   },
   {
     "disp": "強悪強善",
     "kana": "きょうあくきょうぜん",
     "q": "kyouakukyouzen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "34c3f096-6d1a-49fb-b3ec-fb96232417f8"
   },
   {
     "disp": "鏡花水月",
     "kana": "きょうかすいげつ",
     "q": "kyoukasuigetsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "b13ec4cf-907c-4baf-8330-634762ec7cb1"
   },
   {
     "disp": "教外別伝",
     "kana": "きょうげべつでん",
     "q": "kyougebetsuden",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "888dfe3a-0796-46b3-b0ec-f635d8ef201c"
   },
   {
     "disp": "弱肉強食",
     "kana": "じゃくにくきょうしょく",
     "q": "jakunikukyoushoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "68911247-23c0-44ac-9fa5-95517469a410"
   },
   {
     "disp": "共存共栄",
     "kana": "きょうぞんきょうえい",
     "q": "kyouzonkyouei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "12df5901-e251-4701-9dc7-9ecdafa9e3a3"
   },
   {
     "disp": "胸中成竹",
     "kana": "きょうちゅうのせいちく",
     "q": "kyouchuunoseichiku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f68a9d44-f49c-45fd-af67-29b93c8d6ae0"
   },
   {
     "disp": "挙止進退",
     "kana": "きょししんたい",
     "q": "kyoshishintai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ea5c018f-3ad0-4c40-adc8-894d893052e0"
   },
   {
     "disp": "挙足軽重",
     "kana": "きょそくけいちょう",
     "q": "kyosokukeichou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "cc918402-c004-4cc9-b9d2-85473d77ba7e"
   },
   {
     "disp": "機略縦横",
     "kana": "きりゃくじゅうおう",
     "q": "kiryakujuuou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "fcfebde3-ab3c-4731-acf5-a47c6f6be6bc"
   },
   {
     "disp": "金科玉条",
     "kana": "きんかぎょくじょう",
     "q": "kinkagyokujou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "4b4591c8-b277-4beb-8c0b-563922e7837c"
   },
   {
     "disp": "金玉満堂",
     "kana": "きんぎょくまんどう",
     "q": "kingyokumandou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "5aa01821-4bf9-4048-84e9-da86990ca098"
   },
   {
     "disp": "疑事無功",
     "kana": "ぎじむこう",
     "q": "gijimukou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a42edfc2-ad97-4be5-9530-ed09a6b5d857"
   },
   {
     "disp": "逆取順守",
     "kana": "ぎゃくしゅじゅんしゅ",
     "q": "gyakushujunshu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c838fa72-69ef-47c7-a482-5c0d52bb8233"
   },
   {
     "disp": "牛飲馬食",
     "kana": "ぎゅういんばしょく",
     "q": "gyuuinbashoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "5e884ea9-0a98-4c90-91c1-4a6b6373f1cf"
   },
   {
     "disp": "議論百出",
     "kana": "ぎろんひゃくしゅつ",
     "q": "gironhyakushutsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "8c0f244f-cab9-4eda-b9c4-39b44391a824"
   },
   {
     "disp": "空前絶後",
     "kana": "くうぜんぜつご",
     "q": "kuuzenzetsugo",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ff493395-8120-46f4-a358-ff71ac547840"
   },
   {
     "disp": "空理空論",
     "kana": "くうりくうろん",
     "q": "kuurikuuron",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "9ca456ea-4d10-4dab-bd57-d56b8d0d2d71"
   },
   {
     "disp": "苦学力行",
     "kana": "くがくりっこう",
     "q": "kugakurikkou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "4abf6f18-ccf1-4b62-9562-d8ee19b7142c"
   },
   {
     "disp": "君子九思",
     "kana": "くんしのきゅうし",
     "q": "kunshinokyuushi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "8bae53c3-0a09-4019-bbb8-93febcab64b7"
   },
   {
     "disp": "君子三楽",
     "kana": "くんしのさんらく",
     "q": "kunshinosanraku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "44fe8188-5843-47fc-b89d-a8c9a510d6cd"
   },
   {
     "disp": "君子不器",
     "kana": "くんしふき",
     "q": "kunshifuki",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "09699158-3590-462f-a405-d3132ca91f86"
   },
   {
     "disp": "群疑満腹",
     "kana": "ぐんぎまんぷく",
     "q": "gungimanpuku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ca05bd6c-ce44-42c2-96ca-bbd8e5b501a0"
   },
   {
     "disp": "経世済民",
     "kana": "けいせいさいみん",
     "q": "keiseisaimin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "4ed91380-c582-4bb3-b650-0ea611dea8e2"
   },
   {
     "disp": "敬天愛人",
     "kana": "けいてんあいじん",
     "q": "keitennaijin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "8840e6ee-4827-443d-8dfb-73608f1d04e5"
   },
   {
     "disp": "形名参同",
     "kana": "けいめいさんどう",
     "q": "keimeisandou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "7bef417e-81df-4f17-8284-cc7132cd368e"
   },
   {
     "disp": "月下氷人",
     "kana": "げっかひょうじん",
     "q": "gekkahyoujin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "6efe335d-84bb-41d7-9c82-332b60748c57"
   },
   {
     "disp": "言易行難",
     "kana": "げんいこうなん",
     "q": "gennikounan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "0ddb0bf9-5ca1-4fb8-b054-4a8bc070b6b5"
   },
   {
     "disp": "言者不知",
     "kana": "げんしゃふち",
     "q": "genshafuchi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "71c126a9-1df8-471a-97cb-ef7a7e09942b"
   },
   {
     "disp": "減収減益",
     "kana": "げんしゅうげんえき",
     "q": "genshuugenneki",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "bed63df2-6036-49c9-bfe0-d0b1dedccf6b"
   },
   {
     "disp": "厳正中立",
     "kana": "げんせいちゅうりつ",
     "q": "genseichuuritsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "38f9f6ea-ef8c-48f0-a752-b1f6c8da30a2"
   },
   {
     "disp": "行雲流水",
     "kana": "こううんりゅうすい",
     "q": "kouunryuusui",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c477e200-b587-480e-bdbb-f25b9574021f"
   },
   {
     "disp": "高下在心",
     "kana": "こうげざいしん",
     "q": "kougezaishin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a1176692-17be-4c72-a452-bd5e7e4faba0"
   },
   {
     "disp": "高山景行",
     "kana": "こうざんけいこう",
     "q": "kouzankeikou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "7ca31e5f-cf99-4bb6-8479-8635433f0870"
   },
   {
     "disp": "高山流水",
     "kana": "こうざんりゅうすい",
     "q": "kouzanryuusui",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "e458c729-63cc-4d45-b317-51d603959f6a"
   },
   {
     "disp": "交頭接耳",
     "kana": "こうとうせつじ",
     "q": "koutousetsuji",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "dcd8d1c5-1801-46ca-9bb9-b0f3b35a60c3"
   },
   {
     "disp": "紅灯緑酒",
     "kana": "こうとうりょくしゅ",
     "q": "koutouryokushu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "9f5b2d6c-e712-4052-8f68-1ed2ceb4802c"
   },
   {
     "disp": "皇統連綿",
     "kana": "こうとうれんめん",
     "q": "koutourenmen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "0aa2ee98-2b76-4907-95d8-236fc87e4689"
   },
   {
     "disp": "公平無私",
     "kana": "こうへいむし",
     "q": "kouheimushi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "6afdb5ea-6948-4779-8390-2bbcbd47ebc1"
   },
   {
     "disp": "公明正大",
     "kana": "こうめいせいだい",
     "q": "koumeiseidai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "9766b4af-9c85-4cc3-a526-a16824e3ee2e"
   },
   {
     "disp": "高陽酒徒",
     "kana": "こうようのしゅと",
     "q": "kouyounoshuto",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "1de3e5c2-2599-4277-81ff-40b67ad54e34"
   },
   {
     "disp": "古往今来",
     "kana": "こおうこんらい",
     "q": "kooukonrai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "8846c778-3059-48e5-afba-929e30470d41"
   },
   {
     "disp": "呼牛呼馬",
     "kana": "こぎゅうこば",
     "q": "kogyuukoba",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "7fb511dc-cd01-40c0-90d7-dab3c2ee03e0"
   },
   {
     "disp": "黒風白雨",
     "kana": "こくふうはくう",
     "q": "kokufuuhakuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "625c7c0b-42be-4760-85e2-8cac4b66b846"
   },
   {
     "disp": "国利民福",
     "kana": "こくりみんぷく",
     "q": "kokuriminpuku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "cb6a75e9-a385-4324-8eb6-84443542a683"
   },
   {
     "disp": "古今東西",
     "kana": "ここんとうざい",
     "q": "kokontouzai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "4652dbed-19cd-43b4-9759-994a3fc7c3dc"
   },
   {
     "disp": "古今独歩",
     "kana": "ここんどっぽ",
     "q": "kokondoppo",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d0348bff-5ed8-490c-a9ab-a296a9b5e704"
   },
   {
     "disp": "故事来歴",
     "kana": "こじらいれき",
     "q": "kojiraireki",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "5880115d-40d1-434a-b7c8-9e2b21201827"
   },
   {
     "disp": "骨肉相食",
     "kana": "こつにくそうしょく",
     "q": "kotsunikusoushoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f21bce5f-b626-4cbb-9831-cf08bb866500"
   },
   {
     "disp": "困知勉行",
     "kana": "こんちべんこう",
     "q": "konchibenkou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ae92315b-5f4a-45c9-b23a-6d77ea0bad8a"
   },
   {
     "disp": "後生大事",
     "kana": "ごしょうだいじ",
     "q": "goshoudaiji",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "16b8f0bd-b1a3-4edc-8e13-00cbdfbebeb7"
   },
   {
     "disp": "五十知命",
     "kana": "ごじゅうちめい",
     "q": "gojuuchimei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "7c1963ce-2f77-40cb-b269-2a13e89c2d52"
   },
   {
     "disp": "五体投地",
     "kana": "ごたいとうち",
     "q": "gotaitouchi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "e9555218-35f4-46b9-94c8-c9f48f0ec0cf"
   },
   {
     "disp": "五風十雨",
     "kana": "ごふうじゅうう",
     "q": "gofuujuuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "071bd819-43f1-44b1-ab50-20e0825ed751"
   },
   {
     "disp": "言語道断",
     "kana": "ごんごどうだん",
     "q": "gongodoudan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "60c0419e-6d81-4c42-b82c-80cc2ea635f6"
   },
   {
     "disp": "再三再四",
     "kana": "さいさんさいし",
     "q": "saisansaishi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c5551b09-f6b1-4c78-b123-c12f776c678e"
   },
   {
     "disp": "才子多病",
     "kana": "さいしたびょう",
     "q": "saishitabyou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "990e6ce9-1476-4c44-8407-43d36d0f7d7c"
   },
   {
     "disp": "裁断批評",
     "kana": "さいだんひひょう",
     "q": "saidanhihyou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d7d134e6-d34a-4a36-a8ed-24e5e473dc4d"
   },
   {
     "disp": "採長補短",
     "kana": "さいちょうほたん",
     "q": "saichouhotan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "304c0810-0d77-4897-8d01-455265173e72"
   },
   {
     "disp": "作史三長",
     "kana": "さくしのさんちょう",
     "q": "sakushinosanchou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "3c523ae0-bfe1-4f9c-a9b8-92b0efc7598b"
   },
   {
     "disp": "作文三上",
     "kana": "さくぶんさんじょう",
     "q": "sakubunsanjou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c78bdf5b-0d38-4b42-9f0c-f8a9f2460c32"
   },
   {
     "disp": "左建外易",
     "kana": "さけんがいえき",
     "q": "sakengaieki",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c192f1e0-0721-485d-a02b-6813b980409f"
   },
   {
     "disp": "察言観色",
     "kana": "さつげんかんしき",
     "q": "satsugenkanshiki",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "154680fa-82aa-4229-aa59-986545d3ee12"
   },
   {
     "disp": "三寒四温",
     "kana": "さんかんしおん",
     "q": "sankanshion",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "06be9627-3958-4c2c-bca4-4d43b5a61db2"
   },
   {
     "disp": "三界無安",
     "kana": "さんがいむあん",
     "q": "sangaimuan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "81f3d98a-c611-4f83-acb1-e19e542c2944"
   },
   {
     "disp": "山高水長",
     "kana": "さんこうすいちょう",
     "q": "sankousuichou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "1d40ecbf-73cf-4a4d-8ae0-6756431841f8"
   },
   {
     "disp": "三三五五",
     "kana": "さんさんごご",
     "q": "sansangogo",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "fef41510-f8a1-4fe9-9c80-bee7968bad9e"
   },
   {
     "disp": "三思後行",
     "kana": "さんしこうこう",
     "q": "sanshikoukou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d4c68462-9f00-4a5a-aa3c-bdb7c3e3deef"
   },
   {
     "disp": "三者三様",
     "kana": "さんしゃさんよう",
     "q": "sanshasannyou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "4c949905-1647-4f96-8729-6e70938a4f35"
   },
   {
     "disp": "三種神器",
     "kana": "さんしゅのじんぎ",
     "q": "sanshunojingi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "dd03dfa4-6c3c-456e-868b-876c97a2213f"
   },
   {
     "disp": "三尺秋水",
     "kana": "さんじゃくしゅうすい",
     "q": "sanjakushuusui",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "70135c02-a08b-45cb-99ae-debb94a66b84"
   },
   {
     "disp": "三十六計",
     "kana": "さんじゅうろっけい",
     "q": "sanjuurokkei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f2b3f1c2-ebb2-45b2-8dc4-3e9399c9bebb"
   },
   {
     "disp": "三寸不律",
     "kana": "さんずんふりつ",
     "q": "sanzunfuritsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "79dc6f86-1733-423f-9a37-252ab8f13f78"
   },
   {
     "disp": "三聖吸酸",
     "kana": "さんせいきゅうさん",
     "q": "sanseikyuusan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "5b3ec6c7-9d31-4da6-b738-56a3e54a1871"
   },
   {
     "disp": "三千世界",
     "kana": "さんぜんせかい",
     "q": "sanzensekai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "9b725ddd-6c4c-4caf-8fe9-499cf5c02b42"
   },
   {
     "disp": "三拝九拝",
     "kana": "さんぱいきゅうはい",
     "q": "sanpaikyuuhai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c89deade-d1a3-49c3-8dda-b5a33eb3bdcd"
   },
   {
     "disp": "三百代言",
     "kana": "さんびゃくだいげん",
     "q": "sanbyakudaigen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "efc96b81-b5d7-4b69-83c2-57b5def3927f"
   },
   {
     "disp": "散文精神",
     "kana": "さんぶんせいしん",
     "q": "sanbunseishin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "502dd138-196d-41bb-ae97-fa76e9e570ec"
   },
   {
     "disp": "三平二満",
     "kana": "さんぺいじまん",
     "q": "sanpeijiman",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d088b885-d82d-4a02-8d75-1712159cc574"
   },
   {
     "disp": "三位一体",
     "kana": "さんみいったい",
     "q": "sanmiittai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d23ef316-6a0c-40b6-8d57-09cd992546b8"
   },
   {
     "disp": "山容水態",
     "kana": "さんようすいたい",
     "q": "sannyousuitai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "93d500e9-bf13-4313-bc4b-e1125291ba4a"
   },
   {
     "disp": "在在所所",
     "kana": "ざいざいしょしょ",
     "q": "zaizaishosho",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c6db919d-0b56-4039-b8a2-f16c1b299e72"
   },
   {
     "disp": "残念無念",
     "kana": "ざんねんむねん",
     "q": "zannenmunen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "1239a011-f1ca-4a65-8075-b1e75e553c68"
   },
   {
     "disp": "断編残簡",
     "kana": "だんぺんざんかん",
     "q": "danpenzankan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "35f6470f-4c39-4eda-9d24-80af978d8a4a"
   },
   {
     "disp": "思案投首",
     "kana": "しあんなげくび",
     "q": "shiannagekubi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "e7058e46-1d3b-458b-ae85-dbe0bc237bd5"
   },
   {
     "disp": "四苦八苦",
     "kana": "しくはっく",
     "q": "shikuhakku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c083c859-b25e-4e02-b02e-1ea4dfabc77b"
   },
   {
     "disp": "子見南子",
     "kana": "しけんなんし",
     "q": "shikennanshi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "551c5954-21a1-4227-ba4f-63c43998c437"
   },
   {
     "disp": "至公至平",
     "kana": "しこうしへい",
     "q": "shikoushihei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "747cf3d7-06e5-4b5f-b69b-b0da627e9098"
   },
   {
     "disp": "志士仁人",
     "kana": "ししじんじん",
     "q": "shishijinjin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "cb60cb71-4920-4637-8c9b-22c4f84f27ce"
   },
   {
     "disp": "師資相承",
     "kana": "ししそうしょう",
     "q": "shishisoushou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ed1d63d2-a9fd-4578-90bf-86582c0a8824"
   },
   {
     "disp": "子子孫孫",
     "kana": "ししそんそん",
     "q": "shishisonson",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c40e51c7-0cce-4dd6-8faa-76d3bd08f8cf"
   },
   {
     "disp": "紙上談兵",
     "kana": "しじょうだんぺい",
     "q": "shijoudanpei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "8d3f1a12-4f8a-4fd0-a979-084e96081ac8"
   },
   {
     "disp": "四神相応",
     "kana": "しじんそうおう",
     "q": "shijinsouou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "5cb664f3-302f-4a50-83a4-a0bf4f5a497b"
   },
   {
     "disp": "死生有命",
     "kana": "しせいゆうめい",
     "q": "shiseiyuumei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "17012b5c-bf8b-41ad-b91e-15a09449bfbb"
   },
   {
     "disp": "舌先三寸",
     "kana": "したさきさんずん",
     "q": "shitasakisanzun",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "2e1b0466-3ea1-445a-a1d6-e37fe609dac2"
   },
   {
     "disp": "七転八起",
     "kana": "しちてんはっき",
     "q": "shichitenhakki",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "1f2c6dea-1dc6-465e-b8ee-d80f5cb33fec"
   },
   {
     "disp": "七難八苦",
     "kana": "しちなんはっく",
     "q": "shichinanhakku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "79cf390d-4f20-49dc-8871-f2b34f365b1d"
   },
   {
     "disp": "死中求活",
     "kana": "しちゅうきゅうかつ",
     "q": "shichuukyuukatsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "9c227714-4282-4da2-ab8e-8591066ad177"
   },
   {
     "disp": "七里結界",
     "kana": "しちりけっかい",
     "q": "shichirikekkai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "4287c525-9faa-4953-937b-5ece99737e1a"
   },
   {
     "disp": "四通八達",
     "kana": "しつうはったつ",
     "q": "shitsuuhattatsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "dbb7128a-feb8-44c3-95d7-8dff73d5e606"
   },
   {
     "disp": "質疑応答",
     "kana": "しつぎおうとう",
     "q": "shitsugioutou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "cf4cff4c-d6ef-4c38-badb-931b1ac22c1a"
   },
   {
     "disp": "士農工商",
     "kana": "しのうこうしょう",
     "q": "shinoukoushou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "9b5c6e23-8682-4234-990d-8d54f5086254"
   },
   {
     "disp": "四百四病",
     "kana": "しひゃくしびょう",
     "q": "shihyakushibyou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "70a1487d-5ead-4bbf-990d-d9e42d8f11fe"
   },
   {
     "disp": "四門遊観",
     "kana": "しもんゆうかん",
     "q": "shimonnyuukan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "7dcc3fe0-47ad-47cc-a9dd-afb5cf253058"
   },
   {
     "disp": "舎近求遠",
     "kana": "しゃきんきゅうえん",
     "q": "shakinkyuuen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "9773616f-75a4-4367-8d9a-b32040924700"
   },
   {
     "disp": "射将先馬",
     "kana": "しゃしょうせんば",
     "q": "shashousenba",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "2357bcc6-04d6-404c-bcee-6a12e6843f82"
   },
   {
     "disp": "舎短取長",
     "kana": "しゃたんしゅちょう",
     "q": "shatanshuchou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "7bdc092c-bc46-4eef-805b-3a7fb0a7a36e"
   },
   {
     "disp": "衆議一決",
     "kana": "しゅうぎいっけつ",
     "q": "shuugiikketsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "1bb8650d-3320-458a-b897-8d823d3b0c71"
   },
   {
     "disp": "秋高馬肥",
     "kana": "しゅうこうばひ",
     "q": "shuukoubahi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a7fe196f-d0c8-4129-a2ca-bcde8f867d99"
   },
   {
     "disp": "修己治人",
     "kana": "しゅうこちじん",
     "q": "shuukochijin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "44026e3c-a758-4c33-ab5f-d5e29e561260"
   },
   {
     "disp": "縮衣節食",
     "kana": "しゅくいせっしょく",
     "q": "shukuisesshoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "77e6e80e-e58c-48c7-acf4-c76b6edae589"
   },
   {
     "disp": "縮地補天",
     "kana": "しゅくちほてん",
     "q": "shukuchihoten",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "855f45ae-c1ff-4286-936e-08f8aaff079c"
   },
   {
     "disp": "種種雑多",
     "kana": "しゅじゅざった",
     "q": "shujuzatta",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "6b977451-d651-4523-a385-d746a1a84f35"
   },
   {
     "disp": "酒池肉林",
     "kana": "しゅちにくりん",
     "q": "shuchinikurin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d1ce2c7a-f565-4c01-98bc-e6940f87325a"
   },
   {
     "disp": "出処進退",
     "kana": "しゅっしょしんたい",
     "q": "shusshoshintai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ea4731a5-4ea1-4e78-820c-756f22a75b5e"
   },
   {
     "disp": "春秋筆法",
     "kana": "しゅんじゅうのひっぽう",
     "q": "shunjuunohippou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "dbb2616d-9b2d-46b6-bbc6-dd5db050fe7e"
   },
   {
     "disp": "春和景明",
     "kana": "しゅんわけいめい",
     "q": "shunwakeimei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "50b9bfe4-6a72-43b2-8e71-4ffa7620f500"
   },
   {
     "disp": "生死事大",
     "kana": "しょうじじだい",
     "q": "shoujijidai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ab624855-3420-4b6d-abbd-6dd68e1bf207"
   },
   {
     "disp": "生生世世",
     "kana": "しょうじょうせぜ",
     "q": "shoujouseze",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "b95b8288-29f4-4d47-bb7b-a801bb98a5f4"
   },
   {
     "disp": "将門有将",
     "kana": "しょうもんゆうしょう",
     "q": "shoumonnyuushou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a550c64c-9db4-42a3-8faa-a9db82ed965b"
   },
   {
     "disp": "笑裏蔵刀",
     "kana": "しょうりぞうとう",
     "q": "shourizoutou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c98b4bb7-2766-4180-83a2-c74d83c446c6"
   },
   {
     "disp": "小利大損",
     "kana": "しょうりだいそん",
     "q": "shouridaison",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "41b62d3d-a31d-446c-ad41-7d39330f1597"
   },
   {
     "disp": "生老病死",
     "kana": "しょうろうびょうし",
     "q": "shouroubyoushi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "9fe45ff0-3330-4f9a-afca-1c47b7fe8525"
   },
   {
     "disp": "諸行無常",
     "kana": "しょぎょうむじょう",
     "q": "shogyoumujou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "2f1c4d33-80a6-4da2-b741-ffd07ca24629"
   },
   {
     "disp": "諸子百家",
     "kana": "しょしひゃっか",
     "q": "shoshihyakka",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "06c28a57-1292-48de-b0f3-08167626f999"
   },
   {
     "disp": "初転法輪",
     "kana": "しょてんぼうりん",
     "q": "shotenbourin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d5754f15-9167-40cb-a60c-ac201f387bf8"
   },
   {
     "disp": "白河夜船",
     "kana": "しらかわよふね",
     "q": "shirakawayofune",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "bbfad6f2-37e5-406b-a215-bd87fff24538"
   },
   {
     "disp": "私利私欲",
     "kana": "しりしよく",
     "q": "shirishiyoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "52241aa3-5ad4-4531-912b-8fa02006b3e7"
   },
   {
     "disp": "至理名言",
     "kana": "しりめいげん",
     "q": "shirimeigen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f371c83a-6e42-4f12-8d3e-aea8bee41734"
   },
   {
     "disp": "四六時中",
     "kana": "しろくじちゅう",
     "q": "shirokujichuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "493c5b0e-76c1-4430-a596-4dbfecfb54ba"
   },
   {
     "disp": "心機一転",
     "kana": "しんきいってん",
     "q": "shinkiitten",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "52fcdb4b-f88a-4a1d-810e-3e87b0b9d48c"
   },
   {
     "disp": "身言書判",
     "kana": "しんげんしょはん",
     "q": "shingenshohan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "bd8adc34-aee5-4729-9136-09356741c3a2"
   },
   {
     "disp": "針小棒大",
     "kana": "しんしょうぼうだい",
     "q": "shinshouboudai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "2932db35-8500-44ad-916b-f057180b4658"
   },
   {
     "disp": "真実一路",
     "kana": "しんじついちろ",
     "q": "shinjitsuichiro",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "15b0c444-44c7-46bb-bc4f-ebe31f3177f0"
   },
   {
     "disp": "真人大観",
     "kana": "しんじんたいかん",
     "q": "shinjintaikan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "0256db43-04db-4bbc-9e7b-3ca94fd73802"
   },
   {
     "disp": "深層心理",
     "kana": "しんそうしんり",
     "q": "shinsoushinri",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "02467aa6-7632-425c-acb2-7cfd82280aa6"
   },
   {
     "disp": "進退両難",
     "kana": "しんたいりょうなん",
     "q": "shintairyounan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "5d019dc9-a1f6-443f-a1bd-5b65633c5f57"
   },
   {
     "disp": "心地光明",
     "kana": "しんちこうめい",
     "q": "shinchikoumei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "98ed5df4-900d-4c69-a1c9-e1b5593652e5"
   },
   {
     "disp": "心満意足",
     "kana": "しんまんいそく",
     "q": "shinmannisoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "8c31f928-31ba-4d5b-9239-e1f11eee3299"
   },
   {
     "disp": "自画自賛",
     "kana": "じがじさん",
     "q": "jigajisan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a8d074e9-4d55-43e9-a966-f24dc09524f6"
   },
   {
     "disp": "自給自足",
     "kana": "じきゅうじそく",
     "q": "jikyuujisoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "db896ef2-d2af-46bd-be39-24edf16eb2e4"
   },
   {
     "disp": "自己暗示",
     "kana": "じこあんじ",
     "q": "jikoanji",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ad49c6c5-f06a-4808-a8fe-010406c25736"
   },
   {
     "disp": "時時刻刻",
     "kana": "じじこくこく",
     "q": "jijikokukoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "1f88aa09-9b5d-4a7c-8293-9380641fa136"
   },
   {
     "disp": "事実無根",
     "kana": "じじつむこん",
     "q": "jijitsumukon",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "b1843995-6539-4378-b431-e791166878d6"
   },
   {
     "disp": "事事物物",
     "kana": "じじぶつぶつ",
     "q": "jijibutsubutsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "330372ea-53c3-4ab5-8cf5-d88dee2cbf19"
   },
   {
     "disp": "十死一生",
     "kana": "じっしいっしょう",
     "q": "jisshiisshou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d6f7bb77-7183-4852-a8d1-7b16f1c47671"
   },
   {
     "disp": "十中八九",
     "kana": "じっちゅうはっく",
     "q": "jicchuuhakku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c159d24e-2bd7-4775-a122-c35f99691393"
   },
   {
     "disp": "十五志学",
     "kana": "じゅうごしがく",
     "q": "juugoshigaku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "172326db-30f8-4b87-beae-8c227fa7e351"
   },
   {
     "disp": "十全十美",
     "kana": "じゅうぜんじゅうび",
     "q": "juuzenjuubi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "9036e8ce-401e-45bf-b071-d1b9cff7f4e7"
   },
   {
     "disp": "十人十色",
     "kana": "じゅうにんといろ",
     "q": "juunintoiro",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "de7b8105-6ffa-45ae-aa57-524ad0d506c0"
   },
   {
     "disp": "十年一日",
     "kana": "じゅうねんいちじつ",
     "q": "juunennichijitsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d501c122-325b-46be-85b5-14f5be720da4"
   },
   {
     "disp": "十年一昔",
     "kana": "じゅうねんひとむかし",
     "q": "juunenhitomukashi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "3015e714-67c2-46d5-b28c-6829f15ba91d"
   },
   {
     "disp": "十風五雨",
     "kana": "じゅうふうごう",
     "q": "juufuugou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "7b6e19e8-ddf4-49ec-98ea-b309296022dd"
   },
   {
     "disp": "十万億土",
     "kana": "じゅうまんおくど",
     "q": "juumannokudo",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a76ff0c2-5e3b-4ca9-aa68-efc4b2b27e2e"
   },
   {
     "disp": "樹下石上",
     "kana": "じゅかせきじょう",
     "q": "jukasekijou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "89b90964-6689-4372-b5ea-a22a5030291e"
   },
   {
     "disp": "純一無雑",
     "kana": "じゅんいつむざつ",
     "q": "junnitsumuzatsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ed3209ca-010f-49ac-9773-8f0f92de02bc"
   },
   {
     "disp": "自由自在",
     "kana": "じゆうじざい",
     "q": "jiyuujizai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "4632e632-8925-468c-a1ed-75d7b23402be"
   },
   {
     "disp": "上意下達",
     "kana": "じょういかたつ",
     "q": "jouikatatsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "8ea7b40b-9d7d-42ba-88ce-8ad18acaf3c4"
   },
   {
     "disp": "情意投合",
     "kana": "じょういとうごう",
     "q": "jouitougou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "6ca80ad1-6ea3-4583-8918-2ef7cc48ea0c"
   },
   {
     "disp": "上行下効",
     "kana": "じょうこうかこう",
     "q": "joukoukakou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "21c39c89-f7d0-4c37-a436-3c0039e23b22"
   },
   {
     "disp": "常住不断",
     "kana": "じょうじゅうふだん",
     "q": "joujuufudan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ffe667ad-ad15-4840-b73e-dca5cd0016ad"
   },
   {
     "disp": "事理明白",
     "kana": "じりめいはく",
     "q": "jirimeihaku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "921434ff-ad1b-4e1d-8787-b676702f8833"
   },
   {
     "disp": "人海戦術",
     "kana": "じんかいせんじゅつ",
     "q": "jinkaisenjutsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "8a3a3e0c-a454-4e3c-a3ad-6186346317de"
   },
   {
     "disp": "人間青山",
     "kana": "じんかんせいざん",
     "q": "jinkanseizan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "e3c3690d-4b12-48f7-a92a-71756f2ecedb"
   },
   {
     "disp": "仁者無敵",
     "kana": "じんしゃむてき",
     "q": "jinshamuteki",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "6f7e2d73-a7f2-42db-91b8-6c08a7621b29"
   },
   {
     "disp": "仁者楽山",
     "kana": "じんしゃらくざん",
     "q": "jinsharakuzan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "dd501a7c-05f6-416d-ac7e-603d0f4d0186"
   },
   {
     "disp": "人心一新",
     "kana": "じんしんいっしん",
     "q": "jinshinnisshin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "be6307f0-afbe-4ccb-9767-06fc4149f616"
   },
   {
     "disp": "人事天命",
     "kana": "じんじてんめい",
     "q": "jinjitenmei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a63e4e8f-7ebf-405d-bef1-9e45c3b11907"
   },
   {
     "disp": "人事不省",
     "kana": "じんじふせい",
     "q": "jinjifusei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ebadac6d-6808-40a6-a884-1162a06161ff"
   },
   {
     "disp": "人生行路",
     "kana": "じんせいこうろ",
     "q": "jinseikouro",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "9913cc39-d7f0-4cf1-b0b7-be75b7754c55"
   },
   {
     "disp": "水清無魚",
     "kana": "すいせいむぎょ",
     "q": "suiseimugyo",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "8592bbb1-725e-4839-bd0b-1ae5ce1d7cec"
   },
   {
     "disp": "寸鉄殺人",
     "kana": "すんてつさつじん",
     "q": "suntetsusatsujin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "947efbd1-3ba9-45d9-8d50-b8e3a34dcd9a"
   },
   {
     "disp": "寸田尺宅",
     "kana": "すんでんしゃくたく",
     "q": "sundenshakutaku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "665a20c2-a2d3-4038-ac3a-f34b83489d1d"
   },
   {
     "disp": "寸馬豆人",
     "kana": "すんばとうじん",
     "q": "sunbatoujin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "227785a4-a280-42c7-9338-83008a616b52"
   },
   {
     "disp": "頭寒足熱",
     "kana": "ずかんそくねつ",
     "q": "zukansokunetsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f280fd1a-e3d0-45aa-a1de-d731ee897d11"
   },
   {
     "disp": "晴雲秋月",
     "kana": "せいうんしゅうげつ",
     "q": "seiunshuugetsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "4f949e95-361d-49c2-af2b-9b0e7e54fa06"
   },
   {
     "disp": "生寄死帰",
     "kana": "せいきしき",
     "q": "seikishiki",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "64eb7d47-443c-4f7a-9a83-518b6fc1f119"
   },
   {
     "disp": "精金良玉",
     "kana": "せいきんりょうぎょく",
     "q": "seikinryougyoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "13eb891e-6ff2-42a4-80a5-685754eb19ae"
   },
   {
     "disp": "晴耕雨読",
     "kana": "せいこううどく",
     "q": "seikouudoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "e975b480-7ccc-4bdd-a003-1b156701114b"
   },
   {
     "disp": "生死肉骨",
     "kana": "せいしにくこつ",
     "q": "seishinikukotsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d2724835-a9d0-4871-b97e-570a021e4021"
   },
   {
     "disp": "青松落色",
     "kana": "せいしょうらくしょく",
     "q": "seishourakushoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "596ba119-3f23-433d-af19-dd51cfd1e3fb"
   },
   {
     "disp": "誠心誠意",
     "kana": "せいしんせいい",
     "q": "seishinseii",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "2a9db241-b024-4c67-8835-73b00932a709"
   },
   {
     "disp": "精神統一",
     "kana": "せいしんとういつ",
     "q": "seishintouitsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "09a5707c-3d8a-4376-92d7-ceaba92e4af0"
   },
   {
     "disp": "聖人君子",
     "kana": "せいじんくんし",
     "q": "seijinkunshi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ca1c82a9-5da2-49ef-8bf5-d9c7334a0dbc"
   },
   {
     "disp": "聖人無夢",
     "kana": "せいじんむむ",
     "q": "seijinmumu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f9e1ef78-13fe-4c2e-b6f2-80e77958628d"
   },
   {
     "disp": "正正堂堂",
     "kana": "せいせいどうどう",
     "q": "seiseidoudou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "76347cdf-9ec6-42ea-975f-37fc1f7c13fa"
   },
   {
     "disp": "生知安行",
     "kana": "せいちあんこう",
     "q": "seichiankou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "fbf0e360-db5e-450e-8d7c-3747cfb8e866"
   },
   {
     "disp": "青天白日",
     "kana": "せいてんはくじつ",
     "q": "seitenhakujitsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c0eae19e-8fb4-4025-9582-dd1f20e6f6ba"
   },
   {
     "disp": "正当防衛",
     "kana": "せいとうぼうえい",
     "q": "seitoubouei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f51c8565-7fc4-4e97-81b5-0b251380c723"
   },
   {
     "disp": "清風故人",
     "kana": "せいふうこじん",
     "q": "seifuukojin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d38b8bfa-735f-4816-a491-bee663cc2f5d"
   },
   {
     "disp": "清風明月",
     "kana": "せいふうめいげつ",
     "q": "seifuumeigetsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "3c1dc5fe-40f2-41d8-aba9-881474eb7708"
   },
   {
     "disp": "精明強幹",
     "kana": "せいめいきょうかん",
     "q": "seimeikyoukan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "1870891b-8498-4ec0-bb0f-d98961a17069"
   },
   {
     "disp": "鉄腸石心",
     "kana": "てっちょうせきしん",
     "q": "tecchousekishin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "0e9167f6-4627-47c0-9e09-f9af27ccb0cd"
   },
   {
     "disp": "接見応対",
     "kana": "せっけんおうたい",
     "q": "sekkennoutai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "165dba1e-8423-4fcd-9814-f047d620c0ca"
   },
   {
     "disp": "雪月風花",
     "kana": "せつげつふうか",
     "q": "setsugetsufuuka",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d5f363d7-91f7-4a8d-8f49-702992f10f50"
   },
   {
     "disp": "切問近思",
     "kana": "せつもんきんし",
     "q": "setsumonkinshi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "fdeecc3f-2813-4b57-9352-178c258ee951"
   },
   {
     "disp": "世道人心",
     "kana": "せどうじんしん",
     "q": "sedoujinshin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "4b5fe0af-d7c7-45c2-9037-74ee7b911af0"
   },
   {
     "disp": "先義後利",
     "kana": "せんぎこうり",
     "q": "sengikouri",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "eb953d41-8ed4-49b3-a517-2ac7a3b51d1b"
   },
   {
     "disp": "千古不易",
     "kana": "せんこふえき",
     "q": "senkofueki",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "08306209-1ca7-4c38-bf08-7b8d0a3028d5"
   },
   {
     "disp": "先聖先師",
     "kana": "せんせいせんし",
     "q": "senseisenshi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "0c3ee0b1-199c-4e7d-86e7-112a0d5d385c"
   },
   {
     "disp": "先知先覚",
     "kana": "せんちせんがく",
     "q": "senchisengaku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c32ab0ba-cc63-4589-8c2f-aa66d7885d7b"
   },
   {
     "disp": "先手必勝",
     "kana": "せんてひっしょう",
     "q": "sentehisshou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "6df6b2b8-e91b-44e4-911a-36f1c722f702"
   },
   {
     "disp": "千万無量",
     "kana": "せんまんむりょう",
     "q": "senmanmuryou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "48c1244b-e822-4996-8e7c-41adf419dc5d"
   },
   {
     "disp": "千里同風",
     "kana": "せんりどうふう",
     "q": "senridoufuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "1507b9b6-9c34-41d4-9e86-a785f5cb0c2e"
   },
   {
     "disp": "千里結言",
     "kana": "せんりけつげん",
     "q": "senriketsugen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "06e24b0e-60d7-4b31-9938-7b805ef935e6"
   },
   {
     "disp": "絶世独立",
     "kana": "ぜっせいどくりつ",
     "q": "zesseidokuritsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "2c2c9ba9-5dd0-44b3-b5d5-c66a9f4cb315"
   },
   {
     "disp": "絶体絶命",
     "kana": "ぜったいぜつめい",
     "q": "zettaizetsumei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "66f07a81-f733-4a8c-898f-1731ea0a2f4f"
   },
   {
     "disp": "善因善果",
     "kana": "ぜんいんぜんか",
     "q": "zenninzenka",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "36c3f6b5-87b7-496f-9291-7e2e2720a64c"
   },
   {
     "disp": "前後不覚",
     "kana": "ぜんごふかく",
     "q": "zengofukaku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "2dc8bd1d-2baf-4a54-82f5-b9bef4a1495d"
   },
   {
     "disp": "全生全帰",
     "kana": "ぜんせいぜんき",
     "q": "zenseizenki",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "9b0c15bb-991f-496f-bb38-348e590bc796"
   },
   {
     "disp": "全知全能",
     "kana": "ぜんちぜんのう",
     "q": "zenchizennou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "2204de13-50b9-4f3a-a399-a84396416662"
   },
   {
     "disp": "創業守成",
     "kana": "そうぎょうしゅせい",
     "q": "sougyoushusei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "4e210ed7-8fc6-4d3d-874b-e5d3780e10d6"
   },
   {
     "disp": "草根木皮",
     "kana": "そうこんぼくひ",
     "q": "soukonbokuhi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "6ad3d615-72c0-4d65-bc54-a8bd2fb87e49"
   },
   {
     "disp": "相思相愛",
     "kana": "そうしそうあい",
     "q": "soushisouai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c6d6646c-f7f8-4818-9b77-b5528f905154"
   },
   {
     "disp": "走馬看花",
     "kana": "そうばかんか",
     "q": "soubakanka",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f7d7e21f-37ec-4bb2-8ab8-b85bdab8ca1b"
   },
   {
     "disp": "争名争利",
     "kana": "そうめいそうり",
     "q": "soumeisouri",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a2634210-31be-490a-98ef-77ffc71e3efc"
   },
   {
     "disp": "装模作様",
     "kana": "そうもさくよう",
     "q": "soumosakuyou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "3c6c0157-ded7-42f4-bca7-49134a1544c8"
   },
   {
     "disp": "総量規制",
     "kana": "そうりょうきせい",
     "q": "souryoukisei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "1ca79e6c-d3d5-4bce-9772-f9c1a80ad82b"
   },
   {
     "disp": "則天去私",
     "kana": "そくてんきょし",
     "q": "sokutenkyoshi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c07f79d7-01ff-4f37-9670-524dc8619af7"
   },
   {
     "disp": "素車白馬",
     "kana": "そしゃはくば",
     "q": "soshahakuba",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "0e85b51f-5324-45f8-9d56-b6736e4ba984"
   },
   {
     "disp": "孫康映雪",
     "kana": "そんこうえいせつ",
     "q": "sonkoueisetsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "92668b34-847a-4eae-ab31-67d9b7d18792"
   },
   {
     "disp": "損者三友",
     "kana": "そんしゃさんゆう",
     "q": "sonshasannyuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "3f66216c-fd87-4b69-a65c-fab02a23ad06"
   },
   {
     "disp": "造反無道",
     "kana": "ぞうはんむどう",
     "q": "zouhanmudou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "16a817fd-30b7-47d4-bc07-82db7abf05e2"
   },
   {
     "disp": "造反有理",
     "kana": "ぞうはんゆうり",
     "q": "zouhannyuuri",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "5027fe93-ec0a-43ec-8d02-4223a3b1c86e"
   },
   {
     "disp": "続短断長",
     "kana": "ぞくたんだんちょう",
     "q": "zokutandanchou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "da379330-629a-477f-b47d-c16090f0030b"
   },
   {
     "disp": "大快人心",
     "kana": "たいかいじんしん",
     "q": "taikaijinshin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "858c15d6-e1c3-4bdd-a0a6-4034a35dbe0b"
   },
   {
     "disp": "対岸火災",
     "kana": "たいがんのかさい",
     "q": "taigannokasai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "2e6d769e-d4f6-458f-8c43-abe9008fb247"
   },
   {
     "disp": "大器小用",
     "kana": "たいきしょうよう",
     "q": "taikishouyou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "df0dc485-6c24-4396-a9a3-8b2ff8414784"
   },
   {
     "disp": "大器晩成",
     "kana": "たいきばんせい",
     "q": "taikibansei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d2b5138c-6a7e-4bfb-9662-72057e0be2a6"
   },
   {
     "disp": "大義名分",
     "kana": "たいぎめいぶん",
     "q": "taigimeibun",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "8d45ada5-c94b-4ce6-b56d-d674cf54b9d3"
   },
   {
     "disp": "大逆無道",
     "kana": "たいぎゃくむどう",
     "q": "taigyakumudou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c900611a-0757-4b95-af2b-5f0a75dc3ec2"
   },
   {
     "disp": "大月小月",
     "kana": "たいげつしょうげつ",
     "q": "taigetsushougetsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "5f8eae15-ae98-4111-9cf0-3de195b8f5df"
   },
   {
     "disp": "体元居正",
     "kana": "たいげんきょせい",
     "q": "taigenkyosei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "14bc5c21-2423-4124-b953-6b537962b79e"
   },
   {
     "disp": "大山鳴動",
     "kana": "たいざんめいどう",
     "q": "taizanmeidou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "1374894a-2d50-4e78-847d-d32eba8ebd55"
   },
   {
     "disp": "大所高所",
     "kana": "たいしょこうしょ",
     "q": "taishokousho",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "9c6d19e8-3be5-4198-b540-3f1d1212041f"
   },
   {
     "disp": "大信不約",
     "kana": "たいしんふやく",
     "q": "taishinfuyaku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c795baff-2f77-485c-87cb-c301af2b0050"
   },
   {
     "disp": "大道不器",
     "kana": "たいどうふき",
     "q": "taidoufuki",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "3fd852e3-f7d2-4dec-b16b-e12ffc2d2e7c"
   },
   {
     "disp": "大欲非道",
     "kana": "たいよくひどう",
     "q": "taiyokuhidou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "29c5176d-c5e6-4f93-af70-499f4c49017f"
   },
   {
     "disp": "多事多難",
     "kana": "たじたなん",
     "q": "tajitanan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "8537261e-cd85-4101-916e-9c2d06f08868"
   },
   {
     "disp": "多情多感",
     "kana": "たじょうたかん",
     "q": "tajoutakan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "e9c943cf-2b37-4639-a886-f1d555e9d71d"
   },
   {
     "disp": "多情仏心",
     "kana": "たじょうぶっしん",
     "q": "tajoubusshin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "4d298c26-5edb-4276-842a-0e49ad20eddc"
   },
   {
     "disp": "達人大観",
     "kana": "たつじんたいかん",
     "q": "tatsujintaikan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "eb63a013-3773-474f-82cb-16a64cc76847"
   },
   {
     "disp": "他力本願",
     "kana": "たりきほんがん",
     "q": "tarikihongan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "601b3d97-493e-42f0-94f0-2c9928457ffe"
   },
   {
     "disp": "単純明快",
     "kana": "たんじゅんめいかい",
     "q": "tanjunmeikai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a5dba27a-8ca0-4e6d-87e1-a372daf9dd66"
   },
   {
     "disp": "単刀直入",
     "kana": "たんとうちょくにゅう",
     "q": "tantouchokunyuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "895fb025-6fcc-46f4-8559-8d60317a0af2"
   },
   {
     "disp": "大死一番",
     "kana": "だいしいちばん",
     "q": "daishiichiban",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "2ccceee8-8200-44c8-a5ef-6d5833f4e4a7"
   },
   {
     "disp": "大同小異",
     "kana": "だいどうしょうい",
     "q": "daidoushoui",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "50dd5245-f746-4367-8180-7b8e30fc3694"
   },
   {
     "disp": "大同団結",
     "kana": "だいどうだんけつ",
     "q": "daidoudanketsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "4f6969d7-fe11-4065-bd88-cdf0771d4ca4"
   },
   {
     "disp": "断章取義",
     "kana": "だんしょうしゅぎ",
     "q": "danshoushugi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "5e9eeab4-b852-43f7-b133-eb3afc705cc7"
   },
   {
     "disp": "談論風発",
     "kana": "だんろんふうはつ",
     "q": "danronfuuhatsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "e6d3a86b-f614-4bc1-88c7-3faade1fd017"
   },
   {
     "disp": "知行合一",
     "kana": "ちこうごういつ",
     "q": "chikougouitsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "15e0be73-982d-4927-9bc5-47a391388cad"
   },
   {
     "disp": "知者不言",
     "kana": "ちしゃふげん",
     "q": "chishafugen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f9e4ef10-5276-4715-bda6-7307e6437afc"
   },
   {
     "disp": "知者楽水",
     "kana": "ちしゃらくすい",
     "q": "chisharakusui",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "fdc63e1d-960b-478b-9d15-48dd2c5a08bd"
   },
   {
     "disp": "置酒高会",
     "kana": "ちしゅこうかい",
     "q": "chishukoukai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "e02f86e7-0de7-4bc1-9dfa-802e6dda6ea0"
   },
   {
     "disp": "知足安分",
     "kana": "ちそくあんぶん",
     "q": "chisokuanbun",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "b31ed905-97cf-4f50-8298-e23632046571"
   },
   {
     "disp": "地平天成",
     "kana": "ちへいてんせい",
     "q": "chiheitensei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "da39678b-8fbe-4994-b7e3-d7f4398042e7"
   },
   {
     "disp": "着眼大局",
     "kana": "ちゃくがんたいきょく",
     "q": "chakugantaikyoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "76a50648-1d88-48e8-905d-1d0249e504b7"
   },
   {
     "disp": "忠君愛国",
     "kana": "ちゅうくんあいこく",
     "q": "chuukunnaikoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "b0f3e9c6-803c-459e-85b6-ae372d8d719c"
   },
   {
     "disp": "忠孝両全",
     "kana": "ちゅうこうりょうぜん",
     "q": "chuukouryouzen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "46898bf2-eb62-4e95-98f0-f2f73ddda05d"
   },
   {
     "disp": "中秋名月",
     "kana": "ちゅうしゅうのめいげつ",
     "q": "chuushuunomeigetsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "474a69c4-adfb-4da7-a44e-4d569b94473c"
   },
   {
     "disp": "昼想夜夢",
     "kana": "ちゅうそうやむ",
     "q": "chuusouyamu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "3997f8e4-759c-41e3-9656-cd3009f9a501"
   },
   {
     "disp": "中通外直",
     "kana": "ちゅうつうがいちょく",
     "q": "chuutsuugaichoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "7ec6f7cf-6ce3-48ea-83c6-c29892e4bc16"
   },
   {
     "disp": "長安日辺",
     "kana": "ちょうあんにっぺん",
     "q": "chouannippen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "67f78480-db1d-405f-a4ca-b6b7ab94227c"
   },
   {
     "disp": "重見天日",
     "kana": "ちょうけんてんじつ",
     "q": "choukentenjitsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "43b22bef-8177-4e73-942d-63c0401c8369"
   },
   {
     "disp": "長生久視",
     "kana": "ちょうせいきゅうし",
     "q": "chouseikyuushi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "170629e8-42ef-40c6-b1c9-e2d30461bb74"
   },
   {
     "disp": "長生不死",
     "kana": "ちょうせいふし",
     "q": "chouseifushi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "8e5affed-65b0-4a89-923b-953624344b04"
   },
   {
     "disp": "頂天立地",
     "kana": "ちょうてんりっち",
     "q": "choutenricchi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "9097e7be-f31d-4fd7-98ea-52bcf8f7e2f9"
   },
   {
     "disp": "頂門一針",
     "kana": "ちょうもんのいっしん",
     "q": "choumonnoisshin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c06bd713-09fb-4ff2-8ec4-bd1565a050f9"
   },
   {
     "disp": "朝有紅顔",
     "kana": "ちょうゆうこうがん",
     "q": "chouyuukougan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a3b79ed4-6beb-4635-9100-2a5196a585bd"
   },
   {
     "disp": "直情径行",
     "kana": "ちょくじょうけいこう",
     "q": "chokujoukeikou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "e03f7dfc-234d-47b7-9ad8-dabba1e8d9b1"
   },
   {
     "disp": "治乱興亡",
     "kana": "ちらんこうぼう",
     "q": "chirankoubou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "1283f357-9c02-472e-88f1-5881f7c2e56c"
   },
   {
     "disp": "知略縦横",
     "kana": "ちりゃくじゅうおう",
     "q": "chiryakujuuou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ebb70da5-75cc-4542-8609-86c1cab16c36"
   },
   {
     "disp": "痛定思痛",
     "kana": "つうていしつう",
     "q": "tsuuteishitsuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "49bc82f9-8a5b-44b7-be29-2434016a9d49"
   },
   {
     "disp": "適材適所",
     "kana": "てきざいてきしょ",
     "q": "tekizaitekisho",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "0e343775-9d99-4bfa-aa3c-2d2c5c4b8a58"
   },
   {
     "disp": "適者生存",
     "kana": "てきしゃせいぞん",
     "q": "tekishaseizon",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c7f0fdd8-8813-49b5-a565-7303b5c00469"
   },
   {
     "disp": "鉄心石腸",
     "kana": "てっしんせきちょう",
     "q": "tesshinsekichou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "10bf8282-41f8-42e4-bbdc-7ca28208c618"
   },
   {
     "disp": "鉄樹開花",
     "kana": "てつじゅかいか",
     "q": "tetsujukaika",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "cf64591f-cb9c-4f33-b781-2e74da7d703e"
   },
   {
     "disp": "手練手管",
     "kana": "てれんてくだ",
     "q": "terentekuda",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "e763dc39-55ea-412c-83aa-0086e8528166"
   },
   {
     "disp": "天一地二",
     "kana": "てんいちちに",
     "q": "tennichichini",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "bf73cb00-12a7-492d-a553-18addb7b65e1"
   },
   {
     "disp": "天災地変",
     "kana": "てんさいちへん",
     "q": "tensaichihen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ca6ec44c-fcf0-4227-bcdd-f89d3f16ef24"
   },
   {
     "disp": "天姿国色",
     "kana": "てんしこくしょく",
     "q": "tenshikokushoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "b112d80e-a6f0-455f-b114-dda2607617f1"
   },
   {
     "disp": "天孫降臨",
     "kana": "てんそんこうりん",
     "q": "tensonkourin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "b6090c69-9728-4f1c-99e5-5444a3fe208f"
   },
   {
     "disp": "天地一指",
     "kana": "てんちいっし",
     "q": "tenchiisshi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "7f8f32c0-8413-4e30-8283-f9ad1d6b8b53"
   },
   {
     "disp": "天地神明",
     "kana": "てんちしんめい",
     "q": "tenchishinmei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "68797168-d791-4f72-afe1-2134d8a3d157"
   },
   {
     "disp": "天地無用",
     "kana": "てんちむよう",
     "q": "tenchimuyou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "9fe92fe6-11a6-4861-aafb-188d48a8818f"
   },
   {
     "disp": "天長地久",
     "kana": "てんちょうちきゅう",
     "q": "tenchouchikyuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "5d329794-d787-45b1-80e7-f0627d39ae75"
   },
   {
     "disp": "天馬行空",
     "kana": "てんばこうくう",
     "q": "tenbakoukuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "53fb3aeb-f8a4-421d-9faa-194b45a760e9"
   },
   {
     "disp": "天変地異",
     "kana": "てんぺんちい",
     "q": "tenpenchii",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "8976bb33-4a4a-4682-ae50-957c4262d41a"
   },
   {
     "disp": "天門登八",
     "kana": "てんもんとうはち",
     "q": "tenmontouhachi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "5368e181-535b-4ccf-a752-1dc1849e76f7"
   },
   {
     "disp": "天理人欲",
     "kana": "てんりじんよく",
     "q": "tenrijinnyoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d104875a-51d6-475b-97c2-d1bb9d3b4d51"
   },
   {
     "disp": "伝家宝刀",
     "kana": "でんかのほうとう",
     "q": "denkanohoutou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "27ed90cb-16d5-49da-8df6-9ecf95229b58"
   },
   {
     "disp": "電光石火",
     "kana": "でんこうせっか",
     "q": "denkousekka",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "8b8de309-e81f-4366-876f-62f3141595aa"
   },
   {
     "disp": "田夫野人",
     "kana": "でんぷやじん",
     "q": "denpuyajin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "97d07970-8070-4d79-b224-87d11fe53748"
   },
   {
     "disp": "田夫野老",
     "kana": "でんぷやろう",
     "q": "denpuyarou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "67b920af-f5b8-405a-a21a-a0560577ae8d"
   },
   {
     "disp": "灯火可親",
     "kana": "とうかかしん",
     "q": "toukakashin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "63117f30-d09c-46ca-80f5-2a55413ab94f"
   },
   {
     "disp": "冬夏青青",
     "kana": "とうかせいせい",
     "q": "toukaseisei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "badb01d8-cb06-430b-9762-17f957e9edab"
   },
   {
     "disp": "当機立断",
     "kana": "とうきりつだん",
     "q": "toukiritsudan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "1fe8d56d-93b7-4c7b-8cd6-26b54845a08d"
   },
   {
     "disp": "刀耕火種",
     "kana": "とうこうかしゅ",
     "q": "toukoukashu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a714a1c9-0773-42d3-9097-3ed24d431c7e"
   },
   {
     "disp": "灯紅酒緑",
     "kana": "とうこうしゅりょく",
     "q": "toukoushuryoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c30099ea-2347-46ef-91eb-95077803f5b2"
   },
   {
     "disp": "東行西走",
     "kana": "とうこうせいそう",
     "q": "toukouseisou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a094f439-6457-4634-977f-a20b5e775dda"
   },
   {
     "disp": "党利党略",
     "kana": "とうりとうりゃく",
     "q": "touritouryaku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "103833db-ecb0-412e-9a56-455557330037"
   },
   {
     "disp": "得意満面",
     "kana": "とくいまんめん",
     "q": "tokuimanmen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ad325366-a13d-463f-b3ed-d0e3b8f7905d"
   },
   {
     "disp": "徳高望重",
     "kana": "とくこうぼうじゅう",
     "q": "tokukouboujuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "525ef80a-c382-459e-aa63-de9fa328cc27"
   },
   {
     "disp": "特筆大書",
     "kana": "とくひつたいしょ",
     "q": "tokuhitsutaisho",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "761cb656-6e1d-4c31-b329-b2bd2e5293c9"
   },
   {
     "disp": "堂下周屋",
     "kana": "どうかのしゅうおく",
     "q": "doukanoshuuoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "196d3da0-fe00-4767-950c-76db300533b9"
   },
   {
     "disp": "同気相求",
     "kana": "どうきそうきゅう",
     "q": "doukisoukyuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "fd2d5c71-03dd-4f33-a30c-9f20568f29fe"
   },
   {
     "disp": "銅頭鉄額",
     "kana": "どうとうてつがく",
     "q": "doutoutetsugaku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "2f473a5a-fd29-4d5c-a7d8-4358fdfb0231"
   },
   {
     "disp": "土階三等",
     "kana": "どかいさんとう",
     "q": "dokaisantou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "be12dccc-9e63-4a0d-8618-3226445397a8"
   },
   {
     "disp": "読書三余",
     "kana": "どくしょさんよ",
     "q": "dokushosannyo",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "6024cd09-c4fc-489f-9a70-e23bf42368ad"
   },
   {
     "disp": "読書亡羊",
     "kana": "どくしょぼうよう",
     "q": "dokushobouyou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "fd316e91-45e4-49e1-aa2f-0a8bbfda16e8"
   },
   {
     "disp": "独断専行",
     "kana": "どくだんせんこう",
     "q": "dokudansenkou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "385aec91-920c-4466-b8bb-0f29a3c1d23f"
   },
   {
     "disp": "独立自尊",
     "kana": "どくりつじそん",
     "q": "dokuritsujison",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "3e15fbd8-95c2-4404-af48-0ae9f9b11e66"
   },
   {
     "disp": "独立自存",
     "kana": "どくりつじそん",
     "q": "dokuritsujison",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c8fb796b-f158-46a7-beb2-64adf2d661b9"
   },
   {
     "disp": "独立独歩",
     "kana": "どくりつどっぽ",
     "q": "dokuritsudoppo",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "934be279-dbc1-4ea5-b03c-180d28f3c55a"
   },
   {
     "disp": "難行苦行",
     "kana": "なんぎょうくぎょう",
     "q": "nangyoukugyou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "593500c8-a489-443c-97e9-82c67ef121ed"
   },
   {
     "disp": "南山不落",
     "kana": "なんざんふらく",
     "q": "nanzanfuraku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "cdcd012a-9bfe-43f8-88f7-166cb875b14b"
   },
   {
     "disp": "南船北馬",
     "kana": "なんせんほくば",
     "q": "nansenhokuba",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "b821fa6c-2215-4690-aee4-4c045e93c977"
   },
   {
     "disp": "二束三文",
     "kana": "にそくさんもん",
     "q": "nisokusanmon",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "000d4225-ed61-4a3c-bc91-a9cc9737ccab"
   },
   {
     "disp": "日居月諸",
     "kana": "にっきょげっしょ",
     "q": "nikkyogessho",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "1303944c-56a1-4874-84f7-d206b268e343"
   },
   {
     "disp": "日進月歩",
     "kana": "にっしんげっぽ",
     "q": "nisshingeppo",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "55b682b5-58b2-4028-99d0-d2946ae9aea2"
   },
   {
     "disp": "入境問禁",
     "kana": "にゅうきょうもんきん",
     "q": "nyuukyoumonkin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "1113d7ff-920a-4352-bbdf-f5cd318e06d5"
   },
   {
     "disp": "入木三分",
     "kana": "にゅうぼくさんぶ",
     "q": "nyuubokusanbu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "cc6471ec-d393-4fcb-9abd-93977d4fe773"
   },
   {
     "disp": "二律背反",
     "kana": "にりつはいはん",
     "q": "niritsuhaihan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "05873922-7300-4b56-9b0b-4343cd78ff6a"
   },
   {
     "disp": "二六時中",
     "kana": "にろくじちゅう",
     "q": "nirokujichuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "4618d236-5718-49e1-9437-20e219d723c5"
   },
   {
     "disp": "年百年中",
     "kana": "ねんびゃくねんじゅう",
     "q": "nenbyakunenjuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "cac47552-f6aa-46c1-9215-4a0d2d205cd2"
   },
   {
     "disp": "破鏡重円",
     "kana": "はきょうじゅうえん",
     "q": "hakyoujuuen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c8270c54-3157-4097-8f8d-135b7a82e956"
   },
   {
     "disp": "白衣三公",
     "kana": "はくいのさんこう",
     "q": "hakuinosankou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c92ddd68-6fbe-428f-8f8f-96f3a50698e2"
   },
   {
     "disp": "博学多才",
     "kana": "はくがくたさい",
     "q": "hakugakutasai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c366151b-afad-4b98-a008-f0d814d9b170"
   },
   {
     "disp": "白眼青眼",
     "kana": "はくがんせいがん",
     "q": "hakuganseigan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "384c43de-6522-47da-90e3-c717adef9c1f"
   },
   {
     "disp": "白水真人",
     "kana": "はくすいしんじん",
     "q": "hakusuishinjin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "3ca815c4-7506-4c7b-a3be-61bed9923749"
   },
   {
     "disp": "白板天子",
     "kana": "はくはんのてんし",
     "q": "hakuhannotenshi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f3fb5819-00dd-44e2-864c-3987cfc0b352"
   },
   {
     "disp": "白馬非馬",
     "kana": "はくばひば",
     "q": "hakubahiba",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ed699fc0-febd-49b4-b091-b37fdc0049c6"
   },
   {
     "disp": "博聞強記",
     "kana": "はくぶんきょうき",
     "q": "hakubunkyouki",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a2599f24-d8ae-4519-9563-f119839c484c"
   },
   {
     "disp": "博文約礼",
     "kana": "はくぶんやくれい",
     "q": "hakubunnyakurei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "dca64c7b-b235-4e2c-870b-94e3f14b297d"
   },
   {
     "disp": "白面書生",
     "kana": "はくめんのしょせい",
     "q": "hakumennoshosei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a70ce482-5ea9-433f-bfa1-3ca658e4a239"
   },
   {
     "disp": "博覧強記",
     "kana": "はくらんきょうき",
     "q": "hakurankyouki",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "4a8f4995-3b29-4aa2-bc43-a962d05213ef"
   },
   {
     "disp": "白黒分明",
     "kana": "はっこくぶんめい",
     "q": "hakkokubunmei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "25840162-c4c7-45ac-a513-8fe46d33e284"
   },
   {
     "disp": "八方美人",
     "kana": "はっぽうびじん",
     "q": "happoubijin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ae8c5600-b8c4-4dea-b602-4a0e92547990"
   },
   {
     "disp": "発人深省",
     "kana": "はつじんしんせい",
     "q": "hatsujinshinsei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "cb2b1a56-ec2a-40cb-917e-97b40ce9b1e9"
   },
   {
     "disp": "反間苦肉",
     "kana": "はんかんくにく",
     "q": "hankankuniku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "98f9547f-3348-4a3a-8cde-9a4cd1ce6d54"
   },
   {
     "disp": "半死半生",
     "kana": "はんしはんしょう",
     "q": "hanshihanshou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "365a2b75-34f3-4b57-b9b2-fd4ff4fce993"
   },
   {
     "disp": "半信半疑",
     "kana": "はんしんはんぎ",
     "q": "hanshinhangi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "35a6efc8-61ed-4f3f-bd38-27cb72deea95"
   },
   {
     "disp": "半知半解",
     "kana": "はんちはんかい",
     "q": "hanchihankai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "15e2bdd8-f3ca-4c93-9217-041f29871053"
   },
   {
     "disp": "班田収授",
     "kana": "はんでんしゅうじゅ",
     "q": "handenshuuju",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "3c25e2b0-b569-4a7f-9c24-092eb567f3e8"
   },
   {
     "disp": "反面教師",
     "kana": "はんめんきょうし",
     "q": "hanmenkyoushi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "caf049d4-6e3d-4463-b62d-39fc1d2d5be0"
   },
   {
     "disp": "幕天席地",
     "kana": "ばくてんせきち",
     "q": "bakutensekichi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "21483230-0958-4e47-b076-b08f70254512"
   },
   {
     "disp": "馬氏五常",
     "kana": "ばしごじょう",
     "q": "bashigojou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f7471bf6-c1a0-4745-a450-210bd1bdc60b"
   },
   {
     "disp": "馬歯徒増",
     "kana": "ばしとぞう",
     "q": "bashitozou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "00f9849b-dfde-4321-b1ea-06c5a4fd9f93"
   },
   {
     "disp": "飛花落葉",
     "kana": "ひからくよう",
     "q": "hikarakuyou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "571b22b7-d90d-4b0b-b8c8-bb73897f87fc"
   },
   {
     "disp": "百戦百勝",
     "kana": "ひゃくせんひゃくしょう",
     "q": "hyakusenhyakushou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c009a55c-3381-48dc-af65-c536de977e84"
   },
   {
     "disp": "百二山河",
     "kana": "ひゃくにのさんが",
     "q": "hyakuninosanga",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f6d0fda8-41e0-4eb1-a42e-7005baaaf8bb"
   },
   {
     "disp": "百人百様",
     "kana": "ひゃくにんひゃくよう",
     "q": "hyakuninhyakuyou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "7c122bcc-4bce-42cb-b13d-80eb660e9e40"
   },
   {
     "disp": "百年河清",
     "kana": "ひゃくねんかせい",
     "q": "hyakunenkasei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "8e385494-e8f1-48df-a4df-b3dc83337e4c"
   },
   {
     "disp": "百家争鳴",
     "kana": "ひゃっかそうめい",
     "q": "hyakkasoumei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "97b858fc-33ae-489b-a3a8-2c342d99e5ca"
   },
   {
     "disp": "百発百中",
     "kana": "ひゃっぱつひゃくちゅう",
     "q": "hyappatsuhyakuchuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "67b18003-e434-4bdd-bf18-667148bc15db"
   },
   {
     "disp": "氷炭相愛",
     "kana": "ひょうたんそうあい",
     "q": "hyoutansouai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f550ff92-99ee-4457-992f-8914992a93b3"
   },
   {
     "disp": "品行方正",
     "kana": "ひんこうほうせい",
     "q": "hinkouhousei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "8b127011-1334-4608-afa3-bd12e99911f7"
   },
   {
     "disp": "貧者一灯",
     "kana": "ひんじゃのいっとう",
     "q": "hinjanoittou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "829fec41-d7db-4ecc-86a9-b5cd69873790"
   },
   {
     "disp": "美意延年",
     "kana": "びいえんねん",
     "q": "biiennen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "39478551-2fc2-49be-854d-6fa445967e51"
   },
   {
     "disp": "風林火山",
     "kana": "ふうりんかざん",
     "q": "fuurinkazan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f5ad29f4-4f99-44d5-96bc-e35f5da99f1e"
   },
   {
     "disp": "不易流行",
     "kana": "ふえきりゅうこう",
     "q": "fuekiryuukou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "e7120054-ca47-489d-bac1-2abe050155a9"
   },
   {
     "disp": "福徳円満",
     "kana": "ふくとくえんまん",
     "q": "fukutokuenman",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f85d69ea-af4e-4f95-bd8b-8b329bb9ec5b"
   },
   {
     "disp": "不言実行",
     "kana": "ふげんじっこう",
     "q": "fugenjikkou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a39ee8d7-7614-42be-8faf-65570d6f6756"
   },
   {
     "disp": "不言不語",
     "kana": "ふげんふご",
     "q": "fugenfugo",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "b7baf317-4870-47c3-ab0e-794890810fa4"
   },
   {
     "disp": "富国強兵",
     "kana": "ふこくきょうへい",
     "q": "fukokukyouhei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a35e78af-df4b-4b6c-820a-40f33f004201"
   },
   {
     "disp": "父子相伝",
     "kana": "ふしそうでん",
     "q": "fushisouden",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "8b957d3e-61bb-405f-8774-85ab11dbfd5c"
   },
   {
     "disp": "不断節季",
     "kana": "ふだんせっき",
     "q": "fudansekki",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "49cffa6a-f583-40f4-b294-5fe307905105"
   },
   {
     "disp": "不知案内",
     "kana": "ふちあんない",
     "q": "fuchiannai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "6b0e4d7a-48bf-48b6-b3d1-55741e010a3d"
   },
   {
     "disp": "不得要領",
     "kana": "ふとくようりょう",
     "q": "futokuyouryou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "00c099d8-eecc-4bbe-b3a6-967eb6854ce6"
   },
   {
     "disp": "不買美田",
     "kana": "ふばいびでん",
     "q": "fubaibiden",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "35164216-c646-466a-a03f-b16335747790"
   },
   {
     "disp": "不老不死",
     "kana": "ふろうふし",
     "q": "furoufushi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "47820d59-b0c6-44f7-8912-3cc450876753"
   },
   {
     "disp": "武運長久",
     "kana": "ぶうんちょうきゅう",
     "q": "buunchoukyuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f773a531-44d1-4335-a5df-23cd503aef92"
   },
   {
     "disp": "無事息災",
     "kana": "ぶじそくさい",
     "q": "bujisokusai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "34c87407-b2fe-4da9-a0f1-d0a5b1419989"
   },
   {
     "disp": "仏足石歌",
     "kana": "ぶっそくせきか",
     "q": "bussokusekika",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "12dfb6a4-7859-43c8-a09b-c95db8e5f158"
   },
   {
     "disp": "文芸復興",
     "kana": "ぶんげいふっこう",
     "q": "bungeifukkou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "383f0a1d-046e-431d-bbc1-614ebd698600"
   },
   {
     "disp": "分合集散",
     "kana": "ぶんごうしゅうさん",
     "q": "bungoushuusan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "1588bb1e-f890-4204-b762-45b0f3f99ef0"
   },
   {
     "disp": "文章絶唱",
     "kana": "ぶんしょうのぜっしょう",
     "q": "bunshounozesshou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "69dc32a4-b55a-4daf-aa0d-2bbd05b474ef"
   },
   {
     "disp": "文従字順",
     "kana": "ぶんじゅうじじゅん",
     "q": "bunjuujijun",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "7c6013f2-8942-4b86-b73e-0c4d28324bf2"
   },
   {
     "disp": "文武両道",
     "kana": "ぶんぶりょうどう",
     "q": "bunburyoudou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "490f9d18-60bd-4a40-a0c7-e25403d638e9"
   },
   {
     "disp": "文明開化",
     "kana": "ぶんめいかいか",
     "q": "bunmeikaika",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "57b349e1-80f8-48c4-aa1b-f3a9a1aca36c"
   },
   {
     "disp": "平身低頭",
     "kana": "へいしんていとう",
     "q": "heishinteitou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "65008744-cb19-4417-8c12-dc4bd3b95726"
   },
   {
     "disp": "変態百出",
     "kana": "へんたいひゃくしゅつ",
     "q": "hentaihyakushutsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "76474e37-6534-47d0-a956-ca597a4e0119"
   },
   {
     "disp": "変法自強",
     "kana": "へんぽうじきょう",
     "q": "henpoujikyou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "528e3088-fe52-41ea-b955-84353f8a6708"
   },
   {
     "disp": "米塩博弁",
     "kana": "べいえんはくべん",
     "q": "beienhakuben",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "7f7cc5eb-f31e-4e84-b21e-4a8abd3e6e3a"
   },
   {
     "disp": "別有天地",
     "kana": "べつゆうてんち",
     "q": "betsuyuutenchi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "dc34f114-560f-4718-a40e-a0c4aee8f9fc"
   },
   {
     "disp": "放言高論",
     "kana": "ほうげんこうろん",
     "q": "hougenkouron",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "e91cf0c6-8b6b-4327-a178-14eecbd8555c"
   },
   {
     "disp": "豊年満作",
     "kana": "ほうねんまんさく",
     "q": "hounenmansaku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ecb9faaf-8ac0-4c9a-94d9-16fce9ce0fa5"
   },
   {
     "disp": "報本反始",
     "kana": "ほうほんはんし",
     "q": "houhonhanshi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a8f612ba-429d-44f0-92f1-b864eea9bb1d"
   },
   {
     "disp": "北窓三友",
     "kana": "ほくそうのさんゆう",
     "q": "hokusounosannyuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "7825ef84-994f-4adb-9d23-054d6687f48e"
   },
   {
     "disp": "本来面目",
     "kana": "ほんらいのめんもく",
     "q": "honrainomenmoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a3764c4a-f89e-4e0a-af5a-4eb4d09e9fa8"
   },
   {
     "disp": "暴飲暴食",
     "kana": "ぼういんぼうしょく",
     "q": "bouinboushoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a8a0de4e-9009-4be4-8c97-f35ffbe730b2"
   },
   {
     "disp": "忘恩負義",
     "kana": "ぼうおんふぎ",
     "q": "bouonfugi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "54658ac6-db55-408a-8a30-b9f1471941c2"
   },
   {
     "disp": "暴言多罪",
     "kana": "ぼうげんたざい",
     "q": "bougentazai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "03b4c907-5ee4-4f20-b3fb-1e68e5434257"
   },
   {
     "disp": "望文生義",
     "kana": "ぼうぶんせいぎ",
     "q": "boubunseigi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "69eaa14f-e13e-4f31-b47d-386fe645fe91"
   },
   {
     "disp": "望聞問切",
     "kana": "ぼうぶんもんせつ",
     "q": "boubunmonsetsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "2cbdbf9d-7b7a-499e-bcfa-da14d608d405"
   },
   {
     "disp": "真一文字",
     "kana": "まいちもんじ",
     "q": "maichimonji",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "94efc292-1951-4ac3-9ece-96414fcbc7da"
   },
   {
     "disp": "末法末世",
     "kana": "まっぽうまっせ",
     "q": "mappoumasse",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "8f9329b8-3181-478a-a65b-7298546819c3"
   },
   {
     "disp": "三日天下",
     "kana": "みっかてんか",
     "q": "mikkatenka",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "1e910d21-1f94-4e45-8176-475fe23a89e4"
   },
   {
     "disp": "密雲不雨",
     "kana": "みつうんふう",
     "q": "mitsuunfuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "b50e78ba-6a2e-4183-abb6-8fd5c4e86f0e"
   },
   {
     "disp": "名字帯刀",
     "kana": "みょうじたいとう",
     "q": "myoujitaitou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "e0e85996-073e-42ef-90bb-f4e8b05f3896"
   },
   {
     "disp": "無位無官",
     "kana": "むいむかん",
     "q": "muimukan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "9f019b4f-b801-4378-bb77-82dc955a3261"
   },
   {
     "disp": "無芸大食",
     "kana": "むげいたいしょく",
     "q": "mugeitaishoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d69c0956-cc31-411a-a670-e6fb11a48093"
   },
   {
     "disp": "無始無終",
     "kana": "むしむじゅう",
     "q": "mushimujuu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c257c831-a11a-47e9-ad67-7ffee4b47d76"
   },
   {
     "disp": "無茶苦茶",
     "kana": "むちゃくちゃ",
     "q": "muchakucha",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "e3b4fe40-36f2-423f-a6b4-05a7c6e4394d"
   },
   {
     "disp": "無二無三",
     "kana": "むにむさん",
     "q": "munimusan",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "31492096-0c04-4b71-96da-4d735fc36418"
   },
   {
     "disp": "無念無想",
     "kana": "むねんむそう",
     "q": "munenmusou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "57057578-40a4-4d30-b791-b11f5f6a5fc4"
   },
   {
     "disp": "無病息災",
     "kana": "むびょうそくさい",
     "q": "mubyousokusai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "07216a33-d19a-479a-a289-2189ba76e9a8"
   },
   {
     "disp": "無理往生",
     "kana": "むりおうじょう",
     "q": "murioujou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d5d23217-dc52-4f3d-93ab-d4d94de19080"
   },
   {
     "disp": "無理無体",
     "kana": "むりむたい",
     "q": "murimutai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "29a6ee31-c7a5-45fc-a3eb-1589070be807"
   },
   {
     "disp": "無量無辺",
     "kana": "むりょうむへん",
     "q": "muryoumuhen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d8980daf-87b3-41dc-af16-22fbde25ad7e"
   },
   {
     "disp": "明鏡止水",
     "kana": "めいきょうしすい",
     "q": "meikyoushisui",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ae58fdac-4a7c-45a3-97a2-e68d8745054c"
   },
   {
     "disp": "盟神探湯",
     "kana": "めいしんたんとう",
     "q": "meishintantou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ca8a0620-fb94-4c4d-875e-4d7cdb40d393"
   },
   {
     "disp": "名実一体",
     "kana": "めいじついったい",
     "q": "meijitsuittai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "9b3a57e9-1cbc-4522-9615-8b4aa5998183"
   },
   {
     "disp": "名声過実",
     "kana": "めいせいかじつ",
     "q": "meiseikajitsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "538b15c6-c0ea-483f-b46e-715188b15ad8"
   },
   {
     "disp": "名存実亡",
     "kana": "めいそんじつぼう",
     "q": "meisonjitsubou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "18891ced-d3d6-475d-9d02-fe7ded84badd"
   },
   {
     "disp": "明明白白",
     "kana": "めいめいはくはく",
     "q": "meimeihakuhaku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c7167e61-d986-4bb4-a9ed-6e113650a4c0"
   },
   {
     "disp": "面向不背",
     "kana": "めんこうふはい",
     "q": "menkoufuhai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "543b39fb-9ed3-4e61-a777-c8a79198a211"
   },
   {
     "disp": "面従後言",
     "kana": "めんじゅうこうげん",
     "q": "menjuukougen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "fcb1a0f3-726b-4f09-849f-d40dbbd62b5f"
   },
   {
     "disp": "面従腹背",
     "kana": "めんじゅうふくはい",
     "q": "menjuufukuhai",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a092dc3f-bd5e-47cb-bcae-f4f4ebbb7701"
   },
   {
     "disp": "面張牛皮",
     "kana": "めんちょうぎゅうひ",
     "q": "menchougyuuhi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f411102b-602b-47c0-aeba-89e5dd7c121e"
   },
   {
     "disp": "面目一新",
     "kana": "めんもくいっしん",
     "q": "menmokuisshin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f7367a51-b354-44f8-99f9-de3250b62a1a"
   },
   {
     "disp": "目指気使",
     "kana": "もくしきし",
     "q": "mokushikishi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a8d089a8-d86a-4211-93ac-226663f803d1"
   },
   {
     "disp": "門外不出",
     "kana": "もんがいふしゅつ",
     "q": "mongaifushutsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "7fd6b364-2668-40da-9c09-07ec88fbabbf"
   },
   {
     "disp": "門戸開放",
     "kana": "もんこかいほう",
     "q": "monkokaihou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "4d97901c-d4f3-4245-9473-6cf33cee8549"
   },
   {
     "disp": "門前成市",
     "kana": "もんぜんせいし",
     "q": "monzenseishi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "f9ffa214-3da7-44b7-92b6-49fd5b4d24db"
   },
   {
     "disp": "問答無益",
     "kana": "もんどうむえき",
     "q": "mondoumueki",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "4ab55ec2-8624-498e-a733-ede0f738d94b"
   },
   {
     "disp": "問答無用",
     "kana": "もんどうむよう",
     "q": "mondoumuyou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "98b6ed5d-e844-4567-898c-aa97f58be3bb"
   },
   {
     "disp": "薬石無効",
     "kana": "やくせきむこう",
     "q": "yakusekimukou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c2aaf8fb-e957-4d1c-b194-06f59aa1d49b"
   },
   {
     "disp": "約法三章",
     "kana": "やくほうさんしょう",
     "q": "yakuhousanshou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ce3ca168-279f-4a71-a95b-01c0d2684ba3"
   },
   {
     "disp": "有言実行",
     "kana": "ゆうげんじっこう",
     "q": "yuugenjikkou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "59f0eda1-1ac7-4a9f-9029-2173c663cd67"
   },
   {
     "disp": "右文左武",
     "kana": "ゆうぶんさぶ",
     "q": "yuubunsabu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "d9e5675a-2d6d-402a-8492-2005ef3a8954"
   },
   {
     "disp": "有名無実",
     "kana": "ゆうめいむじつ",
     "q": "yuumeimujitsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "69556f89-10ad-4386-a09d-32ae959ef1e2"
   },
   {
     "disp": "油断大敵",
     "kana": "ゆだんたいてき",
     "q": "yudantaiteki",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "5b52126c-b8b1-417b-9acc-0e49b5dce432"
   },
   {
     "disp": "用行舎蔵",
     "kana": "ようこうしゃぞう",
     "q": "youkoushazou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c548bcd2-53b6-47fe-80ed-61ae0b71a192"
   },
   {
     "disp": "用舎行蔵",
     "kana": "ようしゃこうぞう",
     "q": "youshakouzou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ff272e88-792b-4d43-bebe-d30ae0b8790c"
   },
   {
     "disp": "羊腸小径",
     "kana": "ようちょうしょうけい",
     "q": "youchoushoukei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "cb2e41dc-e1c4-4a8e-ad5f-cadb5aecd5cb"
   },
   {
     "disp": "夜目遠目",
     "kana": "よめとおめ",
     "q": "yometoome",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "4ce1fb37-20fa-4c9d-8d9c-3ede9afad30b"
   },
   {
     "disp": "落花流水",
     "kana": "らっかりゅうすい",
     "q": "rakkaryuusui",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "ea2ac120-b645-4a58-8cc2-4832f416e759"
   },
   {
     "disp": "覧古考新",
     "kana": "らんここうしん",
     "q": "rankokoushin",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "419b898f-e91f-4271-bf48-41acb3733ab8"
   },
   {
     "disp": "乱雑無章",
     "kana": "らんざつむしょう",
     "q": "ranzatsumushou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "922ee125-50bd-4845-a09b-4a164afe7f42"
   },
   {
     "disp": "利害得失",
     "kana": "りがいとくしつ",
     "q": "rigaitokushitsu",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c29470d7-4d51-4100-a7e6-141baf36f090"
   },
   {
     "disp": "立身出世",
     "kana": "りっしんしゅっせ",
     "q": "risshinshusse",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "a237c0c0-d281-4f2c-8e33-9543bce5ae8a"
   },
   {
     "disp": "理非曲直",
     "kana": "りひきょくちょく",
     "q": "rihikyokuchoku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "b9826279-bdd5-4496-a5e6-1bc997f8d913"
   },
   {
     "disp": "流星光底",
     "kana": "りゅうせいこうてい",
     "q": "ryuuseikoutei",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "84bcb4ca-4a83-4750-832a-5711e68b4764"
   },
   {
     "disp": "量才録用",
     "kana": "りょうさいろくよう",
     "q": "ryousairokuyou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "e6fac5db-3635-4ff4-ba0b-6a0a66edf0da"
   },
   {
     "disp": "量体裁衣",
     "kana": "りょうたいさいい",
     "q": "ryoutaisaii",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "597330a2-cea3-43ad-b7a0-58d6055eb36a"
   },
   {
     "disp": "良知良能",
     "kana": "りょうちりょうのう",
     "q": "ryouchiryounou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "535b2aed-d2f3-4b17-b41b-6b5b1ce878c4"
   },
   {
     "disp": "理路整然",
     "kana": "りろせいぜん",
     "q": "riroseizen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c5b4baae-e46f-4ef8-ad48-261aae5c40d2"
   },
   {
     "disp": "臨機応変",
     "kana": "りんきおうへん",
     "q": "rinkiouhen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "47404af0-1ed5-4985-95d0-262de205bd64"
   },
   {
     "disp": "臨終正念",
     "kana": "りんじゅうしょうねん",
     "q": "rinjuushounen",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "fa2b0046-7fde-456d-a03f-cb5e8f151207"
   },
   {
     "disp": "冷暖自知",
     "kana": "れいだんじち",
     "q": "reidanjichi",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "19d69999-3c6d-4537-8b1b-c4eb3569a833"
   },
   {
     "disp": "老少不定",
     "kana": "ろうしょうふじょう",
     "q": "roushoufujou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "e051bb9f-a4fd-421c-8424-fbdd5c375344"
   },
   {
     "disp": "老成円熟",
     "kana": "ろうせいえんじゅく",
     "q": "rouseienjuku",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "8b7fd9d7-083e-4f63-9cdd-1389eef7358a"
   },
   {
     "disp": "老成持重",
     "kana": "ろうせいじちょう",
     "q": "rouseijichou",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "c57f235d-7dea-479c-9966-6512134b8b3a"
   },
   {
     "disp": "和顔愛語",
     "kana": "わがんあいご",
     "q": "wagannaigo",
-    "lang": "ja"
+    "lang": "ja",
+    "uuid": "3f1c79b4-b262-46a7-ac50-64be508a59b3"
   }
 ]

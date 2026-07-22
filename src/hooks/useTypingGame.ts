@@ -114,6 +114,7 @@ export function useTypingGame(settings: Settings) {
         settingsRef.current.category,
         settingsRef.current.questionCount,
         settingsRef.current.study,
+        settingsRef.current.hideMastered,
       );
       loaded = load.sentences;
       loadedReviews = load.reviews;

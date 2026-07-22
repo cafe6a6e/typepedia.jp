@@ -30,6 +30,7 @@ test("saveSettings / loadSettings round-trips a full settings object", () => {
     cMapping: { ...DEFAULT_SETTINGS.cMapping, ca: "s" },
     study: { reviewFrequencyHours: 12, reviewCount: 5, reviewRatio: 0.25 },
     autoPlayAudio: false,
+    hideMastered: false,
   };
   saveSettings(custom);
   expect(loadSettings()).toEqual(custom);

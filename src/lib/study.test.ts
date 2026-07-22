@@ -11,7 +11,12 @@ import {
 // localStorage is provided by happy-dom (see test/setup.ts).
 
 const CAT = "eiken_1st_grade";
-const S: Sentence = { disp: "apple", q: "apple", lang: "en" };
+const S: Sentence = {
+  disp: "apple",
+  q: "apple",
+  lang: "en",
+  uuid: "uuid-apple",
+};
 const STUDY = { reviewFrequencyHours: 8, reviewCount: 3, reviewRatio: 0.5 };
 // Same settings but due immediately (used to retrieve items regardless of time).
 const NOW = { ...STUDY, reviewFrequencyHours: 0 };
@@ -76,7 +81,11 @@ test("later reviews show the actual last-presented time", () => {
 
 test("getDueReviews only returns items in the requested category", () => {
   setLearning(CAT, S, true);
-  setLearning("kanken_pre1st_grade", { disp: "犬", q: "inu", lang: "ja" }, true);
+  setLearning(
+    "kanken_pre1st_grade",
+    { disp: "犬", q: "inu", lang: "ja", uuid: "uuid-inu" },
+    true,
+  );
   const due = getDueReviews(CAT, NOW);
   expect(due).toHaveLength(1);
   expect(due[0].q).toBe(S.q);
@@ -85,9 +94,9 @@ test("getDueReviews only returns items in the requested category", () => {
 test("getDueReviews is inclusive at exactly the frequency boundary", () => {
   setLearning(CAT, S, true);
   // registeredTs is "now"; a 0h window means now - reg (>= 0) qualifies.
-  expect(getDueReviews(CAT, { ...STUDY, reviewFrequencyHours: 0 })).toHaveLength(
-    1,
-  );
+  expect(
+    getDueReviews(CAT, { ...STUDY, reviewFrequencyHours: 0 }),
+  ).toHaveLength(1);
 });
 
 test("a graduated item (reviewsDone == reviewCount) is never due", () => {
