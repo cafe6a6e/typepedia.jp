@@ -48,6 +48,18 @@ test("復習割合 is clamped to the 0–100 range", () => {
   expect(loadSettings().study.reviewRatio).toBe(1);
 });
 
+test("入力部分を隠す toggles and persists", () => {
+  render(<SettingsPage />);
+  const toggle = screen.getByRole("checkbox", { name: /入力部分を隠す/ });
+  expect(loadSettings().hideInput).toBe(false);
+
+  fireEvent.click(toggle);
+  expect(loadSettings().hideInput).toBe(true);
+
+  fireEvent.click(toggle);
+  expect(loadSettings().hideInput).toBe(false);
+});
+
 test("choosing a romaji c-mapping side persists it", () => {
   render(<SettingsPage />);
   // "さ" is the さ行 choice for the "ca" input only.
@@ -58,7 +70,8 @@ test("choosing a romaji c-mapping side persists it", () => {
 test("the ？ tip reveals its explanation on click", () => {
   render(<SettingsPage />);
   expect(screen.queryByText(/前回の出題から/)).toBeNull();
-  // Tips in DOM order: [0] 音声再生, [1] 覚えた問題, [2] 復習頻度, … — click 復習頻度.
-  fireEvent.click(screen.getAllByLabelText("説明を表示")[2]);
+  // Tips in DOM order: [0] 音声再生, [1] 覚えた問題, [2] 入力部分を隠す,
+  // [3] 復習頻度, … — click 復習頻度.
+  fireEvent.click(screen.getAllByLabelText("説明を表示")[3]);
   expect(screen.getByText(/前回の出題から/)).toBeDefined();
 });

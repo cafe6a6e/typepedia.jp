@@ -12,7 +12,7 @@ const UUID = "test-uuid-apple";
 const sentence = { disp: "apple", q: "apple", lang: "en" as const, uuid: UUID };
 const matcher = compileMatcher("apple", DEFAULT_SETTINGS, "en");
 
-function renderView(suspendKeys = mock(() => {})) {
+function renderView(suspendKeys = mock(() => {}), hideInput = false) {
   render(
     <PlayingView
       index={0}
@@ -27,6 +27,7 @@ function renderView(suspendKeys = mock(() => {})) {
       categoryId={CAT}
       review={null}
       autoPlayAudio={false}
+      hideInput={hideInput}
       suspendKeys={suspendKeys}
     />,
   );
@@ -67,6 +68,7 @@ test("shows a review banner when the question is a review", () => {
       categoryId={CAT}
       review={{ attempt: 2, lastReviewedTs: Date.now() }}
       autoPlayAudio={false}
+      hideInput={false}
       suspendKeys={mock(() => {})}
     />,
   );
@@ -108,4 +110,25 @@ test("marking 完全に覚えた persists by uuid", () => {
   fireEvent.click(screen.getByRole("button", { name: "OK" }));
 
   expect(isMastered(UUID)).toBe(true);
+});
+
+test("no 答えを見る button when the input is not hidden", () => {
+  renderView();
+  expect(screen.queryByRole("button", { name: /答えを見る/ })).toBeNull();
+});
+
+test("答えを見る reveals the hidden input for the current question", () => {
+  renderView(mock(() => {}), true);
+  // Paragraphs: [0] 問題文(disp), [1] 入力行, [2] 操作ヒント.
+  const typingLine = () =>
+    (document.querySelectorAll("p")[1].textContent ?? "").replace(
+      /\u00a0/g,
+      "",
+    );
+
+  expect(typingLine()).toBe(""); // caret only — "apple" is hidden
+  fireEvent.click(screen.getByRole("button", { name: /答えを見る/ }));
+
+  expect(typingLine()).toBe("apple");
+  expect(screen.queryByRole("button", { name: /答えを見る/ })).toBeNull();
 });

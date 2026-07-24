@@ -19,6 +19,7 @@ export const DEFAULT_SETTINGS: Settings = {
   study: { ...DEFAULT_STUDY_SETTINGS },
   autoPlayAudio: true,
   hideMastered: true,
+  hideInput: false,
 };
 
 /** Keep only known inputs and valid sides, filling gaps from the defaults. */
@@ -88,6 +89,10 @@ export function loadSettings(): Settings {
         typeof parsed.hideMastered === "boolean"
           ? parsed.hideMastered
           : DEFAULT_SETTINGS.hideMastered,
+      hideInput:
+        typeof parsed.hideInput === "boolean"
+          ? parsed.hideInput
+          : DEFAULT_SETTINGS.hideInput,
     };
   } catch {
     return { ...DEFAULT_SETTINGS };

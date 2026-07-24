@@ -25,6 +25,8 @@ interface Props {
   review: ReviewInfo | null;
   /** Auto-play the question audio when an English question is shown. */
   autoPlayAudio: boolean;
+  /** Hide the typing line except the characters already typed correctly. */
+  hideInput: boolean;
   /** Pause/resume the game key listener while the memo modal is open. */
   suspendKeys: (v: boolean) => void;
 }
@@ -43,9 +45,15 @@ export function PlayingView({
   categoryId,
   review,
   autoPlayAudio,
+  hideInput,
   suspendKeys,
 }: Props) {
   const [memoOpen, setMemoOpen] = useState(false);
+  // 入力部分を隠す設定でも、思い出せないときはこの問題だけ表示できる。
+  const [revealed, setRevealed] = useState(false);
+
+  // 次の問題に進んだら、また隠した状態に戻す。
+  useEffect(() => setRevealed(false), [index]);
 
   // 英語題材では問題文（q）が英文なので、それを読み上げる。
   const isEnglish = sentence.lang === "en";
@@ -114,7 +122,26 @@ export function PlayingView({
             ）
           </p>
         )}
-        <SentenceView sentence={sentence} matcher={matcher} engine={engine} />
+        <SentenceView
+          sentence={sentence}
+          matcher={matcher}
+          engine={engine}
+          hideInput={hideInput && !revealed}
+        />
+        {hideInput && !revealed && (
+          <button
+            type="button"
+            onClick={(e) => {
+              // クリックでフォーカスを奪わない（Space はタイピング入力のため）。
+              e.currentTarget.blur();
+              setRevealed(true);
+            }}
+            className="flex items-center gap-2 rounded-full border border-white/15 px-4 py-1.5 text-sm text-white/70 hover:bg-white/5"
+          >
+            <span aria-hidden="true">👁</span>
+            答えを見る
+          </button>
+        )}
         {canPlayAudio && (
           <button
             type="button"

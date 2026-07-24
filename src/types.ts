@@ -76,6 +76,8 @@ export interface Settings {
   autoPlayAudio: boolean;
   /** 「完全に覚えた」問題を今後の出題から除外するか（既定 true）。 */
   hideMastered: boolean;
+  /** 入力部分（q）を、正解済みの文字だけ表示して隠すか（既定 false）。 */
+  hideInput: boolean;
 }
 
 /** Reference info attached to a review question shown during play. */

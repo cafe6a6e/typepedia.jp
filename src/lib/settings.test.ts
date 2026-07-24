@@ -31,6 +31,7 @@ test("saveSettings / loadSettings round-trips a full settings object", () => {
     study: { reviewFrequencyHours: 12, reviewCount: 5, reviewRatio: 0.25 },
     autoPlayAudio: false,
     hideMastered: false,
+    hideInput: true,
   };
   saveSettings(custom);
   expect(loadSettings()).toEqual(custom);
@@ -57,6 +58,21 @@ test("category falls back to default when empty or non-string", () => {
   expect(loadSettings().category).toBe(DEFAULT_SETTINGS.category);
   seed({ category: 42 });
   expect(loadSettings().category).toBe(DEFAULT_SETTINGS.category);
+});
+
+test("boolean flags fall back to defaults when missing or not booleans", () => {
+  seed({ username: "bob" });
+  expect(loadSettings().hideInput).toBe(DEFAULT_SETTINGS.hideInput);
+  expect(loadSettings().hideMastered).toBe(DEFAULT_SETTINGS.hideMastered);
+  expect(loadSettings().autoPlayAudio).toBe(DEFAULT_SETTINGS.autoPlayAudio);
+
+  seed({ hideInput: "yes", hideMastered: 0, autoPlayAudio: null });
+  expect(loadSettings().hideInput).toBe(DEFAULT_SETTINGS.hideInput);
+  expect(loadSettings().hideMastered).toBe(DEFAULT_SETTINGS.hideMastered);
+  expect(loadSettings().autoPlayAudio).toBe(DEFAULT_SETTINGS.autoPlayAudio);
+
+  seed({ hideInput: true });
+  expect(loadSettings().hideInput).toBe(true);
 });
 
 // --- 学習設定: normalizeStudy clamping (boundary conditions) ---

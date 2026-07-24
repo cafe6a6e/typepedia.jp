@@ -92,6 +92,7 @@ export function StartPage() {
             categoryId={settings.category}
             review={game.currentReview}
             autoPlayAudio={settings.autoPlayAudio}
+            hideInput={settings.hideInput}
             suspendKeys={game.suspendKeys}
           />
         )}

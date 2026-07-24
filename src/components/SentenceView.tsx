@@ -5,6 +5,12 @@ interface Props {
   sentence: Sentence;
   matcher: Matcher;
   engine: EngineState;
+  /**
+   * Hide the not-yet-typed part of the typing line, showing only the
+   * characters already answered correctly. Used to practise recalling kanji
+   * readings / English spellings instead of copying them.
+   */
+  hideInput?: boolean;
 }
 
 /** Make half-width spaces visible (and JP romaji unaffected). */
@@ -17,10 +23,17 @@ function isSpaceSlot(slot: Slot): boolean {
 }
 
 /** Renders the display text plus the typing line with typed/cursor/remaining. */
-export function SentenceView({ sentence, matcher, engine }: Props) {
+export function SentenceView({
+  sentence,
+  matcher,
+  engine,
+  hideInput = false,
+}: Props) {
   const { slotIndex, buffer } = engine;
 
   // Colored fragment for a single slot (typed = green, cursor = boxed, rest = faint).
+  // When hiding, everything past the cursor is dropped — not even its length
+  // leaks — and the cursor becomes a blank block so the line stays visible.
   const renderSlot = (slot: Slot, i: number) => {
     if (i < slotIndex) {
       return (
@@ -36,17 +49,26 @@ export function SentenceView({ sentence, matcher, engine }: Props) {
       return (
         <span key={i}>
           <span className="text-green-400">{vis(buffer)}</span>
-          {remainder.length > 0 && (
-            <>
-              <span className="bg-white/30 text-white rounded-sm">
-                {vis(remainder[0])}
+          {remainder.length > 0 &&
+            (hideInput ? (
+              <span
+                aria-hidden="true"
+                className="bg-white/30 text-transparent rounded-sm"
+              >
+                {" "}
               </span>
-              <span className="text-white/40">{vis(remainder.slice(1))}</span>
-            </>
-          )}
+            ) : (
+              <>
+                <span className="bg-white/30 text-white rounded-sm">
+                  {vis(remainder[0])}
+                </span>
+                <span className="text-white/40">{vis(remainder.slice(1))}</span>
+              </>
+            ))}
         </span>
       );
     }
+    if (hideInput) return null;
     return (
       <span key={i} className="text-white/40">
         {vis(slot.variants[0])}

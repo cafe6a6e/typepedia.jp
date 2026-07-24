@@ -96,6 +96,19 @@ export function SettingsPage() {
             <Tip text="メモ画面で「完全に覚えた」にした問題を、今後の出題（新規・復習とも）から除外します。オフにすると、覚えた問題も通常どおり出題されます。進捗率にはどちらの設定でも反映されます。" />
           </span>
         </label>
+
+        <label className="flex items-center gap-3 cursor-pointer max-w-md">
+          <input
+            type="checkbox"
+            checked={settings.hideInput}
+            onChange={(e) => update({ hideInput: e.target.checked })}
+            className="h-4 w-4 accent-green-500"
+          />
+          <span className="text-sm text-white/60">
+            入力部分を隠す
+            <Tip text="出題画面の入力部分（ローマ字・英文）を隠し、正解した文字だけを表示します。漢字の読みや英単語のつづりを思い出しながら入力する練習になります。思い出せないときは、出題画面の「答えを見る」でその問題だけ表示できます。" />
+          </span>
+        </label>
       </section>
 
       <section className="mb-8">
