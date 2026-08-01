@@ -232,8 +232,8 @@
   },
   {
     "disp": "七五三の記念に、縁起の良い千歳飴を子供がとても喜んで食べました。",
-    "kana": "ななごさんのきねんに、えんぎのよいちとせあめをこどもがとてもよろこんでたべました。",
-    "q": "nanagosannnokinennni,ennginoyoichitoseamewokodomogatotemoyorokonndetabemashita.",
+    "kana": "しちごさんのきねんに、えんぎのよいちとせあめをこどもがとてもよろこんでたべました。",
+    "q": "shichigosannnokinennni,ennginoyoichitoseamewokodomogatotemoyorokonndetabemashita.",
     "lang": "ja",
     "uuid": "8ebe4d22-6efe-4feb-b5c2-abc69e23af9a"
   },
@@ -680,8 +680,8 @@
   },
   {
     "disp": "昨日市場で買った笠子を焼いて、家族みんなで美味しくいただきました。",
-    "kana": "きのうしじょうでかったかさごをやいて、かぞくみんなでおいしくいただきました。",
-    "q": "kinoushijoudekattakasagowoyaite,kazokuminnnadeoishikuitadakimashita.",
+    "kana": "きのういちばでかったかさごをやいて、かぞくみんなでおいしくいただきました。",
+    "q": "kinouichibadekattakasagowoyaite,kazokuminnnadeoishikuitadakimashita.",
     "lang": "ja",
     "uuid": "6b98d9b1-235f-4a4e-b5c1-19f42282a3d5"
   },
@@ -715,8 +715,8 @@
   },
   {
     "disp": "散歩道で見つけた狗尾草は、犬の尾のような穂が揺れて可愛かった。",
-    "kana": "さんぽどうでみつけたえのころぐさは、いぬのおのようなほがゆれてかわいかった。",
-    "q": "sannpodoudemitsuketaenokorogusaha,inunoonoyounahogayuretekawaikatta.",
+    "kana": "さんぽみちでみつけたえのころぐさは、いぬのおのようなほがゆれてかわいかった。",
+    "q": "sannpomichidemitsuketaenokorogusaha,inunoonoyounahogayuretekawaikatta.",
     "lang": "ja",
     "uuid": "ac0bfff8-259f-407f-aec1-66b22540edef"
   },
@@ -2290,8 +2290,8 @@
   },
   {
     "disp": "彼の疲れた様子には、とても深い惻楚が表れていた。",
-    "kana": "かれのつかれたようすには、とてもぶかいそくそがあらわれていた。",
-    "q": "karenotsukaretayousuniha,totemobukaisokusogaarawareteita.",
+    "kana": "かれのつかれたようすには、とてもふかいそくそがあらわれていた。",
+    "q": "karenotsukaretayousuniha,totemofukaisokusogaarawareteita.",
     "lang": "ja",
     "uuid": "43dbd7f9-6bc8-4158-835f-38264ccb7a17"
   },
@@ -2598,8 +2598,8 @@
   },
   {
     "disp": "優しい彼女は、弱った子猫を家に迎え、深い憐愛で温かく育てた。",
-    "kana": "やさしいかのじょは、よわったこねこをいえにむかえ、ぶかいれんあいであたたかくそだてた。",
-    "q": "yasashiikanojoha,yowattakonekowoienimukae,bukairennaideatatakakusodateta.",
+    "kana": "やさしいかのじょは、よわったこねこをいえにむかえ、ふかいれんあいであたたかくそだてた。",
+    "q": "yasashiikanojoha,yowattakonekowoienimukae,fukairennaideatatakakusodateta.",
     "lang": "ja",
     "uuid": "a4b5eeba-8110-4e60-9293-bfe930f9202a"
   },
@@ -2871,8 +2871,8 @@
   },
   {
     "disp": "僧侶が仏の戒律を受けたことを示す書き物が、戒牒と呼ばれるものです。",
-    "kana": "そうりょがふつのかいりつをうけたことをしめすかきものが、かいちょうとよばれるものです。",
-    "q": "souryogafutsunokairitsuwouketakotowoshimesukakimonoga,kaichoutoyobarerumonodesu.",
+    "kana": "そうりょがほとけのかいりつをうけたことをしめすかきものが、かいちょうとよばれるものです。",
+    "q": "souryogahotokenokairitsuwouketakotowoshimesukakimonoga,kaichoutoyobarerumonodesu.",
     "lang": "ja",
     "uuid": "091e5af7-1b43-40ed-84ce-a32aa7e269b9"
   },
@@ -3473,8 +3473,8 @@
   },
   {
     "disp": "入浴時に垢擦りをして、体中の古い汚れをきれいに落としています。",
-    "kana": "にゅうよくじにあかすりをして、たいちゅうのふるいよごれをきれいにおとしています。",
-    "q": "nyuuyokujiniakasuriwoshite,taichuunofuruiyogorewokireiniotoshiteimasu.",
+    "kana": "にゅうよくじにあかすりをして、からだじゅうのふるいよごれをきれいにおとしています。",
+    "q": "nyuuyokujiniakasuriwoshite,karadajuunofuruiyogorewokireiniotoshiteimasu.",
     "lang": "ja",
     "uuid": "e42255f3-a3e1-410b-8af7-308b5923074f"
   },
@@ -4033,8 +4033,8 @@
   },
   {
     "disp": "皮綴じのアルバムは、写真が傷つかなくてとても気に入っています。",
-    "kana": "かわとじのあるばむは、しゃしんがきずつかなくてとてもきにはいっています。",
-    "q": "kawatojinoarubamuha,shashinngakizutsukanakutetotemokinihaitteimasu.",
+    "kana": "かわとじのあるばむは、しゃしんがきずつかなくてとてもきにいっています。",
+    "q": "kawatojinoarubamuha,shashinngakizutsukanakutetotemokiniitteimasu.",
     "lang": "ja",
     "uuid": "5afbb9f7-8905-4bb6-86e8-c356d7918b06"
   },
@@ -4242,7 +4242,7 @@
     "uuid": "e9678f97-5ff6-40df-9c83-a52cf16bb4a5"
   },
   {
-    "disp": "昔の夏、川でさで網を使って小魚をすくうのが好きだった。",
+    "disp": "昔の夏、川で叉手網を使って小魚をすくうのが好きだった。",
     "kana": "むかしのなつ、かわでさであみをつかってこざかなをすくうのがすきだった。",
     "q": "mukashinonatsu,kawadesadeamiwotsukattekozakanawosukuunogasukidatta.",
     "lang": "ja",
@@ -4341,8 +4341,8 @@
   },
   {
     "disp": "仏壇に置かれた閼伽は、仏様に供える水を入れるための器です。",
-    "kana": "ぶつだんにおかれたあかは、ふつさまにそなえるみずをいれるためのうつわです。",
-    "q": "butsudannniokaretaakaha,futsusamanisonaerumizuwoirerutamenoutsuwadesu.",
+    "kana": "ぶつだんにおかれたあかは、ほとけさまにそなえるみずをいれるためのうつわです。",
+    "q": "butsudannniokaretaakaha,hotokesamanisonaerumizuwoirerutamenoutsuwadesu.",
     "lang": "ja",
     "uuid": "0fd9df39-9cce-49da-af78-f1e2f5108a78"
   },
@@ -4460,8 +4460,8 @@
   },
   {
     "disp": "彼は混雑した人ごみを掻い潜る術を身につけることに成功した。",
-    "kana": "かれはこんざつしたひとごみをかいくぐるじゅつをみにつけることにせいこうした。",
-    "q": "karehakonnzatsushitahitogomiwokaikugurujutsuwominitsukerukotoniseikoushita.",
+    "kana": "かれはこんざつしたひとごみをかいくぐるすべをみにつけることにせいこうした。",
+    "q": "karehakonnzatsushitahitogomiwokaikugurusubewominitsukerukotoniseikoushita.",
     "lang": "ja",
     "uuid": "1d232944-b27b-4394-85cf-c89a4daec950"
   },
@@ -4726,8 +4726,8 @@
   },
   {
     "disp": "散歩道にある大きな楓の木が、秋になると美しい赤色に染まります。",
-    "kana": "さんぽどうにあるおおきなかえでのきが、あきになるとうつくしいあかいろにそまります。",
-    "q": "sannpodouniaruookinakaedenokiga,akininarutoutsukushiiakaironisomarimasu.",
+    "kana": "さんぽみちにあるおおきなかえでのきが、あきになるとうつくしいあかいろにそまります。",
+    "q": "sannpomichiniaruookinakaedenokiga,akininarutoutsukushiiakaironisomarimasu.",
     "lang": "ja",
     "uuid": "776ac07a-e912-4579-9fc6-89f9587dc459"
   },
@@ -4760,7 +4760,7 @@
     "uuid": "a3d5f7ac-d24f-4fd9-a748-f2210e913a11"
   },
   {
-    "disp": "毎日通っているカフェには、顔なじみの店員さんがいて安心する。",
+    "disp": "毎日通っているカフェには、顔馴染みの店員さんがいて安心する。",
     "kana": "まいにちかよっているかふぇには、かおなじみのてんいんさんがいてあんしんする。",
     "q": "mainichikayotteirukafeniha,kaonajiminotenninnsanngaiteannshinnsuru.",
     "lang": "ja",
@@ -5006,15 +5006,15 @@
   },
   {
     "disp": "庭に植えた隠れ蓑は、秋の終わりに黒紫色の実をたくさん熟した。",
-    "kana": "にわにうえたかくれみのは、あきのおわりにこくししょくのじつをたくさんじゅくした。",
-    "q": "niwaniuetakakureminoha,akinoowarinikokushishokunojitsuwotakusannjukushita.",
+    "kana": "にわにうえたかくれみのは、あきのおわりにくろむらさきいろのみをたくさんじゅくした。",
+    "q": "niwaniuetakakureminoha,akinoowarinikuromurasakiironomiwotakusannjukushita.",
     "lang": "ja",
     "uuid": "83051094-e0c9-4823-9758-37550e9aff09"
   },
   {
     "disp": "秋茄子は種が少なくて美味しいので、秋の終わり頃が旬です。",
-    "kana": "あきなすはしゅがすくなくておいしいので、あきのおわりごろがしゅんです。",
-    "q": "akinasuhashugasukunakuteoishiinode,akinoowarigorogashunndesu.",
+    "kana": "あきなすはたねがすくなくておいしいので、あきのおわりごろがしゅんです。",
+    "q": "akinasuhatanegasukunakuteoishiinode,akinoowarigorogashunndesu.",
     "lang": "ja",
     "uuid": "1b30068d-bccd-48d1-9511-5d2f0cf2263f"
   },
@@ -5244,8 +5244,8 @@
   },
   {
     "disp": "昨夜、市場で買った新鮮な旗魚のステーキを家族で美味しく食べました。",
-    "kana": "さくや、しじょうでかったしんせんなかじきのすてーきをかぞくでおいしくたべました。",
-    "q": "sakuya,shijoudekattashinnsennnakajikinosute-kiwokazokudeoishikutabemashita.",
+    "kana": "さくや、いちばでかったしんせんなかじきのすてーきをかぞくでおいしくたべました。",
+    "q": "sakuya,ichibadekattashinnsennnakajikinosute-kiwokazokudeoishikutabemashita.",
     "lang": "ja",
     "uuid": "24a95776-1080-41a5-9d40-b865d6c1710e"
   },
@@ -5853,8 +5853,8 @@
   },
   {
     "disp": "朝の市場は喧しいので、ゆっくり寝ることができません。",
-    "kana": "あさのしじょうはかまびすしいので、ゆっくりねることができません。",
-    "q": "asanoshijouhakamabisushiinode,yukkurinerukotogadekimasenn.",
+    "kana": "あさのいちばはかまびすしいので、ゆっくりねることができません。",
+    "q": "asanoichibahakamabisushiinode,yukkurinerukotogadekimasenn.",
     "lang": "ja",
     "uuid": "e5119446-6e67-4271-af9f-2273aac37d6a"
   },
@@ -6091,8 +6091,8 @@
   },
   {
     "disp": "昨日、市場で買った鮮やかな赤魚鯛を焼いて食べたが、とても美味しかった。",
-    "kana": "きのう、しじょうでかったあざやかなあこうだいをやいてたべたが、とてもおいしかった。",
-    "q": "kinou,shijoudekattaazayakanaakoudaiwoyaitetabetaga,totemooishikatta.",
+    "kana": "きのう、いちばでかったあざやかなあこうだいをやいてたべたが、とてもおいしかった。",
+    "q": "kinou,ichibadekattaazayakanaakoudaiwoyaitetabetaga,totemooishikatta.",
     "lang": "ja",
     "uuid": "305bf9b9-d1e0-41bb-b727-b3b0e7522d0b"
   },
@@ -6322,8 +6322,8 @@
   },
   {
     "disp": "市場には悪徳な姦商もいるので、購入前には十分に注意しよう。",
-    "kana": "しじょうにはあくとくなかんしょうもいるので、こうにゅうまえにはじゅうぶんにちゅういしよう。",
-    "q": "shijounihaakutokunakannshoumoirunode,kounyuumaenihajuubunnnichuuishiyou.",
+    "kana": "いちばにはあくとくなかんしょうもいるので、こうにゅうまえにはじゅうぶんにちゅういしよう。",
+    "q": "ichibanihaakutokunakannshoumoirunode,kounyuumaenihajuubunnnichuuishiyou.",
     "lang": "ja",
     "uuid": "9f5a998e-7cea-4e29-970f-5e7f00cc0d0f"
   },
