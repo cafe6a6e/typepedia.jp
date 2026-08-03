@@ -84,6 +84,19 @@ test("fetchSentenceFile infers lang (en when disp==q & ASCII, else ja)", async (
   expect(out.map((s: Sentence) => s.lang)).toEqual(["en", "ja", "ja", "ja"]);
 });
 
+test("fetchSentenceFile keeps kana (the Japanese speech source)", async () => {
+  const raw: RawSentence[] = [
+    { disp: "悪衣悪食", kana: "あくいあくしょく", q: "akuiakushoku" },
+    { disp: "apple", q: "apple" }, // English entries have no kana
+  ];
+  installFetch([], raw);
+  const out = await fetchSentenceFile({ category: CAT, id: 1 });
+  expect(out.map((s: Sentence) => s.kana)).toEqual([
+    "あくいあくしょく",
+    undefined,
+  ]);
+});
+
 test("loadGameSentences throws when the category has no files", async () => {
   installFetch([{ category: "other", id: 1 }], []);
   await expect(loadGameSentences(CAT, 10, STUDY)).rejects.toThrow();

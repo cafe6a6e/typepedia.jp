@@ -23,7 +23,7 @@ interface Props {
   categoryId: string;
   /** Set when this question is a review; drives the reference banner. */
   review: ReviewInfo | null;
-  /** Auto-play the question audio when an English question is shown. */
+  /** Auto-play the question audio each time a question is shown. */
   autoPlayAudio: boolean;
   /** Hide the typing line except the characters already typed correctly. */
   hideInput: boolean;
@@ -55,16 +55,23 @@ export function PlayingView({
   // 次の問題に進んだら、また隠した状態に戻す。
   useEffect(() => setRevealed(false), [index]);
 
-  // 英語題材では問題文（q）が英文なので、それを読み上げる。
+  // 英語題材では問題文（q）が英文なので、それを読み上げる。日本語題材は読み（kana）を
+  // 読み上げる —— 漢字のままだと四字熟語や難読語を誤読するため。kana を持たない
+  // 旧 localStorage の復習項目などでは disp で代用する。
   const isEnglish = sentence.lang === "en";
-  const audioText = sentence.q;
-  const canPlayAudio = isEnglish && canSpeak();
+  const audioText = isEnglish
+    ? sentence.q
+    : sentence.kana?.trim() || sentence.disp;
+  const speechLang = isEnglish ? "en-US" : "ja-JP";
+  // 日本語はひらがなを読ませるぶん冗長になりがちなので 2 倍速で再生する。
+  const speechRate = isEnglish ? 1 : 2;
+  const canPlayAudio = canSpeak() && audioText.trim() !== "";
 
   // 出題（=index が変わるたび）と同時に、設定が有効なら自動再生する。
-  // index を依存に含めることで、同じ英文が連続しても問題が変われば再生される。
+  // index を依存に含めることで、同じ問題文が連続しても問題が変われば再生される。
   useEffect(() => {
-    if (canPlayAudio && autoPlayAudio) speak(audioText);
-  }, [index, canPlayAudio, autoPlayAudio, audioText]);
+    if (canPlayAudio && autoPlayAudio) speak(audioText, speechLang, speechRate);
+  }, [index, canPlayAudio, autoPlayAudio, audioText, speechLang, speechRate]);
 
   const openMemo = () => {
     suspendKeys(true);
@@ -148,7 +155,7 @@ export function PlayingView({
             onClick={(e) => {
               // クリックでフォーカスを奪わない（Space はタイピング入力のため）。
               e.currentTarget.blur();
-              speak(audioText);
+              speak(audioText, speechLang, speechRate);
             }}
             aria-label="問題文を読み上げる"
             className="flex items-center gap-2 rounded-full border border-white/15 px-4 py-1.5 text-sm text-white/70 hover:bg-white/5"

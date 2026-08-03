@@ -125,6 +125,21 @@ test("enabling learning fresh resets progress", () => {
   expect(item.reviewsDone).toBe(0); // reset
 });
 
+test("a Japanese item keeps its kana through a review round-trip", () => {
+  // The review path rebuilds sentences from StudyItem, so kana (the speech
+  // source for Japanese questions) has to survive storage.
+  const ja: Sentence = {
+    disp: "悪衣悪食",
+    q: "akuiakushoku",
+    kana: "あくいあくしょく",
+    lang: "ja",
+    uuid: "uuid-akui",
+  };
+  setLearning("yoji_01_kyu5", ja, true);
+  const [item] = getDueReviews("yoji_01_kyu5", NOW);
+  expect(item.kana).toBe("あくいあくしょく");
+});
+
 test("setLearning(false) on an untracked item is a no-op", () => {
   setLearning(CAT, S, false);
   expect(isLearning(CAT, S.q)).toBe(false);

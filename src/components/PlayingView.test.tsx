@@ -1,4 +1,4 @@
-import { beforeEach, expect, mock, test } from "bun:test";
+import { afterEach, beforeEach, expect, mock, test } from "bun:test";
 import { fireEvent, render, screen } from "@testing-library/react";
 import { PlayingView } from "@/components/PlayingView";
 import { isMastered } from "@/lib/mastery";
@@ -6,6 +6,7 @@ import { getMemos } from "@/lib/memo";
 import { compileMatcher } from "@/lib/romajiEngine";
 import { DEFAULT_SETTINGS } from "@/lib/settings";
 import { isLearning } from "@/lib/study";
+import type { Sentence } from "@/types";
 
 const CAT = "eiken_1st_grade";
 const UUID = "test-uuid-apple";
@@ -34,8 +35,69 @@ function renderView(suspendKeys = mock(() => {}), hideInput = false) {
   return suspendKeys;
 }
 
+/** One recorded utterance. */
+interface Spoken {
+  text: string;
+  lang: string;
+  rate: number;
+}
+
+/** happy-dom has no Web Speech API, so canSpeak() is false unless we stub it. */
+function installSpeechStub(): Spoken[] {
+  const spoken: Spoken[] = [];
+  class FakeUtterance {
+    lang = "";
+    rate = 1;
+    constructor(public text: string) {}
+  }
+  const g = globalThis as unknown as Record<string, unknown>;
+  g.SpeechSynthesisUtterance = FakeUtterance;
+  g.speechSynthesis = {
+    cancel() {},
+    speak(u: FakeUtterance) {
+      spoken.push({ text: u.text, lang: u.lang, rate: u.rate });
+    },
+  };
+  return spoken;
+}
+
+function renderSpeaking(s: Sentence, autoPlayAudio = true) {
+  render(
+    <PlayingView
+      index={0}
+      total={1}
+      correct={0}
+      miss={0}
+      missFlash={0}
+      sentence={s}
+      matcher={compileMatcher(s.q, DEFAULT_SETTINGS, s.lang)}
+      engine={{ slotIndex: 0, buffer: "" }}
+      category="四字熟語（漢検5級）"
+      categoryId="yoji_01_kyu5"
+      review={null}
+      autoPlayAudio={autoPlayAudio}
+      hideInput={false}
+      suspendKeys={mock(() => {})}
+    />,
+  );
+}
+
+const JA: Sentence = {
+  disp: "悪衣悪食",
+  q: "akuiakushoku",
+  kana: "あくいあくしょく",
+  lang: "ja",
+  uuid: "uuid-akui",
+};
+
 beforeEach(() => {
   localStorage.clear();
+});
+
+afterEach(() => {
+  const g = globalThis as unknown as Record<string, unknown>;
+  delete g.SpeechSynthesisUtterance;
+  delete g.speechSynthesis;
 });
 
 test("shows the Esc / Shift+Enter hint", () => {
@@ -110,6 +172,48 @@ test("marking 完全に覚えた persists by uuid", () => {
   fireEvent.click(screen.getByRole("button", { name: "OK" }));
 
   expect(isMastered(UUID)).toBe(true);
+});
+
+// --- speech ---
+
+test("a Japanese question is auto-played as kana in ja-JP at 2x", () => {
+  // 漢字のままだと四字熟語を誤読するので、読み（kana）を読み上げる。
+  const spoken = installSpeechStub();
+  renderSpeaking(JA);
+  expect(spoken).toEqual([
+    { text: "あくいあくしょく", lang: "ja-JP", rate: 2 },
+  ]);
+});
+
+test("a Japanese question without kana falls back to disp", () => {
+  const spoken = installSpeechStub();
+  renderSpeaking({ ...JA, kana: undefined });
+  expect(spoken).toEqual([{ text: "悪衣悪食", lang: "ja-JP", rate: 2 }]);
+});
+
+test("an English question is still auto-played as the English text at 1x", () => {
+  const spoken = installSpeechStub();
+  renderSpeaking({ disp: "りんご", q: "an apple", lang: "en", uuid: "u-en" });
+  expect(spoken).toEqual([{ text: "an apple", lang: "en-US", rate: 1 }]);
+});
+
+test("音声を再生 plays a Japanese question on demand with autoplay off", () => {
+  const spoken = installSpeechStub();
+  renderSpeaking(JA, false);
+  expect(spoken).toHaveLength(0);
+
+  fireEvent.click(screen.getByRole("button", { name: "問題文を読み上げる" }));
+  expect(spoken).toEqual([
+    { text: "あくいあくしょく", lang: "ja-JP", rate: 2 },
+  ]);
+});
+
+test("no 音声を再生 button when speech synthesis is unavailable", () => {
+  // No stub installed → canSpeak() is false.
+  renderSpeaking(JA);
+  expect(
+    screen.queryByRole("button", { name: "問題文を読み上げる" }),
+  ).toBeNull();
 });
 
 test("no 答えを見る button when the input is not hidden", () => {

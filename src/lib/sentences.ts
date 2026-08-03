@@ -22,6 +22,7 @@ function normalize(raw: RawSentence): Sentence {
   return {
     disp: raw.disp,
     q: raw.q,
+    kana: raw.kana,
     lang: inferLang(raw),
     uuid: raw.uuid ?? "",
   };
@@ -128,7 +129,13 @@ export async function loadGameSentences(
 
   const combined: { sentence: Sentence; review: ReviewInfo | null }[] = [
     ...pickedReviews.map((it) => ({
-      sentence: { disp: it.disp, q: it.q, lang: it.lang, uuid: it.uuid ?? "" },
+      sentence: {
+        disp: it.disp,
+        q: it.q,
+        kana: it.kana,
+        lang: it.lang,
+        uuid: it.uuid ?? "",
+      },
       review: reviewInfoOf(it),
     })),
     ...pickedFresh.map((s) => ({ sentence: s, review: null })),

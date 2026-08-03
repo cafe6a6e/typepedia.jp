@@ -7,6 +7,8 @@ export type Lang = "ja" | "en";
 export interface RawSentence {
   disp: string;
   q: string;
+  /** Reading in hiragana (Japanese entries only) — used for speech synthesis. */
+  kana?: string;
   lang?: Lang;
   /** Stable per-sentence identity (added by scripts/addUuids.ts). */
   uuid?: string;
@@ -16,6 +18,8 @@ export interface RawSentence {
 export interface Sentence {
   disp: string;
   q: string;
+  /** Reading in hiragana; absent for English and ad-hoc/test sentences. */
+  kana?: string;
   lang: Lang;
   /** Stable per-sentence identity. Empty string only for ad-hoc/test sentences. */
   uuid: string;
@@ -72,7 +76,7 @@ export interface Settings {
   cMapping: Record<string, "k" | "s">;
   /** 学習設定: spaced-review parameters. */
   study: StudySettings;
-  /** 英語題材で、出題と同時に問題文の音声を自動再生するか。 */
+  /** 出題と同時に、問題文（英文／日本語の読み）の音声を自動再生するか。 */
   autoPlayAudio: boolean;
   /** 「完全に覚えた」問題を今後の出題から除外するか（既定 true）。 */
   hideMastered: boolean;
