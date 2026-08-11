@@ -883,8 +883,8 @@
   },
   {
     "disp": "きのこ狩りに、きのこが生える茸山へ家族で行った。",
-    "kana": "きのこかりに、きのこがはえるたけやまへかぞくでおこなった。",
-    "q": "kinokokarini,kinokogahaerutakeyamahekazokudeokonatta.",
+    "kana": "きのこがりに、きのこがはえるたけやまへかぞくでいった。",
+    "q": "kinokogarini,kinokogahaerutakeyamahekazokudeitta.",
     "lang": "ja",
     "uuid": "4c7bbcfc-3ff5-4fa6-84d6-1a367e47c95c"
   },
@@ -1415,8 +1415,8 @@
   },
   {
     "disp": "春の湿原の池塘には、水鳥たちが静かに泳いでいました。",
-    "kana": "はるのしつげんのちとうには、みずとりたちがしずかにおよいでいました。",
-    "q": "harunoshitsugennnochitouniha,mizutoritachigashizukanioyoideimashita.",
+    "kana": "はるのしつげんのちとうには、みずどりたちがしずかにおよいでいました。",
+    "q": "harunoshitsugennnochitouniha,mizudoritachigashizukanioyoideimashita.",
     "lang": "ja",
     "uuid": "9a4446cd-399b-4f58-b6fa-2d1eeb86826e"
   },
@@ -1947,8 +1947,8 @@
   },
   {
     "disp": "昔からの同朋と再会し、懐かしい思い出話をしました。",
-    "kana": "むかしからのどうぼうとさいかいし、なつかしいおもいではなしをしました。",
-    "q": "mukashikaranodouboutosaikaishi,natsukashiiomoidehanashiwoshimashita.",
+    "kana": "むかしからのどうぼうとさいかいし、なつかしいおもいでばなしをしました。",
+    "q": "mukashikaranodouboutosaikaishi,natsukashiiomoidebanashiwoshimashita.",
     "lang": "ja",
     "uuid": "e37f215d-88de-43ec-8f24-40bbf3d8df59"
   },
@@ -2045,8 +2045,8 @@
   },
   {
     "disp": "秋のきのこ狩りでは毒茸に注意して安全に楽しみましょう。",
-    "kana": "あきのきのこかりではどくたけにちゅういしてあんぜんにたのしみましょう。",
-    "q": "akinokinokokaridehadokutakenichuuishiteannzennnitanoshimimashou.",
+    "kana": "あきのきのこがりではどくたけにちゅういしてあんぜんにたのしみましょう。",
+    "q": "akinokinokogaridehadokutakenichuuishiteannzennnitanoshimimashou.",
     "lang": "ja",
     "uuid": "bf60d634-a780-4e80-b4d9-4b244f90e811"
   },
@@ -2458,8 +2458,8 @@
   },
   {
     "disp": "丑年の人は牛のように真面目で優しい性格をしていると言われています。",
-    "kana": "うしねんのひとはうしのようにまじめでやさしいせいかくをしているといわれています。",
-    "q": "ushinennnohitohaushinoyounimajimedeyasashiiseikakuwoshiteirutoiwareteimasu.",
+    "kana": "うしどしのひとはうしのようにまじめでやさしいせいかくをしているといわれています。",
+    "q": "ushidoshinohitohaushinoyounimajimedeyasashiiseikakuwoshiteirutoiwareteimasu.",
     "lang": "ja",
     "uuid": "6ed7f141-c90f-4453-8b43-726675ebdd0a"
   },
@@ -4180,8 +4180,8 @@
   },
   {
     "disp": "博物館で見た鳩杖は、八十歳以上の功臣に下賜された老人用の杖です。",
-    "kana": "はくぶつかんでみたはとづえは、はちじゅうさいいじょうのこうしんにかしされたろうじんようのつえです。",
-    "q": "hakubutsukanndemitahatodueha,hachijuusaiijounokoushinnnikashisaretaroujinnyounotsuedesu.",
+    "kana": "はくぶつかんでみたはとづえは、はちじゅっさいいじょうのこうしんにかしされたろうじんようのつえです。",
+    "q": "hakubutsukanndemitahatodueha,hachijussaiijounokoushinnnikashisaretaroujinnyounotsuedesu.",
     "lang": "ja",
     "uuid": "8da20f0c-dd8e-46b1-b006-7df912de3d57"
   },
@@ -4362,8 +4362,8 @@
   },
   {
     "disp": "私は新年の運勢を卜うために、初詣で神社にお参りしました。",
-    "kana": "わたしはしんねんのうんせいをうらなうために、はつもうでじんじゃにおまいりしました。",
-    "q": "watashihashinnnennnounnseiwouranautameni,hatsumoudejinnjaniomairishimashita.",
+    "kana": "わたしはしんねんのうんせいをうらなうために、はつもうででじんじゃにおまいりしました。",
+    "q": "watashihashinnnennnounnseiwouranautameni,hatsumoudedejinnjaniomairishimashita.",
     "lang": "ja",
     "uuid": "d2256745-35a5-4550-b38a-4474903b1514"
   },
@@ -6693,8 +6693,8 @@
   },
   {
     "disp": "螺鈿の光る箱を飾って、部屋を華やかにしました。",
-    "kana": "らでんのひかるばこをかざって、へやをはなやかにしました。",
-    "q": "radennnohikarubakowokazatte,heyawohanayakanishimashita.",
+    "kana": "らでんのひかるはこをかざって、へやをはなやかにしました。",
+    "q": "radennnohikaruhakowokazatte,heyawohanayakanishimashita.",
     "lang": "ja",
     "uuid": "62108f1a-1fae-4f98-87ea-06d7ef898f64"
   },
@@ -6742,8 +6742,8 @@
   },
   {
     "disp": "古い図書館で貴重な蘭書を見つけて、興味深く読みました。",
-    "kana": "ふるいとしょかんできちょうならんしょをみつけて、きょうみふかくよみました。",
-    "q": "furuitoshokanndekichounarannshowomitsukete,kyoumifukakuyomimashita.",
+    "kana": "ふるいとしょかんできちょうならんしょをみつけて、きょうみぶかくよみました。",
+    "q": "furuitoshokanndekichounarannshowomitsukete,kyoumibukakuyomimashita.",
     "lang": "ja",
     "uuid": "364745d0-7b9f-4f60-95b9-261cb2900149"
   },

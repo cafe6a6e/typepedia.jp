@@ -1939,9 +1939,9 @@
     "uuid": "c36ae5cc-3589-48f4-9d01-141b8faf3758"
   },
   {
-    "disp": "彼の距離感が恰當地で、周囲と良好な関係を築くことができた。",
-    "kana": "かれのきょりかんがこうとうちで、しゅういとりょうこうなかんけいをきずくことができた。",
-    "q": "karenokyorikanngakoutouchide,shuuitoryoukounakannkeiwokizukukotogadekita.",
+    "disp": "恰當とは、ちょうどよくぴったりである、という意味です。",
+    "kana": "こうとうとは、ちょうどよくぴったりである、といういみです。",
+    "q": "koutoutoha,choudoyokupittaridearu,toiuimidesu.",
     "lang": "ja",
     "uuid": "ea32853a-b07e-4de3-b134-ac1335aa6bca"
   },
@@ -2843,8 +2843,8 @@
   },
   {
     "disp": "成劫は世界が生まれる最初の区分で、仏教の四劫の一つです。",
-    "kana": "じょうごうはせかいがうまれるさいしょのくぶんで、ぶっきょうのよんこうのひとつです。",
-    "q": "jougouhasekaigaumarerusaishonokubunnde,bukkyounoyonnkounohitotsudesu.",
+    "kana": "じょうごうはせかいがうまれるさいしょのくぶんで、ぶっきょうのしこうのひとつです。",
+    "q": "jougouhasekaigaumarerusaishonokubunnde,bukkyounoshikounohitotsudesu.",
     "lang": "ja",
     "uuid": "4343c68a-e072-41f7-91bf-f470bb687488"
   },
@@ -3094,7 +3094,7 @@
     "uuid": "3d018d31-ec2d-4151-9f2e-8cfbf8368189"
   },
   {
-    "disp": "最近、中国の神話に登場する悪神鴅吺という存在について学びました。",
+    "disp": "最近、中国の神話に登場する悪神驩兜という存在について学びました。",
     "kana": "さいきん、ちゅうごくのしんわにとうじょうするあくしんかんとうというそんざいについてまなびました。",
     "q": "saikinn,chuugokunoshinnwanitoujousuruakushinnkanntoutoiusonnzainitsuitemanabimashita.",
     "lang": "ja",
@@ -3487,8 +3487,8 @@
   },
   {
     "disp": "祖母の古い料理本には、トマトを赤茄子と書いてありました。",
-    "kana": "そぼのふるいりょうりほんには、とまとをあかなすとかいてありました。",
-    "q": "sobonofuruiryourihonnniha,tomatowoakanasutokaitearimashita.",
+    "kana": "そぼのふるいりょうりぼんには、とまとをあかなすとかいてありました。",
+    "q": "sobonofuruiryouribonnniha,tomatowoakanasutokaitearimashita.",
     "lang": "ja",
     "uuid": "aadf3b4e-8628-4dd0-8062-3b6963945e3a"
   },
@@ -4222,8 +4222,8 @@
   },
   {
     "disp": "昔の馬の羈には、額に房をつけて装飾を施すこともあります。",
-    "kana": "むかしのうまのおもがいには、がくにふさをつけてそうしょくをほどこすこともあります。",
-    "q": "mukashinoumanoomogainiha,gakunifusawotsuketesoushokuwohodokosukotomoarimasu.",
+    "kana": "むかしのうまのおもがいには、ひたいにふさをつけてそうしょくをほどこすこともあります。",
+    "q": "mukashinoumanoomogainiha,hitainifusawotsuketesoushokuwohodokosukotomoarimasu.",
     "lang": "ja",
     "uuid": "9c1f9863-76b7-4a64-8a97-c8044b7283ee"
   },
@@ -6020,7 +6020,7 @@
     "uuid": "147667eb-b508-4dac-af66-93763a79a4d7"
   },
   {
-    "disp": "焼肉には黄色い辛子を付けて食べると、より美味しくなります。",
+    "disp": "焼肉には黄色い芥子を付けて食べると、より美味しくなります。",
     "kana": "やきにくにはきいろいからしをつけてたべると、よりおいしくなります。",
     "q": "yakinikunihakiiroikarashiwotsuketetaberuto,yorioishikunarimasu.",
     "lang": "ja",

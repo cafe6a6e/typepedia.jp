@@ -393,8 +393,8 @@
   },
   {
     "disp": "阿修羅はインド神話の神で、仏教では仏法の守護神とされています。",
-    "kana": "あしゅらはいんどしんわのかみで、ぶっきょうではぶっぽうのしゅごかみとされています。",
-    "q": "ashurahainndoshinnwanokamide,bukkyoudehabuppounoshugokamitosareteimasu.",
+    "kana": "あしゅらはいんどしんわのかみで、ぶっきょうではぶっぽうのしゅごしんとされています。",
+    "q": "ashurahainndoshinnwanokamide,bukkyoudehabuppounoshugoshinntosareteimasu.",
     "lang": "ja",
     "uuid": "9f732e3c-63ae-4516-acc5-d5b31e661357"
   },
@@ -2520,7 +2520,7 @@
     "uuid": "7b5eeaf1-df7c-4369-874a-4b361e54f36d"
   },
   {
-    "disp": "黄牛と呼ばれるあめ色の牛は、昔は立派な牛とされました。",
+    "disp": "飴牛と呼ばれるあめ色の牛は、昔は立派な牛とされました。",
     "kana": "あめうしとよばれるあめいろのうしは、むかしはりっぱなうしとされました。",
     "q": "ameushitoyobareruameironoushiha,mukashiharippanaushitosaremashita.",
     "lang": "ja",
@@ -4894,8 +4894,8 @@
   },
   {
     "disp": "昨日、近所の農家の方が田んぼに除草剤を撒布していました。",
-    "kana": "きのう、きんじょののうかのほうがたんぼにじょそうざいをさんぷしていました。",
-    "q": "kinou,kinnjononoukanohougatannbonijosouzaiwosannpushiteimashita.",
+    "kana": "きのう、きんじょののうかのかたがたんぼにじょそうざいをさんぷしていました。",
+    "q": "kinou,kinnjononoukanokatagatannbonijosouzaiwosannpushiteimashita.",
     "lang": "ja",
     "uuid": "8665803c-e616-4088-a5dd-849ab6b016ae"
   },
