@@ -1,5 +1,4 @@
 import { beforeEach, expect, test } from "bun:test";
-import type { Sentence } from "@/types";
 import {
   getDueReviews,
   isLearning,
@@ -7,6 +6,7 @@ import {
   reviewInfoOf,
   setLearning,
 } from "@/lib/study";
+import type { Sentence } from "@/types";
 
 // localStorage is provided by happy-dom (see test/setup.ts).
 

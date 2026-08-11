@@ -11,7 +11,8 @@ export function AboutPage() {
         <h3 className="text-lg font-semibold mb-3">このアプリについて</h3>
         <div className="flex flex-col gap-3 text-sm leading-relaxed text-white/70">
           <p>
-            Typepedia は「タイピング練習」と「新しい知識の定着」の両方の実現をコンセプトに作られたタイピングアプリです。
+            Typepedia
+            は「タイピング練習」と「新しい知識の定着」の両方の実現をコンセプトに作られたタイピングアプリです。
           </p>
           <p>
             漢検・英検の各級に相当する語彙や表現を題材にした例文をタイピングすることで、指を動かしながら自然と知識が身についていくことを目指しています。

@@ -1,7 +1,7 @@
 import { beforeEach, expect, test } from "bun:test";
 import { fireEvent, render, screen } from "@testing-library/react";
-import { MemoPage } from "@/pages/MemoPage";
 import { addMemo, getMemos } from "@/lib/memo";
+import { MemoPage } from "@/pages/MemoPage";
 
 function seed() {
   addMemo({ category: "英語", disp: "apple", q: "apple", note: "A" });

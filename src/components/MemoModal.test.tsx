@@ -88,3 +88,18 @@ test("Escape dismisses the modal", () => {
   fireEvent.keyDown(learningSwitch(), { key: "Escape" });
   expect(onCancel).toHaveBeenCalled();
 });
+
+test("clicking the backdrop dismisses, clicking inside the card does not", () => {
+  const { onCancel } = renderModal(false);
+  // 学習中トグルの祖先をたどると カード → 背景オーバーレイ。
+  const card = learningSwitch().closest("div.rounded-lg") as HTMLElement;
+  const overlay = card.parentElement as HTMLElement;
+
+  fireEvent.click(card);
+  expect(onCancel).not.toHaveBeenCalled();
+  fireEvent.click(learningSwitch());
+  expect(onCancel).not.toHaveBeenCalled();
+
+  fireEvent.click(overlay);
+  expect(onCancel).toHaveBeenCalledTimes(1);
+});

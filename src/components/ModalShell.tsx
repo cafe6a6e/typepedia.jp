@@ -58,14 +58,16 @@ export function ModalShell({
     // biome-ignore lint/a11y/noStaticElementInteractions: overlay click/Esc to dismiss.
     <div
       className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4"
-      onClick={onDismiss}
+      // 背景そのものを押したときだけ閉じる。カード内のクリックは target が
+      // 子要素になるので、カード側で stopPropagation する必要がない。
+      onClick={(e) => {
+        if (e.target === e.currentTarget) onDismiss();
+      }}
       onKeyDown={handleKeyDown}
     >
-      {/* biome-ignore lint/a11y/noStaticElementInteractions: stop overlay dismiss. */}
       <div
         ref={cardRef}
         className={`w-full ${widthClass} rounded-lg border border-white/15 bg-neutral-900 p-6 shadow-xl`}
-        onClick={(e) => e.stopPropagation()}
       >
         {children}
       </div>

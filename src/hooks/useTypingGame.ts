@@ -160,7 +160,8 @@ export function useTypingGame(settings: Settings) {
             slot?.variants[0] ??
             "";
           const expected = variant[buffer.length] ?? key;
-          const byKey = (keyMissRef.current[expected] ??= {});
+          keyMissRef.current[expected] ??= {};
+          const byKey = keyMissRef.current[expected];
           byKey[key] = (byKey[key] ?? 0) + 1;
         }
         lastWasMissRef.current = true;

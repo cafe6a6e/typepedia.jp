@@ -58,8 +58,9 @@ export function ResultView({ result, onBack }: Props) {
           <p>
             正解率 = <span className="font-bold">{accuracyPct}%</span>{" "}
             <span className="text-white/50">
-              （正解数 <span className="font-mono text-green-400">{correct}</span>{" "}
-              / 総打鍵数 <span className="font-mono text-white">{total}</span>）
+              （正解数{" "}
+              <span className="font-mono text-green-400">{correct}</span> /
+              総打鍵数 <span className="font-mono text-white">{total}</span>）
             </span>
           </p>
           <p>

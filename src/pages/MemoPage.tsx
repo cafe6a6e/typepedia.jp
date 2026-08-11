@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ConfirmModal } from "@/components/ConfirmModal";
 import { usePageTitle } from "@/hooks/usePageTitle";
-import { type Memo, deleteMemos, formatTimestamp, getMemos } from "@/lib/memo";
+import { deleteMemos, formatTimestamp, getMemos, type Memo } from "@/lib/memo";
 
 export function MemoPage() {
   usePageTitle("メモ");

@@ -32,8 +32,24 @@ const base: ScoreResult = {
     },
   ],
   highAccuracyKeys: [
-    { key: "a", correct: 20, miss: 0, total: 20, accuracy: 1, missRate: 0, wrongKeys: [] },
-    { key: "s", correct: 15, miss: 0, total: 15, accuracy: 1, missRate: 0, wrongKeys: [] },
+    {
+      key: "a",
+      correct: 20,
+      miss: 0,
+      total: 20,
+      accuracy: 1,
+      missRate: 0,
+      wrongKeys: [],
+    },
+    {
+      key: "s",
+      correct: 15,
+      miss: 0,
+      total: 15,
+      accuracy: 1,
+      missRate: 0,
+      wrongKeys: [],
+    },
   ],
 };
 
@@ -71,7 +87,15 @@ test("no low-accuracy keys shows the celebratory empty state", () => {
     accuracy: 1,
     lowAccuracyKeys: [],
     highAccuracyKeys: [
-      { key: "a", correct: 20, miss: 0, total: 20, accuracy: 1, missRate: 0, wrongKeys: [] },
+      {
+        key: "a",
+        correct: 20,
+        miss: 0,
+        total: 20,
+        accuracy: 1,
+        missRate: 0,
+        wrongKeys: [],
+      },
     ],
   };
   render(<ResultView result={clean} onBack={mock(() => {})} />);
