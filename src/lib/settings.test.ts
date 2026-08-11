@@ -30,6 +30,9 @@ test("saveSettings / loadSettings round-trips a full settings object", () => {
     cMapping: { ...DEFAULT_SETTINGS.cMapping, ca: "s" },
     study: { reviewFrequencyHours: 12, reviewCount: 5, reviewRatio: 0.25 },
     autoPlayAudio: false,
+    speechRate: 1.4,
+    speechVoiceJa: "uri:Google 日本語",
+    speechVoiceEn: "uri:Google US English",
     hideMastered: false,
     hideInput: true,
   };
@@ -73,6 +76,32 @@ test("boolean flags fall back to defaults when missing or not booleans", () => {
 
   seed({ hideInput: true });
   expect(loadSettings().hideInput).toBe(true);
+});
+
+// --- 読み上げ設定 ---
+
+test("speechRate must be finite and within [0.5, 2]", () => {
+  const d = DEFAULT_SETTINGS.speechRate;
+  seed({ speechRate: 0.4 });
+  expect(loadSettings().speechRate).toBe(d);
+  seed({ speechRate: 2.1 });
+  expect(loadSettings().speechRate).toBe(d);
+  seed({ speechRate: "x" });
+  expect(loadSettings().speechRate).toBe(d);
+  seed({ username: "bob" }); // 未設定（旧バージョンの localStorage）
+  expect(loadSettings().speechRate).toBe(d);
+  seed({ speechRate: 0.5 });
+  expect(loadSettings().speechRate).toBe(0.5);
+  seed({ speechRate: 2 });
+  expect(loadSettings().speechRate).toBe(2);
+});
+
+test("voice selections fall back to auto (empty) when not strings", () => {
+  seed({ speechVoiceJa: 42, speechVoiceEn: null });
+  expect(loadSettings().speechVoiceJa).toBe("");
+  expect(loadSettings().speechVoiceEn).toBe("");
+  seed({ speechVoiceJa: "uri:Kyoko" });
+  expect(loadSettings().speechVoiceJa).toBe("uri:Kyoko");
 });
 
 // --- 学習設定: normalizeStudy clamping (boundary conditions) ---

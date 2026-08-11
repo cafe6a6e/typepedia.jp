@@ -1,7 +1,7 @@
 import { beforeEach, expect, test } from "bun:test";
 import { fireEvent, render, screen } from "@testing-library/react";
-import { SettingsPage } from "@/pages/SettingsPage";
 import { loadSettings } from "@/lib/settings";
+import { SettingsPage } from "@/pages/SettingsPage";
 
 beforeEach(() => {
   localStorage.clear();
@@ -60,6 +60,28 @@ test("入力部分を隠す toggles and persists", () => {
   expect(loadSettings().hideInput).toBe(false);
 });
 
+test("読み上げ速度 persists and is shown next to the slider", () => {
+  render(<SettingsPage />);
+  const slider = screen.getByRole("slider", { name: /読み上げ速度/ });
+  expect(screen.getByText(/読み上げ速度（1.0倍）/)).toBeDefined();
+
+  fireEvent.change(slider, { target: { value: "1.4" } });
+
+  expect(loadSettings().speechRate).toBe(1.4);
+  expect(screen.getByText(/読み上げ速度（1.4倍）/)).toBeDefined();
+});
+
+test("the voice pickers explain themselves when no voices are available", () => {
+  // happy-dom has no Web Speech API, so useVoices() stays empty.
+  render(<SettingsPage />);
+  expect(
+    screen.getByText("日本語の音声：この環境では選択できる音声がありません"),
+  ).toBeDefined();
+  expect(
+    screen.getByText("英語の音声：この環境では選択できる音声がありません"),
+  ).toBeDefined();
+});
+
 test("choosing a romaji c-mapping side persists it", () => {
   render(<SettingsPage />);
   // "さ" is the さ行 choice for the "ca" input only.
@@ -70,8 +92,8 @@ test("choosing a romaji c-mapping side persists it", () => {
 test("the ？ tip reveals its explanation on click", () => {
   render(<SettingsPage />);
   expect(screen.queryByText(/前回の出題から/)).toBeNull();
-  // Tips in DOM order: [0] 音声再生, [1] 覚えた問題, [2] 入力部分を隠す,
-  // [3] 復習頻度, … — click 復習頻度.
-  fireEvent.click(screen.getAllByLabelText("説明を表示")[3]);
+  // Tips in DOM order: [0] 音声再生, [1] 読み上げ速度, [2] 覚えた問題,
+  // [3] 入力部分を隠す, [4] 復習頻度, … — click 復習頻度.
+  fireEvent.click(screen.getAllByLabelText("説明を表示")[4]);
   expect(screen.getByText(/前回の出題から/)).toBeDefined();
 });

@@ -3,7 +3,8 @@ import { MemoModal } from "@/components/MemoModal";
 import { SentenceView } from "@/components/SentenceView";
 import { isMastered, setMastered } from "@/lib/mastery";
 import { addMemo, formatTimestamp } from "@/lib/memo";
-import { canSpeak, speak } from "@/lib/speech";
+import { canSpeak, speak, stopSpeaking } from "@/lib/speech";
+import { JA_LANG, speechTextOf } from "@/lib/speechText";
 import { isLearning, setLearning } from "@/lib/study";
 import type { EngineState, Matcher, ReviewInfo, Sentence } from "@/types";
 
@@ -25,6 +26,12 @@ interface Props {
   review: ReviewInfo | null;
   /** Auto-play the question audio each time a question is shown. */
   autoPlayAudio: boolean;
+  /** Speech rate (1 = normal). */
+  speechRate: number;
+  /** voiceURI chosen for Japanese; empty selects one automatically. */
+  speechVoiceJa: string;
+  /** voiceURI chosen for English; empty selects one automatically. */
+  speechVoiceEn: string;
   /** Hide the typing line except the characters already typed correctly. */
   hideInput: boolean;
   /** Pause/resume the game key listener while the memo modal is open. */
@@ -45,6 +52,9 @@ export function PlayingView({
   categoryId,
   review,
   autoPlayAudio,
+  speechRate,
+  speechVoiceJa,
+  speechVoiceEn,
   hideInput,
   suspendKeys,
 }: Props) {
@@ -53,25 +63,35 @@ export function PlayingView({
   const [revealed, setRevealed] = useState(false);
 
   // 次の問題に進んだら、また隠した状態に戻す。
+  // biome-ignore lint/correctness/useExhaustiveDependencies: index は本体では参照しないが「問題が変わった」ことを表す唯一の依存なので意図的に含める。
   useEffect(() => setRevealed(false), [index]);
 
-  // 英語題材では問題文（q）が英文なので、それを読み上げる。日本語題材は読み（kana）を
-  // 読み上げる —— 漢字のままだと四字熟語や難読語を誤読するため。kana を持たない
-  // 旧 localStorage の復習項目などでは disp で代用する。
-  const isEnglish = sentence.lang === "en";
-  const audioText = isEnglish
-    ? sentence.q
-    : sentence.kana?.trim() || sentence.disp;
-  const speechLang = isEnglish ? "en-US" : "ja-JP";
-  // 日本語はひらがなを読ませるぶん冗長になりがちなので 2 倍速で再生する。
-  const speechRate = isEnglish ? 1 : 2;
+  // 何をどの言語で読み上げるかは speechTextOf が決める（英文／漢字かな交じりの文／
+  // 四字熟語の読みがな）。音声は言語ごとにユーザーが選べる。
+  const { text: audioText, lang: speechLang } = speechTextOf(sentence);
+  const voiceURI = speechLang === JA_LANG ? speechVoiceJa : speechVoiceEn;
   const canPlayAudio = canSpeak() && audioText.trim() !== "";
+  const playAudio = () =>
+    speak(audioText, { lang: speechLang, rate: speechRate, voiceURI });
 
   // 出題（=index が変わるたび）と同時に、設定が有効なら自動再生する。
   // index を依存に含めることで、同じ問題文が連続しても問題が変われば再生される。
+  // biome-ignore lint/correctness/useExhaustiveDependencies: 同上（index は再生のトリガーとしてのみ必要で、本体では参照しない）。
   useEffect(() => {
-    if (canPlayAudio && autoPlayAudio) speak(audioText, speechLang, speechRate);
-  }, [index, canPlayAudio, autoPlayAudio, audioText, speechLang, speechRate]);
+    if (canPlayAudio && autoPlayAudio)
+      speak(audioText, { lang: speechLang, rate: speechRate, voiceURI });
+  }, [
+    index,
+    canPlayAudio,
+    autoPlayAudio,
+    audioText,
+    speechLang,
+    speechRate,
+    voiceURI,
+  ]);
+
+  // 出題画面を離れたら発話も止める（Esc でコース選択に戻ったあとも鳴り続けないように）。
+  useEffect(() => stopSpeaking, []);
 
   const openMemo = () => {
     suspendKeys(true);
@@ -155,7 +175,7 @@ export function PlayingView({
             onClick={(e) => {
               // クリックでフォーカスを奪わない（Space はタイピング入力のため）。
               e.currentTarget.blur();
-              speak(audioText, speechLang, speechRate);
+              playAudio();
             }}
             aria-label="問題文を読み上げる"
             className="flex items-center gap-2 rounded-full border border-white/15 px-4 py-1.5 text-sm text-white/70 hover:bg-white/5"

@@ -1,6 +1,7 @@
 /** Load/save user settings in localStorage with safe defaults. */
 import { DEFAULT_CATEGORY } from "@/lib/categories";
 import { C_INPUTS, DEFAULT_C_MAPPING } from "@/lib/romajiTable";
+import { DEFAULT_RATE, MAX_RATE, MIN_RATE } from "@/lib/speech";
 import type { Settings, StudySettings } from "@/types";
 
 const STORAGE_KEY = "typing-game:settings";
@@ -18,9 +19,21 @@ export const DEFAULT_SETTINGS: Settings = {
   cMapping: { ...DEFAULT_C_MAPPING },
   study: { ...DEFAULT_STUDY_SETTINGS },
   autoPlayAudio: true,
+  speechRate: DEFAULT_RATE,
+  speechVoiceJa: "",
+  speechVoiceEn: "",
   hideMastered: true,
   hideInput: false,
 };
+
+/** Keep the speech rate inside the range the Web Speech API is usable at. */
+function normalizeRate(raw: unknown): number {
+  const rate = Number(raw);
+  if (!Number.isFinite(rate) || rate < MIN_RATE || rate > MAX_RATE) {
+    return DEFAULT_RATE;
+  }
+  return rate;
+}
 
 /** Keep only known inputs and valid sides, filling gaps from the defaults. */
 function normalizeCMapping(raw: unknown): Record<string, "k" | "s"> {
@@ -85,6 +98,15 @@ export function loadSettings(): Settings {
         typeof parsed.autoPlayAudio === "boolean"
           ? parsed.autoPlayAudio
           : DEFAULT_SETTINGS.autoPlayAudio,
+      speechRate: normalizeRate(parsed.speechRate),
+      speechVoiceJa:
+        typeof parsed.speechVoiceJa === "string"
+          ? parsed.speechVoiceJa
+          : DEFAULT_SETTINGS.speechVoiceJa,
+      speechVoiceEn:
+        typeof parsed.speechVoiceEn === "string"
+          ? parsed.speechVoiceEn
+          : DEFAULT_SETTINGS.speechVoiceEn,
       hideMastered:
         typeof parsed.hideMastered === "boolean"
           ? parsed.hideMastered

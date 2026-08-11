@@ -78,6 +78,12 @@ export interface Settings {
   study: StudySettings;
   /** 出題と同時に、問題文（英文／日本語の読み）の音声を自動再生するか。 */
   autoPlayAudio: boolean;
+  /** 読み上げ速度（1 = 等速）。MIN_RATE〜MAX_RATE の範囲。 */
+  speechRate: number;
+  /** 日本語の読み上げに使う音声の voiceURI。空文字は自動選択。 */
+  speechVoiceJa: string;
+  /** 英語の読み上げに使う音声の voiceURI。空文字は自動選択。 */
+  speechVoiceEn: string;
   /** 「完全に覚えた」問題を今後の出題から除外するか（既定 true）。 */
   hideMastered: boolean;
   /** 入力部分（q）を、正解済みの文字だけ表示して隠すか（既定 false）。 */

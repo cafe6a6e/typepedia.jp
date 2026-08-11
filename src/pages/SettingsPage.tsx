@@ -1,7 +1,17 @@
 import { useState } from "react";
 import { usePageTitle } from "@/hooks/usePageTitle";
 import { useSettings } from "@/hooks/useSettings";
+import { useVoices } from "@/hooks/useVoices";
 import { C_CHOICES, C_INPUTS, type CSide } from "@/lib/romajiTable";
+import {
+  MAX_RATE,
+  MIN_RATE,
+  pickVoice,
+  speak,
+  stopSpeaking,
+  voicesFor,
+} from "@/lib/speech";
+import { EN_LANG, JA_LANG } from "@/lib/speechText";
 import type { StudySettings } from "@/types";
 
 /** Small "？" affordance that reveals an explanation on click. */
@@ -23,6 +33,76 @@ function Tip({ text }: { text: string }) {
         </span>
       )}
     </span>
+  );
+}
+
+/**
+ * 言語ごとの読み上げ音声を選ぶドロップダウンと、その場で確かめられる試聴ボタン。
+ * 使える音声は端末やブラウザによって違うので、既定の「自動」では品質の高いものを
+ * 優先して選ぶ（実際に選ばれる音声名を括弧で示す）。
+ */
+function VoiceSelect({
+  label,
+  lang,
+  sample,
+  value,
+  rate,
+  onChange,
+}: {
+  label: string;
+  lang: string;
+  /** 試聴で読み上げる短い文。 */
+  sample: string;
+  /** 選択中の voiceURI（空文字は自動）。 */
+  value: string;
+  rate: number;
+  onChange: (voiceURI: string) => void;
+}) {
+  const voices = useVoices();
+  const options = voicesFor(voices, lang);
+  const auto = pickVoice(options, lang);
+
+  // 音声はブラウザが非同期に読み込むため、まだ 0 件のことがある。
+  if (options.length === 0) {
+    return (
+      <p className="text-sm text-white/40">
+        {label}：この環境では選択できる音声がありません
+      </p>
+    );
+  }
+
+  return (
+    <div className="flex flex-col gap-1 max-w-md">
+      <label className="flex flex-col gap-1">
+        <span className="text-sm text-white/60">{label}</span>
+        <select
+          value={value}
+          onChange={(e) => onChange(e.target.value)}
+          className="px-3 py-2 bg-white/5 border border-white/10 rounded-md"
+        >
+          <option value="">
+            自動（おすすめ{auto ? ` — ${auto.name}` : ""}）
+          </option>
+          {options.map((v) => (
+            <option key={v.voiceURI} value={v.voiceURI}>
+              {v.name}
+              {v.localService ? "" : "（ネットワーク）"}
+            </option>
+          ))}
+        </select>
+      </label>
+      <button
+        type="button"
+        onClick={() => {
+          stopSpeaking();
+          speak(sample, { lang, rate, voiceURI: value });
+        }}
+        className="self-start flex items-center gap-2 rounded-full border border-white/15 px-4 py-1.5 text-sm text-white/70 hover:bg-white/5"
+      >
+        <span aria-hidden="true">🔊</span>
+        試聴
+      </button>
+    </div>
   );
 }
 
@@ -80,9 +160,43 @@ export function SettingsPage() {
           />
           <span className="text-sm text-white/60">
             出題と同時に音声を再生
-            <Tip text="問題が表示されると同時に、英語の題材では英文を、日本語の題材では読み（ひらがな）を自動で読み上げます。オフにしても、出題画面の「音声を再生」ボタンでいつでも再生できます。" />
+            <Tip text="問題が表示されると同時に自動で読み上げます。英語の題材では英文を、日本語の題材では文をそのまま（漢字かな交じりのまま）、四字熟語は読み（ひらがな）を読み上げます。オフにしても、出題画面の「音声を再生」ボタンでいつでも再生できます。" />
           </span>
         </label>
+
+        <label className="flex flex-col gap-1 max-w-xs">
+          <span className="text-sm text-white/60">
+            読み上げ速度（{settings.speechRate.toFixed(1)}倍）
+            <Tip text="読み上げの速さ。1.0 が等速です。遅くすると聞き取りやすく、速くすると手早く確認できます。（既定 1.0 倍）" />
+          </span>
+          <input
+            type="range"
+            min={MIN_RATE}
+            max={MAX_RATE}
+            step={0.1}
+            value={settings.speechRate}
+            onChange={(e) => update({ speechRate: Number(e.target.value) })}
+            className="w-full accent-green-500"
+          />
+        </label>
+
+        <VoiceSelect
+          label="日本語の音声"
+          lang={JA_LANG}
+          sample="速度と声を確認します。"
+          value={settings.speechVoiceJa}
+          rate={settings.speechRate}
+          onChange={(speechVoiceJa) => update({ speechVoiceJa })}
+        />
+
+        <VoiceSelect
+          label="英語の音声"
+          lang={EN_LANG}
+          sample="This is a sample of the reading voice."
+          value={settings.speechVoiceEn}
+          rate={settings.speechRate}
+          onChange={(speechVoiceEn) => update({ speechVoiceEn })}
+        />
 
         <label className="flex items-center gap-3 cursor-pointer max-w-md">
           <input
