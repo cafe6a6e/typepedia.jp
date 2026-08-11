@@ -516,8 +516,8 @@
     "uuid": "e9ce7966-8895-46da-a1f3-becaf2883b77"
   },
   {
-    "disp": "彼は来週のレスリングの試合のためにしっかりと練習しました。",
-    "q": "He trained hard for the upcoming wrestling bout next week.",
+    "disp": "王者は激しい3ラウンドの末に最終戦を制しました。",
+    "q": "The champion won the final bout after three tough rounds.",
     "lang": "en",
     "uuid": "593bf2b8-6444-474e-b93b-f20277250208"
   },
@@ -660,8 +660,8 @@
     "uuid": "ea30d909-7aa8-49ec-9c35-b4b20e68b741"
   },
   {
-    "disp": "陪審員はすべての罪状で被告人を無罪にすると決めた。",
-    "q": "The jury decided to acquit the defendant of all charges.",
+    "disp": "新たな証拠が、20年を経てその男性の無罪を晴らすかもしれません。",
+    "q": "New evidence could acquit the man after twenty years.",
     "lang": "en",
     "uuid": "02f60ac7-624a-447a-ac77-f1b61da0c876"
   },
@@ -894,8 +894,8 @@
     "uuid": "c0dda31a-97d5-4823-9e58-b0a2a41452ad"
   },
   {
-    "disp": "私たちは今日仕事を終えることを実行可能だと考えています。",
-    "q": "We think it is feasible to finish the work today.",
+    "disp": "技術者たちは、新しい設計が技術的に実現可能だと証明しました。",
+    "q": "The engineers proved that the new design is technically feasible.",
     "lang": "en",
     "uuid": "0be1f974-844d-4adc-bef7-889112085d06"
   },
@@ -4344,8 +4344,8 @@
     "uuid": "9ae94be0-1e86-4fe8-8324-3d604c948f45"
   },
   {
-    "disp": "その証人は昨日の長い裁判で重要な証言をしました。",
-    "q": "The witness gave important testimony during the long trial yesterday.",
+    "disp": "彼女の証言は事件の流れを大きく変えました。",
+    "q": "Her testimony completely changed the direction of the case.",
     "lang": "en",
     "uuid": "02e1b704-9b36-420c-a690-b6b116717d1a"
   },

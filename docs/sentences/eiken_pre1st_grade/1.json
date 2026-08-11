@@ -372,8 +372,8 @@
     "uuid": "07164810-32b9-4371-9fc7-1368bdbec2ae"
   },
   {
-    "disp": "我々はこの複雑な問題を解決するために全体的なアプローチが必要です。",
-    "q": "We need a holistic approach to solve this complex problem.",
+    "disp": "その診療所は心身両面を診る全人的なケアを提供しています。",
+    "q": "The clinic offers holistic care for both body and mind.",
     "lang": "en",
     "uuid": "e80bf034-3bb1-4f83-a7b3-7b1796466c0d"
   },
@@ -708,8 +708,8 @@
     "uuid": "99db6076-3b86-4b2d-ae2b-c1e35e394abb"
   },
   {
-    "disp": "彼女は腕にある醜い傷を隠そうとした。",
-    "q": "She tried to hide the ugly scar on her arm.",
+    "disp": "その戦争は国全体に深い傷跡を残しました。",
+    "q": "The war left a deep scar on the whole nation.",
     "lang": "en",
     "uuid": "d86e4a29-9c24-40c6-88d5-8fbc27d0fdbe"
   },
@@ -924,8 +924,8 @@
     "uuid": "4491c329-291c-42c4-9b33-e8c432342b94"
   },
   {
-    "disp": "水を沸かすために、やかんをストーブの上に乗せてください。",
-    "q": "Please put the kettle on the stove to boil water.",
+    "disp": "台所のコンロで何かが焦げています。",
+    "q": "Something is burning on the stove in the kitchen.",
     "lang": "en",
     "uuid": "512282b5-9d86-493f-9fd4-2c649c9377b8"
   },
@@ -1596,8 +1596,8 @@
     "uuid": "5894ee02-7e31-48cd-856d-d91596eedc33"
   },
   {
-    "disp": "毎日、あなたの机をきちんとした状態に保ちなさい。",
-    "q": "Please keep your desk neat and tidy every single day.",
+    "disp": "彼の字はとてもきれいで、まるで印刷したように見えます。",
+    "q": "His handwriting is so neat that it looks almost printed.",
     "lang": "en",
     "uuid": "3d81ccd9-dc1a-4a82-a08c-ef055236d4df"
   },
@@ -1620,8 +1620,8 @@
     "uuid": "d0b378f0-05e8-4566-bab4-b12d9ddaa864"
   },
   {
-    "disp": "この判決は将来の事件の良い先例となるでしょう。",
-    "q": "This decision will set a good precedent for future cases.",
+    "disp": "春先にこれほどの嵐が来たことは、過去に例がありません。",
+    "q": "There is no precedent for a storm this early in spring.",
     "lang": "en",
     "uuid": "194b6c5e-2977-42e4-b31c-c0b3824a494f"
   },
@@ -2526,8 +2526,8 @@
     "uuid": "2c9eb92c-e71b-4722-bedf-5eb410382ad3"
   },
   {
-    "disp": "彼は今日仕事を辞めるという意図的な決定を下した。",
-    "q": "He made a deliberate decision to quit his job today.",
+    "disp": "彼は皆に伝わるよう、ゆっくりと慎重な口調で話しました。",
+    "q": "He spoke in a slow, deliberate voice so everyone understood.",
     "lang": "en",
     "uuid": "086e4502-c686-4122-a160-740d5d2375da"
   },
@@ -3564,8 +3564,8 @@
     "uuid": "2b4e3034-105a-41fb-8ca1-ea75453f4871"
   },
   {
-    "disp": "彼女は全てのハードな仕事を終わらせるために強い決意を示した。",
-    "q": "She showed great determination to finish all the hard work.",
+    "disp": "医者になるという彼女の決意は、一度も揺らぎませんでした。",
+    "q": "Her determination to become a doctor never once wavered.",
     "lang": "en",
     "uuid": "da743704-86e3-409f-a878-4aa9aa0ded03"
   },
@@ -4728,8 +4728,8 @@
     "uuid": "56b733fa-e302-4100-9d32-6164961d33c2"
   },
   {
-    "disp": "今日は朝の電車に間に合うために急ぎましょう。",
-    "q": "We must make haste to catch the morning train today.",
+    "disp": "急がないと、着く前に店が閉まってしまいますよ。",
+    "q": "Make haste, or the shop will close before we arrive.",
     "lang": "en",
     "uuid": "47a50f24-2c23-4366-ab5d-a5cb1995153a"
   },
@@ -5016,8 +5016,8 @@
     "uuid": "60df2f06-486d-4645-b31b-856d7747c891"
   },
   {
-    "disp": "その困難な時期を経て、ついに私たちは安全になりました。",
-    "q": "We are finally out of the woods after that week.",
+    "disp": "その患者は回復に向かっていますが、まだ油断はできません。",
+    "q": "The patient is recovering, but she is not out of the woods yet.",
     "lang": "en",
     "uuid": "3c08ea4f-30e3-459f-a7ec-28ea2d472666"
   },
@@ -6324,8 +6324,8 @@
     "uuid": "50b0adbc-34ac-48e2-9c29-c9f35e2bbc6a"
   },
   {
-    "disp": "植物は土壌の豊富な栄養分を利用して育ちます。",
-    "q": "Plants feed off the rich nutrients found in the soil.",
+    "disp": "新鮮な野菜は、体が毎日必要とする栄養素を供給します。",
+    "q": "Fresh vegetables provide the nutrients your body needs daily.",
     "lang": "en",
     "uuid": "4ba8a77e-878a-4d20-ad05-bae0b60c129f"
   },
@@ -6348,8 +6348,8 @@
     "uuid": "d5ce8424-8fe2-4540-86f0-39356353d0e3"
   },
   {
-    "disp": "すべての生命体は生き延びるために新鮮な水を必要とします。",
-    "q": "Every living organism needs fresh water in order to survive.",
+    "disp": "科学者たちは深海に生息する小さな生物を発見しました。",
+    "q": "Scientists discovered a tiny organism living deep in the ocean.",
     "lang": "en",
     "uuid": "221ec073-e793-48be-a9bd-e5f5a189868c"
   },
@@ -6696,8 +6696,8 @@
     "uuid": "5ca22a18-812b-4208-a18d-534a49abf1f6"
   },
   {
-    "disp": "私たちはビジネスが将来繁栄することを願っています。",
-    "q": "We hope our business will prosper greatly in the future.",
+    "disp": "若い家族が戻ってくると、小さな町は栄えることができます。",
+    "q": "Small towns can prosper when young families move back.",
     "lang": "en",
     "uuid": "d41a18b9-aff7-4dda-9b61-0794aa3690c9"
   },
@@ -6720,8 +6720,8 @@
     "uuid": "97d13e3d-6da5-446b-8de8-e806dae72a39"
   },
   {
-    "disp": "彼女の鮮やかな赤いドレスは群衆の中で非常に目立っていた。",
-    "q": "Her bright red dress was very noticeable in the crowd.",
+    "disp": "朝から気温が目に見えて下がっています。",
+    "q": "There has been a noticeable drop in temperature since morning.",
     "lang": "en",
     "uuid": "cd149710-f8a6-425e-9acc-61f0bd5bcbd0"
   },
@@ -6996,8 +6996,8 @@
     "uuid": "f9061d4e-f7c4-4f90-8f79-d04d80b944d6"
   },
   {
-    "disp": "何も悪いことをしていない人を罰するのは不当だ。",
-    "q": "It is unjust to punish people who did nothing wrong.",
+    "disp": "多くの人々が、その不当な新税法に抗議しました。",
+    "q": "Many people protested against the unjust new tax law.",
     "lang": "en",
     "uuid": "9b182cc9-0eea-414e-8910-2a96fc3874b4"
   },
@@ -7536,8 +7536,8 @@
     "uuid": "6bfb1d30-9058-498c-bcc0-794993efab70"
   },
   {
-    "disp": "あなたは本当にこの悪い気分から抜け出さなければなりません。",
-    "q": "You really need to snap out of this bad mood.",
+    "disp": "深い悲しみから立ち直るのに、彼女は何か月もかかりました。",
+    "q": "It took her months to snap out of her deep sadness.",
     "lang": "en",
     "uuid": "5469f0ac-858a-454f-98b5-84599a5faabf"
   },
@@ -8424,8 +8424,8 @@
     "uuid": "f404dbe4-2193-4942-97dc-86146294ee35"
   },
   {
-    "disp": "昨夜、私たちのすべての努力は無駄になった。",
-    "q": "All our hard work went down the drain last night.",
+    "disp": "取引が失敗すれば、何年分もの貯金が水の泡になります。",
+    "q": "If the deal fails, years of savings will go down the drain.",
     "lang": "en",
     "uuid": "c718e02c-58f1-4dc5-b49b-e37e11635235"
   },
@@ -8820,8 +8820,8 @@
     "uuid": "4ee04be5-243a-407e-8ab5-7c11c8751a38"
   },
   {
-    "disp": "私たちは今、会話を再開すべきです。",
-    "q": "We should pick up the thread of our conversation now.",
+    "disp": "一本のほつれた糸が、セーター全体をほどいてしまうことがあります。",
+    "q": "A single loose thread can unravel an entire sweater.",
     "lang": "en",
     "uuid": "d094e2ee-7fb0-4079-acbf-9d68a0b53440"
   },
@@ -10056,8 +10056,8 @@
     "uuid": "4e170b3a-a08d-4bfe-b85e-304464c501a1"
   },
   {
-    "disp": "今晩、映画を見る気はありますか？",
-    "q": "Are you in the mood for watching a movie tonight?",
+    "disp": "今朝は冗談を言う気分ではありません。",
+    "q": "I am not in the mood for jokes this morning.",
     "lang": "en",
     "uuid": "2f69d1e0-68f2-4054-ab24-da12c704c244"
   },
@@ -10824,8 +10824,8 @@
     "uuid": "1318f301-7c8d-4b2f-b00c-89186e63c568"
   },
   {
-    "disp": "私は古い城を垣間見ることができました。",
-    "q": "I managed to catch a glimpse of the old castle.",
+    "disp": "そのインタビューは、彼女の私生活の一端を垣間見せてくれました。",
+    "q": "The interview gave us a glimpse into her private life.",
     "lang": "en",
     "uuid": "8ab842cb-fef0-4066-aabb-f1cb88e3ab34"
   },
@@ -11136,8 +11136,8 @@
     "uuid": "769974b3-47b3-4aa8-85fd-b22e28a7036d"
   },
   {
-    "disp": "夕食を作る前に、乾燥豆を水に浸してください。",
-    "q": "Please soak the dried beans in water before cooking dinner.",
+    "disp": "今出かけたら、突然の雨で服がびしょ濡れになりますよ。",
+    "q": "The sudden rain will soak your clothes if you go out.",
     "lang": "en",
     "uuid": "8e6817a9-2f4e-44f1-83fd-2788027436c2"
   },
@@ -11256,8 +11256,8 @@
     "uuid": "83ca76f2-2d01-4b62-8a3c-75373d0fcb72"
   },
   {
-    "disp": "そのようにパートナーを裏切ってはいけません。",
-    "q": "You must never cheat on your partner in that way.",
+    "disp": "彼は期末試験でカンニングをしようとして見つかりました。",
+    "q": "He was caught trying to cheat on the final exam.",
     "lang": "en",
     "uuid": "ae54ec9c-667a-427e-b260-fdbf672d2153"
   },
