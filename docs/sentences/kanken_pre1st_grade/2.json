@@ -134,8 +134,8 @@
   },
   {
     "disp": "水辺で育つ芹は、春の七草粥に入れると独特の馨りが良い。",
-    "kana": "みずべでそだつせりは、はるのななくさかゆにいれるとどくとくのかおりがよい。",
-    "q": "mizubedesodatsuseriha,harunonanakusakayuniirerutodokutokunokaorigayoi.",
+    "kana": "みずべでそだつせりは、はるのななくさがゆにいれるとどくとくのかおりがよい。",
+    "q": "mizubedesodatsuseriha,harunonanakusagayuniirerutodokutokunokaorigayoi.",
     "lang": "ja",
     "uuid": "cda82f80-0d1e-49e9-99cb-66cd22253d9c"
   },
@@ -148,8 +148,8 @@
   },
   {
     "disp": "橋の基礎工事で、潜函という箱に圧搾空気を送って作業をしました。",
-    "kana": "はしのきそこうじで、せんかんというばこにあっさくくうきをおくってさぎょうをしました。",
-    "q": "hashinokisokoujide,sennkanntoiubakoniassakukuukiwookuttesagyouwoshimashita.",
+    "kana": "はしのきそこうじで、せんかんというはこにあっさくくうきをおくってさぎょうをしました。",
+    "q": "hashinokisokoujide,sennkanntoiuhakoniassakukuukiwookuttesagyouwoshimashita.",
     "lang": "ja",
     "uuid": "7f169d6f-f3c3-4d28-bbe4-c56393bd6060"
   },
@@ -540,8 +540,8 @@
   },
   {
     "disp": "哺乳類の体腔は、横隔膜によって胸の空間と腹の空間に分けられています。",
-    "kana": "ほにゅうるいのたいこうは、よこかくまくによってむねのくうかんとはらのくうかんにわけられています。",
-    "q": "honyuuruinotaikouha,yokokakumakuniyottemunenokuukanntoharanokuukannniwakerareteimasu.",
+    "kana": "ほにゅうるいのたいこうは、おうかくまくによってむねのくうかんとはらのくうかんにわけられています。",
+    "q": "honyuuruinotaikouha,oukakumakuniyottemunenokuukanntoharanokuukannniwakerareteimasu.",
     "lang": "ja",
     "uuid": "c1e84dbe-d94d-4074-804e-f9315cda1dec"
   },
@@ -568,8 +568,8 @@
   },
   {
     "disp": "大嘗祭は天皇の即位後に新米を神々に捧げる重要な儀式です。",
-    "kana": "だいしょうさいはてんのうのそくいごにしんまいをかみがみにささげるじゅうようなぎしきです。",
-    "q": "daishousaihatennnounosokuigonishinnmaiwokamigaminisasagerujuuyounagishikidesu.",
+    "kana": "だいじょうさいはてんのうのそくいごにしんまいをかみがみにささげるじゅうようなぎしきです。",
+    "q": "daijousaihatennnounosokuigonishinnmaiwokamigaminisasagerujuuyounagishikidesu.",
     "lang": "ja",
     "uuid": "203b2400-a4cf-47a5-ae2b-6b245b49c6c5"
   },
@@ -659,8 +659,8 @@
   },
   {
     "disp": "お正月の玄関には、縁起の良い対聯を飾るのが日本の伝統的な風習です。",
-    "kana": "おしょうがつのげんかんには、えんぎのよいたいれんをかざるのがにっぽんのでんとうてきなふうしゅうです。",
-    "q": "oshougatsunogennkannniha,ennginoyoitairennwokazarunoganipponnnodenntoutekinafuushuudesu.",
+    "kana": "おしょうがつのげんかんには、えんぎのよいたいれんをかざるのがにほんのでんとうてきなふうしゅうです。",
+    "q": "oshougatsunogennkannniha,ennginoyoitairennwokazarunoganihonnnodenntoutekinafuushuudesu.",
     "lang": "ja",
     "uuid": "8e3bd166-8327-4ef9-b971-93e776b57eba"
   },
@@ -974,8 +974,8 @@
   },
   {
     "disp": "辰年生まれの人は龍の象徴を持つと言われています。",
-    "kana": "たつとしうまれのひとはりゅうのしょうちょうをもつといわれています。",
-    "q": "tatsutoshiumarenohitoharyuunoshouchouwomotsutoiwareteimasu.",
+    "kana": "たつどしうまれのひとはりゅうのしょうちょうをもつといわれています。",
+    "q": "tatsudoshiumarenohitoharyuunoshouchouwomotsutoiwareteimasu.",
     "lang": "ja",
     "uuid": "de479fdf-6ea7-406d-ba78-df378ea432a2"
   },
@@ -1184,8 +1184,8 @@
   },
   {
     "disp": "地域の行事では、毎年樽から注ぐ樽酒を振る舞います。",
-    "kana": "ちいきのぎょうじでは、まいとしそんからそそぐたるざけをふるまいます。",
-    "q": "chiikinogyoujideha,maitoshisonnkarasosogutaruzakewofurumaimasu.",
+    "kana": "ちいきのぎょうじでは、まいとしたるからそそぐたるざけをふるまいます。",
+    "q": "chiikinogyoujideha,maitoshitarukarasosogutaruzakewofurumaimasu.",
     "lang": "ja",
     "uuid": "0d909b49-eeab-4a47-b3b2-0d777d46f215"
   },
@@ -1562,8 +1562,8 @@
   },
   {
     "disp": "予報によると、愈、明日が決勝日だと聞いていたけれど、行けるか不安だ。",
-    "kana": "よほうによると、いよいよ、あすがけっしょうひだときいていたけれど、いけるかふあんだ。",
-    "q": "yohouniyoruto,iyoiyo,asugakesshouhidatokiiteitakeredo,ikerukafuannda.",
+    "kana": "よほうによると、いよいよ、あすがけっしょうびだときいていたけれど、いけるかふあんだ。",
+    "q": "yohouniyoruto,iyoiyo,asugakesshoubidatokiiteitakeredo,ikerukafuannda.",
     "lang": "ja",
     "uuid": "f3174480-9162-4270-8b35-63ba619ed980"
   },
@@ -1667,8 +1667,8 @@
   },
   {
     "disp": "冬の寒い夜には銚釐で日本酒を温めて、ゆっくりと飲むのが楽しみです。",
-    "kana": "ふゆのさむいよるにはちろりでにっぽんしゅをあたためて、ゆっくりとのむのがたのしみです。",
-    "q": "fuyunosamuiyorunihachiroridenipponnshuwoatatamete,yukkuritonomunogatanoshimidesu.",
+    "kana": "ふゆのさむいよるにはちろりでにほんしゅをあたためて、ゆっくりとのむのがたのしみです。",
+    "q": "fuyunosamuiyorunihachiroridenihonnshuwoatatamete,yukkuritonomunogatanoshimidesu.",
     "lang": "ja",
     "uuid": "ecb76edc-253a-4ca3-b59f-2acf96edc76a"
   },
@@ -1730,8 +1730,8 @@
   },
   {
     "disp": "戊は十干の五番目、土の陽で日本では土の兄とも呼ばれる干支です。",
-    "kana": "つちのえはじっかんのごばんめ、つちのひでにっぽんではつちのあにともよばれるえとです。",
-    "q": "tsuchinoehajikkannnogobannme,tsuchinohidenipponndehatsuchinoanitomoyobareruetodesu.",
+    "kana": "つちのえはじっかんのごばんめ、つちのひでにほんではつちのあにともよばれるえとです。",
+    "q": "tsuchinoehajikkannnogobannme,tsuchinohidenihonndehatsuchinoanitomoyobareruetodesu.",
     "lang": "ja",
     "uuid": "7ff330b3-f792-475c-8e71-f43aa5a1b71d"
   },
@@ -1814,8 +1814,8 @@
   },
   {
     "disp": "卯年生まれの私は、ウサギのぬいぐるみを部屋に飾っています。",
-    "kana": "うとしうまれのわたしは、うさぎのぬいぐるみをへやにかざっています。",
-    "q": "utoshiumarenowatashiha,usaginonuigurumiwoheyanikazatteimasu.",
+    "kana": "うどしうまれのわたしは、うさぎのぬいぐるみをへやにかざっています。",
+    "q": "udoshiumarenowatashiha,usaginonuigurumiwoheyanikazatteimasu.",
     "lang": "ja",
     "uuid": "80305311-5129-41fd-a270-96079ce2a40a"
   },
@@ -1953,9 +1953,9 @@
     "uuid": "e37f215d-88de-43ec-8f24-40bbf3d8df59"
   },
   {
-    "disp": "寒い日には、暖かい靴を穿つのがとてもおすすめです。",
-    "kana": "さむいひには、あたたかいくつをうがつのがとてもおすすめです。",
-    "q": "samuihiniha,atatakaikutsuwougatsunogatotemoosusumedesu.",
+    "disp": "雨垂れが長い年月をかけて石を穿つように、努力は必ず実を結ぶ。",
+    "kana": "あまだれがながいとしつきをかけていしをうがつように、どりょくはかならずみをむすぶ。",
+    "q": "amadareganagaitoshitsukiwokaketeishiwougatsuyouni,doryokuhakanarazumiwomusubu.",
     "lang": "ja",
     "uuid": "355aa9fa-a0be-450e-93a8-5acf6c8ddc85"
   },
@@ -2297,8 +2297,8 @@
   },
   {
     "disp": "公園のベンチで、一羽の土鳩が静かに休んでいる姿を見ました。",
-    "kana": "こうえんのべんちで、ひとわのどばとがしずかにやすんでいるすがたをみました。",
-    "q": "kouennnobennchide,hitowanodobatogashizukaniyasunndeirusugatawomimashita.",
+    "kana": "こうえんのべんちで、いちわのどばとがしずかにやすんでいるすがたをみました。",
+    "q": "kouennnobennchide,ichiwanodobatogashizukaniyasunndeirusugatawomimashita.",
     "lang": "ja",
     "uuid": "9c37d6c5-ebf4-44ae-977f-78ed9fd931a3"
   },
@@ -2465,8 +2465,8 @@
   },
   {
     "disp": "酉は十二支の一つで、西や鶏、午後六時頃の時間を表しています。",
-    "kana": "とりはじゅうにしのひとつで、にしやにわとり、ごごろくじころのじかんをあらわしています。",
-    "q": "torihajuunishinohitotsude,nishiyaniwatori,gogorokujikoronojikannwoarawashiteimasu.",
+    "kana": "とりはじゅうにしのひとつで、にしやにわとり、ごごろくじごろのじかんをあらわしています。",
+    "q": "torihajuunishinohitotsude,nishiyaniwatori,gogorokujigoronojikannwoarawashiteimasu.",
     "lang": "ja",
     "uuid": "91957c3e-7a68-462b-a48b-60946dc53190"
   },
@@ -2479,8 +2479,8 @@
   },
   {
     "disp": "日本料理の席では、取肴を酒と倶に皆で分け合いました。",
-    "kana": "にっぽんりょうりのせきでは、とりざかなをさけとともにみなでわけあいました。",
-    "q": "nipponnryourinosekideha,torizakanawosaketotomoniminadewakeaimashita.",
+    "kana": "にほんりょうりのせきでは、とりざかなをさけとともにみなでわけあいました。",
+    "q": "nihonnryourinosekideha,torizakanawosaketotomoniminadewakeaimashita.",
     "lang": "ja",
     "uuid": "be37a29f-668f-49e2-a053-a59e710d0f77"
   },
@@ -3235,8 +3235,8 @@
   },
   {
     "disp": "箱の蓋を留めるために、細い色の打ち紐が使われています。",
-    "kana": "ばこのふたをとめるために、ほそいいろのうちひもがつかわれています。",
-    "q": "bakonofutawotomerutameni,hosoiironouchihimogatsukawareteimasu.",
+    "kana": "はこのふたをとめるために、ほそいいろのうちひもがつかわれています。",
+    "q": "hakonofutawotomerutameni,hosoiironouchihimogatsukawareteimasu.",
     "lang": "ja",
     "uuid": "d53fda67-e947-4571-94ca-41666682485e"
   },
@@ -3823,8 +3823,8 @@
   },
   {
     "disp": "疲れた土曜日の夜、美味しい鰻丼を食べて疲れを癒やした。",
-    "kana": "つかれたどようひのよる、おいしいうなどんをたべてつかれをいやした。",
-    "q": "tsukaretadoyouhinoyoru,oishiiunadonnwotabetetsukarewoiyashita.",
+    "kana": "つかれたどようびのよる、おいしいうなどんをたべてつかれをいやした。",
+    "q": "tsukaretadoyoubinoyoru,oishiiunadonnwotabetetsukarewoiyashita.",
     "lang": "ja",
     "uuid": "1e1eeda2-f4f5-4295-bb55-6472debcc070"
   },
@@ -3872,8 +3872,8 @@
   },
   {
     "disp": "古い日本家屋には、風通しの良い半蔀があり夏はとても涼しかったです。",
-    "kana": "ふるいにっぽんかおくには、かぜとおしのよいはじとみがありなつはとてもすずしかったです。",
-    "q": "furuinipponnkaokuniha,kazetooshinoyoihajitomigaarinatsuhatotemosuzushikattadesu.",
+    "kana": "ふるいにほんかおくには、かぜとおしのよいはじとみがありなつはとてもすずしかったです。",
+    "q": "furuinihonnkaokuniha,kazetooshinoyoihajitomigaarinatsuhatotemosuzushikattadesu.",
     "lang": "ja",
     "uuid": "e9457989-e266-4511-a20c-e4076ed081d0"
   },
@@ -3927,9 +3927,9 @@
     "uuid": "285e9be1-e752-469e-a667-23171d77e81e"
   },
   {
-    "disp": "明日の天気は晴れる筈だから、家族でピクニックに行斯うと思っています。",
-    "kana": "あすのてんきははれるはずだから、かぞくでぴくにっくにいこうとおもっています。",
-    "q": "asunotennkihahareruhazudakara,kazokudepikunikkuniikoutoomotteimasu.",
+    "disp": "明日は晴れる筈なので、斯う予定を組んでおけば大丈夫でしょう。",
+    "kana": "あすははれるはずなので、こうよていをくんでおけばだいじょうぶでしょう。",
+    "q": "asuhahareruhazunanode,kouyoteiwokunndeokebadaijoubudeshou.",
     "lang": "ja",
     "uuid": "88bfaac6-6caf-4c3b-b52f-66ed65158da7"
   },
@@ -3998,8 +3998,8 @@
   },
   {
     "disp": "待ちに待った結果は、果せる哉と本当に私の予想通りだった。",
-    "kana": "まちにまったけっかは、はたせるかなとほんとうにわたしのよそうとおりだった。",
-    "q": "machinimattakekkaha,hataserukanatohonntouniwatashinoyosoutooridatta.",
+    "kana": "まちにまったけっかは、はたせるかなとほんとうにわたしのよそうどおりだった。",
+    "q": "machinimattakekkaha,hataserukanatohonntouniwatashinoyosoudooridatta.",
     "lang": "ja",
     "uuid": "ef9f9b27-1e78-484b-ade2-bb2acb6d395d"
   },
@@ -4859,8 +4859,8 @@
   },
   {
     "disp": "昨日の計画が思い通り進み、皆が笑壺の瞬間を味わうことができた。",
-    "kana": "きのうのけいかくがおもいとおりすすみ、みながえつぼのしゅんかんをあじわうことができた。",
-    "q": "kinounokeikakugaomoitoorisusumi,minagaetsubonoshunnkannwoajiwaukotogadekita.",
+    "kana": "きのうのけいかくがおもいどおりすすみ、みながえつぼのしゅんかんをあじわうことができた。",
+    "q": "kinounokeikakugaomoidoorisusumi,minagaetsubonoshunnkannwoajiwaukotogadekita.",
     "lang": "ja",
     "uuid": "652d6287-8037-4e7c-9f94-45f3237a47c9"
   },
@@ -4887,8 +4887,8 @@
   },
   {
     "disp": "庭に植えた牡丹が、五月頃にとても大きな綺麗な花を咲かせています。",
-    "kana": "にわにうえたぼたんが、ごがつころにとてもおおきなきれいなはなをさかせています。",
-    "q": "niwaniuetabotannga,gogatsukoronitotemoookinakireinahanawosakaseteimasu.",
+    "kana": "にわにうえたぼたんが、ごがつごろにとてもおおきなきれいなはなをさかせています。",
+    "q": "niwaniuetabotannga,gogatsugoronitotemoookinakireinahanawosakaseteimasu.",
     "lang": "ja",
     "uuid": "453e8a0e-d7de-4e78-88b2-78ccfdcc3e6e"
   },
@@ -5082,9 +5082,9 @@
     "uuid": "3ea367a8-fcc9-48f9-b076-a2134d67ee25"
   },
   {
-    "disp": "週末に庭で野菜の種を撒く予定なので、朝早く起きようと思います。",
-    "kana": "しゅうまつににわでやさいのたねをまくよていなので、あさはやくおきようとおもいます。",
-    "q": "shuumatsuniniwadeyasainotanewomakuyoteinanode,asahayakuokiyoutoomoimasu.",
+    "disp": "祭りの知らせを広めるため、駅前でチラシを撒く手伝いをしました。",
+    "kana": "まつりのしらせをひろめるため、えきまえでちらしをまくてつだいをしました。",
+    "q": "matsurinoshirasewohiromerutame,ekimaedechirashiwomakutetsudaiwoshimashita.",
     "lang": "ja",
     "uuid": "fa876b05-f17b-417b-849f-4958616644c9"
   },
@@ -5201,9 +5201,9 @@
     "uuid": "fb5e796d-d864-4c0d-84bf-20dcb18d8313"
   },
   {
-    "disp": "段差を跨ぐ時は転ばないように気をつけて歩斯うね。",
-    "kana": "だんさをまたぐときはころばないようにきをつけてあるこうね。",
-    "q": "dannsawomatagutokihakorobanaiyounikiwotsuketearukoune.",
+    "disp": "段差を跨ぐ時は、斯う足を上げると転びにくいですよ。",
+    "kana": "だんさをまたぐときは、こうあしをあげるところびにくいですよ。",
+    "q": "dannsawomatagutokiha,kouashiwoagerutokorobinikuidesuyo.",
     "lang": "ja",
     "uuid": "4c758405-8333-4508-9554-fbc30877cd9b"
   },
@@ -5327,9 +5327,9 @@
     "uuid": "41e50af0-130d-44f4-888f-456793dbe4cd"
   },
   {
-    "disp": "燕雀のようにならないように、大きな志を持って生きてい斯う。",
-    "kana": "えんじゃくのようにならないように、おおきなこころざしをもっていきていこう。",
-    "q": "ennjakunoyouninaranaiyouni,ookinakokorozashiwomotteikiteikou.",
+    "disp": "燕雀は大きな志を知らないと、昔の人は斯う言い伝えてきました。",
+    "kana": "えんじゃくはおおきなこころざしをしらないと、むかしのひとはこういいつたえてきました。",
+    "q": "ennjakuhaookinakokorozashiwoshiranaito,mukashinohitohakouiitsutaetekimashita.",
     "lang": "ja",
     "uuid": "70253606-9a8d-4067-b067-2f886f12bfd5"
   },
@@ -5342,8 +5342,8 @@
   },
   {
     "disp": "日本では水の兄とも呼ばれる壬は、十干の九番目に当たります。",
-    "kana": "にっぽんではみずのあにともよばれるみずのえは、じっかんのきゅうばんめにあたります。",
-    "q": "nipponndehamizunoanitomoyobarerumizunoeha,jikkannnokyuubannmeniatarimasu.",
+    "kana": "にほんではみずのあにともよばれるみずのえは、じっかんのきゅうばんめにあたります。",
+    "q": "nihonndehamizunoanitomoyobarerumizunoeha,jikkannnokyuubannmeniatarimasu.",
     "lang": "ja",
     "uuid": "8ba8e200-217b-4138-8689-d40db28eba45"
   },
@@ -5845,9 +5845,9 @@
     "uuid": "2564949a-a331-4707-9b8b-db79aa04d9fe"
   },
   {
-    "disp": "最近、仕事に追い捲るような日々は本当に辛いものだ。",
-    "kana": "さいきん、しごとにおいまくるようなひびはほんとうにつらいものだ。",
-    "q": "saikinn,shigotonioimakuruyounahibihahonntounitsuraimonoda.",
+    "disp": "猟犬が野を駆けて獲物を追い捲る様子は、とても迫力があった。",
+    "kana": "りょうけんがのをかけてえものをおいまくるようすは、とてもはくりょくがあった。",
+    "q": "ryoukennganowokaketeemonowooimakuruyousuha,totemohakuryokugaatta.",
     "lang": "ja",
     "uuid": "1d913593-07a1-4484-a5c6-ab2bb86ecffd"
   },
@@ -5873,9 +5873,9 @@
     "uuid": "91adf32b-24e8-42ea-964e-3d4b27e6997e"
   },
   {
-    "disp": "尤も、今日はお金がないから、外出はしないでお斯う。",
-    "kana": "もっとも、きょうはおかねがないから、がいしゅつはしないでおこう。",
-    "q": "mottomo,kyouhaokaneganaikara,gaishutsuhashinaideokou.",
+    "disp": "尤も、雨の日は斯うして家で静かに過ごすのが一番いいですね。",
+    "kana": "もっとも、あめのひはこうしていえでしずかにすごすのがいちばんいいですね。",
+    "q": "mottomo,amenohihakoushiteiedeshizukanisugosunogaichibanniidesune.",
     "lang": "ja",
     "uuid": "252920e0-f635-465f-a919-c2ef15184c52"
   },
@@ -6021,8 +6021,8 @@
   },
   {
     "disp": "夕凪の時は風が止まり、海岸沿いの道も静かになります。",
-    "kana": "ゆうなぎのときはかぜがとまり、かいがんそいのみちもしずかになります。",
-    "q": "yuunaginotokihakazegatomari,kaigannsoinomichimoshizukaninarimasu.",
+    "kana": "ゆうなぎのときはかぜがとまり、かいがんぞいのみちもしずかになります。",
+    "q": "yuunaginotokihakazegatomari,kaigannzoinomichimoshizukaninarimasu.",
     "lang": "ja",
     "uuid": "9643a960-9df4-4f0a-a2aa-d7959017284b"
   },
@@ -6119,8 +6119,8 @@
   },
   {
     "disp": "雪国では、裾をくくった雪袴を履いて雪道を歩く人を見かけます。",
-    "kana": "ゆきぐにでは、すそをくくったゆきばかまをはいてせつどうをあるくひとをみかけます。",
-    "q": "yukigunideha,susowokukuttayukibakamawohaitesetsudouwoarukuhitowomikakemasu.",
+    "kana": "ゆきぐにでは、すそをくくったゆきばかまをはいてゆきみちをあるくひとをみかけます。",
+    "q": "yukigunideha,susowokukuttayukibakamawohaiteyukimichiwoarukuhitowomikakemasu.",
     "lang": "ja",
     "uuid": "f4382687-6ab9-438c-880f-5d06521fe2e5"
   },
@@ -6566,9 +6566,9 @@
     "uuid": "86051df5-cfbb-4408-9aaf-07c4b901d2d3"
   },
   {
-    "disp": "朝の冷たい霧に鎧うと、寒さが身にしみてきた。",
-    "kana": "あさのつめたいきりによろうと、さむさがみにしみてきた。",
-    "q": "asanotsumetaikiriniyorouto,samusagaminishimitekita.",
+    "disp": "厚い毛皮を鎧う猟師が、雪の深い峠を静かに越えていった。",
+    "kana": "あついけがわをよろうりょうしが、ゆきのふかいとうげをしずかにこえていった。",
+    "q": "atsuikegawawoyorouryoushiga,yukinofukaitougewoshizukanikoeteitta.",
     "lang": "ja",
     "uuid": "f9e97ee5-53ba-46b2-8985-0798f320f0b5"
   },
@@ -6616,8 +6616,8 @@
   },
   {
     "disp": "ドラマで見た落胤の物語は、とても興味深い内容だった。",
-    "kana": "どらまでみたらくいんのものがたりは、とてもきょうみふかいないようだった。",
-    "q": "doramademitarakuinnnomonogatariha,totemokyoumifukainaiyoudatta.",
+    "kana": "どらまでみたらくいんのものがたりは、とてもきょうみぶかいないようだった。",
+    "q": "doramademitarakuinnnomonogatariha,totemokyoumibukainaiyoudatta.",
     "lang": "ja",
     "uuid": "83d75852-2f7a-460c-a192-05085db203e9"
   },

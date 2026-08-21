@@ -344,8 +344,8 @@
   },
   {
     "disp": "屢報されているニュースは、注意深く見るようにしています。",
-    "kana": "るほうされているにゅーすは、ちゅういふかくみるようにしています。",
-    "q": "ruhousareteirunyu-suha,chuuifukakumiruyounishiteimasu.",
+    "kana": "るほうされているにゅーすは、ちゅういぶかくみるようにしています。",
+    "q": "ruhousareteirunyu-suha,chuuibukakumiruyounishiteimasu.",
     "lang": "ja",
     "uuid": "4c8d5429-3d36-481b-aa91-dab55f4eabcb"
   },
@@ -708,8 +708,8 @@
   },
   {
     "disp": "このレシピには小匙一杯の塩が必要なので、用意しておきましょう。",
-    "kana": "このれしぴにはこさじいちばいのしおがひつようなので、よういしておきましょう。",
-    "q": "konoreshipinihakosajiichibainoshiogahitsuyounanode,youishiteokimashou.",
+    "kana": "このれしぴにはこさじいっぱいのしおがひつようなので、よういしておきましょう。",
+    "q": "konoreshipinihakosajiippainoshiogahitsuyounanode,youishiteokimashou.",
     "lang": "ja",
     "uuid": "ce3daaf9-7170-49d7-8d21-8ab089c443f3"
   },
@@ -813,8 +813,8 @@
   },
   {
     "disp": "急な寒波から身を守るため、古着を小楯代わりに羽織って外出した。",
-    "kana": "きゅうなかんぱからみをまもるため、ふるぎをこだてかわりにはおってがいしゅつした。",
-    "q": "kyuunakannpakaramiwomamorutame,furugiwokodatekawarinihaottegaishutsushita.",
+    "kana": "きゅうなかんぱからみをまもるため、ふるぎをこだてがわりにはおってがいしゅつした。",
+    "q": "kyuunakannpakaramiwomamorutame,furugiwokodategawarinihaottegaishutsushita.",
     "lang": "ja",
     "uuid": "8ad3d4df-a2d4-40d7-b0ae-f70b961d61fa"
   },
@@ -848,8 +848,8 @@
   },
   {
     "disp": "道具棚の奥には、細かい作業用の小槌が一つ丁寧に置かれていた。",
-    "kana": "どうぐたなのおくには、こまかいさぎょうようのこづちがひとつていねいにおかれていた。",
-    "q": "dougutananookuniha,komakaisagyouyounokoduchigahitotsuteineiniokareteita.",
+    "kana": "どうぐだなのおくには、こまかいさぎょうようのこづちがひとつていねいにおかれていた。",
+    "q": "dougudananookuniha,komakaisagyouyounokoduchigahitotsuteineiniokareteita.",
     "lang": "ja",
     "uuid": "7569b5b4-2b66-4304-b9f7-c9d91ef6dfc0"
   },
@@ -897,8 +897,8 @@
   },
   {
     "disp": "昨夜は寝不足だったため、今日は金壺眼で疲れた顔をしていた。",
-    "kana": "さくやはねふそくだったため、きょうはかなつぼまなこでつかれたかおをしていた。",
-    "q": "sakuyahanefusokudattatame,kyouhakanatsubomanakodetsukaretakaowoshiteita.",
+    "kana": "さくやはねぶそくだったため、きょうはかなつぼまなこでつかれたかおをしていた。",
+    "q": "sakuyahanebusokudattatame,kyouhakanatsubomanakodetsukaretakaowoshiteita.",
     "lang": "ja",
     "uuid": "b22d327e-04ea-4780-9954-f1f8737a26ff"
   },
@@ -1009,8 +1009,8 @@
   },
   {
     "disp": "今日は冬支度として、新しい暖かい手套を買いに行きました。",
-    "kana": "きょうはふゆしたくとして、あたらしいあたたかいしゅとうをかいにいきました。",
-    "q": "kyouhafuyushitakutoshite,atarashiiatatakaishutouwokainiikimashita.",
+    "kana": "きょうはふゆじたくとして、あたらしいあたたかいしゅとうをかいにいきました。",
+    "q": "kyouhafuyujitakutoshite,atarashiiatatakaishutouwokainiikimashita.",
     "lang": "ja",
     "uuid": "eb047a87-a375-4e40-8a9a-701734b985f1"
   },
@@ -1121,15 +1121,15 @@
   },
   {
     "disp": "先週の土曜日に、家族で近くの八幡宮へ参拝しに行きました。",
-    "kana": "せんしゅうのどようひに、かぞくでちかくのはちまんぐうへさんぱいしにいきました。",
-    "q": "sennshuunodoyouhini,kazokudechikakunohachimannguuhesannpaishiniikimashita.",
+    "kana": "せんしゅうのどようびに、かぞくでちかくのはちまんぐうへさんぱいしにいきました。",
+    "q": "sennshuunodoyoubini,kazokudechikakunohachimannguuhesannpaishiniikimashita.",
     "lang": "ja",
     "uuid": "f8fd5bfc-8308-4acd-aba5-94150c58e7f3"
   },
   {
     "disp": "地元の八幡神を祀る八幡宮へ、お正月に初詣に行きました。",
-    "kana": "じもとのはちまんしんをまつるやわたぐうへ、おしょうがつにはつもうでにいきました。",
-    "q": "jimotonohachimannshinnwomatsuruyawataguuhe,oshougatsunihatsumoudeniikimashita.",
+    "kana": "じもとのはちまんしんをまつるはちまんぐうへ、おしょうがつにはつもうでにいきました。",
+    "q": "jimotonohachimannshinnwomatsuruhachimannguuhe,oshougatsunihatsumoudeniikimashita.",
     "lang": "ja",
     "uuid": "13eb146c-6e0b-4441-8fdf-873ac1ab5deb"
   },
@@ -1211,9 +1211,9 @@
     "uuid": "f97e7335-e1bb-4127-98ee-92778e6a72e1"
   },
   {
-    "disp": "金属を熔けるには、非常に高い温度の熱が必要です。",
-    "kana": "きんぞくをとけるには、ひじょうにたかいおんどのねつがひつようです。",
-    "q": "kinnzokuwotokeruniha,hijounitakaionndononetsugahitsuyoudesu.",
+    "disp": "炉の中で金属が熔けるには、非常に高い温度の熱が必要です。",
+    "kana": "ろのなかできんぞくがとけるには、ひじょうにたかいおんどのねつがひつようです。",
+    "q": "rononakadekinnzokugatokeruniha,hijounitakaionndononetsugahitsuyoudesu.",
     "lang": "ja",
     "uuid": "bdd58bc9-da74-42ed-bbc4-3bfe1c926384"
   },
@@ -1303,8 +1303,8 @@
   },
   {
     "disp": "朝ごはんの一溢米を丁寧に炊いて、一粒も残さず食べました。",
-    "kana": "あさごはんのいちいつべいをていねいにたいて、いちつぶものこさずたべました。",
-    "q": "asagohannnoichiitsubeiwoteineinitaite,ichitsubumonokosazutabemashita.",
+    "kana": "あさごはんのいちいつべいをていねいにたいて、ひとつぶものこさずたべました。",
+    "q": "asagohannnoichiitsubeiwoteineinitaite,hitotsubumonokosazutabemashita.",
     "lang": "ja",
     "uuid": "8ad13971-1d2f-4ffa-b903-d6ff32ae7c05"
   },
@@ -1457,8 +1457,8 @@
   },
   {
     "disp": "安全を忽易にせず、いつも周囲の状況に注意深く行動しましょう。",
-    "kana": "あんぜんをこついにせず、いつもしゅういのじょうきょうにちゅういふかくこうどうしましょう。",
-    "q": "annzennwokotsuinisezu,itsumoshuuinojoukyounichuuifukakukoudoushimashou.",
+    "kana": "あんぜんをこついにせず、いつもしゅういのじょうきょうにちゅういぶかくこうどうしましょう。",
+    "q": "annzennwokotsuinisezu,itsumoshuuinojoukyounichuuibukakukoudoushimashou.",
     "lang": "ja",
     "uuid": "6b4d0627-15a3-4407-94a3-af00229bae8d"
   },
@@ -1695,8 +1695,8 @@
   },
   {
     "disp": "比叡山の中国風の呼び名として台嶺という名前があるのは、最近知りました。",
-    "kana": "ひえいやまのちゅうごくふうのよびなとしてたいれいというなまえがあるのは、さいきんしりました。",
-    "q": "hieiyamanochuugokufuunoyobinatoshitetaireitoiunamaegaarunoha,saikinnshirimashita.",
+    "kana": "ひえいざんのちゅうごくふうのよびなとしてたいれいというなまえがあるのは、さいきんしりました。",
+    "q": "hieizannnochuugokufuunoyobinatoshitetaireitoiunamaegaarunoha,saikinnshirimashita.",
     "lang": "ja",
     "uuid": "b9975659-adf1-4f8c-973a-f7f211bf0370"
   },
@@ -2269,8 +2269,8 @@
   },
   {
     "disp": "旅行の予定で、江西省の贛江にある有名な急流、惶恐灘を調べました。",
-    "kana": "りょこうのよていで、こうせいしょうの贛江にあるゆうめいなきゅうりゅう、こうきょうだんをしらべました。",
-    "q": "ryokounoyoteide,kouseishounoniaruyuumeinakyuuryuu,koukyoudannwoshirabemashita.",
+    "kana": "りょこうのよていで、こうせいしょうのかんこうにあるゆうめいなきゅうりゅう、こうきょうだんをしらべました。",
+    "q": "ryokounoyoteide,kouseishounokannkouniaruyuumeinakyuuryuu,koukyoudannwoshirabemashita.",
     "lang": "ja",
     "uuid": "45a74050-4c52-4d5f-ae6d-a04ff7e32272"
   },
@@ -2577,8 +2577,8 @@
   },
   {
     "disp": "心配事が続き、心は常に憂擾の状態で過ごしていた。",
-    "kana": "しんぱいことがつづき、こころはつねにゆうじょうのじょうたいですごしていた。",
-    "q": "shinnpaikotogatsuduki,kokorohatsuneniyuujounojoutaidesugoshiteita.",
+    "kana": "しんぱいごとがつづき、こころはつねにゆうじょうのじょうたいですごしていた。",
+    "q": "shinnpaigotogatsuduki,kokorohatsuneniyuujounojoutaidesugoshiteita.",
     "lang": "ja",
     "uuid": "e15d59c3-7e17-48af-a388-7d4290245823"
   },
@@ -2766,8 +2766,8 @@
   },
   {
     "disp": "戊夜は午前四時頃のことで、昔の人はこの時間に田畑へ向かいました。",
-    "kana": "ぼやはごぜんしじころのことで、むかしのひとはこのじかんにたはたへむかいました。",
-    "q": "boyahagozennshijikoronokotode,mukashinohitohakonojikannnitahatahemukaimashita.",
+    "kana": "ぼやはごぜんよじごろのことで、むかしのひとはこのじかんにたはたへむかいました。",
+    "q": "boyahagozennyojigoronokotode,mukashinohitohakonojikannnitahatahemukaimashita.",
     "lang": "ja",
     "uuid": "899156b6-cffc-4a87-a9ac-4325a853a770"
   },
@@ -3424,15 +3424,15 @@
   },
   {
     "disp": "朝、馬小屋で飼葉桶に新鮮な草をたくさん入れて、牛の餌やりをしました。",
-    "kana": "あさ、うまこやでかいばおけにしんせんなくさをたくさんいれて、うしのえさやりをしました。",
-    "q": "asa,umakoyadekaibaokenishinnsennnakusawotakusannirete,ushinoesayariwoshimashita.",
+    "kana": "あさ、うまごやでかいばおけにしんせんなくさをたくさんいれて、うしのえさやりをしました。",
+    "q": "asa,umagoyadekaibaokenishinnsennnakusawotakusannirete,ushinoesayariwoshimashita.",
     "lang": "ja",
     "uuid": "197aafd0-32a6-41a4-8de3-79a7899ccd22"
   },
   {
     "disp": "長い竿を使って、高い場所にある洗濯物を干しました。",
-    "kana": "ながいさおをつかって、たかいばしょにあるせんたくぶつをほしました。",
-    "q": "nagaisaowotsukatte,takaibashoniarusenntakubutsuwohoshimashita.",
+    "kana": "ながいさおをつかって、たかいばしょにあるせんたくものをほしました。",
+    "q": "nagaisaowotsukatte,takaibashoniarusenntakumonowohoshimashita.",
     "lang": "ja",
     "uuid": "6d856798-a9f6-4707-8cfd-5b8fb86f4790"
   },
@@ -3640,9 +3640,9 @@
     "uuid": "034cbdcf-7998-4c16-a9a4-4aa5c6061dd0"
   },
   {
-    "disp": "過度なストレスは心身ともに寇する行為なので避けるべきです。",
-    "kana": "かどなすとれすはしんしんともにあだするこういなのでさけるべきです。",
-    "q": "kadonasutoresuhashinnshinntomoniadasurukouinanodesakerubekidesu.",
+    "disp": "国境を越えて寇する敵の軍勢に備え、城の守りを固めた。",
+    "kana": "こっきょうをこえてあだするてきのぐんぜいにそなえ、しろのまもりをかためた。",
+    "q": "kokkyouwokoeteadasurutekinogunnzeinisonae,shironomamoriwokatameta.",
     "lang": "ja",
     "uuid": "e60e0004-32bc-4d82-a4e9-7c69b5e31a53"
   },
@@ -3858,8 +3858,8 @@
   },
   {
     "disp": "卯の花腐しと呼ばれる五月の雨が続いて、洗濯物が乾かなくて困る。",
-    "kana": "うのはなくたしとよばれるごがつのあめがつづいて、せんたくぶつがかわかなくてこまる。",
-    "q": "unohanakutashitoyobarerugogatsunoamegatsuduite,senntakubutsugakawakanakutekomaru.",
+    "kana": "うのはなくたしとよばれるごがつのあめがつづいて、せんたくものがかわかなくてこまる。",
+    "q": "unohanakutashitoyobarerugogatsunoamegatsuduite,senntakumonogakawakanakutekomaru.",
     "lang": "ja",
     "uuid": "75d5f10d-45e7-46b5-a173-bfd479bcb9f7"
   },
@@ -3941,9 +3941,9 @@
     "uuid": "435ae97d-10bb-4b97-8d4b-029e7f0f557e"
   },
   {
-    "disp": "犬はとても力強く骨を嚙み切ることで肉を切り取った。",
-    "kana": "いぬはとてもちからづよくほねをかみきることでにくをきりとった。",
-    "q": "inuhatotemochikaraduyokuhonewokamikirukotodenikuwokiritotta.",
+    "disp": "硬い肉をしっかり嚙み切ることができず、小さく切り分けてもらった。",
+    "kana": "かたいにくをしっかりかみきることができず、ちいさくきりわけてもらった。",
+    "q": "katainikuwoshikkarikamikirukotogadekizu,chiisakukiriwaketemoratta.",
     "lang": "ja",
     "uuid": "36ee371b-e611-4ccf-bd91-3df37be0f9fc"
   },
@@ -4074,9 +4074,9 @@
     "uuid": "f83f3c6e-2c71-4acb-8473-6c5033d30407"
   },
   {
-    "disp": "退屈な毎日を続けると、誰でも心も体も倦ずしてしまうものだ。",
-    "kana": "たいくつなまいにちをつづけると、だれでもこころもからだもうんずしてしまうものだ。",
-    "q": "taikutsunamainichiwotsudukeruto,daredemokokoromokaradamounnzushiteshimaumonoda.",
+    "disp": "同じ毎日が続くと、誰でもいつかは心が倦ずるものだ。",
+    "kana": "おなじまいにちがつづくと、だれでもいつかはこころがうんずるものだ。",
+    "q": "onajimainichigatsudukuto,daredemoitsukahakokorogaunnzurumonoda.",
     "lang": "ja",
     "uuid": "cdb6f68b-be51-4832-a3e8-5c9a71c7b2e7"
   },
@@ -4509,8 +4509,8 @@
   },
   {
     "disp": "道路沿いの電柱にある碍子が、太陽の光を反射していた。",
-    "kana": "どうろそいのでんちゅうにあるがいしが、たいようのひかりをはんしゃしていた。",
-    "q": "dourosoinodennchuuniarugaishiga,taiyounohikariwohannshashiteita.",
+    "kana": "どうろぞいのでんちゅうにあるがいしが、たいようのひかりをはんしゃしていた。",
+    "q": "dourozoinodennchuuniarugaishiga,taiyounohikariwohannshashiteita.",
     "lang": "ja",
     "uuid": "c90474df-8b6e-400a-a581-d36ab1f570e1"
   },
@@ -4900,9 +4900,9 @@
     "uuid": "0cff5637-0c87-46a9-b4ce-63eb03f399e1"
   },
   {
-    "disp": "今の状況は斯く、どうすればいいかとても悩んでいる。",
-    "kana": "いまのじょうきょうはかく、どうすればいいかとてもなやんでいる。",
-    "q": "imanojoukyouhakaku,dousurebaiikatotemonayanndeiru.",
+    "disp": "斯く申し上げる通り、私は今の状況をとても心配しております。",
+    "kana": "かくもうしあげるとおり、わたしはいまのじょうきょうをとてもしんぱいしております。",
+    "q": "kakumoushiagerutoori,watashihaimanojoukyouwototemoshinnpaishiteorimasu.",
     "lang": "ja",
     "uuid": "4f6330b0-70c4-44c7-9e7e-55ee09ca0d43"
   },
@@ -5019,9 +5019,9 @@
     "uuid": "1b30068d-bccd-48d1-9511-5d2f0cf2263f"
   },
   {
-    "disp": "彼女の着ている服は、とても馨しい雰囲気を醸し出しています。",
-    "kana": "かのじょのきているふくは、とてもかぐわしいふんいきをかもしだしています。",
-    "q": "kanojonokiteirufukuha,totemokaguwashiifunnikiwokamoshidashiteimasu.",
+    "disp": "庭の梅が咲き、窓を開けると馨しい香りが部屋に流れ込んできた。",
+    "kana": "にわのうめがさき、まどをあけるとかぐわしいかおりがへやにながれこんできた。",
+    "q": "niwanoumegasaki,madowoakerutokaguwashiikaorigaheyaninagarekonndekita.",
     "lang": "ja",
     "uuid": "4e534f32-46ac-4e81-ae3f-70a7a7377fc5"
   },
@@ -5237,8 +5237,8 @@
   },
   {
     "disp": "日本固有の河鹿蛙は、体長四センチメートル程度の小さな蛙です。",
-    "kana": "にっぽんこゆうのかじかがえるは、たいちょうよんせんちめーとるていどのちいさなかわずです。",
-    "q": "nipponnkoyuunokajikagaeruha,taichouyonnsennchime-toruteidonochiisanakawazudesu.",
+    "kana": "にほんこゆうのかじかがえるは、たいちょうよんせんちめーとるていどのちいさなかわずです。",
+    "q": "nihonnkoyuunokajikagaeruha,taichouyonnsennchime-toruteidonochiisanakawazudesu.",
     "lang": "ja",
     "uuid": "7d74fff6-c60b-43d4-9f24-7ececc591fbe"
   },
@@ -5629,8 +5629,8 @@
   },
   {
     "disp": "棚を修理するために、ホームセンターで金釘を一本だけ買ってきました。",
-    "kana": "たなをしゅうりするために、ほーむせんたーでかなくぎをいちぽんだけかってきました。",
-    "q": "tanawoshuurisurutameni,ho-musennta-dekanakugiwoichiponndakekattekimashita.",
+    "kana": "たなをしゅうりするために、ほーむせんたーでかなくぎをいっぽんだけかってきました。",
+    "q": "tanawoshuurisurutameni,ho-musennta-dekanakugiwoipponndakekattekimashita.",
     "lang": "ja",
     "uuid": "49d25830-3522-4609-91a1-0bd0ebf22caa"
   },
@@ -5650,8 +5650,8 @@
   },
   {
     "disp": "工具棚から鉄鎚を取り出して、古い家具を修理しました。",
-    "kana": "こうぐたなからかなづちをとりだして、ふるいかぐをしゅうりしました。",
-    "q": "kougutanakarakanaduchiwotoridashite,furuikaguwoshuurishimashita.",
+    "kana": "こうぐだなからかなづちをとりだして、ふるいかぐをしゅうりしました。",
+    "q": "kougudanakarakanaduchiwotoridashite,furuikaguwoshuurishimashita.",
     "lang": "ja",
     "uuid": "4778852a-a385-4ca9-a14d-a53ccb926b2e"
   },
@@ -5776,8 +5776,8 @@
   },
   {
     "disp": "先週の日曜日に、友人と久しぶりに美味しい蒲焼きを食べた。",
-    "kana": "せんしゅうのにちようひに、ゆうじんとひさしぶりにおいしいかばやきをたべた。",
-    "q": "sennshuunonichiyouhini,yuujinntohisashiburinioishiikabayakiwotabeta.",
+    "kana": "せんしゅうのにちようびに、ゆうじんとひさしぶりにおいしいかばやきをたべた。",
+    "q": "sennshuunonichiyoubini,yuujinntohisashiburinioishiikabayakiwotabeta.",
     "lang": "ja",
     "uuid": "868b7899-00b8-456e-b222-85da69a4e884"
   },
@@ -5817,9 +5817,9 @@
     "uuid": "5089cd0b-b52b-4445-94d7-824b144d236a"
   },
   {
-    "disp": "愛犬が大きな骨を嚙り付く姿は、とても愛らしく見えました。",
-    "kana": "あいけんがおおきなほねをかぶりつくすがたは、とてもあいらしくみえました。",
-    "q": "aikenngaookinahonewokaburitsukusugataha,totemoairashikumiemashita.",
+    "disp": "愛犬が大きな骨に嚙り付く姿は、とても愛らしく見えました。",
+    "kana": "あいけんがおおきなほねにかぶりつくすがたは、とてもあいらしくみえました。",
+    "q": "aikenngaookinahonenikaburitsukusugataha,totemoairashikumiemashita.",
     "lang": "ja",
     "uuid": "46f69a16-7911-499e-ba4b-5f658ee335ad"
   },
@@ -6104,9 +6104,9 @@
     "uuid": "a8f44eb7-e628-4a76-9847-925e92fc4321"
   },
   {
-    "disp": "風が強い日には、帽子が飛ばされないように顎紐を締めてお斯う。",
-    "kana": "かぜがつよいひには、ぼうしがとばされないようにあごひもをしめておこう。",
-    "q": "kazegatsuyoihiniha,boushigatobasarenaiyouniagohimowoshimeteokou.",
+    "disp": "風の強い日は、斯う顎紐をしっかり締めると帽子が飛ばされません。",
+    "kana": "かぜのつよいひは、こうあごひもをしっかりしめるとぼうしがとばされません。",
+    "q": "kazenotsuyoihiha,kouagohimowoshikkarishimerutoboushigatobasaremasenn.",
     "lang": "ja",
     "uuid": "b8e1ad30-8ea6-4b1d-be3e-38b47c7f9526"
   },
@@ -6266,8 +6266,8 @@
   },
   {
     "disp": "寒晒しを使って白玉を作ると、とても滑らかな食感になります。",
-    "kana": "かんざらしをつかってはくぎょくをつくると、とてもなめらかなしょっかんになります。",
-    "q": "kannzarashiwotsukattehakugyokuwotsukuruto,totemonamerakanashokkannninarimasu.",
+    "kana": "かんざらしをつかってしらたまをつくると、とてもなめらかなしょっかんになります。",
+    "q": "kannzarashiwotsukatteshiratamawotsukuruto,totemonamerakanashokkannninarimasu.",
     "lang": "ja",
     "uuid": "930564f1-4ef1-492f-802e-ac5964702048"
   },

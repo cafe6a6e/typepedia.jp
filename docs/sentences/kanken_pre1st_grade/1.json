@@ -1114,8 +1114,8 @@
   },
   {
     "disp": "杏仁はアンズの種子の仁で、お菓子や薬として広く利用されています。",
-    "kana": "きょうにんはあんずのしゅしのひとしで、おかしやくすりとしてひろくりようされています。",
-    "q": "kyouninnhaannzunoshushinohitoshide,okashiyakusuritoshitehirokuriyousareteimasu.",
+    "kana": "きょうにんはあんずのしゅしのじんで、おかしやくすりとしてひろくりようされています。",
+    "q": "kyouninnhaannzunoshushinojinnde,okashiyakusuritoshitehirokuriyousareteimasu.",
     "lang": "ja",
     "uuid": "f66598c3-9259-473a-b4d0-c4b3edfe665e"
   },
@@ -1387,8 +1387,8 @@
   },
   {
     "disp": "銀箔を貼った高級な和菓子は、光を浴びてとても綺麗でした。",
-    "kana": "ぎんぱくをはったこうきゅうなわかしは、ひかりをあびてとてもきれいでした。",
-    "q": "ginnpakuwohattakoukyuunawakashiha,hikariwoabitetotemokireideshita.",
+    "kana": "ぎんぱくをはったこうきゅうなわがしは、ひかりをあびてとてもきれいでした。",
+    "q": "ginnpakuwohattakoukyuunawagashiha,hikariwoabitetotemokireideshita.",
     "lang": "ja",
     "uuid": "90bc9089-539e-43fb-b348-7b0fbd8bc962"
   },
@@ -1541,8 +1541,8 @@
   },
   {
     "disp": "壁に写真を掛けるために、小さな釘を一本打ちました。",
-    "kana": "かべにしゃしんをかけるために、ちいさなくぎをいちぽんうちました。",
-    "q": "kabenishashinnwokakerutameni,chiisanakugiwoichiponnuchimashita.",
+    "kana": "かべにしゃしんをかけるために、ちいさなくぎをいっぽんうちました。",
+    "q": "kabenishashinnwokakerutameni,chiisanakugiwoipponnuchimashita.",
     "lang": "ja",
     "uuid": "dd840dab-2386-419f-99bb-aa5929cd64f4"
   },
@@ -1862,9 +1862,9 @@
     "uuid": "701de2b5-5ec2-4dd9-add6-1b693bf0a42c"
   },
   {
-    "disp": "毎日長時間座り続けると、お尻の部分が徐々に凹まる。",
-    "kana": "まいにちちょうじかんすわりつづけると、おしりのぶぶんがじょじょにくぼまる。",
-    "q": "mainichichoujikannsuwaritsudukeruto,oshirinobubunngajojonikubomaru.",
+    "disp": "毎日同じ場所に座り続けると、椅子の座面が徐々に凹まる。",
+    "kana": "まいにちおなじばしょにすわりつづけると、いすのざめんがじょじょにくぼまる。",
+    "q": "mainichionajibashonisuwaritsudukeruto,isunozamenngajojonikubomaru.",
     "lang": "ja",
     "uuid": "f1d76d99-877a-4942-a9ac-fc3e7a54a32f"
   },
@@ -2192,8 +2192,8 @@
   },
   {
     "disp": "硅酸は石鹸や化粧品など、身の回りの製品に含まれる化合物です。",
-    "kana": "けいさんはせっけんやけしょうひんなど、みのまわりのせいひんにふくまれるかごうものです。",
-    "q": "keisannhasekkennyakeshouhinnnado,minomawarinoseihinnnifukumarerukagoumonodesu.",
+    "kana": "けいさんはせっけんやけしょうひんなど、みのまわりのせいひんにふくまれるかごうぶつです。",
+    "q": "keisannhasekkennyakeshouhinnnado,minomawarinoseihinnnifukumarerukagoubutsudesu.",
     "lang": "ja",
     "uuid": "83143e16-0895-41cb-be31-4e9e7c7fbdef"
   },
@@ -2227,8 +2227,8 @@
   },
   {
     "disp": "船会社が不況で繋船を決め、船舶の運行を一時的に止めた。",
-    "kana": "ふねかいしゃがふきょうでけいせんをきめ、せんぱくのうんこうをいちじてきにとめた。",
-    "q": "funekaishagafukyoudekeisennwokime,sennpakunounnkouwoichijitekinitometa.",
+    "kana": "ふながいしゃがふきょうでけいせんをきめ、せんぱくのうんこうをいちじてきにとめた。",
+    "q": "funagaishagafukyoudekeisennwokime,sennpakunounnkouwoichijitekinitometa.",
     "lang": "ja",
     "uuid": "73b65464-f01f-471d-9c9d-eb1fe29686a5"
   },
@@ -2360,8 +2360,8 @@
   },
   {
     "disp": "最近見た映画で、武士が袈裟懸けで敵を一刀両断した。",
-    "kana": "さいきんみたえいがで、ぶしがけさがけでてきをいちとうりょうだんした。",
-    "q": "saikinnmitaeigade,bushigakesagakedetekiwoichitouryoudannshita.",
+    "kana": "さいきんみたえいがで、ぶしがけさがけでてきをいっとうりょうだんした。",
+    "q": "saikinnmitaeigade,bushigakesagakedetekiwoittouryoudannshita.",
     "lang": "ja",
     "uuid": "6cbe1265-ccb4-47f1-804d-288111d2582f"
   },
@@ -2577,8 +2577,8 @@
   },
   {
     "disp": "間竿は竹の棒で、一間の長さを測るために検地に使われていました。",
-    "kana": "けんざおはたけのぼうで、いちけんのながさをはかるためにけんちにつかわれていました。",
-    "q": "kennzaohatakenoboude,ichikennnonagasawohakarutamenikennchinitsukawareteimashita.",
+    "kana": "けんざおはたけのぼうで、いっけんのながさをはかるためにけんちにつかわれていました。",
+    "q": "kennzaohatakenoboude,ikkennnonagasawohakarutamenikennchinitsukawareteimashita.",
     "lang": "ja",
     "uuid": "b6ecb587-3deb-41a6-bdd0-cf6bca5cf239"
   },
@@ -3032,8 +3032,8 @@
   },
   {
     "disp": "柑子は日本の固有種で、昔から栽培されている酸味が強く、小さな果実です。",
-    "kana": "こうじはにっぽんのこゆうしゅで、むかしからさいばいされているさんみがつよく、ちいさなかじつです。",
-    "q": "koujihanipponnnokoyuushude,mukashikarasaibaisareteirusannmigatsuyoku,chiisanakajitsudesu.",
+    "kana": "こうじはにほんのこゆうしゅで、むかしからさいばいされているさんみがつよく、ちいさなかじつです。",
+    "q": "koujihanihonnnokoyuushude,mukashikarasaibaisareteirusannmigatsuyoku,chiisanakajitsudesu.",
     "lang": "ja",
     "uuid": "4a66b841-eba1-4d2f-8b2f-9bc3ec5ef15a"
   },
@@ -3613,8 +3613,8 @@
   },
   {
     "disp": "和菓子作りには、とても滑らかな口当たりの漉餡がおすすめです。",
-    "kana": "わかしつくりには、とてもなめらかなくちあたりのこしあんがおすすめです。",
-    "q": "wakashitsukuriniha,totemonamerakanakuchiatarinokoshianngaosusumedesu.",
+    "kana": "わがしづくりには、とてもなめらかなくちあたりのこしあんがおすすめです。",
+    "q": "wagashidukuriniha,totemonamerakanakuchiatarinokoshianngaosusumedesu.",
     "lang": "ja",
     "uuid": "d423f9a4-504a-4964-a915-c724957a9a0e"
   },
@@ -3802,8 +3802,8 @@
   },
   {
     "disp": "祖父が大切にしていた骨董を、丁寧に箱に入れて整理した。",
-    "kana": "そふがたいせつにしていたこっとうを、ていねいにばこにいれてせいりした。",
-    "q": "sofugataisetsunishiteitakottouwo,teineinibakoniireteseirishita.",
+    "kana": "そふがたいせつにしていたこっとうを、ていねいにはこにいれてせいりした。",
+    "q": "sofugataisetsunishiteitakottouwo,teineinihakoniireteseirishita.",
     "lang": "ja",
     "uuid": "9afe7553-7702-4ebd-a7cd-b364240af413"
   },
@@ -3949,8 +3949,8 @@
   },
   {
     "disp": "紙捻りを使って、和菓子を丁寧に結び、プレゼントにしました。",
-    "kana": "こよりをつかって、わかしをていねいにむすび、ぷれぜんとにしました。",
-    "q": "koyoriwotsukatte,wakashiwoteineinimusubi,purezenntonishimashita.",
+    "kana": "こよりをつかって、わがしをていねいにむすび、ぷれぜんとにしました。",
+    "q": "koyoriwotsukatte,wagashiwoteineinimusubi,purezenntonishimashita.",
     "lang": "ja",
     "uuid": "d0cc6a1e-1f5c-48e8-9c59-f37a90a1529e"
   },
@@ -4201,8 +4201,8 @@
   },
   {
     "disp": "物干し竿の材料として、良い竿竹を近所の店まで買いに行きました。",
-    "kana": "ものほしさおのざいりょうとして、よいさおだけをきんじょのみせまでかいにいきました。",
-    "q": "monohoshisaonozairyoutoshite,yoisaodakewokinnjonomisemadekainiikimashita.",
+    "kana": "ものほしざおのざいりょうとして、よいさおだけをきんじょのみせまでかいにいきました。",
+    "q": "monohoshizaonozairyoutoshite,yoisaodakewokinnjonomisemadekainiikimashita.",
     "lang": "ja",
     "uuid": "40cc7f3e-931b-45df-bd88-28e6dbef71f0"
   },
@@ -4313,8 +4313,8 @@
   },
   {
     "disp": "十二支の十二番目である亥年は、猪の象徴を持つ縁起の良い年です。",
-    "kana": "じゅうにしのじゅうにばんめであるいとしは、いのししのしょうちょうをもつえんぎのよいとしです。",
-    "q": "juunishinojuunibannmedearuitoshiha,inoshishinoshouchouwomotsuennginoyoitoshidesu.",
+    "kana": "じゅうにしのじゅうにばんめであるいどしは、いのししのしょうちょうをもつえんぎのよいとしです。",
+    "q": "juunishinojuunibannmedearuidoshiha,inoshishinoshouchouwomotsuennginoyoitoshidesu.",
     "lang": "ja",
     "uuid": "c4b5a422-7ebb-4915-93f8-c9aef8d1d2ce"
   },
@@ -4404,8 +4404,8 @@
   },
   {
     "disp": "栄螺は角がある貝で、身は食用、殻は貝細工の材料に使われます。",
-    "kana": "さざえはかどがあるかいで、みはしょくよう、からはかいさいくのざいりょうにつかわれます。",
-    "q": "sazaehakadogaarukaide,mihashokuyou,karahakaisaikunozairyounitsukawaremasu.",
+    "kana": "さざえはかどがあるかいで、みはしょくよう、からはかいざいくのざいりょうにつかわれます。",
+    "q": "sazaehakadogaarukaide,mihashokuyou,karahakaizaikunozairyounitsukawaremasu.",
     "lang": "ja",
     "uuid": "6838fe98-f322-467f-9e89-801603caa98c"
   },
@@ -4726,8 +4726,8 @@
   },
   {
     "disp": "この和菓子は、表面に晒餡をまぶしてあるのでとても美味しいです。",
-    "kana": "このわかしは、ひょうめんにさらしあんをまぶしてあるのでとてもおいしいです。",
-    "q": "konowakashiha,hyoumennnisarashiannwomabushitearunodetotemooishiidesu.",
+    "kana": "このわがしは、ひょうめんにさらしあんをまぶしてあるのでとてもおいしいです。",
+    "q": "konowagashiha,hyoumennnisarashiannwomabushitearunodetotemooishiidesu.",
     "lang": "ja",
     "uuid": "338a3bbe-24d3-4da1-9b61-fcdbcde62b52"
   },
@@ -4915,8 +4915,8 @@
   },
   {
     "disp": "山稜沿いの道は景色が良く、とても気持ちよかったです。",
-    "kana": "さんりょうそいのみちはけしきがよく、とてもきもちよかったです。",
-    "q": "sannryousoinomichihakeshikigayoku,totemokimochiyokattadesu.",
+    "kana": "さんりょうぞいのみちはけしきがよく、とてもきもちよかったです。",
+    "q": "sannryouzoinomichihakeshikigayoku,totemokimochiyokattadesu.",
     "lang": "ja",
     "uuid": "284a54fc-50c5-4627-b597-48ba7d199186"
   },
@@ -4978,8 +4978,8 @@
   },
   {
     "disp": "お土産に塩竈という和菓子を買って、家族みんなで食べた。",
-    "kana": "おみやげにしおがまというわかしをかって、かぞくみんなでたべた。",
-    "q": "omiyagenishiogamatoiuwakashiwokatte,kazokuminnnadetabeta.",
+    "kana": "おみやげにしおがまというわがしをかって、かぞくみんなでたべた。",
+    "q": "omiyagenishiogamatoiuwagashiwokatte,kazokuminnnadetabeta.",
     "lang": "ja",
     "uuid": "eb14566b-eec1-474e-85e8-ca774e7e0a84"
   },
@@ -5461,8 +5461,8 @@
   },
   {
     "disp": "夏に川で見た縞蛇は、体側に四本の縦縞がきれいな蛇でした。",
-    "kana": "なつにかわでみたしまへびは、たいそくによんぽんのたてじまがきれいなへびでした。",
-    "q": "natsunikawademitashimahebiha,taisokuniyonnponnnotatejimagakireinahebideshita.",
+    "kana": "なつにかわでみたしまへびは、たいそくによんほんのたてじまがきれいなへびでした。",
+    "q": "natsunikawademitashimahebiha,taisokuniyonnhonnnotatejimagakireinahebideshita.",
     "lang": "ja",
     "uuid": "080ddda4-56b3-426d-a9b3-4c5f9f7ab9d3"
   },
@@ -5482,8 +5482,8 @@
   },
   {
     "disp": "予想通りすべてがうまく進み、占め子の兎だと声をかけた。",
-    "kana": "よそうとおりすべてがうまくすすみ、しめこのうさぎだとこえをかけた。",
-    "q": "yosoutoorisubetegaumakususumi,shimekonousagidatokoewokaketa.",
+    "kana": "よそうどおりすべてがうまくすすみ、しめこのうさぎだとこえをかけた。",
+    "q": "yosoudoorisubetegaumakususumi,shimekonousagidatokoewokaketa.",
     "lang": "ja",
     "uuid": "a1e7ff7c-137b-4e11-98de-c981517ee7d7"
   },
@@ -5516,9 +5516,9 @@
     "uuid": "38a58c72-5194-4c76-9257-aee50bef62f6"
   },
   {
-    "disp": "朝、温かいお味噌汁を杓うして、お椀に静かに注ぎました。",
-    "kana": "あさ、あたたかいおみそしるをしゃくうして、おわんにしずかにそそぎました。",
-    "q": "asa,atatakaiomisoshiruwoshakuushite,owannnishizukanisosogimashita.",
+    "disp": "温かい味噌汁を杓うと湯気が立ちのぼり、お椀へ静かに注ぎました。",
+    "kana": "あたたかいみそしるをしゃくうとゆげがたちのぼり、おわんへしずかにそそぎました。",
+    "q": "atatakaimisoshiruwoshakuutoyugegatachinobori,owannheshizukanisosogimashita.",
     "lang": "ja",
     "uuid": "fbf013d0-f4de-4160-bbc7-ab459007c5aa"
   },
@@ -5545,8 +5545,8 @@
   },
   {
     "disp": "灼熱の太陽が照りつける真夏日、水分補給を忘れないようにした。",
-    "kana": "しゃくねつのたいようがてりつけるまなつひ、すいぶんほきゅうをわすれないようにした。",
-    "q": "shakunetsunotaiyougateritsukerumanatsuhi,suibunnhokyuuwowasurenaiyounishita.",
+    "kana": "しゃくねつのたいようがてりつけるまなつび、すいぶんほきゅうをわすれないようにした。",
+    "q": "shakunetsunotaiyougateritsukerumanatsubi,suibunnhokyuuwowasurenaiyounishita.",
     "lang": "ja",
     "uuid": "3990a245-cf01-44fd-b560-6c63f2dc6970"
   },
@@ -5601,8 +5601,8 @@
   },
   {
     "disp": "真夏日の昼下がり、公園の樹蔭で涼しく過ごすのがおすすめです。",
-    "kana": "まなつひのひるさがり、こうえんのじゅいんですずしくすごすのがおすすめです。",
-    "q": "manatsuhinohirusagari,kouennnojuinndesuzushikusugosunogaosusumedesu.",
+    "kana": "まなつびのひるさがり、こうえんのじゅいんですずしくすごすのがおすすめです。",
+    "q": "manatsubinohirusagari,kouennnojuinndesuzushikusugosunogaosusumedesu.",
     "lang": "ja",
     "uuid": "05ca46b0-be00-4fc9-935f-ebe2fca14e3a"
   },
@@ -6378,15 +6378,15 @@
   },
   {
     "disp": "祖父の真蹟を箱に入れて、家の中で大事にしています。",
-    "kana": "そふのしんせきをばこにいれて、いえのなかでだいじにしています。",
-    "q": "sofunoshinnsekiwobakoniirete,ienonakadedaijinishiteimasu.",
+    "kana": "そふのしんせきをはこにいれて、いえのなかでだいじにしています。",
+    "q": "sofunoshinnsekiwohakoniirete,ienonakadedaijinishiteimasu.",
     "lang": "ja",
     "uuid": "2f648e13-e53e-4b0a-acd7-5572e624e04e"
   },
   {
     "disp": "有名な詩人が新撰した短編集が、今週書店で売られている。",
-    "kana": "ゆうめいなしじんがしんせんしたたんへんしゅうが、こんしゅうしょてんでうられている。",
-    "q": "yuumeinashijinngashinnsennshitatannhennshuuga,konnshuushotenndeurareteiru.",
+    "kana": "ゆうめいなしじんがしんせんしたたんぺんしゅうが、こんしゅうしょてんでうられている。",
+    "q": "yuumeinashijinngashinnsennshitatannpennshuuga,konnshuushotenndeurareteiru.",
     "lang": "ja",
     "uuid": "8b65603b-bc42-4cba-9ac4-d131c029d21d"
   },
@@ -6770,8 +6770,8 @@
   },
   {
     "disp": "お土産で買った和菓子に洲浜があり、素甘の別称として知られる。",
-    "kana": "おみやげでかったわかしにすはまがあり、そかんのべっしょうとしてしられる。",
-    "q": "omiyagedekattawakashinisuhamagaari,sokannnobesshoutoshiteshirareru.",
+    "kana": "おみやげでかったわがしにすはまがあり、そかんのべっしょうとしてしられる。",
+    "q": "omiyagedekattawagashinisuhamagaari,sokannnobesshoutoshiteshirareru.",
     "lang": "ja",
     "uuid": "6da341ed-4e4f-4e72-9c68-93ff8c75bbab"
   },
@@ -6839,9 +6839,9 @@
     "uuid": "d8b10273-2258-455c-8f01-5fc5e99ff9a3"
   },
   {
-    "disp": "混雑した電車内で掏摸に遭わないよう、ポケットは閉めてお斯う。",
-    "kana": "こんざつしたでんしゃないですりにあわないよう、ぽけっとはしめておこう。",
-    "q": "konnzatsushitadennshanaidesuriniawanaiyou,pokettohashimeteokou.",
+    "disp": "混雑した電車内では斯う鞄を抱えて、掏摸に遭わないように気をつけている。",
+    "kana": "こんざつしたでんしゃないではこうかばんをかかえて、すりにあわないようにきをつけている。",
+    "q": "konnzatsushitadennshanaidehakoukabannwokakaete,suriniawanaiyounikiwotsuketeiru.",
     "lang": "ja",
     "uuid": "40bf133d-c45e-491a-9c1a-6ea610a3612f"
   },
@@ -6917,8 +6917,8 @@
   },
   {
     "disp": "健康な体も、睡眠不足で脆弱になることがあるので注意しましょう。",
-    "kana": "けんこうなからだも、すいみんふそくでぜいじゃくになることがあるのでちゅういしましょう。",
-    "q": "kennkounakaradamo,suiminnfusokudezeijakuninarukotogaarunodechuuishimashou.",
+    "kana": "けんこうなからだも、すいみんぶそくでぜいじゃくになることがあるのでちゅういしましょう。",
+    "q": "kennkounakaradamo,suiminnbusokudezeijakuninarukotogaarunodechuuishimashou.",
     "lang": "ja",
     "uuid": "279abc44-7a53-4154-837f-47177a9c6521"
   },
@@ -6945,8 +6945,8 @@
   },
   {
     "disp": "家族全員が勢揃いして、みんなで楽しい誕生日会を開きました。",
-    "kana": "かぞくぜんいんがせいぞろいして、みんなでたのしいたんじょうにちかいをひらきました。",
-    "q": "kazokuzenninngaseizoroishite,minnnadetanoshiitannjounichikaiwohirakimashita.",
+    "kana": "かぞくぜんいんがせいぞろいして、みんなでたのしいたんじょうびかいをひらきました。",
+    "q": "kazokuzenninngaseizoroishite,minnnadetanoshiitannjoubikaiwohirakimashita.",
     "lang": "ja",
     "uuid": "11ee4301-c229-45d7-8516-ab4c2d1b0c3c"
   },
