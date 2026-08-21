@@ -2549,8 +2549,8 @@
   },
   {
     "disp": "昔噺に出てくる丑の刻参りは、本当に人を呪うための儀式なんだって。",
-    "kana": "むかしばなしにでてくるうしのときまいりは、ほんとうにひとをのろうためのぎしきなんだって。",
-    "q": "mukashibanashinidetekuruushinotokimairiha,honntounihitowonoroutamenogishikinanndatte.",
+    "kana": "むかしばなしにでてくるうしのこくまいりは、ほんとうにひとをのろうためのぎしきなんだって。",
+    "q": "mukashibanashinidetekuruushinokokumairiha,honntounihitowonoroutamenogishikinanndatte.",
     "lang": "ja",
     "uuid": "ae4730b2-fa14-4da2-af9d-565942f8c25d"
   },
@@ -6084,8 +6084,8 @@
   },
   {
     "disp": "鏡のフレームが歪むと、自分の顔が正しく映らなくなってしまう。",
-    "kana": "かがみのふれーむがゆがむと、じぶんのかおがまさしくうつらなくなってしまう。",
-    "q": "kagaminofure-mugayugamuto,jibunnnokaogamasashikuutsuranakunatteshimau.",
+    "kana": "かがみのふれーむがゆがむと、じぶんのかおがただしくうつらなくなってしまう。",
+    "q": "kagaminofure-mugayugamuto,jibunnnokaogatadashikuutsuranakunatteshimau.",
     "lang": "ja",
     "uuid": "adf05fb2-f802-4c8a-a1df-e1c7c6a85c5d"
   },
@@ -6126,8 +6126,8 @@
   },
   {
     "disp": "暖かい日が続くと屋根の雪庇が溶け、ポタリと音がした。",
-    "kana": "あたたかいひがつづくとやねのゆきびさしがとけ、ぽたりとおとがした。",
-    "q": "atatakaihigatsudukutoyanenoyukibisashigatoke,potaritootogashita.",
+    "kana": "あたたかいひがつづくとやねのせっぴがとけ、ぽたりとおとがした。",
+    "q": "atatakaihigatsudukutoyanenoseppigatoke,potaritootogashita.",
     "lang": "ja",
     "uuid": "2bc5134a-ace9-4dde-9d2b-9647cf22f20d"
   },
