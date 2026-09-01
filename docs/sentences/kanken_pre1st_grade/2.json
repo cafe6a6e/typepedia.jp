@@ -4334,8 +4334,8 @@
   },
   {
     "disp": "庭で育てている檜扇は、夏に赤黄色で紫の斑点のある花を咲かせます。",
-    "kana": "にわでそだてているひおうぎは、なつにせきこうしょくでむらさきのはんてんのあるはなをさかせます。",
-    "q": "niwadesodateteiruhiougiha,natsunisekikoushokudemurasakinohanntennnoaruhanawosakasemasu.",
+    "kana": "にわでそだてているひおうぎは、なつにあかきいろでむらさきのはんてんのあるはなをさかせます。",
+    "q": "niwadesodateteiruhiougiha,natsuniakakiirodemurasakinohanntennnoaruhanawosakasemasu.",
     "lang": "ja",
     "uuid": "d1544254-5492-4626-bf50-d05c5bf92eda"
   },
@@ -6916,9 +6916,9 @@
     "uuid": "654e8524-b8ae-4b22-aa41-2fede56ba9c2"
   },
   {
-    "disp": "部屋は子供たちの遊びのあとで、ひどい狼藉の跡を残していた。",
-    "kana": "へやはこどもたちのあそびのあとで、ひどいろうじゃくのあとをのこしていた。",
-    "q": "heyahakodomotachinoasobinoatode,hidoiroujakunoatowonokoshiteita.",
+    "disp": "昔の暦では狼藉日に当たる日を選んで、大事を控えたそうです。",
+    "kana": "むかしのこよみではろうじゃくにちにあたるひをえらんで、だいじをひかえたそうです。",
+    "q": "mukashinokoyomideharoujakunichiniataruhiwoerannde,daijiwohikaetasoudesu.",
     "lang": "ja",
     "uuid": "67202900-d960-4bda-974c-44e397c28796"
   },

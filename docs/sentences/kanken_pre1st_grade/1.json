@@ -3206,9 +3206,9 @@
     "uuid": "27ab8eef-6649-47d0-9615-ddf44ee74528"
   },
   {
-    "disp": "彼は狡智を使って、自分の過ちを隠そうとした。",
-    "kana": "かれはこうちをつかって、じぶんのあやまちをかくそうとした。",
-    "q": "karehakouchiwotsukatte,jibunnnoayamachiwokakusoutoshita.",
+    "disp": "彼は狡智を巡らせて、自分の過ちを隠そうとした。",
+    "kana": "かれはこうちをめぐらせて、じぶんのあやまちをかくそうとした。",
+    "q": "karehakouchiwomegurasete,jibunnnoayamachiwokakusoutoshita.",
     "lang": "ja",
     "uuid": "51790005-01fb-4459-9ff7-a54aa90591c4"
   },
@@ -5825,8 +5825,8 @@
   },
   {
     "disp": "彼は醇朴な性格で、誰に対しても上辺を取り繕わない誠実な人です。",
-    "kana": "かれはじゅんぼくなせいかくで、だれにたいしてもじょうへんをとりつくろわないせいじつなひとです。",
-    "q": "karehajunnbokunaseikakude,darenitaishitemojouhennwotoritsukurowanaiseijitsunahitodesu.",
+    "kana": "かれはじゅんぼくなせいかくで、だれにたいしてもうわべをとりつくろわないせいじつなひとです。",
+    "q": "karehajunnbokunaseikakude,darenitaishitemouwabewotoritsukurowanaiseijitsunahitodesu.",
     "lang": "ja",
     "uuid": "4657a966-aff0-4c23-8238-1e54ad01c014"
   },
@@ -6482,9 +6482,9 @@
     "uuid": "79b1545a-9b1e-44d7-9a02-d7a3a63621b9"
   },
   {
-    "disp": "新しい年の始まりに、瑞象の萌しを感じて希望が湧きましたね。",
-    "kana": "あたらしいとしのはじまりに、ずいしょうのきざしをかんじてきぼうがわきましたね。",
-    "q": "atarashiitoshinohajimarini,zuishounokizashiwokannjitekibougawakimashitane.",
+    "disp": "開幕から連勝が続き、優勝の瑞象が現れたと皆が喜んでいます。",
+    "kana": "かいまくかられんしょうがつづき、ゆうしょうのずいしょうがあらわれたとみながよろこんでいます。",
+    "q": "kaimakukararennshougatsuduki,yuushounozuishougaarawaretatominagayorokonndeimasu.",
     "lang": "ja",
     "uuid": "b7aa08dc-65e0-43a7-939d-31754ab2d1ff"
   },

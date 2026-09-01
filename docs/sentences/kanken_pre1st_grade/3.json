@@ -92,8 +92,8 @@
   },
   {
     "disp": "鶏肉や野菜を煮込んだ、温かい椀盛りをいただきました。",
-    "kana": "けいにくややさいをにこんだ、あたたかいわんもりをいただきました。",
-    "q": "keinikuyayasaiwonikonnda,atatakaiwannmoriwoitadakimashita.",
+    "kana": "とりにくややさいをにこんだ、あたたかいわんもりをいただきました。",
+    "q": "torinikuyayasaiwonikonnda,atatakaiwannmoriwoitadakimashita.",
     "lang": "ja",
     "uuid": "e43a5463-4b9f-4dd7-bd17-a30df88cf849"
   },
@@ -582,8 +582,8 @@
   },
   {
     "disp": "日常的な料理の風味付けに月桂樹の葉を使うことがよくあります。",
-    "kana": "にちじょうてきなりょうりのかぜあじつけにげっけいじゅのはをつかうことがよくあります。",
-    "q": "nichijoutekinaryourinokazeajitsukenigekkeijunohawotsukaukotogayokuarimasu.",
+    "kana": "にちじょうてきなりょうりのふうみづけにげっけいじゅのはをつかうことがよくあります。",
+    "q": "nichijoutekinaryourinofuumidukenigekkeijunohawotsukaukotogayokuarimasu.",
     "lang": "ja",
     "uuid": "1bdbcf5e-691e-4e44-abaf-1fee753f6835"
   },
@@ -792,8 +792,8 @@
   },
   {
     "disp": "料理のとろみ付けに片栗粉を溶いて入れると美味しくなります。",
-    "kana": "りょうりのとろみつけにかたくりこをといていれるとおいしくなります。",
-    "q": "ryourinotoromitsukenikatakurikowotoiteirerutooishikunarimasu.",
+    "kana": "りょうりのとろみづけにかたくりこをといていれるとおいしくなります。",
+    "q": "ryourinotoromidukenikatakurikowotoiteirerutooishikunarimasu.",
     "lang": "ja",
     "uuid": "05ee6ac7-cc83-423d-bc1d-9a05e002293e"
   },
@@ -4103,15 +4103,15 @@
   },
   {
     "disp": "空気中に稀ガスは微量含まれていて、不活性なので電球などに使われます。",
-    "kana": "くうきちゅうにきがすはびりょうふくまれていて、ふかつせいなのででんきゅうなどにつかわれます。",
-    "q": "kuukichuunikigasuhabiryoufukumareteite,fukatsuseinanodedennkyuunadonitsukawaremasu.",
+    "kana": "くうきちゅうにきがすはびりょうふくまれていて、ふかっせいなのででんきゅうなどにつかわれます。",
+    "q": "kuukichuunikigasuhabiryoufukumareteite,fukasseinanodedennkyuunadonitsukawaremasu.",
     "lang": "ja",
     "uuid": "213de679-c948-489d-aea0-93d9da7c912f"
   },
   {
     "disp": "稀ガス類は空気中に微量しかなく、不活性な性質を持っています。",
-    "kana": "きがするいはくうきちゅうにびりょうしかなく、ふかつせいなせいしつをもっています。",
-    "q": "kigasuruihakuukichuunibiryoushikanaku,fukatsuseinaseishitsuwomotteimasu.",
+    "kana": "きがするいはくうきちゅうにびりょうしかなく、ふかっせいなせいしつをもっています。",
+    "q": "kigasuruihakuukichuunibiryoushikanaku,fukasseinaseishitsuwomotteimasu.",
     "lang": "ja",
     "uuid": "a408c36c-6a99-4253-a62f-078d52e45bef"
   },
@@ -5454,8 +5454,8 @@
   },
   {
     "disp": "とろみ付けに使う片栗は、必ず水で溶いてから鍋に入れます。",
-    "kana": "とろみつけにつかうかたくりは、かならずみずでといてからなべにいれます。",
-    "q": "toromitsukenitsukaukatakuriha,kanarazumizudetoitekaranabeniiremasu.",
+    "kana": "とろみづけにつかうかたくりは、かならずみずでといてからなべにいれます。",
+    "q": "toromidukenitsukaukatakuriha,kanarazumizudetoitekaranabeniiremasu.",
     "lang": "ja",
     "uuid": "a21ccdf5-8953-471b-972e-c42ed5f818ed"
   },
