@@ -35,13 +35,6 @@
     "uuid": "5f6c89e6-0d82-46ce-bb06-c2da52eeca0d"
   },
   {
-    "disp": "部下",
-    "kana": "ぶか",
-    "q": "buka",
-    "lang": "ja",
-    "uuid": "9fed714f-d17d-4243-86b1-3b1325467832"
-  },
-  {
     "disp": "泥",
     "kana": "どろ",
     "q": "doro",
@@ -49,25 +42,11 @@
     "uuid": "77c9457b-eb25-4307-9d87-e302174d740c"
   },
   {
-    "disp": "駅",
-    "kana": "えき",
-    "q": "eki",
-    "lang": "ja",
-    "uuid": "d3ae8d7c-8cee-454f-88e6-92d8b86d5f55"
-  },
-  {
     "disp": "筆",
     "kana": "ふで",
     "q": "fude",
     "lang": "ja",
     "uuid": "89d9b58d-3cf7-46b5-b214-a87fccfb5a97"
-  },
-  {
-    "disp": "吹く",
-    "kana": "ふく",
-    "q": "fuku",
-    "lang": "ja",
-    "uuid": "477605f9-e8ab-48dc-9234-fff25bab39ed"
   },
   {
     "disp": "降る",
@@ -89,13 +68,6 @@
     "q": "haha",
     "lang": "ja",
     "uuid": "05b77992-4e5b-496b-a377-e0a22bca2c68"
-  },
-  {
-    "disp": "箱",
-    "kana": "はこ",
-    "q": "hako",
-    "lang": "ja",
-    "uuid": "f447c931-8512-4b0f-924f-7c4874e6c948"
   },
   {
     "disp": "花",
@@ -182,111 +154,6 @@
     "uuid": "bd1feb41-a636-4868-8d44-b7e4b2654459"
   },
   {
-    "disp": "壁",
-    "kana": "かべ",
-    "q": "kabe",
-    "lang": "ja",
-    "uuid": "8cacf5f4-4253-496c-bfdb-676c4bb3d5be"
-  },
-  {
-    "disp": "影",
-    "kana": "かげ",
-    "q": "kage",
-    "lang": "ja",
-    "uuid": "04aeacf7-3d1b-4029-b525-ef0976055a8e"
-  },
-  {
-    "disp": "鍵",
-    "kana": "かぎ",
-    "q": "kagi",
-    "lang": "ja",
-    "uuid": "b659352e-ee7b-4902-94d7-0c49135ff581"
-  },
-  {
-    "disp": "釜",
-    "kana": "かま",
-    "q": "kama",
-    "lang": "ja",
-    "uuid": "4f657dcc-0ca2-461b-9d5f-6f07f9a8eb53"
-  },
-  {
-    "disp": "紙",
-    "kana": "かみ",
-    "q": "kami",
-    "lang": "ja",
-    "uuid": "602e4dcc-cf54-496c-8cd5-c3cc3d5b3b0f"
-  },
-  {
-    "disp": "噛む",
-    "kana": "かむ",
-    "q": "kamu",
-    "lang": "ja",
-    "uuid": "0fc640a6-15b3-4fd9-af3c-a8fc7110fa4e"
-  },
-  {
-    "disp": "館",
-    "kana": "かん",
-    "q": "kann",
-    "lang": "ja",
-    "uuid": "2f7d21fc-03e8-4fd2-a0d0-461d9b8ca7b3"
-  },
-  {
-    "disp": "傘",
-    "kana": "かさ",
-    "q": "kasa",
-    "lang": "ja",
-    "uuid": "c4aa6e07-9ea2-4b28-ae32-b4ca36c4243b"
-  },
-  {
-    "disp": "風",
-    "kana": "かぜ",
-    "q": "kaze",
-    "lang": "ja",
-    "uuid": "03825583-2071-43bf-91a3-9883801127eb"
-  },
-  {
-    "disp": "数",
-    "kana": "かず",
-    "q": "kazu",
-    "lang": "ja",
-    "uuid": "9896c4a3-d260-4d38-94b9-4316e3d714a3"
-  },
-  {
-    "disp": "霧",
-    "kana": "きり",
-    "q": "kiri",
-    "lang": "ja",
-    "uuid": "cc4f4938-3045-4bf9-861c-da16b8521ce0"
-  },
-  {
-    "disp": "漕ぐ",
-    "kana": "こぐ",
-    "q": "kogu",
-    "lang": "ja",
-    "uuid": "be4dd934-2da2-41f0-bfc8-2972c677ceab"
-  },
-  {
-    "disp": "雲",
-    "kana": "くも",
-    "q": "kumo",
-    "lang": "ja",
-    "uuid": "c183f886-142a-4ea0-85b2-adda0c3beeae"
-  },
-  {
-    "disp": "草",
-    "kana": "くさ",
-    "q": "kusa",
-    "lang": "ja",
-    "uuid": "9479a336-680b-4e43-9270-827c4ceb3c39"
-  },
-  {
-    "disp": "櫛",
-    "kana": "くし",
-    "q": "kusi",
-    "lang": "ja",
-    "uuid": "914bb67c-c063-47b5-a5b7-1d7df651974b"
-  },
-  {
     "disp": "窓",
     "kana": "まど",
     "q": "mado",
@@ -327,13 +194,6 @@
     "q": "nabe",
     "lang": "ja",
     "uuid": "af099b0a-6ea0-44ca-880d-2c47cad9ff1f"
-  },
-  {
-    "disp": "泣く",
-    "kana": "なく",
-    "q": "naku",
-    "lang": "ja",
-    "uuid": "0460e63e-df50-4c23-a174-0ec5288492fd"
   },
   {
     "disp": "波",
@@ -385,11 +245,53 @@
     "uuid": "58ca3062-230e-4c33-93f8-0657b46be41f"
   },
   {
-    "disp": "桶",
-    "kana": "おけ",
-    "q": "oke",
+    "disp": "パン",
+    "kana": "ぱん",
+    "q": "pann",
     "lang": "ja",
-    "uuid": "f3ef83a2-69e9-487c-b018-8f5ef8dc7130"
+    "uuid": "d30a28ed-0c0e-4777-bb3d-42b58d362078"
+  },
+  {
+    "disp": "パス",
+    "kana": "ぱす",
+    "q": "pasu",
+    "lang": "ja",
+    "uuid": "c36b610e-89eb-403c-bd94-57b2a9326e8d"
+  },
+  {
+    "disp": "ペア",
+    "kana": "ぺあ",
+    "q": "pea",
+    "lang": "ja",
+    "uuid": "516272ef-d41f-4623-8c3e-f21a7cf5cab4"
+  },
+  {
+    "disp": "ペン",
+    "kana": "ぺん",
+    "q": "penn",
+    "lang": "ja",
+    "uuid": "a3f09f6d-d8c3-4f3c-802e-09b95d96420a"
+  },
+  {
+    "disp": "ピン",
+    "kana": "ぴん",
+    "q": "pinn",
+    "lang": "ja",
+    "uuid": "41d00f15-13d3-401b-98df-14d5b8b2c7eb"
+  },
+  {
+    "disp": "ピザ",
+    "kana": "ぴざ",
+    "q": "piza",
+    "lang": "ja",
+    "uuid": "76c8785e-346d-4150-9583-6b7ec3078d96"
+  },
+  {
+    "disp": "プロ",
+    "kana": "ぷろ",
+    "q": "puro",
+    "lang": "ja",
+    "uuid": "d664f3bb-87ac-4c6d-8c4f-cb5cb0e3e6fa"
   },
   {
     "disp": "路地",
@@ -397,13 +299,6 @@
     "q": "roji",
     "lang": "ja",
     "uuid": "0039c502-ceae-4cfb-b30e-57180301efd5"
-  },
-  {
-    "disp": "咲く",
-    "kana": "さく",
-    "q": "saku",
-    "lang": "ja",
-    "uuid": "9fb1efc9-3faa-4d54-a2fc-c6564aa293de"
   },
   {
     "disp": "皿",
@@ -462,13 +357,6 @@
     "uuid": "0134b80e-fd76-48eb-8807-229f05bab2ab"
   },
   {
-    "disp": "浮く",
-    "kana": "うく",
-    "q": "uku",
-    "lang": "ja",
-    "uuid": "8a7f4162-0da0-4974-a99f-1318f792c4db"
-  },
-  {
     "disp": "海",
     "kana": "うみ",
     "q": "umi",
@@ -504,27 +392,6 @@
     "uuid": "23adbbdb-759e-49df-9992-9d1e4c4ca5d9"
   },
   {
-    "disp": "床",
-    "kana": "ゆか",
-    "q": "yuka",
-    "lang": "ja",
-    "uuid": "b04f393b-575b-4f20-971a-abdc8d4a88b7"
-  },
-  {
-    "disp": "雪",
-    "kana": "ゆき",
-    "q": "yuki",
-    "lang": "ja",
-    "uuid": "02400881-33a0-4280-8d53-d4a3dca803c1"
-  },
-  {
-    "disp": "赤い",
-    "kana": "あかい",
-    "q": "akai",
-    "lang": "ja",
-    "uuid": "3d7a46d8-e60c-46b9-8ace-3dbb9814526d"
-  },
-  {
     "disp": "青い",
     "kana": "あおい",
     "q": "aoi",
@@ -539,20 +406,6 @@
     "uuid": "c7f14da8-70c0-45e0-abb3-658d6e10d13e"
   },
   {
-    "disp": "深い",
-    "kana": "ふかい",
-    "q": "fukai",
-    "lang": "ja",
-    "uuid": "02babb7c-fb2f-4562-86e9-ffe56ac8de9c"
-  },
-  {
-    "disp": "運ぶ",
-    "kana": "はこぶ",
-    "q": "hakobu",
-    "lang": "ja",
-    "uuid": "8f90a053-60ab-41ce-9ff2-0b73282c8071"
-  },
-  {
     "disp": "林",
     "kana": "はやし",
     "q": "hayasi",
@@ -565,20 +418,6 @@
     "q": "hieru",
     "lang": "ja",
     "uuid": "52eb3117-2e09-42fb-9d10-036d21ec4fa3"
-  },
-  {
-    "disp": "光",
-    "kana": "ひかり",
-    "q": "hikari",
-    "lang": "ja",
-    "uuid": "0afd249a-ee2f-48a0-b703-259b3c4780fe"
-  },
-  {
-    "disp": "光る",
-    "kana": "ひかる",
-    "q": "hikaru",
-    "lang": "ja",
-    "uuid": "122039fd-996b-480c-ae13-04d4e1319e22"
   },
   {
     "disp": "広場",
@@ -602,13 +441,6 @@
     "uuid": "173d0164-51ae-4b36-a040-19c0db508389"
   },
   {
-    "disp": "箒",
-    "kana": "ほうき",
-    "q": "houki",
-    "lang": "ja",
-    "uuid": "e423d573-4a48-45bc-893d-1e74cf878cc8"
-  },
-  {
     "disp": "医者",
     "kana": "いしゃ",
     "q": "isha",
@@ -623,116 +455,11 @@
     "uuid": "c69fd225-cada-428d-b70e-50bb4d6ff1e0"
   },
   {
-    "disp": "鏡",
-    "kana": "かがみ",
-    "q": "kagami",
-    "lang": "ja",
-    "uuid": "18b572d0-1a31-493a-8fe1-97ab9fbb4102"
-  },
-  {
-    "disp": "会議",
-    "kana": "かいぎ",
-    "q": "kaigi",
-    "lang": "ja",
-    "uuid": "292224fe-9b7e-4545-be3a-45995b0e22ed"
-  },
-  {
-    "disp": "軽い",
-    "kana": "かるい",
-    "q": "karui",
-    "lang": "ja",
-    "uuid": "75caf4bf-1f1b-4f26-a723-8b15c7778ae3"
-  },
-  {
-    "disp": "消える",
-    "kana": "きえる",
-    "q": "kieru",
-    "lang": "ja",
-    "uuid": "cdf8ab9f-823f-412e-99c8-7c3a43547d0c"
-  },
-  {
-    "disp": "決まる",
-    "kana": "きまる",
-    "q": "kimaru",
-    "lang": "ja",
-    "uuid": "a7ff0d40-252d-4bac-871e-960823ad4fa0"
-  },
-  {
-    "disp": "決める",
-    "kana": "きめる",
-    "q": "kimeru",
-    "lang": "ja",
-    "uuid": "6a232530-5f32-4c31-8ec6-5fa6d7e7e9e6"
-  },
-  {
-    "disp": "子供",
-    "kana": "こども",
-    "q": "kodomo",
-    "lang": "ja",
-    "uuid": "e540f34d-5c3b-4586-b89d-791f21f9dd34"
-  },
-  {
-    "disp": "困る",
-    "kana": "こまる",
-    "q": "komaru",
-    "lang": "ja",
-    "uuid": "fdb17426-9fe2-4e8f-a55e-aebda6857e0e"
-  },
-  {
-    "disp": "捏ねる",
-    "kana": "こねる",
-    "q": "koneru",
-    "lang": "ja",
-    "uuid": "1435bfde-c6a5-4c4a-8fce-8daf1a60ebf7"
-  },
-  {
-    "disp": "氷",
-    "kana": "こおり",
-    "q": "koori",
-    "lang": "ja",
-    "uuid": "01298d27-464d-4d2c-a019-a28aca2469b2"
-  },
-  {
-    "disp": "暗い",
-    "kana": "くらい",
-    "q": "kurai",
-    "lang": "ja",
-    "uuid": "2cb86d50-99ec-498b-905b-c893d97cb3a7"
-  },
-  {
-    "disp": "黒い",
-    "kana": "くろい",
-    "q": "kuroi",
-    "lang": "ja",
-    "uuid": "ea0ebb4a-06a4-4723-b2b6-9c3913801a31"
-  },
-  {
-    "disp": "崩す",
-    "kana": "くずす",
-    "q": "kuzusu",
-    "lang": "ja",
-    "uuid": "b00c8653-b5f7-4ef5-a178-3387f3b9064f"
-  },
-  {
-    "disp": "客",
-    "kana": "きゃく",
-    "q": "kyaku",
-    "lang": "ja",
-    "uuid": "64b41a1d-e4b6-4f1b-9326-93fe2f94bb6a"
-  },
-  {
     "disp": "混ぜる",
     "kana": "まぜる",
     "q": "mazeru",
     "lang": "ja",
     "uuid": "8867c8b4-eda6-4d7f-95ad-dd863a4203a3"
-  },
-  {
-    "disp": "都",
-    "kana": "みやこ",
-    "q": "miyako",
-    "lang": "ja",
-    "uuid": "97eb16f9-9320-47d6-880d-6afd0d35a0f5"
   },
   {
     "disp": "萌える",
@@ -770,18 +497,18 @@
     "uuid": "57f649f4-3f3e-4dc2-8636-72dc4593c1d7"
   },
   {
+    "disp": "日本",
+    "kana": "にほん",
+    "q": "nihonn",
+    "lang": "ja",
+    "uuid": "3491bb53-ef5d-4416-94c5-0c3794b686a2"
+  },
+  {
     "disp": "濡れる",
     "kana": "ぬれる",
     "q": "nureru",
     "lang": "ja",
     "uuid": "a8015353-3f99-4ec1-8569-caa5640b4f46"
-  },
-  {
-    "disp": "怒る",
-    "kana": "おこる",
-    "q": "okoru",
-    "lang": "ja",
-    "uuid": "ad1d7cd9-2319-43fa-a7a6-b3c01fa45a2d"
   },
   {
     "disp": "重い",
@@ -826,11 +553,81 @@
     "uuid": "585d5742-b65e-4fe6-91f8-d5bcacbf0759"
   },
   {
-    "disp": "廊下",
-    "kana": "ろうか",
-    "q": "rouka",
+    "disp": "パーマ",
+    "kana": "ぱーま",
+    "q": "pa-ma",
     "lang": "ja",
-    "uuid": "25af2206-b965-4a01-a57f-819c267db560"
+    "uuid": "6df76843-86e8-4592-85be-ed8771247c9c"
+  },
+  {
+    "disp": "パイプ",
+    "kana": "ぱいぷ",
+    "q": "paipu",
+    "lang": "ja",
+    "uuid": "2215662b-be10-425d-b165-4a8ba262cfd0"
+  },
+  {
+    "disp": "パンダ",
+    "kana": "ぱんだ",
+    "q": "pannda",
+    "lang": "ja",
+    "uuid": "5281fbdb-ad7e-45d3-9754-b4efd42191f6"
+  },
+  {
+    "disp": "パズル",
+    "kana": "ぱずる",
+    "q": "pazuru",
+    "lang": "ja",
+    "uuid": "9372c962-7fc3-4f1c-9917-6656a1548b6a"
+  },
+  {
+    "disp": "ペース",
+    "kana": "ぺーす",
+    "q": "pe-su",
+    "lang": "ja",
+    "uuid": "bd8484e2-4752-4537-9eed-096f3d4d6799"
+  },
+  {
+    "disp": "ピアノ",
+    "kana": "ぴあの",
+    "q": "piano",
+    "lang": "ja",
+    "uuid": "97fb06dd-44dc-4159-9674-869eb52ce3a5"
+  },
+  {
+    "disp": "ポーズ",
+    "kana": "ぽーず",
+    "q": "po-zu",
+    "lang": "ja",
+    "uuid": "5f822fdd-6ef5-40e1-9e3a-56fa1b6514e4"
+  },
+  {
+    "disp": "ポン酢",
+    "kana": "ぽんず",
+    "q": "ponnzu",
+    "lang": "ja",
+    "uuid": "e2279605-9369-4b31-9f0f-18b4f647f0c0"
+  },
+  {
+    "disp": "プラス",
+    "kana": "ぷらす",
+    "q": "purasu",
+    "lang": "ja",
+    "uuid": "f123eb30-1027-4bb4-afd3-afafb2bc95c9"
+  },
+  {
+    "disp": "ランプ",
+    "kana": "らんぷ",
+    "q": "rannpu",
+    "lang": "ja",
+    "uuid": "f7a4346b-4b39-4451-855d-db5c56f1976e"
+  },
+  {
+    "disp": "立派",
+    "kana": "りっぱ",
+    "q": "rippa",
+    "lang": "ja",
+    "uuid": "e5e63a59-5c17-477b-8915-f9714eac4921"
   },
   {
     "disp": "量",
@@ -840,18 +637,18 @@
     "uuid": "d470c4e4-c615-40ff-a44e-817dd7d34881"
   },
   {
-    "disp": "叫ぶ",
-    "kana": "さけぶ",
-    "q": "sakebu",
-    "lang": "ja",
-    "uuid": "b688d0cc-1813-452f-b12d-69e8e50b5bf5"
-  },
-  {
     "disp": "寒い",
     "kana": "さむい",
     "q": "samui",
     "lang": "ja",
     "uuid": "370278fe-6d88-430e-bbef-7cdd6f975bfa"
+  },
+  {
+    "disp": "散歩",
+    "kana": "さんぽ",
+    "q": "sannpo",
+    "lang": "ja",
+    "uuid": "6e8f886f-67aa-45f8-b336-ce31e3fb7c40"
   },
   {
     "disp": "誘う",
@@ -868,13 +665,6 @@
     "uuid": "84a87401-086e-486b-b1a9-2a46e0bdc558"
   },
   {
-    "disp": "書庫",
-    "kana": "しょこ",
-    "q": "shoko",
-    "lang": "ja",
-    "uuid": "2353a679-ddd3-49e8-9531-a1ed0a492d65"
-  },
-  {
     "disp": "白い",
     "kana": "しろい",
     "q": "siroi",
@@ -887,6 +677,13 @@
     "q": "sizumu",
     "lang": "ja",
     "uuid": "b83a48ec-8835-4784-95ec-fd057327ef09"
+  },
+  {
+    "disp": "スープ",
+    "kana": "すーぷ",
+    "q": "su-pu",
+    "lang": "ja",
+    "uuid": "2d4a2769-7bc9-47c5-89fb-949f72f89e79"
   },
   {
     "disp": "薄い",
@@ -917,46 +714,11 @@
     "uuid": "dd75b05b-68ad-4bc4-ab93-7b0631b07fc7"
   },
   {
-    "disp": "明るい",
-    "kana": "あかるい",
-    "q": "akarui",
-    "lang": "ja",
-    "uuid": "e66145ac-bc52-4a86-90ea-c5bb971e02eb"
-  },
-  {
     "disp": "不安だ",
     "kana": "ふあんだ",
     "q": "fuannda",
     "lang": "ja",
     "uuid": "fe52925f-36d0-429a-84fd-4f1f091e3618"
-  },
-  {
-    "disp": "学生",
-    "kana": "がくせい",
-    "q": "gakusei",
-    "lang": "ja",
-    "uuid": "cf475378-b18a-4bd2-99e4-6b74cb0da0aa"
-  },
-  {
-    "disp": "玄関",
-    "kana": "げんかん",
-    "q": "gennkann",
-    "lang": "ja",
-    "uuid": "9b55842a-b5ad-4b0e-9b71-651adaf6b038"
-  },
-  {
-    "disp": "銀行",
-    "kana": "ぎんこう",
-    "q": "ginnkou",
-    "lang": "ja",
-    "uuid": "ad359e41-bae5-44b8-8478-c375b0e561cc"
-  },
-  {
-    "disp": "履物",
-    "kana": "はきもの",
-    "q": "hakimono",
-    "lang": "ja",
-    "uuid": "2b5c8033-46e4-42cc-8d9c-caba0fda1b0e"
   },
   {
     "disp": "半分",
@@ -966,11 +728,11 @@
     "uuid": "2bdde9fa-1784-4c34-9974-dae8412551ed"
   },
   {
-    "disp": "報告",
-    "kana": "ほうこく",
-    "q": "houkoku",
+    "disp": "一杯",
+    "kana": "いっぱい",
+    "q": "ippai",
     "lang": "ja",
-    "uuid": "25cf7b28-0d9d-44d3-bc8b-b171f0cac93f"
+    "uuid": "106c5b3a-843f-45c6-8cb2-7a8921c8f420"
   },
   {
     "disp": "準備",
@@ -980,102 +742,11 @@
     "uuid": "b69141a1-34a0-4bbf-9cab-4a45533309fa"
   },
   {
-    "disp": "階段",
-    "kana": "かいだん",
-    "q": "kaidann",
-    "lang": "ja",
-    "uuid": "7e5a3453-5f71-4f4b-be4d-5ef303ce80dd"
-  },
-  {
-    "disp": "会社",
-    "kana": "かいしゃ",
-    "q": "kaisha",
-    "lang": "ja",
-    "uuid": "a2679c3c-d4f1-43dc-89a2-65752c40b2b7"
-  },
-  {
-    "disp": "悲しい",
-    "kana": "かなしい",
-    "q": "kanasii",
-    "lang": "ja",
-    "uuid": "7d36f0c9-c812-4e79-9a32-ece7ee62ef88"
-  },
-  {
-    "disp": "計画",
-    "kana": "けいかく",
-    "q": "keikaku",
-    "lang": "ja",
-    "uuid": "4421e8cb-8c8f-4cc7-b385-ffdaefd4f5fa"
-  },
-  {
-    "disp": "経験",
-    "kana": "けいけん",
-    "q": "keikenn",
-    "lang": "ja",
-    "uuid": "4fea7188-04be-495c-8a1a-e48daf6573d4"
-  },
-  {
-    "disp": "黄色い",
-    "kana": "きいろい",
-    "q": "kiiroi",
-    "lang": "ja",
-    "uuid": "a8ba8136-39ab-4f56-94cc-359903322efd"
-  },
-  {
-    "disp": "公園",
-    "kana": "こうえん",
-    "q": "kouenn",
-    "lang": "ja",
-    "uuid": "e6cf4cd3-d126-4580-b531-45a134b902b3"
-  },
-  {
-    "disp": "崩れる",
-    "kana": "くずれる",
-    "q": "kuzureru",
-    "lang": "ja",
-    "uuid": "638da337-ab74-42ef-9a7b-4c8da5a6b207"
-  },
-  {
-    "disp": "教師",
-    "kana": "きょうし",
-    "q": "kyousi",
-    "lang": "ja",
-    "uuid": "952346a0-240f-4417-8525-5f51b9880905"
-  },
-  {
-    "disp": "短い",
-    "kana": "みじかい",
-    "q": "mijikai",
-    "lang": "ja",
-    "uuid": "11ed1eea-eb34-490a-b4a5-682729444083"
-  },
-  {
-    "disp": "驚く",
-    "kana": "おどろく",
-    "q": "odoroku",
-    "lang": "ja",
-    "uuid": "e182ccb6-7d89-4920-92f9-e5cfdbc16ff0"
-  },
-  {
-    "disp": "大きい",
-    "kana": "おおきい",
-    "q": "ookii",
-    "lang": "ja",
-    "uuid": "aa3afd6d-1236-45e3-a0fb-b1c21b5b99a5"
-  },
-  {
     "disp": "教える",
     "kana": "おしえる",
     "q": "osieru",
     "lang": "ja",
     "uuid": "a6845b18-6466-4d25-b88b-35db2caf4c23"
-  },
-  {
-    "disp": "旅館",
-    "kana": "りょかん",
-    "q": "ryokann",
-    "lang": "ja",
-    "uuid": "5f2bb379-7adc-4732-8ff1-af62b6b3e969"
   },
   {
     "disp": "寂しい",
@@ -1092,18 +763,18 @@
     "uuid": "bca3af72-f0ef-4e18-b9e4-66a198f99def"
   },
   {
-    "disp": "最高",
-    "kana": "さいこう",
-    "q": "saikou",
+    "disp": "サンプル",
+    "kana": "さんぷる",
+    "q": "sannpuru",
     "lang": "ja",
-    "uuid": "5ce883a8-0c1c-42de-a663-8a0c3708d40f"
+    "uuid": "794a3bda-cd61-4cec-85e0-efc2793d23ff"
   },
   {
-    "disp": "責任",
-    "kana": "せきにん",
-    "q": "sekininn",
+    "disp": "先輩",
+    "kana": "せんぱい",
+    "q": "sennpai",
     "lang": "ja",
-    "uuid": "adb13644-2a16-431a-9b46-48812f899465"
+    "uuid": "fc21f3e0-7c24-4b49-a7a9-f4b8b9ab6069"
   },
   {
     "disp": "先生",
@@ -1127,18 +798,25 @@
     "uuid": "3656a464-395b-4bbe-8fe4-01473378ab38"
   },
   {
-    "disp": "親戚",
-    "kana": "しんせき",
-    "q": "sinnseki",
+    "disp": "心配",
+    "kana": "しんぱい",
+    "q": "sinnpai",
     "lang": "ja",
-    "uuid": "b2bbf8cb-3c6a-4e28-87fa-36f455137732"
+    "uuid": "6c16767c-106d-424d-88a4-2f2304f12b90"
   },
   {
-    "disp": "少ない",
-    "kana": "すくない",
-    "q": "sukunai",
+    "disp": "シンプル",
+    "kana": "しんぷる",
+    "q": "sinnpuru",
     "lang": "ja",
-    "uuid": "793bd259-cdb8-4537-83c2-864830fb92c7"
+    "uuid": "af13adca-60bc-474a-b8a9-d38488b10d73"
+  },
+  {
+    "disp": "スピード",
+    "kana": "すぴーど",
+    "q": "supi-do",
+    "lang": "ja",
+    "uuid": "97488314-c0dd-41d4-af09-1ecb60468491"
   },
   {
     "disp": "涼しい",
@@ -1148,41 +826,6 @@
     "uuid": "68186298-5138-4352-b30a-d2faaac20bfe"
   },
   {
-    "disp": "約束",
-    "kana": "やくそく",
-    "q": "yakusoku",
-    "lang": "ja",
-    "uuid": "5fe45f12-1049-4e1c-a347-01f7df164533"
-  },
-  {
-    "disp": "喜ぶ",
-    "kana": "よろこぶ",
-    "q": "yorokobu",
-    "lang": "ja",
-    "uuid": "efbcf4da-6b8a-4670-ba9b-f099bb885052"
-  },
-  {
-    "disp": "雑巾",
-    "kana": "ぞうきん",
-    "q": "zoukinn",
-    "lang": "ja",
-    "uuid": "96e83c79-c184-413f-84c5-b14fa830a11d"
-  },
-  {
-    "disp": "勉強",
-    "kana": "べんきょう",
-    "q": "bennkyou",
-    "lang": "ja",
-    "uuid": "2f6c7476-7ec6-4671-b108-ba90bc3d8be5"
-  },
-  {
-    "disp": "台所",
-    "kana": "だいどころ",
-    "q": "daidokoro",
-    "lang": "ja",
-    "uuid": "aa73c6dc-a3b8-4729-bbb4-f5a3ecb26428"
-  },
-  {
     "disp": "同僚",
     "kana": "どうりょう",
     "q": "douryou",
@@ -1190,32 +833,11 @@
     "uuid": "2ba4e0fc-5cf4-40d3-a3ef-8d4b0d6de472"
   },
   {
-    "disp": "映画館",
-    "kana": "えいがかん",
-    "q": "eigakann",
-    "lang": "ja",
-    "uuid": "863d6efd-7799-4c54-8073-557e48aaffc1"
-  },
-  {
-    "disp": "劇場",
-    "kana": "げきじょう",
-    "q": "gekijou",
-    "lang": "ja",
-    "uuid": "901be984-20b7-45a1-b4a7-b526e2479180"
-  },
-  {
     "disp": "十分",
     "kana": "じゅうぶん",
     "q": "juubunn",
     "lang": "ja",
     "uuid": "926858bf-aeea-4ce2-97e7-4eff46b9d1ac"
-  },
-  {
-    "disp": "工場",
-    "kana": "こうじょう",
-    "q": "koujou",
-    "lang": "ja",
-    "uuid": "366a9d31-c0e2-4c6a-b77e-0c2a44297945"
   },
   {
     "disp": "マンション",
@@ -1232,25 +854,11 @@
     "uuid": "8d536da4-d607-425a-96c4-85c871f646f8"
   },
   {
-    "disp": "薬局",
-    "kana": "やっきょく",
-    "q": "yakkyoku",
-    "lang": "ja",
-    "uuid": "c8c3569d-60d1-44d0-820c-1dcbd7fade16"
-  },
-  {
     "disp": "不十分",
     "kana": "ふじゅうぶん",
     "q": "fujuubunn",
     "lang": "ja",
     "uuid": "a7a09d5d-12db-41fa-8593-6b04ae2f4b71"
-  },
-  {
-    "disp": "興奮する",
-    "kana": "こうふんする",
-    "q": "koufunnsuru",
-    "lang": "ja",
-    "uuid": "b9c1e129-8814-451b-b2cd-46b37a685fd8"
   },
   {
     "disp": "洗面所",
@@ -1267,55 +875,6 @@
     "uuid": "2b6ca320-b06c-4344-b873-7e0f3472ae04"
   },
   {
-    "disp": "兄が喜ぶ",
-    "kana": "あにがよろこぶ",
-    "q": "anigayorokobu",
-    "lang": "ja",
-    "uuid": "0a1ab205-2905-4928-bc8f-c1ea23bcaac6"
-  },
-  {
-    "disp": "朝が明るい",
-    "kana": "あさがあかるい",
-    "q": "asagaakarui",
-    "lang": "ja",
-    "uuid": "7d2a6e2d-ad38-4032-81f6-b0fda0ad5206"
-  },
-  {
-    "disp": "部下に指示する",
-    "kana": "ぶかにしじする",
-    "q": "bukanisijisuru",
-    "lang": "ja",
-    "uuid": "ca29c55c-acbf-4809-ab2a-3b3c0c184bc1"
-  },
-  {
-    "disp": "駅まで急ぐ",
-    "kana": "えきまでいそぐ",
-    "q": "ekimadeisogu",
-    "lang": "ja",
-    "uuid": "34669a04-65fa-4a35-9cfa-59f2b6333181"
-  },
-  {
-    "disp": "学生が泣く",
-    "kana": "がくせいがなく",
-    "q": "gakuseiganaku",
-    "lang": "ja",
-    "uuid": "6fd5593f-f333-43bc-8f9e-32cd2ca10b89"
-  },
-  {
-    "disp": "母が喜ぶ",
-    "kana": "ははがよろこぶ",
-    "q": "hahagayorokobu",
-    "lang": "ja",
-    "uuid": "1c17d4a5-592d-4470-b57d-49f5487867c6"
-  },
-  {
-    "disp": "光が消える",
-    "kana": "ひかりがきえる",
-    "q": "hikarigakieru",
-    "lang": "ja",
-    "uuid": "5c319350-9f79-4635-b5d7-7367ad6daf25"
-  },
-  {
     "disp": "広場が広い",
     "kana": "ひろばがひろい",
     "q": "hirobagahiroi",
@@ -1330,193 +889,11 @@
     "uuid": "f1c22bbb-9b5d-4f8f-b27b-e36e37b97766"
   },
   {
-    "disp": "壁が崩れる",
-    "kana": "かべがくずれる",
-    "q": "kabegakuzureru",
-    "lang": "ja",
-    "uuid": "ef1a2c5f-2702-43a7-aab6-0c8ea35fd7b4"
-  },
-  {
-    "disp": "会議で休む",
-    "kana": "かいぎでやすむ",
-    "q": "kaigideyasumu",
-    "lang": "ja",
-    "uuid": "93f3b609-52ee-4769-a961-657508511b25"
-  },
-  {
-    "disp": "会議に急ぐ",
-    "kana": "かいぎにいそぐ",
-    "q": "kaiginiisogu",
-    "lang": "ja",
-    "uuid": "2074b368-e6e8-4394-b1ab-4a8d99651df8"
-  },
-  {
-    "disp": "館が大きい",
-    "kana": "かんがおおきい",
-    "q": "kanngaookii",
-    "lang": "ja",
-    "uuid": "1556bacd-7f64-461b-886c-1c3601076841"
-  },
-  {
-    "disp": "風が涼しい",
-    "kana": "かぜがすずしい",
-    "q": "kazegasuzusii",
-    "lang": "ja",
-    "uuid": "69b95f19-eb42-47fd-b0a5-8566484da483"
-  },
-  {
-    "disp": "風は涼しい",
-    "kana": "かぜはすずしい",
-    "q": "kazehasuzusii",
-    "lang": "ja",
-    "uuid": "de275904-27f3-45cd-8f3f-e16dd340364f"
-  },
-  {
-    "disp": "氷で冷える",
-    "kana": "こおりでひえる",
-    "q": "kooridehieru",
-    "lang": "ja",
-    "uuid": "c5b4a8c1-4abc-4c40-a550-a0bfd7b78562"
-  },
-  {
-    "disp": "氷が深い",
-    "kana": "こおりがふかい",
-    "q": "koorigafukai",
-    "lang": "ja",
-    "uuid": "3c33d7a4-09e1-4be1-8ed2-40727124d18b"
-  },
-  {
-    "disp": "氷が冷える",
-    "kana": "こおりがひえる",
-    "q": "koorigahieru",
-    "lang": "ja",
-    "uuid": "954ccdab-af8a-44e1-b6fc-818eafb730ba"
-  },
-  {
-    "disp": "氷が光る",
-    "kana": "こおりがひかる",
-    "q": "koorigahikaru",
-    "lang": "ja",
-    "uuid": "f1666d46-ce23-4cfb-8156-69df62213d4b"
-  },
-  {
-    "disp": "氷が消える",
-    "kana": "こおりがきえる",
-    "q": "koorigakieru",
-    "lang": "ja",
-    "uuid": "c7932c10-3eb6-4b6a-95a0-2fc932ca023c"
-  },
-  {
-    "disp": "氷が長い",
-    "kana": "こおりがながい",
-    "q": "kooriganagai",
-    "lang": "ja",
-    "uuid": "28a43134-6d18-4f0d-9924-a651eeff1c9e"
-  },
-  {
-    "disp": "氷が重い",
-    "kana": "こおりがおもい",
-    "q": "koorigaomoi",
-    "lang": "ja",
-    "uuid": "85d2a719-d5e0-4234-948e-84cf82990f78"
-  },
-  {
-    "disp": "氷が折れる",
-    "kana": "こおりがおれる",
-    "q": "koorigaoreru",
-    "lang": "ja",
-    "uuid": "af4bcb4b-c709-4131-bf27-15c718dfe710"
-  },
-  {
-    "disp": "氷が白い",
-    "kana": "こおりがしろい",
-    "q": "koorigasiroi",
-    "lang": "ja",
-    "uuid": "4f91d5f0-aab2-4f50-b3b0-8596e390a427"
-  },
-  {
-    "disp": "氷が薄い",
-    "kana": "こおりがうすい",
-    "q": "koorigausui",
-    "lang": "ja",
-    "uuid": "7a169f79-3165-4cb0-914d-d86afbc5f65f"
-  },
-  {
-    "disp": "女が怒る",
-    "kana": "おんながおこる",
-    "q": "onnnagaokoru",
-    "lang": "ja",
-    "uuid": "e7e6f6f1-940c-47d9-9788-a71edd78477f"
-  },
-  {
-    "disp": "廊下は冷える",
-    "kana": "ろうかはひえる",
-    "q": "roukahahieru",
-    "lang": "ja",
-    "uuid": "faff0492-463a-4f9a-9cf1-cd9063d59a11"
-  },
-  {
-    "disp": "廊下は広い",
-    "kana": "ろうかはひろい",
-    "q": "roukahahiroi",
-    "lang": "ja",
-    "uuid": "6e80342a-5a33-42dd-a99b-dc4962fe81c7"
-  },
-  {
-    "disp": "廊下は暗い",
-    "kana": "ろうかはくらい",
-    "q": "roukahakurai",
-    "lang": "ja",
-    "uuid": "2e193ec8-3ec4-4413-803b-cefdb9ae70f8"
-  },
-  {
-    "disp": "廊下は長い",
-    "kana": "ろうかはながい",
-    "q": "roukahanagai",
-    "lang": "ja",
-    "uuid": "801fd3e0-0477-4755-9d08-0d69753156e5"
-  },
-  {
-    "disp": "廊下は狭い",
-    "kana": "ろうかはせまい",
-    "q": "roukahasemai",
-    "lang": "ja",
-    "uuid": "fae9f42e-b25e-4a8a-913e-3f0c52ff425b"
-  },
-  {
-    "disp": "書庫が暗い",
-    "kana": "しょこがくらい",
-    "q": "shokogakurai",
-    "lang": "ja",
-    "uuid": "23b0a6a4-280d-4c87-97ef-fd41e897d95d"
-  },
-  {
-    "disp": "指示が少ない",
-    "kana": "しじがすくない",
-    "q": "sijigasukunai",
-    "lang": "ja",
-    "uuid": "93c17168-b88b-4934-bf50-f9fbc3a36da4"
-  },
-  {
     "disp": "指示に不安だ",
     "kana": "しじにふあんだ",
     "q": "sijinifuannda",
     "lang": "ja",
     "uuid": "a4315eff-9731-4c61-a1e5-0fa027c1dc76"
-  },
-  {
-    "disp": "祖父は喜ぶ",
-    "kana": "そふはよろこぶ",
-    "q": "sofuhayorokobu",
-    "lang": "ja",
-    "uuid": "033911fc-5c05-4f39-908f-6f99a8f86adc"
-  },
-  {
-    "disp": "山は大きい",
-    "kana": "やまはおおきい",
-    "q": "yamahaookii",
-    "lang": "ja",
-    "uuid": "9a35719a-28c6-4c23-9b63-ade81cc73f7b"
   },
   {
     "disp": "夜は寂しい",
@@ -1526,46 +903,11 @@
     "uuid": "9a9d054c-0fbe-418a-bdeb-9d6c8a6a7378"
   },
   {
-    "disp": "赤い花が咲く",
-    "kana": "あかいはながさく",
-    "q": "akaihanagasaku",
-    "lang": "ja",
-    "uuid": "cf801043-1d0a-4442-9874-616bb172a986"
-  },
-  {
-    "disp": "兄は学生だ",
-    "kana": "あにはがくせいだ",
-    "q": "anihagakuseida",
-    "lang": "ja",
-    "uuid": "2b411e85-e7dc-4dfa-a19e-233fd34706e8"
-  },
-  {
     "disp": "朝の雨が降る",
     "kana": "あさのあめがふる",
     "q": "asanoamegafuru",
     "lang": "ja",
     "uuid": "0e8de5a3-913e-4afa-9dae-b84eeb04bccc"
-  },
-  {
-    "disp": "台所で煮る",
-    "kana": "だいどころでにる",
-    "q": "daidokorodeniru",
-    "lang": "ja",
-    "uuid": "27827b64-1dc7-4f48-bc49-3cbae045c63c"
-  },
-  {
-    "disp": "学生が困る",
-    "kana": "がくせいがこまる",
-    "q": "gakuseigakomaru",
-    "lang": "ja",
-    "uuid": "53d9ac3a-9661-4d42-a1cb-a67868e5b2f6"
-  },
-  {
-    "disp": "玄関は広い",
-    "kana": "げんかんはひろい",
-    "q": "gennkannhahiroi",
-    "lang": "ja",
-    "uuid": "6dfd2304-4d5c-4298-b309-080c21230b0d"
   },
   {
     "disp": "広い部屋で練る",
@@ -1575,151 +917,11 @@
     "uuid": "0fd6bfd2-f4fe-4f4c-9fb9-d01368dba245"
   },
   {
-    "disp": "広い海で漕ぐ",
-    "kana": "ひろいうみでこぐ",
-    "q": "hiroiumidekogu",
-    "lang": "ja",
-    "uuid": "ce2703da-1161-4562-be2c-c1ce8b3d56ff"
-  },
-  {
-    "disp": "報告に急ぐ",
-    "kana": "ほうこくにいそぐ",
-    "q": "houkokuniisogu",
-    "lang": "ja",
-    "uuid": "f130431d-1d67-4610-be3b-a2f176575963"
-  },
-  {
-    "disp": "報告に困る",
-    "kana": "ほうこくにこまる",
-    "q": "houkokunikomaru",
-    "lang": "ja",
-    "uuid": "f85f31e0-10a7-4be6-abb8-af94a9f50710"
-  },
-  {
     "disp": "準備に急ぐ",
     "kana": "じゅんびにいそぐ",
     "q": "junnbiniisogu",
     "lang": "ja",
     "uuid": "3b022449-e395-4af9-a6d4-87843de7b069"
-  },
-  {
-    "disp": "壁に影が浮く",
-    "kana": "かべにかげがうく",
-    "q": "kabenikagegauku",
-    "lang": "ja",
-    "uuid": "a3bd02b2-5892-490d-b908-093e2e255800"
-  },
-  {
-    "disp": "階段で休む",
-    "kana": "かいだんでやすむ",
-    "q": "kaidanndeyasumu",
-    "lang": "ja",
-    "uuid": "9e5fe07f-9220-4ae0-885f-6e16fa94d7d1"
-  },
-  {
-    "disp": "会社で困る",
-    "kana": "かいしゃでこまる",
-    "q": "kaishadekomaru",
-    "lang": "ja",
-    "uuid": "db80efdc-1ebd-4a9c-bef6-6f75570e3798"
-  },
-  {
-    "disp": "会社に急ぐ",
-    "kana": "かいしゃにいそぐ",
-    "q": "kaishaniisogu",
-    "lang": "ja",
-    "uuid": "f6de4953-ceb9-4edf-9fae-1ed774b6fe52"
-  },
-  {
-    "disp": "計画が決まる",
-    "kana": "けいかくがきまる",
-    "q": "keikakugakimaru",
-    "lang": "ja",
-    "uuid": "92ecb3a4-6147-4942-84dd-2d5a06b82c60"
-  },
-  {
-    "disp": "子供が喜ぶ",
-    "kana": "こどもがよろこぶ",
-    "q": "kodomogayorokobu",
-    "lang": "ja",
-    "uuid": "4d504db2-2adb-4875-a922-46a60ab91cfa"
-  },
-  {
-    "disp": "子供に教える",
-    "kana": "こどもにおしえる",
-    "q": "kodomoniosieru",
-    "lang": "ja",
-    "uuid": "813303bb-454b-4ca0-8823-9a16dd4fbb05"
-  },
-  {
-    "disp": "氷で驚く",
-    "kana": "こおりでおどろく",
-    "q": "koorideodoroku",
-    "lang": "ja",
-    "uuid": "d7ae8f76-3a28-4286-8c95-0003b9eaf721"
-  },
-  {
-    "disp": "氷が崩れる",
-    "kana": "こおりがくずれる",
-    "q": "koorigakuzureru",
-    "lang": "ja",
-    "uuid": "5a2d8366-4276-44b5-a2c2-6850bd6cb17a"
-  },
-  {
-    "disp": "氷が少ない",
-    "kana": "こおりがすくない",
-    "q": "koorigasukunai",
-    "lang": "ja",
-    "uuid": "4520dc4b-5cfb-4e5c-a003-c37c1971d330"
-  },
-  {
-    "disp": "氷の重さだ",
-    "kana": "こおりのおもさだ",
-    "q": "koorinoomosada",
-    "lang": "ja",
-    "uuid": "48aa6c68-c058-41d2-8c32-f7a3d793d367"
-  },
-  {
-    "disp": "氷の量だ",
-    "kana": "こおりのりょうだ",
-    "q": "koorinoryouda",
-    "lang": "ja",
-    "uuid": "76903223-2291-417b-b00c-6a3ed12b729e"
-  },
-  {
-    "disp": "公園に誘う",
-    "kana": "こうえんにさそう",
-    "q": "kouennnisasou",
-    "lang": "ja",
-    "uuid": "29508aa6-d385-4424-b352-6591a887a738"
-  },
-  {
-    "disp": "黒い雲が降る",
-    "kana": "くろいくもがふる",
-    "q": "kuroikumogafuru",
-    "lang": "ja",
-    "uuid": "f879fce6-a249-42d1-a9be-b0a2a58fbe40"
-  },
-  {
-    "disp": "黒い鍋に煮る",
-    "kana": "くろいなべににる",
-    "q": "kuroinabeniniru",
-    "lang": "ja",
-    "uuid": "eaa39083-9078-4338-8a1b-a935dfae23bb"
-  },
-  {
-    "disp": "教師が怒る",
-    "kana": "きょうしがおこる",
-    "q": "kyousigaokoru",
-    "lang": "ja",
-    "uuid": "a0f64044-d121-4782-a9d8-205bfffb55a0"
-  },
-  {
-    "disp": "森に風が吹く",
-    "kana": "もりにかぜがふく",
-    "q": "morinikazegafuku",
-    "lang": "ja",
-    "uuid": "014da900-c9e4-4f94-ab29-fda7253566b3"
   },
   {
     "disp": "長い雨が降る",
@@ -1734,48 +936,6 @@
     "q": "nierumadeisogu",
     "lang": "ja",
     "uuid": "2a88086d-ab7b-4c11-a005-dc546264f95a"
-  },
-  {
-    "disp": "虹が空に浮く",
-    "kana": "にじがそらにうく",
-    "q": "nijigasoraniuku",
-    "lang": "ja",
-    "uuid": "78357c62-16e8-4619-a054-e2d71eed2fcf"
-  },
-  {
-    "disp": "廊下は明るい",
-    "kana": "ろうかはあかるい",
-    "q": "roukahaakarui",
-    "lang": "ja",
-    "uuid": "8325f6e3-8ba0-4f3f-806b-ed0fffa7ee79"
-  },
-  {
-    "disp": "旅館で休む",
-    "kana": "りょかんでやすむ",
-    "q": "ryokanndeyasumu",
-    "lang": "ja",
-    "uuid": "8f2d94eb-89c1-4f65-8603-517788d4942b"
-  },
-  {
-    "disp": "寒い夜に泣く",
-    "kana": "さむいよるになく",
-    "q": "samuiyoruninaku",
-    "lang": "ja",
-    "uuid": "1d210479-991b-4bd7-aab7-a994de0941df"
-  },
-  {
-    "disp": "責任が深い",
-    "kana": "せきにんがふかい",
-    "q": "sekininngafukai",
-    "lang": "ja",
-    "uuid": "75c7c545-9c4a-4522-b8d1-86313f022384"
-  },
-  {
-    "disp": "責任が重い",
-    "kana": "せきにんがおもい",
-    "q": "sekininngaomoi",
-    "lang": "ja",
-    "uuid": "a5d8b257-25e8-4247-8679-485c3b985d49"
   },
   {
     "disp": "狭い部屋で練る",
@@ -1799,116 +959,11 @@
     "uuid": "fb7c3fc5-8f6c-4617-be7e-10e3718168fa"
   },
   {
-    "disp": "白い釜に煮る",
-    "kana": "しろいかまににる",
-    "q": "siroikamaniniru",
-    "lang": "ja",
-    "uuid": "36269a30-0b19-4239-a99a-fb8d3fc07c47"
-  },
-  {
-    "disp": "白い雲が舞う",
-    "kana": "しろいくもがまう",
-    "q": "siroikumogamau",
-    "lang": "ja",
-    "uuid": "8e148cf7-77d3-4856-90ea-0f205992ac99"
-  },
-  {
-    "disp": "白い雲が浮く",
-    "kana": "しろいくもがうく",
-    "q": "siroikumogauku",
-    "lang": "ja",
-    "uuid": "66308320-f9e6-4cdb-a365-2a14a2ced112"
-  },
-  {
-    "disp": "白い雪が降る",
-    "kana": "しろいゆきがふる",
-    "q": "siroiyukigafuru",
-    "lang": "ja",
-    "uuid": "264fda43-125a-472b-9505-c6a199807149"
-  },
-  {
-    "disp": "白い雪が舞う",
-    "kana": "しろいゆきがまう",
-    "q": "siroiyukigamau",
-    "lang": "ja",
-    "uuid": "49e4ed32-2f09-49c8-8e06-a0585d674704"
-  },
-  {
-    "disp": "雪が窓に降る",
-    "kana": "ゆきがまどにふる",
-    "q": "yukigamadonifuru",
-    "lang": "ja",
-    "uuid": "e2b89c52-1584-4838-ad9f-04fd102dc5f6"
-  },
-  {
-    "disp": "赤い花が萌える",
-    "kana": "あかいはながもえる",
-    "q": "akaihanagamoeru",
-    "lang": "ja",
-    "uuid": "76899ead-4768-4891-ae05-aa11391e1579"
-  },
-  {
-    "disp": "赤い花が揺れる",
-    "kana": "あかいはながゆれる",
-    "q": "akaihanagayureru",
-    "lang": "ja",
-    "uuid": "1df5b087-e6bc-4bff-b402-9fee19de7c03"
-  },
-  {
-    "disp": "赤い皿が光る",
-    "kana": "あかいさらがひかる",
-    "q": "akaisaragahikaru",
-    "lang": "ja",
-    "uuid": "269d52fb-d61f-4e51-a9cd-c5851779e5ec"
-  },
-  {
-    "disp": "赤い皿は軽い",
-    "kana": "あかいさらはかるい",
-    "q": "akaisarahakarui",
-    "lang": "ja",
-    "uuid": "f920ef42-1608-4668-988c-b7db25a09f90"
-  },
-  {
-    "disp": "赤い屋根の家だ",
-    "kana": "あかいやねのいえだ",
-    "q": "akaiyanenoieda",
-    "lang": "ja",
-    "uuid": "f4080e91-f2d0-4185-a239-633dd7f1742b"
-  },
-  {
-    "disp": "雨で泥が深い",
-    "kana": "あめでどろがふかい",
-    "q": "amededorogafukai",
-    "lang": "ja",
-    "uuid": "35a8c1bc-1297-4e9f-891a-41ef0caed3c0"
-  },
-  {
-    "disp": "姉の鍵は狭い",
-    "kana": "あねのかぎはせまい",
-    "q": "anenokagihasemai",
-    "lang": "ja",
-    "uuid": "fa729c64-9872-4566-8f5a-fd19b8d470a3"
-  },
-  {
-    "disp": "青い波が光る",
-    "kana": "あおいなみがひかる",
-    "q": "aoinamigahikaru",
-    "lang": "ja",
-    "uuid": "4bbecceb-dc79-4061-9a50-bb346ca9feda"
-  },
-  {
     "disp": "青い波に揺れる",
     "kana": "あおいなみにゆれる",
     "q": "aoinaminiyureru",
     "lang": "ja",
     "uuid": "f2626cfc-fdca-4df9-87a9-65cb22a0a2cc"
-  },
-  {
-    "disp": "青い空が光る",
-    "kana": "あおいそらがひかる",
-    "q": "aoisoragahikaru",
-    "lang": "ja",
-    "uuid": "4722f15a-993f-4844-a940-78c638d6429f"
   },
   {
     "disp": "青い空が広い",
@@ -1932,27 +987,6 @@
     "uuid": "72b3f85b-b274-4473-81ee-7608e9c8e1f2"
   },
   {
-    "disp": "朝の霧が深い",
-    "kana": "あさのきりがふかい",
-    "q": "asanokirigafukai",
-    "lang": "ja",
-    "uuid": "f8258e84-352f-41b7-9597-d2a094f87264"
-  },
-  {
-    "disp": "朝の霧が消える",
-    "kana": "あさのきりがきえる",
-    "q": "asanokirigakieru",
-    "lang": "ja",
-    "uuid": "62a5dcfd-2147-485b-8c10-0b8448f9efce"
-  },
-  {
-    "disp": "朝の虹が光る",
-    "kana": "あさのにじがひかる",
-    "q": "asanonijigahikaru",
-    "lang": "ja",
-    "uuid": "47a75fe9-f8e9-4d75-b4ef-203af6994dfc"
-  },
-  {
     "disp": "朝の空は青い",
     "kana": "あさのそらはあおい",
     "q": "asanosorahaaoi",
@@ -1960,95 +994,11 @@
     "uuid": "e522156e-19df-40e6-a873-a0d2d1708475"
   },
   {
-    "disp": "勉強が長い",
-    "kana": "べんきょうがながい",
-    "q": "bennkyouganagai",
-    "lang": "ja",
-    "uuid": "51c274b7-22a1-48f5-b2c1-c0d62ff076c0"
-  },
-  {
-    "disp": "勉強に急ぐ",
-    "kana": "べんきょうにいそぐ",
-    "q": "bennkyouniisogu",
-    "lang": "ja",
-    "uuid": "cabbee55-df4b-42b8-a826-72409038b96b"
-  },
-  {
-    "disp": "台所で混ぜる",
-    "kana": "だいどころでまぜる",
-    "q": "daidokorodemazeru",
-    "lang": "ja",
-    "uuid": "43c38818-52ae-451d-9df5-bd41ea3a1818"
-  },
-  {
-    "disp": "台所が狭い",
-    "kana": "だいどころがせまい",
-    "q": "daidokorogasemai",
-    "lang": "ja",
-    "uuid": "31116026-93c2-4dd1-b99f-e6149dffdc96"
-  },
-  {
-    "disp": "同僚が怒る",
-    "kana": "どうりょうがおこる",
-    "q": "douryougaokoru",
-    "lang": "ja",
-    "uuid": "f9d53e90-3635-4b52-8c71-0c2206548019"
-  },
-  {
     "disp": "同僚に願う",
     "kana": "どうりょうにねがう",
     "q": "douryouninegau",
     "lang": "ja",
     "uuid": "28f1a2b8-f9fa-41f3-83c3-11df4b5bb1bd"
-  },
-  {
-    "disp": "深い森が暗い",
-    "kana": "ふかいもりがくらい",
-    "q": "fukaimorigakurai",
-    "lang": "ja",
-    "uuid": "434d776a-4f17-4ef8-ba43-d3aee8bbad90"
-  },
-  {
-    "disp": "深い森は暗い",
-    "kana": "ふかいもりはくらい",
-    "q": "fukaimorihakurai",
-    "lang": "ja",
-    "uuid": "01820a09-0c6b-47fc-b57b-853b91f33916"
-  },
-  {
-    "disp": "深い海で泳ぐ",
-    "kana": "ふかいうみでおよぐ",
-    "q": "fukaiumideoyogu",
-    "lang": "ja",
-    "uuid": "0ae931a7-435f-4c24-bf27-c9beb5c3634f"
-  },
-  {
-    "disp": "深い海は青い",
-    "kana": "ふかいうみはあおい",
-    "q": "fukaiumihaaoi",
-    "lang": "ja",
-    "uuid": "39d39f49-5979-446e-870c-9ac28f36d051"
-  },
-  {
-    "disp": "深い海に沈む",
-    "kana": "ふかいうみにしずむ",
-    "q": "fukaiuminisizumu",
-    "lang": "ja",
-    "uuid": "717010c8-504a-4917-8be7-18a06a011da3"
-  },
-  {
-    "disp": "学生が驚く",
-    "kana": "がくせいがおどろく",
-    "q": "gakuseigaodoroku",
-    "lang": "ja",
-    "uuid": "cfb79d2d-6134-42ac-aa3d-d115afed7c91"
-  },
-  {
-    "disp": "部屋の窓が暗い",
-    "kana": "へやのまどがくらい",
-    "q": "heyanomadogakurai",
-    "lang": "ja",
-    "uuid": "ba23e687-46dd-4c95-84ef-6d8dd06f0aab"
   },
   {
     "disp": "広い部屋で休む",
@@ -2086,39 +1036,11 @@
     "uuid": "f3fcbf84-240f-4a80-afab-ce7854ac92aa"
   },
   {
-    "disp": "報告が少ない",
-    "kana": "ほうこくがすくない",
-    "q": "houkokugasukunai",
-    "lang": "ja",
-    "uuid": "2fa9629d-0d15-4c11-afd4-830fe820eca0"
-  },
-  {
-    "disp": "報告は短い",
-    "kana": "ほうこくはみじかい",
-    "q": "houkokuhamijikai",
-    "lang": "ja",
-    "uuid": "0158f2ee-20d5-441f-809f-c64e2c6fc973"
-  },
-  {
-    "disp": "事務で指示が決まる",
-    "kana": "じむでしじがきまる",
-    "q": "jimudesijigakimaru",
-    "lang": "ja",
-    "uuid": "87095c57-43dd-41a7-be49-1902ba5f1481"
-  },
-  {
     "disp": "事務の部屋で休む",
     "kana": "じむのへやでやすむ",
     "q": "jimunoheyadeyasumu",
     "lang": "ja",
     "uuid": "3e990155-4802-4ea7-8d03-96f8ccaa6e7d"
-  },
-  {
-    "disp": "事務の部屋が暗い",
-    "kana": "じむのへやがくらい",
-    "q": "jimunoheyagakurai",
-    "lang": "ja",
-    "uuid": "eb840239-b1aa-4702-8458-4f34d3c37154"
   },
   {
     "disp": "事務の部屋は広い",
@@ -2128,174 +1050,6 @@
     "uuid": "faaf873c-9424-4cd6-9a1c-03aaff3eef5b"
   },
   {
-    "disp": "事務の椅子が軽い",
-    "kana": "じむのいすがかるい",
-    "q": "jimunoisugakarui",
-    "lang": "ja",
-    "uuid": "fbb014ac-ba12-4a65-bdc0-00c2fcbe3c75"
-  },
-  {
-    "disp": "事務の紙が白い",
-    "kana": "じむのかみがしろい",
-    "q": "jimunokamigasiroi",
-    "lang": "ja",
-    "uuid": "77e62189-de41-4100-86e9-46c0fb2b8a64"
-  },
-  {
-    "disp": "壁の窓が暗い",
-    "kana": "かべのまどがくらい",
-    "q": "kabenomadogakurai",
-    "lang": "ja",
-    "uuid": "33d447ac-9a6b-4665-bc11-e617d7f6c770"
-  },
-  {
-    "disp": "釜に氷が浮く",
-    "kana": "かまにこおりがうく",
-    "q": "kamanikoorigauku",
-    "lang": "ja",
-    "uuid": "adce81e8-460b-40f8-956d-082b69c0fd6d"
-  },
-  {
-    "disp": "釜の幅が広い",
-    "kana": "かまのはばがひろい",
-    "q": "kamanohabagahiroi",
-    "lang": "ja",
-    "uuid": "b3dc9b9e-d314-40ff-8159-cc419b331440"
-  },
-  {
-    "disp": "軽い椅子が揺れる",
-    "kana": "かるいいすがゆれる",
-    "q": "karuiisugayureru",
-    "lang": "ja",
-    "uuid": "8dd7cf76-161f-46bd-8e14-52065edc4f2c"
-  },
-  {
-    "disp": "風に草が揺れる",
-    "kana": "かぜにくさがゆれる",
-    "q": "kazenikusagayureru",
-    "lang": "ja",
-    "uuid": "69a75604-93a6-4be5-a1c8-e2823c26ab08"
-  },
-  {
-    "disp": "黄色い花が咲く",
-    "kana": "きいろいはながさく",
-    "q": "kiiroihanagasaku",
-    "lang": "ja",
-    "uuid": "f3336edf-be68-40a4-a4f3-94c46795f6d0"
-  },
-  {
-    "disp": "氷が最高だ",
-    "kana": "こおりがさいこうだ",
-    "q": "koorigasaikouda",
-    "lang": "ja",
-    "uuid": "ed7d813d-2174-473c-b4f0-2893de42ed4e"
-  },
-  {
-    "disp": "黒い泥に濡れる",
-    "kana": "くろいどろにぬれる",
-    "q": "kuroidoroninureru",
-    "lang": "ja",
-    "uuid": "61c18c6c-686e-4dfa-909e-4d7249bba73b"
-  },
-  {
-    "disp": "黒い影が消える",
-    "kana": "くろいかげがきえる",
-    "q": "kuroikagegakieru",
-    "lang": "ja",
-    "uuid": "dd3f5d82-27c3-4ddf-a6dc-ff3344cc698c"
-  },
-  {
-    "disp": "黒い影が揺れる",
-    "kana": "くろいかげがゆれる",
-    "q": "kuroikagegayureru",
-    "lang": "ja",
-    "uuid": "d5a2e380-f39f-44a4-9a05-900f49b11f01"
-  },
-  {
-    "disp": "黒い雲が深い",
-    "kana": "くろいくもがふかい",
-    "q": "kuroikumogafukai",
-    "lang": "ja",
-    "uuid": "cc3f1557-43c4-40bf-8a07-09040873bc93"
-  },
-  {
-    "disp": "黒い雲が揺れる",
-    "kana": "くろいくもがゆれる",
-    "q": "kuroikumogayureru",
-    "lang": "ja",
-    "uuid": "7339133e-9413-4ac8-9549-0bc02d3cc365"
-  },
-  {
-    "disp": "黒い桶に混ぜる",
-    "kana": "くろいおけにまぜる",
-    "q": "kuroiokenimazeru",
-    "lang": "ja",
-    "uuid": "5655cdba-ec68-4086-9a66-a0436c23d55d"
-  },
-  {
-    "disp": "黒い皿に煮える",
-    "kana": "くろいさらににえる",
-    "q": "kuroisaraninieru",
-    "lang": "ja",
-    "uuid": "18f60666-7d77-46e0-ab79-1b50622eb866"
-  },
-  {
-    "disp": "教師が教える",
-    "kana": "きょうしがおしえる",
-    "q": "kyousigaosieru",
-    "lang": "ja",
-    "uuid": "3ade2618-f9de-411a-9679-127416b37151"
-  },
-  {
-    "disp": "教師は教える",
-    "kana": "きょうしはおしえる",
-    "q": "kyousihaosieru",
-    "lang": "ja",
-    "uuid": "7da4f9fd-58d6-4c97-9f36-0c880a965de2"
-  },
-  {
-    "disp": "森の影が暗い",
-    "kana": "もりのかげがくらい",
-    "q": "morinokagegakurai",
-    "lang": "ja",
-    "uuid": "4868472b-0854-4243-9dc0-3533c901f63e"
-  },
-  {
-    "disp": "森の草が光る",
-    "kana": "もりのくさがひかる",
-    "q": "morinokusagahikaru",
-    "lang": "ja",
-    "uuid": "cce1987c-1d91-4ed2-9be3-04aa7a944c38"
-  },
-  {
-    "disp": "鍋に氷が浮く",
-    "kana": "なべにこおりがうく",
-    "q": "nabenikoorigauku",
-    "lang": "ja",
-    "uuid": "e7ad2081-f7c4-4825-a039-bd9266c8fbdc"
-  },
-  {
-    "disp": "重い鍋に困る",
-    "kana": "おもいなべにこまる",
-    "q": "omoinabenikomaru",
-    "lang": "ja",
-    "uuid": "f7cecbbb-130a-4b3e-9e05-e49d5884b50e"
-  },
-  {
-    "disp": "責任に不安だ",
-    "kana": "せきにんにふあんだ",
-    "q": "sekininnnifuannda",
-    "lang": "ja",
-    "uuid": "335cc0b3-251a-4299-8f95-1c35442986a2"
-  },
-  {
-    "disp": "狭い部屋に困る",
-    "kana": "せまいへやにこまる",
-    "q": "semaiheyanikomaru",
-    "lang": "ja",
-    "uuid": "fa5b9131-c261-4d18-8144-103182224900"
-  },
-  {
     "disp": "先生が指示する",
     "kana": "せんせいがしじする",
     "q": "sennseigasijisuru",
@@ -2303,53 +1057,11 @@
     "uuid": "104fa4f1-7bc9-46af-ac4c-834942d0f4e4"
   },
   {
-    "disp": "先生が喜ぶ",
-    "kana": "せんせいがよろこぶ",
-    "q": "sennseigayorokobu",
-    "lang": "ja",
-    "uuid": "4126a3fd-33c0-4d7e-9436-add1c883dd28"
-  },
-  {
     "disp": "先生に教える",
     "kana": "せんせいにおしえる",
     "q": "sennseiniosieru",
     "lang": "ja",
     "uuid": "5753781d-2cc0-447b-b75f-3fe3ce9eba58"
-  },
-  {
-    "disp": "白い壁の部屋だ",
-    "kana": "しろいかべのへやだ",
-    "q": "siroikabenoheyada",
-    "lang": "ja",
-    "uuid": "dbe615ab-40f7-4898-936e-8877629995fd"
-  },
-  {
-    "disp": "白い霧が深い",
-    "kana": "しろいきりがふかい",
-    "q": "siroikirigafukai",
-    "lang": "ja",
-    "uuid": "08d98865-6048-427a-a6a1-5c359cfa2e1f"
-  },
-  {
-    "disp": "白い霧が消える",
-    "kana": "しろいきりがきえる",
-    "q": "siroikirigakieru",
-    "lang": "ja",
-    "uuid": "40a6f383-58de-4ca1-bb95-9b4759f08524"
-  },
-  {
-    "disp": "白い雲が消える",
-    "kana": "しろいくもがきえる",
-    "q": "siroikumogakieru",
-    "lang": "ja",
-    "uuid": "682d12e7-cb40-4fd0-a06f-f7eb62e9bf76"
-  },
-  {
-    "disp": "白い鍋は軽い",
-    "kana": "しろいなべはかるい",
-    "q": "siroinabehakarui",
-    "lang": "ja",
-    "uuid": "f2cd2642-6a81-4aad-ab50-b7759b360158"
   },
   {
     "disp": "白い布が揺れる",
@@ -2373,34 +1085,6 @@
     "uuid": "249be177-a7b2-43c0-9356-264d249e8d6c"
   },
   {
-    "disp": "白い雪が深い",
-    "kana": "しろいゆきがふかい",
-    "q": "siroiyukigafukai",
-    "lang": "ja",
-    "uuid": "faffabe5-961c-44e6-8eb5-f3122f31867e"
-  },
-  {
-    "disp": "白い雪が光る",
-    "kana": "しろいゆきがひかる",
-    "q": "siroiyukigahikaru",
-    "lang": "ja",
-    "uuid": "cb5c619b-c6a6-4d7e-ade9-6221b0f5a598"
-  },
-  {
-    "disp": "涼しい風が吹く",
-    "kana": "すずしいかぜがふく",
-    "q": "suzusiikazegafuku",
-    "lang": "ja",
-    "uuid": "98f68084-da8a-4214-8237-85cef5f211a7"
-  },
-  {
-    "disp": "海に光が舞う",
-    "kana": "うみにひかりがまう",
-    "q": "uminihikarigamau",
-    "lang": "ja",
-    "uuid": "80c345f9-4644-4e39-bb6c-efde9233438a"
-  },
-  {
     "disp": "海に波が揺れる",
     "kana": "うみになみがゆれる",
     "q": "umininamigayureru",
@@ -2422,27 +1106,6 @@
     "uuid": "490ec721-78e4-4f15-9b42-6a106e2cb536"
   },
   {
-    "disp": "薬局に急ぐ",
-    "kana": "やっきょくにいそぐ",
-    "q": "yakkyokuniisogu",
-    "lang": "ja",
-    "uuid": "412a3e7e-d22e-474d-aa77-a300e1cbc079"
-  },
-  {
-    "disp": "山の霧が深い",
-    "kana": "やまのきりがふかい",
-    "q": "yamanokirigafukai",
-    "lang": "ja",
-    "uuid": "5efad81a-b32f-4987-8359-a86908552a66"
-  },
-  {
-    "disp": "山の空が暗い",
-    "kana": "やまのそらがくらい",
-    "q": "yamanosoragakurai",
-    "lang": "ja",
-    "uuid": "c94d0a42-4823-4d78-b647-dfda1563ba10"
-  },
-  {
     "disp": "夜の雨が多い",
     "kana": "よるのあめがおおい",
     "q": "yorunoamegaooi",
@@ -2457,46 +1120,11 @@
     "uuid": "f0921334-b05b-4d0f-8a38-0c622561aa85"
   },
   {
-    "disp": "夜の部屋は暗い",
-    "kana": "よるのへやはくらい",
-    "q": "yorunoheyahakurai",
-    "lang": "ja",
-    "uuid": "1f3ca176-91ef-4e94-9d65-41b8fdfd8a8c"
-  },
-  {
-    "disp": "夜の星が光る",
-    "kana": "よるのほしがひかる",
-    "q": "yorunohosigahikaru",
-    "lang": "ja",
-    "uuid": "9ce7dc24-12d5-4b37-b03e-0fdcf76346e8"
-  },
-  {
     "disp": "夜の星は青い",
     "kana": "よるのほしはあおい",
     "q": "yorunohosihaaoi",
     "lang": "ja",
     "uuid": "28f6851d-788b-4e80-ab2e-5b1b857c083f"
-  },
-  {
-    "disp": "夜の風が冷える",
-    "kana": "よるのかぜがひえる",
-    "q": "yorunokazegahieru",
-    "lang": "ja",
-    "uuid": "239f1aa7-d4bd-4097-8f25-d11cd4936569"
-  },
-  {
-    "disp": "夜の風は寒い",
-    "kana": "よるのかぜはさむい",
-    "q": "yorunokazehasamui",
-    "lang": "ja",
-    "uuid": "3cfedb00-ace4-470c-98f6-a55b640145dc"
-  },
-  {
-    "disp": "夜の風に冷える",
-    "kana": "よるのかぜにひえる",
-    "q": "yorunokazenihieru",
-    "lang": "ja",
-    "uuid": "590a829b-e025-463d-a971-85737955768a"
   },
   {
     "disp": "夜の空は広い",
@@ -2513,20 +1141,6 @@
     "uuid": "7b0ca459-5c7c-4396-9b05-4eeb07db37f2"
   },
   {
-    "disp": "夜の海は深い",
-    "kana": "よるのうみはふかい",
-    "q": "yorunoumihafukai",
-    "lang": "ja",
-    "uuid": "51856ffc-20b6-43b4-ad0d-a2569036edba"
-  },
-  {
-    "disp": "夜の海は暗い",
-    "kana": "よるのうみはくらい",
-    "q": "yorunoumihakurai",
-    "lang": "ja",
-    "uuid": "cd198d24-95d9-4c62-b685-b3a67ef81f12"
-  },
-  {
     "disp": "雨の夜は寂しい",
     "kana": "あめのよるはさびしい",
     "q": "amenoyoruhasabisii",
@@ -2534,46 +1148,11 @@
     "uuid": "1f1bc98c-2fbb-4231-8d24-854bec8768ac"
   },
   {
-    "disp": "青い帽子が軽い",
-    "kana": "あおいぼうしがかるい",
-    "q": "aoibousigakarui",
-    "lang": "ja",
-    "uuid": "77e0a66d-75c0-49cd-9802-13ee2cabad3b"
-  },
-  {
-    "disp": "青い空が明るい",
-    "kana": "あおいそらがあかるい",
-    "q": "aoisoragaakarui",
-    "lang": "ja",
-    "uuid": "92a39711-461c-4819-9d86-b3104bf902fa"
-  },
-  {
-    "disp": "朝の風が涼しい",
-    "kana": "あさのかぜがすずしい",
-    "q": "asanokazegasuzusii",
-    "lang": "ja",
-    "uuid": "8dd0d8ed-7d93-43a3-a8ac-f9da04a758dc"
-  },
-  {
-    "disp": "朝の空が明るい",
-    "kana": "あさのそらがあかるい",
-    "q": "asanosoragaakarui",
-    "lang": "ja",
-    "uuid": "d66429bc-71ea-4738-955d-3c489e86822e"
-  },
-  {
     "disp": "同僚が指示する",
     "kana": "どうりょうがしじする",
     "q": "douryougasijisuru",
     "lang": "ja",
     "uuid": "11dff80e-d56a-4fed-ba7b-2008cca0a964"
-  },
-  {
-    "disp": "同僚が喜ぶ",
-    "kana": "どうりょうがよろこぶ",
-    "q": "douryougayorokobu",
-    "lang": "ja",
-    "uuid": "840991e3-1706-48ca-8772-52ee84b5ddd9"
   },
   {
     "disp": "同僚に教える",
@@ -2590,27 +1169,6 @@
     "uuid": "7abbfa80-2842-4193-8362-c82e0ad220c7"
   },
   {
-    "disp": "劇場で驚く",
-    "kana": "げきじょうでおどろく",
-    "q": "gekijoudeodoroku",
-    "lang": "ja",
-    "uuid": "a555305b-1cb7-4b08-a256-29a2bd3fe1a3"
-  },
-  {
-    "disp": "林の草が萌える",
-    "kana": "はやしのくさがもえる",
-    "q": "hayasinokusagamoeru",
-    "lang": "ja",
-    "uuid": "57e04113-98e1-46ed-aa61-c18712725326"
-  },
-  {
-    "disp": "部屋の光が消える",
-    "kana": "へやのひかりがきえる",
-    "q": "heyanohikarigakieru",
-    "lang": "ja",
-    "uuid": "5bdd9654-e7ea-4c32-a570-85eeaa524857"
-  },
-  {
     "disp": "広い林で休む",
     "kana": "ひろいはやしでやすむ",
     "q": "hiroihayasideyasumu",
@@ -2625,123 +1183,11 @@
     "uuid": "ebb605e4-fd96-46dd-a922-06362ebc2e5d"
   },
   {
-    "disp": "広い広場で叫ぶ",
-    "kana": "ひろいひろばでさけぶ",
-    "q": "hiroihirobadesakebu",
-    "lang": "ja",
-    "uuid": "d3ddec34-d831-4f53-98f1-6ad59defd4d5"
-  },
-  {
-    "disp": "会議の指示に願う",
-    "kana": "かいぎのしじにねがう",
-    "q": "kaiginosijininegau",
-    "lang": "ja",
-    "uuid": "2eb88c96-02bd-4af8-80d7-0b810236b1eb"
-  },
-  {
-    "disp": "釜の量が多い",
-    "kana": "かまのりょうがおおい",
-    "q": "kamanoryougaooi",
-    "lang": "ja",
-    "uuid": "aa88706e-141c-4a0a-a86c-bb48110d8a60"
-  },
-  {
-    "disp": "紙の量が多い",
-    "kana": "かみのりょうがおおい",
-    "q": "kaminoryougaooi",
-    "lang": "ja",
-    "uuid": "e97e56bf-3c8c-435c-b37c-f657eb2004c0"
-  },
-  {
-    "disp": "軽い履物がいい",
-    "kana": "かるいはきものがいい",
-    "q": "karuihakimonogaii",
-    "lang": "ja",
-    "uuid": "9ba81aa8-bf55-447e-ae9b-72d0af21c501"
-  },
-  {
-    "disp": "計画は最高だ",
-    "kana": "けいかくはさいこうだ",
-    "q": "keikakuhasaikouda",
-    "lang": "ja",
-    "uuid": "1e43d7dc-d1f1-41d3-a858-e1ebeefc7525"
-  },
-  {
-    "disp": "黄色い花が揺れる",
-    "kana": "きいろいはながゆれる",
-    "q": "kiiroihanagayureru",
-    "lang": "ja",
-    "uuid": "e3717a64-0456-42fa-a840-fc322c5d96a7"
-  },
-  {
-    "disp": "黄色い草が揺れる",
-    "kana": "きいろいくさがゆれる",
-    "q": "kiiroikusagayureru",
-    "lang": "ja",
-    "uuid": "11ea56c1-1c52-4f61-8b29-e3b616582ec7"
-  },
-  {
-    "disp": "黄色い虹が光る",
-    "kana": "きいろいにじがひかる",
-    "q": "kiiroinijigahikaru",
-    "lang": "ja",
-    "uuid": "2e3895b0-0fa2-4ebd-9773-1bcb8c8eac9c"
-  },
-  {
-    "disp": "氷が十分だ",
-    "kana": "こおりがじゅうぶんだ",
-    "q": "koorigajuubunnda",
-    "lang": "ja",
-    "uuid": "468f866d-ebed-4f8e-b577-592010b18f8a"
-  },
-  {
-    "disp": "氷が最小だ",
-    "kana": "こおりがさいしょうだ",
-    "q": "koorigasaishouda",
-    "lang": "ja",
-    "uuid": "113d8db1-9532-4ec6-9d6f-50578787f0a5"
-  },
-  {
-    "disp": "氷の幅が狭い",
-    "kana": "こおりのはばがせまい",
-    "q": "koorinohabagasemai",
-    "lang": "ja",
-    "uuid": "85280952-4c98-49d6-b776-dc439b43af26"
-  },
-  {
-    "disp": "森の風が涼しい",
-    "kana": "もりのかぜがすずしい",
-    "q": "morinokazegasuzusii",
-    "lang": "ja",
-    "uuid": "9837fc00-129c-489b-b380-1a3e7d22a6ef"
-  },
-  {
-    "disp": "鍋の氷が消える",
-    "kana": "なべのこおりがきえる",
-    "q": "nabenokoorigakieru",
-    "lang": "ja",
-    "uuid": "5e3e972e-41c8-405f-9c38-c4560b251d78"
-  },
-  {
     "disp": "鍋の量が多い",
     "kana": "なべのりょうがおおい",
     "q": "nabenoryougaooi",
     "lang": "ja",
     "uuid": "823ea17f-434b-4e2a-afa5-aec269d0acaa"
-  },
-  {
-    "disp": "鍋の量に困る",
-    "kana": "なべのりょうにこまる",
-    "q": "nabenoryounikomaru",
-    "lang": "ja",
-    "uuid": "116f8436-a882-4a80-9630-d1b5ebc8b599"
-  },
-  {
-    "disp": "廊下の床が濡れる",
-    "kana": "ろうかのゆかがぬれる",
-    "q": "roukanoyukaganureru",
-    "lang": "ja",
-    "uuid": "9324cabb-9d0b-483e-97f3-601ebe33b16b"
   },
   {
     "disp": "寂しい夜に願う",
@@ -2751,60 +1197,11 @@
     "uuid": "7e70ebfd-c532-4670-90fd-853f874a3bc7"
   },
   {
-    "disp": "書庫の紙は白い",
-    "kana": "しょこのかみはしろい",
-    "q": "shokonokamihasiroi",
-    "lang": "ja",
-    "uuid": "56c4d8f2-00ae-4eaf-a797-b5f8ff120cc6"
-  },
-  {
     "disp": "指示が不十分だ",
     "kana": "しじがふじゅうぶんだ",
     "q": "sijigafujuubunnda",
     "lang": "ja",
     "uuid": "e5c1f50d-0fa8-4109-8f3f-2cf6b664953c"
-  },
-  {
-    "disp": "白い氷が光る",
-    "kana": "しろいこおりがひかる",
-    "q": "siroikoorigahikaru",
-    "lang": "ja",
-    "uuid": "4cf8f26a-86ab-4d22-adb9-bd9ec64762d5"
-  },
-  {
-    "disp": "空に星が少ない",
-    "kana": "そらにほしがすくない",
-    "q": "soranihosigasukunai",
-    "lang": "ja",
-    "uuid": "5f54f077-973c-427d-81e1-57e415bc5bcd"
-  },
-  {
-    "disp": "空に雲が少ない",
-    "kana": "そらにくもがすくない",
-    "q": "soranikumogasukunai",
-    "lang": "ja",
-    "uuid": "993d9cdf-7885-4946-9b4a-f9694c279fdb"
-  },
-  {
-    "disp": "空の星は明るい",
-    "kana": "そらのほしはあかるい",
-    "q": "soranohosihaakarui",
-    "lang": "ja",
-    "uuid": "8a64d870-cec5-4a4e-9928-8c3bdf63f9ac"
-  },
-  {
-    "disp": "海に光が揺れる",
-    "kana": "うみにひかりがゆれる",
-    "q": "uminihikarigayureru",
-    "lang": "ja",
-    "uuid": "f25f4968-eef9-4c35-9a16-bda6fe152a65"
-  },
-  {
-    "disp": "海の風は涼しい",
-    "kana": "うみのかぜはすずしい",
-    "q": "uminokazehasuzusii",
-    "lang": "ja",
-    "uuid": "b2bc9bda-8917-467a-a389-c2cff45f736f"
   },
   {
     "disp": "夜の星が寂しい",
@@ -2814,97 +1211,6 @@
     "uuid": "d7209a85-ad6e-4a11-addb-354c33ca4bba"
   },
   {
-    "disp": "夜の星は明るい",
-    "kana": "よるのほしはあかるい",
-    "q": "yorunohosihaakarui",
-    "lang": "ja",
-    "uuid": "3bee33a3-567b-4172-bc74-ccf7e183173d"
-  },
-  {
-    "disp": "赤い帽子に驚く",
-    "kana": "あかいぼうしにおどろく",
-    "q": "akaibousiniodoroku",
-    "lang": "ja",
-    "uuid": "2e3b0b66-91b2-4f22-83dd-48d073876bf0"
-  },
-  {
-    "disp": "赤い虹が空に浮く",
-    "kana": "あかいにじがそらにうく",
-    "q": "akainijigasoraniuku",
-    "lang": "ja",
-    "uuid": "13e52b93-3d33-416f-9711-0674aad11aaa"
-  },
-  {
-    "disp": "明るい窓に驚く",
-    "kana": "あかるいまどにおどろく",
-    "q": "akaruimadoniodoroku",
-    "lang": "ja",
-    "uuid": "0b88d3ab-b2af-47f9-9c40-0c66b6110274"
-  },
-  {
-    "disp": "青い森に風が吹く",
-    "kana": "あおいもりにかぜがふく",
-    "q": "aoimorinikazegafuku",
-    "lang": "ja",
-    "uuid": "039da1a0-d000-4991-8cfe-777976131aad"
-  },
-  {
-    "disp": "青い空に雲が舞う",
-    "kana": "あおいそらにくもがまう",
-    "q": "aoisoranikumogamau",
-    "lang": "ja",
-    "uuid": "ac1b6e30-dbf5-4a5b-89a1-0c111a73c909"
-  },
-  {
-    "disp": "青い空に雲が浮く",
-    "kana": "あおいそらにくもがうく",
-    "q": "aoisoranikumogauku",
-    "lang": "ja",
-    "uuid": "5c453840-367b-4e62-9ab7-9588b3fe6bb2"
-  },
-  {
-    "disp": "青い空に虹が浮く",
-    "kana": "あおいそらににじがうく",
-    "q": "aoisoraninijigauku",
-    "lang": "ja",
-    "uuid": "1161331d-0eb1-4d1f-b647-ad0f52357a16"
-  },
-  {
-    "disp": "青い山に霧が舞う",
-    "kana": "あおいやまにきりがまう",
-    "q": "aoiyamanikirigamau",
-    "lang": "ja",
-    "uuid": "0f5dbae8-ec09-4630-9025-b8ffa6d8075c"
-  },
-  {
-    "disp": "青い山に雲が浮く",
-    "kana": "あおいやまにくもがうく",
-    "q": "aoiyamanikumogauku",
-    "lang": "ja",
-    "uuid": "6bfa579d-a36a-4b8f-a390-b9ef9483b5e6"
-  },
-  {
-    "disp": "青い山に雪が降る",
-    "kana": "あおいやまにゆきがふる",
-    "q": "aoiyamaniyukigafuru",
-    "lang": "ja",
-    "uuid": "48ae3080-6725-4caa-855e-b9248caede57"
-  },
-  {
-    "disp": "朝の光が明るい",
-    "kana": "あさのひかりがあかるい",
-    "q": "asanohikarigaakarui",
-    "lang": "ja",
-    "uuid": "fc0803ea-ec7f-4a92-8186-98b5f1278432"
-  },
-  {
-    "disp": "朝の光は明るい",
-    "kana": "あさのひかりはあかるい",
-    "q": "asanohikarihaakarui",
-    "lang": "ja",
-    "uuid": "62d91e3c-0147-44f6-b861-694977a32e20"
-  },
-  {
     "disp": "朝の準備に急ぐ",
     "kana": "あさのじゅんびにいそぐ",
     "q": "asanojunnbiniisogu",
@@ -2912,256 +1218,11 @@
     "uuid": "7d316d9c-b477-423e-a1e9-c7b7570665be"
   },
   {
-    "disp": "朝の鏡に驚く",
-    "kana": "あさのかがみにおどろく",
-    "q": "asanokagaminiodoroku",
-    "lang": "ja",
-    "uuid": "053b60aa-3096-4708-a7a0-fa9159d72bba"
-  },
-  {
-    "disp": "朝の空に虹が浮く",
-    "kana": "あさのそらににじがうく",
-    "q": "asanosoraninijigauku",
-    "lang": "ja",
-    "uuid": "df3c333d-4e98-4226-9d28-5085906feb84"
-  },
-  {
-    "disp": "部下の責任は重い",
-    "kana": "ぶかのせきにんはおもい",
-    "q": "bukanosekininnhaomoi",
-    "lang": "ja",
-    "uuid": "d6c38415-b2f0-48f2-91c4-6709205cd1fa"
-  },
-  {
-    "disp": "深い森に風が吹く",
-    "kana": "ふかいもりにかぜがふく",
-    "q": "fukaimorinikazegafuku",
-    "lang": "ja",
-    "uuid": "68c6d8f2-56a7-4dc0-98d7-9e75fef87247"
-  },
-  {
-    "disp": "学生が指示に困る",
-    "kana": "がくせいがしじにこまる",
-    "q": "gakuseigasijinikomaru",
-    "lang": "ja",
-    "uuid": "1776cd32-ede6-4725-b353-c3076034de59"
-  },
-  {
-    "disp": "学生が指示に願う",
-    "kana": "がくせいがしじにねがう",
-    "q": "gakuseigasijininegau",
-    "lang": "ja",
-    "uuid": "b0986be6-f4cf-4ae4-a5e0-44062967e8db"
-  },
-  {
     "disp": "広い書斎で休む",
     "kana": "ひろいしょさいでやすむ",
     "q": "hiroishosaideyasumu",
     "lang": "ja",
     "uuid": "91f89097-0891-44a6-8d75-29bf135689bd"
-  },
-  {
-    "disp": "広い空に雲が浮く",
-    "kana": "ひろいそらにくもがうく",
-    "q": "hiroisoranikumogauku",
-    "lang": "ja",
-    "uuid": "e5abe58d-2d55-4336-a335-dbfeeeeae9bf"
-  },
-  {
-    "disp": "昼に銀行に急ぐ",
-    "kana": "ひるにぎんこうにいそぐ",
-    "q": "hiruniginnkouniisogu",
-    "lang": "ja",
-    "uuid": "c4ae7376-92eb-45bb-8b32-e383f32b72b2"
-  },
-  {
-    "disp": "昼の会社で休む",
-    "kana": "ひるのかいしゃでやすむ",
-    "q": "hirunokaishadeyasumu",
-    "lang": "ja",
-    "uuid": "d7b47566-3145-402a-b953-d30438bfa4de"
-  },
-  {
-    "disp": "事務の報告が長い",
-    "kana": "じむのほうこくがながい",
-    "q": "jimunohoukokuganagai",
-    "lang": "ja",
-    "uuid": "6c14909e-8dbf-44bd-bfa0-2a2e82db4eba"
-  },
-  {
-    "disp": "事務の報告は長い",
-    "kana": "じむのほうこくはながい",
-    "q": "jimunohoukokuhanagai",
-    "lang": "ja",
-    "uuid": "7bad8eba-68e6-4961-80fd-01df9177576d"
-  },
-  {
-    "disp": "事務の責任は重い",
-    "kana": "じむのせきにんはおもい",
-    "q": "jimunosekininnhaomoi",
-    "lang": "ja",
-    "uuid": "f00625a6-d326-4ce8-aeef-f72494db08a6"
-  },
-  {
-    "disp": "会議の量が多い",
-    "kana": "かいぎのりょうがおおい",
-    "q": "kaiginoryougaooi",
-    "lang": "ja",
-    "uuid": "45b723f4-2a92-463d-a5b2-e16716c1424e"
-  },
-  {
-    "disp": "会議の指示が短い",
-    "kana": "かいぎのしじがみじかい",
-    "q": "kaiginosijigamijikai",
-    "lang": "ja",
-    "uuid": "1320f0a0-8e6b-4d7b-abb5-649c9df5d085"
-  },
-  {
-    "disp": "会議の指示は短い",
-    "kana": "かいぎのしじはみじかい",
-    "q": "kaiginosijihamijikai",
-    "lang": "ja",
-    "uuid": "5a082ea4-fb5b-4aba-bb44-20d623c50e86"
-  },
-  {
-    "disp": "会社の鍵が重い",
-    "kana": "かいしゃのかぎがおもい",
-    "q": "kaishanokagigaomoi",
-    "lang": "ja",
-    "uuid": "5751560e-4c1b-48b6-8f0f-3b337377fe07"
-  },
-  {
-    "disp": "計画の幅が狭い",
-    "kana": "けいかくのはばがせまい",
-    "q": "keikakunohabagasemai",
-    "lang": "ja",
-    "uuid": "5a7a75cb-22bd-42a4-b1c4-4397dd1f3588"
-  },
-  {
-    "disp": "氷の量が多い",
-    "kana": "こおりのりょうがおおい",
-    "q": "koorinoryougaooi",
-    "lang": "ja",
-    "uuid": "434968d4-ac82-4dc0-b78b-fb4adf215339"
-  },
-  {
-    "disp": "氷の量も多い",
-    "kana": "こおりのりょうもおおい",
-    "q": "koorinoryoumoooi",
-    "lang": "ja",
-    "uuid": "fd91568d-9875-48b3-b679-2ab3cd274916"
-  },
-  {
-    "disp": "氷の量に願う",
-    "kana": "こおりのりょうにねがう",
-    "q": "koorinoryouninegau",
-    "lang": "ja",
-    "uuid": "59640631-6d41-4ebe-b023-69e9a8713434"
-  },
-  {
-    "disp": "暗い夜に星が舞う",
-    "kana": "くらいよるにほしがまう",
-    "q": "kuraiyorunihosigamau",
-    "lang": "ja",
-    "uuid": "a22bfeb4-1f28-465b-bf8e-e494aaf5ab01"
-  },
-  {
-    "disp": "長い階段に困る",
-    "kana": "ながいかいだんにこまる",
-    "q": "nagaikaidannnikomaru",
-    "lang": "ja",
-    "uuid": "d9b64bfd-87ca-4a2e-b5b5-9c94b7fb4cd9"
-  },
-  {
-    "disp": "狭い玄関に困る",
-    "kana": "せまいげんかんにこまる",
-    "q": "semaigennkannnikomaru",
-    "lang": "ja",
-    "uuid": "0c65010b-4734-4c0e-8e50-30cdb44d0dc6"
-  },
-  {
-    "disp": "狭い路地に風が吹く",
-    "kana": "せまいろじにかぜがふく",
-    "q": "semairojinikazegafuku",
-    "lang": "ja",
-    "uuid": "15eb1bcd-77a8-4bdf-ac7d-f991a570c6ee"
-  },
-  {
-    "disp": "指示の量に驚く",
-    "kana": "しじのりょうにおどろく",
-    "q": "sijinoryouniodoroku",
-    "lang": "ja",
-    "uuid": "6729adc1-949a-4926-900d-3abab8404247"
-  },
-  {
-    "disp": "白い氷が崩れる",
-    "kana": "しろいこおりがくずれる",
-    "q": "siroikoorigakuzureru",
-    "lang": "ja",
-    "uuid": "734141ca-4976-43e1-bb01-6dcbe94dbd29"
-  },
-  {
-    "disp": "涼しい風に驚く",
-    "kana": "すずしいかぜにおどろく",
-    "q": "suzusiikazeniodoroku",
-    "lang": "ja",
-    "uuid": "0f4dcc4b-80b6-4264-aa03-9b898abe1d03"
-  },
-  {
-    "disp": "涼しい風に喜ぶ",
-    "kana": "すずしいかぜによろこぶ",
-    "q": "suzusiikazeniyorokobu",
-    "lang": "ja",
-    "uuid": "cc82d018-a45c-4b1a-8c4e-037df35cf519"
-  },
-  {
-    "disp": "明るい空に虹が舞う",
-    "kana": "あかるいそらににじがまう",
-    "q": "akaruisoraninijigamau",
-    "lang": "ja",
-    "uuid": "1d1f6404-f1fd-4ab3-b109-ccb344a6de9a"
-  },
-  {
-    "disp": "青い空に星が光る",
-    "kana": "あおいそらにほしがひかる",
-    "q": "aoisoranihosigahikaru",
-    "lang": "ja",
-    "uuid": "ec566920-1017-4274-8fd5-5761e1529c04"
-  },
-  {
-    "disp": "青い海に光が舞う",
-    "kana": "あおいうみにひかりがまう",
-    "q": "aoiuminihikarigamau",
-    "lang": "ja",
-    "uuid": "4d7cc8bd-c2c4-4224-8650-088dd514ade1"
-  },
-  {
-    "disp": "勉強は十分だ",
-    "kana": "べんきょうはじゅうぶんだ",
-    "q": "bennkyouhajuubunnda",
-    "lang": "ja",
-    "uuid": "83681924-d052-44a9-9c6d-f679069a69e4"
-  },
-  {
-    "disp": "部下の報告は少ない",
-    "kana": "ぶかのほうこくはすくない",
-    "q": "bukanohoukokuhasukunai",
-    "lang": "ja",
-    "uuid": "20e97d89-17a1-490c-b693-561989ca1dfc"
-  },
-  {
-    "disp": "学生が報告に泣く",
-    "kana": "がくせいがほうこくになく",
-    "q": "gakuseigahoukokuninaku",
-    "lang": "ja",
-    "uuid": "db70cf61-f0d6-48a4-8d3d-a1317b2cb829"
-  },
-  {
-    "disp": "広い広場に風が吹く",
-    "kana": "ひろいひろばにかぜがふく",
-    "q": "hiroihirobanikazegafuku",
-    "lang": "ja",
-    "uuid": "341b67cb-4fc6-4766-b591-a09e0271f7c0"
   },
   {
     "disp": "準備は不十分だ",
@@ -3178,62 +1239,6 @@
     "uuid": "27fe7b71-d657-463d-a5c3-a09ca69d3d96"
   },
   {
-    "disp": "準備の量に困る",
-    "kana": "じゅんびのりょうにこまる",
-    "q": "junnbinoryounikomaru",
-    "lang": "ja",
-    "uuid": "55293ffa-5aec-40cc-8cbf-e49d44251a8f"
-  },
-  {
-    "disp": "会議の計画が決まる",
-    "kana": "かいぎのけいかくがきまる",
-    "q": "kaiginokeikakugakimaru",
-    "lang": "ja",
-    "uuid": "1ef1ca97-b84f-4246-a8e9-b77244920c10"
-  },
-  {
-    "disp": "計画の量が多い",
-    "kana": "けいかくのりょうがおおい",
-    "q": "keikakunoryougaooi",
-    "lang": "ja",
-    "uuid": "f453dd7e-ba26-4f48-ba21-146b8336b9b8"
-  },
-  {
-    "disp": "氷が十分でない",
-    "kana": "こおりがじゅうぶんでない",
-    "q": "koorigajuubunndenai",
-    "lang": "ja",
-    "uuid": "458dfa44-0e47-4e58-b758-e41ac95732dc"
-  },
-  {
-    "disp": "氷の重さは少ない",
-    "kana": "こおりのおもさはすくない",
-    "q": "koorinoomosahasukunai",
-    "lang": "ja",
-    "uuid": "b59efc79-b86d-4504-bc9f-f6eafac21e86"
-  },
-  {
-    "disp": "氷の量に驚く",
-    "kana": "こおりのりょうにおどろく",
-    "q": "koorinoryouniodoroku",
-    "lang": "ja",
-    "uuid": "ff28a2bc-de87-4905-894b-51604b06508d"
-  },
-  {
-    "disp": "暗い夜に星が光る",
-    "kana": "くらいよるにほしがひかる",
-    "q": "kuraiyorunihosigahikaru",
-    "lang": "ja",
-    "uuid": "16a96eb0-ce55-41e8-881c-616c9f0f11d3"
-  },
-  {
-    "disp": "教師の指示は短い",
-    "kana": "きょうしのしじはみじかい",
-    "q": "kyousinosijihamijikai",
-    "lang": "ja",
-    "uuid": "3903aade-bfd8-4ef8-b55f-e3e3b36670d0"
-  },
-  {
     "disp": "マンションの部屋は広い",
     "kana": "まんしょんのへやはひろい",
     "q": "mannshonnnoheyahahiroi",
@@ -3241,129 +1246,2950 @@
     "uuid": "af6a6215-6dc3-4966-ac60-b25ecf67f9d9"
   },
   {
-    "disp": "狭い路地に霧が深い",
-    "kana": "せまいろじにきりがふかい",
-    "q": "semairojinikirigafukai",
+    "disp": "出る",
+    "kana": "でる",
+    "q": "deru",
     "lang": "ja",
-    "uuid": "84dc979b-463b-4d08-ad56-8a562f6afdf1"
+    "uuid": "cf51c791-4e23-4d66-9ca7-b41273a4da9d"
   },
   {
-    "disp": "親戚の箱が短い",
-    "kana": "しんせきのはこがみじかい",
-    "q": "sinnsekinohakogamijikai",
+    "disp": "枝",
+    "kana": "えだ",
+    "q": "eda",
     "lang": "ja",
-    "uuid": "d9ffc45a-c288-4b0d-8406-60d83667627e"
+    "uuid": "18eac139-700a-4dbf-8abe-84226bfb01a9"
   },
   {
-    "disp": "白い雲がゆっくり浮く",
-    "kana": "しろいくもがゆっくりうく",
-    "q": "siroikumogayukkuriuku",
+    "disp": "分",
+    "kana": "ふん",
+    "q": "funn",
     "lang": "ja",
-    "uuid": "ed62dd72-1d46-4f04-89b0-5fe98c5eb0dd"
+    "uuid": "92f576a9-4606-471c-a3fd-53ebb4d6e404"
   },
   {
-    "disp": "宿の旅館が大きい",
-    "kana": "やどのりょかんがおおきい",
-    "q": "yadonoryokanngaookii",
+    "disp": "冬",
+    "kana": "ふゆ",
+    "q": "fuyu",
     "lang": "ja",
-    "uuid": "40474d30-9a69-4b92-8cce-22e70e5e97b6"
+    "uuid": "240e6dc8-0a1e-4709-80d8-468dbf117f2b"
   },
   {
-    "disp": "勉強の量が多い",
-    "kana": "べんきょうのりょうがおおい",
-    "q": "bennkyounoryougaooi",
+    "disp": "午後",
+    "kana": "ごご",
+    "q": "gogo",
     "lang": "ja",
-    "uuid": "a853fd10-3977-48a6-a454-b11b07256eac"
+    "uuid": "dffb88c2-d3d2-4269-8103-af26cba6e54c"
   },
   {
-    "disp": "報告が十分でない",
-    "kana": "ほうこくがじゅうぶんでない",
-    "q": "houkokugajuubunndenai",
+    "disp": "春",
+    "kana": "はる",
+    "q": "haru",
     "lang": "ja",
-    "uuid": "74cf8205-8946-415d-a1b2-d639e008eedf"
+    "uuid": "34606151-7a98-4873-b449-4444532d5d3b"
   },
   {
-    "disp": "報告の量に驚く",
-    "kana": "ほうこくのりょうにおどろく",
-    "q": "houkokunoryouniodoroku",
+    "disp": "孫",
+    "kana": "まご",
+    "q": "mago",
     "lang": "ja",
-    "uuid": "cad1ba85-4158-412e-b3d8-cf2efdfbbd91"
+    "uuid": "fdd4065d-0adc-48c9-a79e-abc88011b73b"
   },
   {
-    "disp": "会社で準備に急ぐ",
-    "kana": "かいしゃでじゅんびにいそぐ",
-    "q": "kaishadejunnbiniisogu",
+    "disp": "味噌",
+    "kana": "みそ",
+    "q": "miso",
     "lang": "ja",
-    "uuid": "045bc550-40af-4e30-944f-96d5f400d49c"
+    "uuid": "f443f6cc-eacd-4773-b204-f91c19cc7f1a"
   },
   {
-    "disp": "教師が計画に困る",
-    "kana": "きょうしがけいかくにこまる",
-    "q": "kyousigakeikakunikomaru",
+    "disp": "水",
+    "kana": "みず",
+    "q": "mizu",
     "lang": "ja",
-    "uuid": "1773e586-babc-469a-938a-a01b04d4d47b"
+    "uuid": "f51aedaf-1483-4682-8c15-e3823ff4b029"
   },
   {
-    "disp": "責任の重さに驚く",
-    "kana": "せきにんのおもさにおどろく",
-    "q": "sekininnnoomosaniodoroku",
+    "disp": "門",
+    "kana": "もん",
+    "q": "monn",
     "lang": "ja",
-    "uuid": "ee6994dc-f5eb-44bb-8eda-c8ce392e2ee4"
+    "uuid": "fa3b7a83-100f-4f9a-b1f8-e856f7870ddb"
   },
   {
-    "disp": "先生が報告に怒る",
-    "kana": "せんせいがほうこくにおこる",
-    "q": "sennseigahoukokuniokoru",
+    "disp": "梨",
+    "kana": "なし",
+    "q": "nasi",
     "lang": "ja",
-    "uuid": "e4c5e205-560a-4339-822f-ccb5db16f072"
+    "uuid": "d14b6230-d11c-4b74-b2d6-88e21e68c1d7"
   },
   {
-    "disp": "勉強の計画が決まる",
-    "kana": "べんきょうのけいかくがきまる",
-    "q": "bennkyounokeikakugakimaru",
+    "disp": "茄子",
+    "kana": "なす",
+    "q": "nasu",
     "lang": "ja",
-    "uuid": "fdd9138f-dac0-43ec-8982-43a265512b8d"
+    "uuid": "eb99e64c-b494-4c0f-a717-bfba93a15951"
   },
   {
-    "disp": "同僚が準備に困る",
-    "kana": "どうりょうがじゅんびにこまる",
-    "q": "douryougajunnbinikomaru",
+    "disp": "沼",
+    "kana": "ぬま",
+    "q": "numa",
     "lang": "ja",
-    "uuid": "3264eba6-7825-4dfe-b335-c812b728475a"
+    "uuid": "ba9cb327-08b1-43cf-bb6e-5087f3e21e46"
   },
   {
-    "disp": "同僚が準備に怒る",
-    "kana": "どうりょうがじゅんびにおこる",
-    "q": "douryougajunnbiniokoru",
+    "disp": "伯母",
+    "kana": "おば",
+    "q": "oba",
     "lang": "ja",
-    "uuid": "70015003-f3b1-4cba-9d6a-608e4892284b"
+    "uuid": "f629793b-a1d6-43ad-94cc-900c5a435012"
   },
   {
-    "disp": "同僚に責任が重い",
-    "kana": "どうりょうにせきにんがおもい",
-    "q": "douryounisekininngaomoi",
+    "disp": "叔父",
+    "kana": "おじ",
+    "q": "oji",
     "lang": "ja",
-    "uuid": "e8b43062-1c24-40b6-a1a7-86ed0527d4c7"
+    "uuid": "d4d8e9cf-faf5-45e6-9d35-52a05dbf5dc4"
   },
   {
-    "disp": "会社で勉強に急ぐ",
-    "kana": "かいしゃでべんきょうにいそぐ",
-    "q": "kaishadebennkyouniisogu",
+    "disp": "お湯",
+    "kana": "おゆ",
+    "q": "oyu",
     "lang": "ja",
-    "uuid": "0568d0d0-20a4-4133-a322-a06a90bd52f9"
+    "uuid": "8b9870da-9e88-47a7-9da2-8ff4badba90e"
   },
   {
-    "disp": "会社に報告が少ない",
-    "kana": "かいしゃにほうこくがすくない",
-    "q": "kaishanihoukokugasukunai",
+    "disp": "死ぬ",
+    "kana": "しぬ",
+    "q": "sinu",
     "lang": "ja",
-    "uuid": "5c055a1f-ee5e-4a46-b9a1-4421b2d0d955"
+    "uuid": "c28180ad-c23d-49f8-a24b-718406bfdba8"
   },
   {
-    "disp": "同僚が報告に驚く",
-    "kana": "どうりょうがほうこくにおどろく",
-    "q": "douryougahoukokuniodoroku",
+    "disp": "潮",
+    "kana": "しお",
+    "q": "sio",
     "lang": "ja",
-    "uuid": "f80e2c74-be4d-42a8-9840-17fcaed8f2c8"
+    "uuid": "2ce1b621-ebd1-419b-bd0e-3ec121583fd8"
+  },
+  {
+    "disp": "住む",
+    "kana": "すむ",
+    "q": "sumu",
+    "lang": "ja",
+    "uuid": "e5343736-3a87-4441-9f69-4860ce293653"
+  },
+  {
+    "disp": "梅",
+    "kana": "うめ",
+    "q": "ume",
+    "lang": "ja",
+    "uuid": "bae2b311-57cc-4e79-a2b8-b28396c0c2b8"
+  },
+  {
+    "disp": "闇",
+    "kana": "やみ",
+    "q": "yami",
+    "lang": "ja",
+    "uuid": "81be172e-16e5-41c9-a9d3-86178c4a0167"
+  },
+  {
+    "disp": "朝日",
+    "kana": "あさひ",
+    "q": "asahi",
+    "lang": "ja",
+    "uuid": "bdf5d1a2-2d87-42cd-8ab0-089f7c5a0662"
+  },
+  {
+    "disp": "浅い",
+    "kana": "あさい",
+    "q": "asai",
+    "lang": "ja",
+    "uuid": "46de3e2b-9932-4b82-a071-0e89a907ccb1"
+  },
+  {
+    "disp": "秒",
+    "kana": "びょう",
+    "q": "byou",
+    "lang": "ja",
+    "uuid": "49fb0b04-570d-41b3-a3d4-06cba205ed4b"
+  },
+  {
+    "disp": "午前",
+    "kana": "ごぜん",
+    "q": "gozenn",
+    "lang": "ja",
+    "uuid": "57bb098f-3755-42be-bd55-a141a8ff585c"
+  },
+  {
+    "disp": "入る",
+    "kana": "はいる",
+    "q": "hairu",
+    "lang": "ja",
+    "uuid": "0f1d7d34-f409-4e99-ae97-624539c73e7d"
+  },
+  {
+    "disp": "走る",
+    "kana": "はしる",
+    "q": "hasiru",
+    "lang": "ja",
+    "uuid": "0ac1dd22-e4b0-4b89-9a3b-bc5a5e897175"
+  },
+  {
+    "disp": "毎時",
+    "kana": "まいじ",
+    "q": "maiji",
+    "lang": "ja",
+    "uuid": "6856bbf7-f28e-44d9-a5c3-f7c4d900e4ba"
+  },
+  {
+    "disp": "丸い",
+    "kana": "まるい",
+    "q": "marui",
+    "lang": "ja",
+    "uuid": "77bb23d0-d845-41cd-b4ca-eb9eb9ee8ab9"
+  },
+  {
+    "disp": "味噌煮",
+    "kana": "みそに",
+    "q": "misoni",
+    "lang": "ja",
+    "uuid": "f2064bcd-ac88-4a90-9ebf-e0fd71137448"
+  },
+  {
+    "disp": "水煮",
+    "kana": "みずに",
+    "q": "mizuni",
+    "lang": "ja",
+    "uuid": "f5c34fd8-d971-418c-b5aa-49072652641d"
+  },
+  {
+    "disp": "戻る",
+    "kana": "もどる",
+    "q": "modoru",
+    "lang": "ja",
+    "uuid": "55fed27a-6020-4b5f-827e-5a6af5729609"
+  },
+  {
+    "disp": "眠る",
+    "kana": "ねむる",
+    "q": "nemuru",
+    "lang": "ja",
+    "uuid": "33587f02-2fe0-42d7-a59c-783bd4ad1dab"
+  },
+  {
+    "disp": "登る",
+    "kana": "のぼる",
+    "q": "noboru",
+    "lang": "ja",
+    "uuid": "e2dec445-9de0-47bc-813a-07dd8d9c928e"
+  },
+  {
+    "disp": "濡れず",
+    "kana": "ぬれず",
+    "q": "nurezu",
+    "lang": "ja",
+    "uuid": "2da6983c-9e0a-412b-a8ef-04909315a796"
+  },
+  {
+    "disp": "温い",
+    "kana": "ぬるい",
+    "q": "nurui",
+    "lang": "ja",
+    "uuid": "3d40ada6-ab51-4fd4-b056-0540f2c279f8"
+  },
+  {
+    "disp": "降りる",
+    "kana": "おりる",
+    "q": "oriru",
+    "lang": "ja",
+    "uuid": "79528b87-7320-423a-a0b6-8fb2805878f2"
+  },
+  {
+    "disp": "死んだ",
+    "kana": "しんだ",
+    "q": "sinnda",
+    "lang": "ja",
+    "uuid": "513b3618-ad22-492b-b0e7-839c4759f704"
+  },
+  {
+    "disp": "忍ぶ",
+    "kana": "しのぶ",
+    "q": "sinobu",
+    "lang": "ja",
+    "uuid": "d3191e8d-7123-45b1-b781-b9d5cfff519e"
+  },
+  {
+    "disp": "過ぎる",
+    "kana": "すぎる",
+    "q": "sugiru",
+    "lang": "ja",
+    "uuid": "d949c9c8-790c-4a35-bf7a-98e04f49a3ce"
+  },
+  {
+    "disp": "梅煮",
+    "kana": "うめに",
+    "q": "umeni",
+    "lang": "ja",
+    "uuid": "d99f5d1d-9c96-45a0-b745-6e22a94a052a"
+  },
+  {
+    "disp": "山路",
+    "kana": "やまじ",
+    "q": "yamaji",
+    "lang": "ja",
+    "uuid": "eef47ce3-ce9f-4e03-af57-1fc597c4f71d"
+  },
+  {
+    "disp": "休み",
+    "kana": "やすみ",
+    "q": "yasumi",
+    "lang": "ja",
+    "uuid": "88cf4d53-b6bf-4cdd-9daa-9a989eaee71b"
+  },
+  {
+    "disp": "上司",
+    "kana": "じょうし",
+    "q": "jousi",
+    "lang": "ja",
+    "uuid": "c66d02b1-498f-4862-b064-6994c10ced53"
+  },
+  {
+    "disp": "眩しい",
+    "kana": "まぶしい",
+    "q": "mabusii",
+    "lang": "ja",
+    "uuid": "838dccb1-d496-4b9a-b651-bb98a2029159"
+  },
+  {
+    "disp": "毎朝",
+    "kana": "まいあさ",
+    "q": "maiasa",
+    "lang": "ja",
+    "uuid": "23f78fd9-5723-4327-8785-0e54ae2b14f0"
+  },
+  {
+    "disp": "毎晩",
+    "kana": "まいばん",
+    "q": "maibann",
+    "lang": "ja",
+    "uuid": "145721d4-d77d-4860-8c9f-e3bec47b23ef"
+  },
+  {
+    "disp": "味噌味",
+    "kana": "みそあじ",
+    "q": "misoaji",
+    "lang": "ja",
+    "uuid": "05e05c6b-d100-4778-8edf-c2982924c955"
+  },
+  {
+    "disp": "味噌汁",
+    "kana": "みそしる",
+    "q": "misosiru",
+    "lang": "ja",
+    "uuid": "03504355-134a-40c8-a8f8-fc7218e5840d"
+  },
+  {
+    "disp": "水味",
+    "kana": "みずあじ",
+    "q": "mizuaji",
+    "lang": "ja",
+    "uuid": "e98c4200-1506-4598-a615-2f2e8087af11"
+  },
+  {
+    "disp": "水飴",
+    "kana": "みずあめ",
+    "q": "mizuame",
+    "lang": "ja",
+    "uuid": "9dafcb4d-4904-4994-a023-752d2d90917f"
+  },
+  {
+    "disp": "流れる",
+    "kana": "ながれる",
+    "q": "nagareru",
+    "lang": "ja",
+    "uuid": "b9b3c4b0-dc84-46e0-af57-e0112dc58a58"
+  },
+  {
+    "disp": "練り物",
+    "kana": "ねりもの",
+    "q": "nerimono",
+    "lang": "ja",
+    "uuid": "1c599f55-497d-4533-b202-f6189c6c5a07"
+  },
+  {
+    "disp": "練り梅",
+    "kana": "ねりうめ",
+    "q": "neriume",
+    "lang": "ja",
+    "uuid": "4fb65680-8e06-4d08-9015-b8e2d29d820b"
+  },
+  {
+    "disp": "お煮物",
+    "kana": "おにもの",
+    "q": "onimono",
+    "lang": "ja",
+    "uuid": "d42487c8-9026-45f5-8ed1-a5f3cc9965dd"
+  },
+  {
+    "disp": "お湯盛り",
+    "kana": "おゆもり",
+    "q": "oyumori",
+    "lang": "ja",
+    "uuid": "0c9b764f-6f3b-4aee-a7c0-ae76371c87e2"
+  },
+  {
+    "disp": "お湯飲み",
+    "kana": "おゆのみ",
+    "q": "oyunomi",
+    "lang": "ja",
+    "uuid": "c939bead-ea89-4c5d-9e83-4bafa249afa3"
+  },
+  {
+    "disp": "来年",
+    "kana": "らいねん",
+    "q": "rainenn",
+    "lang": "ja",
+    "uuid": "79c16a8b-d3a8-4b0e-bac4-ce0074499614"
+  },
+  {
+    "disp": "老人",
+    "kana": "ろうじん",
+    "q": "roujinn",
+    "lang": "ja",
+    "uuid": "ba7ee3a1-9cb3-40a0-8ffc-03eadaacd9ff"
+  },
+  {
+    "disp": "死にそう",
+    "kana": "しにそう",
+    "q": "sinisou",
+    "lang": "ja",
+    "uuid": "ebf3014b-ad25-4c62-9810-644acfc5530e"
+  },
+  {
+    "disp": "塩味",
+    "kana": "しおあじ",
+    "q": "sioaji",
+    "lang": "ja",
+    "uuid": "4cd3b78b-ee51-4a13-9d37-6a602210d082"
+  },
+  {
+    "disp": "塩水",
+    "kana": "しおみず",
+    "q": "siomizu",
+    "lang": "ja",
+    "uuid": "7cd04a99-7044-483e-b2b5-fa9599cdcb01"
+  },
+  {
+    "disp": "塩揉み",
+    "kana": "しおもみ",
+    "q": "siomomi",
+    "lang": "ja",
+    "uuid": "ea5f1b23-aa96-4db6-8f15-f6061db5beac"
+  },
+  {
+    "disp": "梅味",
+    "kana": "うめあじ",
+    "q": "umeaji",
+    "lang": "ja",
+    "uuid": "a83e48e6-1138-4309-ab90-b034d23f1cb6"
+  },
+  {
+    "disp": "梅干し",
+    "kana": "うめぼし",
+    "q": "umebosi",
+    "lang": "ja",
+    "uuid": "4ca4a840-e134-4f24-ac24-585efae3c715"
+  },
+  {
+    "disp": "梅酒",
+    "kana": "うめしゅ",
+    "q": "umeshu",
+    "lang": "ja",
+    "uuid": "9ad20dab-9803-476b-a7c8-5115072c1d8b"
+  },
+  {
+    "disp": "友人",
+    "kana": "ゆうじん",
+    "q": "yuujinn",
+    "lang": "ja",
+    "uuid": "d573923c-d0e7-4024-b29e-fa50b63c6ce8"
+  },
+  {
+    "disp": "毎週",
+    "kana": "まいしゅう",
+    "q": "maishuu",
+    "lang": "ja",
+    "uuid": "cdf2667b-0521-4af0-9df0-5548aaec847e"
+  },
+  {
+    "disp": "水飴煮",
+    "kana": "みずあめに",
+    "q": "mizuameni",
+    "lang": "ja",
+    "uuid": "81809179-c86e-4ce0-8730-05432857ac91"
+  },
+  {
+    "disp": "お惣菜",
+    "kana": "おそうざい",
+    "q": "osouzai",
+    "lang": "ja",
+    "uuid": "55aefe99-1c4c-4660-ab42-cce63a2f4a9f"
+  },
+  {
+    "disp": "来週",
+    "kana": "らいしゅう",
+    "q": "raishuu",
+    "lang": "ja",
+    "uuid": "4472aa6c-2c98-407f-9c89-2219de0a8481"
+  },
+  {
+    "disp": "先週",
+    "kana": "せんしゅう",
+    "q": "sennshuu",
+    "lang": "ja",
+    "uuid": "60c00b1f-90ce-4101-a52e-180e48e43f4e"
+  },
+  {
+    "disp": "濡れずに入る",
+    "kana": "ぬれずにはいる",
+    "q": "nurezunihairu",
+    "lang": "ja",
+    "uuid": "5372b5e1-f9de-4f63-a42a-aa60f03b86d1"
+  },
+  {
+    "disp": "ポン酢で混ぜる",
+    "kana": "ぽんずでまぜる",
+    "q": "ponnzudemazeru",
+    "lang": "ja",
+    "uuid": "8de4a898-5e0a-4048-a060-43910bfd1a55"
+  },
+  {
+    "disp": "ポン酢は温い",
+    "kana": "ぽんずはぬるい",
+    "q": "ponnzuhanurui",
+    "lang": "ja",
+    "uuid": "f372a0f9-d54c-45be-8338-27f742dd9549"
+  },
+  {
+    "disp": "スープが温い",
+    "kana": "すーぷがぬるい",
+    "q": "su-puganurui",
+    "lang": "ja",
+    "uuid": "ccdc6850-574f-4283-aab3-35473c421999"
+  },
+  {
+    "disp": "青い空へ出る",
+    "kana": "あおいそらへでる",
+    "q": "aoisorahederu",
+    "lang": "ja",
+    "uuid": "33319aba-19bb-4063-a313-4e79a0d88f74"
+  },
+  {
+    "disp": "青い空に舞う",
+    "kana": "あおいそらにまう",
+    "q": "aoisoranimau",
+    "lang": "ja",
+    "uuid": "73922b65-4664-48fa-a123-5339c25c5883"
+  },
+  {
+    "disp": "冬の空に舞う",
+    "kana": "ふゆのそらにまう",
+    "q": "fuyunosoranimau",
+    "lang": "ja",
+    "uuid": "bbfe1464-bb43-46b8-a04b-d782edbdfd14"
+  },
+  {
+    "disp": "午後の空に舞う",
+    "kana": "ごごのそらにまう",
+    "q": "gogonosoranimau",
+    "lang": "ja",
+    "uuid": "42ffc7d4-16c0-4e46-9686-f252ea61c431"
+  },
+  {
+    "disp": "春の空へ出る",
+    "kana": "はるのそらへでる",
+    "q": "harunosorahederu",
+    "lang": "ja",
+    "uuid": "92bd90b0-435b-4d68-be69-7f9ee04c748a"
+  },
+  {
+    "disp": "春の空に舞う",
+    "kana": "はるのそらにまう",
+    "q": "harunosoranimau",
+    "lang": "ja",
+    "uuid": "3f25fe1b-2dca-4e3b-945c-181eecbfcd5a"
+  },
+  {
+    "disp": "広場は涼しい",
+    "kana": "ひろばはすずしい",
+    "q": "hirobahasuzusii",
+    "lang": "ja",
+    "uuid": "f9b2b1d4-ff38-4d19-b528-ccff3d401ed8"
+  },
+  {
+    "disp": "広い社へ出る",
+    "kana": "ひろいしゃへでる",
+    "q": "hiroishahederu",
+    "lang": "ja",
+    "uuid": "e6fb7452-771b-454c-ba17-ef4df5b38eca"
+  },
+  {
+    "disp": "広い空に舞う",
+    "kana": "ひろいそらにまう",
+    "q": "hiroisoranimau",
+    "lang": "ja",
+    "uuid": "bfe8b9a1-8e42-416c-b8e0-a36f53b5e2eb"
+  },
+  {
+    "disp": "広い海へ出る",
+    "kana": "ひろいうみへでる",
+    "q": "hiroiumihederu",
+    "lang": "ja",
+    "uuid": "df1ed3f0-a7e7-4cbd-b1bb-ccda40f1c3c8"
+  },
+  {
+    "disp": "味噌汁が煮える",
+    "kana": "みそしるがにえる",
+    "q": "misosiruganieru",
+    "lang": "ja",
+    "uuid": "1ca6333d-1b5d-4b00-bd65-d9a225dc248a"
+  },
+  {
+    "disp": "味噌汁は温い",
+    "kana": "みそしるはぬるい",
+    "q": "misosiruhanurui",
+    "lang": "ja",
+    "uuid": "dcd15ded-bef7-4444-ba0f-8e0be082ae11"
+  },
+  {
+    "disp": "練り物が重い",
+    "kana": "ねりものがおもい",
+    "q": "nerimonogaomoi",
+    "lang": "ja",
+    "uuid": "e2cdb21c-ad62-403c-bca8-b4e8cb5e0a65"
+  },
+  {
+    "disp": "練り梅で混ぜる",
+    "kana": "ねりうめでまぜる",
+    "q": "neriumedemazeru",
+    "lang": "ja",
+    "uuid": "a4f2bda7-fad4-4855-b4ac-85d6bcb3e136"
+  },
+  {
+    "disp": "お湯盛りは多い",
+    "kana": "おゆもりはおおい",
+    "q": "oyumorihaooi",
+    "lang": "ja",
+    "uuid": "17e48b7d-12e9-4ae8-900e-3393fca5c593"
+  },
+  {
+    "disp": "先輩に願う",
+    "kana": "せんぱいにねがう",
+    "q": "sennpaininegau",
+    "lang": "ja",
+    "uuid": "21a4b8e4-3c53-4e08-9a87-71e3c5590fc2"
+  },
+  {
+    "disp": "白い花は舞う",
+    "kana": "しろいはなはまう",
+    "q": "siroihanahamau",
+    "lang": "ja",
+    "uuid": "0d507ae3-3789-4efd-a23f-b552d15a82be"
+  },
+  {
+    "disp": "白い花に舞う",
+    "kana": "しろいはなにまう",
+    "q": "siroihananimau",
+    "lang": "ja",
+    "uuid": "3646c3c9-eee4-44e3-ab6a-066b528db693"
+  },
+  {
+    "disp": "夜の海へ出る",
+    "kana": "よるのうみへでる",
+    "q": "yorunoumihederu",
+    "lang": "ja",
+    "uuid": "0aa239a0-c6b6-4cee-9f39-95d216140d12"
+  },
+  {
+    "disp": "姉のピアノはいい",
+    "kana": "あねのぴあのはいい",
+    "q": "anenopianohaii",
+    "lang": "ja",
+    "uuid": "89835c47-8106-45eb-a860-6fa793ff6a47"
+  },
+  {
+    "disp": "青い花に濡れる",
+    "kana": "あおいはなにぬれる",
+    "q": "aoihananinureru",
+    "lang": "ja",
+    "uuid": "39755afc-4af6-42b6-b48a-e1081d6925cf"
+  },
+  {
+    "disp": "青い森へ入る",
+    "kana": "あおいもりへはいる",
+    "q": "aoimorihehairu",
+    "lang": "ja",
+    "uuid": "2dcddb6a-6c1c-48cf-a323-a0ebf4724f6b"
+  },
+  {
+    "disp": "青い空は広い",
+    "kana": "あおいそらはひろい",
+    "q": "aoisorahahiroi",
+    "lang": "ja",
+    "uuid": "bb9eda57-1be1-4d7e-811b-a1a2cda0de86"
+  },
+  {
+    "disp": "青い空に沈む",
+    "kana": "あおいそらにしずむ",
+    "q": "aoisoranisizumu",
+    "lang": "ja",
+    "uuid": "9512d775-d558-4833-a969-0df3c5a92cde"
+  },
+  {
+    "disp": "青い海で眠る",
+    "kana": "あおいうみでねむる",
+    "q": "aoiumidenemuru",
+    "lang": "ja",
+    "uuid": "7a47186e-4420-44ad-a486-5a1acc6d92b3"
+  },
+  {
+    "disp": "青い海は広い",
+    "kana": "あおいうみはひろい",
+    "q": "aoiumihahiroi",
+    "lang": "ja",
+    "uuid": "2bae5137-1830-48e7-9a1c-92e642c4bd02"
+  },
+  {
+    "disp": "青い海へ戻る",
+    "kana": "あおいうみへもどる",
+    "q": "aoiumihemodoru",
+    "lang": "ja",
+    "uuid": "6a1f6858-0f3c-4068-860d-fd64b67f458e"
+  },
+  {
+    "disp": "青い海へ泳ぐ",
+    "kana": "あおいうみへおよぐ",
+    "q": "aoiumiheoyogu",
+    "lang": "ja",
+    "uuid": "0e5b925c-4aff-41fa-a58b-1ee4b95ea32f"
+  },
+  {
+    "disp": "青い海に沈む",
+    "kana": "あおいうみにしずむ",
+    "q": "aoiuminisizumu",
+    "lang": "ja",
+    "uuid": "aa570510-149a-4931-9256-0ed914991e72"
+  },
+  {
+    "disp": "青い山に登る",
+    "kana": "あおいやまにのぼる",
+    "q": "aoiyamaninoboru",
+    "lang": "ja",
+    "uuid": "f4d9bad9-6eee-4648-ba11-5e394aa09072"
+  },
+  {
+    "disp": "朝の雨は寒い",
+    "kana": "あさのあめはさむい",
+    "q": "asanoamehasamui",
+    "lang": "ja",
+    "uuid": "95c07a24-cc80-4dcb-9fec-8421b07af410"
+  },
+  {
+    "disp": "朝の部屋で休む",
+    "kana": "あさのへやでやすむ",
+    "q": "asanoheyadeyasumu",
+    "lang": "ja",
+    "uuid": "b4c4914c-85a2-409b-bdd2-7bbb8f835288"
+  },
+  {
+    "disp": "朝の水は冷える",
+    "kana": "あさのみずはひえる",
+    "q": "asanomizuhahieru",
+    "lang": "ja",
+    "uuid": "78f5a97d-fd52-451b-8dc0-96c4bb0c95c3"
+  },
+  {
+    "disp": "朝の海で泳ぐ",
+    "kana": "あさのうみでおよぐ",
+    "q": "asanoumideoyogu",
+    "lang": "ja",
+    "uuid": "72ec3805-8c04-41da-82d2-638b8514a48b"
+  },
+  {
+    "disp": "冬の雨に濡れる",
+    "kana": "ふゆのあめにぬれる",
+    "q": "fuyunoameninureru",
+    "lang": "ja",
+    "uuid": "7484f406-c31c-4728-8787-6bdb518c797b"
+  },
+  {
+    "disp": "冬の朝は寒い",
+    "kana": "ふゆのあさはさむい",
+    "q": "fuyunoasahasamui",
+    "lang": "ja",
+    "uuid": "656fc080-f247-434b-b890-804b5ab7eb5b"
+  },
+  {
+    "disp": "冬の朝に走る",
+    "kana": "ふゆのあさにはしる",
+    "q": "fuyunoasanihasiru",
+    "lang": "ja",
+    "uuid": "c03f3114-ae38-48f6-90b3-1185d6ab1846"
+  },
+  {
+    "disp": "冬の森で眠る",
+    "kana": "ふゆのもりでねむる",
+    "q": "fuyunomoridenemuru",
+    "lang": "ja",
+    "uuid": "9c45f6d5-5e73-4c8b-bd30-5dbec3b39f2b"
+  },
+  {
+    "disp": "冬の森は白い",
+    "kana": "ふゆのもりはしろい",
+    "q": "fuyunomorihasiroi",
+    "lang": "ja",
+    "uuid": "0383f782-18df-41df-9922-fd866a2d609f"
+  },
+  {
+    "disp": "冬の森に忍ぶ",
+    "kana": "ふゆのもりにしのぶ",
+    "q": "fuyunomorinisinobu",
+    "lang": "ja",
+    "uuid": "0a93276f-88db-4ec0-b06c-ae1bcce0dc83"
+  },
+  {
+    "disp": "冬の鍋は温い",
+    "kana": "ふゆのなべはぬるい",
+    "q": "fuyunonabehanurui",
+    "lang": "ja",
+    "uuid": "e81141ea-f3a2-4e2f-aece-a0d09e11294e"
+  },
+  {
+    "disp": "冬の梨は冷える",
+    "kana": "ふゆのなしはひえる",
+    "q": "fuyunonasihahieru",
+    "lang": "ja",
+    "uuid": "76816569-539a-4cca-b8ed-46e6a703fae2"
+  },
+  {
+    "disp": "冬の路地で走る",
+    "kana": "ふゆのろじではしる",
+    "q": "fuyunorojidehasiru",
+    "lang": "ja",
+    "uuid": "81eb32b0-3865-4b78-be58-03972b707ad9"
+  },
+  {
+    "disp": "冬の路地は狭い",
+    "kana": "ふゆのろじはせまい",
+    "q": "fuyunorojihasemai",
+    "lang": "ja",
+    "uuid": "7fc09fa8-3724-47ed-bbae-1e8d8aac24dc"
+  },
+  {
+    "disp": "冬の路地に忍ぶ",
+    "kana": "ふゆのろじにしのぶ",
+    "q": "fuyunorojinisinobu",
+    "lang": "ja",
+    "uuid": "75a59eca-1191-4925-a089-4037075b6826"
+  },
+  {
+    "disp": "冬の空は青い",
+    "kana": "ふゆのそらはあおい",
+    "q": "fuyunosorahaaoi",
+    "lang": "ja",
+    "uuid": "4af7b141-8457-4a62-82dc-d1787ea421d8"
+  },
+  {
+    "disp": "冬の海で泳ぐ",
+    "kana": "ふゆのうみでおよぐ",
+    "q": "fuyunoumideoyogu",
+    "lang": "ja",
+    "uuid": "fb79e4ca-fd3f-4a44-bfcc-f5e93608abd2"
+  },
+  {
+    "disp": "冬の海へ戻る",
+    "kana": "ふゆのうみへもどる",
+    "q": "fuyunoumihemodoru",
+    "lang": "ja",
+    "uuid": "703d0bc7-f405-4393-8bf2-4ea008534c66"
+  },
+  {
+    "disp": "冬の海に沈む",
+    "kana": "ふゆのうみにしずむ",
+    "q": "fuyunouminisizumu",
+    "lang": "ja",
+    "uuid": "2021dba0-5319-4e59-af33-c08ce20be1e9"
+  },
+  {
+    "disp": "冬の山で走る",
+    "kana": "ふゆのやまではしる",
+    "q": "fuyunoyamadehasiru",
+    "lang": "ja",
+    "uuid": "dfa101a5-f40b-47f1-b299-bfffbe3fc2d0"
+  },
+  {
+    "disp": "冬の山に登る",
+    "kana": "ふゆのやまにのぼる",
+    "q": "fuyunoyamaninoboru",
+    "lang": "ja",
+    "uuid": "093ed739-c84d-40c3-8d4c-2f47f838ba4b"
+  },
+  {
+    "disp": "冬の夜は長い",
+    "kana": "ふゆのよるはながい",
+    "q": "fuyunoyoruhanagai",
+    "lang": "ja",
+    "uuid": "00412e13-9e34-4e3f-8c51-5e854731139c"
+  },
+  {
+    "disp": "冬の夜に走る",
+    "kana": "ふゆのよるにはしる",
+    "q": "fuyunoyorunihasiru",
+    "lang": "ja",
+    "uuid": "3f5c4040-2017-409c-b993-b6b4f7ba643b"
+  },
+  {
+    "disp": "冬の夜に眠る",
+    "kana": "ふゆのよるにねむる",
+    "q": "fuyunoyoruninemuru",
+    "lang": "ja",
+    "uuid": "c267147a-ab90-449e-8ab2-21dc3b9c2f20"
+  },
+  {
+    "disp": "午後の事務は多い",
+    "kana": "ごごのじむはおおい",
+    "q": "gogonojimuhaooi",
+    "lang": "ja",
+    "uuid": "bec3b9f0-493d-4cf8-af17-f34796dd52f2"
+  },
+  {
+    "disp": "午後の社で休む",
+    "kana": "ごごのしゃでやすむ",
+    "q": "gogonoshadeyasumu",
+    "lang": "ja",
+    "uuid": "f9ee92df-e8aa-456f-9ee7-a01391e6863e"
+  },
+  {
+    "disp": "午後の社へ戻る",
+    "kana": "ごごのしゃへもどる",
+    "q": "gogonoshahemodoru",
+    "lang": "ja",
+    "uuid": "4b6c0906-d8aa-421a-bd32-65e69f4326f8"
+  },
+  {
+    "disp": "午後の空は青い",
+    "kana": "ごごのそらはあおい",
+    "q": "gogonosorahaaoi",
+    "lang": "ja",
+    "uuid": "a1a8effe-370e-49a8-8672-6c8fdf01fa61"
+  },
+  {
+    "disp": "午後の空に沈む",
+    "kana": "ごごのそらにしずむ",
+    "q": "gogonosoranisizumu",
+    "lang": "ja",
+    "uuid": "11bc059f-7b09-4792-9df5-db6a05be8941"
+  },
+  {
+    "disp": "午後の海は青い",
+    "kana": "ごごのうみはあおい",
+    "q": "gogonoumihaaoi",
+    "lang": "ja",
+    "uuid": "bd9cbcf2-cae4-4aeb-b699-cb6a8448f676"
+  },
+  {
+    "disp": "春の森で泳ぐ",
+    "kana": "はるのもりでおよぐ",
+    "q": "harunomorideoyogu",
+    "lang": "ja",
+    "uuid": "010d99eb-ffc0-4a15-8d10-d97f24cea247"
+  },
+  {
+    "disp": "春の森へ戻る",
+    "kana": "はるのもりへもどる",
+    "q": "harunomorihemodoru",
+    "lang": "ja",
+    "uuid": "e5553a1d-1b5f-49d6-a683-cf39dd28741c"
+  },
+  {
+    "disp": "春の森に忍ぶ",
+    "kana": "はるのもりにしのぶ",
+    "q": "harunomorinisinobu",
+    "lang": "ja",
+    "uuid": "01ad9092-52f3-4f36-b9d8-e8a8d50f93ff"
+  },
+  {
+    "disp": "春の空に沈む",
+    "kana": "はるのそらにしずむ",
+    "q": "harunosoranisizumu",
+    "lang": "ja",
+    "uuid": "2131c923-f881-4f8e-94d7-49ea1162b458"
+  },
+  {
+    "disp": "春の海で走る",
+    "kana": "はるのうみではしる",
+    "q": "harunoumidehasiru",
+    "lang": "ja",
+    "uuid": "9cb82ae6-972d-4d72-8e7f-bda237c428ca"
+  },
+  {
+    "disp": "春の海で眠る",
+    "kana": "はるのうみでねむる",
+    "q": "harunoumidenemuru",
+    "lang": "ja",
+    "uuid": "f4e66ef6-d3ec-46c0-b860-0ffccd322210"
+  },
+  {
+    "disp": "春の海で泳ぐ",
+    "kana": "はるのうみでおよぐ",
+    "q": "harunoumideoyogu",
+    "lang": "ja",
+    "uuid": "ccde2b3a-7943-4373-9db2-4ff7e0f1f427"
+  },
+  {
+    "disp": "春の海は青い",
+    "kana": "はるのうみはあおい",
+    "q": "harunoumihaaoi",
+    "lang": "ja",
+    "uuid": "320df388-7fb4-4454-91ae-be242beb5a4c"
+  },
+  {
+    "disp": "春の海へ入る",
+    "kana": "はるのうみへはいる",
+    "q": "harunoumihehairu",
+    "lang": "ja",
+    "uuid": "21c82519-c15d-40da-b4e7-0c5264607cf4"
+  },
+  {
+    "disp": "春の海へ戻る",
+    "kana": "はるのうみへもどる",
+    "q": "harunoumihemodoru",
+    "lang": "ja",
+    "uuid": "4cadecd6-e73b-4b0c-bed6-59d7007ddfc0"
+  },
+  {
+    "disp": "春の海に沈む",
+    "kana": "はるのうみにしずむ",
+    "q": "harunouminisizumu",
+    "lang": "ja",
+    "uuid": "7905f886-5399-4bf4-a3af-25a99a4d884d"
+  },
+  {
+    "disp": "春の山で走る",
+    "kana": "はるのやまではしる",
+    "q": "harunoyamadehasiru",
+    "lang": "ja",
+    "uuid": "cd03f017-d9ce-4445-847d-77e0edf2c6af"
+  },
+  {
+    "disp": "春の山は青い",
+    "kana": "はるのやまはあおい",
+    "q": "harunoyamahaaoi",
+    "lang": "ja",
+    "uuid": "fc26d6de-dcdb-4f76-bb0d-d096bb0782c3"
+  },
+  {
+    "disp": "春の山に登る",
+    "kana": "はるのやまにのぼる",
+    "q": "harunoyamaninoboru",
+    "lang": "ja",
+    "uuid": "39621975-2bf4-4261-9784-d027ebc75c4b"
+  },
+  {
+    "disp": "広い部屋に忍ぶ",
+    "kana": "ひろいへやにしのぶ",
+    "q": "hiroiheyanisinobu",
+    "lang": "ja",
+    "uuid": "d7cf445d-e323-435a-bb16-3a525135d524"
+  },
+  {
+    "disp": "広い森に忍ぶ",
+    "kana": "ひろいもりにしのぶ",
+    "q": "hiroimorinisinobu",
+    "lang": "ja",
+    "uuid": "243a3b0c-e705-4f6e-a9d4-e4293eba5a3a"
+  },
+  {
+    "disp": "昼のパンは白い",
+    "kana": "ひるのぱんはしろい",
+    "q": "hirunopannhasiroi",
+    "lang": "ja",
+    "uuid": "f192e53a-d311-4093-aaeb-b434356a7958"
+  },
+  {
+    "disp": "昼の海は青い",
+    "kana": "ひるのうみはあおい",
+    "q": "hirunoumihaaoi",
+    "lang": "ja",
+    "uuid": "f5b896fb-0ff6-418a-9901-16edb36c5609"
+  },
+  {
+    "disp": "毎時の雨が降る",
+    "kana": "まいじのあめがふる",
+    "q": "maijinoamegafuru",
+    "lang": "ja",
+    "uuid": "4c33c0cb-9b97-4faf-aff7-3910f7fde427"
+  },
+  {
+    "disp": "丸いパンは重い",
+    "kana": "まるいぱんはおもい",
+    "q": "maruipannhaomoi",
+    "lang": "ja",
+    "uuid": "71e01cf7-6ec4-46d8-b81a-7a926c44b0eb"
+  },
+  {
+    "disp": "丸いパンは白い",
+    "kana": "まるいぱんはしろい",
+    "q": "maruipannhasiroi",
+    "lang": "ja",
+    "uuid": "30fd2201-2709-47fb-8fe4-64987c6e96ef"
+  },
+  {
+    "disp": "丸い皿は白い",
+    "kana": "まるいさらはしろい",
+    "q": "maruisarahasiroi",
+    "lang": "ja",
+    "uuid": "8c27d80a-3cb5-4f72-9c0b-427b75839782"
+  },
+  {
+    "disp": "老人は寂しい",
+    "kana": "ろうじんはさびしい",
+    "q": "roujinnhasabisii",
+    "lang": "ja",
+    "uuid": "79feeee2-ce69-4abf-a633-b9884e9e5551"
+  },
+  {
+    "disp": "狭い部屋で眠る",
+    "kana": "せまいへやでねむる",
+    "q": "semaiheyadenemuru",
+    "lang": "ja",
+    "uuid": "643a0650-4878-4a61-948b-eebc3c53c102"
+  },
+  {
+    "disp": "狭い路地で走る",
+    "kana": "せまいろじではしる",
+    "q": "semairojidehasiru",
+    "lang": "ja",
+    "uuid": "514d7df6-05e4-4654-890b-fef59561efdc"
+  },
+  {
+    "disp": "狭い路地に忍ぶ",
+    "kana": "せまいろじにしのぶ",
+    "q": "semairojinisinobu",
+    "lang": "ja",
+    "uuid": "ca347fbb-7032-44e9-8ecf-63c287a62332"
+  },
+  {
+    "disp": "狭い社で休む",
+    "kana": "せまいしゃでやすむ",
+    "q": "semaishadeyasumu",
+    "lang": "ja",
+    "uuid": "c2a015b4-1540-44f5-988d-35856efe5d32"
+  },
+  {
+    "disp": "先週へ戻る",
+    "kana": "せんしゅうへもどる",
+    "q": "sennshuuhemodoru",
+    "lang": "ja",
+    "uuid": "778b433f-1478-4685-88f8-6974eb8c0c1c"
+  },
+  {
+    "disp": "白い花に濡れる",
+    "kana": "しろいはなにぬれる",
+    "q": "siroihananinureru",
+    "lang": "ja",
+    "uuid": "2326fab9-18a5-48f7-98d1-4ae1b21f2b2f"
+  },
+  {
+    "disp": "白い椅子は丸い",
+    "kana": "しろいいすはまるい",
+    "q": "siroiisuhamarui",
+    "lang": "ja",
+    "uuid": "4433a27c-4768-4efb-9760-2c6802f3e6ac"
+  },
+  {
+    "disp": "白い森に忍ぶ",
+    "kana": "しろいもりにしのぶ",
+    "q": "siroimorinisinobu",
+    "lang": "ja",
+    "uuid": "71534c96-746a-48c5-b2b7-1b11c81bd57b"
+  },
+  {
+    "disp": "白い梨は丸い",
+    "kana": "しろいなしはまるい",
+    "q": "siroinasihamarui",
+    "lang": "ja",
+    "uuid": "1c9ce33e-ffb8-40e0-beb9-6247ee3352fd"
+  },
+  {
+    "disp": "白い茄子は細い",
+    "kana": "しろいなすはほそい",
+    "q": "siroinasuhahosoi",
+    "lang": "ja",
+    "uuid": "08c49f19-705a-48fd-b3ca-ab22db43ec63"
+  },
+  {
+    "disp": "白い布で混ぜる",
+    "kana": "しろいぬのでまぜる",
+    "q": "siroinunodemazeru",
+    "lang": "ja",
+    "uuid": "8685c6ff-fde6-4760-84ac-bcfaef4d7ff9"
+  },
+  {
+    "disp": "白い布は長い",
+    "kana": "しろいぬのはながい",
+    "q": "siroinunohanagai",
+    "lang": "ja",
+    "uuid": "656f10d7-1b23-49d9-955e-4925dd6aa869"
+  },
+  {
+    "disp": "白い布は薄い",
+    "kana": "しろいぬのはうすい",
+    "q": "siroinunohausui",
+    "lang": "ja",
+    "uuid": "eb7d6f33-b9b0-473d-8889-15a53e8b987c"
+  },
+  {
+    "disp": "白いお湯は温い",
+    "kana": "しろいおゆはぬるい",
+    "q": "siroioyuhanurui",
+    "lang": "ja",
+    "uuid": "ae752c8c-d8ce-4b2e-8598-0dd34f9b60d0"
+  },
+  {
+    "disp": "白いパンで混ぜる",
+    "kana": "しろいぱんでまぜる",
+    "q": "siroipanndemazeru",
+    "lang": "ja",
+    "uuid": "15f9ee88-95da-4265-bd22-66f2ead721d7"
+  },
+  {
+    "disp": "白い皿は丸い",
+    "kana": "しろいさらはまるい",
+    "q": "siroisarahamarui",
+    "lang": "ja",
+    "uuid": "0e9ce149-86f8-40d3-9beb-01a52d5e543c"
+  },
+  {
+    "disp": "白い砂は細い",
+    "kana": "しろいすなはほそい",
+    "q": "siroisunahahosoi",
+    "lang": "ja",
+    "uuid": "0aa38c21-f466-4f58-bb63-5ec41dbdf118"
+  },
+  {
+    "disp": "白い砂に沈む",
+    "kana": "しろいすなにしずむ",
+    "q": "siroisunanisizumu",
+    "lang": "ja",
+    "uuid": "95b2defd-29a6-4733-b830-7d8b417d3cdf"
+  },
+  {
+    "disp": "白い海は広い",
+    "kana": "しろいうみはひろい",
+    "q": "siroiumihahiroi",
+    "lang": "ja",
+    "uuid": "75eb0b71-1536-4922-baa3-1763fe42480d"
+  },
+  {
+    "disp": "白い海に沈む",
+    "kana": "しろいうみにしずむ",
+    "q": "siroiuminisizumu",
+    "lang": "ja",
+    "uuid": "d0df920e-7394-402f-b735-4a2f503d7a10"
+  },
+  {
+    "disp": "祖母の味噌煮はいい",
+    "kana": "そぼのみそにはいい",
+    "q": "sobonomisonihaii",
+    "lang": "ja",
+    "uuid": "89f14d0a-f1e1-4a9f-882f-caba8b391b38"
+  },
+  {
+    "disp": "祖父の梅煮はいい",
+    "kana": "そふのうめにはいい",
+    "q": "sofunoumenihaii",
+    "lang": "ja",
+    "uuid": "603c38ce-98f1-4792-9439-e2a1265cc7a4"
+  },
+  {
+    "disp": "薄い布は重い",
+    "kana": "うすいぬのはおもい",
+    "q": "usuinunohaomoi",
+    "lang": "ja",
+    "uuid": "2529884e-a11c-4f11-9c9f-0da5221124c7"
+  },
+  {
+    "disp": "夜の部屋で眠る",
+    "kana": "よるのへやでねむる",
+    "q": "yorunoheyadenemuru",
+    "lang": "ja",
+    "uuid": "69b71cd5-d289-4b5d-ba09-d00a79a65f59"
+  },
+  {
+    "disp": "夜の部屋は狭い",
+    "kana": "よるのへやはせまい",
+    "q": "yorunoheyahasemai",
+    "lang": "ja",
+    "uuid": "e81f9d07-5574-40f4-bb1f-01c6dd75ff33"
+  },
+  {
+    "disp": "夜の部屋に忍ぶ",
+    "kana": "よるのへやにしのぶ",
+    "q": "yorunoheyanisinobu",
+    "lang": "ja",
+    "uuid": "24d0955a-74b7-4d91-852c-3e9cfb2ca27a"
+  },
+  {
+    "disp": "夜の星は白い",
+    "kana": "よるのほしはしろい",
+    "q": "yorunohosihasiroi",
+    "lang": "ja",
+    "uuid": "5e542444-0d2b-4ca3-84f2-43f750374951"
+  },
+  {
+    "disp": "夜の水は冷える",
+    "kana": "よるのみずはひえる",
+    "q": "yorunomizuhahieru",
+    "lang": "ja",
+    "uuid": "5a2f7eb6-cfa5-46bd-9614-cebc9cbf1b63"
+  },
+  {
+    "disp": "夜の森で走る",
+    "kana": "よるのもりではしる",
+    "q": "yorunomoridehasiru",
+    "lang": "ja",
+    "uuid": "a9f93f2c-d48b-416c-9698-e852fea94883"
+  },
+  {
+    "disp": "夜の森で眠る",
+    "kana": "よるのもりでねむる",
+    "q": "yorunomoridenemuru",
+    "lang": "ja",
+    "uuid": "5351b730-71db-44d7-b01b-d48af7f9c14a"
+  },
+  {
+    "disp": "夜の森へ入る",
+    "kana": "よるのもりへはいる",
+    "q": "yorunomorihehairu",
+    "lang": "ja",
+    "uuid": "e21de036-424a-42b3-858b-5612ebeaacfc"
+  },
+  {
+    "disp": "夜の森へ戻る",
+    "kana": "よるのもりへもどる",
+    "q": "yorunomorihemodoru",
+    "lang": "ja",
+    "uuid": "3a666851-e0f2-4e8c-9c5a-d34d2a275f62"
+  },
+  {
+    "disp": "夜の路地で眠る",
+    "kana": "よるのろじでねむる",
+    "q": "yorunorojidenemuru",
+    "lang": "ja",
+    "uuid": "a8d1a9c9-989f-4039-bdf3-935b7bd12837"
+  },
+  {
+    "disp": "夜の路地で休む",
+    "kana": "よるのろじでやすむ",
+    "q": "yorunorojideyasumu",
+    "lang": "ja",
+    "uuid": "a92f4698-f167-4f58-9021-661c5d0f158b"
+  },
+  {
+    "disp": "夜の空へ戻る",
+    "kana": "よるのそらへもどる",
+    "q": "yorunosorahemodoru",
+    "lang": "ja",
+    "uuid": "e78ce040-1c88-4325-b488-12dad5824953"
+  },
+  {
+    "disp": "夜の空に沈む",
+    "kana": "よるのそらにしずむ",
+    "q": "yorunosoranisizumu",
+    "lang": "ja",
+    "uuid": "4eb19f84-e35c-4156-8169-b1d4d3f82fc5"
+  },
+  {
+    "disp": "夜の海で眠る",
+    "kana": "よるのうみでねむる",
+    "q": "yorunoumidenemuru",
+    "lang": "ja",
+    "uuid": "fe5083dd-a083-44cd-b3db-c767866927b1"
+  },
+  {
+    "disp": "夜の海は広い",
+    "kana": "よるのうみはひろい",
+    "q": "yorunoumihahiroi",
+    "lang": "ja",
+    "uuid": "00698594-5ee7-4d70-b3e8-426ea812d6c4"
+  },
+  {
+    "disp": "夜の海へ戻る",
+    "kana": "よるのうみへもどる",
+    "q": "yorunoumihemodoru",
+    "lang": "ja",
+    "uuid": "a7b7632f-fc22-480a-a36b-9eaea9c718dc"
+  },
+  {
+    "disp": "夜の海に忍ぶ",
+    "kana": "よるのうみにしのぶ",
+    "q": "yorunouminisinobu",
+    "lang": "ja",
+    "uuid": "16fa8472-f78b-4d64-9038-67a23a740b08"
+  },
+  {
+    "disp": "夜の海に沈む",
+    "kana": "よるのうみにしずむ",
+    "q": "yorunouminisizumu",
+    "lang": "ja",
+    "uuid": "1f3f5e08-1280-4adf-9fd7-19e22eb2e0fb"
+  },
+  {
+    "disp": "兄の指示に不安だ",
+    "kana": "あにのしじにふあんだ",
+    "q": "aninosijinifuannda",
+    "lang": "ja",
+    "uuid": "d414c85f-e6a6-410e-af3e-cba293751090"
+  },
+  {
+    "disp": "青い空は眩しい",
+    "kana": "あおいそらはまぶしい",
+    "q": "aoisorahamabusii",
+    "lang": "ja",
+    "uuid": "3a9ece29-aa51-4907-adb6-4e06719d2b73"
+  },
+  {
+    "disp": "青い空は涼しい",
+    "kana": "あおいそらはすずしい",
+    "q": "aoisorahasuzusii",
+    "lang": "ja",
+    "uuid": "aca79945-38f5-41ce-bb64-42c4fcbdf71f"
+  },
+  {
+    "disp": "青い海は眩しい",
+    "kana": "あおいうみはまぶしい",
+    "q": "aoiumihamabusii",
+    "lang": "ja",
+    "uuid": "4b3a8a5a-939d-431b-8888-164fe17fd1ba"
+  },
+  {
+    "disp": "青い海は涼しい",
+    "kana": "あおいうみはすずしい",
+    "q": "aoiumihasuzusii",
+    "lang": "ja",
+    "uuid": "893d129d-1dbc-489a-8255-49405e1c0bc3"
+  },
+  {
+    "disp": "朝の雨で寂しい",
+    "kana": "あさのあめでさびしい",
+    "q": "asanoamedesabisii",
+    "lang": "ja",
+    "uuid": "48a9e1fb-d3f1-4d1b-86bc-4ad63fa5d601"
+  },
+  {
+    "disp": "朝の森は涼しい",
+    "kana": "あさのもりはすずしい",
+    "q": "asanomorihasuzusii",
+    "lang": "ja",
+    "uuid": "babf81b1-46f0-425f-8ce2-ec9376e2cc7b"
+  },
+  {
+    "disp": "朝の虹は眩しい",
+    "kana": "あさのにじはまぶしい",
+    "q": "asanonijihamabusii",
+    "lang": "ja",
+    "uuid": "dea248a8-ea3c-446b-ab21-589c08e5e839"
+  },
+  {
+    "disp": "冬の事務は寂しい",
+    "kana": "ふゆのじむはさびしい",
+    "q": "fuyunojimuhasabisii",
+    "lang": "ja",
+    "uuid": "a51ef1a0-869a-45d1-b708-5fea191962d3"
+  },
+  {
+    "disp": "冬の梅酒はいい",
+    "kana": "ふゆのうめしゅはいい",
+    "q": "fuyunoumeshuhaii",
+    "lang": "ja",
+    "uuid": "9139a83a-bb23-4e27-b775-6c60691a39ea"
+  },
+  {
+    "disp": "冬の山路は狭い",
+    "kana": "ふゆのやまじはせまい",
+    "q": "fuyunoyamajihasemai",
+    "lang": "ja",
+    "uuid": "adfaa844-c6da-4627-91d3-6e8766e61ee9"
+  },
+  {
+    "disp": "冬の夜は寂しい",
+    "kana": "ふゆのよるはさびしい",
+    "q": "fuyunoyoruhasabisii",
+    "lang": "ja",
+    "uuid": "bc643f22-0871-4559-bd73-e4e1e8b87a21"
+  },
+  {
+    "disp": "午後の空は眩しい",
+    "kana": "ごごのそらはまぶしい",
+    "q": "gogonosorahamabusii",
+    "lang": "ja",
+    "uuid": "6fc723fc-c69e-4a36-b425-20f0c6ff51c7"
+  },
+  {
+    "disp": "午前の雨は冷える",
+    "kana": "ごぜんのあめはひえる",
+    "q": "gozennnoamehahieru",
+    "lang": "ja",
+    "uuid": "3745c115-b370-4c5e-b9f2-80b31b6f3ebe"
+  },
+  {
+    "disp": "午前の事務に急ぐ",
+    "kana": "ごぜんのじむにいそぐ",
+    "q": "gozennnojimuniisogu",
+    "lang": "ja",
+    "uuid": "f435fe1b-3eb2-4fde-b432-bce05dc966d3"
+  },
+  {
+    "disp": "午前の社で休む",
+    "kana": "ごぜんのしゃでやすむ",
+    "q": "gozennnoshadeyasumu",
+    "lang": "ja",
+    "uuid": "f154a3de-6adc-4807-a60d-8fa548b62179"
+  },
+  {
+    "disp": "母の梅干しはいい",
+    "kana": "ははのうめぼしはいい",
+    "q": "hahanoumebosihaii",
+    "lang": "ja",
+    "uuid": "73f6614e-1b42-43d1-9c60-b9fe130e69af"
+  },
+  {
+    "disp": "春の林は青い",
+    "kana": "はるのはやしはあおい",
+    "q": "harunohayasihaaoi",
+    "lang": "ja",
+    "uuid": "d1b8fdc3-1498-4c50-b37f-f052fb235f6f"
+  },
+  {
+    "disp": "春の空は眩しい",
+    "kana": "はるのそらはまぶしい",
+    "q": "harunosorahamabusii",
+    "lang": "ja",
+    "uuid": "4e94f68e-2b7e-4459-af03-4a698ddce776"
+  },
+  {
+    "disp": "広い広場で休む",
+    "kana": "ひろいひろばでやすむ",
+    "q": "hiroihirobadeyasumu",
+    "lang": "ja",
+    "uuid": "60181883-ab97-4319-9b0b-357d6d149f89"
+  },
+  {
+    "disp": "広い空は眩しい",
+    "kana": "ひろいそらはまぶしい",
+    "q": "hiroisorahamabusii",
+    "lang": "ja",
+    "uuid": "24139ef8-e937-4dba-a734-6dd8280def48"
+  },
+  {
+    "disp": "広い海は涼しい",
+    "kana": "ひろいうみはすずしい",
+    "q": "hiroiumihasuzusii",
+    "lang": "ja",
+    "uuid": "d4b567b9-9257-46a4-9e59-645b5837e5f3"
+  },
+  {
+    "disp": "昼のスープは温い",
+    "kana": "ひるのすーぷはぬるい",
+    "q": "hirunosu-puhanurui",
+    "lang": "ja",
+    "uuid": "5b8e2b4a-9fee-470e-a23d-944353607c47"
+  },
+  {
+    "disp": "事務の準備はいい",
+    "kana": "じむのじゅんびはいい",
+    "q": "jimunojunnbihaii",
+    "lang": "ja",
+    "uuid": "5b85c78c-0e51-4fa4-b1d7-a74c04dc4435"
+  },
+  {
+    "disp": "事務の指示に不安だ",
+    "kana": "じむのしじにふあんだ",
+    "q": "jimunosijinifuannda",
+    "lang": "ja",
+    "uuid": "c60d75d4-fc04-444b-b516-a3451f15de4c"
+  },
+  {
+    "disp": "毎時の指示は多い",
+    "kana": "まいじのしじはおおい",
+    "q": "maijinosijihaooi",
+    "lang": "ja",
+    "uuid": "17e049a3-ef12-4ac8-8318-ffe7af8de93f"
+  },
+  {
+    "disp": "味噌味の梨はいい",
+    "kana": "みそあじのなしはいい",
+    "q": "misoajinonasihaii",
+    "lang": "ja",
+    "uuid": "9215004d-44ab-4565-8bd6-55112c7be448"
+  },
+  {
+    "disp": "立派なビルは多い",
+    "kana": "りっぱなびるはおおい",
+    "q": "rippanabiruhaooi",
+    "lang": "ja",
+    "uuid": "2195aca6-c655-49ac-add1-ed55e601fc15"
+  },
+  {
+    "disp": "立派な門は広い",
+    "kana": "りっぱなもんはひろい",
+    "q": "rippanamonnhahiroi",
+    "lang": "ja",
+    "uuid": "cc072c33-a207-4861-9e27-318e4b091f39"
+  },
+  {
+    "disp": "先輩の部屋で練る",
+    "kana": "せんぱいのへやでねる",
+    "q": "sennpainoheyadeneru",
+    "lang": "ja",
+    "uuid": "20ba1631-d7ec-4427-8ddb-867245f9a913"
+  },
+  {
+    "disp": "白い帽子は丸い",
+    "kana": "しろいぼうしはまるい",
+    "q": "siroibousihamarui",
+    "lang": "ja",
+    "uuid": "1c230311-bfad-4034-9e54-bd074eae7326"
+  },
+  {
+    "disp": "白い花は眩しい",
+    "kana": "しろいはなはまぶしい",
+    "q": "siroihanahamabusii",
+    "lang": "ja",
+    "uuid": "8f913cb1-fc53-4a19-a60f-397944f610ee"
+  },
+  {
+    "disp": "白い砂は眩しい",
+    "kana": "しろいすなはまぶしい",
+    "q": "siroisunahamabusii",
+    "lang": "ja",
+    "uuid": "1fcafd9a-ae23-403a-86b9-8d37b70d5022"
+  },
+  {
+    "disp": "夜の林に忍ぶ",
+    "kana": "よるのはやしにしのぶ",
+    "q": "yorunohayasinisinobu",
+    "lang": "ja",
+    "uuid": "a54a0034-ceeb-4470-8616-7c6cd658ba65"
+  },
+  {
+    "disp": "夜の星が眩しい",
+    "kana": "よるのほしがまぶしい",
+    "q": "yorunohosigamabusii",
+    "lang": "ja",
+    "uuid": "e3546480-1aeb-4143-b53c-6ecf056be158"
+  },
+  {
+    "disp": "夜の星は眩しい",
+    "kana": "よるのほしはまぶしい",
+    "q": "yorunohosihamabusii",
+    "lang": "ja",
+    "uuid": "9e24a463-2ffb-4f14-980e-1a038b11ad39"
+  },
+  {
+    "disp": "夜の森は寂しい",
+    "kana": "よるのもりはさびしい",
+    "q": "yorunomorihasabisii",
+    "lang": "ja",
+    "uuid": "49c1a02f-f563-4373-8130-99a442b7da36"
+  },
+  {
+    "disp": "夜のスープは温い",
+    "kana": "よるのすーぷはぬるい",
+    "q": "yorunosu-puhanurui",
+    "lang": "ja",
+    "uuid": "be080c59-6200-4307-9f94-534ec5b47ed0"
+  },
+  {
+    "disp": "兄の友人は多い",
+    "kana": "あにのゆうじんはおおい",
+    "q": "aninoyuujinnhaooi",
+    "lang": "ja",
+    "uuid": "f35f67e6-968e-4e39-a1d8-0007870448d4"
+  },
+  {
+    "disp": "朝の広い部屋で練る",
+    "kana": "あさのひろいへやでねる",
+    "q": "asanohiroiheyadeneru",
+    "lang": "ja",
+    "uuid": "34b5f18d-48b8-4637-817b-ed048ef9d684"
+  },
+  {
+    "disp": "午後の林は涼しい",
+    "kana": "ごごのはやしはすずしい",
+    "q": "gogonohayasihasuzusii",
+    "lang": "ja",
+    "uuid": "7ed393c9-eae7-4857-b093-8f3df9451c99"
+  },
+  {
+    "disp": "午後の準備に急ぐ",
+    "kana": "ごごのじゅんびにいそぐ",
+    "q": "gogonojunnbiniisogu",
+    "lang": "ja",
+    "uuid": "ee574df3-63a0-4929-b847-f9166593904b"
+  },
+  {
+    "disp": "午前の指示に不安だ",
+    "kana": "ごぜんのしじにふあんだ",
+    "q": "gozennnosijinifuannda",
+    "lang": "ja",
+    "uuid": "32fd5fcc-cec6-447c-aa36-429b6c919ed0"
+  },
+  {
+    "disp": "母の味噌煮はおいしい",
+    "kana": "ははのみそにはおいしい",
+    "q": "hahanomisonihaoisii",
+    "lang": "ja",
+    "uuid": "671b5b9c-6534-423f-9148-2767d66bbace"
+  },
+  {
+    "disp": "昼の梅酒は冷える",
+    "kana": "ひるのうめしゅはひえる",
+    "q": "hirunoumeshuhahieru",
+    "lang": "ja",
+    "uuid": "ea8f1254-0fa2-4e23-8528-d0cc858b2267"
+  },
+  {
+    "disp": "上司の部屋で眠る",
+    "kana": "じょうしのへやでねむる",
+    "q": "jousinoheyadenemuru",
+    "lang": "ja",
+    "uuid": "56619687-013a-4cb2-9871-faf474efd0d5"
+  },
+  {
+    "disp": "上司の部屋は狭い",
+    "kana": "じょうしのへやはせまい",
+    "q": "jousinoheyahasemai",
+    "lang": "ja",
+    "uuid": "f7ae06bf-c614-4345-a4be-a36a3ea237ff"
+  },
+  {
+    "disp": "上司のペンは細い",
+    "kana": "じょうしのぺんはほそい",
+    "q": "jousinopennhahosoi",
+    "lang": "ja",
+    "uuid": "b16e59ad-2707-46aa-8407-b7e667b2d89a"
+  },
+  {
+    "disp": "毎朝のパンは白い",
+    "kana": "まいあさのぱんはしろい",
+    "q": "maiasanopannhasiroi",
+    "lang": "ja",
+    "uuid": "93f44396-d90a-4124-baac-8f054484ea42"
+  },
+  {
+    "disp": "味噌味の鍋は重い",
+    "kana": "みそあじのなべはおもい",
+    "q": "misoajinonabehaomoi",
+    "lang": "ja",
+    "uuid": "f846ea3a-6f8d-418c-9f8d-7abfdbee0c9a"
+  },
+  {
+    "disp": "お湯盛りの水は温い",
+    "kana": "おゆもりのみずはぬるい",
+    "q": "oyumorinomizuhanurui",
+    "lang": "ja",
+    "uuid": "c8d2ebc0-479e-40b0-89ca-d545b762776f"
+  },
+  {
+    "disp": "お湯飲みの水は冷える",
+    "kana": "おゆのみのみずはひえる",
+    "q": "oyunominomizuhahieru",
+    "lang": "ja",
+    "uuid": "4f7acba2-fdc3-4b2d-87a6-ad2028c43c75"
+  },
+  {
+    "disp": "お湯の量に不安だ",
+    "kana": "おゆのりょうにふあんだ",
+    "q": "oyunoryounifuannda",
+    "lang": "ja",
+    "uuid": "23e7ffa9-cf6a-4f44-86f2-c47c0878b6e7"
+  },
+  {
+    "disp": "先輩のペンは重い",
+    "kana": "せんぱいのぺんはおもい",
+    "q": "sennpainopennhaomoi",
+    "lang": "ja",
+    "uuid": "8d4ad4cc-94e2-4aef-b808-f95a2aecf1bc"
+  },
+  {
+    "disp": "先輩の指示は白い",
+    "kana": "せんぱいのしじはしろい",
+    "q": "sennpainosijihasiroi",
+    "lang": "ja",
+    "uuid": "5ecbcea0-7736-427d-b622-863496fade2d"
+  },
+  {
+    "disp": "先生の筆は細い",
+    "kana": "せんせいのふではほそい",
+    "q": "sennseinofudehahosoi",
+    "lang": "ja",
+    "uuid": "8a92e3a0-78a9-46c9-af50-84ab11b8c75e"
+  },
+  {
+    "disp": "塩揉みの茄子は白い",
+    "kana": "しおもみのなすはしろい",
+    "q": "siomominonasuhasiroi",
+    "lang": "ja",
+    "uuid": "098d7443-9f4e-41af-b970-a26dd3dcb3d1"
+  },
+  {
+    "disp": "白い味噌汁は温い",
+    "kana": "しろいみそしるはぬるい",
+    "q": "siroimisosiruhanurui",
+    "lang": "ja",
+    "uuid": "333c26de-0d77-4cd6-a4c6-e2fa0d12615d"
+  },
+  {
+    "disp": "空に白い花が舞う",
+    "kana": "そらにしろいはながまう",
+    "q": "soranisiroihanagamau",
+    "lang": "ja",
+    "uuid": "ff9606c1-a28d-466a-80a8-39d3a9c3f08f"
+  },
+  {
+    "disp": "梅味のスープはいい",
+    "kana": "うめあじのすーぷはいい",
+    "q": "umeajinosu-puhaii",
+    "lang": "ja",
+    "uuid": "bf7d4906-cc4d-49c3-aa2a-960f5a0a20a3"
+  },
+  {
+    "disp": "夜の狭い部屋で練る",
+    "kana": "よるのせまいへやでねる",
+    "q": "yorunosemaiheyadeneru",
+    "lang": "ja",
+    "uuid": "feb048fe-0886-45ab-85b5-8118e9d07c7f"
+  },
+  {
+    "disp": "夜の梅酒は冷える",
+    "kana": "よるのうめしゅはひえる",
+    "q": "yorunoumeshuhahieru",
+    "lang": "ja",
+    "uuid": "daa4ee8f-972d-49ee-b124-e51db6dbc7a3"
+  },
+  {
+    "disp": "同僚の椅子は重い",
+    "kana": "どうりょうのいすはおもい",
+    "q": "douryounoisuhaomoi",
+    "lang": "ja",
+    "uuid": "a130ab8c-f0eb-4bf9-965c-1f1b693d2f05"
+  },
+  {
+    "disp": "同僚の椅子は白い",
+    "kana": "どうりょうのいすはしろい",
+    "q": "douryounoisuhasiroi",
+    "lang": "ja",
+    "uuid": "09974212-0275-4f11-b406-27d84d820463"
+  },
+  {
+    "disp": "同僚のペンは青い",
+    "kana": "どうりょうのぺんはあおい",
+    "q": "douryounopennhaaoi",
+    "lang": "ja",
+    "uuid": "c8cde328-d0b7-4e6d-9ec4-332bad23e2b8"
+  },
+  {
+    "disp": "同僚の指示で急ぐ",
+    "kana": "どうりょうのしじでいそぐ",
+    "q": "douryounosijideisogu",
+    "lang": "ja",
+    "uuid": "68498738-61e0-4ecb-8a0b-f285a6d15d39"
+  },
+  {
+    "disp": "冬の朝の雨は寒い",
+    "kana": "ふゆのあさのあめはさむい",
+    "q": "fuyunoasanoamehasamui",
+    "lang": "ja",
+    "uuid": "794355a4-78b1-4978-b4cb-d29ea02d3a95"
+  },
+  {
+    "disp": "冬の夜の星は白い",
+    "kana": "ふゆのよるのほしはしろい",
+    "q": "fuyunoyorunohosihasiroi",
+    "lang": "ja",
+    "uuid": "d5b05581-6997-4c3e-a47a-db270e3889a5"
+  },
+  {
+    "disp": "午前の準備は多い",
+    "kana": "ごぜんのじゅんびはおおい",
+    "q": "gozennnojunnbihaooi",
+    "lang": "ja",
+    "uuid": "951be7c5-128c-4842-8cab-c67bac277c7c"
+  },
+  {
+    "disp": "午前の準備に急ぐ",
+    "kana": "ごぜんのじゅんびにいそぐ",
+    "q": "gozennnojunnbiniisogu",
+    "lang": "ja",
+    "uuid": "fbe9396e-a832-4d97-b4bd-3e1078fa2a25"
+  },
+  {
+    "disp": "上司の帽子は丸い",
+    "kana": "じょうしのぼうしはまるい",
+    "q": "jousinobousihamarui",
+    "lang": "ja",
+    "uuid": "3b7bacc5-a5d2-4cd1-a970-87a6581c2831"
+  },
+  {
+    "disp": "上司の指示に不安だ",
+    "kana": "じょうしのしじにふあんだ",
+    "q": "jousinosijinifuannda",
+    "lang": "ja",
+    "uuid": "4ba89444-3643-4751-891c-faf4f6dfc19e"
+  },
+  {
+    "disp": "毎晩のスープは温い",
+    "kana": "まいばんのすーぷはぬるい",
+    "q": "maibannnosu-puhanurui",
+    "lang": "ja",
+    "uuid": "d03f2c5b-18c8-4030-aba3-99cc46e42f6d"
+  },
+  {
+    "disp": "毎晩のスープは薄い",
+    "kana": "まいばんのすーぷはうすい",
+    "q": "maibannnosu-puhausui",
+    "lang": "ja",
+    "uuid": "ec1b0824-971a-41b0-9756-7a1d44f693e7"
+  },
+  {
+    "disp": "味噌煮の準備に急ぐ",
+    "kana": "みそにのじゅんびにいそぐ",
+    "q": "misoninojunnbiniisogu",
+    "lang": "ja",
+    "uuid": "7f44b807-e280-4463-b13b-7d232f479269"
+  },
+  {
+    "disp": "先輩の指示に不安だ",
+    "kana": "せんぱいのしじにふあんだ",
+    "q": "sennpainosijinifuannda",
+    "lang": "ja",
+    "uuid": "a6be6aeb-c0dd-48ed-b0db-4f244cded865"
+  },
+  {
+    "disp": "先生の指示に不安だ",
+    "kana": "せんせいのしじにふあんだ",
+    "q": "sennseinosijinifuannda",
+    "lang": "ja",
+    "uuid": "395b017a-2fc2-4b34-b75e-be923c99673a"
+  },
+  {
+    "disp": "先週の雨は寒い",
+    "kana": "せんしゅうのあめはさむい",
+    "q": "sennshuunoamehasamui",
+    "lang": "ja",
+    "uuid": "a24276e0-f983-4f6b-8336-072d4f5c0633"
+  },
+  {
+    "disp": "先週の海は青い",
+    "kana": "せんしゅうのうみはあおい",
+    "q": "sennshuunoumihaaoi",
+    "lang": "ja",
+    "uuid": "df34fd4a-ae1d-4bcb-88e7-c0b789673738"
+  },
+  {
+    "disp": "塩味の練り物はいい",
+    "kana": "しおあじのねりものはいい",
+    "q": "sioajinonerimonohaii",
+    "lang": "ja",
+    "uuid": "9b48d18e-680d-4b58-a3ee-3fe1ac09c504"
+  },
+  {
+    "disp": "塩味のスープは薄い",
+    "kana": "しおあじのすーぷはうすい",
+    "q": "sioajinosu-puhausui",
+    "lang": "ja",
+    "uuid": "ddbeb3f2-e72f-4155-a338-d4833a659037"
+  },
+  {
+    "disp": "白いお惣菜は重い",
+    "kana": "しろいおそうざいはおもい",
+    "q": "siroiosouzaihaomoi",
+    "lang": "ja",
+    "uuid": "e436b8a2-f693-4063-a1ae-018e942a0bb2"
+  },
+  {
+    "disp": "白いお惣菜は多い",
+    "kana": "しろいおそうざいはおおい",
+    "q": "siroiosouzaihaooi",
+    "lang": "ja",
+    "uuid": "3e369ac1-5a2c-4f4d-8540-564a6ff961f5"
+  },
+  {
+    "disp": "白いパンは十分だ",
+    "kana": "しろいぱんはじゅうぶんだ",
+    "q": "siroipannhajuubunnda",
+    "lang": "ja",
+    "uuid": "164c9d72-33a2-4c74-a9dc-2e8ef8e73095"
+  },
+  {
+    "disp": "梅煮の量に不安だ",
+    "kana": "うめにのりょうにふあんだ",
+    "q": "umeninoryounifuannda",
+    "lang": "ja",
+    "uuid": "4078de77-ea8d-41df-b84e-28260e86d4e3"
+  },
+  {
+    "disp": "同僚の帽子は青い",
+    "kana": "どうりょうのぼうしはあおい",
+    "q": "douryounobousihaaoi",
+    "lang": "ja",
+    "uuid": "10328ca9-8b32-4bac-8030-dfaeadd8a8b4"
+  },
+  {
+    "disp": "同僚の指示に不安だ",
+    "kana": "どうりょうのしじにふあんだ",
+    "q": "douryounosijinifuannda",
+    "lang": "ja",
+    "uuid": "ec46d0cd-c794-4934-bc22-8a3197da756e"
+  },
+  {
+    "disp": "毎晩の準備に急ぐ",
+    "kana": "まいばんのじゅんびにいそぐ",
+    "q": "maibannnojunnbiniisogu",
+    "lang": "ja",
+    "uuid": "51119bdc-fa96-4449-b5f5-58cdfc1b07b6"
+  },
+  {
+    "disp": "味噌汁の量に不安だ",
+    "kana": "みそしるのりょうにふあんだ",
+    "q": "misosirunoryounifuannda",
+    "lang": "ja",
+    "uuid": "036208cb-67a3-4bf1-b081-824a01003f83"
+  },
+  {
+    "disp": "お煮物の準備に急ぐ",
+    "kana": "おにもののじゅんびにいそぐ",
+    "q": "onimononojunnbiniisogu",
+    "lang": "ja",
+    "uuid": "4b3b1093-9428-47ef-b8eb-996f186f6605"
+  },
+  {
+    "disp": "お煮物の量に不安だ",
+    "kana": "おにもののりょうにふあんだ",
+    "q": "onimononoryounifuannda",
+    "lang": "ja",
+    "uuid": "73686d29-1908-4385-bc0e-80c78a7cde0d"
+  },
+  {
+    "disp": "お惣菜の量は多い",
+    "kana": "おそうざいのりょうはおおい",
+    "q": "osouzainoryouhaooi",
+    "lang": "ja",
+    "uuid": "0f271d1f-8405-4e81-9857-f524efa098bc"
+  },
+  {
+    "disp": "お湯盛りの準備に急ぐ",
+    "kana": "おゆもりのじゅんびにいそぐ",
+    "q": "oyumorinojunnbiniisogu",
+    "lang": "ja",
+    "uuid": "848ebde6-abb9-4c0e-be21-4b39ef0bfc54"
+  },
+  {
+    "disp": "お湯盛りの量に不安だ",
+    "kana": "おゆもりのりょうにふあんだ",
+    "q": "oyumorinoryounifuannda",
+    "lang": "ja",
+    "uuid": "c7d485cd-5280-4f82-9e96-c99f8851a1dc"
+  },
+  {
+    "disp": "お湯飲みの準備に急ぐ",
+    "kana": "おゆのみのじゅんびにいそぐ",
+    "q": "oyunominojunnbiniisogu",
+    "lang": "ja",
+    "uuid": "6cf9c739-f621-470d-82a3-05ae5ac9e884"
+  },
+  {
+    "disp": "お湯飲みの量に不安だ",
+    "kana": "おゆのみのりょうにふあんだ",
+    "q": "oyunominoryounifuannda",
+    "lang": "ja",
+    "uuid": "d79f4c7e-d1c6-4095-ba18-8e79c174892e"
+  },
+  {
+    "disp": "お湯の量は十分だ",
+    "kana": "おゆのりょうはじゅうぶんだ",
+    "q": "oyunoryouhajuubunnda",
+    "lang": "ja",
+    "uuid": "37efd4c8-c43d-4914-b046-6fff7c2b1cbb"
+  },
+  {
+    "disp": "塩揉みの準備に急ぐ",
+    "kana": "しおもみのじゅんびにいそぐ",
+    "q": "siomominojunnbiniisogu",
+    "lang": "ja",
+    "uuid": "415e69a7-96df-4c55-a708-663fd877a18a"
+  },
+  {
+    "disp": "夜の事務は不十分だ",
+    "kana": "よるのじむはふじゅうぶんだ",
+    "q": "yorunojimuhafujuubunnda",
+    "lang": "ja",
+    "uuid": "a164456c-68f4-421b-a947-b81fea4ab49e"
+  },
+  {
+    "disp": "朝の広い林は涼しい",
+    "kana": "あさのひろいはやしはすずしい",
+    "q": "asanohiroihayasihasuzusii",
+    "lang": "ja",
+    "uuid": "f4a39b8b-3835-4f78-9cce-e633da3f0a26"
+  },
+  {
+    "disp": "水飴煮の量に不安だ",
+    "kana": "みずあめにのりょうにふあんだ",
+    "q": "mizuameninoryounifuannda",
+    "lang": "ja",
+    "uuid": "3bca958c-e6a9-46e0-8fa7-b0f1574f8bdc"
+  },
+  {
+    "disp": "水煮の量は十分だ",
+    "kana": "みずにのりょうはじゅうぶんだ",
+    "q": "mizuninoryouhajuubunnda",
+    "lang": "ja",
+    "uuid": "a6a10262-a75e-4045-bd37-51d7e2a2fc75"
+  },
+  {
+    "disp": "お惣菜の準備に急ぐ",
+    "kana": "おそうざいのじゅんびにいそぐ",
+    "q": "osouzainojunnbiniisogu",
+    "lang": "ja",
+    "uuid": "7a39da53-a926-4c16-8fa8-80e27fbede24"
+  },
+  {
+    "disp": "お惣菜の量に不安だ",
+    "kana": "おそうざいのりょうにふあんだ",
+    "q": "osouzainoryounifuannda",
+    "lang": "ja",
+    "uuid": "bd5817b1-16fa-45c4-b500-a975fbb0e289"
+  },
+  {
+    "disp": "お湯の量は不十分だ",
+    "kana": "おゆのりょうはふじゅうぶんだ",
+    "q": "oyunoryouhafujuubunnda",
+    "lang": "ja",
+    "uuid": "d655abec-9a70-4d8b-b148-a4a594bd5707"
+  },
+  {
+    "disp": "来週の準備に急ぐ",
+    "kana": "らいしゅうのじゅんびにいそぐ",
+    "q": "raishuunojunnbiniisogu",
+    "lang": "ja",
+    "uuid": "6083e80e-202a-4c40-acf9-e9d5474ada0e"
+  },
+  {
+    "disp": "先生の指示は十分だ",
+    "kana": "せんせいのしじはじゅうぶんだ",
+    "q": "sennseinosijihajuubunnda",
+    "lang": "ja",
+    "uuid": "52c718e2-c7f3-4684-a894-410939fa8426"
+  },
+  {
+    "disp": "同僚の準備に不安だ",
+    "kana": "どうりょうのじゅんびにふあんだ",
+    "q": "douryounojunnbinifuannda",
+    "lang": "ja",
+    "uuid": "3be85b4a-d2df-4768-becb-bcd4cf0bb739"
+  },
+  {
+    "disp": "午前の準備は十分だ",
+    "kana": "ごぜんのじゅんびはじゅうぶんだ",
+    "q": "gozennnojunnbihajuubunnda",
+    "lang": "ja",
+    "uuid": "fd08b49b-6ac5-4717-b504-7fdad2b68e86"
+  },
+  {
+    "disp": "上司の指示は不十分だ",
+    "kana": "じょうしのしじはふじゅうぶんだ",
+    "q": "jousinosijihafujuubunnda",
+    "lang": "ja",
+    "uuid": "dff56d6b-94cf-43a3-a493-d28e88ebaf1c"
+  },
+  {
+    "disp": "お煮物の準備は十分だ",
+    "kana": "おにもののじゅんびはじゅうぶんだ",
+    "q": "onimononojunnbihajuubunnda",
+    "lang": "ja",
+    "uuid": "c55cd31b-40c3-467c-8901-5493dfb96377"
+  },
+  {
+    "disp": "来年の準備は十分だ",
+    "kana": "らいねんのじゅんびはじゅうぶんだ",
+    "q": "rainennnojunnbihajuubunnda",
+    "lang": "ja",
+    "uuid": "b219b899-6004-4176-a6e1-0c7f4fa146dd"
+  },
+  {
+    "disp": "倍",
+    "kana": "ばい",
+    "q": "bai",
+    "lang": "ja",
+    "uuid": "ed22e678-f6f9-44e2-9ee6-a6855451df7f"
+  },
+  {
+    "disp": "大",
+    "kana": "だい",
+    "q": "dai",
+    "lang": "ja",
+    "uuid": "ad596efd-8579-4141-aa65-9e6991b2930b"
+  },
+  {
+    "disp": "ドア",
+    "kana": "どあ",
+    "q": "doa",
+    "lang": "ja",
+    "uuid": "f4aa9570-b779-4f2d-a75f-31503521b5d8"
+  },
+  {
+    "disp": "原",
+    "kana": "はら",
+    "q": "hara",
+    "lang": "ja",
+    "uuid": "470df276-024c-4df4-ab10-a129ec00fadd"
+  },
+  {
+    "disp": "本",
+    "kana": "ほん",
+    "q": "honn",
+    "lang": "ja",
+    "uuid": "1d6bdeb2-4074-416e-a3ca-2c58c722c21f"
+  },
+  {
+    "disp": "御飯",
+    "kana": "ごはん",
+    "q": "gohann",
+    "lang": "ja",
+    "uuid": "793fa354-6a22-4e30-89d7-e4e21c474b53"
+  },
+  {
+    "disp": "晴れる",
+    "kana": "はれる",
+    "q": "hareru",
+    "lang": "ja",
+    "uuid": "2d948bef-ecba-4865-a39b-b9b492091b7f"
+  },
+  {
+    "disp": "早い",
+    "kana": "はやい",
+    "q": "hayai",
+    "lang": "ja",
+    "uuid": "22b80a08-117b-421b-9509-2d437d513af2"
+  },
+  {
+    "disp": "拾う",
+    "kana": "ひろう",
+    "q": "hirou",
+    "lang": "ja",
+    "uuid": "25b3536f-444f-4b42-a92b-9144a74cbb77"
+  },
+  {
+    "disp": "泉",
+    "kana": "いずみ",
+    "q": "izumi",
+    "lang": "ja",
+    "uuid": "69d9e152-5d98-426c-8966-b22e3f35d126"
+  },
+  {
+    "disp": "毛布",
+    "kana": "もうふ",
+    "q": "moufu",
+    "lang": "ja",
+    "uuid": "d33db3bb-8969-451d-afc5-42e91720918a"
+  },
+  {
+    "disp": "眠い",
+    "kana": "ねむい",
+    "q": "nemui",
+    "lang": "ja",
+    "uuid": "2dcd691d-5f59-4dce-b59b-caa22c1cb706"
+  },
+  {
+    "disp": "遅い",
+    "kana": "おそい",
+    "q": "osoi",
+    "lang": "ja",
+    "uuid": "e214dfa9-6918-4645-97df-9cef24160607"
+  },
+  {
+    "disp": "お湯に",
+    "kana": "おゆに",
+    "q": "oyuni",
+    "lang": "ja",
+    "uuid": "b210eb77-bef5-4952-86ba-e836cbc25bc0"
+  },
+  {
+    "disp": "小",
+    "kana": "しょう",
+    "q": "shou",
+    "lang": "ja",
+    "uuid": "2b379945-7b7b-4099-bd5f-cf87082a8128"
+  },
+  {
+    "disp": "閉める",
+    "kana": "しめる",
+    "q": "simeru",
+    "lang": "ja",
+    "uuid": "c6e260a7-54de-4330-ab7c-a0a0e875f293"
+  },
+  {
+    "disp": "選んだ",
+    "kana": "えらんだ",
+    "q": "erannda",
+    "lang": "ja",
+    "uuid": "f30c61e0-a813-4143-bfac-85e578855e2c"
+  },
+  {
+    "disp": "湖",
+    "kana": "みずうみ",
+    "q": "mizuumi",
+    "lang": "ja",
+    "uuid": "d6700f5d-06b2-44e4-8aa0-bb3a40d5b672"
+  },
+  {
+    "disp": "森林",
+    "kana": "しんりん",
+    "q": "sinnrinn",
+    "lang": "ja",
+    "uuid": "b340342d-247f-47ed-b3d8-afa3568e01af"
+  },
+  {
+    "disp": "草原",
+    "kana": "そうげん",
+    "q": "sougenn",
+    "lang": "ja",
+    "uuid": "4e9a85e9-1644-42ac-8bbb-6ec06c137522"
+  },
+  {
+    "disp": "嬉しい",
+    "kana": "うれしい",
+    "q": "uresii",
+    "lang": "ja",
+    "uuid": "c335e525-2356-4995-9194-ba1715b89deb"
+  },
+  {
+    "disp": "倍の量だ",
+    "kana": "ばいのりょうだ",
+    "q": "bainoryouda",
+    "lang": "ja",
+    "uuid": "70a2edc7-69e1-40e1-9450-9bc69c7d97dd"
+  },
+  {
+    "disp": "広場は広い",
+    "kana": "ひろばはひろい",
+    "q": "hirobahahiroi",
+    "lang": "ja",
+    "uuid": "4e5e2e8f-ace6-4ba1-94ef-c97020b3c734"
+  },
+  {
+    "disp": "湖へ出る",
+    "kana": "みずうみへでる",
+    "q": "mizuumihederu",
+    "lang": "ja",
+    "uuid": "289b32b0-9a37-499a-b9ab-49037a4be86e"
+  },
+  {
+    "disp": "お湯盛りで飲む",
+    "kana": "おゆもりでのむ",
+    "q": "oyumoridenomu",
+    "lang": "ja",
+    "uuid": "3954d926-5614-4538-8c44-ad49ff39f4b6"
+  },
+  {
+    "disp": "お湯飲みで飲む",
+    "kana": "おゆのみでのむ",
+    "q": "oyunomidenomu",
+    "lang": "ja",
+    "uuid": "b084633c-7135-4539-a5f9-5f8ec42058d0"
+  },
+  {
+    "disp": "量は多い",
+    "kana": "りょうはおおい",
+    "q": "ryouhaooi",
+    "lang": "ja",
+    "uuid": "78ee4728-3d5c-4b2f-951c-80e352f78c14"
+  },
+  {
+    "disp": "スープは温い",
+    "kana": "すーぷはぬるい",
+    "q": "su-puhanurui",
+    "lang": "ja",
+    "uuid": "59f66dfa-de86-4f93-ac22-5658fffda65d"
+  },
+  {
+    "disp": "梅煮は重い",
+    "kana": "うめにはおもい",
+    "q": "umenihaomoi",
+    "lang": "ja",
+    "uuid": "1487c4bc-0acd-4887-9230-c89abbe996c8"
+  },
+  {
+    "disp": "朝の空へ出る",
+    "kana": "あさのそらへでる",
+    "q": "asanosorahederu",
+    "lang": "ja",
+    "uuid": "aadaf01d-07a8-49ac-90f4-19fe80a64fbe"
+  },
+  {
+    "disp": "大の鍋で煮る",
+    "kana": "だいのなべでにる",
+    "q": "dainonabedeniru",
+    "lang": "ja",
+    "uuid": "ba9c7a4c-3797-45a0-b5ea-3f251fd24356"
+  },
+  {
+    "disp": "原っぱは広い",
+    "kana": "はらっぱはひろい",
+    "q": "harappahahiroi",
+    "lang": "ja",
+    "uuid": "0f702ffb-d497-49ed-b367-53ee7198f048"
+  },
+  {
+    "disp": "春の花が舞う",
+    "kana": "はるのはながまう",
+    "q": "harunohanagamau",
+    "lang": "ja",
+    "uuid": "df244a49-8557-45ff-bd46-c3b24a72383c"
+  },
+  {
+    "disp": "春の海へ出る",
+    "kana": "はるのうみへでる",
+    "q": "harunoumihederu",
+    "lang": "ja",
+    "uuid": "bb4dfd9d-b06b-4932-b356-71e632bd80d7"
+  },
+  {
+    "disp": "広い森に住む",
+    "kana": "ひろいもりにすむ",
+    "q": "hiroimorinisumu",
+    "lang": "ja",
+    "uuid": "d3f03c65-3170-4952-a8b0-dbb3c5e7bdf0"
+  },
+  {
+    "disp": "広い社に住む",
+    "kana": "ひろいしゃにすむ",
+    "q": "hiroishanisumu",
+    "lang": "ja",
+    "uuid": "febcff6e-5f49-4602-80f4-32049db66cdf"
+  },
+  {
+    "disp": "眩しい朝日だ",
+    "kana": "まぶしいあさひだ",
+    "q": "mabusiiasahida",
+    "lang": "ja",
+    "uuid": "a45ece98-504d-4bad-b762-7ea1b0ee8ec4"
+  },
+  {
+    "disp": "水味は薄い",
+    "kana": "みずあじはうすい",
+    "q": "mizuajihausui",
+    "lang": "ja",
+    "uuid": "d6bc0032-2eea-486b-8a23-45930ada9b95"
+  },
+  {
+    "disp": "練り物は重い",
+    "kana": "ねりものはおもい",
+    "q": "nerimonohaomoi",
+    "lang": "ja",
+    "uuid": "a6731c56-afad-42fd-ad0c-1f409168a0a8"
+  },
+  {
+    "disp": "お煮物は温い",
+    "kana": "おにものはぬるい",
+    "q": "onimonohanurui",
+    "lang": "ja",
+    "uuid": "b9109532-5fda-4d68-b5cb-a7ea8bdbc23d"
+  },
+  {
+    "disp": "お湯盛りが多い",
+    "kana": "おゆもりがおおい",
+    "q": "oyumorigaooi",
+    "lang": "ja",
+    "uuid": "d950590c-41ad-4df3-bc72-bc010eb3f53f"
+  },
+  {
+    "disp": "お湯盛りは温い",
+    "kana": "おゆもりはぬるい",
+    "q": "oyumorihanurui",
+    "lang": "ja",
+    "uuid": "dce9a074-6f9f-4f68-9093-1d512c2cd448"
+  },
+  {
+    "disp": "お湯飲みは白い",
+    "kana": "おゆのみはしろい",
+    "q": "oyunomihasiroi",
+    "lang": "ja",
+    "uuid": "63f70227-9034-419f-836c-d978a618bb2f"
+  },
+  {
+    "disp": "狭い部屋に住む",
+    "kana": "せまいへやにすむ",
+    "q": "semaiheyanisumu",
+    "lang": "ja",
+    "uuid": "f25ededb-bc43-4424-92fc-0e04686a34dc"
+  },
+  {
+    "disp": "狭い路地に住む",
+    "kana": "せまいろじにすむ",
+    "q": "semairojinisumu",
+    "lang": "ja",
+    "uuid": "184725ca-5cd9-43ba-926d-36de1deff0dd"
+  },
+  {
+    "disp": "死にそうな雨だ",
+    "kana": "しにそうなあめだ",
+    "q": "sinisounaameda",
+    "lang": "ja",
+    "uuid": "d6003362-2687-4534-9593-f7f7090cbefa"
+  },
+  {
+    "disp": "森林は広い",
+    "kana": "しんりんはひろい",
+    "q": "sinnrinnhahiroi",
+    "lang": "ja",
+    "uuid": "22b6043e-2bac-4e8e-bbad-feea97c6d872"
+  },
+  {
+    "disp": "塩味は薄い",
+    "kana": "しおあじはうすい",
+    "q": "sioajihausui",
+    "lang": "ja",
+    "uuid": "e504d128-b5c8-4123-9cbe-727094efceff"
+  },
+  {
+    "disp": "白いパンはいい",
+    "kana": "しろいぱんはいい",
+    "q": "siroipannhaii",
+    "lang": "ja",
+    "uuid": "8fa2da44-834c-49a4-b74b-b115c77bd134"
+  },
+  {
+    "disp": "空に花が舞う",
+    "kana": "そらにはながまう",
+    "q": "soranihanagamau",
+    "lang": "ja",
+    "uuid": "66504c7d-e56b-4967-b470-235d149edc54"
+  },
+  {
+    "disp": "草原は広い",
+    "kana": "そうげんはひろい",
+    "q": "sougennhahiroi",
+    "lang": "ja",
+    "uuid": "ba0b3066-9a9b-4e53-894b-7a9693d732a2"
+  },
+  {
+    "disp": "梅干しは薄い",
+    "kana": "うめぼしはうすい",
+    "q": "umebosihausui",
+    "lang": "ja",
+    "uuid": "ea428654-e94d-4984-a74a-fa56cbdddc27"
+  },
+  {
+    "disp": "夜の空に舞う",
+    "kana": "よるのそらにまう",
+    "q": "yorunosoranimau",
+    "lang": "ja",
+    "uuid": "ddfba5d9-faa1-46f7-8766-ff5bd0064dcb"
+  },
+  {
+    "disp": "青い波が揺れる",
+    "kana": "あおいなみがゆれる",
+    "q": "aoinamigayureru",
+    "lang": "ja",
+    "uuid": "402b1e10-8e9d-469e-ba2d-188d5a37d4be"
+  },
+  {
+    "disp": "朝の海は青い",
+    "kana": "あさのうみはあおい",
+    "q": "asanoumihaaoi",
+    "lang": "ja",
+    "uuid": "6da47e7e-3cde-44cf-ade2-b9f2f62b23ae"
+  },
+  {
+    "disp": "冬の雨は寒い",
+    "kana": "ふゆのあめはさむい",
+    "q": "fuyunoamehasamui",
+    "lang": "ja",
+    "uuid": "9f230d9e-3196-44d8-81bf-bb5d9a6eb0ca"
+  },
+  {
+    "disp": "冬の森は寒い",
+    "kana": "ふゆのもりはさむい",
+    "q": "fuyunomorihasamui",
+    "lang": "ja",
+    "uuid": "9d55569d-05e5-4c90-8edf-ea7e9c934afc"
+  },
+  {
+    "disp": "冬の空は寒い",
+    "kana": "ふゆのそらはさむい",
+    "q": "fuyunosorahasamui",
+    "lang": "ja",
+    "uuid": "d05c5029-4e06-451a-a384-99104bf48783"
+  },
+  {
+    "disp": "冬の空は白い",
+    "kana": "ふゆのそらはしろい",
+    "q": "fuyunosorahasiroi",
+    "lang": "ja",
+    "uuid": "8fb007b8-cbb8-494e-8ec6-9a6961ff8a29"
+  },
+  {
+    "disp": "冬の海は青い",
+    "kana": "ふゆのうみはあおい",
+    "q": "fuyunoumihaaoi",
+    "lang": "ja",
+    "uuid": "3d1b0913-0c2f-45ca-91a1-788aab47fba0"
+  },
+  {
+    "disp": "冬の海は冷える",
+    "kana": "ふゆのうみはひえる",
+    "q": "fuyunoumihahieru",
+    "lang": "ja",
+    "uuid": "56c4037a-e9cc-42bf-8483-db562400f39a"
+  },
+  {
+    "disp": "冬の夜は眠い",
+    "kana": "ふゆのよるはねむい",
+    "q": "fuyunoyoruhanemui",
+    "lang": "ja",
+    "uuid": "c04adf50-ccfc-4c95-81c5-484864e969f4"
+  },
+  {
+    "disp": "冬の夜は寒い",
+    "kana": "ふゆのよるはさむい",
+    "q": "fuyunoyoruhasamui",
+    "lang": "ja",
+    "uuid": "e8990593-5c0c-4e3a-9aab-4d62207f50bc"
+  },
+  {
+    "disp": "広い部屋で眠る",
+    "kana": "ひろいへやでねむる",
+    "q": "hiroiheyadenemuru",
+    "lang": "ja",
+    "uuid": "628d4a8b-fffb-4107-bdc7-4ac2cddb4e6b"
+  },
+  {
+    "disp": "広い海へ泳ぐ",
+    "kana": "ひろいうみへおよぐ",
+    "q": "hiroiumiheoyogu",
+    "lang": "ja",
+    "uuid": "b8a83aab-84a6-4e46-a0e6-5c0bd4179093"
+  },
+  {
+    "disp": "広い海に泳ぐ",
+    "kana": "ひろいうみにおよぐ",
+    "q": "hiroiuminioyogu",
+    "lang": "ja",
+    "uuid": "8ef7e7ab-f7b9-4b2f-852d-382a9f1ff044"
+  },
+  {
+    "disp": "長い雨は多い",
+    "kana": "ながいあめはおおい",
+    "q": "nagaiamehaooi",
+    "lang": "ja",
+    "uuid": "32c2cefa-b897-44c2-906e-2bbeddb1dc3d"
+  },
+  {
+    "disp": "長い枝は白い",
+    "kana": "ながいえだはしろい",
+    "q": "nagaiedahasiroi",
+    "lang": "ja",
+    "uuid": "0e382392-6695-4a9f-87d2-6e449c54317f"
+  },
+  {
+    "disp": "長い夜に忍ぶ",
+    "kana": "ながいよるにしのぶ",
+    "q": "nagaiyorunisinobu",
+    "lang": "ja",
+    "uuid": "7189596e-a7a1-4754-b480-6d6f4dbc7ef5"
+  },
+  {
+    "disp": "沼の水は冷える",
+    "kana": "ぬまのみずはひえる",
+    "q": "numanomizuhahieru",
+    "lang": "ja",
+    "uuid": "35964240-4e66-4040-812f-aef81e3b2af0"
+  },
+  {
+    "disp": "温いスープはいい",
+    "kana": "ぬるいすーぷはいい",
+    "q": "nuruisu-puhaii",
+    "lang": "ja",
+    "uuid": "0e186c96-e9ed-4080-be0b-00e352f84983"
+  },
+  {
+    "disp": "お惣菜は温い",
+    "kana": "おそうざいはぬるい",
+    "q": "osouzaihanurui",
+    "lang": "ja",
+    "uuid": "cbce3331-2b8e-4565-a540-e5c3b026f878"
+  },
+  {
+    "disp": "寒い冬は長い",
+    "kana": "さむいふゆはながい",
+    "q": "samuifuyuhanagai",
+    "lang": "ja",
+    "uuid": "73903fcf-f3a0-441e-99ee-85bbb7a31a39"
+  },
+  {
+    "disp": "白い花は多い",
+    "kana": "しろいはなはおおい",
+    "q": "siroihanahaooi",
+    "lang": "ja",
+    "uuid": "e06b9c16-1089-45e6-a3d5-28db89198e02"
+  },
+  {
+    "disp": "白い花に忍ぶ",
+    "kana": "しろいはなにしのぶ",
+    "q": "siroihananisinobu",
+    "lang": "ja",
+    "uuid": "cc034d31-37da-46c2-b010-c59be82e30fb"
+  },
+  {
+    "disp": "白い石は丸い",
+    "kana": "しろいいしはまるい",
+    "q": "siroiisihamarui",
+    "lang": "ja",
+    "uuid": "24e9652c-809c-44ae-b761-3f60e46be8fe"
+  },
+  {
+    "disp": "白いパンに混ぜる",
+    "kana": "しろいぱんにまぜる",
+    "q": "siroipannnimazeru",
+    "lang": "ja",
+    "uuid": "d09116d6-1e51-4767-b5f6-751498d33d9d"
+  },
+  {
+    "disp": "夜の森に忍ぶ",
+    "kana": "よるのもりにしのぶ",
+    "q": "yorunomorinisinobu",
+    "lang": "ja",
+    "uuid": "1c93f327-2f3c-4daf-b587-0f99cff561b5"
+  },
+  {
+    "disp": "青い星は眩しい",
+    "kana": "あおいほしはまぶしい",
+    "q": "aoihosihamabusii",
+    "lang": "ja",
+    "uuid": "7fd22e07-38af-43a6-91e8-d5ec8381ba94"
+  },
+  {
+    "disp": "朝の空は眩しい",
+    "kana": "あさのそらはまぶしい",
+    "q": "asanosorahamabusii",
+    "lang": "ja",
+    "uuid": "039b83af-8102-4388-9490-d70a94ded137"
+  },
+  {
+    "disp": "朝の休みに急ぐ",
+    "kana": "あさのやすみにいそぐ",
+    "q": "asanoyasuminiisogu",
+    "lang": "ja",
+    "uuid": "29bc9f83-37c6-4573-a26b-fc188071da79"
+  },
+  {
+    "disp": "冬の海は寂しい",
+    "kana": "ふゆのうみはさびしい",
+    "q": "fuyunoumihasabisii",
+    "lang": "ja",
+    "uuid": "74496e17-599b-4d2b-b866-600a06fd9032"
+  },
+  {
+    "disp": "午後は広場で休む",
+    "kana": "ごごはひろばでやすむ",
+    "q": "gogohahirobadeyasumu",
+    "lang": "ja",
+    "uuid": "338fe6f3-7b8d-4af8-b25a-7cd330d833fd"
+  },
+  {
+    "disp": "母の味噌汁はいい",
+    "kana": "ははのみそしるはいい",
+    "q": "hahanomisosiruhaii",
+    "lang": "ja",
+    "uuid": "05cd77de-0f2a-4176-a612-214c43bcbae6"
+  },
+  {
+    "disp": "泉の水は青い",
+    "kana": "いずみのみずはあおい",
+    "q": "izuminomizuhaaoi",
+    "lang": "ja",
+    "uuid": "149ba7ac-15c3-45f0-928a-b27c525e424d"
+  },
+  {
+    "disp": "味噌煮の茄子は重い",
+    "kana": "みそにのなすはおもい",
+    "q": "misoninonasuhaomoi",
+    "lang": "ja",
+    "uuid": "51e472dd-11da-41cf-94d7-4a809b4d5e6b"
+  },
+  {
+    "disp": "長い夜は寂しい",
+    "kana": "ながいよるはさびしい",
+    "q": "nagaiyoruhasabisii",
+    "lang": "ja",
+    "uuid": "fc1d6b05-d559-42b8-8471-0f571c74edf1"
+  },
+  {
+    "disp": "重さの鍋は重い",
+    "kana": "おもさのなべはおもい",
+    "q": "omosanonabehaomoi",
+    "lang": "ja",
+    "uuid": "d7a3e77a-48fe-4635-8bae-4aa92154857a"
+  },
+  {
+    "disp": "洗面所は狭い",
+    "kana": "せんめんじょはせまい",
+    "q": "sennmennjohasemai",
+    "lang": "ja",
+    "uuid": "3db7705e-d9bb-499f-951f-82f1098c4680"
+  },
+  {
+    "disp": "梅味のパンはいい",
+    "kana": "うめあじのぱんはいい",
+    "q": "umeajinopannhaii",
+    "lang": "ja",
+    "uuid": "26956092-f42d-4dd2-bd3d-e932cabb7723"
+  },
+  {
+    "disp": "夜の空は寂しい",
+    "kana": "よるのそらはさびしい",
+    "q": "yorunosorahasabisii",
+    "lang": "ja",
+    "uuid": "ffa1a370-0ed0-4fa5-b6a0-d0c86c7d94d9"
+  },
+  {
+    "disp": "夜の海は寂しい",
+    "kana": "よるのうみはさびしい",
+    "q": "yorunoumihasabisii",
+    "lang": "ja",
+    "uuid": "b49c5f26-6979-498e-8374-f142cedcb743"
+  },
+  {
+    "disp": "広い草原は白い",
+    "kana": "ひろいそうげんはしろい",
+    "q": "hiroisougennhasiroi",
+    "lang": "ja",
+    "uuid": "f2995b30-4ad8-426e-93da-5b63f808760e"
+  },
+  {
+    "disp": "細い枝に星が鳴る",
+    "kana": "ほそいえだにほしがなる",
+    "q": "hosoiedanihosiganaru",
+    "lang": "ja",
+    "uuid": "701ba19b-45bb-4c29-a36d-d441355286f8"
+  },
+  {
+    "disp": "上司の指示に急ぐ",
+    "kana": "じょうしのしじにいそぐ",
+    "q": "jousinosijiniisogu",
+    "lang": "ja",
+    "uuid": "bc8fc5f8-a8ec-45e3-b3a8-3390a7ba482b"
+  },
+  {
+    "disp": "味噌汁が温い夜だ",
+    "kana": "みそしるがぬるいよるだ",
+    "q": "misosiruganuruiyoruda",
+    "lang": "ja",
+    "uuid": "20f2cf53-a6a7-46fc-9ef3-a6b33c3a505c"
+  },
+  {
+    "disp": "湖の水は青い",
+    "kana": "みずうみのみずはあおい",
+    "q": "mizuuminomizuhaaoi",
+    "lang": "ja",
+    "uuid": "8a0f8235-9888-4bb4-aa70-6a738c78b421"
+  },
+  {
+    "disp": "湖の波は冷える",
+    "kana": "みずうみのなみはひえる",
+    "q": "mizuuminonamihahieru",
+    "lang": "ja",
+    "uuid": "00cbb68f-f401-4e4a-a06b-613a57749376"
+  },
+  {
+    "disp": "お煮物の水は冷える",
+    "kana": "おにもののみずはひえる",
+    "q": "onimononomizuhahieru",
+    "lang": "ja",
+    "uuid": "871ec7fb-caf9-4e46-81d0-07ccfb0e1ce0"
+  },
+  {
+    "disp": "遅い先生に願う",
+    "kana": "おそいせんせいにねがう",
+    "q": "osoisennseininegau",
+    "lang": "ja",
+    "uuid": "04d299f5-8916-454f-8f7c-8cb03b83b720"
+  },
+  {
+    "disp": "来年の春に願う",
+    "kana": "らいねんのはるにねがう",
+    "q": "rainennnoharuninegau",
+    "lang": "ja",
+    "uuid": "46059e03-9f6a-4a05-a21a-b14ff43402ba"
+  },
+  {
+    "disp": "先輩の指示に急ぐ",
+    "kana": "せんぱいのしじにいそぐ",
+    "q": "sennpainosijiniisogu",
+    "lang": "ja",
+    "uuid": "cff03168-81e1-43ea-a763-9622c9d2882c"
+  },
+  {
+    "disp": "白いお湯飲みに混ぜる",
+    "kana": "しろいおゆのみにまぜる",
+    "q": "siroioyunominimazeru",
+    "lang": "ja",
+    "uuid": "a0d3fd0e-71c4-407a-a564-5b47386b8748"
+  },
+  {
+    "disp": "祖母の味噌汁は温い",
+    "kana": "そぼのみそしるはぬるい",
+    "q": "sobonomisosiruhanurui",
+    "lang": "ja",
+    "uuid": "3380bedc-80b8-46ce-a26d-33ea2867f65b"
+  },
+  {
+    "disp": "同僚のペンは細い",
+    "kana": "どうりょうのぺんはほそい",
+    "q": "douryounopennhahosoi",
+    "lang": "ja",
+    "uuid": "1edb0a4a-eea5-49eb-ade1-75a8a78e8c28"
+  },
+  {
+    "disp": "同僚の指示に急ぐ",
+    "kana": "どうりょうのしじにいそぐ",
+    "q": "douryounosijiniisogu",
+    "lang": "ja",
+    "uuid": "ca7b0cd9-2774-4350-b3fd-8f6447c69e9f"
+  },
+  {
+    "disp": "午前は書斎で眠る",
+    "kana": "ごぜんはしょさいでねむる",
+    "q": "gozennhashosaidenemuru",
+    "lang": "ja",
+    "uuid": "26990985-0b79-4a14-ba42-14ab86911aca"
+  },
+  {
+    "disp": "毎朝の味噌汁は温い",
+    "kana": "まいあさのみそしるはぬるい",
+    "q": "maiasanomisosiruhanurui",
+    "lang": "ja",
+    "uuid": "89c49c20-c78e-4809-bcbe-f642d58f09f5"
+  },
+  {
+    "disp": "水味の梅干しは薄い",
+    "kana": "みずあじのうめぼしはうすい",
+    "q": "mizuajinoumebosihausui",
+    "lang": "ja",
+    "uuid": "b61c4721-66a3-4481-bee2-5abb62494a45"
   }
 ]

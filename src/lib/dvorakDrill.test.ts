@@ -49,10 +49,15 @@ test("the right-three drill drops the rows needing b d f g h m", () => {
   expect([t["、"], t["。"]]).toEqual([",", "."]);
 });
 
-test("the right-index drill drops only the middle finger's column", () => {
+test("the right-index drill drops the middle finger's column, and か行", () => {
   const t = RIGHT_INDEX.kanaToRomaji;
   // c, t and w go, so た行, わ, を and ちゃ行 go with them.
   for (const kana of ["た", "ち", "つ", "て", "と", "わ", "を", "ちゃ"]) {
+    expect(t[kana]).toBeUndefined();
+  }
+  // k is on the left hand, but the engine also accepts ca/cu/co for か行,
+  // which would put the right middle finger back in play. So か行 goes too.
+  for (const kana of ["か", "き", "く", "け", "こ", "きゃ", "きゅ", "きょ"]) {
     expect(t[kana]).toBeUndefined();
   }
   // Everything the right-three drill lacks is back: は・ま・が・だ・ば行 and ふ.

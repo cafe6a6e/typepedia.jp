@@ -3344,5 +3344,796 @@
     "q": "kaisyanokyouryokunikoukennsuru",
     "lang": "ja",
     "uuid": "a872c292-60e2-4571-8048-641e2c53c3cd"
+  },
+  {
+    "disp": "家",
+    "kana": "いえ",
+    "q": "ie",
+    "lang": "ja",
+    "uuid": "c8930b91-1bf5-48c8-a5c8-974a91ac0f58"
+  },
+  {
+    "disp": "草",
+    "kana": "くさ",
+    "q": "kusa",
+    "lang": "ja",
+    "uuid": "9fa1705c-503e-44f5-b3ab-da8b99649712"
+  },
+  {
+    "disp": "竹",
+    "kana": "たけ",
+    "q": "take",
+    "lang": "ja",
+    "uuid": "9d127659-14f2-4905-82bd-bdf0de13e42f"
+  },
+  {
+    "disp": "鉄",
+    "kana": "てつ",
+    "q": "tetu",
+    "lang": "ja",
+    "uuid": "c5ee86eb-fd17-466e-ac16-f3d4ebdee2cc"
+  },
+  {
+    "disp": "地下",
+    "kana": "ちか",
+    "q": "tika",
+    "lang": "ja",
+    "uuid": "7514c2c8-e6f1-4008-ad44-d7d0067f79b1"
+  },
+  {
+    "disp": "月",
+    "kana": "つき",
+    "q": "tuki",
+    "lang": "ja",
+    "uuid": "72a43f8b-5029-42fa-919d-d26eca760276"
+  },
+  {
+    "disp": "乾く",
+    "kana": "かわく",
+    "q": "kawaku",
+    "lang": "ja",
+    "uuid": "155a9143-14fc-48de-a9cb-6fe0c0915ea6"
+  },
+  {
+    "disp": "家族",
+    "kana": "かぞく",
+    "q": "kazoku",
+    "lang": "ja",
+    "uuid": "74f4268a-7d59-4abf-96f7-f5eae3f49759"
+  },
+  {
+    "disp": "季節",
+    "kana": "きせつ",
+    "q": "kisetu",
+    "lang": "ja",
+    "uuid": "71387284-c9de-4879-8a60-e4842a864dd0"
+  },
+  {
+    "disp": "凍る",
+    "kana": "こおる",
+    "q": "kooru",
+    "lang": "ja",
+    "uuid": "d3de22e7-07e5-4006-b505-65227a7a5224"
+  },
+  {
+    "disp": "濡れる",
+    "kana": "ぬれる",
+    "q": "nureru",
+    "lang": "ja",
+    "uuid": "52696a93-6dac-4aa1-ad70-7684a502bdfc"
+  },
+  {
+    "disp": "溶ける",
+    "kana": "とける",
+    "q": "tokeru",
+    "lang": "ja",
+    "uuid": "c9498cd1-1042-4891-98bb-e0a049f263af"
+  },
+  {
+    "disp": "都心",
+    "kana": "としん",
+    "q": "tosinn",
+    "lang": "ja",
+    "uuid": "7f65f00f-9cdd-4304-8599-2b453563d6fb"
+  },
+  {
+    "disp": "植木",
+    "kana": "うえき",
+    "q": "ueki",
+    "lang": "ja",
+    "uuid": "f919c24e-4ef5-42d5-a256-b63efb9af429"
+  },
+  {
+    "disp": "揺れる",
+    "kana": "ゆれる",
+    "q": "yureru",
+    "lang": "ja",
+    "uuid": "86e25401-e634-4b78-ac2b-c015762f7c3e"
+  },
+  {
+    "disp": "黄色い",
+    "kana": "きいろい",
+    "q": "kiiroi",
+    "lang": "ja",
+    "uuid": "da13cf2c-b527-4eec-ac8b-603f13953625"
+  },
+  {
+    "disp": "空港",
+    "kana": "くうこう",
+    "q": "kuukou",
+    "lang": "ja",
+    "uuid": "e1c96e02-aa44-4b9e-87d0-08686c16d571"
+  },
+  {
+    "disp": "太陽",
+    "kana": "たいよう",
+    "q": "taiyou",
+    "lang": "ja",
+    "uuid": "d5047875-62d1-419f-8638-7de6bdb9f6b3"
+  },
+  {
+    "disp": "住宅",
+    "kana": "じゅうたく",
+    "q": "juutaku",
+    "lang": "ja",
+    "uuid": "940f2bba-c1a6-492c-804d-f2749b94ee0b"
+  },
+  {
+    "disp": "屋上",
+    "kana": "おくじょう",
+    "q": "okujou",
+    "lang": "ja",
+    "uuid": "dfa9d000-6f2f-4fc8-962c-10bfe7490267"
+  },
+  {
+    "disp": "先週",
+    "kana": "せんしゅう",
+    "q": "sennsyuu",
+    "lang": "ja",
+    "uuid": "3f6851c8-225e-42ae-a47d-ebd56c7a23f5"
+  },
+  {
+    "disp": "姉に教える",
+    "kana": "あねにおしえる",
+    "q": "aneniosieru",
+    "lang": "ja",
+    "uuid": "fe885008-2124-4d12-9b78-4208e5736426"
+  },
+  {
+    "disp": "明日に起きた",
+    "kana": "あしたにおきた",
+    "q": "asitaniokita",
+    "lang": "ja",
+    "uuid": "5f7f9224-6b25-49c8-833f-c498d8afa0a0"
+  },
+  {
+    "disp": "昨日に起きた",
+    "kana": "きのうにおきた",
+    "q": "kinouniokita",
+    "lang": "ja",
+    "uuid": "89859da5-f5b6-4333-9741-12a19f7c37a6"
+  },
+  {
+    "disp": "今日に起きた",
+    "kana": "きょうにおきた",
+    "q": "kyouniokita",
+    "lang": "ja",
+    "uuid": "c94e26aa-34c9-44fd-9881-fa7e101a33f7"
+  },
+  {
+    "disp": "お菓子を作る",
+    "kana": "おかしをつくる",
+    "q": "okasiwotukuru",
+    "lang": "ja",
+    "uuid": "c37f58e4-f80c-4039-b9df-26e02005bdc8"
+  },
+  {
+    "disp": "お菓子を分ける",
+    "kana": "おかしをわける",
+    "q": "okasiwowakeru",
+    "lang": "ja",
+    "uuid": "db27b09c-c965-4ae2-be85-0bab45cb29d9"
+  },
+  {
+    "disp": "お酒を分ける",
+    "kana": "おさけをわける",
+    "q": "osakewowakeru",
+    "lang": "ja",
+    "uuid": "7c5d1f3b-42c0-4f75-a224-bdce3c4ba744"
+  },
+  {
+    "disp": "父と歌った",
+    "kana": "ちちとうたった",
+    "q": "tititoutatta",
+    "lang": "ja",
+    "uuid": "bf710484-b740-4e55-b265-a909e7d988c8"
+  },
+  {
+    "disp": "嬉しい揃う",
+    "kana": "うれしいそろう",
+    "q": "uresiisorou",
+    "lang": "ja",
+    "uuid": "7f295533-a9f0-481d-aef3-af57ca089089"
+  },
+  {
+    "disp": "赤い布を縫う",
+    "kana": "あかいぬのをぬう",
+    "q": "akainunowonuu",
+    "lang": "ja",
+    "uuid": "b6dbcdeb-450a-4936-abf1-9ed416229a02"
+  },
+  {
+    "disp": "秋の柔らかい",
+    "kana": "あきのやわらかい",
+    "q": "akinoyawarakai",
+    "lang": "ja",
+    "uuid": "8c4dee1d-43d1-47e6-89d1-336307f0b69f"
+  },
+  {
+    "disp": "会社に遅い",
+    "kana": "かいしゃにおそい",
+    "q": "kaisyaniosoi",
+    "lang": "ja",
+    "uuid": "551684f3-b10c-49c1-a0fe-2adee170aed6"
+  },
+  {
+    "disp": "家族と歌った",
+    "kana": "かぞくとうたった",
+    "q": "kazokutoutatta",
+    "lang": "ja",
+    "uuid": "5052b80e-e1db-430a-833b-fa5a20cd6fdb"
+  },
+  {
+    "disp": "夏の夜に寝た",
+    "kana": "なつのよるにねた",
+    "q": "natunoyorunineta",
+    "lang": "ja",
+    "uuid": "7efc8dd7-549b-4208-b008-49a3dcebbeb0"
+  },
+  {
+    "disp": "庭に草を縫う",
+    "kana": "にわにくさをぬう",
+    "q": "niwanikusawonuu",
+    "lang": "ja",
+    "uuid": "d24edbb6-a5bb-4638-b64c-b11fc60b6418"
+  },
+  {
+    "disp": "白い靴を縫う",
+    "kana": "しろいくつをぬう",
+    "q": "siroikutuwonuu",
+    "lang": "ja",
+    "uuid": "0f7bb6dc-ad20-4169-aa35-1bc2f9384a42"
+  },
+  {
+    "disp": "強い風に散る",
+    "kana": "つよいかぜにちる",
+    "q": "tuyoikazenitiru",
+    "lang": "ja",
+    "uuid": "bdd87eea-86ac-4351-8d2b-911a6f67861b"
+  },
+  {
+    "disp": "薄い布を縫う",
+    "kana": "うすいぬのをぬう",
+    "q": "usuinunowonuu",
+    "lang": "ja",
+    "uuid": "825f087b-0269-4a81-b4ef-74200ae4eab8"
+  },
+  {
+    "disp": "赤い色に似合う",
+    "kana": "あかいいろににあう",
+    "q": "akaiironiniau",
+    "lang": "ja",
+    "uuid": "f5dd9059-ad3b-41b0-86cb-a6a7fddad6ef"
+  },
+  {
+    "disp": "兄に提案した",
+    "kana": "あににていあんした",
+    "q": "aniniteiannsita",
+    "lang": "ja",
+    "uuid": "f3a59f9f-62e1-457f-bd60-8bb98dd14ba1"
+  },
+  {
+    "disp": "青い空に照らす",
+    "kana": "あおいそらにてらす",
+    "q": "aoisoraniterasu",
+    "lang": "ja",
+    "uuid": "0b8bb3e0-888f-452a-8318-b749f4cd646e"
+  },
+  {
+    "disp": "黒い糸を抜いた",
+    "kana": "くろいいとをぬいた",
+    "q": "kuroiitowonuita",
+    "lang": "ja",
+    "uuid": "9a79ff39-aacb-4163-96fc-63ee682fe828"
+  },
+  {
+    "disp": "黒い空に泣いた",
+    "kana": "くろいそらにないた",
+    "q": "kuroisoraninaita",
+    "lang": "ja",
+    "uuid": "4ca36967-dd8b-4549-ae1b-c09d50bfe4fd"
+  },
+  {
+    "disp": "白い靴を揃う",
+    "kana": "しろいくつをそろう",
+    "q": "siroikutuwosorou",
+    "lang": "ja",
+    "uuid": "3b7238b5-e7e2-4341-b422-c84f81163fc7"
+  },
+  {
+    "disp": "白い布に沿った",
+    "kana": "しろいぬのにそった",
+    "q": "siroinunonisotta",
+    "lang": "ja",
+    "uuid": "975b8019-9a51-4477-a7c2-ba3bcfc11653"
+  },
+  {
+    "disp": "白い雪に濡れる",
+    "kana": "しろいゆきにぬれる",
+    "q": "siroiyukininureru",
+    "lang": "ja",
+    "uuid": "a061b49c-3682-4321-9819-0efde4312c1f"
+  },
+  {
+    "disp": "涼しい秋に寝た",
+    "kana": "すずしいあきにねた",
+    "q": "suzusiiakinineta",
+    "lang": "ja",
+    "uuid": "403589d8-54c2-46aa-b25d-039a5b2c9f17"
+  },
+  {
+    "disp": "高い数値を知る",
+    "kana": "たかいすうちをしる",
+    "q": "takaisuutiwosiru",
+    "lang": "ja",
+    "uuid": "ad7c9ceb-f0bb-43db-83d8-bc8a7b22723a"
+  },
+  {
+    "disp": "小さい椅子に寝た",
+    "kana": "ちいさいいすにねた",
+    "q": "tiisaiisunineta",
+    "lang": "ja",
+    "uuid": "68bfc2b8-245d-419e-8aba-c981719c2354"
+  },
+  {
+    "disp": "父に連絡した",
+    "kana": "ちちにれんらくした",
+    "q": "titinirennrakusita",
+    "lang": "ja",
+    "uuid": "4bea2047-93a0-40e0-a091-258dc546a3f3"
+  },
+  {
+    "disp": "強い風に濡れる",
+    "kana": "つよいかぜにぬれる",
+    "q": "tuyoikazeninureru",
+    "lang": "ja",
+    "uuid": "7c7eae62-3c27-4285-ae53-ac98e738326c"
+  },
+  {
+    "disp": "強い風に揺れる",
+    "kana": "つよいかぜにゆれる",
+    "q": "tuyoikazeniyureru",
+    "lang": "ja",
+    "uuid": "b54bef9f-6a05-4527-9026-ef8c4cadfc0d"
+  },
+  {
+    "disp": "受かるよう誓った",
+    "kana": "うかるようちかった",
+    "q": "ukaruyoutikatta",
+    "lang": "ja",
+    "uuid": "31805cad-d465-400a-b6db-9fdb1f7bd7fb"
+  },
+  {
+    "disp": "夜の空を照らす",
+    "kana": "よるのそらをてらす",
+    "q": "yorunosorawoterasu",
+    "lang": "ja",
+    "uuid": "e9028836-0143-4923-9544-7c240634f726"
+  },
+  {
+    "disp": "赤い色を合わせる",
+    "kana": "あかいいろをあわせる",
+    "q": "akaiirowoawaseru",
+    "lang": "ja",
+    "uuid": "7e101813-ef6a-4556-9cee-4689939cf2d2"
+  },
+  {
+    "disp": "秋の夜に歌った",
+    "kana": "あきのよるにうたった",
+    "q": "akinoyoruniutatta",
+    "lang": "ja",
+    "uuid": "26968b80-6bcc-4824-9ef1-ca160ac273eb"
+  },
+  {
+    "disp": "青い色に似ている",
+    "kana": "あおいいろににている",
+    "q": "aoiironiniteiru",
+    "lang": "ja",
+    "uuid": "32314a83-8f13-453d-a1e1-bcb99df65a21"
+  },
+  {
+    "disp": "青い色を合わせる",
+    "kana": "あおいいろをあわせる",
+    "q": "aoiirowoawaseru",
+    "lang": "ja",
+    "uuid": "e2124a69-2787-4c03-820b-9024bc7e3214"
+  },
+  {
+    "disp": "青い色を重ねる",
+    "kana": "あおいいろをかさねる",
+    "q": "aoiirowokasaneru",
+    "lang": "ja",
+    "uuid": "fc035982-dede-4058-bf0f-256d61849879"
+  },
+  {
+    "disp": "青い色を教える",
+    "kana": "あおいいろをおしえる",
+    "q": "aoiirowoosieru",
+    "lang": "ja",
+    "uuid": "3b8f0086-fadc-49d1-b91c-3b0daaaf20cc"
+  },
+  {
+    "disp": "家族と提案した",
+    "kana": "かぞくとていあんした",
+    "q": "kazokutoteiannsita",
+    "lang": "ja",
+    "uuid": "046f6cbc-3eb7-4442-b698-7c6e781765fa"
+  },
+  {
+    "disp": "昨日の数に超える",
+    "kana": "きのうのかずにこえる",
+    "q": "kinounokazunikoeru",
+    "lang": "ja",
+    "uuid": "0ae15284-1bc1-4650-86c5-51542ffc8cee"
+  },
+  {
+    "disp": "黒い色を重ねる",
+    "kana": "くろいいろをかさねる",
+    "q": "kuroiirowokasaneru",
+    "lang": "ja",
+    "uuid": "ee725b0f-556b-4d96-9881-bfce3ec74563"
+  },
+  {
+    "disp": "黒い色を教える",
+    "kana": "くろいいろをおしえる",
+    "q": "kuroiirowoosieru",
+    "lang": "ja",
+    "uuid": "28721551-cc2d-4a76-b801-0693d894f327"
+  },
+  {
+    "disp": "黒い糸を数える",
+    "kana": "くろいいとをかぞえる",
+    "q": "kuroiitowokazoeru",
+    "lang": "ja",
+    "uuid": "ca7666f9-67ee-4ca2-96bd-9e50b4b6cb01"
+  },
+  {
+    "disp": "黒いお酒を分ける",
+    "kana": "くろいおさけをわける",
+    "q": "kuroiosakewowakeru",
+    "lang": "ja",
+    "uuid": "187948f7-3632-4c02-9710-bfa7115a8a34"
+  },
+  {
+    "disp": "多い数を数える",
+    "kana": "おおいかずをかぞえる",
+    "q": "ooikazuwokazoeru",
+    "lang": "ja",
+    "uuid": "63cd33ff-c27c-4117-986e-8ee1bdcd3cbd"
+  },
+  {
+    "disp": "お酒にお酢を添えた",
+    "kana": "おさけにおすをそえた",
+    "q": "osakeniosuwosoeta",
+    "lang": "ja",
+    "uuid": "e0c03616-c3f4-4f7e-8525-906e80229e37"
+  },
+  {
+    "disp": "お湯に氷を置いた",
+    "kana": "おゆにこおりをおいた",
+    "q": "oyunikooriwooita",
+    "lang": "ja",
+    "uuid": "855f8d89-cd39-4662-88b7-7ddd5750b684"
+  },
+  {
+    "disp": "廊下の掃除をする",
+    "kana": "ろうかのそうじをする",
+    "q": "roukanosoujiwosuru",
+    "lang": "ja",
+    "uuid": "f6d18ac6-9112-49de-89a0-46af179bc6f5"
+  },
+  {
+    "disp": "白い色を教える",
+    "kana": "しろいいろをおしえる",
+    "q": "siroiirowoosieru",
+    "lang": "ja",
+    "uuid": "fd7db6fd-f426-4b2c-b9e5-17962c1dae06"
+  },
+  {
+    "disp": "白い砂を数える",
+    "kana": "しろいすなをかぞえる",
+    "q": "siroisunawokazoeru",
+    "lang": "ja",
+    "uuid": "97d4c0ed-5030-4560-b1a4-2247fe8757f0"
+  },
+  {
+    "disp": "少ない数に泣いた",
+    "kana": "すくないかずにないた",
+    "q": "sukunaikazuninaita",
+    "lang": "ja",
+    "uuid": "a8e646c3-4bdc-4aea-8e2b-3bc2fabd933b"
+  },
+  {
+    "disp": "高い数値に沿った",
+    "kana": "たかいすうちにそった",
+    "q": "takaisuutinisotta",
+    "lang": "ja",
+    "uuid": "a7afafae-1405-4666-bff8-2f967d6c0c70"
+  },
+  {
+    "disp": "都心の空に泣いた",
+    "kana": "としんのそらにないた",
+    "q": "tosinnnosoraninaita",
+    "lang": "ja",
+    "uuid": "e05547db-43ae-4372-b139-d4be59a37aae"
+  },
+  {
+    "disp": "一日の土地にいた",
+    "kana": "ついたちのとちにいた",
+    "q": "tuitatinototiniita",
+    "lang": "ja",
+    "uuid": "5d1e4679-dfef-41b9-825a-fa5b742a6a7b"
+  },
+  {
+    "disp": "赤い太陽に照らす",
+    "kana": "あかいたいようにてらす",
+    "q": "akaitaiyouniterasu",
+    "lang": "ja",
+    "uuid": "50a7bdad-9e0f-43c9-a029-6ece12e6be47"
+  },
+  {
+    "disp": "姉と朝の風を聞く",
+    "kana": "あねとあさのかぜをきく",
+    "q": "anetoasanokazewokiku",
+    "lang": "ja",
+    "uuid": "c1ae2677-9e95-415a-b74b-54c26eae76c7"
+  },
+  {
+    "disp": "温かいお湯に溶ける",
+    "kana": "あたたかいおゆにとける",
+    "q": "atatakaioyunitokeru",
+    "lang": "ja",
+    "uuid": "25fc23b8-a87e-4e89-8c1d-4d177fa5b134"
+  },
+  {
+    "disp": "暑い夏の夜に寝た",
+    "kana": "あついなつのよるにねた",
+    "q": "atuinatunoyorunineta",
+    "lang": "ja",
+    "uuid": "512b97d9-000a-48a3-b435-3d4321c3379f"
+  },
+  {
+    "disp": "氷のお菓子を作る",
+    "kana": "こおりのおかしをつくる",
+    "q": "koorinookasiwotukuru",
+    "lang": "ja",
+    "uuid": "8e06f1a7-5410-440d-a11f-1c36493611be"
+  },
+  {
+    "disp": "氷とお湯を合わせる",
+    "kana": "こおりとおゆをあわせる",
+    "q": "kooritooyuwoawaseru",
+    "lang": "ja",
+    "uuid": "1c78df9e-fc72-4322-a410-3806770c3f9e"
+  },
+  {
+    "disp": "黒い鉛筆を書いた",
+    "kana": "くろいえんぴつをかいた",
+    "q": "kuroiennpituwokaita",
+    "lang": "ja",
+    "uuid": "16a333a5-8681-4f87-8db9-932507c818ee"
+  },
+  {
+    "disp": "黒い鉛筆を折った",
+    "kana": "くろいえんぴつをおった",
+    "q": "kuroiennpituwootta",
+    "lang": "ja",
+    "uuid": "0f70ef32-934d-47bd-b529-480924d91e9c"
+  },
+  {
+    "disp": "靴下の掃除をする",
+    "kana": "くつしたのそうじをする",
+    "q": "kutusitanosoujiwosuru",
+    "lang": "ja",
+    "uuid": "f22b7e09-e569-4809-80ad-3d6048b290ef"
+  },
+  {
+    "disp": "布の遠い谷にいた",
+    "kana": "ぬののとおいたににいた",
+    "q": "nunonotooitaniniita",
+    "lang": "ja",
+    "uuid": "a2303d46-506e-4f71-a3ca-1fd3f4085339"
+  },
+  {
+    "disp": "お菓子と氷を置いた",
+    "kana": "おかしとこおりをおいた",
+    "q": "okasitokooriwooita",
+    "lang": "ja",
+    "uuid": "14fe09de-3257-439e-9283-3a45df24970b"
+  },
+  {
+    "disp": "お酒に氷を添えた",
+    "kana": "おさけにこおりをそえた",
+    "q": "osakenikooriwosoeta",
+    "lang": "ja",
+    "uuid": "659136e4-bf6f-4c81-85a6-3fbc5ef4b6d2"
+  },
+  {
+    "disp": "お酒と氷を置いた",
+    "kana": "おさけとこおりをおいた",
+    "q": "osaketokooriwooita",
+    "lang": "ja",
+    "uuid": "45ebf54e-4dfe-4d49-8748-6eaab5360bb2"
+  },
+  {
+    "disp": "お酒と氷を分ける",
+    "kana": "おさけとこおりをわける",
+    "q": "osaketokooriwowakeru",
+    "lang": "ja",
+    "uuid": "b46e6eda-4587-4bd1-b6e6-cb305150e682"
+  },
+  {
+    "disp": "お茶に氷を添えた",
+    "kana": "おちゃにこおりをそえた",
+    "q": "otyanikooriwosoeta",
+    "lang": "ja",
+    "uuid": "762bb3c3-fcc8-4ba5-bd65-7a3f41603757"
+  },
+  {
+    "disp": "白い鉛筆を折った",
+    "kana": "しろいえんぴつをおった",
+    "q": "siroiennpituwootta",
+    "lang": "ja",
+    "uuid": "55d8445f-837b-4fc3-8b16-40bc069ab3fd"
+  },
+  {
+    "disp": "白い靴下に濡れる",
+    "kana": "しろいくつしたにぬれる",
+    "q": "siroikutusitaninureru",
+    "lang": "ja",
+    "uuid": "4258bbba-2988-44e1-a682-c51d403c2c30"
+  },
+  {
+    "disp": "白い靴下を揃う",
+    "kana": "しろいくつしたをそろう",
+    "q": "siroikutusitawosorou",
+    "lang": "ja",
+    "uuid": "efe5df36-fc6a-433f-a68d-36ae6347379d"
+  },
+  {
+    "disp": "高い数値に笑った",
+    "kana": "たかいすうちにわらった",
+    "q": "takaisuutiniwaratta",
+    "lang": "ja",
+    "uuid": "64efac79-3255-4815-82ec-69c2117dc190"
+  },
+  {
+    "disp": "嬉しい父に教える",
+    "kana": "うれしいちちにおしえる",
+    "q": "uresiititiniosieru",
+    "lang": "ja",
+    "uuid": "b3e6e541-985f-44fa-beda-a99dabd5cb1c"
+  },
+  {
+    "disp": "明るい太陽に照らす",
+    "kana": "あかるいたいようにてらす",
+    "q": "akaruitaiyouniterasu",
+    "lang": "ja",
+    "uuid": "b15a001e-0870-4c44-88a8-9d50a77b1943"
+  },
+  {
+    "disp": "温かいお菓子を置いた",
+    "kana": "あたたかいおかしをおいた",
+    "q": "atatakaiokasiwooita",
+    "lang": "ja",
+    "uuid": "5ab90ea6-6e63-4e49-9b87-507663f624f4"
+  },
+  {
+    "disp": "温かいお茶に濡れる",
+    "kana": "あたたかいおちゃにぬれる",
+    "q": "atatakaiotyaninureru",
+    "lang": "ja",
+    "uuid": "362c3a3d-604a-4e37-b577-9be0b821a137"
+  },
+  {
+    "disp": "九日の夜に歌った",
+    "kana": "ここのかのよるにうたった",
+    "q": "kokonokanoyoruniutatta",
+    "lang": "ja",
+    "uuid": "e105a12f-22a8-4c3f-bf0e-478b4a432cdb"
+  },
+  {
+    "disp": "九つの数を数える",
+    "kana": "ここのつのかずをかぞえる",
+    "q": "kokonotunokazuwokazoeru",
+    "lang": "ja",
+    "uuid": "3bb79886-2ccf-4281-bd03-41fb8b9a6664"
+  },
+  {
+    "disp": "氷とお茶を合わせる",
+    "kana": "こおりとおちゃをあわせる",
+    "q": "kooritootyawoawaseru",
+    "lang": "ja",
+    "uuid": "138a2d17-c124-4fde-9d3c-c913c93f7185"
+  },
+  {
+    "disp": "教室の椅子を揃う",
+    "kana": "きょうしつのいすをそろう",
+    "q": "kyousitunoisuwosorou",
+    "lang": "ja",
+    "uuid": "43cd37e7-d1fc-4997-b6b4-6445bee4eee3"
+  },
+  {
+    "disp": "教室の掃除をする",
+    "kana": "きょうしつのそうじをする",
+    "q": "kyousitunosoujiwosuru",
+    "lang": "ja",
+    "uuid": "8ebeb81b-a74b-4ad5-9936-252f69383d89"
+  },
+  {
+    "disp": "お茶とお菓子を重ねる",
+    "kana": "おちゃとおかしをかさねる",
+    "q": "otyatookasiwokasaneru",
+    "lang": "ja",
+    "uuid": "573e3c4a-fc5e-4ea1-9e19-aed486f7140a"
+  },
+  {
+    "disp": "白い床を掃除をする",
+    "kana": "しろいゆかをそうじをする",
+    "q": "siroiyukawosoujiwosuru",
+    "lang": "ja",
+    "uuid": "b9c2ab38-c766-4510-ac9c-cc59e9b501cd"
+  },
+  {
+    "disp": "涼しい秋の夜に寝た",
+    "kana": "すずしいあきのよるにねた",
+    "q": "suzusiiakinoyorunineta",
+    "lang": "ja",
+    "uuid": "d6b42c8b-55ac-4744-879e-668aa47cbe85"
+  },
+  {
+    "disp": "涼しい朝の風を聞く",
+    "kana": "すずしいあさのかぜをきく",
+    "q": "suzusiiasanokazewokiku",
+    "lang": "ja",
+    "uuid": "edfc9777-b447-4560-a9d7-d36b9b78517f"
+  },
+  {
+    "disp": "都心の会社に遅い",
+    "kana": "としんのかいしゃにおそい",
+    "q": "tosinnnokaisyaniosoi",
+    "lang": "ja",
+    "uuid": "c42147b2-660c-474e-95d4-5ba017753bdc"
+  },
+  {
+    "disp": "明るい教室に起きた",
+    "kana": "あかるいきょうしつにおきた",
+    "q": "akaruikyousituniokita",
+    "lang": "ja",
+    "uuid": "210bbc4c-35f2-4761-b2e1-e43534f96470"
+  },
+  {
+    "disp": "温かいお菓子を重ねる",
+    "kana": "あたたかいおかしをかさねる",
+    "q": "atatakaiokasiwokasaneru",
+    "lang": "ja",
+    "uuid": "b98a067b-29d7-46f6-989b-4921a0922f68"
+  },
+  {
+    "disp": "温かいお茶に氷を添えた",
+    "kana": "あたたかいおちゃにこおりをそえた",
+    "q": "atatakaiotyanikooriwosoeta",
+    "lang": "ja",
+    "uuid": "6115a9e3-3f13-429e-89a4-b5674ceb89b4"
   }
 ]

@@ -263,10 +263,14 @@ export const RIGHT_THREE = createDrill({
  * Pinky (LSZ), ring (RNV) and index (GHM + FDB) — the middle finger's column is
  * out, so c/t/w go and with them た行, わ, を and ちゃ行. Past 〜た and the
  * て-form disappear too, though 〜んだ / 〜いだ survive.
+ *
+ * `k` is dropped as well even though it sits on the left hand: the engine also
+ * accepts ca/cu/co for か行, which would let the right middle finger sneak back
+ * in. Removing か行 and きゃ行 closes that door.
  */
 export const RIGHT_INDEX = createDrill({
   id: "dvorak_right_index",
-  keys: "aoeuipyqjkx',.;lszrnvghmfdb-",
+  keys: "aoeuipyqjx',.;lszrnvghmfdb-",
   yoon: true,
 });
 
