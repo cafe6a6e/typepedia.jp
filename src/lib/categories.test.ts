@@ -63,6 +63,12 @@ test("groupCategories puts Dvorak after the kanji row", () => {
   expect(groups[2].categories).toEqual(["dvorak_home_row"]);
 });
 
+test("the Dvorak row keeps its materials in drill order", () => {
+  const [dvorak] = groupCategories(["dvorak_right3", "dvorak_home_row"]);
+  expect(dvorak.label).toBe("Dvorak");
+  expect(dvorak.categories).toEqual(["dvorak_home_row", "dvorak_right3"]);
+});
+
 test("groupCategories keeps unknown categories under その他", () => {
   const groups = groupCategories(["eiken_1st_grade", "new_stuff"]);
   expect(groups.map((g) => g.id)).toEqual(["english", "other"]);

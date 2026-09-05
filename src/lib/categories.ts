@@ -14,6 +14,7 @@ export const CATEGORY_LABELS: Record<string, string> = {
   yoji_06_kyu1j: "四字熟語（漢検準1級）",
   yoji_07_kyu1: "四字熟語（漢検1級）",
   dvorak_home_row: "Dvorak（ホームキーのみ）",
+  dvorak_right3: "Dvorak（右手 小指・薬指・中指）",
 };
 
 export function categoryLabel(category: string): string {
@@ -50,6 +51,7 @@ const CATEGORY_META: Record<string, CategoryMeta> = {
   yoji_06_kyu1j: { short: "四字熟語 準1級", group: "kanji", order: 7 },
   yoji_07_kyu1: { short: "四字熟語 1級", group: "kanji", order: 8 },
   dvorak_home_row: { short: "ホームキーのみ", group: "dvorak", order: 1 },
+  dvorak_right3: { short: "右手 小薬中", group: "dvorak", order: 2 },
 };
 
 /** Short card label; falls back to the full label, then the raw id. */
