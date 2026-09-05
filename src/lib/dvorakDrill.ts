@@ -55,7 +55,7 @@ function isKana(c: string): boolean {
 }
 
 /** Katakana folded to hiragana so disp and kana can be compared directly. */
-export function toHiragana(text: string): string {
+function toHiragana(text: string): string {
   return text.replace(/[ァ-ヶ]/g, (c) =>
     String.fromCharCode(c.charCodeAt(0) - 0x60),
   );

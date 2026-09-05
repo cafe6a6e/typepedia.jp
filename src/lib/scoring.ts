@@ -135,9 +135,9 @@ function foldCase(counts: Record<string, number>, into: Map<string, number>) {
  * accuracy = correct / (correct + miss). Keystroke statistics are per expected
  * key: `keyCorrect` counts right hits and `keyMiss` counts fumbled attempts
  * (the first wrong key of each run). Keys are folded to lower case so a shifted
- * letter is not a separate key. Every key is returned: the result view picks
- * the sort order and how many rows to show. `latencies` are the gaps between
- * consecutive correct keystrokes, already filtered by the caller.
+ * letter is not a separate key. Every key is returned; the result view decides
+ * the order. `latencies` are the gaps between consecutive correct keystrokes,
+ * already filtered by the caller.
  */
 export function computeScore(
   correct: number,

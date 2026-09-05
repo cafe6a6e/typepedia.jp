@@ -29,7 +29,7 @@ import type {
 
 const N_REQUIRES_DOUBLE = new Set(["a", "i", "u", "e", "o", "y", "n"]);
 
-export interface Token {
+interface Token {
   kana: string;
   /** The spelling as authored in `q`, so the guide can show what was written. */
   spelling: string;
