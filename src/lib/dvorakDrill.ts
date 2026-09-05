@@ -259,4 +259,15 @@ export const RIGHT_THREE = createDrill({
   yoon: true,
 });
 
-export const DRILLS: Drill[] = [HOME_ROW, RIGHT_THREE];
+/**
+ * Pinky (LSZ), ring (RNV) and index (GHM + FDB) — the middle finger's column is
+ * out, so c/t/w go and with them た行, わ, を and ちゃ行. Past 〜た and the
+ * て-form disappear too, though 〜んだ / 〜いだ survive.
+ */
+export const RIGHT_INDEX = createDrill({
+  id: "dvorak_right_index",
+  keys: "aoeuipyqjkx',.;lszrnvghmfdb-",
+  yoon: true,
+});
+
+export const DRILLS: Drill[] = [HOME_ROW, RIGHT_THREE, RIGHT_INDEX];

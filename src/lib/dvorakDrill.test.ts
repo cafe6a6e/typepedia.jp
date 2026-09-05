@@ -4,6 +4,7 @@ import {
   DRILLS,
   type DvorakEntry,
   HOME_ROW,
+  RIGHT_INDEX,
   RIGHT_THREE,
 } from "@/lib/dvorakDrill";
 import type { RawSentence } from "@/types";
@@ -46,6 +47,23 @@ test("the right-three drill drops the rows needing b d f g h m", () => {
     "ryo",
   ]);
   expect([t["、"], t["。"]]).toEqual([",", "."]);
+});
+
+test("the right-index drill drops only the middle finger's column", () => {
+  const t = RIGHT_INDEX.kanaToRomaji;
+  // c, t and w go, so た行, わ, を and ちゃ行 go with them.
+  for (const kana of ["た", "ち", "つ", "て", "と", "わ", "を", "ちゃ"]) {
+    expect(t[kana]).toBeUndefined();
+  }
+  // Everything the right-three drill lacks is back: は・ま・が・だ・ば行 and ふ.
+  expect([t["は"], t["ま"], t["が"], t["だ"], t["ば"], t["ふ"]]).toEqual([
+    "ha",
+    "ma",
+    "ga",
+    "da",
+    "ba",
+    "fu",
+  ]);
 });
 
 test("toRomaji handles ん, っ and 拗音", () => {
