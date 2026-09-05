@@ -1,4 +1,5 @@
-import { categoryLabel } from "@/lib/categories";
+import { Fragment } from "react";
+import { categoryShortLabel, groupCategories } from "@/lib/categories";
 
 /** Learned / total counts for a single category. */
 export interface CategoryProgress {
@@ -19,7 +20,7 @@ function ProgressLine({ p }: { p?: CategoryProgress }) {
   if (!p || p.total === 0) return null;
   const pct = Math.round((p.learned / p.total) * 1000) / 10;
   return (
-    <span className="mt-0.5 block text-xs font-normal text-white/45">
+    <span className="mt-px block text-[10px] leading-tight font-normal tabular-nums text-white/45">
       覚えた {p.learned} / {p.total}（{pct}%）
     </span>
   );
@@ -33,26 +34,35 @@ export function CategorySelect({
   progress,
 }: Props) {
   return (
-    <div className="flex flex-col gap-2 mb-8">
-      <span className="text-sm text-white/60">題材を選択</span>
-      <div className="flex gap-2 justify-center flex-wrap">
-        {categories.map((c) => (
-          <button
-            key={c}
-            type="button"
-            onClick={(e) => {
-              onSelect(c);
-              e.currentTarget.blur();
-            }}
-            className={`px-4 py-2 rounded-md border transition-colors ${
-              c === selected
-                ? "border-green-500/70 bg-green-500/15 font-semibold"
-                : "border-white/10 text-white/60 hover:bg-white/5"
-            }`}
-          >
-            {categoryLabel(c)}
-            <ProgressLine p={progress?.[c]} />
-          </button>
+    <div className="mx-auto mb-8 flex max-w-xl flex-col gap-2">
+      <span className="text-left text-sm text-white/60">題材を選択</span>
+      <div className="grid grid-cols-[auto_1fr] items-start gap-x-4 gap-y-3 text-left">
+        {groupCategories(categories).map((g) => (
+          <Fragment key={g.id}>
+            <div className="pt-1.5 text-sm whitespace-nowrap text-white/50">
+              {g.label}
+            </div>
+            <div className="flex flex-wrap gap-1.5">
+              {g.categories.map((c) => (
+                <button
+                  key={c}
+                  type="button"
+                  onClick={(e) => {
+                    onSelect(c);
+                    e.currentTarget.blur();
+                  }}
+                  className={`rounded-md border px-2.5 py-1.5 text-sm transition-colors ${
+                    c === selected
+                      ? "border-green-500/70 bg-green-500/15 font-semibold"
+                      : "border-white/10 text-white/60 hover:bg-white/5"
+                  }`}
+                >
+                  {categoryShortLabel(c)}
+                  <ProgressLine p={progress?.[c]} />
+                </button>
+              ))}
+            </div>
+          </Fragment>
         ))}
       </div>
     </div>
