@@ -29,14 +29,16 @@ import type {
 
 const N_REQUIRES_DOUBLE = new Set(["a", "i", "u", "e", "o", "y", "n"]);
 
-interface Token {
+export interface Token {
   kana: string;
+  /** The spelling as authored in `q`, so the guide can show what was written. */
+  spelling: string;
   /** Doubled leading consonant from a preceding sokuon (っ), or "". */
   sokuon: boolean;
 }
 
 /** Greedy longest-match tokenizer over an authored romaji string. */
-function tokenize(q: string): Token[] {
+export function tokenize(q: string): Token[] {
   const tokens: Token[] = [];
   let i = 0;
   let pendingSokuon = false;
@@ -54,7 +56,11 @@ function tokenize(q: string): Token[] {
     }
 
     if (matched) {
-      tokens.push({ kana: ROMAJI_TO_KANA[matched], sokuon: pendingSokuon });
+      tokens.push({
+        kana: ROMAJI_TO_KANA[matched],
+        spelling: matched,
+        sokuon: pendingSokuon,
+      });
       pendingSokuon = false;
       i += matched.length;
       continue;
@@ -69,7 +75,7 @@ function tokenize(q: string): Token[] {
 
     // Unknown single char (authoring slip): keep it as a literal so the
     // sentence stays completable.
-    tokens.push({ kana: q[i], sokuon: pendingSokuon });
+    tokens.push({ kana: q[i], spelling: q[i], sokuon: pendingSokuon });
     pendingSokuon = false;
     i += 1;
   }
@@ -97,6 +103,16 @@ function variantsFor(kana: string, cByKana: Record<string, string>): string[] {
   return extra ? [...canonical, extra] : canonical;
 }
 
+/**
+ * Move the spelling authored in `q` to the front so the romaji guide shows what
+ * the data actually wrote (e.g. `ti` rather than the canonical `chi`).
+ */
+function preferAuthored(variants: string[], spelling: string): string[] {
+  const i = variants.indexOf(spelling);
+  if (i <= 0) return variants;
+  return [spelling, ...variants.filter((v) => v !== spelling)];
+}
+
 /** Apply a sokuon by doubling each variant's leading consonant. */
 function applySokuon(variants: string[]): string[] {
   return variants.map((v) => v[0] + v);
@@ -118,7 +134,7 @@ export function compileMatcher(
   const cByKana = buildCByKana(settings);
   const tokens = tokenize(q);
   const slots: Slot[] = tokens.map((t) => {
-    let variants = variantsFor(t.kana, cByKana);
+    let variants = preferAuthored(variantsFor(t.kana, cByKana), t.spelling);
     if (t.sokuon) variants = applySokuon(variants);
     return { kana: t.kana, display: variants[0], variants };
   });

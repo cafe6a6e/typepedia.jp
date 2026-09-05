@@ -154,3 +154,20 @@ describe("boundary cases", () => {
     expect(r.result).toBe("miss");
   });
 });
+
+describe("romaji guide follows the authored spelling", () => {
+  test("q written with kunrei spellings guides with them", () => {
+    const slots = compileMatcher("tiisanahuta", DEFAULT_SETTINGS, "ja");
+    expect(slots.map((s) => s.variants[0]).join("")).toBe("tiisanahuta");
+  });
+
+  test("q written with the canonical spellings is unchanged", () => {
+    const slots = compileMatcher("chiisanafuta", DEFAULT_SETTINGS, "ja");
+    expect(slots.map((s) => s.variants[0]).join("")).toBe("chiisanafuta");
+  });
+
+  test("reordering variants does not change what is accepted", () => {
+    expect(play("tiisai", "chiisai").completed).toBe(true);
+    expect(play("chiisai", "tiisai").completed).toBe(true);
+  });
+});
