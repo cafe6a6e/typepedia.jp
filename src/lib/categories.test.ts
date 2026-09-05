@@ -67,6 +67,14 @@ test("the Dvorak row keeps its materials in drill order", () => {
   const [dvorak] = groupCategories(["dvorak_right3", "dvorak_home_row"]);
   expect(dvorak.label).toBe("Dvorak");
   expect(dvorak.categories).toEqual(["dvorak_home_row", "dvorak_right3"]);
+  expect(dvorak.categories.map(categoryShortLabel)).toEqual([
+    "Home段限定",
+    "右小/薬/中指限定",
+  ]);
+  expect(dvorak.categories.map(categoryLabel)).toEqual([
+    "Dvorak（Home段限定）",
+    "Dvorak（右小/薬/中指限定）",
+  ]);
 });
 
 test("groupCategories keeps unknown categories under その他", () => {
