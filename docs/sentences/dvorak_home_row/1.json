@@ -1,0 +1,2508 @@
+[
+  {
+    "disp": "姉",
+    "kana": "あね",
+    "q": "ane",
+    "lang": "ja",
+    "uuid": "d6d8fb35-6d21-4d66-ba16-e08cc14bc03c"
+  },
+  {
+    "disp": "兄",
+    "kana": "あに",
+    "q": "ani",
+    "lang": "ja",
+    "uuid": "b0a6f7b8-9ad3-4a46-9283-a1a07fa2ee74"
+  },
+  {
+    "disp": "青",
+    "kana": "あお",
+    "q": "ao",
+    "lang": "ja",
+    "uuid": "7ae4ad1e-f548-4856-a484-0fa02487d330"
+  },
+  {
+    "disp": "朝",
+    "kana": "あさ",
+    "q": "asa",
+    "lang": "ja",
+    "uuid": "0b61cbcd-8eaf-4fa0-ae99-dfb760b64c94"
+  },
+  {
+    "disp": "汗",
+    "kana": "あせ",
+    "q": "ase",
+    "lang": "ja",
+    "uuid": "2654be69-a45c-4c5d-aa13-13f7617875b3"
+  },
+  {
+    "disp": "足",
+    "kana": "あし",
+    "q": "asi",
+    "lang": "ja",
+    "uuid": "95141fc6-ecab-41ae-b208-07f4cdf77d50"
+  },
+  {
+    "disp": "後",
+    "kana": "あと",
+    "q": "ato",
+    "lang": "ja",
+    "uuid": "a320ca48-793c-4a2c-a206-ef5c75614b27"
+  },
+  {
+    "disp": "合う",
+    "kana": "あう",
+    "q": "au",
+    "lang": "ja",
+    "uuid": "4ca96ca0-5fb7-4fdd-9c84-686d265f7fe3"
+  },
+  {
+    "disp": "台",
+    "kana": "だい",
+    "q": "dai",
+    "lang": "ja",
+    "uuid": "a3392030-dbc2-4173-a36d-b6c083dee3b6"
+  },
+  {
+    "disp": "出す",
+    "kana": "だす",
+    "q": "dasu",
+    "lang": "ja",
+    "uuid": "e528afb3-8471-4aa8-8df2-fab6b063c00a"
+  },
+  {
+    "disp": "出た",
+    "kana": "でた",
+    "q": "deta",
+    "lang": "ja",
+    "uuid": "f9438e9f-19ce-4195-a970-8667fc5dd5d4"
+  },
+  {
+    "disp": "肌",
+    "kana": "はだ",
+    "q": "hada",
+    "lang": "ja",
+    "uuid": "7db50f46-95ea-4562-be9e-b95421d352fa"
+  },
+  {
+    "disp": "派手",
+    "kana": "はで",
+    "q": "hade",
+    "lang": "ja",
+    "uuid": "6c9fb2f1-d161-4b74-b627-704f0369eecc"
+  },
+  {
+    "disp": "母",
+    "kana": "はは",
+    "q": "haha",
+    "lang": "ja",
+    "uuid": "39c35f74-5cb5-405e-bf46-d9144fc95210"
+  },
+  {
+    "disp": "肺",
+    "kana": "はい",
+    "q": "hai",
+    "lang": "ja",
+    "uuid": "8eac41c1-edc3-40e1-b208-d578b8bf4ccc"
+  },
+  {
+    "disp": "花",
+    "kana": "はな",
+    "q": "hana",
+    "lang": "ja",
+    "uuid": "b5a01ff1-bbe4-4ff6-bdc6-dafd8bf5efc8"
+  },
+  {
+    "disp": "橋",
+    "kana": "はし",
+    "q": "hasi",
+    "lang": "ja",
+    "uuid": "9ce5e019-cf2e-4a55-b517-366a8167eafe"
+  },
+  {
+    "disp": "蓮",
+    "kana": "はす",
+    "q": "hasu",
+    "lang": "ja",
+    "uuid": "f6c4f061-ab81-4a38-bb27-c6ac253ec124"
+  },
+  {
+    "disp": "蜂",
+    "kana": "はち",
+    "q": "hati",
+    "lang": "ja",
+    "uuid": "1c880e3b-b51d-410b-bdec-b0e227dcfd86"
+  },
+  {
+    "disp": "皮膚",
+    "kana": "ひふ",
+    "q": "hihu",
+    "lang": "ja",
+    "uuid": "1d2c0c0b-0d50-48a3-9a41-7f3a5a06d816"
+  },
+  {
+    "disp": "人",
+    "kana": "ひと",
+    "q": "hito",
+    "lang": "ja",
+    "uuid": "05136894-98bc-4e18-8240-56b9664a60d8"
+  },
+  {
+    "disp": "骨",
+    "kana": "ほね",
+    "q": "hone",
+    "lang": "ja",
+    "uuid": "137b1df1-9988-4a4d-b168-0bf2b88a260a"
+  },
+  {
+    "disp": "本",
+    "kana": "ほん",
+    "q": "honn",
+    "lang": "ja",
+    "uuid": "fcf5ebdc-21d4-420b-a0df-69406a540fb2"
+  },
+  {
+    "disp": "頬",
+    "kana": "ほお",
+    "q": "hoo",
+    "lang": "ja",
+    "uuid": "c1cb7cbc-ff75-4ae6-ac9f-ec2dd84fcd4a"
+  },
+  {
+    "disp": "星",
+    "kana": "ほし",
+    "q": "hosi",
+    "lang": "ja",
+    "uuid": "dc7f4b9e-a15b-4131-89e2-c97f72f0c3bd"
+  },
+  {
+    "disp": "笛",
+    "kana": "ふえ",
+    "q": "hue",
+    "lang": "ja",
+    "uuid": "6ac32bfe-f15c-417d-ad98-9302a2fd24a6"
+  },
+  {
+    "disp": "船",
+    "kana": "ふね",
+    "q": "hune",
+    "lang": "ja",
+    "uuid": "1a6f7936-5216-4aa7-8971-938a6b27f1be"
+  },
+  {
+    "disp": "井戸",
+    "kana": "いど",
+    "q": "ido",
+    "lang": "ja",
+    "uuid": "47385c54-7eb3-4a81-bbb1-c9603eb4d66d"
+  },
+  {
+    "disp": "家",
+    "kana": "いえ",
+    "q": "ie",
+    "lang": "ja",
+    "uuid": "b14d9d2e-41fe-4132-b58f-ddc29528a2ea"
+  },
+  {
+    "disp": "稲",
+    "kana": "いね",
+    "q": "ine",
+    "lang": "ja",
+    "uuid": "736242f9-f421-4eff-a85d-d7189cdf395f"
+  },
+  {
+    "disp": "犬",
+    "kana": "いぬ",
+    "q": "inu",
+    "lang": "ja",
+    "uuid": "f5eeb62b-ef19-4473-8065-2e607813db80"
+  },
+  {
+    "disp": "石",
+    "kana": "いし",
+    "q": "isi",
+    "lang": "ja",
+    "uuid": "4a0b7215-0a47-4f2f-8984-c19485eaea60"
+  },
+  {
+    "disp": "椅子",
+    "kana": "いす",
+    "q": "isu",
+    "lang": "ja",
+    "uuid": "6c20809e-0576-4bb2-95aa-2e45d8f12b7b"
+  },
+  {
+    "disp": "市",
+    "kana": "いち",
+    "q": "iti",
+    "lang": "ja",
+    "uuid": "61e32acf-1142-4c92-b45c-f7f760821b39"
+  },
+  {
+    "disp": "糸",
+    "kana": "いと",
+    "q": "ito",
+    "lang": "ja",
+    "uuid": "0c50f468-f40f-49af-ab66-3df497784fbc"
+  },
+  {
+    "disp": "言う",
+    "kana": "いう",
+    "q": "iu",
+    "lang": "ja",
+    "uuid": "cc87334b-6eec-42b6-a620-3b5b8695677f"
+  },
+  {
+    "disp": "苗",
+    "kana": "なえ",
+    "q": "nae",
+    "lang": "ja",
+    "uuid": "45b674bb-cff8-4749-bfac-b28fbfeec11c"
+  },
+  {
+    "disp": "七",
+    "kana": "なな",
+    "q": "nana",
+    "lang": "ja",
+    "uuid": "051d0508-805a-4427-8172-2f389941ad14"
+  },
+  {
+    "disp": "茄子",
+    "kana": "なす",
+    "q": "nasu",
+    "lang": "ja",
+    "uuid": "c1be1001-b5c0-4aad-857b-ba89dbbe3f71"
+  },
+  {
+    "disp": "夏",
+    "kana": "なつ",
+    "q": "natu",
+    "lang": "ja",
+    "uuid": "562c4104-4705-4d30-b417-7d4c19497151"
+  },
+  {
+    "disp": "西",
+    "kana": "にし",
+    "q": "nisi",
+    "lang": "ja",
+    "uuid": "8677a68a-b8c6-4e6b-8383-dbcb41d8ba13"
+  },
+  {
+    "disp": "喉",
+    "kana": "のど",
+    "q": "nodo",
+    "lang": "ja",
+    "uuid": "936a5b24-5267-4663-add8-c7d77ea63956"
+  },
+  {
+    "disp": "脳",
+    "kana": "のう",
+    "q": "nou",
+    "lang": "ja",
+    "uuid": "92a165c9-b35b-4855-bacc-06fca3a73cbc"
+  },
+  {
+    "disp": "布",
+    "kana": "ぬの",
+    "q": "nuno",
+    "lang": "ja",
+    "uuid": "5ea34a4f-f3a6-4b61-b85a-066a6f3f0eca"
+  },
+  {
+    "disp": "縫う",
+    "kana": "ぬう",
+    "q": "nuu",
+    "lang": "ja",
+    "uuid": "4f5843c0-9499-4bc8-a93b-d53644f0ce2f"
+  },
+  {
+    "disp": "踊",
+    "kana": "おど",
+    "q": "odo",
+    "lang": "ja",
+    "uuid": "48f7cb3f-e6a5-45e3-a082-63dd48428a22"
+  },
+  {
+    "disp": "押す",
+    "kana": "おす",
+    "q": "osu",
+    "lang": "ja",
+    "uuid": "40c82c63-71bc-4a7d-9c73-668b6757083d"
+  },
+  {
+    "disp": "音",
+    "kana": "おと",
+    "q": "oto",
+    "lang": "ja",
+    "uuid": "e9ad76cc-970f-4bfb-999c-52fb7e66a06b"
+  },
+  {
+    "disp": "千",
+    "kana": "せん",
+    "q": "senn",
+    "lang": "ja",
+    "uuid": "87f1abb9-5fa4-4017-9016-266df76a8236"
+  },
+  {
+    "disp": "品",
+    "kana": "しな",
+    "q": "sina",
+    "lang": "ja",
+    "uuid": "4bff3156-de2c-4b06-8d77-f161c9e917b5"
+  },
+  {
+    "disp": "塩",
+    "kana": "しお",
+    "q": "sio",
+    "lang": "ja",
+    "uuid": "d13a495f-ab97-4769-ad8a-fd5e341248bc"
+  },
+  {
+    "disp": "下",
+    "kana": "した",
+    "q": "sita",
+    "lang": "ja",
+    "uuid": "c592a7bd-b2d6-4618-85dc-046ef3d386a2"
+  },
+  {
+    "disp": "湿地",
+    "kana": "しち",
+    "q": "siti",
+    "lang": "ja",
+    "uuid": "4d1d25e0-e77a-41f5-aac9-c7cd56834b1a"
+  },
+  {
+    "disp": "袖",
+    "kana": "そで",
+    "q": "sode",
+    "lang": "ja",
+    "uuid": "d6729bba-8609-4520-9a66-877305728276"
+  },
+  {
+    "disp": "外",
+    "kana": "そと",
+    "q": "soto",
+    "lang": "ja",
+    "uuid": "07ed3642-a0a2-4a6a-93cb-2e92c8ac567a"
+  },
+  {
+    "disp": "酸い",
+    "kana": "すい",
+    "q": "sui",
+    "lang": "ja",
+    "uuid": "5ed51e98-afd1-4537-b16e-1fe7d141a0e0"
+  },
+  {
+    "disp": "砂",
+    "kana": "すな",
+    "q": "suna",
+    "lang": "ja",
+    "uuid": "683ef3fb-31ef-4d7c-b0b9-5d79621c2a95"
+  },
+  {
+    "disp": "裾",
+    "kana": "すそ",
+    "q": "suso",
+    "lang": "ja",
+    "uuid": "7d87ee03-26ff-4c46-afbf-8c3efdb2a711"
+  },
+  {
+    "disp": "棚",
+    "kana": "たな",
+    "q": "tana",
+    "lang": "ja",
+    "uuid": "8d5aac9e-dd45-4a03-bdb9-7ba54d3c9a67"
+  },
+  {
+    "disp": "谷",
+    "kana": "たに",
+    "q": "tani",
+    "lang": "ja",
+    "uuid": "c7e40df7-ec95-42f9-8e1b-7a70a017849d"
+  },
+  {
+    "disp": "立つ",
+    "kana": "たつ",
+    "q": "tatu",
+    "lang": "ja",
+    "uuid": "207a55f0-7e18-4698-a996-e83737911051"
+  },
+  {
+    "disp": "父",
+    "kana": "ちち",
+    "q": "titi",
+    "lang": "ja",
+    "uuid": "04efe25e-09ab-42f8-a2ac-209ddfcfb29c"
+  },
+  {
+    "disp": "塔",
+    "kana": "とう",
+    "q": "tou",
+    "lang": "ja",
+    "uuid": "30f98ecc-cf1f-448c-94a7-eb122527cbe8"
+  },
+  {
+    "disp": "土",
+    "kana": "つち",
+    "q": "tuti",
+    "lang": "ja",
+    "uuid": "33f83afa-44ac-4b70-94e1-35099a6f875c"
+  },
+  {
+    "disp": "腕",
+    "kana": "うで",
+    "q": "ude",
+    "lang": "ja",
+    "uuid": "02f2dbe0-0b67-4092-87db-f6e4d258f62d"
+  },
+  {
+    "disp": "上",
+    "kana": "うえ",
+    "q": "ue",
+    "lang": "ja",
+    "uuid": "66e39a36-ae79-4945-8372-1604aac040ba"
+  },
+  {
+    "disp": "歌",
+    "kana": "うた",
+    "q": "uta",
+    "lang": "ja",
+    "uuid": "cead2e7b-e81e-4bd0-9b14-d6bbb8207deb"
+  },
+  {
+    "disp": "青い",
+    "kana": "あおい",
+    "q": "aoi",
+    "lang": "ja",
+    "uuid": "c79f7b4f-ae11-4049-9c77-8ecdca40a11c"
+  },
+  {
+    "disp": "朝日",
+    "kana": "あさひ",
+    "q": "asahi",
+    "lang": "ja",
+    "uuid": "55d792c3-a463-4d26-9ef6-392a3d984b86"
+  },
+  {
+    "disp": "浅い",
+    "kana": "あさい",
+    "q": "asai",
+    "lang": "ja",
+    "uuid": "74771205-9ed3-44d3-a10f-3bfc4e3f9e36"
+  },
+  {
+    "disp": "明日",
+    "kana": "あした",
+    "q": "asita",
+    "lang": "ja",
+    "uuid": "d3c52b22-fc58-4911-8eff-3ae2521554c0"
+  },
+  {
+    "disp": "暑い",
+    "kana": "あつい",
+    "q": "atui",
+    "lang": "ja",
+    "uuid": "f2a74743-ca05-4dba-8c9b-7dc399588940"
+  },
+  {
+    "disp": "出した",
+    "kana": "だした",
+    "q": "dasita",
+    "lang": "ja",
+    "uuid": "6f302b9a-4d64-49bf-a80d-292bcc2f9e39"
+  },
+  {
+    "disp": "同士",
+    "kana": "どうし",
+    "q": "dousi",
+    "lang": "ja",
+    "uuid": "ffa63e50-5258-4d30-a724-ee0578c42bb8"
+  },
+  {
+    "disp": "絵本",
+    "kana": "えほん",
+    "q": "ehonn",
+    "lang": "ja",
+    "uuid": "1f5784e3-393d-4196-85a2-515a1f11b529"
+  },
+  {
+    "disp": "話",
+    "kana": "はなし",
+    "q": "hanasi",
+    "lang": "ja",
+    "uuid": "cf563fb4-1b6c-422e-8056-d63e51ccb6c6"
+  },
+  {
+    "disp": "話す",
+    "kana": "はなす",
+    "q": "hanasu",
+    "lang": "ja",
+    "uuid": "bf9bd38e-83f9-4128-bf46-d25a562e6ead"
+  },
+  {
+    "disp": "額",
+    "kana": "ひたい",
+    "q": "hitai",
+    "lang": "ja",
+    "uuid": "9465adc2-af0f-498f-a48a-105e3f4c2dc9"
+  },
+  {
+    "disp": "一つ",
+    "kana": "ひとつ",
+    "q": "hitotu",
+    "lang": "ja",
+    "uuid": "e5d0578b-985b-457b-8c16-9ea415aa764c"
+  },
+  {
+    "disp": "炎",
+    "kana": "ほのお",
+    "q": "honoo",
+    "lang": "ja",
+    "uuid": "25d0a158-a30b-4a25-b2d0-5c78dee45fc7"
+  },
+  {
+    "disp": "欲しい",
+    "kana": "ほしい",
+    "q": "hosii",
+    "lang": "ja",
+    "uuid": "81972b50-9fbb-4e13-96ca-1370f4e315f3"
+  },
+  {
+    "disp": "細い",
+    "kana": "ほそい",
+    "q": "hosoi",
+    "lang": "ja",
+    "uuid": "7dc375b0-ebf3-4abc-8638-ca1c59305942"
+  },
+  {
+    "disp": "不安",
+    "kana": "ふあん",
+    "q": "huann",
+    "lang": "ja",
+    "uuid": "56e0b2cd-178d-494a-a9c6-86e88a9dde6e"
+  },
+  {
+    "disp": "二つ",
+    "kana": "ふたつ",
+    "q": "hutatu",
+    "lang": "ja",
+    "uuid": "8f0604c7-13eb-468c-9e40-860e2c9dab34"
+  },
+  {
+    "disp": "太い",
+    "kana": "ふとい",
+    "q": "hutoi",
+    "lang": "ja",
+    "uuid": "04099760-9869-4c3d-9308-a0809138d9cc"
+  },
+  {
+    "disp": "布団",
+    "kana": "ふとん",
+    "q": "hutonn",
+    "lang": "ja",
+    "uuid": "c952bdcc-2c2a-43f8-afef-cc9ee86c5bf1"
+  },
+  {
+    "disp": "痛い",
+    "kana": "いたい",
+    "q": "itai",
+    "lang": "ja",
+    "uuid": "f1cf2a6f-f057-4a96-8971-dad4029690bd"
+  },
+  {
+    "disp": "泣いた",
+    "kana": "ないた",
+    "q": "naita",
+    "lang": "ja",
+    "uuid": "1f284269-bfd7-4bbf-b626-af9f7f9864e9"
+  },
+  {
+    "disp": "七つ",
+    "kana": "ななつ",
+    "q": "nanatu",
+    "lang": "ja",
+    "uuid": "769ade0a-c8ef-4620-b73d-23f338ee5f37"
+  },
+  {
+    "disp": "女",
+    "kana": "おんな",
+    "q": "onnna",
+    "lang": "ja",
+    "uuid": "02789581-a66c-4e0e-90b5-196403514d6e"
+  },
+  {
+    "disp": "多い",
+    "kana": "おおい",
+    "q": "ooi",
+    "lang": "ja",
+    "uuid": "760dd4d7-a539-450b-a362-ecac534ab125"
+  },
+  {
+    "disp": "遅い",
+    "kana": "おそい",
+    "q": "osoi",
+    "lang": "ja",
+    "uuid": "203febcf-0ec5-4bd6-8d05-e650fcfd364c"
+  },
+  {
+    "disp": "夫",
+    "kana": "おっと",
+    "q": "otto",
+    "lang": "ja",
+    "uuid": "9a23a37d-03c1-491d-9324-90854fda67c4"
+  },
+  {
+    "disp": "財布",
+    "kana": "さいふ",
+    "q": "saihu",
+    "lang": "ja",
+    "uuid": "4cf97956-f795-4516-b4cf-8378c8f42d8c"
+  },
+  {
+    "disp": "冊子",
+    "kana": "さっし",
+    "q": "sassi",
+    "lang": "ja",
+    "uuid": "ee296f99-6b83-48b2-a239-987d04e17a8e"
+  },
+  {
+    "disp": "砂糖",
+    "kana": "さとう",
+    "q": "satou",
+    "lang": "ja",
+    "uuid": "39faa5f1-a479-49f6-a581-facc86b8886b"
+  },
+  {
+    "disp": "育つ",
+    "kana": "そだつ",
+    "q": "sodatu",
+    "lang": "ja",
+    "uuid": "e0c1d196-ad87-4133-b5ee-5ba23de812ac"
+  },
+  {
+    "disp": "手足",
+    "kana": "てあし",
+    "q": "teasi",
+    "lang": "ja",
+    "uuid": "bab28994-b759-43d5-b94f-a9463056bba1"
+  },
+  {
+    "disp": "遠い",
+    "kana": "とおい",
+    "q": "tooi",
+    "lang": "ja",
+    "uuid": "977cd1b2-ee56-44b0-8559-cb5c15f884a1"
+  },
+  {
+    "disp": "薄い",
+    "kana": "うすい",
+    "q": "usui",
+    "lang": "ja",
+    "uuid": "35ad0c55-b132-422f-a722-571717f18b64"
+  },
+  {
+    "disp": "歌う",
+    "kana": "うたう",
+    "q": "utau",
+    "lang": "ja",
+    "uuid": "2d4cb289-d165-47ff-814b-c7528c028005"
+  },
+  {
+    "disp": "雨天",
+    "kana": "うてん",
+    "q": "utenn",
+    "lang": "ja",
+    "uuid": "97c1c299-2057-4668-81e9-12c50ced790e"
+  },
+  {
+    "disp": "映す",
+    "kana": "うつす",
+    "q": "utusu",
+    "lang": "ja",
+    "uuid": "4fa0e792-3882-44b3-ba15-1fc2eb70d574"
+  },
+  {
+    "disp": "安心",
+    "kana": "あんしん",
+    "q": "annsinn",
+    "lang": "ja",
+    "uuid": "fc2c18b0-e68f-47b2-bff1-94b32dc2ae41"
+  },
+  {
+    "disp": "足跡",
+    "kana": "あしあと",
+    "q": "asiato",
+    "lang": "ja",
+    "uuid": "219d5139-7542-41be-bc8f-733dda809d80"
+  },
+  {
+    "disp": "足音",
+    "kana": "あしおと",
+    "q": "asioto",
+    "lang": "ja",
+    "uuid": "a214f368-28a7-4c94-9116-24805926c323"
+  },
+  {
+    "disp": "暑い日",
+    "kana": "あついひ",
+    "q": "atuihi",
+    "lang": "ja",
+    "uuid": "92cf0297-cf41-456b-bc22-4233c1ed841b"
+  },
+  {
+    "disp": "電灯",
+    "kana": "でんとう",
+    "q": "denntou",
+    "lang": "ja",
+    "uuid": "c1c13760-481c-471c-ae30-1f032675a55f"
+  },
+  {
+    "disp": "曇天",
+    "kana": "どんてん",
+    "q": "donntenn",
+    "lang": "ja",
+    "uuid": "528d5775-2fa7-4e2b-9b99-96c77bec7a6b"
+  },
+  {
+    "disp": "演奏",
+    "kana": "えんそう",
+    "q": "ennsou",
+    "lang": "ja",
+    "uuid": "15748312-81e7-40f7-ac23-041802934bdb"
+  },
+  {
+    "disp": "走った",
+    "kana": "はしった",
+    "q": "hasitta",
+    "lang": "ja",
+    "uuid": "3d6d06a7-2de9-424d-ad52-a7a27f341141"
+  },
+  {
+    "disp": "発生",
+    "kana": "はっせい",
+    "q": "hassei",
+    "lang": "ja",
+    "uuid": "212f2b7e-8277-448c-b8c4-f2493757539e"
+  },
+  {
+    "disp": "発展",
+    "kana": "はってん",
+    "q": "hattenn",
+    "lang": "ja",
+    "uuid": "f3a02b56-7840-4bf1-b64c-f795f1cbf5ee"
+  },
+  {
+    "disp": "変動",
+    "kana": "へんどう",
+    "q": "henndou",
+    "lang": "ja",
+    "uuid": "18acee5f-4734-4c6d-a922-249d18068a3b"
+  },
+  {
+    "disp": "本棚",
+    "kana": "ほんだな",
+    "q": "honndana",
+    "lang": "ja",
+    "uuid": "bf07b3ad-9629-4426-9b88-f091fe988970"
+  },
+  {
+    "disp": "分針",
+    "kana": "ふんしん",
+    "q": "hunnsinn",
+    "lang": "ja",
+    "uuid": "1906dd50-dab9-4d2b-8049-8c4b06b213dd"
+  },
+  {
+    "disp": "一年",
+    "kana": "いちねん",
+    "q": "itinenn",
+    "lang": "ja",
+    "uuid": "206d1fc2-1458-43ea-a7ef-edb8267f4de0"
+  },
+  {
+    "disp": "美味しい",
+    "kana": "おいしい",
+    "q": "oisii",
+    "lang": "ja",
+    "uuid": "f912dea3-1fed-4dd0-adf3-e4897ad5316c"
+  },
+  {
+    "disp": "温帯",
+    "kana": "おんだい",
+    "q": "onndai",
+    "lang": "ja",
+    "uuid": "3a3922cd-e469-4ddf-80fb-702944b42bae"
+  },
+  {
+    "disp": "再生",
+    "kana": "さいせい",
+    "q": "saisei",
+    "lang": "ja",
+    "uuid": "0dddf579-18de-41ad-bf68-853d19066904"
+  },
+  {
+    "disp": "聖堂",
+    "kana": "せいどう",
+    "q": "seidou",
+    "lang": "ja",
+    "uuid": "ebf0b1d6-b928-4e18-91dc-542e1023579f"
+  },
+  {
+    "disp": "晴天",
+    "kana": "せいてん",
+    "q": "seitenn",
+    "lang": "ja",
+    "uuid": "f7cf2294-d823-4eb6-aa5a-74afa9c2fb0e"
+  },
+  {
+    "disp": "先生",
+    "kana": "せんせい",
+    "q": "sennsei",
+    "lang": "ja",
+    "uuid": "847ed04c-7204-415c-b0c1-bc3fd40eae85"
+  },
+  {
+    "disp": "神殿",
+    "kana": "しんでん",
+    "q": "sinndenn",
+    "lang": "ja",
+    "uuid": "6c28508c-1bd8-48e7-9579-f1aa04effb40"
+  },
+  {
+    "disp": "寝室",
+    "kana": "しんしつ",
+    "q": "sinnsitu",
+    "lang": "ja",
+    "uuid": "fb294edd-1137-47ec-87c6-759dea27074e"
+  },
+  {
+    "disp": "親しい",
+    "kana": "したしい",
+    "q": "sitasii",
+    "lang": "ja",
+    "uuid": "7bb2bbf5-7046-4898-929c-23309b684801"
+  },
+  {
+    "disp": "正しい",
+    "kana": "ただしい",
+    "q": "tadasii",
+    "lang": "ja",
+    "uuid": "8aa25378-70ae-483e-b7af-1f59cad58699"
+  },
+  {
+    "disp": "楽しい",
+    "kana": "たのしい",
+    "q": "tanosii",
+    "lang": "ja",
+    "uuid": "169a0944-ef95-42af-beaf-4dc1b9e67d91"
+  },
+  {
+    "disp": "丁寧",
+    "kana": "ていねい",
+    "q": "teinei",
+    "lang": "ja",
+    "uuid": "d42466db-e6bb-4782-93b2-2f6a01511acc"
+  },
+  {
+    "disp": "小さい",
+    "kana": "ちいさい",
+    "q": "tiisai",
+    "lang": "ja",
+    "uuid": "9bf1f9a9-ba0f-4958-b255-1234353d0634"
+  },
+  {
+    "disp": "灯台",
+    "kana": "とうだい",
+    "q": "toudai",
+    "lang": "ja",
+    "uuid": "8534c7d2-f652-410c-83a7-064291e87e80"
+  },
+  {
+    "disp": "伝えた",
+    "kana": "つたえた",
+    "q": "tutaeta",
+    "lang": "ja",
+    "uuid": "5b3b547b-ad72-4585-adbf-7a6986defc20"
+  },
+  {
+    "disp": "失う",
+    "kana": "うしなう",
+    "q": "usinau",
+    "lang": "ja",
+    "uuid": "c4eea9ab-4b05-467b-aaf1-6e48c8e8cab2"
+  },
+  {
+    "disp": "橋の上",
+    "kana": "はしのうえ",
+    "q": "hasinoue",
+    "lang": "ja",
+    "uuid": "eb8750c0-7cff-450a-92ef-94ad5a3dbd47"
+  },
+  {
+    "disp": "姉と走った",
+    "kana": "あねとはしった",
+    "q": "anetohasitta",
+    "lang": "ja",
+    "uuid": "206a88c1-6574-4eaf-b23d-d111fae3ed61"
+  },
+  {
+    "disp": "花は美味しい",
+    "kana": "はなはおいしい",
+    "q": "hanahaoisii",
+    "lang": "ja",
+    "uuid": "62c750d1-0767-48e8-a723-5a2653a39dba"
+  },
+  {
+    "disp": "花は小さい",
+    "kana": "はなはちいさい",
+    "q": "hanahatiisai",
+    "lang": "ja",
+    "uuid": "3d748f44-4d9a-4db9-a6e1-0ad7ff74f76b"
+  },
+  {
+    "disp": "犬と走った",
+    "kana": "いぬとはしった",
+    "q": "inutohasitta",
+    "lang": "ja",
+    "uuid": "a60ad7c9-0973-4e71-ad07-63f5cb2e5889"
+  },
+  {
+    "disp": "外へ走った",
+    "kana": "そとへはしった",
+    "q": "sotohehasitta",
+    "lang": "ja",
+    "uuid": "377585fd-9cec-471f-80b9-43b91a719298"
+  },
+  {
+    "disp": "歌は楽しい",
+    "kana": "うたはたのしい",
+    "q": "utahatanosii",
+    "lang": "ja",
+    "uuid": "f703e3e9-aff9-4b2c-a258-14025691a64b"
+  },
+  {
+    "disp": "朝の喉は酸い",
+    "kana": "あさののどはすい",
+    "q": "asanonodohasui",
+    "lang": "ja",
+    "uuid": "714badbd-144d-450d-8da6-64ce23a6de1a"
+  },
+  {
+    "disp": "皮膚の脳は押す",
+    "kana": "ひふののうはおす",
+    "q": "hihunonouhaosu",
+    "lang": "ja",
+    "uuid": "142de244-ec6a-468c-9d10-ea7f5c3a03ff"
+  },
+  {
+    "disp": "家の外へ出た",
+    "kana": "いえのそとへでた",
+    "q": "ienosotohedeta",
+    "lang": "ja",
+    "uuid": "2122e459-8051-4f21-8434-a8d3c857a9b3"
+  },
+  {
+    "disp": "夏は暑い日だ",
+    "kana": "なつはあついひだ",
+    "q": "natuhaatuihida",
+    "lang": "ja",
+    "uuid": "6c2c78d0-1a09-4b23-9097-9eeff0afa063"
+  },
+  {
+    "disp": "夏の茄子は酸い",
+    "kana": "なつのなすはすい",
+    "q": "natunonasuhasui",
+    "lang": "ja",
+    "uuid": "109c657e-15d5-4e0e-b819-a885df892a1a"
+  },
+  {
+    "disp": "神殿は遠い",
+    "kana": "しんでんはとおい",
+    "q": "sinndennhatooi",
+    "lang": "ja",
+    "uuid": "2f800355-25f5-4043-bd4a-553fb79a3e5f"
+  },
+  {
+    "disp": "外は晴天だ",
+    "kana": "そとはせいてんだ",
+    "q": "sotohaseitennda",
+    "lang": "ja",
+    "uuid": "a17380bb-4e8d-4c33-81ba-70775804b931"
+  },
+  {
+    "disp": "父の喉は酸い",
+    "kana": "ちちののどはすい",
+    "q": "titinonodohasui",
+    "lang": "ja",
+    "uuid": "af200522-3e56-43f6-a719-39e69bf66048"
+  },
+  {
+    "disp": "灯台は遠い",
+    "kana": "とうだいはとおい",
+    "q": "toudaihatooi",
+    "lang": "ja",
+    "uuid": "9459e658-cdea-47d6-b7a5-206d457686af"
+  },
+  {
+    "disp": "塔の上へ出た",
+    "kana": "とうのうえへでた",
+    "q": "tounouehedeta",
+    "lang": "ja",
+    "uuid": "9b026120-565f-4eec-8898-2f6b69ad3f85"
+  },
+  {
+    "disp": "姉の笛は遠い",
+    "kana": "あねのふえはとおい",
+    "q": "anenohuehatooi",
+    "lang": "ja",
+    "uuid": "2a7591fe-2455-4d63-99c3-921f3c6cc613"
+  },
+  {
+    "disp": "姉の腕は細い",
+    "kana": "あねのうではほそい",
+    "q": "anenoudehahosoi",
+    "lang": "ja",
+    "uuid": "c310debf-476d-4d02-98a1-ce520fe693af"
+  },
+  {
+    "disp": "姉の腕は太い",
+    "kana": "あねのうではふとい",
+    "q": "anenoudehahutoi",
+    "lang": "ja",
+    "uuid": "480c1d4f-ef17-4895-9966-db65d6b1f7e0"
+  },
+  {
+    "disp": "兄の花は青い",
+    "kana": "あにのはなはあおい",
+    "q": "aninohanahaaoi",
+    "lang": "ja",
+    "uuid": "b4dd8416-f9cb-4b86-907d-403f0f3948c1"
+  },
+  {
+    "disp": "兄の笛は遠い",
+    "kana": "あにのふえはとおい",
+    "q": "aninohuehatooi",
+    "lang": "ja",
+    "uuid": "9a97eb8b-1b13-41f6-b44b-446bc8055384"
+  },
+  {
+    "disp": "兄の腕は太い",
+    "kana": "あにのうではふとい",
+    "q": "aninoudehahutoi",
+    "lang": "ja",
+    "uuid": "f022310d-f3a9-4aec-9d07-695344307491"
+  },
+  {
+    "disp": "朝の汗は暑い",
+    "kana": "あさのあせはあつい",
+    "q": "asanoasehaatui",
+    "lang": "ja",
+    "uuid": "16a72072-6ceb-4aab-8fbc-41bac9c883f1"
+  },
+  {
+    "disp": "朝の汗は多い",
+    "kana": "あさのあせはおおい",
+    "q": "asanoasehaooi",
+    "lang": "ja",
+    "uuid": "8a4c3bb9-152b-43e5-b112-32a26b979df2"
+  },
+  {
+    "disp": "朝の足は暑い",
+    "kana": "あさのあしはあつい",
+    "q": "asanoasihaatui",
+    "lang": "ja",
+    "uuid": "bb7c8eb2-eccd-4187-b982-9168b2652240"
+  },
+  {
+    "disp": "朝の足は痛い",
+    "kana": "あさのあしはいたい",
+    "q": "asanoasihaitai",
+    "lang": "ja",
+    "uuid": "89a8549a-e5b6-4491-bb6b-408d62ed1db8"
+  },
+  {
+    "disp": "朝の花は青い",
+    "kana": "あさのはなはあおい",
+    "q": "asanohanahaaoi",
+    "lang": "ja",
+    "uuid": "90b1f67c-8daf-48c9-a097-9f8a2c9b4d52"
+  },
+  {
+    "disp": "朝の蓮は青い",
+    "kana": "あさのはすはあおい",
+    "q": "asanohasuhaaoi",
+    "lang": "ja",
+    "uuid": "8d828061-fe4c-4c22-8ae8-e0fb12e5adc8"
+  },
+  {
+    "disp": "朝の蓮は遠い",
+    "kana": "あさのはすはとおい",
+    "q": "asanohasuhatooi",
+    "lang": "ja",
+    "uuid": "17fb25ee-4827-425c-8a16-15d678ce6f08"
+  },
+  {
+    "disp": "朝の笛は遠い",
+    "kana": "あさのふえはとおい",
+    "q": "asanohuehatooi",
+    "lang": "ja",
+    "uuid": "538db372-f60f-4d45-ba4f-4eb8b97961a2"
+  },
+  {
+    "disp": "朝の喉は細い",
+    "kana": "あさののどはほそい",
+    "q": "asanonodohahosoi",
+    "lang": "ja",
+    "uuid": "80b15110-5236-4018-81e8-0c274c37baad"
+  },
+  {
+    "disp": "朝の喉は痛い",
+    "kana": "あさののどはいたい",
+    "q": "asanonodohaitai",
+    "lang": "ja",
+    "uuid": "aea8e757-6353-49e2-8ca3-43f23874d908"
+  },
+  {
+    "disp": "朝の塔は遠い",
+    "kana": "あさのとうはとおい",
+    "q": "asanotouhatooi",
+    "lang": "ja",
+    "uuid": "a830275a-53ee-4737-9c76-d13bc903b301"
+  },
+  {
+    "disp": "朝の腕は細い",
+    "kana": "あさのうではほそい",
+    "q": "asanoudehahosoi",
+    "lang": "ja",
+    "uuid": "2cffba7a-2058-476d-997d-d56ce35a92d2"
+  },
+  {
+    "disp": "朝の腕は太い",
+    "kana": "あさのうではふとい",
+    "q": "asanoudehahutoi",
+    "lang": "ja",
+    "uuid": "89f8d979-9063-4106-adbd-2728c42ead89"
+  },
+  {
+    "disp": "朝の腕は痛い",
+    "kana": "あさのうではいたい",
+    "q": "asanoudehaitai",
+    "lang": "ja",
+    "uuid": "4b7d1420-6892-4552-9b93-5735244b8223"
+  },
+  {
+    "disp": "足の花は青い",
+    "kana": "あしのはなはあおい",
+    "q": "asinohanahaaoi",
+    "lang": "ja",
+    "uuid": "714a34f5-6ded-4852-ab89-9092d7b2dade"
+  },
+  {
+    "disp": "母の笛は遠い",
+    "kana": "ははのふえはとおい",
+    "q": "hahanohuehatooi",
+    "lang": "ja",
+    "uuid": "2ebf2cd3-d3a2-449c-af07-a032e573c590"
+  },
+  {
+    "disp": "母の腕は細い",
+    "kana": "ははのうではほそい",
+    "q": "hahanoudehahosoi",
+    "lang": "ja",
+    "uuid": "876e38cb-0071-4cf9-a92b-ea69bf5eeb28"
+  },
+  {
+    "disp": "母の腕は太い",
+    "kana": "ははのうではふとい",
+    "q": "hahanoudehahutoi",
+    "lang": "ja",
+    "uuid": "e179f19a-a41b-49fa-9ebd-28fa9b8a9588"
+  },
+  {
+    "disp": "母の腕は痛い",
+    "kana": "ははのうではいたい",
+    "q": "hahanoudehaitai",
+    "lang": "ja",
+    "uuid": "b580226b-c4b2-4628-bf7d-06879c1d46b2"
+  },
+  {
+    "disp": "橋の上は遠い",
+    "kana": "はしのうえはとおい",
+    "q": "hasinouehatooi",
+    "lang": "ja",
+    "uuid": "7d606b1a-21ad-433c-9a91-1369f417e100"
+  },
+  {
+    "disp": "頬の肌は青い",
+    "kana": "ほおのはだはあおい",
+    "q": "hoonohadahaaoi",
+    "lang": "ja",
+    "uuid": "b266d416-ec86-43e8-912d-80bd435a8078"
+  },
+  {
+    "disp": "星の花は青い",
+    "kana": "ほしのはなはあおい",
+    "q": "hosinohanahaaoi",
+    "lang": "ja",
+    "uuid": "b4a64b4d-776b-4155-8d3e-46b422a53199"
+  },
+  {
+    "disp": "笛の音は遠い",
+    "kana": "ふえのおとはとおい",
+    "q": "huenootohatooi",
+    "lang": "ja",
+    "uuid": "3806bd9f-a8c5-4d21-b11b-1107c3259dcf"
+  },
+  {
+    "disp": "井戸の喉は欲しい",
+    "kana": "いどののどはほしい",
+    "q": "idononodohahosii",
+    "lang": "ja",
+    "uuid": "70822d6d-bc70-41c6-baac-a5c50aa70b9d"
+  },
+  {
+    "disp": "家の花は青い",
+    "kana": "いえのはなはあおい",
+    "q": "ienohanahaaoi",
+    "lang": "ja",
+    "uuid": "4d47ef81-c47f-4044-b871-15af0d8d7b21"
+  },
+  {
+    "disp": "家の布は青い",
+    "kana": "いえのぬのはあおい",
+    "q": "ienonunohaaoi",
+    "lang": "ja",
+    "uuid": "724ee4f3-532c-4195-866d-17c73a0a3e9f"
+  },
+  {
+    "disp": "家の布は薄い",
+    "kana": "いえのぬのはうすい",
+    "q": "ienonunohausui",
+    "lang": "ja",
+    "uuid": "995dea07-0a31-49d1-86a5-2fc3850a7de5"
+  },
+  {
+    "disp": "家の外は暑い",
+    "kana": "いえのそとはあつい",
+    "q": "ienosotohaatui",
+    "lang": "ja",
+    "uuid": "bd147d74-8f6d-4f65-aeed-0f9444748c7f"
+  },
+  {
+    "disp": "家の外へ出した",
+    "kana": "いえのそとへだした",
+    "q": "ienosotohedasita",
+    "lang": "ja",
+    "uuid": "cff6945e-3d1b-41d6-8750-f53be1e69f65"
+  },
+  {
+    "disp": "家の外に出した",
+    "kana": "いえのそとにだした",
+    "q": "ienosotonidasita",
+    "lang": "ja",
+    "uuid": "cc216cca-4b3b-499d-85f2-3941d4da11e5"
+  },
+  {
+    "disp": "石の砂は細い",
+    "kana": "いしのすなはほそい",
+    "q": "isinosunahahosoi",
+    "lang": "ja",
+    "uuid": "219e4be4-f9d0-4886-b9f1-9bc82418ce4e"
+  },
+  {
+    "disp": "茄子の花は青い",
+    "kana": "なすのはなはあおい",
+    "q": "nasunohanahaaoi",
+    "lang": "ja",
+    "uuid": "e3db7da8-1d5c-4536-abfa-136ed94962f9"
+  },
+  {
+    "disp": "布の袖は薄い",
+    "kana": "ぬののそではうすい",
+    "q": "nunonosodehausui",
+    "lang": "ja",
+    "uuid": "0ce7ff22-e88c-4115-8a70-267dde665148"
+  },
+  {
+    "disp": "外の蓮は青い",
+    "kana": "そとのはすはあおい",
+    "q": "sotonohasuhaaoi",
+    "lang": "ja",
+    "uuid": "43170a6c-d9aa-46a4-885e-36da44bb68fe"
+  },
+  {
+    "disp": "外の星は遠い",
+    "kana": "そとのほしはとおい",
+    "q": "sotonohosihatooi",
+    "lang": "ja",
+    "uuid": "13324a39-5a03-4a37-916a-18711bb153bc"
+  },
+  {
+    "disp": "外の井戸は浅い",
+    "kana": "そとのいどはあさい",
+    "q": "sotonoidohaasai",
+    "lang": "ja",
+    "uuid": "fa425d79-22e9-4df1-a461-9e28d391cc85"
+  },
+  {
+    "disp": "外の砂は細い",
+    "kana": "そとのすなはほそい",
+    "q": "sotonosunahahosoi",
+    "lang": "ja",
+    "uuid": "64c7cc6b-ce98-4b17-a508-69ceff8d9ee2"
+  },
+  {
+    "disp": "父の汗は多い",
+    "kana": "ちちのあせはおおい",
+    "q": "titinoasehaooi",
+    "lang": "ja",
+    "uuid": "5b4302f0-df06-4706-871b-c7c4b983cd5a"
+  },
+  {
+    "disp": "父の花は青い",
+    "kana": "ちちのはなはあおい",
+    "q": "titinohanahaaoi",
+    "lang": "ja",
+    "uuid": "b26d1d76-010b-4ec7-848e-667e07f9755b"
+  },
+  {
+    "disp": "父の笛は遠い",
+    "kana": "ちちのふえはとおい",
+    "q": "titinohuehatooi",
+    "lang": "ja",
+    "uuid": "07f85dbd-e228-4a9c-9ab4-6b7e079f746d"
+  },
+  {
+    "disp": "父の喉は青い",
+    "kana": "ちちののどはあおい",
+    "q": "titinonodohaaoi",
+    "lang": "ja",
+    "uuid": "353ba0db-1de1-46e0-93ba-42ab7ecb068a"
+  },
+  {
+    "disp": "父の喉は細い",
+    "kana": "ちちののどはほそい",
+    "q": "titinonodohahosoi",
+    "lang": "ja",
+    "uuid": "5d43cd6e-12fb-4c22-a1ac-f49d677115ae"
+  },
+  {
+    "disp": "父の喉は痛い",
+    "kana": "ちちののどはいたい",
+    "q": "titinonodohaitai",
+    "lang": "ja",
+    "uuid": "115b9b22-2208-4473-99ea-cb600422353f"
+  },
+  {
+    "disp": "父の腕は太い",
+    "kana": "ちちのうではふとい",
+    "q": "titinoudehahutoi",
+    "lang": "ja",
+    "uuid": "786c937d-48fc-40aa-80be-f3a1dcbb8615"
+  },
+  {
+    "disp": "父の腕は痛い",
+    "kana": "ちちのうではいたい",
+    "q": "titinoudehaitai",
+    "lang": "ja",
+    "uuid": "a11bfab7-abed-4d77-88a9-2d57dafd4f75"
+  },
+  {
+    "disp": "塔の上は遠い",
+    "kana": "とうのうえはとおい",
+    "q": "tounouehatooi",
+    "lang": "ja",
+    "uuid": "760134ac-e135-4473-9519-30c3c6ca2a6f"
+  },
+  {
+    "disp": "土の蓮は青い",
+    "kana": "つちのはすはあおい",
+    "q": "tutinohasuhaaoi",
+    "lang": "ja",
+    "uuid": "04b0535a-bdda-46ac-86fa-69721687417e"
+  },
+  {
+    "disp": "腕の皮膚は薄い",
+    "kana": "うでのひふはうすい",
+    "q": "udenohihuhausui",
+    "lang": "ja",
+    "uuid": "28b3c909-dff9-42c0-a2ed-4daff1c2268d"
+  },
+  {
+    "disp": "腕の骨は太い",
+    "kana": "うでのほねはふとい",
+    "q": "udenohonehahutoi",
+    "lang": "ja",
+    "uuid": "c9379611-4653-4235-92d2-dc2d58255abc"
+  },
+  {
+    "disp": "腕の骨は痛い",
+    "kana": "うでのほねはいたい",
+    "q": "udenohonehaitai",
+    "lang": "ja",
+    "uuid": "b2b663a6-cfdc-4185-aacf-3ff491e84d55"
+  },
+  {
+    "disp": "姉の絵本は多い",
+    "kana": "あねのえほんはおおい",
+    "q": "anenoehonnhaooi",
+    "lang": "ja",
+    "uuid": "cf8636d5-e49c-4646-8de7-834ade82d1d0"
+  },
+  {
+    "disp": "姉の歌は楽しい",
+    "kana": "あねのうたはたのしい",
+    "q": "anenoutahatanosii",
+    "lang": "ja",
+    "uuid": "d147e498-ea4a-4792-acfd-1e0c07339182"
+  },
+  {
+    "disp": "兄の歌は楽しい",
+    "kana": "あにのうたはたのしい",
+    "q": "aninoutahatanosii",
+    "lang": "ja",
+    "uuid": "c92f45d3-eb41-4cdf-beab-e7f93c15c41c"
+  },
+  {
+    "disp": "朝の布団は暑い",
+    "kana": "あさのふとんはあつい",
+    "q": "asanohutonnhaatui",
+    "lang": "ja",
+    "uuid": "6037f400-e83e-4e0c-a1a0-4aeb767b9d3a"
+  },
+  {
+    "disp": "朝の歌は楽しい",
+    "kana": "あさのうたはたのしい",
+    "q": "asanoutahatanosii",
+    "lang": "ja",
+    "uuid": "c2ae903a-0e3f-4565-8e3c-ce3199c54379"
+  },
+  {
+    "disp": "母の布団は暑い",
+    "kana": "ははのふとんはあつい",
+    "q": "hahanohutonnhaatui",
+    "lang": "ja",
+    "uuid": "7a52f6e1-59d8-4d84-93dd-27ad16e3c82d"
+  },
+  {
+    "disp": "母の歌は楽しい",
+    "kana": "ははのうたはたのしい",
+    "q": "hahanoutahatanosii",
+    "lang": "ja",
+    "uuid": "66fd1f95-c33c-47f4-902b-f95e75ddb95c"
+  },
+  {
+    "disp": "母と父は親しい",
+    "kana": "ははとちちはしたしい",
+    "q": "hahatotitihasitasii",
+    "lang": "ja",
+    "uuid": "74b9bfb8-6f31-4339-880e-5f156c0fa05c"
+  },
+  {
+    "disp": "橋の上で歌った",
+    "kana": "はしのうえでうたった",
+    "q": "hasinouedeutatta",
+    "lang": "ja",
+    "uuid": "c27276dd-2880-4c72-8a58-38a401e6ec09"
+  },
+  {
+    "disp": "笛の音は小さい",
+    "kana": "ふえのおとはちいさい",
+    "q": "huenootohatiisai",
+    "lang": "ja",
+    "uuid": "b1e1608e-2f71-4dee-bbee-132f8e6953c3"
+  },
+  {
+    "disp": "家の花は小さい",
+    "kana": "いえのはなはちいさい",
+    "q": "ienohanahatiisai",
+    "lang": "ja",
+    "uuid": "ebcf58a4-fde4-4160-83dd-feb7839be18b"
+  },
+  {
+    "disp": "犬は湿地で走った",
+    "kana": "いぬはしちではしった",
+    "q": "inuhasitidehasitta",
+    "lang": "ja",
+    "uuid": "11b1d952-411e-444c-a23e-b834d29733bb"
+  },
+  {
+    "disp": "苗の音は小さい",
+    "kana": "なえのおとはちいさい",
+    "q": "naenootohatiisai",
+    "lang": "ja",
+    "uuid": "8a2b9034-eb87-4f51-be60-b3a9193ffd2f"
+  },
+  {
+    "disp": "七つの花は青い",
+    "kana": "ななつのはなはあおい",
+    "q": "nanatunohanahaaoi",
+    "lang": "ja",
+    "uuid": "e9272ff6-810a-4412-b75a-491623f975a7"
+  },
+  {
+    "disp": "布の台は正しい",
+    "kana": "ぬののだいはただしい",
+    "q": "nunonodaihatadasii",
+    "lang": "ja",
+    "uuid": "7097b2a9-5bc5-4597-bfd4-f6986df0b58b"
+  },
+  {
+    "disp": "父の財布は出した",
+    "kana": "ちちのさいふはだした",
+    "q": "titinosaihuhadasita",
+    "lang": "ja",
+    "uuid": "4858b995-9dab-4f40-83c4-e4d4c009bfe8"
+  },
+  {
+    "disp": "父の歌は楽しい",
+    "kana": "ちちのうたはたのしい",
+    "q": "titinoutahatanosii",
+    "lang": "ja",
+    "uuid": "1331b75c-1cf0-4968-b45c-2a600f7d0642"
+  },
+  {
+    "disp": "父と姉は親しい",
+    "kana": "ちちとあねはしたしい",
+    "q": "tititoanehasitasii",
+    "lang": "ja",
+    "uuid": "670aef31-dd4b-46b9-a379-563d10596ffd"
+  },
+  {
+    "disp": "父と母は同士だ",
+    "kana": "ちちとはははどうしだ",
+    "q": "tititohahahadousida",
+    "lang": "ja",
+    "uuid": "679a6c43-3eb7-4259-bae4-fa3ccdf62009"
+  },
+  {
+    "disp": "父と母は親しい",
+    "kana": "ちちとはははしたしい",
+    "q": "tititohahahasitasii",
+    "lang": "ja",
+    "uuid": "36c7b9ac-d6c7-4137-901f-61fdfe30dd13"
+  },
+  {
+    "disp": "姉の絵本は楽しい",
+    "kana": "あねのえほんはたのしい",
+    "q": "anenoehonnhatanosii",
+    "lang": "ja",
+    "uuid": "f1b958e7-d565-4634-b1bc-42656f3907ab"
+  },
+  {
+    "disp": "姉の絵本は小さい",
+    "kana": "あねのえほんはちいさい",
+    "q": "anenoehonnhatiisai",
+    "lang": "ja",
+    "uuid": "7254e88f-f184-47d7-990a-1beea4a22d5e"
+  },
+  {
+    "disp": "姉の話は楽しい",
+    "kana": "あねのはなしはたのしい",
+    "q": "anenohanasihatanosii",
+    "lang": "ja",
+    "uuid": "26bb4bf6-192a-442c-bafb-981025e3f065"
+  },
+  {
+    "disp": "兄の話は楽しい",
+    "kana": "あにのはなしはたのしい",
+    "q": "aninohanasihatanosii",
+    "lang": "ja",
+    "uuid": "581959ba-0311-478f-823e-be4d3ad3edb6"
+  },
+  {
+    "disp": "朝の晴天は暑い",
+    "kana": "あさのせいてんはあつい",
+    "q": "asanoseitennhaatui",
+    "lang": "ja",
+    "uuid": "eba88841-1c1b-45ab-b77f-b75cbea009c4"
+  },
+  {
+    "disp": "母の絵本は小さい",
+    "kana": "ははのえほんはちいさい",
+    "q": "hahanoehonnhatiisai",
+    "lang": "ja",
+    "uuid": "5fb0ed18-d856-4278-871f-30fa4ed0391e"
+  },
+  {
+    "disp": "母の話は楽しい",
+    "kana": "ははのはなしはたのしい",
+    "q": "hahanohanasihatanosii",
+    "lang": "ja",
+    "uuid": "b8253080-9bb6-4d61-8772-506b5c13a9db"
+  },
+  {
+    "disp": "発展の腕は太い",
+    "kana": "はってんのうではふとい",
+    "q": "hattennnoudehahutoi",
+    "lang": "ja",
+    "uuid": "4483fbcb-4de1-4c8d-b79f-1aa09a9bd848"
+  },
+  {
+    "disp": "本棚の本は多い",
+    "kana": "ほんだなのほんはおおい",
+    "q": "honndananohonnhaooi",
+    "lang": "ja",
+    "uuid": "744a5ad4-a419-4692-bef4-afa65f7195c4"
+  },
+  {
+    "disp": "再生の星は多い",
+    "kana": "さいせいのほしはおおい",
+    "q": "saiseinohosihaooi",
+    "lang": "ja",
+    "uuid": "78ef9ba4-d5d8-487b-9716-9d44ac97e196"
+  },
+  {
+    "disp": "父は丁寧に話す",
+    "kana": "ちちはていねいにはなす",
+    "q": "titihateineinihanasu",
+    "lang": "ja",
+    "uuid": "d5c4ba9d-223d-4e2b-bdf2-bd5f669dc10e"
+  },
+  {
+    "disp": "父の話は楽しい",
+    "kana": "ちちのはなしはたのしい",
+    "q": "titinohanasihatanosii",
+    "lang": "ja",
+    "uuid": "671e6d39-e167-49fe-9f74-9334d5a38496"
+  },
+  {
+    "disp": "土の上は晴天だ",
+    "kana": "つちのうえはせいてんだ",
+    "q": "tutinouehaseitennda",
+    "lang": "ja",
+    "uuid": "c0a0672e-c8e5-4537-8636-50222b77c8c9"
+  },
+  {
+    "disp": "姉の笛は遠い音だ",
+    "kana": "あねのふえはとおいおとだ",
+    "q": "anenohuehatooiotoda",
+    "lang": "ja",
+    "uuid": "af927201-b14e-4c9b-89f6-0ba4cc18486c"
+  },
+  {
+    "disp": "朝の足音は小さい",
+    "kana": "あさのあしおとはちいさい",
+    "q": "asanoasiotohatiisai",
+    "lang": "ja",
+    "uuid": "40e214a5-9c31-466e-abee-465384ffbcf9"
+  },
+  {
+    "disp": "母の話は丁寧だ",
+    "kana": "ははのはなしはていねいだ",
+    "q": "hahanohanasihateineida",
+    "lang": "ja",
+    "uuid": "61196d5d-9815-4c09-b1d5-6d8896b37786"
+  },
+  {
+    "disp": "本棚の冊子は薄い",
+    "kana": "ほんだなのさっしはうすい",
+    "q": "honndananosassihausui",
+    "lang": "ja",
+    "uuid": "9c116bf3-a6d4-4aea-8105-74841de950a1"
+  },
+  {
+    "disp": "再生の音は小さい",
+    "kana": "さいせいのおとはちいさい",
+    "q": "saiseinootohatiisai",
+    "lang": "ja",
+    "uuid": "846a1758-cac8-44f1-92af-e70999043a72"
+  },
+  {
+    "disp": "先生は親しい人だ",
+    "kana": "せんせいはしたしいひとだ",
+    "q": "sennseihasitasiihitoda",
+    "lang": "ja",
+    "uuid": "1bb6904f-d485-4f3b-994e-b4b9a014f7ad"
+  },
+  {
+    "disp": "父の話は丁寧だ",
+    "kana": "ちちのはなしはていねいだ",
+    "q": "titinohanasihateineida",
+    "lang": "ja",
+    "uuid": "9866e57d-3b87-4e02-8112-9acf1e528ebf"
+  },
+  {
+    "disp": "橋の上の青は小さい",
+    "kana": "はしのうえのあおはちいさい",
+    "q": "hasinouenoaohatiisai",
+    "lang": "ja",
+    "uuid": "d6f6d80c-3703-4e04-b972-04ba08976a95"
+  },
+  {
+    "disp": "本棚の絵本は楽しい",
+    "kana": "ほんだなのえほんはたのしい",
+    "q": "honndananoehonnhatanosii",
+    "lang": "ja",
+    "uuid": "adc12ea3-7d2e-4997-82f8-1ef82feee6ff"
+  },
+  {
+    "disp": "神殿で歌うは楽しい",
+    "kana": "しんでんでうたうはたのしい",
+    "q": "sinndenndeutauhatanosii",
+    "lang": "ja",
+    "uuid": "73186fc9-b4ea-4b93-addc-8ebe6330ffea"
+  },
+  {
+    "disp": "寝室の灯台は遠い",
+    "kana": "しんしつのとうだいはとおい",
+    "q": "sinnsitunotoudaihatooi",
+    "lang": "ja",
+    "uuid": "053e055a-78da-4359-aeeb-a34e81ff1205"
+  },
+  {
+    "disp": "父は塔の上で歌った",
+    "kana": "ちちはとうのうえでうたった",
+    "q": "titihatounouedeutatta",
+    "lang": "ja",
+    "uuid": "f2441d53-86e5-4924-8c43-3d932dcd8942"
+  },
+  {
+    "disp": "データ",
+    "kana": "でーた",
+    "q": "de-ta",
+    "lang": "ja",
+    "uuid": "6c93fa22-b496-49ba-9907-8f350727d8d4"
+  },
+  {
+    "disp": "デート",
+    "kana": "でーと",
+    "q": "de-to",
+    "lang": "ja",
+    "uuid": "5659c252-ee7c-4cee-b7f9-54d9c701cfd8"
+  },
+  {
+    "disp": "ハート",
+    "kana": "はーと",
+    "q": "ha-to",
+    "lang": "ja",
+    "uuid": "22f75d40-0aa1-4641-a2b9-d1a6b7383e72"
+  },
+  {
+    "disp": "ヒート",
+    "kana": "ひーと",
+    "q": "hi-to",
+    "lang": "ja",
+    "uuid": "6cde3fe6-a317-4260-a9f2-41bb563ed67c"
+  },
+  {
+    "disp": "ホース",
+    "kana": "ほーす",
+    "q": "ho-su",
+    "lang": "ja",
+    "uuid": "2a50c129-2af5-4c56-9ca9-a8a4166fc558"
+  },
+  {
+    "disp": "ニート",
+    "kana": "にーと",
+    "q": "ni-to",
+    "lang": "ja",
+    "uuid": "d0c28951-c2e0-4de7-b28d-19415b5c44f2"
+  },
+  {
+    "disp": "ノート",
+    "kana": "のーと",
+    "q": "no-to",
+    "lang": "ja",
+    "uuid": "5879bb49-d02b-47b6-8431-866181375b1d"
+  },
+  {
+    "disp": "シート",
+    "kana": "しーと",
+    "q": "si-to",
+    "lang": "ja",
+    "uuid": "5a04ee37-acdd-4f98-a9ae-cf46589659dc"
+  },
+  {
+    "disp": "シーツ",
+    "kana": "しーつ",
+    "q": "si-tu",
+    "lang": "ja",
+    "uuid": "e01d2e2e-f5e7-4d5e-a565-1921be74f804"
+  },
+  {
+    "disp": "ソース",
+    "kana": "そーす",
+    "q": "so-su",
+    "lang": "ja",
+    "uuid": "8344c23a-4a86-4192-b735-3cbcba867494"
+  },
+  {
+    "disp": "ソート",
+    "kana": "そーと",
+    "q": "so-to",
+    "lang": "ja",
+    "uuid": "9205d2fd-0f10-4ebe-9eb3-cf8b0a919820"
+  },
+  {
+    "disp": "スーツ",
+    "kana": "すーつ",
+    "q": "su-tu",
+    "lang": "ja",
+    "uuid": "7951d7a5-0004-4c84-9ab0-0ca5f11e3a16"
+  },
+  {
+    "disp": "トーン",
+    "kana": "とーん",
+    "q": "to-nn",
+    "lang": "ja",
+    "uuid": "cd74a6d3-1bca-4cf4-8073-bb9080e0b17a"
+  },
+  {
+    "disp": "ドーナツ",
+    "kana": "どーなつ",
+    "q": "do-natu",
+    "lang": "ja",
+    "uuid": "f39d3248-1cfe-4b7f-9432-40d7788160b4"
+  },
+  {
+    "disp": "ヒーター",
+    "kana": "ひーたー",
+    "q": "hi-ta-",
+    "lang": "ja",
+    "uuid": "bfa4d122-d857-40dd-901c-70a1a8f7390a"
+  },
+  {
+    "disp": "セーター",
+    "kana": "せーたー",
+    "q": "se-ta-",
+    "lang": "ja",
+    "uuid": "682936f3-7693-419c-bd73-498b81cd8d91"
+  },
+  {
+    "disp": "トースト",
+    "kana": "とーすと",
+    "q": "to-suto",
+    "lang": "ja",
+    "uuid": "fab3b367-d384-41f7-8a19-4ca734f15be0"
+  },
+  {
+    "disp": "デートは楽しい",
+    "kana": "でーとはたのしい",
+    "q": "de-tohatanosii",
+    "lang": "ja",
+    "uuid": "3af2daae-8c7c-41f1-9e88-36685181f121"
+  },
+  {
+    "disp": "ノートは小さい",
+    "kana": "のーとはちいさい",
+    "q": "no-tohatiisai",
+    "lang": "ja",
+    "uuid": "3b3436a2-9c75-4461-a73b-4d38313fd835"
+  },
+  {
+    "disp": "ソースは美味しい",
+    "kana": "そーすはおいしい",
+    "q": "so-suhaoisii",
+    "lang": "ja",
+    "uuid": "5f500eb7-f759-45e0-a602-ed36910b5551"
+  },
+  {
+    "disp": "ドーナツは美味しい",
+    "kana": "どーなつはおいしい",
+    "q": "do-natuhaoisii",
+    "lang": "ja",
+    "uuid": "8e05c5ce-c0d9-4c70-9371-c770504b35e0"
+  },
+  {
+    "disp": "茄子のソースは酸い",
+    "kana": "なすのそーすはすい",
+    "q": "nasunoso-suhasui",
+    "lang": "ja",
+    "uuid": "4293647e-b2e8-4822-8683-3f0d9135d177"
+  },
+  {
+    "disp": "美味しいトーストだ",
+    "kana": "おいしいとーすとだ",
+    "q": "oisiito-sutoda",
+    "lang": "ja",
+    "uuid": "652ab389-3de5-4e27-9cfc-54ab0738559a"
+  },
+  {
+    "disp": "塩のソースは酸い",
+    "kana": "しおのそーすはすい",
+    "q": "sionoso-suhasui",
+    "lang": "ja",
+    "uuid": "c2340f3c-7d49-4a4d-9366-00c18dda4d0b"
+  },
+  {
+    "disp": "酸いトーストはない",
+    "kana": "すいとーすとはない",
+    "q": "suito-sutohanai",
+    "lang": "ja",
+    "uuid": "f8bdd04f-0ba9-48bc-bce2-9506d31ce496"
+  },
+  {
+    "disp": "小さいトーストだ",
+    "kana": "ちいさいとーすとだ",
+    "q": "tiisaito-sutoda",
+    "lang": "ja",
+    "uuid": "d057b55b-402f-441a-9a6d-efb521198446"
+  },
+  {
+    "disp": "トーストは美味しい",
+    "kana": "とーすとはおいしい",
+    "q": "to-sutohaoisii",
+    "lang": "ja",
+    "uuid": "4b6d33da-05d5-4625-9d6d-c864d35e410b"
+  },
+  {
+    "disp": "薄いソースは酸い",
+    "kana": "うすいそーすはすい",
+    "q": "usuiso-suhasui",
+    "lang": "ja",
+    "uuid": "73408723-b432-43c6-a6f8-3c72acdcf373"
+  },
+  {
+    "disp": "姉のスーツは太い",
+    "kana": "あねのすーつはふとい",
+    "q": "anenosu-tuhahutoi",
+    "lang": "ja",
+    "uuid": "7d6d66e2-9ad7-4dae-b7e3-d0bdf2d4d5d1"
+  },
+  {
+    "disp": "青いノートは暑い",
+    "kana": "あおいのーとはあつい",
+    "q": "aoino-tohaatui",
+    "lang": "ja",
+    "uuid": "bc0dd158-d2ee-4a80-ab03-80df2e24d8d2"
+  },
+  {
+    "disp": "青いノートは派手だ",
+    "kana": "あおいのーとははでだ",
+    "q": "aoino-tohahadeda",
+    "lang": "ja",
+    "uuid": "d8ff3857-726e-4fd8-935a-1a5768ed0e59"
+  },
+  {
+    "disp": "青いシートは派手だ",
+    "kana": "あおいしーとははでだ",
+    "q": "aoisi-tohahadeda",
+    "lang": "ja",
+    "uuid": "856615da-f454-45fd-ae6e-75516a965636"
+  },
+  {
+    "disp": "青いシーツは暑い",
+    "kana": "あおいしーつはあつい",
+    "q": "aoisi-tuhaatui",
+    "lang": "ja",
+    "uuid": "a9cf3166-acfd-4539-b8f9-3833c06afcf0"
+  },
+  {
+    "disp": "青いシーツは派手だ",
+    "kana": "あおいしーつははでだ",
+    "q": "aoisi-tuhahadeda",
+    "lang": "ja",
+    "uuid": "18d6abac-c3f1-41d0-a290-3a5c74a820f2"
+  },
+  {
+    "disp": "青いシーツは太い",
+    "kana": "あおいしーつはふとい",
+    "q": "aoisi-tuhahutoi",
+    "lang": "ja",
+    "uuid": "f1c28c39-58ef-411f-97db-ad0bc89a7b43"
+  },
+  {
+    "disp": "青いシーツは薄い",
+    "kana": "あおいしーつはうすい",
+    "q": "aoisi-tuhausui",
+    "lang": "ja",
+    "uuid": "5fce8cd4-d3bb-4fa7-bcd5-5788ae6e9856"
+  },
+  {
+    "disp": "青いスーツは派手だ",
+    "kana": "あおいすーつははでだ",
+    "q": "aoisu-tuhahadeda",
+    "lang": "ja",
+    "uuid": "291fd780-fc09-42ab-944c-40b668d9e422"
+  },
+  {
+    "disp": "青いスーツは太い",
+    "kana": "あおいすーつはふとい",
+    "q": "aoisu-tuhahutoi",
+    "lang": "ja",
+    "uuid": "c553a2b5-4650-4550-86c7-72efd1aaa132"
+  },
+  {
+    "disp": "朝のデータは多い",
+    "kana": "あさのでーたはおおい",
+    "q": "asanode-tahaooi",
+    "lang": "ja",
+    "uuid": "440da3c9-61cd-4225-afe1-398ff954f6d0"
+  },
+  {
+    "disp": "朝のトーストは酸い",
+    "kana": "あさのとーすとはすい",
+    "q": "asanoto-sutohasui",
+    "lang": "ja",
+    "uuid": "9f6eb5c4-8dc6-4a30-baf0-e39464660323"
+  },
+  {
+    "disp": "肌のトーンは薄い",
+    "kana": "はだのとーんはうすい",
+    "q": "hadanoto-nnhausui",
+    "lang": "ja",
+    "uuid": "9f1ea14d-1d5b-4eef-bb15-17a7a9d7a984"
+  },
+  {
+    "disp": "派手なノートは多い",
+    "kana": "はでなのーとはおおい",
+    "q": "hadenano-tohaooi",
+    "lang": "ja",
+    "uuid": "d01eb3f5-2ecb-4bf7-9e5a-d578cd0bb826"
+  },
+  {
+    "disp": "派手なシーツは多い",
+    "kana": "はでなしーつはおおい",
+    "q": "hadenasi-tuhaooi",
+    "lang": "ja",
+    "uuid": "ad00a7ad-3b28-458d-8373-fb593407c857"
+  },
+  {
+    "disp": "派手なスーツは青い",
+    "kana": "はでなすーつはあおい",
+    "q": "hadenasu-tuhaaoi",
+    "lang": "ja",
+    "uuid": "26056ba9-2eca-42de-b696-4c63c2933133"
+  },
+  {
+    "disp": "母のノートは薄い",
+    "kana": "ははののーとはうすい",
+    "q": "hahanono-tohausui",
+    "lang": "ja",
+    "uuid": "e9b6c9a3-eb06-4f6b-ab8b-d5a3cc2fb7f2"
+  },
+  {
+    "disp": "母のスーツは青い",
+    "kana": "ははのすーつはあおい",
+    "q": "hahanosu-tuhaaoi",
+    "lang": "ja",
+    "uuid": "60e9d9b4-7010-413f-97c7-0f94f79379c9"
+  },
+  {
+    "disp": "皮膚のトーンは青い",
+    "kana": "ひふのとーんはあおい",
+    "q": "hihunoto-nnhaaoi",
+    "lang": "ja",
+    "uuid": "309bd7df-60b1-4dba-a77a-ac802fb7b2ed"
+  },
+  {
+    "disp": "皮膚のトーンは薄い",
+    "kana": "ひふのとーんはうすい",
+    "q": "hihunoto-nnhausui",
+    "lang": "ja",
+    "uuid": "5f060fdb-dbe5-41bf-9568-9a2df3827601"
+  },
+  {
+    "disp": "太いスーツは暑い",
+    "kana": "ふといすーつはあつい",
+    "q": "hutoisu-tuhaatui",
+    "lang": "ja",
+    "uuid": "c07769da-5196-4310-a4b0-fba4290729dd"
+  },
+  {
+    "disp": "脳のデータは多い",
+    "kana": "のうのでーたはおおい",
+    "q": "nounode-tahaooi",
+    "lang": "ja",
+    "uuid": "a900ee32-5f7b-4759-ab59-d8c569b7ba43"
+  },
+  {
+    "disp": "美味しいソースにした",
+    "kana": "おいしいそーすにした",
+    "q": "oisiiso-sunisita",
+    "lang": "ja",
+    "uuid": "73e6679d-f9f8-4cbb-9c0a-33296cd24ca7"
+  },
+  {
+    "disp": "塩のドーナツは酸い",
+    "kana": "しおのどーなつはすい",
+    "q": "sionodo-natuhasui",
+    "lang": "ja",
+    "uuid": "99aa99f2-3b66-444f-97f1-a71a28838e7e"
+  },
+  {
+    "disp": "塩のトーストは酸い",
+    "kana": "しおのとーすとはすい",
+    "q": "sionoto-sutohasui",
+    "lang": "ja",
+    "uuid": "6c58a157-8dd9-4b23-8d4e-c363cc912bd9"
+  },
+  {
+    "disp": "小さいソースは酸い",
+    "kana": "ちいさいそーすはすい",
+    "q": "tiisaiso-suhasui",
+    "lang": "ja",
+    "uuid": "0476a53e-c6ad-46ab-9741-2e2e62edd07e"
+  },
+  {
+    "disp": "父のスーツは青い",
+    "kana": "ちちのすーつはあおい",
+    "q": "titinosu-tuhaaoi",
+    "lang": "ja",
+    "uuid": "b5fa25a7-d01f-4668-aa88-eced2614f7cf"
+  },
+  {
+    "disp": "薄いノートは多い",
+    "kana": "うすいのーとはおおい",
+    "q": "usuino-tohaooi",
+    "lang": "ja",
+    "uuid": "c0ebbd25-de87-4568-bbd1-bdd17236f05f"
+  },
+  {
+    "disp": "薄いシートは青い",
+    "kana": "うすいしーとはあおい",
+    "q": "usuisi-tohaaoi",
+    "lang": "ja",
+    "uuid": "221b98aa-b1a6-410f-9ab0-c0a554fa594f"
+  },
+  {
+    "disp": "薄いシーツは青い",
+    "kana": "うすいしーつはあおい",
+    "q": "usuisi-tuhaaoi",
+    "lang": "ja",
+    "uuid": "6361aef8-0fe5-4902-a827-9312a6ee07ee"
+  },
+  {
+    "disp": "薄いシーツは多い",
+    "kana": "うすいしーつはおおい",
+    "q": "usuisi-tuhaooi",
+    "lang": "ja",
+    "uuid": "170dbe60-1503-424e-8a07-6254a6db1c3b"
+  },
+  {
+    "disp": "姉のノートは小さい",
+    "kana": "あねののーとはちいさい",
+    "q": "anenono-tohatiisai",
+    "lang": "ja",
+    "uuid": "3d076432-69be-4bea-8334-d71434e4b0ac"
+  },
+  {
+    "disp": "青いセーターは暑い",
+    "kana": "あおいせーたーはあつい",
+    "q": "aoise-ta-haatui",
+    "lang": "ja",
+    "uuid": "57167196-4445-4a0f-acbf-e37730fd18e8"
+  },
+  {
+    "disp": "青いセーターは派手だ",
+    "kana": "あおいせーたーははでだ",
+    "q": "aoise-ta-hahadeda",
+    "lang": "ja",
+    "uuid": "da959417-2e54-46b2-be4a-24d880e84361"
+  },
+  {
+    "disp": "青いセーターにたった",
+    "kana": "あおいせーたーにたった",
+    "q": "aoise-ta-nitatta",
+    "lang": "ja",
+    "uuid": "a00e8a7f-c55b-4f9a-93e2-7058dea38f6d"
+  },
+  {
+    "disp": "青いシーツは小さい",
+    "kana": "あおいしーつはちいさい",
+    "q": "aoisi-tuhatiisai",
+    "lang": "ja",
+    "uuid": "39bb1687-5ebc-484b-8b38-f4a6a04c4c1a"
+  },
+  {
+    "disp": "青いスーツは小さい",
+    "kana": "あおいすーつはちいさい",
+    "q": "aoisu-tuhatiisai",
+    "lang": "ja",
+    "uuid": "625354ce-29dd-4b63-bd33-e443a0f1bc51"
+  },
+  {
+    "disp": "朝のデータは正しい",
+    "kana": "あさのでーたはただしい",
+    "q": "asanode-tahatadasii",
+    "lang": "ja",
+    "uuid": "aafb94e6-f1f2-49d7-8de9-d47f509c15ce"
+  },
+  {
+    "disp": "朝のソースは美味しい",
+    "kana": "あさのそーすはおいしい",
+    "q": "asanoso-suhaoisii",
+    "lang": "ja",
+    "uuid": "a4a75c47-a689-40f1-8227-9cfb06d31213"
+  },
+  {
+    "disp": "肌のトーンは正しい",
+    "kana": "はだのとーんはただしい",
+    "q": "hadanoto-nnhatadasii",
+    "lang": "ja",
+    "uuid": "f7ed6f6e-7e82-4d51-a0a3-cb6c9265dd48"
+  },
+  {
+    "disp": "母のセーターは派手だ",
+    "kana": "ははのせーたーははでだ",
+    "q": "hahanose-ta-hahadeda",
+    "lang": "ja",
+    "uuid": "c1bd68be-340c-42f7-9edc-f1ab0c9b08e2"
+  },
+  {
+    "disp": "皮膚のトーンは正しい",
+    "kana": "ひふのとーんはただしい",
+    "q": "hihunoto-nnhatadasii",
+    "lang": "ja",
+    "uuid": "7021b217-8ebd-4613-9751-449e73fe6655"
+  },
+  {
+    "disp": "茄子のソースは美味しい",
+    "kana": "なすのそーすはおいしい",
+    "q": "nasunoso-suhaoisii",
+    "lang": "ja",
+    "uuid": "c2fc135a-dcde-4137-acd3-c4664cc2806c"
+  },
+  {
+    "disp": "美味しいソースは多い",
+    "kana": "おいしいそーすはおおい",
+    "q": "oisiiso-suhaooi",
+    "lang": "ja",
+    "uuid": "71bd498e-3861-432e-b565-ebdfbb12c818"
+  },
+  {
+    "disp": "美味しいソースにたした",
+    "kana": "おいしいそーすにたした",
+    "q": "oisiiso-sunitasita",
+    "lang": "ja",
+    "uuid": "907146ac-97bf-4419-9d83-c93d60b1c0c1"
+  },
+  {
+    "disp": "美味しいトーストにした",
+    "kana": "おいしいとーすとにした",
+    "q": "oisiito-sutonisita",
+    "lang": "ja",
+    "uuid": "1af1e7d2-d24e-48f8-83ba-3b1505cd7b95"
+  },
+  {
+    "disp": "ソースのトーンは薄い",
+    "kana": "そーすのとーんはうすい",
+    "q": "so-sunoto-nnhausui",
+    "lang": "ja",
+    "uuid": "bed5ef7b-4d7a-40cf-8ffc-755be3f2d0e3"
+  },
+  {
+    "disp": "正しいノートは多い",
+    "kana": "ただしいのーとはおおい",
+    "q": "tadasiino-tohaooi",
+    "lang": "ja",
+    "uuid": "8b66803b-d35b-4634-a204-4ebf10a9c358"
+  },
+  {
+    "disp": "正しいスーツは青い",
+    "kana": "ただしいすーつはあおい",
+    "q": "tadasiisu-tuhaaoi",
+    "lang": "ja",
+    "uuid": "5e0cc91c-41fc-45b0-9440-28761f0fcc3e"
+  },
+  {
+    "disp": "棚のノートは小さい",
+    "kana": "たなののーとはちいさい",
+    "q": "tananono-tohatiisai",
+    "lang": "ja",
+    "uuid": "7218b6e4-b67a-467f-8c7f-a188bd37560a"
+  },
+  {
+    "disp": "小さいドーナツは酸い",
+    "kana": "ちいさいどーなつはすい",
+    "q": "tiisaido-natuhasui",
+    "lang": "ja",
+    "uuid": "ba0c9485-306b-4213-8b29-b3c6c5d9bd91"
+  },
+  {
+    "disp": "小さいノートは派手だ",
+    "kana": "ちいさいのーとははでだ",
+    "q": "tiisaino-tohahadeda",
+    "lang": "ja",
+    "uuid": "8dff641f-8884-4f43-afff-4cd1a11dfa43"
+  },
+  {
+    "disp": "小さいシーツは青い",
+    "kana": "ちいさいしーつはあおい",
+    "q": "tiisaisi-tuhaaoi",
+    "lang": "ja",
+    "uuid": "98741d22-af50-4fc0-9b1c-d9082fe5d889"
+  },
+  {
+    "disp": "小さいシーツは薄い",
+    "kana": "ちいさいしーつはうすい",
+    "q": "tiisaisi-tuhausui",
+    "lang": "ja",
+    "uuid": "11a8195d-d2da-45e7-ae04-164b3fe16e44"
+  },
+  {
+    "disp": "小さいスーツは青い",
+    "kana": "ちいさいすーつはあおい",
+    "q": "tiisaisu-tuhaaoi",
+    "lang": "ja",
+    "uuid": "622c2b43-614a-4477-9983-7538ed845809"
+  },
+  {
+    "disp": "父のセーターは青い",
+    "kana": "ちちのせーたーはあおい",
+    "q": "titinose-ta-haaoi",
+    "lang": "ja",
+    "uuid": "ca2bdb67-a148-4cbe-9d30-93c0092ea11c"
+  },
+  {
+    "disp": "父のスーツは小さい",
+    "kana": "ちちのすーつはちいさい",
+    "q": "titinosu-tuhatiisai",
+    "lang": "ja",
+    "uuid": "255a1a42-6d49-4971-a3e3-c616442fb602"
+  },
+  {
+    "disp": "トーストのソースは酸い",
+    "kana": "とーすとのそーすはすい",
+    "q": "to-sutonoso-suhasui",
+    "lang": "ja",
+    "uuid": "b2aae63b-c7cd-47e5-81e6-41681eb66f91"
+  },
+  {
+    "disp": "薄いシーツは小さい",
+    "kana": "うすいしーつはちいさい",
+    "q": "usuisi-tuhatiisai",
+    "lang": "ja",
+    "uuid": "54aed703-46e9-4a72-a71c-73c300854e70"
+  },
+  {
+    "disp": "薄いスーツは小さい",
+    "kana": "うすいすーつはちいさい",
+    "q": "usuisu-tuhatiisai",
+    "lang": "ja",
+    "uuid": "c8e48d18-7ca5-4cdc-aa31-bed5319bddd4"
+  },
+  {
+    "disp": "姉のセーターは小さい",
+    "kana": "あねのせーたーはちいさい",
+    "q": "anenose-ta-hatiisai",
+    "lang": "ja",
+    "uuid": "ac0a10a8-c0cb-42b9-a1c4-c47058f4218a"
+  },
+  {
+    "disp": "朝のトーストは美味しい",
+    "kana": "あさのとーすとはおいしい",
+    "q": "asanoto-sutohaoisii",
+    "lang": "ja",
+    "uuid": "36f41dc3-337c-467a-878e-d24a73689d8b"
+  },
+  {
+    "disp": "暑い日のトーストは酸い",
+    "kana": "あついひのとーすとはすい",
+    "q": "atuihinoto-sutohasui",
+    "lang": "ja",
+    "uuid": "0668ba86-bfb0-40fc-9a0d-eaa087d0cf38"
+  },
+  {
+    "disp": "母のトーストは美味しい",
+    "kana": "ははのとーすとはおいしい",
+    "q": "hahanoto-sutohaoisii",
+    "lang": "ja",
+    "uuid": "22037e07-ee96-4bad-ab24-699aea14ce97"
+  },
+  {
+    "disp": "本棚のノートは多い",
+    "kana": "ほんだなののーとはおおい",
+    "q": "honndananono-tohaooi",
+    "lang": "ja",
+    "uuid": "42de77aa-c1d3-4aaf-ba8e-111d28e8a030"
+  },
+  {
+    "disp": "本棚のシーツは薄い",
+    "kana": "ほんだなのしーつはうすい",
+    "q": "honndananosi-tuhausui",
+    "lang": "ja",
+    "uuid": "5f1eddd5-4076-4bd7-ae90-5e4b094a3dd7"
+  },
+  {
+    "disp": "美味しいトーストは多い",
+    "kana": "おいしいとーすとはおおい",
+    "q": "oisiito-sutohaooi",
+    "lang": "ja",
+    "uuid": "43ce1452-a041-4e4f-b902-005b6af73909"
+  },
+  {
+    "disp": "夫のセーターは太い",
+    "kana": "おっとのせーたーはふとい",
+    "q": "ottonose-ta-hahutoi",
+    "lang": "ja",
+    "uuid": "7a4df4a6-7e18-4c9f-b14e-ebedc4324da3"
+  },
+  {
+    "disp": "先生のスーツは派手だ",
+    "kana": "せんせいのすーつははでだ",
+    "q": "sennseinosu-tuhahadeda",
+    "lang": "ja",
+    "uuid": "9a8355d0-84c4-4ced-8e3a-f5c6cc06a336"
+  },
+  {
+    "disp": "寝室のシートは暑い",
+    "kana": "しんしつのしーとはあつい",
+    "q": "sinnsitunosi-tohaatui",
+    "lang": "ja",
+    "uuid": "707bf1d5-4fa8-4a04-98fe-fac3922613fa"
+  },
+  {
+    "disp": "寝室のシーツは暑い",
+    "kana": "しんしつのしーつはあつい",
+    "q": "sinnsitunosi-tuhaatui",
+    "lang": "ja",
+    "uuid": "80760e8e-58fe-4da4-a520-558aee7cc9bd"
+  },
+  {
+    "disp": "塩のトーストは美味しい",
+    "kana": "しおのとーすとはおいしい",
+    "q": "sionoto-sutohaoisii",
+    "lang": "ja",
+    "uuid": "96eace41-c8dd-4550-ade9-5d0941f1059c"
+  },
+  {
+    "disp": "親しい人とデートした",
+    "kana": "したしいひととでーとした",
+    "q": "sitasiihitotode-tosita",
+    "lang": "ja",
+    "uuid": "c77b8a3b-7c15-4906-8496-4c395d364bde"
+  },
+  {
+    "disp": "小さいソースは美味しい",
+    "kana": "ちいさいそーすはおいしい",
+    "q": "tiisaiso-suhaoisii",
+    "lang": "ja",
+    "uuid": "c93ad8c6-2dd4-4eee-a801-6715674c09e4"
+  },
+  {
+    "disp": "トーストは暑い日だった",
+    "kana": "とーすとはあついひだった",
+    "q": "to-sutohaatuihidatta",
+    "lang": "ja",
+    "uuid": "e857c31e-f0ef-4ee2-880b-410bef498234"
+  },
+  {
+    "disp": "トーストのソースは薄い",
+    "kana": "とーすとのそーすはうすい",
+    "q": "to-sutonoso-suhausui",
+    "lang": "ja",
+    "uuid": "7c1dcce9-81ef-4524-a62e-39a9eaf9180b"
+  },
+  {
+    "disp": "先生のノートは小さい",
+    "kana": "せんせいののーとはちいさい",
+    "q": "sennseinono-tohatiisai",
+    "lang": "ja",
+    "uuid": "07d0a522-8334-4e35-9c69-3303d79eb3fa"
+  },
+  {
+    "disp": "トーストは暑い日に出した",
+    "kana": "とーすとはあついひにだした",
+    "q": "to-sutohaatuihinidasita",
+    "lang": "ja",
+    "uuid": "ad88b03d-877c-4cdf-b760-2b4738495c9f"
+  },
+  {
+    "disp": "トーストのソースは美味しい",
+    "kana": "とーすとのそーすはおいしい",
+    "q": "to-sutonoso-suhaoisii",
+    "lang": "ja",
+    "uuid": "bcda47a9-dcd2-4443-83b1-735348845d6a"
+  }
+]
