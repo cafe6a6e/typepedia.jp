@@ -1,6 +1,31 @@
 /** Result computation for a finished game. */
 import type { KeyStat, ScoreResult } from "@/types";
 
+/** A metric the result view can rank keys by. */
+export type SortColumn = "total" | "correct" | "miss" | "accuracy";
+export type SortDir = "asc" | "desc";
+
+/**
+ * The `limit` keys that rank highest (or lowest) by `column`. Ties fall back to
+ * the busiest key, then the name, so the same game always renders the same way.
+ */
+export function rankKeys(
+  stats: KeyStat[],
+  column: SortColumn,
+  dir: SortDir,
+  limit: number,
+): KeyStat[] {
+  const sign = dir === "asc" ? 1 : -1;
+  return [...stats]
+    .sort(
+      (a, b) =>
+        sign * (a[column] - b[column]) ||
+        b.total - a.total ||
+        a.key.localeCompare(b.key),
+    )
+    .slice(0, limit);
+}
+
 /** Correct presses per expected key. */
 export type KeyCorrect = Record<string, number>;
 /** Misses per expected key. */

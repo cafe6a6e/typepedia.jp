@@ -1,30 +1,53 @@
-import { useMemo, useState } from "react";
+import {
+  BarController,
+  BarElement,
+  CategoryScale,
+  Chart,
+  Legend,
+  LinearScale,
+  LineController,
+  LineElement,
+  PointElement,
+  Tooltip,
+} from "chart.js";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { rankKeys, type SortColumn, type SortDir } from "@/lib/scoring";
 import type { KeyStat, ScoreResult } from "@/types";
+
+Chart.register(
+  BarController,
+  BarElement,
+  CategoryScale,
+  Legend,
+  LinearScale,
+  LineController,
+  LineElement,
+  PointElement,
+  Tooltip,
+);
 
 interface Props {
   result: ScoreResult;
   onBack: () => void;
 }
 
-type SortColumn = "total" | "correct" | "miss" | "accuracy";
-type SortDir = "asc" | "desc";
+/** How many keys the chart plots. */
+const VISIBLE_KEYS = 20;
 
-/** How many rows the table shows, whatever the sort. */
-const VISIBLE_ROWS = 10;
-
-/**
- * Sortable columns, in display order. `initialDir` is the direction a column
- * gets the first time it is picked: accuracy and correct hits are most useful
- * from the weak end, misses and volume from the busy end.
- */
-const COLUMNS: { column: SortColumn; label: string; initialDir: SortDir }[] = [
-  { column: "total", label: "打鍵", initialDir: "desc" },
-  { column: "correct", label: "正解", initialDir: "asc" },
-  { column: "miss", label: "ミス", initialDir: "desc" },
-  { column: "accuracy", label: "正解率", initialDir: "asc" },
+const METRICS: { value: SortColumn; label: string }[] = [
+  { value: "accuracy", label: "正解率" },
+  { value: "correct", label: "正解数" },
+  { value: "miss", label: "ミス数" },
+  { value: "total", label: "打鍵数" },
 ];
 
-/** Make an otherwise-invisible key visible in the table. */
+const GREEN = "rgba(74, 222, 128, 0.85)";
+const RED = "rgba(248, 113, 113, 0.85)";
+const BLUE = "#60a5fa";
+const INK = "rgba(255, 255, 255, 0.6)";
+const GRID = "rgba(255, 255, 255, 0.1)";
+
+/** Make an otherwise-invisible key visible on the axis. */
 function visChar(ch: string): string {
   if (ch === " ") return "␣";
   if (ch === "\t") return "⇥";
@@ -33,37 +56,168 @@ function visChar(ch: string): string {
 
 const pct = (n: number) => `${(n * 100).toFixed(1)}%`;
 
-/** Result screen: accuracy summary and a sortable key table. */
+/** Accuracy axis bounds: 0-100 with a little headroom so points are not clipped. */
+const ACCURACY_MIN = -3;
+const ACCURACY_MAX = 103;
+/** Gridlines every 10%, labels every 20%. */
+const ACCURACY_GRID_STEP = 10;
+const ACCURACY_LABEL_STEP = 20;
+const ACCURACY_TICKS = Array.from(
+  { length: 100 / ACCURACY_GRID_STEP + 1 },
+  (_, i) => ({ value: i * ACCURACY_GRID_STEP }),
+);
+
+/** Bars and line for the ranked keys, in the shape Chart.js wants. */
+function chartData(rows: KeyStat[]) {
+  return {
+    labels: rows.map((s) => visChar(s.key)),
+    datasets: [
+      {
+        type: "bar" as const,
+        label: "正解数",
+        data: rows.map((s) => s.correct),
+        backgroundColor: GREEN,
+        stack: "keys",
+        yAxisID: "y",
+        order: 2,
+      },
+      {
+        type: "bar" as const,
+        label: "ミス数",
+        data: rows.map((s) => s.miss),
+        backgroundColor: RED,
+        stack: "keys",
+        yAxisID: "y",
+        order: 2,
+      },
+      {
+        type: "line" as const,
+        label: "正解率",
+        data: rows.map((s) => s.accuracy * 100),
+        borderColor: BLUE,
+        backgroundColor: BLUE,
+        borderDash: [4, 4],
+        borderWidth: 2,
+        pointStyle: "circle" as const,
+        pointRadius: 3,
+        tension: 0,
+        yAxisID: "y1",
+        order: 1,
+      },
+    ],
+  };
+}
+
+/** Result screen: accuracy summary and a sortable per-key chart. */
 export function ResultView({ result, onBack }: Props) {
   const { correct, miss, total, accuracy, keyStats } = result;
-  const [sort, setSort] = useState<{ column: SortColumn; dir: SortDir }>({
-    column: "accuracy",
-    dir: "asc",
-  });
+  const [column, setColumn] = useState<SortColumn>("accuracy");
+  const [dir, setDir] = useState<SortDir>("asc");
 
-  const rows = useMemo(() => {
-    const sign = sort.dir === "asc" ? 1 : -1;
-    // Ties fall back to the busiest key, then the name, so the order is stable.
-    const ranked = [...keyStats].sort(
-      (a: KeyStat, b: KeyStat) =>
-        sign * (a[sort.column] - b[sort.column]) ||
-        b.total - a.total ||
-        a.key.localeCompare(b.key),
-    );
-    return ranked.slice(0, VISIBLE_ROWS);
-  }, [keyStats, sort]);
+  const canvasRef = useRef<HTMLCanvasElement | null>(null);
+  const chartRef = useRef<Chart | null>(null);
 
-  /** Re-sort by a column, flipping the direction if it is already active. */
-  function pick(column: SortColumn, initialDir: SortDir) {
-    setSort((s) =>
-      s.column === column
-        ? { column, dir: s.dir === "asc" ? "desc" : "asc" }
-        : { column, dir: initialDir },
-    );
-  }
+  const rows = useMemo(
+    () => rankKeys(keyStats, column, dir, VISIBLE_KEYS),
+    [keyStats, column, dir],
+  );
+
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    // happy-dom (and any headless canvas-less host) hands back no 2d context.
+    if (!canvas?.getContext("2d")) return;
+
+    // Built empty; the effect below fills it in, so a re-sort animates through
+    // the same chart instead of rebuilding one.
+    const chart = new Chart(canvas, {
+      type: "bar",
+      data: { labels: [], datasets: [] },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        // A short stagger so the bars fill in with a bit of life but never
+        // hold up reading the numbers.
+        animation: {
+          duration: 250,
+          delay: (ctx) =>
+            ctx.type === "data" && ctx.mode === "default"
+              ? ctx.dataIndex * 12
+              : 0,
+        },
+        interaction: { mode: "index", intersect: false },
+        plugins: {
+          legend: {
+            position: "top",
+            align: "end",
+            labels: { color: INK, boxWidth: 12, usePointStyle: true },
+          },
+          tooltip: {
+            callbacks: {
+              label: (ctx) =>
+                ctx.dataset.label === "正解率"
+                  ? `正解率 ${(ctx.parsed.y as number).toFixed(1)}%`
+                  : `${ctx.dataset.label} ${ctx.parsed.y}`,
+            },
+          },
+        },
+        scales: {
+          x: { stacked: true, ticks: { color: INK }, grid: { color: GRID } },
+          // `y` is the bars' axis and `y1` the line's; the sides below are what
+          // decides which edge each one is drawn on.
+          y: {
+            stacked: true,
+            position: "right",
+            beginAtZero: true,
+            title: { display: true, text: "打鍵数", color: INK },
+            ticks: { color: INK, precision: 0 },
+            // The accuracy axis draws the horizontal grid; two sets at
+            // different intervals just tangle. Keep the baseline, and mark the
+            // scale with short ticks on the axis itself instead.
+            grid: {
+              color: (ctx) => (ctx.tick.value === 0 ? GRID : "transparent"),
+              tickColor: GRID,
+              tickLength: 5,
+            },
+          },
+          y1: {
+            position: "left",
+            min: ACCURACY_MIN,
+            max: ACCURACY_MAX,
+            title: { display: true, text: "正解率", color: INK },
+            // Pin the ticks to 0,10,…,100 rather than letting Chart.js pick
+            // them from the padded -3..103 bounds.
+            afterBuildTicks: (axis) => {
+              axis.ticks = ACCURACY_TICKS.map((t) => ({ ...t }));
+            },
+            ticks: {
+              color: INK,
+              autoSkip: false,
+              // An empty label keeps the gridline but drops the text, so the
+              // grid is every 10% while only every 20% is written out.
+              callback: (v) =>
+                Number(v) % ACCURACY_LABEL_STEP === 0 ? `${v}%` : "",
+            },
+            grid: { color: GRID },
+          },
+        },
+      },
+    });
+    chartRef.current = chart;
+    return () => {
+      chart.destroy();
+      chartRef.current = null;
+    };
+  }, []);
+
+  useEffect(() => {
+    const chart = chartRef.current;
+    if (!chart) return;
+    chart.data = chartData(rows);
+    chart.update();
+  }, [rows]);
 
   return (
-    <div className="w-full max-w-md text-center">
+    <div className="w-full max-w-2xl text-center">
       <h2 className="mb-4 text-2xl font-bold">結果</h2>
 
       <div className="mb-6 flex items-baseline justify-center gap-4 rounded-md bg-white/5 px-4 py-3">
@@ -75,69 +229,55 @@ export function ResultView({ result, onBack }: Props) {
         </span>
       </div>
 
-      <h3 className="mb-2 text-left text-xs font-semibold text-white/50">
-        キー別（上位{VISIBLE_ROWS}件）
-      </h3>
+      <div className="mb-2 flex items-center justify-between gap-2">
+        <h3 className="text-xs font-semibold text-white/50">
+          キー別（上位{VISIBLE_KEYS}件）
+        </h3>
+        <div className="flex gap-2">
+          <label className="sr-only" htmlFor="result-metric">
+            並び替えの項目
+          </label>
+          <select
+            id="result-metric"
+            value={column}
+            onChange={(e) => setColumn(e.target.value as SortColumn)}
+            style={{ colorScheme: "dark" }}
+            className="rounded border border-white/10 bg-white/10 px-2 py-1 text-xs"
+          >
+            {METRICS.map((m) => (
+              <option key={m.value} value={m.value}>
+                {m.label}
+              </option>
+            ))}
+          </select>
+          <label className="sr-only" htmlFor="result-dir">
+            並び順
+          </label>
+          <select
+            id="result-dir"
+            value={dir}
+            onChange={(e) => setDir(e.target.value as SortDir)}
+            style={{ colorScheme: "dark" }}
+            className="rounded border border-white/10 bg-white/10 px-2 py-1 text-xs"
+          >
+            <option value="asc">昇順</option>
+            <option value="desc">降順</option>
+          </select>
+        </div>
+      </div>
+
       {keyStats.length === 0 ? (
         <p className="rounded-md bg-white/5 px-4 py-3 text-sm text-white/50">
           打鍵がありませんでした
         </p>
       ) : (
-        <table className="w-full text-sm tabular-nums">
-          <thead>
-            <tr className="text-xs text-white/40">
-              <th className="py-1 text-left font-normal">キー</th>
-              {COLUMNS.map(({ column, label, initialDir }) => {
-                const active = sort.column === column;
-                return (
-                  <th
-                    key={column}
-                    className="py-1 text-right font-normal"
-                    aria-sort={
-                      active
-                        ? sort.dir === "asc"
-                          ? "ascending"
-                          : "descending"
-                        : "none"
-                    }
-                  >
-                    <button
-                      type="button"
-                      onClick={() => pick(column, initialDir)}
-                      className={`w-full text-right hover:text-white ${
-                        active ? "text-white" : ""
-                      }`}
-                    >
-                      {label}
-                      <span className="ml-0.5 inline-block w-2 text-[9px]">
-                        {active ? (sort.dir === "asc" ? "▲" : "▼") : ""}
-                      </span>
-                    </button>
-                  </th>
-                );
-              })}
-            </tr>
-          </thead>
-          <tbody>
-            {rows.map((s) => (
-              <tr key={s.key} className="border-b border-white/10">
-                <td className="py-1.5 text-left font-mono text-base">
-                  {visChar(s.key)}
-                </td>
-                <td className="py-1.5 text-right font-mono">{s.total}</td>
-                <td className="py-1.5 text-right font-mono text-green-400">
-                  {s.correct}
-                </td>
-                <td className="py-1.5 text-right font-mono text-red-400">
-                  {s.miss}
-                </td>
-                <td className="py-1.5 text-right font-mono text-white/70">
-                  {pct(s.accuracy)}
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+        <div className="h-72">
+          <canvas
+            ref={canvasRef}
+            aria-label="キー別の正解数・ミス数と正解率のグラフ"
+            role="img"
+          />
+        </div>
       )}
 
       <button

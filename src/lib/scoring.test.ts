@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import { computeScore } from "@/lib/scoring";
+import { computeScore, rankKeys } from "@/lib/scoring";
 
 test("accuracy is correct/total and zero when nothing was typed", () => {
   const empty = computeScore(0, 0, {}, {});
@@ -63,4 +63,44 @@ test("a key that was only ever missed still shows up", () => {
     total: 2,
     accuracy: 0,
   });
+});
+
+const stats = [
+  { key: "a", correct: 40, miss: 2, total: 42, accuracy: 40 / 42 },
+  { key: "i", correct: 38, miss: 0, total: 38, accuracy: 1 },
+  { key: "z", correct: 0, miss: 2, total: 2, accuracy: 0 },
+  { key: "q", correct: 1, miss: 1, total: 2, accuracy: 0.5 },
+];
+
+test("rankKeys sorts by the chosen metric in either direction", () => {
+  expect(rankKeys(stats, "accuracy", "asc", 10).map((s) => s.key)).toEqual([
+    "z",
+    "q",
+    "a",
+    "i",
+  ]);
+  expect(rankKeys(stats, "total", "desc", 10).map((s) => s.key)).toEqual([
+    "a",
+    "i",
+    "q",
+    "z",
+  ]);
+  expect(rankKeys(stats, "miss", "desc", 10).map((s) => s.key)).toEqual([
+    "a",
+    "z",
+    "q",
+    "i",
+  ]);
+});
+
+test("rankKeys trims to the limit and breaks ties by volume then name", () => {
+  expect(rankKeys(stats, "accuracy", "asc", 2).map((s) => s.key)).toEqual([
+    "z",
+    "q",
+  ]);
+  // q and z both have 2 presses; the busier-then-alphabetical fallback applies.
+  expect(rankKeys(stats, "total", "asc", 2).map((s) => s.key)).toEqual([
+    "q",
+    "z",
+  ]);
 });
