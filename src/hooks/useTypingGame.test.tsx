@@ -202,3 +202,74 @@ test("completing a review question records the review", async () => {
   });
   expect(item.reviewsDone).toBe(1);
 });
+
+/** Run `fn` with performance.now() driven by a settable clock. */
+async function withClock(
+  fn: (at: (t: number, key: string) => Promise<void>) => Promise<void>,
+) {
+  const real = performance.now;
+  let clock = 0;
+  performance.now = () => clock;
+  try {
+    await fn(async (t, key) => {
+      clock = t;
+      await press(key);
+    });
+  } finally {
+    performance.now = real;
+  }
+}
+
+test("latency skips the first keystroke, misses, and the recovery after one", async () => {
+  installFetch([{ disp: "abcd", q: "abcd" }]);
+  const { result } = renderHook(() =>
+    useTypingGame(settings({ questionCount: 1 })),
+  );
+  await press(" ");
+  await waitFor(() => expect(result.current.phase).toBe("playing"));
+
+  await withClock(async (at) => {
+    await at(100, "a"); // first of the question: nothing to time against
+    await at(250, "b"); // 150ms  <- measured
+    await at(400, "z"); // a miss: not measured
+    await at(900, "c"); // recovery after a miss: only sets the baseline
+    await at(1000, "d"); // 100ms <- measured
+  });
+
+  expect(result.current.phase).toBe("result");
+  const { latency } = result.current.result ?? { latency: null };
+  expect(latency?.count).toBe(2);
+  expect(latency?.median).toBe(125); // (100 + 150) / 2
+  // Each gap belongs to the key that ended it: b took 150ms, d took 100ms.
+  expect(latency?.keys.map((k) => [k.key, k.count, k.median])).toEqual([
+    ["b", 1, 150],
+    ["d", 1, 100],
+  ]);
+});
+
+test("a new question restarts the rhythm", async () => {
+  // Two questions, and the loader shuffles them, so drive whatever comes up.
+  installFetch([
+    { disp: "ab", q: "ab" },
+    { disp: "cd", q: "cd" },
+  ]);
+  const { result } = renderHook(() =>
+    useTypingGame(settings({ questionCount: 2 })),
+  );
+  await press(" ");
+  await waitFor(() => expect(result.current.phase).toBe("playing"));
+
+  await withClock(async (at) => {
+    const first = result.current.currentSentence.q;
+    await at(100, first[0]);
+    await at(200, first[1]); // 100ms <- measured
+    const second = result.current.currentSentence.q;
+    // A long gap across the question boundary that must NOT be measured.
+    await at(700, second[0]);
+    await at(800, second[1]); // 100ms <- measured
+  });
+
+  expect(result.current.phase).toBe("result");
+  expect(result.current.result?.latency.count).toBe(2);
+  expect(result.current.result?.latency.median).toBe(100);
+});

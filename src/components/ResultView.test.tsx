@@ -1,6 +1,6 @@
 import { expect, mock, test } from "bun:test";
 import { fireEvent, render, screen } from "@testing-library/react";
-import type { KeyStat, ScoreResult } from "@/types";
+import type { KeyStat, LatencyStats, ScoreResult } from "@/types";
 
 /**
  * Chart.js needs a real 2d context, which happy-dom does not provide, so the
@@ -129,12 +129,36 @@ const base: ScoreResult = {
   total: 272,
   accuracy: 240 / 272,
   keyStats,
+  latency: {
+    count: 9,
+    median: 152,
+    buckets: [
+      { min: 91, max: 128, count: 2 },
+      { min: 128, max: 181, count: 5 },
+      { min: 181, max: 256, count: 1 },
+      { min: 256, max: Number.POSITIVE_INFINITY, count: 1 },
+    ],
+    // Alphabetical; the per-key bucket arrays sum to the totals above.
+    keys: [
+      { key: " ", count: 2, median: 120, buckets: [2, 0, 0, 0] },
+      { key: "a", count: 4, median: 150, buckets: [0, 3, 1, 0] },
+      { key: "e", count: 3, median: 160, buckets: [0, 2, 0, 1] },
+    ],
+  },
+};
+
+const NO_LATENCY: LatencyStats = {
+  count: 0,
+  median: 0,
+  buckets: [],
+  keys: [],
 };
 
 function renderView(result: ScoreResult = base) {
   charts.length = 0;
   const utils = render(<ResultView result={result} onBack={mock(() => {})} />);
-  return { ...utils, chart: () => charts[0] };
+  // Two canvases: the per-key chart is built first, the latency one second.
+  return { ...utils, chart: () => charts[0], latencyChart: () => charts[1] };
 }
 
 test("summary shows accuracy with the raw counts", () => {
@@ -182,7 +206,7 @@ test("the chart stacks correct/miss bars and overlays an accuracy line", () => {
   expect(plugins.legend).toMatchObject({ position: "top", align: "end" });
 });
 
-test("defaults to accuracy ascending and plots at most 20 keys", () => {
+test("defaults to accuracy ascending and plots every key", () => {
   const { chart } = renderView();
   expect(screen.getByLabelText("並び替えの項目")).toHaveProperty(
     "value",
@@ -191,7 +215,7 @@ test("defaults to accuracy ascending and plots at most 20 keys", () => {
   expect(screen.getByLabelText("並び順")).toHaveProperty("value", "asc");
   // z (0%) and q (50%) are the weakest, then s (89.5%).
   expect(chart().data.labels.slice(0, 3)).toEqual(["z", "q", "s"]);
-  expect(chart().data.labels.length).toBeLessThanOrEqual(20);
+  expect(chart().data.labels).toHaveLength(keyStats.length);
 });
 
 test("changing the metric updates the existing chart in place", () => {
@@ -207,10 +231,12 @@ test("changing the metric updates the existing chart in place", () => {
 
   // Busiest first, and the rare q/z drop out of the plotted set.
   expect(chart().data.labels.slice(0, 3)).toEqual(["a", "i", "o"]);
-  expect(chart().data.labels).not.toContain("z");
+  expect(chart().data.labels).toContain("z");
+  expect(chart().data.labels).toHaveLength(keyStats.length);
   expect(chart().updates).toBeGreaterThan(before);
-  // Still the same chart instance: no rebuild.
-  expect(charts).toHaveLength(1);
+  // Still the same chart instance, and only the two the screen builds up front
+  // (per-key, then latency): a re-sort updates, it does not rebuild.
+  expect(charts).toHaveLength(2);
 });
 
 test("the accuracy axis grids every 10% and labels every 20%", () => {
@@ -254,9 +280,92 @@ test("a game with no keystrokes shows an empty state instead of the chart", () =
     total: 0,
     accuracy: 0,
     keyStats: [],
+    latency: NO_LATENCY,
   });
   expect(screen.getByText(/打鍵がありませんでした/)).toBeDefined();
   expect(container.querySelector("canvas")).toBeNull();
+});
+
+test("the latency section leads with the median and sample count", () => {
+  renderView();
+  expect(screen.getByText("レイテンシ")).toBeDefined();
+  expect(screen.getByText("152ms")).toBeDefined();
+  expect(screen.getByText(/中央値 ・ 計測/)).toBeDefined();
+  expect(screen.getByText("9")).toBeDefined();
+});
+
+test("the latency histogram plots the bucket counts", () => {
+  const { latencyChart } = renderView();
+
+  // Bars are the bucket counts, labelled by their ms range; the open-ended top
+  // bin reads as "256〜".
+  expect(latencyChart().data.labels).toEqual([
+    "91–128",
+    "128–181",
+    "181–256",
+    "256〜",
+  ]);
+  expect(latencyChart().data.datasets[0].data).toEqual([2, 5, 1, 1]);
+});
+
+test("no measured gaps shows a note instead of the histogram", () => {
+  const { container } = renderView({ ...base, latency: NO_LATENCY });
+  expect(screen.getByText(/計測できませんでした/)).toBeDefined();
+  // With nothing measured the section drops its summary box entirely.
+  expect(screen.queryByText(/中央値 ・ 計測/)).toBeNull();
+  // Only the per-key canvas is left.
+  expect(container.querySelectorAll("canvas")).toHaveLength(1);
+});
+
+test("the key cards run most-measured first with the median and count", () => {
+  renderView();
+  expect(screen.getByText(/キー別レイテンシ中央値/)).toBeDefined();
+  const cells = screen
+    .getAllByRole("button")
+    .filter((b) => b.getAttribute("aria-pressed") !== null);
+  // a has 4 samples, e has 3, the space has 2.
+  expect(cells.map((b) => b.textContent)).toEqual([
+    "a150ms4回",
+    "e160ms3回",
+    "␣120ms2回",
+  ]);
+  expect(cells.every((b) => b.getAttribute("aria-pressed") === "false")).toBe(
+    true,
+  );
+});
+
+/** The key-list cell for `key`, found by its rendered text. */
+function keyCell(key: string): HTMLElement {
+  const cell = screen
+    .getAllByRole("button")
+    .find(
+      (b) =>
+        b.getAttribute("aria-pressed") !== null &&
+        b.textContent?.startsWith(key),
+    );
+  if (!cell) throw new Error(`no latency cell for ${key}`);
+  return cell;
+}
+
+test("picking a key stacks its share in green over the rest", () => {
+  const { latencyChart } = renderView();
+  expect(latencyChart().data.datasets).toHaveLength(1);
+
+  fireEvent.click(keyCell("a"));
+
+  const [mine, rest] = latencyChart().data.datasets;
+  expect(mine.label).toBe("a");
+  expect(mine.data).toEqual([0, 3, 1, 0]);
+  expect(String(mine.backgroundColor)).toContain("74, 222, 128"); // green
+  expect(rest.label).toBe("その他");
+  // The two series add back up to the overall histogram.
+  expect(rest.data).toEqual([2, 2, 0, 1]);
+  expect(mine.stack).toBe(rest.stack);
+
+  // Clicking the same cell again clears the split.
+  expect(keyCell("a").getAttribute("aria-pressed")).toBe("true");
+  fireEvent.click(keyCell("a"));
+  expect(latencyChart().data.datasets).toHaveLength(1);
 });
 
 test("the back button invokes onBack", () => {

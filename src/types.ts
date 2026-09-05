@@ -115,6 +115,48 @@ export interface KeyStat {
   accuracy: number;
 }
 
+/** One bar of the latency histogram. */
+export interface LatencyBucket {
+  /** Inclusive lower edge in ms. */
+  min: number;
+  /** Exclusive upper edge in ms; Infinity for the open-ended top bin. */
+  max: number;
+  count: number;
+}
+
+/** One measured gap, attributed to the key that ended it. */
+export interface LatencySample {
+  key: string;
+  ms: number;
+}
+
+/** One key's slice of the latency distribution. */
+export interface LatencyKeyStat {
+  /** Lower-cased, as in KeyStat. */
+  key: string;
+  /** How many gaps ended on this key. */
+  count: number;
+  median: number;
+  /** Counts per bucket, aligned 1:1 with LatencyStats.buckets. */
+  buckets: number[];
+}
+
+/**
+ * Gaps between consecutive correct keystrokes. The first keystroke of a
+ * sentence, misses, and the keystroke right after a miss are all left out, so
+ * this measures typing rhythm rather than recovery time.
+ */
+export interface LatencyStats {
+  /** How many gaps were measured. */
+  count: number;
+  /** Middle gap in ms; 0 when nothing was measured. */
+  median: number;
+  /** Log-spaced buckets with the empty ends trimmed off. */
+  buckets: LatencyBucket[];
+  /** Per-key breakdown, alphabetical; keys with no measured gap are absent. */
+  keys: LatencyKeyStat[];
+}
+
 /** A computed result for one finished game. */
 export interface ScoreResult {
   correct: number;
@@ -124,4 +166,5 @@ export interface ScoreResult {
   accuracy: number;
   /** Every key that came up, busiest first. The view ranks and trims these. */
   keyStats: KeyStat[];
+  latency: LatencyStats;
 }

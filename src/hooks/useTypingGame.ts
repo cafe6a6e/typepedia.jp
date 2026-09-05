@@ -13,6 +13,7 @@ import { loadGameSentences } from "@/lib/sentences";
 import { recordReview } from "@/lib/study";
 import type {
   EngineState,
+  LatencySample,
   Matcher,
   ReviewInfo,
   ScoreResult,
@@ -54,6 +55,12 @@ export function useTypingGame(settings: Settings) {
   const keyMissRef = useRef<Record<string, number>>({});
   // Whether the previous keystroke was a miss (to skip repeated mistakes).
   const lastWasMissRef = useRef(false);
+  // Gaps between consecutive correct keystrokes, attributed to the key that
+  // ended each one ("how long it took to reach this key").
+  const latenciesRef = useRef<LatencySample[]>([]);
+  // When the last correct key landed; null at the start of each sentence, so
+  // the first keystroke of a question is never timed against the previous one.
+  const prevCorrectTsRef = useRef<number | null>(null);
   const timersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
   // When true (e.g. the memo modal is open), the global key listener is inert.
   const keysSuspendedRef = useRef(false);
@@ -82,6 +89,8 @@ export function useTypingGame(settings: Settings) {
     keyCorrectRef.current = {};
     keyMissRef.current = {};
     lastWasMissRef.current = false;
+    latenciesRef.current = [];
+    prevCorrectTsRef.current = null;
     sentenceIndexRef.current = 0;
     engineRef.current = INITIAL_ENGINE;
     setStats({ correct: 0, miss: 0 });
@@ -97,6 +106,7 @@ export function useTypingGame(settings: Settings) {
         missRef.current,
         keyCorrectRef.current,
         keyMissRef.current,
+        latenciesRef.current,
       ),
     );
     setPhase("result");
@@ -169,6 +179,14 @@ export function useTypingGame(settings: Settings) {
         return;
       }
 
+      // Time the gap before clearing the miss flag: a keystroke that follows a
+      // miss is the recovery, not the rhythm, so it only sets the new baseline.
+      const now = performance.now();
+      if (prevCorrectTsRef.current !== null && !lastWasMissRef.current) {
+        latenciesRef.current.push({ key, ms: now - prevCorrectTsRef.current });
+      }
+      prevCorrectTsRef.current = now;
+
       lastWasMissRef.current = false;
       // A correct keystroke: the pressed key is the expected key.
       keyCorrectRef.current[key] = (keyCorrectRef.current[key] ?? 0) + 1;
@@ -193,6 +211,8 @@ export function useTypingGame(settings: Settings) {
           finish();
         } else {
           sentenceIndexRef.current = next;
+          // A new question starts the rhythm over.
+          prevCorrectTsRef.current = null;
           engineRef.current = INITIAL_ENGINE;
           setSentenceIndex(next);
           setEngine(INITIAL_ENGINE);
