@@ -122,6 +122,6 @@ export interface ScoreResult {
   total: number;
   /** correct / total (0–1). */
   accuracy: number;
-  /** The most-pressed keys, busiest first (top 10). */
-  topKeys: KeyStat[];
+  /** Every key that came up, busiest first. The view ranks and trims these. */
+  keyStats: KeyStat[];
 }

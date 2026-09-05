@@ -121,7 +121,7 @@ test("the result tallies a miss against the key that was expected", async () => 
   expect(result.current.phase).toBe("result");
 
   // "a" was expected: hit once, missed once. The wrong key itself is not kept.
-  const keys = result.current.result?.topKeys ?? [];
+  const keys = result.current.result?.keyStats ?? [];
   expect(keys).toHaveLength(1);
   expect(keys[0]).toMatchObject({ key: "a", correct: 1, miss: 1, total: 2 });
 });
@@ -142,7 +142,7 @@ test("only the first key of a consecutive miss run is tallied", async () => {
   // All three physical misses count toward the summary...
   expect(result.current.result?.miss).toBe(3);
   // ...but the run counts as a single fumble of key "a".
-  const entry = result.current.result?.topKeys.find((s) => s.key === "a");
+  const entry = result.current.result?.keyStats.find((s) => s.key === "a");
   expect(entry).toMatchObject({ key: "a", correct: 1, miss: 1 });
 });
 
@@ -159,7 +159,7 @@ test('the "example" / "dxexamplde" spec: e is fumbled twice', async () => {
 
   // Key "e" was expected twice, hit right twice, fumbled twice (the "x" was a
   // repeat within the first run and is not tallied).
-  const e = result.current.result?.topKeys.find((s) => s.key === "e");
+  const e = result.current.result?.keyStats.find((s) => s.key === "e");
   expect(e).toMatchObject({ key: "e", correct: 2, miss: 2, total: 4 });
 });
 

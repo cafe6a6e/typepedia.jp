@@ -1,9 +1,6 @@
 /** Result computation for a finished game. */
 import type { KeyStat, ScoreResult } from "@/types";
 
-/** How many keys to surface in the ranking. */
-const TOP_KEYS = 10;
-
 /** Correct presses per expected key. */
 export type KeyCorrect = Record<string, number>;
 /** Misses per expected key. */
@@ -21,8 +18,8 @@ function foldCase(counts: Record<string, number>, into: Map<string, number>) {
  * accuracy = correct / (correct + miss). Keystroke statistics are per expected
  * key: `keyCorrect` counts right hits and `keyMiss` counts fumbled attempts
  * (the first wrong key of each run). Keys are folded to lower case so a shifted
- * letter is not a separate key, then ranked by how often they came up, since
- * that is what makes a row worth reading.
+ * letter is not a separate key. Every key is returned: the result view picks
+ * the sort order and how many rows to show.
  */
 export function computeScore(
   correct: number,
@@ -46,14 +43,14 @@ export function computeScore(
     return { key, correct: c, miss: m, total: t, accuracy: t > 0 ? c / t : 0 };
   });
 
-  const topKeys = stats
-    .sort(
-      (a, b) =>
-        b.total - a.total ||
-        b.accuracy - a.accuracy ||
-        a.key.localeCompare(b.key),
-    )
-    .slice(0, TOP_KEYS);
+  // Busiest first, deterministically: this is the order the view falls back to
+  // when its own sort key ties.
+  const keyStats = stats.sort(
+    (a, b) =>
+      b.total - a.total ||
+      b.accuracy - a.accuracy ||
+      a.key.localeCompare(b.key),
+  );
 
-  return { correct, miss, total, accuracy, topKeys };
+  return { correct, miss, total, accuracy, keyStats };
 }
