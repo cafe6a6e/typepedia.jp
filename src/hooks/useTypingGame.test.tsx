@@ -108,7 +108,7 @@ test("a wrong key counts as a miss without advancing", async () => {
   expect(result.current.phase).toBe("playing");
 });
 
-test("the result records which wrong key was pressed for a character", async () => {
+test("the result tallies a miss against the key that was expected", async () => {
   installFetch([{ disp: "a", q: "a" }]);
   const { result } = renderHook(() =>
     useTypingGame(settings({ questionCount: 1 })),
@@ -120,10 +120,10 @@ test("the result records which wrong key was pressed for a character", async () 
   await type("a"); // then correct -> finishes
   expect(result.current.phase).toBe("result");
 
-  // "a" was expected: hit once, missed once (wrong key "z").
-  const low = result.current.result?.lowAccuracyKeys ?? [];
-  expect(low[0]).toMatchObject({ key: "a", correct: 1, miss: 1 });
-  expect(low[0].wrongKeys).toEqual([{ key: "z", count: 1 }]);
+  // "a" was expected: hit once, missed once. The wrong key itself is not kept.
+  const keys = result.current.result?.topKeys ?? [];
+  expect(keys).toHaveLength(1);
+  expect(keys[0]).toMatchObject({ key: "a", correct: 1, miss: 1, total: 2 });
 });
 
 test("only the first key of a consecutive miss run is tallied", async () => {
@@ -141,15 +141,12 @@ test("only the first key of a consecutive miss run is tallied", async () => {
 
   // All three physical misses count toward the summary...
   expect(result.current.result?.miss).toBe(3);
-  // ...but only the first wrong key ("z") is tallied for key "a".
-  const entry = result.current.result?.lowAccuracyKeys.find(
-    (s) => s.key === "a",
-  );
-  expect(entry?.wrongKeys).toEqual([{ key: "z", count: 1 }]);
-  expect(entry?.miss).toBe(1);
+  // ...but the run counts as a single fumble of key "a".
+  const entry = result.current.result?.topKeys.find((s) => s.key === "a");
+  expect(entry).toMatchObject({ key: "a", correct: 1, miss: 1 });
 });
 
-test('the "example" / "dxexamplde" spec: e gets d(2)', async () => {
+test('the "example" / "dxexamplde" spec: e is fumbled twice', async () => {
   installFetch([{ disp: "example", q: "example" }]);
   const { result } = renderHook(() =>
     useTypingGame(settings({ questionCount: 1 })),
@@ -160,11 +157,10 @@ test('the "example" / "dxexamplde" spec: e gets d(2)', async () => {
   await type("dxexamplde");
   expect(result.current.phase).toBe("result");
 
-  // Key "e" was expected twice, hit right twice, fumbled twice — each fumble
-  // pressing "d" (the "x" was a repeat within the run and is not tallied).
-  const e = result.current.result?.lowAccuracyKeys.find((s) => s.key === "e");
-  expect(e).toMatchObject({ key: "e", correct: 2, miss: 2 });
-  expect(e?.wrongKeys).toEqual([{ key: "d", count: 2 }]);
+  // Key "e" was expected twice, hit right twice, fumbled twice (the "x" was a
+  // repeat within the first run and is not tallied).
+  const e = result.current.result?.topKeys.find((s) => s.key === "e");
+  expect(e).toMatchObject({ key: "e", correct: 2, miss: 2, total: 4 });
 });
 
 test("suspendKeys makes the global listener inert (Space ignored)", async () => {

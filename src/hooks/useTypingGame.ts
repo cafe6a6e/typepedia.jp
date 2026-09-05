@@ -48,10 +48,10 @@ export function useTypingGame(settings: Settings) {
   const correctRef = useRef(0);
   const missRef = useRef(0);
   // Per-expected-key statistics, keyed by the key that should have been pressed.
-  // keyCorrect: right hits. keyMiss: expected key -> wrong key pressed -> count,
-  // counting only the first wrong key of each consecutive run.
+  // keyCorrect: right hits. keyMiss: fumbled attempts, counting only the first
+  // wrong key of each consecutive run.
   const keyCorrectRef = useRef<Record<string, number>>({});
-  const keyMissRef = useRef<Record<string, Record<string, number>>>({});
+  const keyMissRef = useRef<Record<string, number>>({});
   // Whether the previous keystroke was a miss (to skip repeated mistakes).
   const lastWasMissRef = useRef(false);
   const timersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
@@ -151,8 +151,8 @@ export function useTypingGame(settings: Settings) {
       if (res === "miss") {
         missRef.current += 1;
         // Only the first miss of a consecutive run counts toward the keystroke
-        // statistics (e.g. "abck" for "k" tallies only the wrong "a"). Attribute
-        // it to the key that was expected, recording what was pressed instead.
+        // statistics (e.g. "abck" for "k" tallies only the wrong "a"). It is
+        // attributed to the key that was expected, not to what was pressed.
         if (!lastWasMissRef.current) {
           const slot = matcher[slotIndex];
           const variant =
@@ -160,9 +160,8 @@ export function useTypingGame(settings: Settings) {
             slot?.variants[0] ??
             "";
           const expected = variant[buffer.length] ?? key;
-          keyMissRef.current[expected] ??= {};
-          const byKey = keyMissRef.current[expected];
-          byKey[key] = (byKey[key] ?? 0) + 1;
+          keyMissRef.current[expected] =
+            (keyMissRef.current[expected] ?? 0) + 1;
         }
         lastWasMissRef.current = true;
         setStats({ correct: correctRef.current, miss: missRef.current });

@@ -98,20 +98,14 @@ export interface ReviewInfo {
   lastReviewedTs: number;
 }
 
-/** A key that was actually pressed by mistake, with how often. */
-export interface WrongKey {
-  /** The key the user actually pressed (a single character). */
-  key: string;
-  count: number;
-}
-
 /**
- * Per-key typing statistics, keyed by the expected keystroke. `correct` is how
- * often the key was hit right; `miss` counts fumbled attempts at it (the first
- * wrong key of each consecutive run); `wrongKeys` are what was pressed instead.
+ * Per-key typing statistics, keyed by the expected keystroke folded to lower
+ * case (so A and a are one key). `correct` is how often the key was hit right;
+ * `miss` counts fumbled attempts at it (the first wrong key of each
+ * consecutive run).
  */
 export interface KeyStat {
-  /** The keyboard key that was expected (a single character). */
+  /** The keyboard key that was expected, lower-cased. */
   key: string;
   correct: number;
   miss: number;
@@ -119,10 +113,6 @@ export interface KeyStat {
   total: number;
   /** correct / total (0–1). */
   accuracy: number;
-  /** miss / total (0–1). */
-  missRate: number;
-  /** Keys pressed instead when this key was expected, most-first (top 5). */
-  wrongKeys: WrongKey[];
 }
 
 /** A computed result for one finished game. */
@@ -132,8 +122,6 @@ export interface ScoreResult {
   total: number;
   /** correct / total (0–1). */
   accuracy: number;
-  /** Keys with the lowest accuracy (that had misses), worst-first (bottom 10). */
-  lowAccuracyKeys: KeyStat[];
-  /** Keys with the highest accuracy, best-first (top 10). */
-  highAccuracyKeys: KeyStat[];
+  /** The most-pressed keys, busiest first (top 10). */
+  topKeys: KeyStat[];
 }
