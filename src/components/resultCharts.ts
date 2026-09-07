@@ -3,7 +3,7 @@
  * and the two hooks that own a chart's lifetime. Kept apart from ResultView so
  * that file is just the screen.
  */
-import type { ChartConfiguration } from "chart.js";
+import type { ChartConfiguration, Plugin } from "chart.js";
 import {
   BarController,
   BarElement,
@@ -17,7 +17,12 @@ import {
   Tooltip,
 } from "chart.js";
 import { type RefObject, useEffect, useRef } from "react";
-import type { KeyStat, LatencyBucket, LatencyKeyStat } from "@/types";
+import type {
+  KeyStat,
+  LatencyBucket,
+  LatencyKeyStat,
+  SpeedPoint,
+} from "@/types";
 
 /** The per-key chart mixes bar and line datasets; the latency one is bars. */
 type MixedConfig = ChartConfiguration<"bar" | "line">;
@@ -42,6 +47,14 @@ const BLUE = "#60a5fa";
 const SLATE = "rgba(148, 163, 184, 0.85)";
 const INK = "rgba(255, 255, 255, 0.6)";
 const GRID = "rgba(255, 255, 255, 0.1)";
+/** Bright enough to follow with the eye, still quieter than the line itself. */
+const GUIDE = "rgba(255, 255, 255, 0.25)";
+/**
+ * The band behind every other question. A mid grey at low alpha moves whatever
+ * it sits on toward the middle — lifting a dark ground, dropping a light one —
+ * so the banding reads either way without a theme-aware colour.
+ */
+const BAND = "rgba(148, 163, 184, 0.1)";
 
 /** Make an otherwise-invisible key visible on the axis. */
 export function visChar(ch: string): string {
@@ -146,15 +159,61 @@ export function latencyChartData(
 }
 
 /**
+ * Split a question into short lines for the tooltip. Chart.js draws one array
+ * entry per line, so a long sentence stacks instead of stretching the box off
+ * the side of the chart.
+ */
+export function wrapText(text: string, width = 28, maxLines = 3): string[] {
+  const chars = [...text];
+  const lines: string[][] = [];
+  for (let i = 0; i < chars.length && lines.length < maxLines; i += width) {
+    lines.push(chars.slice(i, i + width));
+  }
+  if (chars.length > lines.length * width) {
+    const last = lines.length - 1;
+    lines[last] = [...lines[last].slice(0, width - 1), "…"];
+  }
+  return lines.map((line) => line.join(""));
+}
+
+/** The line for the speed curve; one series, so the heading is its label. */
+export function speedChartData(points: SpeedPoint[]) {
+  return {
+    datasets: [
+      {
+        type: "line" as const,
+        label: "打鍵速度",
+        // Each point carries its question along, so the tooltip can name it via
+        // `ctx.raw` and the options below can stay a plain module constant.
+        data: points.map((p) => ({
+          x: p.t / 1000,
+          y: p.cps,
+          sentence: p.sentence,
+        })),
+        borderColor: BLUE,
+        backgroundColor: BLUE,
+        borderWidth: 2,
+        tension: 0.25,
+        // A point per 250ms would be a wall of dots; the hover brings one back.
+        pointRadius: 0,
+        pointHoverRadius: 4,
+      },
+    ],
+  };
+}
+
+/**
  * Build a chart once and hand back its ref. It starts empty so that later data
  * changes animate through the same instance instead of rebuilding one.
  */
 export function useChart(
   canvasRef: RefObject<HTMLCanvasElement | null>,
   options: ChartOptions,
+  plugins: Plugin[] = [],
 ) {
   const chartRef = useRef<Chart | null>(null);
   const optionsRef = useRef(options);
+  const pluginsRef = useRef(plugins);
   useEffect(() => {
     const canvas = canvasRef.current;
     // happy-dom (and any headless canvas-less host) hands back no 2d context.
@@ -163,6 +222,7 @@ export function useChart(
       type: "bar",
       data: { labels: [], datasets: [] },
       options: optionsRef.current,
+      plugins: pluginsRef.current,
     } as MixedConfig);
     chartRef.current = chart;
     return () => {
@@ -199,6 +259,145 @@ const BASE_OPTIONS = {
       ctx.type === "data" && ctx.mode === "default" ? ctx.dataIndex * 12 : 0,
   },
 } satisfies ChartOptions;
+
+/**
+ * A vertical guide under the tooltip. On a curve with no visible points it is
+ * what ties the reading to a moment on the x axis.
+ */
+export const CROSSHAIR: Plugin = {
+  id: "crosshair",
+  afterDatasetsDraw(chart) {
+    const [active] = chart.getActiveElements();
+    if (!active) return;
+    const { ctx, chartArea } = chart;
+    ctx.save();
+    ctx.beginPath();
+    ctx.moveTo(active.element.x, chartArea.top);
+    ctx.lineTo(active.element.x, chartArea.bottom);
+    ctx.lineWidth = 1;
+    ctx.strokeStyle = GUIDE;
+    ctx.stroke();
+    ctx.restore();
+  },
+};
+
+/** How a speed point looks once speedChartData has laid it out for Chart.js. */
+interface SpeedDatum {
+  x: number;
+  y: number;
+  sentence: string;
+}
+
+/**
+ * Index ranges of the points to shade: the runs of one question, every other
+ * one. Leaving the alternate runs bare is what makes the banding read — two
+ * shades would just look like a second series.
+ */
+export function shadedRuns(points: { sentence: string }[]) {
+  const runs: { from: number; to: number }[] = [];
+  for (let from = 0, n = 0; from < points.length; n++) {
+    let to = from;
+    while (
+      to < points.length &&
+      points[to].sentence === points[from].sentence
+    ) {
+      to++;
+    }
+    if (n % 2 === 1) runs.push({ from, to });
+    from = to;
+  }
+  return runs;
+}
+
+/**
+ * Bands behind the plot, one per question. Drawn in beforeDraw so the gridlines
+ * still sit on top of them.
+ */
+export const QUESTION_BANDS: Plugin = {
+  id: "questionBands",
+  beforeDraw(chart) {
+    const points = chart.data.datasets[0]?.data as unknown as
+      | SpeedDatum[]
+      | undefined;
+    const scale = chart.scales.x;
+    if (!points?.length || !scale) return;
+
+    const { ctx, chartArea } = chart;
+    ctx.save();
+    ctx.fillStyle = BAND;
+    for (const { from, to } of shadedRuns(points)) {
+      const left = Math.max(
+        scale.getPixelForValue(points[from].x),
+        chartArea.left,
+      );
+      // The last run runs out to the edge; the others stop where the next begins.
+      const right =
+        to < points.length
+          ? Math.min(scale.getPixelForValue(points[to].x), chartArea.right)
+          : chartArea.right;
+      ctx.fillRect(
+        left,
+        chartArea.top,
+        right - left,
+        chartArea.bottom - chartArea.top,
+      );
+    }
+    ctx.restore();
+  },
+};
+
+export const SPEED_CHART_OPTIONS: ChartOptions = {
+  ...BASE_OPTIONS,
+  // The staggered reveal suits a row of bars; on a curve of hundreds of points
+  // it just delays the shape the eye came for.
+  animation: false,
+  // The curve has no visible points, so let the whole column be the hit target.
+  interaction: { mode: "index", intersect: false },
+  plugins: {
+    // One series: the section heading already names it.
+    legend: { display: false },
+    tooltip: {
+      callbacks: {
+        title: (items) => `${Number(items[0]?.parsed.x ?? 0).toFixed(1)} 秒`,
+        label: (ctx) => `${Number(ctx.parsed.y).toFixed(1)} 打/秒`,
+        afterBody: (items) =>
+          wrapText(
+            String((items[0]?.raw as SpeedPoint | undefined)?.sentence ?? ""),
+          ),
+      },
+    },
+  },
+  scales: {
+    x: {
+      type: "linear",
+      // Both ends are pinned to the session: 0 sits on the y axis and the last
+      // sample lands on the right edge, so the curve uses the full width
+      // instead of floating between two margins.
+      bounds: "data",
+      min: 0,
+      // useChart builds every chart as a bar chart, and the bar defaults pad
+      // each end of the x axis by half a step to make room for a bar. A curve
+      // wants none of that, or 0 seconds sits adrift of the y axis.
+      offset: false,
+      title: { display: true, text: "経過時間 (秒)", color: INK },
+      ticks: {
+        color: INK,
+        // The axis ends on the last keystroke, so its tick lands wherever that
+        // happened to fall — usually close enough to the one before it that the
+        // two labels collide. Keep the gridline, drop the text.
+        callback: (value, i, ticks) =>
+          i === ticks.length - 1 ? "" : String(value),
+      },
+      grid: { color: GRID, offset: false },
+    },
+    y: {
+      beginAtZero: true,
+      title: { display: true, text: "打鍵速度 (打/秒)", color: INK },
+      ticks: { color: INK },
+      grid: { color: GRID },
+    },
+  },
+};
 
 export const KEY_CHART_OPTIONS: ChartOptions = {
   ...BASE_OPTIONS,

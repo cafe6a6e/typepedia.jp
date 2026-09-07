@@ -157,6 +157,40 @@ export interface LatencyStats {
   keys: LatencyKeyStat[];
 }
 
+/** One correct keystroke, placed on the session's clock. */
+export interface StrokeSample {
+  /** Milliseconds since play began. */
+  at: number;
+  /** The question being typed when it landed, as it appears on screen. */
+  sentence: string;
+}
+
+/** One point of the speed curve. */
+export interface SpeedPoint {
+  /** Milliseconds since play began. */
+  t: number;
+  /** Correct keystrokes per second over the trailing window. */
+  cps: number;
+  /** The question being typed at that moment. */
+  sentence: string;
+}
+
+/**
+ * Typing speed over the session, as a trailing average sampled at a fixed step.
+ * Only correct keystrokes count, so this is the rate the text actually advanced
+ * at; a pause shows up as a dip rather than being edited out.
+ */
+export interface SpeedStats {
+  /** Evenly spaced points from play start to the last keystroke. */
+  points: SpeedPoint[];
+  /** Correct keystrokes over the whole session, per second. */
+  mean: number;
+  /** Highest point of the curve. */
+  peak: number;
+  /** Seconds from play start to the last correct keystroke. */
+  seconds: number;
+}
+
 /** A computed result for one finished game. */
 export interface ScoreResult {
   correct: number;
@@ -167,4 +201,5 @@ export interface ScoreResult {
   /** Every key that came up, busiest first. The view ranks and trims these. */
   keyStats: KeyStat[];
   latency: LatencyStats;
+  speed: SpeedStats;
 }

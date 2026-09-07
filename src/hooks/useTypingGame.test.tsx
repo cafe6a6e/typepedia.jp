@@ -203,7 +203,11 @@ test("completing a review question records the review", async () => {
   expect(item.reviewsDone).toBe(1);
 });
 
-/** Run `fn` with performance.now() driven by a settable clock. */
+/**
+ * Run `fn` with performance.now() driven by a settable clock. The clock starts
+ * at 0, so a test that needs play to begin on it can start the course inside
+ * `fn` rather than before it.
+ */
 async function withClock(
   fn: (at: (t: number, key: string) => Promise<void>) => Promise<void>,
 ) {
@@ -272,4 +276,59 @@ test("a new question restarts the rhythm", async () => {
   expect(result.current.phase).toBe("result");
   expect(result.current.result?.latency.count).toBe(2);
   expect(result.current.result?.latency.median).toBe(100);
+});
+
+test("the speed curve counts every correct keystroke from the start of play", async () => {
+  installFetch([{ disp: "abcd", q: "abcd" }]);
+  const { result } = renderHook(() =>
+    useTypingGame(settings({ questionCount: 1 })),
+  );
+
+  await withClock(async (at) => {
+    // Start inside the clock so play begins at 0 and the times are relative.
+    await press(" ");
+    await waitFor(() => expect(result.current.phase).toBe("playing"));
+    await at(100, "a"); // the first keystroke counts here, unlike for latency
+    await at(250, "b");
+    await at(400, "z"); // a miss: the text did not advance
+    await at(900, "c"); // the recovery counts here too
+    await at(1000, "d");
+  });
+
+  const speed = result.current.result?.speed;
+  expect(speed?.seconds).toBeCloseTo(1, 5);
+  // Four correct keystrokes over one second; the miss is not one of them.
+  expect(speed?.mean).toBeCloseTo(4, 5);
+  expect(speed?.points.at(-1)?.cps).toBeCloseTo(4 / 3, 5);
+});
+
+test("the speed curve names the question each keystroke belonged to", async () => {
+  // Two questions, and the loader shuffles them, so drive whatever comes up.
+  installFetch([
+    { disp: "ab", q: "ab" },
+    { disp: "cd", q: "cd" },
+  ]);
+  const { result } = renderHook(() =>
+    useTypingGame(settings({ questionCount: 2 })),
+  );
+
+  let first = "";
+  let second = "";
+  await withClock(async (at) => {
+    await press(" ");
+    await waitFor(() => expect(result.current.phase).toBe("playing"));
+    first = result.current.currentSentence.disp;
+    await at(100, result.current.currentSentence.q[0]);
+    await at(200, result.current.currentSentence.q[1]);
+    second = result.current.currentSentence.disp;
+    await at(700, result.current.currentSentence.q[0]);
+    await at(800, result.current.currentSentence.q[1]);
+  });
+
+  const points = result.current.result?.speed.points ?? [];
+  expect(points.find((p) => p.t === 250)?.sentence).toBe(first);
+  expect(points.at(-1)?.sentence).toBe(second);
+  expect([...new Set(points.map((p) => p.sentence))].sort()).toEqual(
+    [first, second].sort(),
+  );
 });

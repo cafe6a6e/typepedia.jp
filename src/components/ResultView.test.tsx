@@ -1,6 +1,6 @@
 import { expect, mock, test } from "bun:test";
 import { fireEvent, render, screen } from "@testing-library/react";
-import type { KeyStat, LatencyStats, ScoreResult } from "@/types";
+import type { KeyStat, LatencyStats, ScoreResult, SpeedStats } from "@/types";
 
 /**
  * Chart.js needs a real 2d context, which happy-dom does not provide, so the
@@ -13,6 +13,7 @@ interface Axis {
   position?: string;
   min?: number;
   max?: number;
+  offset?: boolean;
   grid?: {
     drawOnChartArea?: boolean;
     color?: (ctx: { tick: { value: number } }) => string;
@@ -22,8 +23,16 @@ interface Axis {
   ticks?: {
     callback?: (v: number, i: number, ticks: { value: number }[]) => string;
   };
+  bounds?: string;
   afterDataLimits?: (axis: { min: number; max: number }) => void;
   afterBuildTicks?: (axis: { max: number; ticks: { value: number }[] }) => void;
+  type?: string;
+}
+
+/** What a tooltip callback is handed for one hovered point. */
+interface TooltipItem {
+  parsed: { x: number; y: number };
+  raw: unknown;
 }
 
 /** Run an axis's hooks over a data maximum and report what it would draw. */
@@ -46,7 +55,17 @@ function axisTicks(axis: Axis, dataMax: number) {
 interface Captured {
   data: { labels: string[]; datasets: Record<string, unknown>[] };
   options: Record<string, never> & {
-    plugins: { legend: { position: string; align: string } };
+    animation?: false | Record<string, unknown>;
+    plugins: {
+      legend: { position?: string; align?: string; display?: boolean };
+      tooltip?: {
+        callbacks: {
+          title?: (items: TooltipItem[]) => string;
+          label?: (item: TooltipItem) => string;
+          afterBody?: (items: TooltipItem[]) => string[];
+        };
+      };
+    };
     scales: Record<string, Axis>;
   };
   updates: number;
@@ -92,6 +111,7 @@ HTMLCanvasElement.prototype.getContext =
   (() => ({})) as unknown as HTMLCanvasElement["getContext"];
 
 const { ResultView } = await import("@/components/ResultView");
+const { shadedRuns, wrapText } = await import("@/components/resultCharts");
 
 /** [key, total, correct] — 21 keys, so the 20-key cap actually drops one. */
 const RAW: [string, number, number][] = [
@@ -145,6 +165,16 @@ const base: ScoreResult = {
       { key: "e", count: 3, median: 160, buckets: [0, 2, 0, 1] },
     ],
   },
+  speed: {
+    points: [
+      { t: 0, cps: 0, sentence: "一問目" },
+      { t: 250, cps: 4 / 3, sentence: "一問目" },
+      { t: 500, cps: 2, sentence: "二問目" },
+    ],
+    mean: 4,
+    peak: 2,
+    seconds: 0.5,
+  },
 };
 
 const NO_LATENCY: LatencyStats = {
@@ -154,11 +184,18 @@ const NO_LATENCY: LatencyStats = {
   keys: [],
 };
 
+const NO_SPEED: SpeedStats = { points: [], mean: 0, peak: 0, seconds: 0 };
+
 function renderView(result: ScoreResult = base) {
   charts.length = 0;
   const utils = render(<ResultView result={result} onBack={mock(() => {})} />);
-  // Two canvases: the per-key chart is built first, the latency one second.
-  return { ...utils, chart: () => charts[0], latencyChart: () => charts[1] };
+  // Three canvases, built top down: speed, then per-key, then latency.
+  return {
+    ...utils,
+    speedChart: () => charts[0],
+    chart: () => charts[1],
+    latencyChart: () => charts[2],
+  };
 }
 
 test("summary shows accuracy with the raw counts", () => {
@@ -234,9 +271,9 @@ test("changing the metric updates the existing chart in place", () => {
   expect(chart().data.labels).toContain("z");
   expect(chart().data.labels).toHaveLength(keyStats.length);
   expect(chart().updates).toBeGreaterThan(before);
-  // Still the same chart instance, and only the two the screen builds up front
-  // (per-key, then latency): a re-sort updates, it does not rebuild.
-  expect(charts).toHaveLength(2);
+  // Still the same chart instance, and only the three the screen builds up
+  // front (speed, per-key, latency): a re-sort updates, it does not rebuild.
+  expect(charts).toHaveLength(3);
 });
 
 test("the accuracy axis grids every 10% and labels every 20%", () => {
@@ -281,6 +318,7 @@ test("a game with no keystrokes shows an empty state instead of the chart", () =
     accuracy: 0,
     keyStats: [],
     latency: NO_LATENCY,
+    speed: NO_SPEED,
   });
   expect(screen.getByText(/打鍵がありませんでした/)).toBeDefined();
   expect(container.querySelector("canvas")).toBeNull();
@@ -313,8 +351,8 @@ test("no measured gaps shows a note instead of the histogram", () => {
   expect(screen.getByText(/計測できませんでした/)).toBeDefined();
   // With nothing measured the section drops its summary box entirely.
   expect(screen.queryByText(/中央値 ・ 計測/)).toBeNull();
-  // Only the per-key canvas is left.
-  expect(container.querySelectorAll("canvas")).toHaveLength(1);
+  // The speed and per-key canvases are left.
+  expect(container.querySelectorAll("canvas")).toHaveLength(2);
 });
 
 test("the key cards run most-measured first with the median and count", () => {
@@ -373,4 +411,92 @@ test("the back button invokes onBack", () => {
   render(<ResultView result={base} onBack={onBack} />);
   fireEvent.click(screen.getByRole("button", { name: /コース選択に戻る/ }));
   expect(onBack).toHaveBeenCalled();
+});
+
+test("the speed curve is the first chart, plotted in seconds", () => {
+  const { speedChart } = renderView();
+  const line = speedChart().data.datasets[0];
+
+  expect(line.type).toBe("line");
+  // Milliseconds become seconds on the x axis; the y stays keystrokes/second.
+  expect(line.data).toEqual([
+    { x: 0, y: 0, sentence: "一問目" },
+    { x: 0.25, y: 4 / 3, sentence: "一問目" },
+    { x: 0.5, y: 2, sentence: "二問目" },
+  ]);
+  // The points ride along with their question so the tooltip can name it.
+  expect(speedChart().options.scales.x.type).toBe("linear");
+  // Both ends pinned to the session, so the curve fills the plot's width.
+  expect(speedChart().options.scales.x.min).toBe(0);
+  expect(speedChart().options.scales.x.bounds).toBe("data");
+  // The bar defaults would otherwise pad both ends by half a step.
+  expect(speedChart().options.scales.x.offset).toBe(false);
+  // One series, so no legend box: the section heading names it.
+  expect(speedChart().options.plugins.legend.display).toBe(false);
+  // No staggered reveal: the shape of the curve is the point.
+  expect(speedChart().options.animation).toBe(false);
+});
+
+test("the speed section leads with the mean, the peak and the elapsed time", () => {
+  renderView();
+  expect(screen.getByText("打鍵スピード")).toBeDefined();
+  expect(screen.getByText("4.0 打/秒")).toBeDefined();
+  expect(screen.getByText(/ピーク/)).toBeDefined();
+  expect(screen.getByText("2.0")).toBeDefined();
+  expect(screen.getByText("0.5")).toBeDefined();
+});
+
+test("the speed tooltip reports the second, the rate and the question", () => {
+  const { speedChart } = renderView();
+  const cb = speedChart().options.plugins.tooltip?.callbacks;
+  const item = { parsed: { x: 0.5, y: 2 }, raw: base.speed.points[2] };
+
+  expect(cb?.title?.([item])).toBe("0.5 秒");
+  expect(cb?.label?.(item)).toBe("2.0 打/秒");
+  expect(cb?.afterBody?.([item])).toEqual(["二問目"]);
+});
+
+test("a long question wraps inside the tooltip instead of stretching it", () => {
+  expect(wrapText("あいうえお", 3, 2)).toEqual(["あいう", "えお"]);
+  // Past the line budget the last line gives up its final character to "…".
+  expect(wrapText("あいうえおかきく", 3, 2)).toEqual(["あいう", "えお…"]);
+  expect(wrapText("")).toEqual([]);
+});
+
+test("no keystrokes shows a note instead of the speed curve", () => {
+  const { container } = renderView({ ...base, speed: NO_SPEED });
+  expect(screen.getByText(/速度を計測できませんでした/)).toBeDefined();
+  expect(screen.queryByText(/ピーク/)).toBeNull();
+  // The per-key and latency canvases are left.
+  expect(container.querySelectorAll("canvas")).toHaveLength(2);
+});
+
+test("every other question gets a band behind the curve", () => {
+  const q = (...names: string[]) => names.map((sentence) => ({ sentence }));
+
+  // Runs of one question each; the first is left bare so the banding alternates.
+  expect(shadedRuns(q("a", "a", "b", "b", "b", "c"))).toEqual([
+    { from: 2, to: 5 },
+  ]);
+  expect(shadedRuns(q("a", "b", "c", "d"))).toEqual([
+    { from: 1, to: 2 },
+    { from: 3, to: 4 },
+  ]);
+  // One question, or none at all, means nothing to alternate against.
+  expect(shadedRuns(q("a", "a"))).toEqual([]);
+  expect(shadedRuns([])).toEqual([]);
+});
+
+test("the last second on the x axis keeps its gridline but loses its label", () => {
+  const { speedChart } = renderView();
+  const ticks = [{ value: 0 }, { value: 5 }, { value: 10 }, { value: 12.4 }];
+  const label = speedChart().options.scales.x.ticks?.callback;
+
+  // The axis ends on the last keystroke, so that tick sits wherever it falls.
+  expect(ticks.map((t, i) => label?.(t.value, i, ticks))).toEqual([
+    "0",
+    "5",
+    "10",
+    "",
+  ]);
 });

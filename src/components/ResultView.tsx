@@ -7,10 +7,14 @@ import {
   useState,
 } from "react";
 import {
+  CROSSHAIR,
   KEY_CHART_OPTIONS,
   keyChartData,
   LATENCY_CHART_OPTIONS,
   latencyChartData,
+  QUESTION_BANDS,
+  SPEED_CHART_OPTIONS,
+  speedChartData,
   useChart,
   useChartData,
   visChar,
@@ -118,9 +122,9 @@ const DIRECTIONS: { value: SortDir; label: string }[] = [
   { value: "desc", label: "降順" },
 ];
 
-/** Result screen: accuracy summary, a sortable per-key chart, and latencies. */
+/** Result screen: the speed curve, an accuracy summary, and the latencies. */
 export function ResultView({ result, onBack }: Props) {
-  const { correct, miss, total, accuracy, keyStats, latency } = result;
+  const { correct, miss, total, accuracy, keyStats, latency, speed } = result;
   const [column, setColumn] = useState<SortColumn>("accuracy");
   const [dir, setDir] = useState<SortDir>("asc");
   const [pickedKey, setPickedKey] = useState<string | null>(null);
@@ -140,8 +144,18 @@ export function ResultView({ result, onBack }: Props) {
     [latency.keys],
   );
 
+  const speedCanvasRef = useRef<HTMLCanvasElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const latencyCanvasRef = useRef<HTMLCanvasElement | null>(null);
+
+  const speedChartRef = useChart(speedCanvasRef, SPEED_CHART_OPTIONS, [
+    QUESTION_BANDS,
+    CROSSHAIR,
+  ]);
+  useChartData(
+    speedChartRef,
+    useMemo(() => speedChartData(speed.points), [speed.points]),
+  );
 
   const rows = useMemo(
     // Every key that came up; the sort decides the order, not the cast.
@@ -172,6 +186,35 @@ export function ResultView({ result, onBack }: Props) {
   return (
     <div className="w-full max-w-2xl text-center">
       <h2 className="mb-4 text-2xl font-bold">結果</h2>
+
+      <section className="mb-8">
+        <div className="mb-2">
+          <Heading>打鍵スピード</Heading>
+        </div>
+
+        {speed.points.length === 0 ? (
+          <EmptyNote>打鍵がなく、速度を計測できませんでした</EmptyNote>
+        ) : (
+          <>
+            <StatBox value={`${speed.mean.toFixed(1)} 打/秒`}>
+              ピーク{" "}
+              <span className="font-mono text-white">
+                {speed.peak.toFixed(1)}
+              </span>{" "}
+              打/秒 ・ 所要{" "}
+              <span className="font-mono text-white">
+                {speed.seconds.toFixed(1)}
+              </span>{" "}
+              秒
+            </StatBox>
+            <ChartFrame
+              canvasRef={speedCanvasRef}
+              label="打鍵スピードの推移グラフ"
+              height="h-56"
+            />
+          </>
+        )}
+      </section>
 
       <section className="mb-8">
         <div className="mb-2 flex items-center justify-between gap-2">

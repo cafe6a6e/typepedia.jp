@@ -4,6 +4,7 @@ import {
   computeScore,
   rankKeys,
   summariseLatency,
+  summariseSpeed,
 } from "@/lib/scoring";
 
 test("accuracy is correct/total and zero when nothing was typed", () => {
@@ -178,4 +179,73 @@ test("computeScore carries the latency summary", () => {
   const r = computeScore(3, 0, { a: 3 }, {}, gaps("a", 120, 130));
   expect(r.latency.count).toBe(2);
   expect(r.latency.median).toBe(125);
+});
+
+/** Shorthand: keystrokes at the given times, all on the same question. */
+const at = (sentence: string, ...ms: number[]) =>
+  ms.map((n) => ({ at: n, sentence }));
+
+test("speed has no curve when nothing was typed", () => {
+  expect(summariseSpeed([])).toEqual({
+    points: [],
+    mean: 0,
+    peak: 0,
+    seconds: 0,
+  });
+});
+
+test("speed samples every 250ms and closes on the last keystroke", () => {
+  const s = summariseSpeed(at("あ", 100, 400, 900));
+  // The curve ends at 900, not at the next step, so the axis can run 0..900.
+  expect(s.points.map((p) => p.t)).toEqual([0, 250, 500, 750, 900]);
+  expect(s.seconds).toBeCloseTo(0.9, 5);
+});
+
+test("a last keystroke on the step grid is not sampled twice", () => {
+  const s = summariseSpeed(at("あ", 100, 500));
+  expect(s.points.map((p) => p.t)).toEqual([0, 250, 500]);
+});
+
+test("speed counts the trailing window over its full width", () => {
+  // Six keystrokes inside one 3s window: 6 / 3 = 2 per second.
+  const s = summariseSpeed(at("あ", 500, 1000, 1500, 2000, 2500, 3000));
+  const atT = (t: number) => s.points.find((p) => p.t === t)?.cps;
+  expect(atT(3000)).toBeCloseTo(2, 5);
+  // The divisor stays 3s while the window is still filling up, so the curve
+  // ramps in rather than spiking off the first keystroke.
+  expect(atT(500)).toBeCloseTo(1 / 3, 5);
+  expect(atT(1500)).toBeCloseTo(1, 5);
+});
+
+test("the speed window is half-open: it drops its own left edge", () => {
+  const s = summariseSpeed(at("あ", 0, 3000, 3250));
+  const atT = (t: number) => s.points.find((p) => p.t === t)?.cps;
+  // At t=3000 the window is (0, 3000]: the keystroke at 0 has just left it.
+  expect(atT(3000)).toBeCloseTo(1 / 3, 5);
+  expect(atT(2750)).toBeCloseTo(1 / 3, 5);
+});
+
+test("each speed point names the question being typed at that moment", () => {
+  const s = summariseSpeed([...at("一問目", 300, 600), ...at("二問目", 900)]);
+  const named = (t: number) => s.points.find((p) => p.t === t)?.sentence;
+  // Before the first keystroke, the question it lands on is the one on screen.
+  expect(named(0)).toBe("一問目");
+  expect(named(500)).toBe("一問目");
+  expect(named(750)).toBe("一問目");
+  expect(named(900)).toBe("二問目");
+});
+
+test("speed reports the session mean and the peak of the curve", () => {
+  const s = summariseSpeed(at("あ", 1000, 1500, 2000, 2500));
+  // The mean spans the whole session: 4 keystrokes over 2.5s.
+  expect(s.mean).toBeCloseTo(1.6, 5);
+  // The peak is a window, so it is 4 / 3 even where the mean is higher.
+  expect(s.peak).toBeCloseTo(4 / 3, 5);
+});
+
+test("computeScore carries the speed summary", () => {
+  const r = computeScore(2, 0, { a: 2 }, {}, [], at("あ", 500, 1000));
+  expect(r.speed.points).not.toEqual([]);
+  expect(r.speed.seconds).toBeCloseTo(1, 5);
+  expect(r.speed.mean).toBeCloseTo(2, 5);
 });

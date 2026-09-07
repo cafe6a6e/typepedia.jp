@@ -6,6 +6,9 @@ import type {
   LatencySample,
   LatencyStats,
   ScoreResult,
+  SpeedPoint,
+  SpeedStats,
+  StrokeSample,
 } from "@/types";
 
 /** Histogram floor; anything faster lands in the open-ended bottom bin. */
@@ -93,6 +96,55 @@ export function summariseLatency(samples: LatencySample[]): LatencyStats {
   };
 }
 
+/** Trailing window the speed curve averages over, in ms. */
+const SPEED_WINDOW = 3000;
+/** Distance between two points of the curve, in ms. */
+const SPEED_STEP = 250;
+
+/**
+ * Typing speed as a trailing average: each point counts the keystrokes landing
+ * in the window that ends there, over the window's full width. The divisor is
+ * the width even before a whole window has passed, so the curve opens with an
+ * honest ramp instead of a spike off one early keystroke.
+ *
+ * `strokes` must be in time order, which is how the game records them; the
+ * window's two ends then only ever move forward, so this is a single pass.
+ */
+export function summariseSpeed(strokes: StrokeSample[]): SpeedStats {
+  const last = strokes.at(-1);
+  if (!last) return { points: [], mean: 0, peak: 0, seconds: 0 };
+
+  const points: SpeedPoint[] = [];
+  // `head` is the first stroke past t; `tail` the first one still in the window.
+  let head = 0;
+  let tail = 0;
+  const sampleAt = (t: number) => {
+    while (head < strokes.length && strokes[head].at <= t) head++;
+    while (tail < head && strokes[tail].at <= t - SPEED_WINDOW) tail++;
+    points.push({
+      t,
+      cps: (head - tail) / (SPEED_WINDOW / 1000),
+      // Before the first keystroke there is nothing to name but the question
+      // the player was looking at, which is the one the first keystroke ends up
+      // on anyway.
+      sentence: strokes[Math.max(head - 1, 0)].sentence,
+    });
+  };
+
+  for (let t = 0; t < last.at; t += SPEED_STEP) sampleAt(t);
+  // The curve ends on the last keystroke rather than the next step, so the axis
+  // can run from 0 to exactly when the typing stopped.
+  sampleAt(last.at);
+
+  const seconds = last.at / 1000;
+  return {
+    points,
+    mean: seconds > 0 ? strokes.length / seconds : 0,
+    peak: points.reduce((max, p) => Math.max(max, p.cps), 0),
+    seconds,
+  };
+}
+
 /** A metric the result view can rank keys by. */
 export type SortColumn = "total" | "correct" | "miss" | "accuracy";
 export type SortDir = "asc" | "desc";
@@ -137,7 +189,8 @@ function foldCase(counts: Record<string, number>, into: Map<string, number>) {
  * (the first wrong key of each run). Keys are folded to lower case so a shifted
  * letter is not a separate key. Every key is returned; the result view decides
  * the order. `latencies` are the gaps between consecutive correct keystrokes,
- * already filtered by the caller.
+ * already filtered by the caller, and `strokes` is every correct keystroke on
+ * the session's clock.
  */
 export function computeScore(
   correct: number,
@@ -145,6 +198,7 @@ export function computeScore(
   keyCorrect: KeyCorrect,
   keyMiss: KeyMiss,
   latencies: LatencySample[] = [],
+  strokes: StrokeSample[] = [],
 ): ScoreResult {
   const total = correct + miss;
   const accuracy = total > 0 ? correct / total : 0;
@@ -178,5 +232,6 @@ export function computeScore(
     accuracy,
     keyStats,
     latency: summariseLatency(latencies),
+    speed: summariseSpeed(strokes),
   };
 }
