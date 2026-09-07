@@ -4,8 +4,10 @@ import {
   DRILLS,
   type DvorakEntry,
   HOME_ROW,
+  LEFT_HAND,
   RIGHT_INDEX,
   RIGHT_THREE,
+  toKatakana,
 } from "@/lib/dvorakDrill";
 import type { RawSentence } from "@/types";
 
@@ -71,6 +73,33 @@ test("the right-index drill drops the middle finger's column, and か行", () =>
   ]);
 });
 
+test("the left-hand drill takes only the kana it was given", () => {
+  const t = LEFT_HAND.kanaToRomaji;
+  expect([t["あ"], t["や"], t["ぱ"], t["、"], t["。"]]).toEqual([
+    "a",
+    "ya",
+    "pa",
+    ",",
+    ".",
+  ]);
+  expect([t["じゃ"], t["じぇ"], t["ぴゃ"], t["ぴょ"]]).toEqual([
+    "ja",
+    "je",
+    "pya",
+    "pyo",
+  ]);
+  // か行 and じ are on the left hand too, but they are not part of this set.
+  for (const kana of ["か", "き", "きゃ", "じ", "ず"]) {
+    expect(t[kana]).toBeUndefined();
+  }
+  // n and - are right-hand keys, so these have nowhere to go.
+  for (const kana of ["ん", "ー"]) {
+    expect(t[kana]).toBeUndefined();
+  }
+  // A hand-picked set is taken literally: no implicit っ.
+  expect(LEFT_HAND.allowedKana.has("っ")).toBe(false);
+});
+
 test("toRomaji handles ん, っ and 拗音", () => {
   expect(HOME_ROW.toRomaji("あんない")).toBe("annnai");
   expect(HOME_ROW.toRomaji("あんあい")).toBe("annai");
@@ -112,6 +141,77 @@ test("checkEntry accepts well-formed entries in either drill", () => {
       q: "ryouriwotukuru",
     }),
   ).toEqual([]);
+});
+
+test("checkEntry accepts punctuation, which the round trip has to restore", () => {
+  expect(
+    RIGHT_THREE.checkEntry({
+      disp: "今日、桜",
+      kana: "きょう、さくら",
+      q: "kyou,sakura",
+    }),
+  ).toEqual([]);
+});
+
+/** One entry built from two 擬音語, the shape the material ships in. */
+function mimetic(first: string, second = "うおうお"): DvorakEntry {
+  const kana = `${first}、${second}。`;
+  return { disp: toKatakana(kana), kana, q: LEFT_HAND.toRomaji(kana) };
+}
+
+test("checkEntry accepts a well-formed mimetic word", () => {
+  expect(LEFT_HAND.checkEntry(mimetic("あいあい"))).toEqual([]);
+  expect(LEFT_HAND.checkEntry(mimetic("ぴよぴよ"))).toEqual([]);
+  // 拗音 count as one unit each, so this is a two-sound stem said twice.
+  expect(LEFT_HAND.checkEntry(mimetic("じゃあじゃあ"))).toEqual([]);
+  expect(LEFT_HAND.checkEntry(mimetic("いぴょいぴょ", "ぽいぽい"))).toEqual([]);
+});
+
+test("checkEntry enforces the 〜、〜。 line", () => {
+  const line = (kana: string) => ({
+    disp: toKatakana(kana),
+    kana,
+    q: LEFT_HAND.toRomaji(kana),
+  });
+  const bad = (kana: string) =>
+    expect(LEFT_HAND.checkEntry(line(kana))).not.toEqual([]);
+  bad("あいあい、うおうお"); // does not end with 。
+  bad("あいあい。"); // only one word
+  bad("あいあい、うおうお、やゆやゆ。"); // three words
+  bad("あいあい。うおうお。"); // 。 inside the line
+  bad("あいあい、あいあい。"); // the same word twice
+});
+
+test("checkEntry enforces the repeated-stem shape", () => {
+  const bad = (kana: string) =>
+    expect(LEFT_HAND.checkEntry(mimetic(kana))).not.toEqual([]);
+  bad("あいあ"); // three units
+  bad("あいうえ"); // stem is not repeated
+  bad("ぷぷぷぷ"); // stem repeats one sound
+  bad("じょじゃじょじゃ"); // two 拗音 in a row
+  bad("ぴぴゃぴぴゃ"); // 拗音 beside its own consonant
+  bad("ぱいぱい"); // reads as slang, not as a sound
+  // や行 and ぱ行 pair up fine as long as no 拗音 is involved.
+  expect(LEFT_HAND.checkEntry(mimetic("やゆやゆ"))).toEqual([]);
+  expect(LEFT_HAND.checkEntry(mimetic("ぱぴぱぴ"))).toEqual([]);
+  // 擬音語 are written in katakana, not as the bare reading.
+  expect(
+    LEFT_HAND.checkEntry({
+      disp: "あいあい",
+      kana: "あいあい",
+      q: LEFT_HAND.toRomaji("あいあい"),
+    }),
+  ).not.toEqual([]);
+});
+
+test("checkEntry lets an all-vowel stem run three sounds", () => {
+  expect(LEFT_HAND.checkEntry(mimetic("あいうあいう"))).toEqual([]);
+  expect(LEFT_HAND.checkEntry(mimetic("おえいおえい"))).toEqual([]);
+  const bad = (kana: string) =>
+    expect(LEFT_HAND.checkEntry(mimetic(kana))).not.toEqual([]);
+  bad("あいああいあ"); // a vowel repeats inside the stem
+  bad("あいやあいや"); // や is not a vowel
+  bad("あいうえあいうえ"); // four sounds is too long for any stem
 });
 
 test("checkEntry rejects q that does not match the reading", () => {
