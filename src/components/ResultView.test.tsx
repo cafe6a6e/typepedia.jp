@@ -189,11 +189,11 @@ const NO_SPEED: SpeedStats = { points: [], mean: 0, peak: 0, seconds: 0 };
 function renderView(result: ScoreResult = base) {
   charts.length = 0;
   const utils = render(<ResultView result={result} onBack={mock(() => {})} />);
-  // Three canvases, built top down: speed, then per-key, then latency.
+  // Three canvases, built top down: per-key, then speed, then latency.
   return {
     ...utils,
-    speedChart: () => charts[0],
-    chart: () => charts[1],
+    chart: () => charts[0],
+    speedChart: () => charts[1],
     latencyChart: () => charts[2],
   };
 }
@@ -413,7 +413,7 @@ test("the back button invokes onBack", () => {
   expect(onBack).toHaveBeenCalled();
 });
 
-test("the speed curve is the first chart, plotted in seconds", () => {
+test("the speed curve is plotted in seconds", () => {
   const { speedChart } = renderView();
   const line = speedChart().data.datasets[0];
 

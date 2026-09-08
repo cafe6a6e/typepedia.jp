@@ -62,7 +62,8 @@ export function useTypingGame(settings: Settings) {
   // When the last correct key landed; null at the start of each sentence, so
   // the first keystroke of a question is never timed against the previous one.
   const prevCorrectTsRef = useRef<number | null>(null);
-  // When play began, so every keystroke can be placed on one clock.
+  // When the first keystroke landed, so the speed curve starts where the typing
+  // does rather than where the screen appeared.
   const startTsRef = useRef(0);
   // Every correct keystroke on that clock, for the result screen's speed curve.
   // Unlike the latencies above nothing is filtered out: the curve is meant to
@@ -98,7 +99,7 @@ export function useTypingGame(settings: Settings) {
     lastWasMissRef.current = false;
     latenciesRef.current = [];
     prevCorrectTsRef.current = null;
-    startTsRef.current = performance.now();
+    startTsRef.current = 0;
     strokesRef.current = [];
     sentenceIndexRef.current = 0;
     engineRef.current = INITIAL_ENGINE;
@@ -196,6 +197,7 @@ export function useTypingGame(settings: Settings) {
         latenciesRef.current.push({ key, ms: now - prevCorrectTsRef.current });
       }
       prevCorrectTsRef.current = now;
+      if (strokesRef.current.length === 0) startTsRef.current = now;
       // The sentence index only moves on below, so this is still the question
       // the keystroke belonged to.
       strokesRef.current.push({

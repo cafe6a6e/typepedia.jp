@@ -157,9 +157,9 @@ export interface LatencyStats {
   keys: LatencyKeyStat[];
 }
 
-/** One correct keystroke, placed on the session's clock. */
+/** One correct keystroke, placed on the clock the first keystroke started. */
 export interface StrokeSample {
-  /** Milliseconds since play began. */
+  /** Milliseconds since the first keystroke; 0 for that keystroke itself. */
   at: number;
   /** The question being typed when it landed, as it appears on screen. */
   sentence: string;
@@ -167,7 +167,7 @@ export interface StrokeSample {
 
 /** One point of the speed curve. */
 export interface SpeedPoint {
-  /** Milliseconds since play began. */
+  /** Milliseconds since the first keystroke. */
   t: number;
   /** Correct keystrokes per second over the trailing window. */
   cps: number;
@@ -176,18 +176,19 @@ export interface SpeedPoint {
 }
 
 /**
- * Typing speed over the session, as a trailing average sampled at a fixed step.
- * Only correct keystrokes count, so this is the rate the text actually advanced
- * at; a pause shows up as a dip rather than being edited out.
+ * Typing speed from the first keystroke to the last, as a trailing average
+ * sampled at a fixed step. Only correct keystrokes count, so this is the rate
+ * the text actually advanced at; a pause shows up as a dip rather than being
+ * edited out, but the wait before typing starts is not counted at all.
  */
 export interface SpeedStats {
-  /** Evenly spaced points from play start to the last keystroke. */
+  /** Evenly spaced points from the first keystroke to the last. */
   points: SpeedPoint[];
-  /** Correct keystrokes over the whole session, per second. */
+  /** Correct keystrokes per second across that span. */
   mean: number;
   /** Highest point of the curve. */
   peak: number;
-  /** Seconds from play start to the last correct keystroke. */
+  /** Seconds from the first correct keystroke to the last. */
   seconds: number;
 }
 

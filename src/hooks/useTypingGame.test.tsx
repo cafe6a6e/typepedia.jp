@@ -278,7 +278,7 @@ test("a new question restarts the rhythm", async () => {
   expect(result.current.result?.latency.median).toBe(100);
 });
 
-test("the speed curve counts every correct keystroke from the start of play", async () => {
+test("the speed curve runs from the first correct keystroke to the last", async () => {
   installFetch([{ disp: "abcd", q: "abcd" }]);
   const { result } = renderHook(() =>
     useTypingGame(settings({ questionCount: 1 })),
@@ -288,7 +288,7 @@ test("the speed curve counts every correct keystroke from the start of play", as
     // Start inside the clock so play begins at 0 and the times are relative.
     await press(" ");
     await waitFor(() => expect(result.current.phase).toBe("playing"));
-    await at(100, "a"); // the first keystroke counts here, unlike for latency
+    await at(100, "a"); // starts the clock, and counts (unlike for latency)
     await at(250, "b");
     await at(400, "z"); // a miss: the text did not advance
     await at(900, "c"); // the recovery counts here too
@@ -296,9 +296,11 @@ test("the speed curve counts every correct keystroke from the start of play", as
   });
 
   const speed = result.current.result?.speed;
-  expect(speed?.seconds).toBeCloseTo(1, 5);
-  // Four correct keystrokes over one second; the miss is not one of them.
-  expect(speed?.mean).toBeCloseTo(4, 5);
+  // 100ms to 1000ms: the wait before the first keystroke is not counted.
+  expect(speed?.seconds).toBeCloseTo(0.9, 5);
+  expect(speed?.points[0]?.t).toBe(0);
+  // Four correct keystrokes over that span; the miss is not one of them.
+  expect(speed?.mean).toBeCloseTo(4 / 0.9, 5);
   expect(speed?.points.at(-1)?.cps).toBeCloseTo(4 / 3, 5);
 });
 

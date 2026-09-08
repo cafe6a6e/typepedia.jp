@@ -55,6 +55,11 @@ function StatBox({ value, children }: { value: string; children: ReactNode }) {
   );
 }
 
+/** A count inside a StatBox's breakdown line. */
+function Num({ children }: { children: ReactNode }) {
+  return <span className="font-mono text-white">{children}</span>;
+}
+
 /** Stand-in for a chart with nothing to plot. */
 function EmptyNote({ children }: { children: ReactNode }) {
   return (
@@ -122,7 +127,7 @@ const DIRECTIONS: { value: SortDir; label: string }[] = [
   { value: "desc", label: "降順" },
 ];
 
-/** Result screen: the speed curve, an accuracy summary, and the latencies. */
+/** Result screen: the accuracy summary, the speed curve, and the latencies. */
 export function ResultView({ result, onBack }: Props) {
   const { correct, miss, total, accuracy, keyStats, latency, speed } = result;
   const [column, setColumn] = useState<SortColumn>("accuracy");
@@ -144,18 +149,9 @@ export function ResultView({ result, onBack }: Props) {
     [latency.keys],
   );
 
-  const speedCanvasRef = useRef<HTMLCanvasElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
+  const speedCanvasRef = useRef<HTMLCanvasElement | null>(null);
   const latencyCanvasRef = useRef<HTMLCanvasElement | null>(null);
-
-  const speedChartRef = useChart(speedCanvasRef, SPEED_CHART_OPTIONS, [
-    QUESTION_BANDS,
-    CROSSHAIR,
-  ]);
-  useChartData(
-    speedChartRef,
-    useMemo(() => speedChartData(speed.points), [speed.points]),
-  );
 
   const rows = useMemo(
     // Every key that came up; the sort decides the order, not the cast.
@@ -167,6 +163,15 @@ export function ResultView({ result, onBack }: Props) {
   useChartData(
     chartRef,
     useMemo(() => keyChartData(rows), [rows]),
+  );
+
+  const speedChartRef = useChart(speedCanvasRef, SPEED_CHART_OPTIONS, [
+    QUESTION_BANDS,
+    CROSSHAIR,
+  ]);
+  useChartData(
+    speedChartRef,
+    useMemo(() => speedChartData(speed.points), [speed.points]),
   );
 
   const latencyChartRef = useChart(latencyCanvasRef, LATENCY_CHART_OPTIONS);
@@ -185,37 +190,6 @@ export function ResultView({ result, onBack }: Props) {
 
   return (
     <div className="w-full max-w-2xl text-center">
-      <h2 className="mb-4 text-2xl font-bold">結果</h2>
-
-      <section className="mb-8">
-        <div className="mb-2">
-          <Heading>打鍵スピード</Heading>
-        </div>
-
-        {speed.points.length === 0 ? (
-          <EmptyNote>打鍵がなく、速度を計測できませんでした</EmptyNote>
-        ) : (
-          <>
-            <StatBox value={`${speed.mean.toFixed(1)} 打/秒`}>
-              ピーク{" "}
-              <span className="font-mono text-white">
-                {speed.peak.toFixed(1)}
-              </span>{" "}
-              打/秒 ・ 所要{" "}
-              <span className="font-mono text-white">
-                {speed.seconds.toFixed(1)}
-              </span>{" "}
-              秒
-            </StatBox>
-            <ChartFrame
-              canvasRef={speedCanvasRef}
-              label="打鍵スピードの推移グラフ"
-              height="h-56"
-            />
-          </>
-        )}
-      </section>
-
       <section className="mb-8">
         <div className="mb-2 flex items-center justify-between gap-2">
           <Heading>正解率</Heading>
@@ -240,7 +214,7 @@ export function ResultView({ result, onBack }: Props) {
         <StatBox value={pct(accuracy)}>
           正解 <span className="font-mono text-green-400">{correct}</span> ・
           ミス <span className="font-mono text-red-400">{miss}</span> ・ 打鍵{" "}
-          <span className="font-mono text-white">{total}</span>
+          <Num>{total}</Num>
         </StatBox>
 
         {keyStats.length === 0 ? (
@@ -251,6 +225,28 @@ export function ResultView({ result, onBack }: Props) {
             label="キー別の正解数・ミス数と正解率のグラフ"
             height="h-72"
           />
+        )}
+      </section>
+
+      <section className="mb-8">
+        <div className="mb-2">
+          <Heading>打鍵スピード</Heading>
+        </div>
+
+        {speed.points.length === 0 ? (
+          <EmptyNote>打鍵がなく、速度を計測できませんでした</EmptyNote>
+        ) : (
+          <>
+            <StatBox value={`${speed.mean.toFixed(1)} 打/秒`}>
+              ピーク <Num>{speed.peak.toFixed(1)}</Num> 打/秒 ・ 所要{" "}
+              <Num>{speed.seconds.toFixed(1)}</Num> 秒
+            </StatBox>
+            <ChartFrame
+              canvasRef={speedCanvasRef}
+              label="打鍵スピードの推移グラフ"
+              height="h-56"
+            />
+          </>
         )}
       </section>
 
@@ -266,8 +262,7 @@ export function ResultView({ result, onBack }: Props) {
         ) : (
           <>
             <StatBox value={`${latency.median}ms`}>
-              中央値 ・ 計測{" "}
-              <span className="font-mono text-white">{latency.count}</span> 回
+              中央値 ・ 計測 <Num>{latency.count}</Num> 回
             </StatBox>
 
             <ChartFrame

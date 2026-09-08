@@ -176,20 +176,28 @@ export function wrapText(text: string, width = 28, maxLines = 3): string[] {
   return lines.map((line) => line.join(""));
 }
 
+/** A speed point as Chart.js holds it: seconds on x, its question in tow. */
+interface SpeedDatum {
+  x: number;
+  y: number;
+  sentence: string;
+}
+
 /** The line for the speed curve; one series, so the heading is its label. */
 export function speedChartData(points: SpeedPoint[]) {
+  const data: SpeedDatum[] = points.map((p) => ({
+    x: p.t / 1000,
+    y: p.cps,
+    sentence: p.sentence,
+  }));
   return {
     datasets: [
       {
         type: "line" as const,
         label: "打鍵速度",
-        // Each point carries its question along, so the tooltip can name it via
-        // `ctx.raw` and the options below can stay a plain module constant.
-        data: points.map((p) => ({
-          x: p.t / 1000,
-          y: p.cps,
-          sentence: p.sentence,
-        })),
+        // Each point carries its question, so the tooltip can name it off
+        // `ctx.raw` and the options below stay a plain module constant.
+        data,
         borderColor: BLUE,
         backgroundColor: BLUE,
         borderWidth: 2,
@@ -281,22 +289,15 @@ export const CROSSHAIR: Plugin = {
   },
 };
 
-/** How a speed point looks once speedChartData has laid it out for Chart.js. */
-interface SpeedDatum {
-  x: number;
-  y: number;
-  sentence: string;
-}
-
 /**
- * Index ranges of the points to shade: the runs of one question, every other
- * one. Leaving the alternate runs bare is what makes the banding read — two
- * shades would just look like a second series.
+ * Index ranges of the points to shade: every other run of one question. Leaving
+ * the alternate runs bare is what makes the banding read; two shades would just
+ * look like a second series.
  */
 export function shadedRuns(points: { sentence: string }[]) {
   const runs: { from: number; to: number }[] = [];
   for (let from = 0, n = 0; from < points.length; n++) {
-    let to = from;
+    let to = from + 1;
     while (
       to < points.length &&
       points[to].sentence === points[from].sentence
@@ -322,25 +323,16 @@ export const QUESTION_BANDS: Plugin = {
     const scale = chart.scales.x;
     if (!points?.length || !scale) return;
 
-    const { ctx, chartArea } = chart;
+    const { ctx } = chart;
+    const { top, bottom, left, right } = chart.chartArea;
+    const px = (i: number) => scale.getPixelForValue(points[i].x);
     ctx.save();
     ctx.fillStyle = BAND;
-    for (const { from, to } of shadedRuns(points)) {
-      const left = Math.max(
-        scale.getPixelForValue(points[from].x),
-        chartArea.left,
-      );
-      // The last run runs out to the edge; the others stop where the next begins.
-      const right =
-        to < points.length
-          ? Math.min(scale.getPixelForValue(points[to].x), chartArea.right)
-          : chartArea.right;
-      ctx.fillRect(
-        left,
-        chartArea.top,
-        right - left,
-        chartArea.bottom - chartArea.top,
-      );
+    for (const run of shadedRuns(points)) {
+      const from = Math.max(px(run.from), left);
+      // The last run reaches the edge; the others stop where the next begins.
+      const to = run.to < points.length ? Math.min(px(run.to), right) : right;
+      ctx.fillRect(from, top, to - from, bottom - top);
     }
     ctx.restore();
   },
@@ -348,8 +340,8 @@ export const QUESTION_BANDS: Plugin = {
 
 export const SPEED_CHART_OPTIONS: ChartOptions = {
   ...BASE_OPTIONS,
-  // The staggered reveal suits a row of bars; on a curve of hundreds of points
-  // it just delays the shape the eye came for.
+  // The staggered reveal suits bars; on a curve of hundreds of points it only
+  // delays the shape the eye came for.
   animation: false,
   // The curve has no visible points, so let the whole column be the hit target.
   interaction: { mode: "index", intersect: false },
@@ -362,7 +354,7 @@ export const SPEED_CHART_OPTIONS: ChartOptions = {
         label: (ctx) => `${Number(ctx.parsed.y).toFixed(1)} 打/秒`,
         afterBody: (items) =>
           wrapText(
-            String((items[0]?.raw as SpeedPoint | undefined)?.sentence ?? ""),
+            String((items[0]?.raw as SpeedDatum | undefined)?.sentence ?? ""),
           ),
       },
     },
@@ -370,21 +362,17 @@ export const SPEED_CHART_OPTIONS: ChartOptions = {
   scales: {
     x: {
       type: "linear",
-      // Both ends are pinned to the session: 0 sits on the y axis and the last
-      // sample lands on the right edge, so the curve uses the full width
-      // instead of floating between two margins.
+      // Pinned to the session at both ends: 0 on the y axis, the last sample
+      // on the right edge. `offset` undoes the half-step of room the bar
+      // defaults leave at each end — useChart builds every chart as a bar one.
       bounds: "data",
       min: 0,
-      // useChart builds every chart as a bar chart, and the bar defaults pad
-      // each end of the x axis by half a step to make room for a bar. A curve
-      // wants none of that, or 0 seconds sits adrift of the y axis.
       offset: false,
       title: { display: true, text: "経過時間 (秒)", color: INK },
       ticks: {
         color: INK,
-        // The axis ends on the last keystroke, so its tick lands wherever that
-        // happened to fall — usually close enough to the one before it that the
-        // two labels collide. Keep the gridline, drop the text.
+        // The last tick sits wherever typing stopped, usually close enough to
+        // the one before it to collide. Keep the gridline, drop the text.
         callback: (value, i, ticks) =>
           i === ticks.length - 1 ? "" : String(value),
       },

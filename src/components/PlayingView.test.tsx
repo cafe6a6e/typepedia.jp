@@ -1,5 +1,5 @@
 import { afterEach, beforeEach, expect, mock, test } from "bun:test";
-import { fireEvent, render, screen } from "@testing-library/react";
+import { cleanup, fireEvent, render, screen } from "@testing-library/react";
 import { PlayingView } from "@/components/PlayingView";
 import { isMastered } from "@/lib/mastery";
 import { getMemos } from "@/lib/memo";
@@ -13,12 +13,16 @@ const UUID = "test-uuid-apple";
 const sentence = { disp: "apple", q: "apple", lang: "en" as const, uuid: UUID };
 const matcher = compileMatcher("apple", DEFAULT_SETTINGS, "en");
 
-function renderView(suspendKeys = mock(() => {}), hideInput = false) {
+function renderView(
+  suspendKeys = mock(() => {}),
+  hideInput = false,
+  correct = 0,
+) {
   render(
     <PlayingView
       index={0}
       total={3}
-      correct={0}
+      correct={correct}
       miss={0}
       missFlash={0}
       sentence={sentence}
@@ -304,4 +308,17 @@ test("答えを見る reveals the hidden input for the current question", () => 
 
   expect(typingLine()).toBe("apple");
   expect(screen.queryByRole("button", { name: /答えを見る/ })).toBeNull();
+});
+
+test("計測中 shows only once the first keystroke has landed", () => {
+  renderView();
+  expect(screen.queryByText("計測中...")).toBeNull();
+
+  cleanup();
+  renderView(
+    mock(() => {}),
+    false,
+    1,
+  );
+  expect(screen.getByText("計測中...")).toBeDefined();
 });

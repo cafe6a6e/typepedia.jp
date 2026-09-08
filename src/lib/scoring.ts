@@ -107,8 +107,9 @@ const SPEED_STEP = 250;
  * the width even before a whole window has passed, so the curve opens with an
  * honest ramp instead of a spike off one early keystroke.
  *
- * `strokes` must be in time order, which is how the game records them; the
- * window's two ends then only ever move forward, so this is a single pass.
+ * `strokes` must be in time order and start at 0, which is how the game records
+ * them — the clock starts on the first keystroke. The window's two ends then
+ * only ever move forward, so this is a single pass.
  */
 export function summariseSpeed(strokes: StrokeSample[]): SpeedStats {
   const last = strokes.at(-1);
@@ -124,16 +125,13 @@ export function summariseSpeed(strokes: StrokeSample[]): SpeedStats {
     points.push({
       t,
       cps: (head - tail) / (SPEED_WINDOW / 1000),
-      // Before the first keystroke there is nothing to name but the question
-      // the player was looking at, which is the one the first keystroke ends up
-      // on anyway.
+      // Before the first keystroke, the question to name is the one it lands on.
       sentence: strokes[Math.max(head - 1, 0)].sentence,
     });
   };
 
   for (let t = 0; t < last.at; t += SPEED_STEP) sampleAt(t);
-  // The curve ends on the last keystroke rather than the next step, so the axis
-  // can run from 0 to exactly when the typing stopped.
+  // Close on the last keystroke, not the next step, so the axis runs 0..end.
   sampleAt(last.at);
 
   const seconds = last.at / 1000;

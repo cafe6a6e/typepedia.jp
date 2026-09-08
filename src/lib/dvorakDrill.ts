@@ -7,8 +7,8 @@
  * the keys, so 訓令式 falls out on its own (し=si, ち=ti, つ=tu, ふ=hu, しゃ=sya)
  * and a kana with no fitting spelling is simply out of scope.
  *
- * The generator (work/gen_dvorak.ts) and the data test both go through here so
- * the rules cannot drift apart.
+ * The generators (work/gen_dvorak.ts, scripts/genDvorakLeft.ts) and the data
+ * test all go through here so the rules cannot drift apart.
  */
 
 import { compileMatcher, tokenize } from "@/lib/romajiEngine";
@@ -248,27 +248,22 @@ export function createDrill(spec: DrillSpec): Drill {
       return [`mimetic word must say its stem twice: ${kana}`];
     }
 
-    const isYoon = (unit: string) => unit.length > 1;
-    // The onset comes from the spelling, so it cannot drift from the table.
-    const onset = (unit: string) => kanaToRomaji[unit]?.[0] ?? "";
-    const isVowel = (unit: string) =>
-      /^[aiueo]$/.test(kanaToRomaji[unit] ?? "");
-
     if (stemLength === VOWEL_STEM_UNITS) {
-      if (!stem.every(isVowel)) {
-        return [
-          `only an all-vowel stem may run ${VOWEL_STEM_UNITS} sounds: ${kana}`,
-        ];
+      const vowel = (unit: string) =>
+        /^[aiueo]$/.test(kanaToRomaji[unit] ?? "");
+      if (!stem.every(vowel)) {
+        return [`${VOWEL_STEM_UNITS}-sound stems must be all vowels: ${kana}`];
       }
       // All different, which also keeps the seam between the halves clean.
       if (new Set(stem).size !== stem.length) {
-        return [
-          `a ${VOWEL_STEM_UNITS}-sound stem must not repeat a vowel: ${kana}`,
-        ];
+        return [`${VOWEL_STEM_UNITS}-sound stem repeats a vowel: ${kana}`];
       }
       return [];
     }
 
+    const isYoon = (unit: string) => unit.length > 1;
+    // The onset comes from the spelling, so it cannot drift from the table.
+    const onset = (unit: string) => kanaToRomaji[unit]?.[0] ?? "";
     const [first, second] = stem;
     if (first === second) return [`stem repeats one sound: ${kana}`];
     if (isYoon(first) && isYoon(second)) {

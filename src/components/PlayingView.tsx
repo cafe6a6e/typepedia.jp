@@ -189,6 +189,16 @@ export function PlayingView({
         </p>
       </div>
 
+      {/*
+        The speed curve's clock starts on the first correct keystroke, so that
+        is exactly when this appears. It reads as part of the hint above it but
+        sits outside the shake wrapper, whose remount on every miss would
+        otherwise restart the blink.
+      */}
+      {correct > 0 && (
+        <p className="mt-3 animate-pulse text-xs text-white/30">計測中...</p>
+      )}
+
       {memoOpen && (
         <MemoModal
           category={category}
