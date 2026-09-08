@@ -19,7 +19,13 @@ export function Layout() {
 
   return (
     <div className="flex min-h-screen">
-      <nav className="w-56 shrink-0 border-r border-white/10 p-4 flex flex-col gap-2">
+      {/*
+        Pinned to the viewport so the tabs stay reachable however far the page
+        scrolls — the result screen runs well past one screen. `h-screen` is
+        what makes it stick: a stretched flex item is as tall as the content,
+        and an element that tall has nothing left to scroll against.
+      */}
+      <nav className="sticky top-0 h-screen w-56 shrink-0 overflow-y-auto border-r border-white/10 p-4 flex flex-col gap-2">
         <div className="mb-4 px-2">
           <h1 className="text-lg font-bold">Typepedia</h1>
           <p className="text-[11px] text-white/40">
