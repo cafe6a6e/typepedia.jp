@@ -69,6 +69,11 @@ export function useTypingGame(settings: Settings) {
   // Unlike the latencies above nothing is filtered out: the curve is meant to
   // show how fast the text actually advanced, pauses and all.
   const strokesRef = useRef<StrokeSample[]>([]);
+  // Raw timestamps of every mistype. They are kept unshifted because a miss can
+  // land before the clock starts — the first key of a course can be a wrong one
+  // — so they are only put on the session's clock once `finish` knows where it
+  // began.
+  const missTimesRef = useRef<number[]>([]);
   const timersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
   // When true (e.g. the memo modal is open), the global key listener is inert.
   const keysSuspendedRef = useRef(false);
@@ -101,6 +106,7 @@ export function useTypingGame(settings: Settings) {
     prevCorrectTsRef.current = null;
     startTsRef.current = 0;
     strokesRef.current = [];
+    missTimesRef.current = [];
     sentenceIndexRef.current = 0;
     engineRef.current = INITIAL_ENGINE;
     setStats({ correct: 0, miss: 0 });
@@ -110,6 +116,7 @@ export function useTypingGame(settings: Settings) {
   }, []);
 
   const finish = useCallback(() => {
+    const start = startTsRef.current;
     setResult(
       computeScore(
         correctRef.current,
@@ -118,6 +125,9 @@ export function useTypingGame(settings: Settings) {
         keyMissRef.current,
         latenciesRef.current,
         strokesRef.current,
+        // A miss from before the first correct keystroke is pinned to 0: the
+        // curve does not reach back that far, but it did happen at the start.
+        missTimesRef.current.map((ts) => Math.max(0, ts - start)),
       ),
     );
     setPhase("result");
@@ -171,6 +181,7 @@ export function useTypingGame(settings: Settings) {
 
       if (res === "miss") {
         missRef.current += 1;
+        missTimesRef.current.push(performance.now());
         // Only the first miss of a consecutive run counts toward the keystroke
         // statistics (e.g. "abck" for "k" tallies only the wrong "a"). It is
         // attributed to the key that was expected, not to what was pressed.

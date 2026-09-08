@@ -12,6 +12,7 @@ import {
   keyChartData,
   LATENCY_CHART_OPTIONS,
   latencyChartData,
+  MISS_BANDS,
   QUESTION_BANDS,
   SPEED_CHART_OPTIONS,
   speedChartData,
@@ -167,11 +168,15 @@ export function ResultView({ result, onBack }: Props) {
 
   const speedChartRef = useChart(speedCanvasRef, SPEED_CHART_OPTIONS, [
     QUESTION_BANDS,
+    MISS_BANDS,
     CROSSHAIR,
   ]);
   useChartData(
     speedChartRef,
-    useMemo(() => speedChartData(speed.points), [speed.points]),
+    useMemo(
+      () => speedChartData(speed.points, speed.missSpans),
+      [speed.points, speed.missSpans],
+    ),
   );
 
   const latencyChartRef = useChart(latencyCanvasRef, LATENCY_CHART_OPTIONS);
@@ -229,8 +234,14 @@ export function ResultView({ result, onBack }: Props) {
       </section>
 
       <section className="mb-8">
-        <div className="mb-2">
+        <div className="mb-2 flex items-center justify-between gap-2">
           <Heading>打鍵スピード</Heading>
+          {speed.missSpans.length > 0 && (
+            <span className="flex items-center gap-1.5 text-xs text-white/50">
+              <span className="h-3 w-3 rounded-sm bg-red-400/25" />
+              ミスタイプ
+            </span>
+          )}
         </div>
 
         {speed.points.length === 0 ? (

@@ -5,6 +5,7 @@ import type {
   LatencyKeyStat,
   LatencySample,
   LatencyStats,
+  MissSpan,
   ScoreResult,
   SpeedPoint,
   SpeedStats,
@@ -102,6 +103,25 @@ const SPEED_WINDOW = 3000;
 const SPEED_STEP = 250;
 
 /**
+ * A mistype is an instant, but a hairline would not read behind the curve, so
+ * each one is widened to a band of `SPEED_STEP` — the curve's own resolution —
+ * centred on it, and any that touch are merged. That way a flurry of misses
+ * shows as one stretch of trouble rather than a picket fence.
+ */
+export function missSpans(misses: number[], end: number): MissSpan[] {
+  const spans: MissSpan[] = [];
+  for (const t of [...misses].sort((a, b) => a - b)) {
+    const from = Math.max(0, t - SPEED_STEP / 2);
+    const to = Math.min(end, t + SPEED_STEP / 2);
+    if (to <= from) continue;
+    const open = spans.at(-1);
+    if (open && from <= open.to) open.to = to;
+    else spans.push({ from, to });
+  }
+  return spans;
+}
+
+/**
  * Typing speed as a trailing average: each point counts the keystrokes landing
  * in the window that ends there, over the window's full width. The divisor is
  * the width even before a whole window has passed, so the curve opens with an
@@ -109,11 +129,15 @@ const SPEED_STEP = 250;
  *
  * `strokes` must be in time order and start at 0, which is how the game records
  * them — the clock starts on the first keystroke. The window's two ends then
- * only ever move forward, so this is a single pass.
+ * only ever move forward, so this is a single pass. `misses` are on that same
+ * clock and only mark the curve; they never move it.
  */
-export function summariseSpeed(strokes: StrokeSample[]): SpeedStats {
+export function summariseSpeed(
+  strokes: StrokeSample[],
+  misses: number[] = [],
+): SpeedStats {
   const last = strokes.at(-1);
-  if (!last) return { points: [], mean: 0, peak: 0, seconds: 0 };
+  if (!last) return { points: [], missSpans: [], mean: 0, peak: 0, seconds: 0 };
 
   const points: SpeedPoint[] = [];
   // `head` is the first stroke past t; `tail` the first one still in the window.
@@ -137,6 +161,7 @@ export function summariseSpeed(strokes: StrokeSample[]): SpeedStats {
   const seconds = last.at / 1000;
   return {
     points,
+    missSpans: missSpans(misses, last.at),
     mean: seconds > 0 ? strokes.length / seconds : 0,
     peak: points.reduce((max, p) => Math.max(max, p.cps), 0),
     seconds,
@@ -188,7 +213,8 @@ function foldCase(counts: Record<string, number>, into: Map<string, number>) {
  * letter is not a separate key. Every key is returned; the result view decides
  * the order. `latencies` are the gaps between consecutive correct keystrokes,
  * already filtered by the caller, and `strokes` is every correct keystroke on
- * the session's clock.
+ * the session's clock. `missTimes` are the mistypes on that same clock, which
+ * the speed curve marks behind itself.
  */
 export function computeScore(
   correct: number,
@@ -197,6 +223,7 @@ export function computeScore(
   keyMiss: KeyMiss,
   latencies: LatencySample[] = [],
   strokes: StrokeSample[] = [],
+  missTimes: number[] = [],
 ): ScoreResult {
   const total = correct + miss;
   const accuracy = total > 0 ? correct / total : 0;
@@ -230,6 +257,6 @@ export function computeScore(
     accuracy,
     keyStats,
     latency: summariseLatency(latencies),
-    speed: summariseSpeed(strokes),
+    speed: summariseSpeed(strokes, missTimes),
   };
 }

@@ -175,6 +175,14 @@ export interface SpeedPoint {
   sentence: string;
 }
 
+/** A stretch of the session's clock to mark behind the speed curve. */
+export interface MissSpan {
+  /** Milliseconds since the first keystroke; never negative. */
+  from: number;
+  /** Milliseconds since the first keystroke; always past `from`. */
+  to: number;
+}
+
 /**
  * Typing speed from the first keystroke to the last, as a trailing average
  * sampled at a fixed step. Only correct keystrokes count, so this is the rate
@@ -184,6 +192,8 @@ export interface SpeedPoint {
 export interface SpeedStats {
   /** Evenly spaced points from the first keystroke to the last. */
   points: SpeedPoint[];
+  /** When mistypes happened, as bands to shade behind the curve. */
+  missSpans: MissSpan[];
   /** Correct keystrokes per second across that span. */
   mean: number;
   /** Highest point of the curve. */

@@ -304,6 +304,30 @@ test("the speed curve runs from the first correct keystroke to the last", async 
   expect(speed?.points.at(-1)?.cps).toBeCloseTo(4 / 3, 5);
 });
 
+test("mistypes are marked on the speed curve's own clock", async () => {
+  installFetch([{ disp: "abcd", q: "abcd" }]);
+  const { result } = renderHook(() =>
+    useTypingGame(settings({ questionCount: 1 })),
+  );
+
+  await withClock(async (at) => {
+    await press(" ");
+    await waitFor(() => expect(result.current.phase).toBe("playing"));
+    await at(50, "z"); // a miss before the clock starts: pinned to its start
+    await at(100, "a"); // the clock starts here
+    await at(200, "b");
+    await at(600, "z"); // a miss 500ms in
+    await at(700, "c");
+    await at(800, "d");
+  });
+
+  // A band a step wide around each miss, clipped to the span the curve covers.
+  expect(result.current.result?.speed.missSpans).toEqual([
+    { from: 0, to: 125 },
+    { from: 375, to: 625 },
+  ]);
+});
+
 test("the speed curve names the question each keystroke belonged to", async () => {
   // Two questions, and the loader shuffles them, so drive whatever comes up.
   installFetch([

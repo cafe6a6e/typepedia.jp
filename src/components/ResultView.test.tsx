@@ -171,6 +171,7 @@ const base: ScoreResult = {
       { t: 250, cps: 4 / 3, sentence: "一問目" },
       { t: 500, cps: 2, sentence: "二問目" },
     ],
+    missSpans: [{ from: 125, to: 375 }],
     mean: 4,
     peak: 2,
     seconds: 0.5,
@@ -184,7 +185,13 @@ const NO_LATENCY: LatencyStats = {
   keys: [],
 };
 
-const NO_SPEED: SpeedStats = { points: [], mean: 0, peak: 0, seconds: 0 };
+const NO_SPEED: SpeedStats = {
+  points: [],
+  missSpans: [],
+  mean: 0,
+  peak: 0,
+  seconds: 0,
+};
 
 function renderView(result: ScoreResult = base) {
   charts.length = 0;
@@ -435,6 +442,21 @@ test("the speed curve is plotted in seconds", () => {
   expect(speedChart().options.plugins.legend.display).toBe(false);
   // No staggered reveal: the shape of the curve is the point.
   expect(speedChart().options.animation).toBe(false);
+});
+
+test("the mistyped moments ride along with the curve, in the axis's seconds", () => {
+  const { speedChart } = renderView();
+  // The bands are in ms on the model, seconds on the chart, as the points are.
+  expect(speedChart().data.datasets[0].missSpans).toEqual([
+    { from: 0.125, to: 0.375 },
+  ]);
+  // The red is only explained where it is actually drawn.
+  expect(screen.getByText("ミスタイプ")).toBeDefined();
+});
+
+test("a clean run gets no mistype swatch", () => {
+  renderView({ ...base, speed: { ...base.speed, missSpans: [] } });
+  expect(screen.queryByText("ミスタイプ")).toBeNull();
 });
 
 test("the speed section leads with the mean, the peak and the elapsed time", () => {

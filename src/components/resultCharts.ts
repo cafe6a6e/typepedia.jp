@@ -21,6 +21,7 @@ import type {
   KeyStat,
   LatencyBucket,
   LatencyKeyStat,
+  MissSpan,
   SpeedPoint,
 } from "@/types";
 
@@ -55,6 +56,12 @@ const GUIDE = "rgba(255, 255, 255, 0.25)";
  * so the banding reads either way without a theme-aware colour.
  */
 const BAND = "rgba(148, 163, 184, 0.1)";
+/**
+ * The band over the moments that were mistyped. Red enough to find at a glance,
+ * pale enough that the curve still reads through it. Kept in step with the
+ * swatch the result view puts beside the heading.
+ */
+const MISS_BAND = "rgba(248, 113, 113, 0.25)";
 
 /** Make an otherwise-invisible key visible on the axis. */
 export function visChar(ch: string): string {
@@ -184,7 +191,7 @@ interface SpeedDatum {
 }
 
 /** The line for the speed curve; one series, so the heading is its label. */
-export function speedChartData(points: SpeedPoint[]) {
+export function speedChartData(points: SpeedPoint[], misses: MissSpan[] = []) {
   const data: SpeedDatum[] = points.map((p) => ({
     x: p.t / 1000,
     y: p.cps,
@@ -195,6 +202,12 @@ export function speedChartData(points: SpeedPoint[]) {
       {
         type: "line" as const,
         label: "打鍵速度",
+        // Rides along with the series in the axis's own unit, so MISS_BANDS
+        // reads it off the chart without a second wiring of its own.
+        missSpans: misses.map((m) => ({
+          from: m.from / 1000,
+          to: m.to / 1000,
+        })),
         // Each point carries its question, so the tooltip can name it off
         // `ctx.raw` and the options below stay a plain module constant.
         data,
@@ -333,6 +346,32 @@ export const QUESTION_BANDS: Plugin = {
       // The last run reaches the edge; the others stop where the next begins.
       const to = run.to < points.length ? Math.min(px(run.to), right) : right;
       ctx.fillRect(from, top, to - from, bottom - top);
+    }
+    ctx.restore();
+  },
+};
+
+/**
+ * Bands over the moments a key was fumbled, drawn on top of the question
+ * banding so a miss stays the same shade whichever question it fell in.
+ */
+export const MISS_BANDS: Plugin = {
+  id: "missBands",
+  beforeDraw(chart) {
+    const { missSpans } = (chart.data.datasets[0] ?? {}) as {
+      missSpans?: MissSpan[];
+    };
+    const scale = chart.scales.x;
+    if (!missSpans?.length || !scale) return;
+
+    const { ctx } = chart;
+    const { top, bottom, left, right } = chart.chartArea;
+    ctx.save();
+    ctx.fillStyle = MISS_BAND;
+    for (const span of missSpans) {
+      const from = Math.max(scale.getPixelForValue(span.from), left);
+      const to = Math.min(scale.getPixelForValue(span.to), right);
+      if (to > from) ctx.fillRect(from, top, to - from, bottom - top);
     }
     ctx.restore();
   },

@@ -188,6 +188,7 @@ const at = (sentence: string, ...ms: number[]) =>
 test("speed has no curve when nothing was typed", () => {
   expect(summariseSpeed([])).toEqual({
     points: [],
+    missSpans: [],
     mean: 0,
     peak: 0,
     seconds: 0,
@@ -241,6 +242,48 @@ test("speed reports the session mean and the peak of the curve", () => {
   expect(s.mean).toBeCloseTo(1.6, 5);
   // The peak is a window, so it is 4 / 3 even where the mean is higher.
   expect(s.peak).toBeCloseTo(4 / 3, 5);
+});
+
+test("a mistype becomes a band a step wide, centred on the miss", () => {
+  expect(summariseSpeed(at("あ", 0, 1000), [500]).missSpans).toEqual([
+    { from: 375, to: 625 },
+  ]);
+});
+
+test("mistypes close together merge into one band", () => {
+  const spans = summariseSpeed(at("あ", 0, 2000), [500, 600, 1500]).missSpans;
+  expect(spans).toEqual([
+    { from: 375, to: 725 },
+    { from: 1375, to: 1625 },
+  ]);
+});
+
+test("a mistype band is clipped to the span the curve covers", () => {
+  // A miss at the very start, and one on the last keystroke: neither band may
+  // run off the ends of the axis.
+  expect(summariseSpeed(at("あ", 0, 900), [0, 900]).missSpans).toEqual([
+    { from: 0, to: 125 },
+    { from: 775, to: 900 },
+  ]);
+});
+
+test("mistype bands come out in time order however they arrived", () => {
+  expect(
+    summariseSpeed(at("あ", 0, 2000), [1500, 500]).missSpans.map((s) => s.from),
+  ).toEqual([375, 1375]);
+});
+
+test("computeScore carries the mistype bands", () => {
+  const r = computeScore(
+    2,
+    1,
+    { a: 2 },
+    { b: 1 },
+    [],
+    at("あ", 0, 1000),
+    [500],
+  );
+  expect(r.speed.missSpans).toEqual([{ from: 375, to: 625 }]);
 });
 
 test("computeScore carries the speed summary", () => {
