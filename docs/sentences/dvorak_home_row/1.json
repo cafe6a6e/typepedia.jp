@@ -2030,9 +2030,9 @@
     "uuid": "440da3c9-61cd-4225-afe1-398ff954f6d0"
   },
   {
-    "disp": "朝のトーストは酸い",
-    "kana": "あさのとーすとはすい",
-    "q": "asanoto-sutohasui",
+    "disp": "朝のトーストは厚い",
+    "kana": "あさのとーすとはあつい",
+    "q": "asanoto-sutohaatui",
     "lang": "ja",
     "uuid": "9f6eb5c4-8dc6-4a30-baf0-e39464660323"
   },
@@ -2905,9 +2905,9 @@
     "uuid": "85e8efa9-cffa-4c18-a771-e25e387d998a"
   },
   {
-    "disp": "母の喉は酸い",
-    "kana": "ははののどはすい",
-    "q": "hahanonodohasui",
+    "disp": "母の喉は細い",
+    "kana": "ははののどはほそい",
+    "q": "hahanonodohahosoi",
     "lang": "ja",
     "uuid": "30412bf5-d843-4114-a094-658e547e49d8"
   },
@@ -3346,9 +3346,9 @@
     "uuid": "55e4f8ca-1a10-4654-971b-d36439317f56"
   },
   {
-    "disp": "弟の喉は酸い",
-    "kana": "おとうとののどはすい",
-    "q": "otoutononodohasui",
+    "disp": "弟の喉は太い",
+    "kana": "おとうとののどはふとい",
+    "q": "otoutononodohahutoi",
     "lang": "ja",
     "uuid": "ef2a1539-994f-416c-a93c-690a3d35d61a"
   },
@@ -3626,9 +3626,9 @@
     "uuid": "aa71e3ec-9b65-4ede-b994-45e8c9acd5b6"
   },
   {
-    "disp": "市の神殿は遠い",
-    "kana": "いちのしんでんはとおい",
-    "q": "itinosinndennhatooi",
+    "disp": "獅子の神殿は遠い",
+    "kana": "ししのしんでんはとおい",
+    "q": "sisinosinndennhatooi",
     "lang": "ja",
     "uuid": "72efed74-b6f0-4633-9094-3dd654f052dc"
   },
@@ -4082,8 +4082,8 @@
   },
   {
     "disp": "温帯と定点は正しい",
-    "kana": "おんだいとていてんはただしい",
-    "q": "onndaitoteitennhatadasii",
+    "kana": "おんたいとていてんはただしい",
+    "q": "onntaitoteitennhatadasii",
     "lang": "ja",
     "uuid": "cb4ec345-61a3-4933-9f26-b3a54a9b3ad7"
   }

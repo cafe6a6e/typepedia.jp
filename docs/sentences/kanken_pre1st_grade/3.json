@@ -337,8 +337,8 @@
   },
   {
     "disp": "ニキビが悪化すると、中心に膿が溜まった膿疱ができることがあります。",
-    "kana": "にきびがあっかすると、ちゅうしんにのうがたまったのうほうができることがあります。",
-    "q": "nikibigaakkasuruto,chuushinnninougatamattanouhougadekirukotogaarimasu.",
+    "kana": "にきびがあっかすると、ちゅうしんにうみがたまったのうほうができることがあります。",
+    "q": "nikibigaakkasuruto,chuushinnniumigatamattanouhougadekirukotogaarimasu.",
     "lang": "ja",
     "uuid": "9faa6ad2-e26d-48e3-9ea8-ec2acb964a01"
   },
@@ -1555,8 +1555,8 @@
   },
   {
     "disp": "只今、会議中ですので後ほど折り返しご連絡いたします。",
-    "kana": "しこん、かいぎちゅうですのでのちほどおりかえしごれんらくいたします。",
-    "q": "shikonn,kaigichuudesunodenochihodoorikaeshigorennrakuitashimasu.",
+    "kana": "ただいま、かいぎちゅうですのでのちほどおりかえしごれんらくいたします。",
+    "q": "tadaima,kaigichuudesunodenochihodoorikaeshigorennrakuitashimasu.",
     "lang": "ja",
     "uuid": "b78d0ff6-4687-441f-8805-3885b555a23f"
   },
@@ -4558,8 +4558,8 @@
   },
   {
     "disp": "海岸沿いの岩は、長い年月による海蝕で少しずつ形を変えています。",
-    "kana": "かいがんぞいのいわは、ながいとしつきによるかいしょくですこしずつかたちをかえています。",
-    "q": "kaigannzoinoiwaha,nagaitoshitsukiniyorukaishokudesukoshizutsukatachiwokaeteimasu.",
+    "kana": "かいがんぞいのいわは、ながいねんげつによるかいしょくですこしずつかたちをかえています。",
+    "q": "kaigannzoinoiwaha,nagainenngetsuniyorukaishokudesukoshizutsukatachiwokaeteimasu.",
     "lang": "ja",
     "uuid": "b95efb30-45f0-4fcc-8c0c-c2d563ea3419"
   },
