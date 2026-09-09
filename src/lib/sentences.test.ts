@@ -84,6 +84,18 @@ test("fetchSentenceFile infers lang (en when disp==q & ASCII, else ja)", async (
   expect(out.map((s: Sentence) => s.lang)).toEqual(["en", "ja", "ja", "ja"]);
 });
 
+test("fetchSentenceFile treats multi-line q as code", async () => {
+  // コード題材は disp が日本語の題名なので、lang を書き忘れると "ja" と推定されて
+  // ソースがローマ字トークナイザに流れる。改行があれば必ずコード。
+  const raw: RawSentence[] = [
+    { disp: "二分探索", q: "fn f() {\n    let x = 1;\n}" },
+    { disp: "DSU", q: "struct Dsu;", lang: "code" }, // explicit lang wins
+  ];
+  installFetch([], raw);
+  const out = await fetchSentenceFile({ category: CAT, id: 1 });
+  expect(out.map((s: Sentence) => s.lang)).toEqual(["code", "code"]);
+});
+
 test("fetchSentenceFile keeps kana (the Japanese speech source)", async () => {
   const raw: RawSentence[] = [
     { disp: "悪衣悪食", kana: "あくいあくしょく", q: "akuiakushoku" },

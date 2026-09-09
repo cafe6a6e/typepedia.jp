@@ -67,6 +67,7 @@ const MISS_BAND = "rgba(248, 113, 113, 0.25)";
 export function visChar(ch: string): string {
   if (ch === " ") return "␣";
   if (ch === "\t") return "⇥";
+  if (ch === "\n") return "⏎";
   return ch;
 }
 

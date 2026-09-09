@@ -111,7 +111,9 @@ HTMLCanvasElement.prototype.getContext =
   (() => ({})) as unknown as HTMLCanvasElement["getContext"];
 
 const { ResultView } = await import("@/components/ResultView");
-const { shadedRuns, wrapText } = await import("@/components/resultCharts");
+const { shadedRuns, visChar, wrapText } = await import(
+  "@/components/resultCharts"
+);
 
 /** [key, total, correct] — 21 keys, so the 20-key cap actually drops one. */
 const RAW: [string, number, number][] = [
@@ -521,4 +523,13 @@ test("the last second on the x axis keeps its gridline but loses its label", () 
     "10",
     "",
   ]);
+});
+
+test("visChar names the keys that would otherwise print blank", () => {
+  // Enter is a real keystroke in the code material, so it reaches the key
+  // charts and needs a glyph of its own.
+  expect(visChar(" ")).toBe("␣");
+  expect(visChar("\t")).toBe("⇥");
+  expect(visChar("\n")).toBe("⏎");
+  expect(visChar("a")).toBe("a");
 });

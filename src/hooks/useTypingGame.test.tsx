@@ -358,3 +358,106 @@ test("the speed curve names the question each keystroke belonged to", async () =
     [first, second].sort(),
   );
 });
+
+// --- 長文課題（コード）---
+
+const RUST = "rust";
+
+/** Stub the manifest under a category id the app knows is 長文. */
+function installCodeFetch(files: RawSentence[]) {
+  const manifest = [{ category: RUST, id: 1 }];
+  // @ts-expect-error minimal fetch stub for tests
+  globalThis.fetch = (url: string) =>
+    Promise.resolve({
+      ok: true,
+      status: 200,
+      json: async () => (url === "sentences/manifest.json" ? manifest : files),
+    } as Response);
+}
+
+function codeSettings(patch: Partial<Settings> = {}): Settings {
+  return { ...DEFAULT_SETTINGS, category: RUST, ...patch };
+}
+
+const TWO_LINES: RawSentence = {
+  disp: "二分探索",
+  q: "fn f() {\n    let x = 1;\n}",
+  lang: "code",
+};
+
+test("Enter types the newline in a code question", async () => {
+  installCodeFetch([TWO_LINES]);
+  const { result } = renderHook(() => useTypingGame(codeSettings()));
+
+  await press(" ");
+  await waitFor(() => expect(result.current.phase).toBe("playing"));
+
+  // Type what the cursor asks for; the indentation is filled in by Enter.
+  let guard = 0;
+  while (result.current.phase === "playing" && guard++ < 200) {
+    const { currentMatcher, engine } = result.current;
+    await press(currentMatcher[engine.slotIndex].variants[0]);
+  }
+
+  expect(result.current.phase).toBe("result");
+  expect(result.current.result?.miss).toBe(0);
+  // The four spaces of line 2 are never pressed.
+  expect(result.current.result?.total).toBe("fn f() {\nlet x = 1;\n}".length);
+});
+
+test("Shift+Enter is the memo shortcut, not a newline", async () => {
+  installCodeFetch([TWO_LINES]);
+  const { result } = renderHook(() => useTypingGame(codeSettings()));
+  await press(" ");
+  await waitFor(() => expect(result.current.phase).toBe("playing"));
+
+  await act(async () => {
+    fireEvent.keyDown(window, { key: "Enter", shiftKey: true });
+  });
+  expect(result.current.stats).toEqual({ correct: 0, miss: 0 });
+  expect(result.current.engine.slotIndex).toBe(0);
+});
+
+test("Tab is swallowed rather than typed or counted as a miss", async () => {
+  installCodeFetch([TWO_LINES]);
+  const { result } = renderHook(() => useTypingGame(codeSettings()));
+  await press(" ");
+  await waitFor(() => expect(result.current.phase).toBe("playing"));
+
+  await press("Tab");
+  expect(result.current.stats).toEqual({ correct: 0, miss: 0 });
+});
+
+test("長文課題 is sized by 長文の出題数, not by 出題数", async () => {
+  installCodeFetch([
+    TWO_LINES,
+    { ...TWO_LINES, disp: "DSU", q: "struct Dsu;" },
+    { ...TWO_LINES, disp: "Dijkstra", q: "fn dijkstra() {}" },
+  ]);
+  const { result } = renderHook(() =>
+    useTypingGame(codeSettings({ questionCount: 3, longQuestionCount: 1 })),
+  );
+  await press(" ");
+  await waitFor(() => expect(result.current.phase).toBe("playing"));
+  expect(result.current.sentences).toHaveLength(1);
+});
+
+test("長文課題 skips the review rotation", async () => {
+  // 復習割合 0.5 と 出題数 1 では Math.round(0.5) = 1 になり、学習中の項目が
+  // 1 件でもあると毎回それしか出なくなる。長文は復習ローテーションを使わない。
+  installCodeFetch([TWO_LINES]);
+  setLearning(
+    RUST,
+    { disp: TWO_LINES.disp, q: TWO_LINES.q, lang: "code", uuid: "u-code" },
+    true,
+  );
+  const s = codeSettings({
+    study: { ...DEFAULT_SETTINGS.study, reviewFrequencyHours: 0 },
+  });
+  expect(getDueReviews(RUST, s.study)).toHaveLength(1);
+
+  const { result } = renderHook(() => useTypingGame(s));
+  await press(" ");
+  await waitFor(() => expect(result.current.phase).toBe("playing"));
+  expect(result.current.currentReview).toBeNull();
+});

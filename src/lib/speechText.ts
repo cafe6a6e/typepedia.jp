@@ -24,6 +24,8 @@ export interface SpeechText {
 /**
  * 読み上げるテキストと言語を決める。
  *
+ * - コード題材は読み上げない。空文字を返すと出題画面の canPlayAudio が false になり、
+ *   「音声を再生」ボタンも自動再生も出なくなる。
  * - 英語題材は問題文（q）がそのまま英文なので、それを読み上げる。
  * - 日本語の「文」は disp（漢字かな交じり）を読み上げる。ひらがなだけを渡すと形態素解析が
  *   効かず、助詞の は→「ハ」・を→「ヲ」・へ→「ヘ」を誤読し、外来語（ちーむ）も崩れるため。
@@ -31,6 +33,7 @@ export interface SpeechText {
  * - kana を持たない旧 localStorage の復習項目などでは disp で代用する。
  */
 export function speechTextOf(s: Sentence): SpeechText {
+  if (s.lang === "code") return { text: "", lang: EN_LANG };
   if (s.lang === "en") return { text: s.q, lang: EN_LANG };
   const text = isCompound(s.disp) ? s.kana?.trim() || s.disp : s.disp;
   return { text, lang: JA_LANG };

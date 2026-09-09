@@ -1,5 +1,5 @@
 import { beforeEach, expect, test } from "bun:test";
-import { fireEvent, render, screen } from "@testing-library/react";
+import { fireEvent, render, screen, within } from "@testing-library/react";
 import { loadSettings } from "@/lib/settings";
 import { SettingsPage } from "@/pages/SettingsPage";
 
@@ -92,8 +92,10 @@ test("choosing a romaji c-mapping side persists it", () => {
 test("the ？ tip reveals its explanation on click", () => {
   render(<SettingsPage />);
   expect(screen.queryByText(/前回の出題から/)).toBeNull();
-  // Tips in DOM order: [0] 音声再生, [1] 読み上げ速度, [2] 覚えた問題,
-  // [3] 入力部分を隠す, [4] 復習頻度, … — click 復習頻度.
-  fireEvent.click(screen.getAllByLabelText("説明を表示")[4]);
+  // Look the tip up through its own label rather than by DOM position, so
+  // adding a setting above it does not renumber the test.
+  const label = screen.getByText(/復習頻度/);
+  const tip = within(label).getByLabelText("説明を表示");
+  fireEvent.click(tip);
   expect(screen.getByText(/前回の出題から/)).toBeDefined();
 });

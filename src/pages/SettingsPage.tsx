@@ -151,6 +151,25 @@ export function SettingsPage() {
           />
         </label>
 
+        <label className="flex flex-col gap-1 max-w-xs">
+          <span className="text-sm text-white/60">
+            長文の出題数
+            <Tip text="長文課題（Coding）で 1 回に出題する問題数。1 問がプログラム 1 本ぶんあるので、既定は 1 問です。ふつうの題材には「出題数」のほうが使われます。" />
+          </span>
+          <input
+            type="number"
+            min={1}
+            max={10}
+            value={settings.longQuestionCount}
+            onChange={(e) =>
+              update({
+                longQuestionCount: Math.max(1, Number(e.target.value) || 1),
+              })
+            }
+            className="px-3 py-2 bg-white/5 border border-white/10 rounded-md"
+          />
+        </label>
+
         <label className="flex items-center gap-3 cursor-pointer max-w-md">
           <input
             type="checkbox"

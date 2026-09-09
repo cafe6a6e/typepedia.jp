@@ -84,8 +84,11 @@ export function MemoPage() {
                   </td>
                   <td className="py-2 pr-3 text-white/70">{m.category}</td>
                   <td className="py-2 pr-3">{m.disp}</td>
-                  <td className="py-2 pr-3 font-mono text-white/70 break-all">
-                    {m.q}
+                  <td className="py-2 pr-3">
+                    {/* コード題材の q は複数行。改行を保ちつつ行の高さを抑える。 */}
+                    <div className="max-h-24 overflow-y-auto font-mono text-xs break-all whitespace-pre-wrap text-white/70">
+                      {m.q}
+                    </div>
                   </td>
                   <td className="py-2 whitespace-pre-wrap">{m.note}</td>
                 </tr>

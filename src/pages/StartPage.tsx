@@ -7,7 +7,7 @@ import { useCourseGuard } from "@/hooks/useCourseGuard";
 import { usePageTitle } from "@/hooks/usePageTitle";
 import { useSettings } from "@/hooks/useSettings";
 import { useTypingGame } from "@/hooks/useTypingGame";
-import { categoryLabel, DEFAULT_CATEGORY } from "@/lib/categories";
+import { categoryLabel, DEFAULT_CATEGORY, isLongText } from "@/lib/categories";
 import { getMasteredCountByCategory } from "@/lib/mastery";
 import { getCategories, getCategoryTotals } from "@/lib/sentences";
 
@@ -60,6 +60,9 @@ export function StartPage() {
     }
   }, [categories, settings.category, update]);
 
+  // 長文課題は 1 問がプログラム 1 本ぶんなので、出題数の設定が別になっている。
+  const longText = isLongText(settings.category);
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-8">
       {game.error && <p className="mb-4 text-red-400">{game.error}</p>}
@@ -68,7 +71,8 @@ export function StartPage() {
         <StartScreen
           loading={game.phase === "loading"}
           username={settings.username}
-          count={settings.questionCount}
+          count={longText ? settings.longQuestionCount : settings.questionCount}
+          longText={longText}
           categories={categories}
           selected={settings.category}
           onSelect={(c) => update({ category: c })}

@@ -1,5 +1,9 @@
 import { describe, expect, test } from "bun:test";
-import { compileMatcher, feedKey } from "@/lib/romajiEngine";
+import {
+  compileMatcher,
+  feedKey,
+  initialEngineState,
+} from "@/lib/romajiEngine";
 import { DEFAULT_SETTINGS } from "@/lib/settings";
 import type { Lang } from "@/types";
 
@@ -169,5 +173,92 @@ describe("romaji guide follows the authored spelling", () => {
   test("reordering variants does not change what is accepted", () => {
     expect(play("tiisai", "chiisai").completed).toBe(true);
     expect(play("chiisai", "tiisai").completed).toBe(true);
+  });
+});
+
+describe("source code", () => {
+  /** Type the keys the cursor actually asks for, skipping auto-filled slots. */
+  function typeAll(q: string) {
+    const slots = compileMatcher(q, DEFAULT_SETTINGS, "code");
+    let state = initialEngineState(slots);
+    const keys: string[] = [];
+    let guard = 0;
+    while (state.slotIndex < slots.length && guard++ < 500) {
+      const key = slots[state.slotIndex].variants[0];
+      keys.push(key);
+      const r = feedKey(slots, state, key);
+      if (r.result === "miss") return { keys, completed: false };
+      state = r.state;
+      if (r.result === "complete-all") return { keys, completed: true };
+    }
+    return { keys, completed: false };
+  }
+
+  test("each character becomes its own slot", () => {
+    const slots = compileMatcher("a b\n", DEFAULT_SETTINGS, "code");
+    expect(slots.map((s) => s.variants)).toEqual([["a"], [" "], ["b"], ["\n"]]);
+  });
+
+  test("only the indentation right after a newline is auto-filled", () => {
+    // index:   0 1 2 3 4 5    6 7 8 9 10
+    const q = "  a b\n    c";
+    const slots = compileMatcher(q, DEFAULT_SETTINGS, "code");
+    // The first line's own indentation and the space inside it are typed.
+    expect(slots.slice(0, 6).some((s) => s.auto)).toBe(false);
+    // The next line's four spaces are not.
+    expect(slots.slice(6, 10).every((s) => s.auto)).toBe(true);
+    expect(slots[10].variants[0]).toBe("c");
+    expect(slots[10].auto).toBeUndefined();
+  });
+
+  test("Enter carries the cursor past the next line's indentation", () => {
+    const slots = compileMatcher("a\n    b", DEFAULT_SETTINGS, "code");
+    const r = feedKey(slots, { slotIndex: 1, buffer: "" }, "\n");
+    expect(r.result).toBe("complete-slot");
+    // Straight to "b" — the four spaces are never asked for.
+    expect(r.state.slotIndex).toBe(6);
+    expect(slots[r.state.slotIndex].variants[0]).toBe("b");
+  });
+
+  test("a blank line still costs two Enters", () => {
+    // Nothing follows the first newline but another newline, so there is no
+    // indentation to skip.
+    expect(typeAll("a\n\nb").keys).toEqual(["a", "\n", "\n", "b"]);
+  });
+
+  test("indentation the learner never types is not counted as keystrokes", () => {
+    const { keys, completed } = typeAll("fn f() {\n    let x = 1;\n}");
+    expect(completed).toBe(true);
+    expect(keys.join("")).toBe("fn f() {\nlet x = 1;\n}");
+  });
+
+  test("a wrong key is a miss and does not advance", () => {
+    const slots = compileMatcher("let", DEFAULT_SETTINGS, "code");
+    const r = feedKey(slots, { slotIndex: 0, buffer: "" }, "x");
+    expect(r.result).toBe("miss");
+    expect(r.state).toEqual({ slotIndex: 0, buffer: "" });
+  });
+
+  test("case matters", () => {
+    const slots = compileMatcher("Vec", DEFAULT_SETTINGS, "code");
+    expect(feedKey(slots, { slotIndex: 0, buffer: "" }, "v").result).toBe(
+      "miss",
+    );
+    expect(feedKey(slots, { slotIndex: 0, buffer: "" }, "V").result).toBe(
+      "complete-slot",
+    );
+  });
+
+  test("initialEngineState skips leading auto slots", () => {
+    // Plain text starts at 0 …
+    expect(
+      initialEngineState(compileMatcher("ab", DEFAULT_SETTINGS, "code")),
+    ).toEqual({ slotIndex: 0, buffer: "" });
+    // … and a matcher that opens on auto slots starts past them.
+    const slots = compileMatcher("a\n  b", DEFAULT_SETTINGS, "code");
+    expect(initialEngineState(slots.slice(2))).toEqual({
+      slotIndex: 2,
+      buffer: "",
+    });
   });
 });

@@ -17,19 +17,26 @@ export const CATEGORY_LABELS: Record<string, string> = {
   dvorak_right3: "Dvorak（右小/薬/中指限定）",
   dvorak_right_index: "Dvorak（右小/薬/人指限定）",
   dvorak_left_hand: "Dvorak（左手限定）",
+  rust: "Coding（Rust）",
 };
 
 export function categoryLabel(category: string): string {
   return CATEGORY_LABELS[category] ?? category;
 }
 
-export type CategoryGroupId = "english" | "kanji" | "dvorak" | "other";
+export type CategoryGroupId =
+  | "english"
+  | "kanji"
+  | "dvorak"
+  | "coding"
+  | "other";
 
 /** Display order of the groups on the start screen. */
 export const CATEGORY_GROUPS: { id: CategoryGroupId; label: string }[] = [
   { id: "english", label: "English" },
   { id: "kanji", label: "漢字・四字熟語" },
   { id: "dvorak", label: "Dvorak" },
+  { id: "coding", label: "Coding" },
   { id: "other", label: "その他" },
 ];
 
@@ -39,6 +46,11 @@ interface CategoryMeta {
   group: CategoryGroupId;
   /** Sort key within the group (manifest order is plain ID localeCompare). */
   order: number;
+  /**
+   * 長文課題: one question is a whole multi-line text (a program), so a course
+   * is sized by `Settings.longQuestionCount` and skips the review rotation.
+   */
+  longText?: boolean;
 }
 
 const CATEGORY_META: Record<string, CategoryMeta> = {
@@ -56,7 +68,17 @@ const CATEGORY_META: Record<string, CategoryMeta> = {
   dvorak_right3: { short: "右小/薬/中指限定", group: "dvorak", order: 2 },
   dvorak_right_index: { short: "右小/薬/人指限定", group: "dvorak", order: 3 },
   dvorak_left_hand: { short: "左手限定", group: "dvorak", order: 4 },
+  rust: { short: "Rust", group: "coding", order: 1, longText: true },
 };
+
+/**
+ * Whether a category's questions are 長文 (one whole multi-line text each).
+ * Long-text material is sized by its own 出題数 and left out of the spaced
+ * review rotation, where a single-question course would be all review.
+ */
+export function isLongText(category: string): boolean {
+  return CATEGORY_META[category]?.longText === true;
+}
 
 /** Short card label; falls back to the full label, then the raw id. */
 export function categoryShortLabel(category: string): string {

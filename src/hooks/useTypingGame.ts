@@ -7,7 +7,12 @@
  * to drive rendering.
  */
 import { useCallback, useEffect, useRef, useState } from "react";
-import { compileMatcher, feedKey } from "@/lib/romajiEngine";
+import { isLongText } from "@/lib/categories";
+import {
+  compileMatcher,
+  feedKey,
+  initialEngineState,
+} from "@/lib/romajiEngine";
 import { computeScore } from "@/lib/scoring";
 import { loadGameSentences } from "@/lib/sentences";
 import { recordReview } from "@/lib/study";
@@ -25,6 +30,9 @@ import type {
 export type Phase = "idle" | "loading" | "playing" | "result";
 
 const INITIAL_ENGINE: EngineState = { slotIndex: 0, buffer: "" };
+
+/** Keys that stand for a character the engine has to see but `key` spells out. */
+const PLAY_KEYS: Record<string, string> = { Enter: "\n" };
 
 export function useTypingGame(settings: Settings) {
   const [phase, setPhase] = useState<Phase>("idle");
@@ -97,6 +105,8 @@ export function useTypingGame(settings: Settings) {
   }, []);
 
   const beginPlay = useCallback(() => {
+    const first = matchersRef.current[0];
+    const start = first ? initialEngineState(first) : INITIAL_ENGINE;
     correctRef.current = 0;
     missRef.current = 0;
     keyCorrectRef.current = {};
@@ -108,10 +118,10 @@ export function useTypingGame(settings: Settings) {
     strokesRef.current = [];
     missTimesRef.current = [];
     sentenceIndexRef.current = 0;
-    engineRef.current = INITIAL_ENGINE;
+    engineRef.current = start;
     setStats({ correct: 0, miss: 0 });
     setSentenceIndex(0);
-    setEngine(INITIAL_ENGINE);
+    setEngine(start);
     setPhase("playing");
   }, []);
 
@@ -141,10 +151,20 @@ export function useTypingGame(settings: Settings) {
     let loaded: Sentence[];
     let loadedReviews: (ReviewInfo | null)[];
     try {
+      // 長文課題は 1 問がプログラム 1 本ぶんなので、出題数は専用の設定を使う。
+      // また 復習割合 0.5 のままだと Math.round(1 * 0.5) = 1 で全枠が復習に化けるため、
+      // 長文では復習ローテーションを使わない。
+      const long = isLongText(settingsRef.current.category);
+      const count = long
+        ? settingsRef.current.longQuestionCount
+        : settingsRef.current.questionCount;
+      const study = long
+        ? { ...settingsRef.current.study, reviewRatio: 0 }
+        : settingsRef.current.study;
       const load = await loadGameSentences(
         settingsRef.current.category,
-        settingsRef.current.questionCount,
-        settingsRef.current.study,
+        count,
+        study,
         settingsRef.current.hideMastered,
       );
       loaded = load.sentences;
@@ -242,9 +262,10 @@ export function useTypingGame(settings: Settings) {
           sentenceIndexRef.current = next;
           // A new question starts the rhythm over.
           prevCorrectTsRef.current = null;
-          engineRef.current = INITIAL_ENGINE;
+          const fresh = initialEngineState(matchersRef.current[next]);
+          engineRef.current = fresh;
           setSentenceIndex(next);
-          setEngine(INITIAL_ENGINE);
+          setEngine(fresh);
         }
       }
     },
@@ -255,6 +276,8 @@ export function useTypingGame(settings: Settings) {
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
       if (keysSuspendedRef.current) return;
+      // An IME's confirm-Enter is not an input of its own.
+      if (e.isComposing) return;
       const p = phaseRef.current;
       if (e.key === " " && p === "idle") {
         e.preventDefault();
@@ -273,15 +296,26 @@ export function useTypingGame(settings: Settings) {
         goIdle();
         return;
       }
-      if (
-        p === "playing" &&
-        e.key.length === 1 &&
-        !e.ctrlKey &&
-        !e.metaKey &&
-        !e.altKey
-      ) {
-        e.preventDefault();
-        handlePlayKey(e.key);
+      if (p === "playing" && !e.ctrlKey && !e.metaKey && !e.altKey) {
+        // Indentation is filled in automatically, so Tab is never typed — but
+        // it still has to be swallowed or it moves focus off the game.
+        if (e.key === "Tab") {
+          e.preventDefault();
+          return;
+        }
+        // Shift+Enter opens the memo modal (PlayingView's own listener, which
+        // preventDefault here would not stop), so only a plain Enter is a
+        // newline.
+        const mapped = e.shiftKey ? undefined : PLAY_KEYS[e.key];
+        if (mapped) {
+          e.preventDefault();
+          handlePlayKey(mapped);
+          return;
+        }
+        if (e.key.length === 1) {
+          e.preventDefault();
+          handlePlayKey(e.key);
+        }
       }
     };
     window.addEventListener("keydown", onKeyDown);

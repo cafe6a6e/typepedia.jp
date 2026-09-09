@@ -7,6 +7,8 @@ interface Props {
   loading: boolean;
   username: string;
   count: number;
+  /** 長文課題（1 問がプログラム 1 本）か。出題数のラベルが変わる。 */
+  longText?: boolean;
   categories: string[];
   selected: string;
   onSelect: (category: string) => void;
@@ -18,6 +20,7 @@ export function StartScreen({
   loading,
   username,
   count,
+  longText = false,
   categories,
   selected,
   onSelect,
@@ -46,7 +49,7 @@ export function StartScreen({
             を押して開始
           </p>
           <p className="text-sm text-white/40">
-            出題数 {count} 問
+            {longText ? "長文" : "出題数"} {count} 問
             {username ? ` ・ ${username}` : "（設定でユーザー名未設定）"}
           </p>
         </>

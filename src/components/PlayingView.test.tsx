@@ -322,3 +322,73 @@ test("計測中 shows only once the first keystroke has landed", () => {
   );
   expect(screen.getByText("計測中...")).toBeDefined();
 });
+
+// --- 長文課題（コード）---
+
+const CODE: Sentence = {
+  disp: "二分探索",
+  q: "fn f() {\n    let x = 1;\n}",
+  lang: "code",
+  uuid: "uuid-code",
+};
+
+function renderCode(missFlash = 0, hideInput = false) {
+  render(
+    <PlayingView
+      index={0}
+      total={1}
+      correct={0}
+      miss={0}
+      missFlash={missFlash}
+      sentence={CODE}
+      matcher={compileMatcher(CODE.q, DEFAULT_SETTINGS, "code")}
+      engine={{ slotIndex: 0, buffer: "" }}
+      category="Coding（Rust）"
+      categoryId="rust"
+      review={null}
+      autoPlayAudio={false}
+      speechRate={1}
+      speechVoiceJa=""
+      speechVoiceEn=""
+      hideInput={hideInput}
+      suspendKeys={mock(() => {})}
+    />,
+  );
+}
+
+test("a code question is shown as a numbered block with its title", () => {
+  renderCode();
+  expect(screen.getByText("二分探索")).toBeDefined();
+  expect(screen.getByText("1 / 3 行")).toBeDefined();
+  expect(
+    screen.getByText(/インデントは Enter で自動的に埋まります/),
+  ).toBeDefined();
+});
+
+test("code is never read aloud", () => {
+  // 読み上げテキストが空なので音声ボタンごと出ない（コードを英語として読ませない）。
+  installSpeechStub();
+  renderCode();
+  expect(
+    screen.queryByRole("button", { name: "問題文を読み上げる" }),
+  ).toBeNull();
+});
+
+test("答えを見る is not offered for code", () => {
+  // 40 行の Rust を暗記で打つことはないので、押しても何も起きないボタンを出さない。
+  renderCode(0, true);
+  expect(screen.queryByRole("button", { name: /答えを見る/ })).toBeNull();
+});
+
+test("a mistype does not remount the code block", () => {
+  // シェイクは missFlash を key にした remount なので、コードブロックがその中に
+  // あるとミスのたびにスクロール位置が先頭に戻ってしまう。
+  renderCode(0);
+  const before = document.querySelector(".overflow-y-auto");
+  expect(before).not.toBeNull();
+  // Re-render with a bumped miss counter, as a mistype does.
+  cleanup();
+  renderCode(1);
+  const shaken = document.querySelector(".animate-shake");
+  expect(shaken?.querySelector(".overflow-y-auto")).toBeNull();
+});

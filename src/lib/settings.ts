@@ -15,6 +15,7 @@ export const DEFAULT_STUDY_SETTINGS: StudySettings = {
 export const DEFAULT_SETTINGS: Settings = {
   username: "",
   questionCount: 10,
+  longQuestionCount: 1,
   category: DEFAULT_CATEGORY,
   cMapping: { ...DEFAULT_C_MAPPING },
   study: { ...DEFAULT_STUDY_SETTINGS },
@@ -88,6 +89,11 @@ export function loadSettings(): Settings {
         (parsed.questionCount as number) > 0
           ? Math.floor(parsed.questionCount as number)
           : DEFAULT_SETTINGS.questionCount,
+      longQuestionCount:
+        Number.isFinite(parsed.longQuestionCount) &&
+        (parsed.longQuestionCount as number) > 0
+          ? Math.floor(parsed.longQuestionCount as number)
+          : DEFAULT_SETTINGS.longQuestionCount,
       category:
         typeof parsed.category === "string" && parsed.category
           ? parsed.category

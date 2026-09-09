@@ -58,6 +58,8 @@ export function PlayingView({
   hideInput,
   suspendKeys,
 }: Props) {
+  // 長文（コード）は 1 問がプログラム 1 本ぶん。表示もミス時の扱いも短文とは変わる。
+  const isCode = sentence.lang === "code";
   const [memoOpen, setMemoOpen] = useState(false);
   // 入力部分を隠す設定でも、思い出せないときはこの問題だけ表示できる。
   const [revealed, setRevealed] = useState(false);
@@ -129,33 +131,45 @@ export function PlayingView({
         Memo
       </button>
 
-      <div
-        key={missFlash}
-        className="flex flex-col items-center gap-8 w-full animate-shake"
-      >
-        <div className="flex gap-6 text-sm text-white/50">
-          <span>
-            {index + 1} / {total}
-          </span>
-          <span>正解 {correct}</span>
-          <span className="text-red-400">ミス {miss}</span>
+      <div className="flex flex-col items-center gap-8 w-full">
+        {/*
+          The shake is keyed on the miss counter, which remounts everything
+          inside it. For code that would reset the scroll box on every typo and
+          throw the learner back to line 1, so the code block sits outside.
+        */}
+        <div
+          key={missFlash}
+          className="flex flex-col items-center gap-8 w-full animate-shake"
+        >
+          <div className="flex gap-6 text-sm text-white/50">
+            <span>
+              {index + 1} / {total}
+            </span>
+            <span>正解 {correct}</span>
+            <span className="text-red-400">ミス {miss}</span>
+          </div>
+          {review && (
+            <p className="rounded-full bg-amber-500/15 px-3 py-1 text-xs text-amber-300">
+              復習 {review.attempt} 回目（最終出題{" "}
+              {review.lastReviewedTs > 0
+                ? formatTimestamp(review.lastReviewedTs)
+                : "初回"}
+              ）
+            </p>
+          )}
+          {!isCode && (
+            <SentenceView
+              sentence={sentence}
+              matcher={matcher}
+              engine={engine}
+              hideInput={hideInput && !revealed}
+            />
+          )}
         </div>
-        {review && (
-          <p className="rounded-full bg-amber-500/15 px-3 py-1 text-xs text-amber-300">
-            復習 {review.attempt} 回目（最終出題{" "}
-            {review.lastReviewedTs > 0
-              ? formatTimestamp(review.lastReviewedTs)
-              : "初回"}
-            ）
-          </p>
+        {isCode && (
+          <SentenceView sentence={sentence} matcher={matcher} engine={engine} />
         )}
-        <SentenceView
-          sentence={sentence}
-          matcher={matcher}
-          engine={engine}
-          hideInput={hideInput && !revealed}
-        />
-        {hideInput && !revealed && (
+        {hideInput && !revealed && !isCode && (
           <button
             type="button"
             onClick={(e) => {
@@ -186,6 +200,7 @@ export function PlayingView({
         )}
         <p className="text-xs text-white/30">
           Shift+Enter でメモ / Esc でコース選択に戻る
+          {isCode && " / 行頭のインデントは Enter で自動的に埋まります"}
         </p>
       </div>
 

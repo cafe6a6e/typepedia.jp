@@ -119,17 +119,45 @@ function applySokuon(variants: string[]): string[] {
 }
 
 /**
+ * One slot per character, for text that is typed literally rather than
+ * transliterated (English, and source code).
+ */
+function compileLiteral(q: string): Matcher {
+  return [...q].map((ch) => ({ kana: "", display: ch, variants: [ch] }));
+}
+
+/**
+ * Source code: literal slots, plus each line's leading indentation marked
+ * `auto` so Enter carries the cursor to the first character that actually has
+ * to be typed. Only whitespace directly after a newline counts — the first
+ * line's indentation, whitespace inside a line, and the second newline of a
+ * blank line are all typed as usual.
+ */
+function compileCode(q: string): Matcher {
+  const slots = compileLiteral(q);
+  for (let i = 0; i < slots.length; i++) {
+    if (slots[i].variants[0] !== "\n") continue;
+    for (let j = i + 1; j < slots.length; j++) {
+      const ch = slots[j].variants[0];
+      if (ch !== " " && ch !== "\t") break;
+      slots[j].auto = true;
+    }
+  }
+  return slots;
+}
+
+/**
  * Compile a sentence's `q` into a matcher.
- * For English (`lang === "en"`) each character becomes its own slot.
+ * Anything but Japanese is typed literally, so each character becomes its own
+ * slot; code additionally gets its indentation marked as auto-filled.
  */
 export function compileMatcher(
   q: string,
   settings: Settings,
   lang: Lang,
 ): Matcher {
-  if (lang === "en") {
-    return [...q].map((ch) => ({ kana: "", display: ch, variants: [ch] }));
-  }
+  if (lang === "code") return compileCode(q);
+  if (lang === "en") return compileLiteral(q);
 
   const cByKana = buildCByKana(settings);
   const tokens = tokenize(q);
@@ -149,6 +177,21 @@ export function compileMatcher(
   }
 
   return slots;
+}
+
+/** The first slot from `from` on that the learner actually has to type. */
+function skipAuto(slots: Matcher, from: number): number {
+  let i = from;
+  while (slots[i]?.auto) i++;
+  return i;
+}
+
+/**
+ * Where the cursor starts for a matcher. Normally slot 0, but a matcher whose
+ * first slots are auto-filled starts past them.
+ */
+export function initialEngineState(slots: Matcher): EngineState {
+  return { slotIndex: skipAuto(slots, 0), buffer: "" };
 }
 
 /** Variants of a slot that have `prefix` as a prefix. */
@@ -176,7 +219,7 @@ export function feedKey(
     const isComplete = matches.includes(cand);
     const canExtend = matches.some((v) => v.length > cand.length);
     if (isComplete && !canExtend) {
-      const nextIndex = slotIndex + 1;
+      const nextIndex = skipAuto(slots, slotIndex + 1);
       return {
         state: { slotIndex: nextIndex, buffer: "" },
         result: nextIndex >= slots.length ? "complete-all" : "complete-slot",

@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { CodeView } from "@/components/CodeView";
 import type { EngineState, Matcher, Sentence, Slot } from "@/types";
 
 interface Props {
@@ -29,6 +30,24 @@ export function SentenceView({
   engine,
   hideInput = false,
 }: Props) {
+  // Code is a whole multi-line program, so it gets its own screen. `hideInput`
+  // is meaningless there — nobody recalls 40 lines of Rust — and is dropped.
+  if (sentence.lang === "code") {
+    return <CodeView sentence={sentence} matcher={matcher} engine={engine} />;
+  }
+
+  return (
+    <SentenceLine
+      sentence={sentence}
+      matcher={matcher}
+      engine={engine}
+      hideInput={hideInput}
+    />
+  );
+}
+
+/** The single-line typing screen used by the Japanese and English material. */
+function SentenceLine({ sentence, matcher, engine, hideInput = false }: Props) {
   const { slotIndex, buffer } = engine;
 
   // Colored fragment for a single slot (typed = green, cursor = boxed, rest = faint).

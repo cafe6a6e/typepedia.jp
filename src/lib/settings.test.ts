@@ -26,6 +26,7 @@ test("saveSettings / loadSettings round-trips a full settings object", () => {
   const custom: Settings = {
     username: "alice",
     questionCount: 20,
+    longQuestionCount: 3,
     category: "kanken_pre1st_grade",
     cMapping: { ...DEFAULT_SETTINGS.cMapping, ca: "s" },
     study: { reviewFrequencyHours: 12, reviewCount: 5, reviewRatio: 0.25 },
@@ -54,6 +55,33 @@ test("questionCount is clamped positive and floored", () => {
   expect(loadSettings().questionCount).toBe(DEFAULT_SETTINGS.questionCount);
   seed({ questionCount: "abc" });
   expect(loadSettings().questionCount).toBe(DEFAULT_SETTINGS.questionCount);
+});
+
+test("longQuestionCount defaults to 1 and is clamped positive and floored", () => {
+  // 長文は 1 問がプログラム 1 本ぶんなので、既定は 1 問。
+  expect(DEFAULT_SETTINGS.longQuestionCount).toBe(1);
+  seed({ longQuestionCount: 2.7 });
+  expect(loadSettings().longQuestionCount).toBe(2);
+  seed({ longQuestionCount: 0 });
+  expect(loadSettings().longQuestionCount).toBe(
+    DEFAULT_SETTINGS.longQuestionCount,
+  );
+  seed({ longQuestionCount: -1 });
+  expect(loadSettings().longQuestionCount).toBe(
+    DEFAULT_SETTINGS.longQuestionCount,
+  );
+  seed({ longQuestionCount: "abc" });
+  expect(loadSettings().longQuestionCount).toBe(
+    DEFAULT_SETTINGS.longQuestionCount,
+  );
+});
+
+test("settings saved before 長文の出題数 existed keep working", () => {
+  // 既存ユーザーの localStorage には longQuestionCount がない。
+  seed({ questionCount: 20 });
+  const loaded = loadSettings();
+  expect(loaded.questionCount).toBe(20);
+  expect(loaded.longQuestionCount).toBe(DEFAULT_SETTINGS.longQuestionCount);
 });
 
 test("category falls back to default when empty or non-string", () => {

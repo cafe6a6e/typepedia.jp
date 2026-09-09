@@ -111,7 +111,11 @@ export function MemoModal({
           <span className="text-xs text-white/50">{label}</span>
           <p
             className={`rounded-md bg-white/5 px-3 py-2 text-sm ${
-              mono ? "font-mono break-all" : ""
+              // コード題材の q は複数行で数百文字ある。折り返しと高さを与えないと
+              // カードがビューポートを突き抜けて保存ボタンに届かなくなる。
+              mono
+                ? "font-mono text-xs break-all whitespace-pre-wrap max-h-32 overflow-y-auto"
+                : ""
             }`}
           >
             {value}

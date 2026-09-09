@@ -3,6 +3,7 @@ import {
   categoryLabel,
   categoryShortLabel,
   groupCategories,
+  isLongText,
 } from "@/lib/categories";
 
 // The manifest hands us categories in plain ID order; grouping fixes that.
@@ -97,4 +98,34 @@ test("categoryShortLabel drops the group name, categoryLabel keeps it", () => {
   expect(categoryShortLabel("yoji_04_kyu2j")).toBe("四字熟語 準2級");
   expect(categoryLabel("yoji_04_kyu2j")).toBe("四字熟語（漢検準2級）");
   expect(categoryShortLabel("new_stuff")).toBe("new_stuff");
+});
+
+test("Coding sits after Dvorak and before その他", () => {
+  const groups = groupCategories([
+    "rust",
+    "mystery_material",
+    "dvorak_home_row",
+    "eiken_1st_grade",
+  ]);
+  expect(groups.map((g) => g.label)).toEqual([
+    "English",
+    "Dvorak",
+    "Coding",
+    "その他",
+  ]);
+  expect(groups[2].categories).toEqual(["rust"]);
+});
+
+test("Rust is labelled as a Coding material", () => {
+  expect(categoryShortLabel("rust")).toBe("Rust");
+  expect(categoryLabel("rust")).toBe("Coding（Rust）");
+});
+
+test("only 長文 materials report themselves as long text", () => {
+  expect(isLongText("rust")).toBe(true);
+  expect(isLongText("eiken_1st_grade")).toBe(false);
+  expect(isLongText("dvorak_home_row")).toBe(false);
+  // An id the app has never heard of must not claim to be long text — it lands
+  // in その他 and is played with the ordinary 出題数.
+  expect(isLongText("mystery_material")).toBe(false);
 });

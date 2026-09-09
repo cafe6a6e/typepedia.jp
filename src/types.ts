@@ -1,7 +1,10 @@
 /** Shared domain types for the typing game. */
 
-/** Language of a sentence. "ja" = Japanese (q is romaji), "en" = plain ASCII. */
-export type Lang = "ja" | "en";
+/**
+ * Language of a sentence. "ja" = Japanese (q is romaji), "en" = plain ASCII,
+ * "code" = source code (q is the literal text, newlines and indentation included).
+ */
+export type Lang = "ja" | "en" | "code";
 
 /** Raw entry as authored in /sentences/<n>.json. `lang`/`uuid` are optional. */
 export interface RawSentence {
@@ -34,6 +37,12 @@ export interface Slot {
   kana: string;
   display: string;
   variants: string[];
+  /**
+   * Filled in for the learner instead of typed: the leading indentation of a
+   * line in a code sentence. The cursor runs straight past it after Enter, the
+   * way an editor's auto-indent does, so it is never counted as a keystroke.
+   */
+  auto?: boolean;
 }
 
 /** A whole sentence compiled into an ordered list of slots. */
@@ -70,6 +79,11 @@ export interface StudySettings {
 export interface Settings {
   username: string;
   questionCount: number;
+  /**
+   * 出題数 for 長文課題 (Coding). One question is a whole program there, so it
+   * needs a knob of its own rather than sharing `questionCount`. Default 1.
+   */
+  longQuestionCount: number;
   /** Selected sentence category folder (typing material). */
   category: string;
   /** Ambiguous c-/cy- input -> "k" (か行) or "s" (さ行). One side always chosen. */

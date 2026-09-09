@@ -10,9 +10,14 @@ import type {
   StudySettings,
 } from "@/types";
 
-/** Heuristic: treat an entry as English when disp equals q and it is ASCII. */
+/**
+ * Heuristic: treat an entry as English when disp equals q and it is ASCII.
+ * A multi-line `q` can only be code — worth checking first, because a code
+ * entry has a Japanese title for `disp` and would otherwise be read as romaji.
+ */
 function inferLang(raw: RawSentence): Lang {
   if (raw.lang) return raw.lang;
+  if (raw.q.includes("\n")) return "code";
   // biome-ignore lint/suspicious/noControlCharactersInRegex: matching ASCII range intentionally.
   const isAscii = /^[\x00-\x7F]*$/.test(raw.q);
   return raw.disp === raw.q && isAscii ? "en" : "ja";

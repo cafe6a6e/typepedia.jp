@@ -1,0 +1,32 @@
+[
+  {
+    "disp": "二分探索",
+    "q": "fn lower_bound(a: &[i64], x: i64) -> usize {\n    let (mut lo, mut hi) = (0usize, a.len());\n    while lo < hi {\n        let mid = lo + (hi - lo) / 2;\n        if a[mid] < x {\n            lo = mid + 1;\n        } else {\n            hi = mid;\n        }\n    }\n    lo\n}\n\nfn upper_bound(a: &[i64], x: i64) -> usize {\n    lower_bound(a, x + 1)\n}\n\nfn binary_search(a: &[i64], x: i64) -> Option<usize> {\n    let i = lower_bound(a, x);\n    if i < a.len() && a[i] == x {\n        Some(i)\n    } else {\n        None\n    }\n}",
+    "lang": "code",
+    "uuid": "abecb185-8c1f-4235-a049-c04ad1994c71"
+  },
+  {
+    "disp": "最短経路（Warshall-Floyd）",
+    "q": "const INF: i64 = 1 << 60;\n\nfn warshall_floyd(d: &mut [Vec<i64>]) {\n    let n = d.len();\n    for k in 0..n {\n        for i in 0..n {\n            if d[i][k] == INF {\n                continue;\n            }\n            for j in 0..n {\n                if d[k][j] == INF {\n                    continue;\n                }\n                if d[i][j] > d[i][k] + d[k][j] {\n                    d[i][j] = d[i][k] + d[k][j];\n                }\n            }\n        }\n    }\n}",
+    "lang": "code",
+    "uuid": "60228552-3e99-4975-8792-9316730e5c32"
+  },
+  {
+    "disp": "最短経路（Dijkstra）",
+    "q": "use std::cmp::Reverse;\nuse std::collections::BinaryHeap;\n\nconst INF: u64 = u64::MAX;\n\nfn dijkstra(g: &[Vec<(usize, u64)>], s: usize) -> Vec<u64> {\n    let mut dist = vec![INF; g.len()];\n    let mut heap = BinaryHeap::new();\n    dist[s] = 0;\n    heap.push(Reverse((0u64, s)));\n    while let Some(Reverse((d, v))) = heap.pop() {\n        if d > dist[v] {\n            continue;\n        }\n        for &(to, w) in &g[v] {\n            let nd = d + w;\n            if nd < dist[to] {\n                dist[to] = nd;\n                heap.push(Reverse((nd, to)));\n            }\n        }\n    }\n    dist\n}",
+    "lang": "code",
+    "uuid": "a3f93253-1e0c-4235-b708-8c65224f57bd"
+  },
+  {
+    "disp": "DSU",
+    "q": "struct Dsu {\n    parent: Vec<i32>,\n}\n\nimpl Dsu {\n    fn new(n: usize) -> Self {\n        Dsu {\n            parent: vec![-1; n],\n        }\n    }\n\n    fn find(&mut self, x: usize) -> usize {\n        if self.parent[x] < 0 {\n            return x;\n        }\n        let root = self.find(self.parent[x] as usize);\n        self.parent[x] = root as i32;\n        root\n    }\n\n    fn unite(&mut self, x: usize, y: usize) -> bool {\n        let (mut a, mut b) = (self.find(x), self.find(y));\n        if a == b {\n            return false;\n        }\n        if self.parent[a] > self.parent[b] {\n            std::mem::swap(&mut a, &mut b);\n        }\n        self.parent[a] += self.parent[b];\n        self.parent[b] = a as i32;\n        true\n    }\n\n    fn same(&mut self, x: usize, y: usize) -> bool {\n        self.find(x) == self.find(y)\n    }\n\n    fn size(&mut self, x: usize) -> usize {\n        let r = self.find(x);\n        -self.parent[r] as usize\n    }\n}",
+    "lang": "code",
+    "uuid": "c4f4ac9b-8017-4276-a4bb-d1fbb57dd85c"
+  },
+  {
+    "disp": "セグメント木（区間和）",
+    "q": "struct SegmentTree {\n    size: usize,\n    data: Vec<i64>,\n}\n\nimpl SegmentTree {\n    fn new(n: usize) -> Self {\n        let mut size = 1;\n        while size < n {\n            size *= 2;\n        }\n        SegmentTree {\n            size,\n            data: vec![0; size * 2],\n        }\n    }\n\n    fn build(a: &[i64]) -> Self {\n        let mut t = SegmentTree::new(a.len());\n        for (i, &x) in a.iter().enumerate() {\n            t.data[t.size + i] = x;\n        }\n        for k in (1..t.size).rev() {\n            t.data[k] = t.data[k * 2] + t.data[k * 2 + 1];\n        }\n        t\n    }\n\n    fn set(&mut self, i: usize, x: i64) {\n        let mut k = i + self.size;\n        self.data[k] = x;\n        while k > 1 {\n            k /= 2;\n            self.data[k] = self.data[k * 2] + self.data[k * 2 + 1];\n        }\n    }\n\n    fn sum(&self, l: usize, r: usize) -> i64 {\n        let mut acc = 0;\n        let mut lo = l + self.size;\n        let mut hi = r + self.size;\n        while lo < hi {\n            if lo % 2 == 1 {\n                acc += self.data[lo];\n                lo += 1;\n            }\n            if hi % 2 == 1 {\n                hi -= 1;\n                acc += self.data[hi];\n            }\n            lo /= 2;\n            hi /= 2;\n        }\n        acc\n    }\n}",
+    "lang": "code",
+    "uuid": "92c4c696-2d17-470f-92e1-cde0b19b5e72"
+  }
+]

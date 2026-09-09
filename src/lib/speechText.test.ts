@@ -58,3 +58,15 @@ test("isCompound accepts kanji-only words including 々 and rejects sentences", 
   // 9 文字以上は語ではなく文とみなす。
   expect(isCompound("一二三四五六七八九")).toBe(false);
 });
+
+test("code is never spoken", () => {
+  // 出題画面は読み上げテキストが空かどうかで音声ボタンの有無を決めているので、
+  // ここが空文字であることが「コードは読み上げない」の実装そのもの。
+  const CODE: Sentence = {
+    disp: "二分探索",
+    q: "fn f() {\n    let x = 1;\n}",
+    lang: "code",
+    uuid: "u-code",
+  };
+  expect(speechTextOf(CODE)).toEqual({ text: "", lang: "en-US" });
+});
