@@ -1,4 +1,5 @@
 /** Fetch and prepare sentences for a game. */
+import { isOrdered } from "@/lib/categories";
 import { getMasteredSet } from "@/lib/mastery";
 import { getDueReviews, reviewInfoOf } from "@/lib/study";
 import type {
@@ -52,6 +53,18 @@ export async function getCategories(): Promise<string[]> {
 }
 
 /**
+ * Display names the manifest carries, keyed by category id. Only material that
+ * ships a `label.txt` next to its sentence files has one; the rest are named by
+ * `CATEGORY_LABELS`.
+ */
+export async function getCategoryLabels(): Promise<Record<string, string>> {
+  const files = await getSentenceFiles();
+  const labels: Record<string, string> = {};
+  for (const f of files) if (f.label) labels[f.category] = f.label;
+  return labels;
+}
+
+/**
  * Total number of sentences per category id, summed from the manifest's
  * per-file `count`. Files predating the count field contribute 0.
  */
@@ -102,6 +115,9 @@ export interface GameLoad {
  * (復習割合) is filled with due review items for that category; the rest are
  * sampled fresh from a random file in the category. The combined set is
  * shuffled so reviews and fresh questions interleave.
+ *
+ * 順番題材 (`isOrdered`) is the exception: its file is one passage, so the
+ * sentences are taken from the top in file order with no reviews mixed in.
  */
 export async function loadGameSentences(
   category: string,
@@ -121,6 +137,13 @@ export async function loadGameSentences(
   const mastered = hideMastered ? getMasteredSet() : new Set<string>();
   const isHidden = (uuid: string | undefined) =>
     Boolean(uuid) && mastered.has(uuid as string);
+
+  // 順番題材: read the passage from the top. No shuffle, and no review slots —
+  // a due item from earlier in the passage would jump the reader backwards.
+  if (isOrdered(category)) {
+    const inOrder = file.filter((s) => !isHidden(s.uuid)).slice(0, n);
+    return { sentences: inOrder, reviews: inOrder.map(() => null) };
+  }
 
   // Reserve up to 復習割合 of the slots for due reviews.
   const reviewSlots = Math.min(Math.round(n * study.reviewRatio), n);

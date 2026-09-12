@@ -20,8 +20,23 @@ export const CATEGORY_LABELS: Record<string, string> = {
   rust: "Coding（Rust）",
 };
 
+/**
+ * Display names the manifest carried, keyed by category id (see
+ * `registerCategoryLabels`). Checked before the table above.
+ */
+const manifestLabels: Record<string, string> = {};
+
+/**
+ * Adopt display names discovered at runtime from the manifest, which reads them
+ * from each material folder's `label.txt`. That is how ローカル専用題材 gets a
+ * readable name without the name being written into a tracked source file.
+ */
+export function registerCategoryLabels(labels: Record<string, string>): void {
+  Object.assign(manifestLabels, labels);
+}
+
 export function categoryLabel(category: string): string {
-  return CATEGORY_LABELS[category] ?? category;
+  return manifestLabels[category] ?? CATEGORY_LABELS[category] ?? category;
 }
 
 export type CategoryGroupId =
@@ -29,6 +44,7 @@ export type CategoryGroupId =
   | "kanji"
   | "dvorak"
   | "coding"
+  | "local"
   | "other";
 
 /** Display order of the groups on the start screen. */
@@ -37,6 +53,7 @@ export const CATEGORY_GROUPS: { id: CategoryGroupId; label: string }[] = [
   { id: "kanji", label: "漢字・四字熟語" },
   { id: "dvorak", label: "Dvorak" },
   { id: "coding", label: "Coding" },
+  { id: "local", label: "local練" },
   { id: "other", label: "その他" },
 ];
 
@@ -72,6 +89,19 @@ const CATEGORY_META: Record<string, CategoryMeta> = {
 };
 
 /**
+ * Folder prefix marking ローカル専用題材. A `docs/sentences/local_…` folder is
+ * gitignored and left out of the built manifest, so such material is never
+ * registered in this file — its group, its ordering and its name are all
+ * derived instead.
+ */
+const LOCAL_PREFIX = "local_";
+
+/** Whether a category is local-only material, by folder-name convention. */
+export function isLocal(category: string): boolean {
+  return category.startsWith(LOCAL_PREFIX);
+}
+
+/**
  * Whether a category's questions are 長文 (one whole multi-line text each).
  * Long-text material is sized by its own 出題数 and left out of the spaced
  * review rotation, where a single-question course would be all review.
@@ -80,15 +110,35 @@ export function isLongText(category: string): boolean {
   return CATEGORY_META[category]?.longText === true;
 }
 
+/**
+ * Whether a category's file is one continuous passage, to be typed from the
+ * top in file order. Shuffling it, or slotting review items into it, would
+ * scramble the very order the material is written to teach. ローカル専用題材 is
+ * written as prose split at 句点, so the whole local group is read in order.
+ */
+export function isOrdered(category: string): boolean {
+  return isLocal(category);
+}
+
 /** Short card label; falls back to the full label, then the raw id. */
 export function categoryShortLabel(category: string): string {
-  return CATEGORY_META[category]?.short ?? categoryLabel(category);
+  return (
+    manifestLabels[category] ??
+    CATEGORY_META[category]?.short ??
+    categoryLabel(category)
+  );
 }
 
 export interface CategoryGroup {
   id: CategoryGroupId;
   label: string;
   categories: string[];
+}
+
+/** Which display group a category belongs to. */
+function groupIdOf(category: string): CategoryGroupId {
+  if (isLocal(category)) return "local";
+  return CATEGORY_META[category]?.group ?? "other";
 }
 
 /**
@@ -99,9 +149,7 @@ export interface CategoryGroup {
 export function groupCategories(categories: string[]): CategoryGroup[] {
   const groups: CategoryGroup[] = [];
   for (const g of CATEGORY_GROUPS) {
-    const members = categories.filter(
-      (c) => (CATEGORY_META[c]?.group ?? "other") === g.id,
-    );
+    const members = categories.filter((c) => groupIdOf(c) === g.id);
     if (members.length === 0) continue;
     members.sort((a, b) => {
       const oa = CATEGORY_META[a]?.order ?? Number.MAX_SAFE_INTEGER;

@@ -7,9 +7,18 @@ import { useCourseGuard } from "@/hooks/useCourseGuard";
 import { usePageTitle } from "@/hooks/usePageTitle";
 import { useSettings } from "@/hooks/useSettings";
 import { useTypingGame } from "@/hooks/useTypingGame";
-import { categoryLabel, DEFAULT_CATEGORY, isLongText } from "@/lib/categories";
+import {
+  categoryLabel,
+  DEFAULT_CATEGORY,
+  isLongText,
+  registerCategoryLabels,
+} from "@/lib/categories";
 import { getMasteredCountByCategory } from "@/lib/mastery";
-import { getCategories, getCategoryTotals } from "@/lib/sentences";
+import {
+  getCategories,
+  getCategoryLabels,
+  getCategoryTotals,
+} from "@/lib/sentences";
 
 export function StartPage() {
   usePageTitle();
@@ -27,7 +36,12 @@ export function StartPage() {
   }, [game.phase, setActive]);
 
   useEffect(() => {
-    getCategories()
+    // Adopt the manifest's display names before the cards first render, so
+    // material named by its folder's label.txt never flashes as a raw id.
+    getCategoryLabels()
+      .then(registerCategoryLabels)
+      .catch(() => {})
+      .then(getCategories)
       .then(setCategories)
       .catch(() => setCategories([]));
     getCategoryTotals()

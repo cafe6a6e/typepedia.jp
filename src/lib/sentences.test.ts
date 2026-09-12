@@ -1,4 +1,5 @@
 import { afterEach, beforeEach, expect, test } from "bun:test";
+import { isOrdered } from "@/lib/categories";
 import { fetchSentenceFile, loadGameSentences, pickN } from "@/lib/sentences";
 import { setLearning } from "@/lib/study";
 import type { RawSentence, Sentence, StudySettings } from "@/types";
@@ -179,4 +180,58 @@ test("loadGameSentences falls back to fresh when no reviews are due", async () =
   const load = await loadGameSentences(CAT, 6, STUDY);
   expect(load.sentences).toHaveLength(6);
   expect(load.reviews.every((r) => r === null)).toBe(true);
+});
+
+// --- 順番題材: the passage is typed from the top, in file order ---
+
+// Any local_ folder is read in order; no material name is needed here.
+const ORDERED = "local_drill";
+
+test("the ordered material really is treated as ordered", () => {
+  // The tests below are only meaningful while this category reads in order.
+  expect(isOrdered(ORDERED)).toBe(true);
+  expect(isOrdered(CAT)).toBe(false);
+});
+
+test("loadGameSentences keeps a 順番題材 in file order", async () => {
+  const passage = freshFile(5);
+  installFetch([{ category: ORDERED, id: 1 }], passage);
+  // Run several times: the shuffled path would land on the file order only by
+  // chance (1 in 120 per run), so a stable result pins the ordering.
+  for (let i = 0; i < 20; i++) {
+    const load = await loadGameSentences(ORDERED, 10, STUDY);
+    expect(load.sentences.map((s: Sentence) => s.q)).toEqual(
+      passage.map((r) => r.q),
+    );
+  }
+});
+
+test("a 順番題材 never mixes review items into the passage", async () => {
+  // Due reviews for the same category would otherwise fill round(n*0.5) slots
+  // and jump the reader back to sentences already passed.
+  for (let i = 0; i < 4; i++) {
+    const q = `review${i}`;
+    setLearning(ORDERED, { disp: q, q, lang: "ja", uuid: `uuid-${q}` }, true);
+  }
+  const passage = freshFile(5);
+  installFetch([{ category: ORDERED, id: 1 }], passage);
+  const load = await loadGameSentences(ORDERED, 10, {
+    ...STUDY,
+    reviewRatio: 0.5,
+  });
+  expect(load.sentences.map((s: Sentence) => s.q)).toEqual(
+    passage.map((r) => r.q),
+  );
+  expect(load.reviews).toEqual([null, null, null, null, null]);
+});
+
+test("a 順番題材 is cut to 出題数 from the top, not sampled", async () => {
+  const passage = freshFile(5);
+  installFetch([{ category: ORDERED, id: 1 }], passage);
+  const load = await loadGameSentences(ORDERED, 3, STUDY);
+  expect(load.sentences.map((s: Sentence) => s.q)).toEqual([
+    "fresh0",
+    "fresh1",
+    "fresh2",
+  ]);
 });

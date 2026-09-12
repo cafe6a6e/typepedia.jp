@@ -4,6 +4,7 @@ import plugin from "bun-plugin-tailwind";
 import { existsSync } from "fs";
 import { mkdir, readdir, rm, writeFile } from "fs/promises";
 import path from "path";
+import { isLocal } from "@/lib/categories";
 
 // Print help text if requested
 if (process.argv.includes("--help") || process.argv.includes("-h")) {
@@ -183,6 +184,10 @@ const refBases = existsSync(sentencesRoot)
       .map((rel) => rel.match(/^([^/]+)[/](\d+)\.json$/))
       .filter((m): m is RegExpMatchArray => Boolean(m))
       .map((m) => ({ category: m[1], id: Number.parseInt(m[2], 10) }))
+      // docs/sentences/local_*/ is gitignored practice material. Leaving it out
+      // here keeps both the published site and the committed manifest free of
+      // it — the dev server lists it dynamically, so it stays playable locally.
+      .filter((ref) => !isLocal(ref.category))
       .sort((a, b) =>
         a.category === b.category
           ? a.id - b.id

@@ -4,6 +4,8 @@ import {
   categoryShortLabel,
   groupCategories,
   isLongText,
+  isOrdered,
+  registerCategoryLabels,
 } from "@/lib/categories";
 
 // The manifest hands us categories in plain ID order; grouping fixes that.
@@ -128,4 +130,33 @@ test("only 長文 materials report themselves as long text", () => {
   // An id the app has never heard of must not claim to be long text — it lands
   // in その他 and is played with the ordinary 出題数.
   expect(isLongText("mystery_material")).toBe(false);
+});
+
+test("local_ material lands in the local練 row, not その他", () => {
+  // Local material is never registered in CATEGORY_META — it is recognised by
+  // its folder prefix alone, so a new local folder needs no code change.
+  const groups = groupCategories([
+    "local_drill",
+    "eiken_1st_grade",
+    "mystery_material",
+  ]);
+  expect(groups.map((g) => g.label)).toEqual(["English", "local練", "その他"]);
+  expect(groups[1].categories).toEqual(["local_drill"]);
+  expect(groups[2].categories).toEqual(["mystery_material"]);
+});
+
+test("local_ material is read in order; everything else is shuffled", () => {
+  expect(isOrdered("local_drill")).toBe(true);
+  // Long text is still sampled — each of its questions stands on its own.
+  expect(isOrdered("rust")).toBe(false);
+  expect(isOrdered("kanken_pre1st_grade")).toBe(false);
+  expect(isOrdered("mystery_material")).toBe(false);
+});
+
+test("a manifest label names material the code has never heard of", () => {
+  // Without a label an unregistered folder shows as its raw id.
+  expect(categoryShortLabel("local_drill")).toBe("local_drill");
+  registerCategoryLabels({ local_drill: "ドリル" });
+  expect(categoryShortLabel("local_drill")).toBe("ドリル");
+  expect(categoryLabel("local_drill")).toBe("ドリル");
 });

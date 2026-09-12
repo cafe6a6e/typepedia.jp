@@ -5,3 +5,6 @@ __pycache__/
 dist/
 .DS_Store
 coverage/
+.env
+.env.*
+docs/sentences/local_*/

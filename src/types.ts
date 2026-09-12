@@ -54,6 +54,11 @@ export interface SentenceFileRef {
   id: number;
   /** Number of sentences in the file (for per-category totals). */
   count?: number;
+  /**
+   * Display name for the category, read from `<category>/label.txt`. Material
+   * that is not registered in `CATEGORY_LABELS` is named this way.
+   */
+  label?: string;
 }
 
 /** Position state while typing a single sentence. */

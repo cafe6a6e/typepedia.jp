@@ -4,10 +4,27 @@ import type { SentenceFileRef } from "@/types";
 
 const SENTENCES_DIR = "docs/sentences";
 
+/**
+ * Optional display name for a category, from `<category>/label.txt`. It lets
+ * ignored local material carry a readable name without that name being written
+ * into a tracked source file.
+ */
+function readLabel(category: string): string | undefined {
+  try {
+    return (
+      readFileSync(`${SENTENCES_DIR}/${category}/label.txt`, "utf8").trim() ||
+      undefined
+    );
+  } catch {
+    return undefined;
+  }
+}
+
 /** Sorted list of every sentence file under a category folder, with counts. */
 export function listSentenceFiles(): SentenceFileRef[] {
   const glob = new Bun.Glob("*/*.json");
   const refs: SentenceFileRef[] = [];
+  const labels = new Map<string, string | undefined>();
   for (const rel of glob.scanSync(SENTENCES_DIR)) {
     const m = rel.match(/^([^/]+)[/](\d+)\.json$/);
     if (!m) continue;
@@ -22,7 +39,14 @@ export function listSentenceFiles(): SentenceFileRef[] {
     } catch {
       count = 0;
     }
-    refs.push({ category: m[1], id: Number.parseInt(m[2], 10), count });
+    if (!labels.has(m[1])) labels.set(m[1], readLabel(m[1]));
+    const label = labels.get(m[1]);
+    refs.push({
+      category: m[1],
+      id: Number.parseInt(m[2], 10),
+      count,
+      ...(label ? { label } : {}),
+    });
   }
   return refs.sort((a, b) =>
     a.category === b.category
