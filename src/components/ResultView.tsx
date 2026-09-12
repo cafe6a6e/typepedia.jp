@@ -1,7 +1,6 @@
 import {
   type ReactNode,
   type RefObject,
-  useEffect,
   useMemo,
   useRef,
   useState,
@@ -134,8 +133,12 @@ export function ResultView({ result, onBack }: Props) {
   const [column, setColumn] = useState<SortColumn>("accuracy");
   const [dir, setDir] = useState<SortDir>("asc");
   const [pickedKey, setPickedKey] = useState<string | null>(null);
+  // Hovering previews a key without committing to it; the click-pinned key is
+  // what the chart falls back to once the pointer leaves.
+  const [hoverKey, setHoverKey] = useState<string | null>(null);
 
-  const picked = latency.keys.find((k) => k.key === pickedKey) ?? null;
+  const shownKey = hoverKey ?? pickedKey;
+  const picked = latency.keys.find((k) => k.key === shownKey) ?? null;
 
   // Most-measured first: the keys with the most samples are the ones whose
   // median actually says something.
@@ -180,11 +183,6 @@ export function ResultView({ result, onBack }: Props) {
   );
 
   const latencyChartRef = useChart(latencyCanvasRef, LATENCY_CHART_OPTIONS);
-  // The legend only earns its place once a key splits the bars in two.
-  useEffect(() => {
-    const legend = latencyChartRef.current?.options.plugins?.legend;
-    if (legend) legend.display = picked !== null;
-  }, [latencyChartRef, picked]);
   useChartData(
     latencyChartRef,
     useMemo(
@@ -284,20 +282,29 @@ export function ResultView({ result, onBack }: Props) {
 
             <div className="mt-4 mb-2">
               <Heading>
-                キー別レイテンシ中央値（クリックでグラフに反映）
+                キー別レイテンシ中央値（マウスオーバー・クリックでグラフに反映）
               </Heading>
             </div>
             <div className="grid grid-cols-[repeat(auto-fill,minmax(4.5rem,1fr))] gap-1">
               {latencyCards.map((k) => {
-                const on = k.key === pickedKey;
+                // Pinned by a click vs. currently drawn in the chart — hovering
+                // another key takes over the highlight without unpinning.
+                const pinned = k.key === pickedKey;
+                const shown = k.key === shownKey;
                 return (
                   <button
                     key={k.key}
                     type="button"
-                    aria-pressed={on}
-                    onClick={() => setPickedKey(on ? null : k.key)}
-                    className={`flex aspect-square flex-col items-center justify-center rounded border leading-tight transition-colors ${
-                      on
+                    aria-pressed={pinned}
+                    onClick={() => setPickedKey(pinned ? null : k.key)}
+                    onMouseEnter={() => setHoverKey(k.key)}
+                    onMouseLeave={() => setHoverKey(null)}
+                    // Keyboard users tab through the cells; mirror the hover so
+                    // the chart follows the focus ring too.
+                    onFocus={() => setHoverKey(k.key)}
+                    onBlur={() => setHoverKey(null)}
+                    className={`flex aspect-square flex-col items-center justify-center rounded border leading-tight ${
+                      shown
                         ? "border-green-500/70 bg-green-500/15 text-white"
                         : "border-white/10 text-white/60 hover:bg-white/5"
                     }`}

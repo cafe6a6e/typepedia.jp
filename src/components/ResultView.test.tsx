@@ -415,6 +415,62 @@ test("picking a key stacks its share in green over the rest", () => {
   expect(latencyChart().data.datasets).toHaveLength(1);
 });
 
+test("hovering a key splits the bars without pinning it", () => {
+  const { latencyChart } = renderView();
+
+  fireEvent.mouseEnter(keyCell("e"));
+  const [mine] = latencyChart().data.datasets;
+  expect(mine.label).toBe("e");
+  // A preview only — the cell is not pressed, so nothing stays behind.
+  expect(keyCell("e").getAttribute("aria-pressed")).toBe("false");
+
+  fireEvent.mouseLeave(keyCell("e"));
+  expect(latencyChart().data.datasets).toHaveLength(1);
+});
+
+test("hovering previews over a pinned key, then hands it back", () => {
+  const { latencyChart } = renderView();
+  fireEvent.click(keyCell("a"));
+
+  fireEvent.mouseEnter(keyCell("e"));
+  expect(latencyChart().data.datasets[0].label).toBe("e");
+  // The click-pinned key keeps its pressed state under the preview.
+  expect(keyCell("a").getAttribute("aria-pressed")).toBe("true");
+
+  fireEvent.mouseLeave(keyCell("e"));
+  expect(latencyChart().data.datasets[0].label).toBe("a");
+});
+
+test("focusing a key cell moves the chart the way hovering does", () => {
+  const { latencyChart } = renderView();
+
+  fireEvent.focus(keyCell("e"));
+  expect(latencyChart().data.datasets[0].label).toBe("e");
+
+  fireEvent.blur(keyCell("e"));
+  expect(latencyChart().data.datasets).toHaveLength(1);
+});
+
+test("the latency legend names the 全て series before a key is picked", () => {
+  const { latencyChart } = renderView();
+  expect(latencyChart().options.plugins.legend.display).toBe(true);
+  expect(latencyChart().data.datasets[0].label).toBe("全て");
+
+  // Picking a key replaces it with the two-way split, legend still on.
+  fireEvent.click(keyCell("a"));
+  expect(latencyChart().options.plugins.legend.display).toBe(true);
+  expect(latencyChart().data.datasets.map((d) => d.label)).toEqual([
+    "a",
+    "その他",
+  ]);
+});
+
+test("the latency chart does not animate", () => {
+  // Every hover redraws it; an animation would trail the pointer.
+  const { latencyChart } = renderView();
+  expect(latencyChart().options.animation).toBe(false);
+});
+
 test("the back button invokes onBack", () => {
   const onBack = mock(() => {});
   render(<ResultView result={base} onBack={onBack} />);

@@ -139,7 +139,7 @@ export function latencyChartData(
       labels,
       datasets: [
         {
-          label: "件数",
+          label: "全て",
           data: buckets.map((b) => b.count),
           backgroundColor: SLATE,
           stack: "latency",
@@ -488,10 +488,14 @@ export const KEY_CHART_OPTIONS: ChartOptions = {
 
 export const LATENCY_CHART_OPTIONS: ChartOptions = {
   ...BASE_OPTIONS,
+  // The bars redraw on every hover over a key cell, so the staggered grow-in
+  // would lag behind the pointer instead of reading as motion.
+  animation: false,
   plugins: {
-    // Only meaningful once a key splits the bars in two.
+    // Always on: it names the single 全て series as well as the two-way split,
+    // so the colours mean the same thing before and after a key is picked.
     legend: {
-      display: false,
+      display: true,
       position: "top",
       align: "end",
       labels: { color: INK, boxWidth: 12, usePointStyle: true },
