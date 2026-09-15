@@ -34,6 +34,11 @@ interface Props {
   speechVoiceEn: string;
   /** Hide the typing line except the characters already typed correctly. */
   hideInput: boolean;
+  /**
+   * Display text of the next question, set only for 順番題材 where the course is
+   * one passage read in order. Trails the current question faintly.
+   */
+  nextDisp?: string;
   /** Pause/resume the game key listener while the memo modal is open. */
   suspendKeys: (v: boolean) => void;
 }
@@ -56,6 +61,7 @@ export function PlayingView({
   speechVoiceJa,
   speechVoiceEn,
   hideInput,
+  nextDisp,
   suspendKeys,
 }: Props) {
   // 長文（コード）は 1 問がプログラム 1 本ぶん。表示もミス時の扱いも短文とは変わる。
@@ -163,6 +169,7 @@ export function PlayingView({
               matcher={matcher}
               engine={engine}
               hideInput={hideInput && !revealed}
+              nextDisp={nextDisp}
             />
           )}
         </div>

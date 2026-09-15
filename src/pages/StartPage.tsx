@@ -11,6 +11,7 @@ import {
   categoryLabel,
   DEFAULT_CATEGORY,
   isLongText,
+  isOrdered,
   registerCategoryLabels,
 } from "@/lib/categories";
 import { getMasteredCountByCategory } from "@/lib/mastery";
@@ -77,6 +78,12 @@ export function StartPage() {
   // 長文課題は 1 問がプログラム 1 本ぶんなので、出題数の設定が別になっている。
   const longText = isLongText(settings.category);
 
+  // 順番題材だけは 1 問が文章の途中で切れているので、次の問の冒頭を薄く続ける。
+  // ランダム出題では「次」に意味がないため、プレビューは出さない。
+  const nextDisp = isOrdered(settings.category)
+    ? game.sentences[game.sentenceIndex + 1]?.disp
+    : undefined;
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-8">
       {game.error && <p className="mb-4 text-red-400">{game.error}</p>}
@@ -114,6 +121,7 @@ export function StartPage() {
             speechVoiceJa={settings.speechVoiceJa}
             speechVoiceEn={settings.speechVoiceEn}
             hideInput={settings.hideInput}
+            nextDisp={nextDisp}
             suspendKeys={game.suspendKeys}
           />
         )}

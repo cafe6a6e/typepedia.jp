@@ -12,11 +12,49 @@ interface Props {
    * readings / English spellings instead of copying them.
    */
   hideInput?: boolean;
+  /**
+   * Display text of the question that follows, for 順番題材 where the questions
+   * are consecutive pieces of one passage. Its opening runs on faintly after
+   * this question so the sentence keeps reading across the break.
+   */
+  nextDisp?: string;
 }
 
-/** Make half-width spaces visible (and JP romaji unaffected). */
+/** How many characters of the next question trail the current one. */
+const PREVIEW_CHARS = 5;
+
+/**
+ * The faint run-on showing where the passage goes next. Nothing is rendered
+ * without a next question — the last question of a course ends where it ends.
+ */
+function NextPreview({ disp }: { disp?: string }) {
+  if (!disp) return null;
+  // The next question opens with the ␣⏎ that converts and confirms this one.
+  // The peek is about where the sentence goes, so it starts past them and
+  // spends all PREVIEW_CHARS on actual text.
+  const chars = [...disp.replace(/^[ \n]+/, "")];
+  const head = chars.slice(0, PREVIEW_CHARS).join("");
+  return (
+    <span className="font-normal text-white/25">
+      {head}
+      {chars.length > PREVIEW_CHARS ? "…" : ""}
+    </span>
+  );
+}
+
+/** Make the keys that print nothing visible (and JP romaji unaffected). */
 function vis(s: string): string {
-  return s.replace(/ /g, "␣");
+  return s.replace(/ /g, "␣").replace(/\n/g, "⏎");
+}
+
+/**
+ * Mark the invisible keystrokes at either edge of the display text. 順番題材
+ * joins its pieces with a space and closes each one with Enter, and neither
+ * would otherwise show up next to the sentence. A space inside the text belongs
+ * to the sentence itself and is left alone.
+ */
+function visEdges(s: string): string {
+  return s.replace(/^[ \n]+/, vis).replace(/[ \n]+$/, vis);
 }
 
 function isSpaceSlot(slot: Slot): boolean {
@@ -29,6 +67,7 @@ export function SentenceView({
   matcher,
   engine,
   hideInput = false,
+  nextDisp,
 }: Props) {
   // Code is a whole multi-line program, so it gets its own screen. `hideInput`
   // is meaningless there — nobody recalls 40 lines of Rust — and is dropped.
@@ -42,12 +81,19 @@ export function SentenceView({
       matcher={matcher}
       engine={engine}
       hideInput={hideInput}
+      nextDisp={nextDisp}
     />
   );
 }
 
 /** The single-line typing screen used by the Japanese and English material. */
-function SentenceLine({ sentence, matcher, engine, hideInput = false }: Props) {
+function SentenceLine({
+  sentence,
+  matcher,
+  engine,
+  hideInput = false,
+  nextDisp,
+}: Props) {
   const { slotIndex, buffer } = engine;
 
   // Colored fragment for a single slot (typed = green, cursor = boxed, rest = faint).
@@ -102,7 +148,11 @@ function SentenceLine({ sentence, matcher, engine, hideInput = false }: Props) {
           sentence.lang === "ja" ? "biz-udmincho-regular" : ""
         }`}
       >
-        {sentence.disp}
+        {visEdges(sentence.disp)}
+        {/* Shown even while the typing line is hidden: that drill is about
+            recalling this question's spelling, not about where the passage
+            goes next, and the peek gives no part of the answer away. */}
+        <NextPreview disp={nextDisp} />
       </p>
 
       <p className="text-2xl font-mono tracking-wide text-center leading-relaxed">
