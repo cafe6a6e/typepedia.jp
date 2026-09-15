@@ -153,6 +153,7 @@ const base: ScoreResult = {
   keyStats,
   latency: {
     count: 9,
+    mean: 171,
     median: 152,
     buckets: [
       { min: 91, max: 128, count: 2 },
@@ -162,9 +163,9 @@ const base: ScoreResult = {
     ],
     // Alphabetical; the per-key bucket arrays sum to the totals above.
     keys: [
-      { key: " ", count: 2, median: 120, buckets: [2, 0, 0, 0] },
-      { key: "a", count: 4, median: 150, buckets: [0, 3, 1, 0] },
-      { key: "e", count: 3, median: 160, buckets: [0, 2, 0, 1] },
+      { key: " ", count: 2, mean: 118, median: 120, buckets: [2, 0, 0, 0] },
+      { key: "a", count: 4, mean: 155, median: 150, buckets: [0, 3, 1, 0] },
+      { key: "e", count: 3, mean: 210, median: 160, buckets: [0, 2, 0, 1] },
     ],
   },
   speed: {
@@ -182,6 +183,7 @@ const base: ScoreResult = {
 
 const NO_LATENCY: LatencyStats = {
   count: 0,
+  mean: 0,
   median: 0,
   buckets: [],
   keys: [],
@@ -333,11 +335,13 @@ test("a game with no keystrokes shows an empty state instead of the chart", () =
   expect(container.querySelector("canvas")).toBeNull();
 });
 
-test("the latency section leads with the median and sample count", () => {
+test("the latency section leads with the mean, then the median and count", () => {
   renderView();
   expect(screen.getByText("レイテンシ")).toBeDefined();
-  expect(screen.getByText("152ms")).toBeDefined();
-  expect(screen.getByText(/中央値 ・ 計測/)).toBeDefined();
+  // The headline number is the mean; the median follows it in the breakdown.
+  expect(screen.getByText("171ms")).toBeDefined();
+  expect(screen.getByText(/平均値 ・ 中央値/)).toBeDefined();
+  expect(screen.getByText("152")).toBeDefined();
   expect(screen.getByText("9")).toBeDefined();
 });
 
@@ -364,17 +368,18 @@ test("no measured gaps shows a note instead of the histogram", () => {
   expect(container.querySelectorAll("canvas")).toHaveLength(2);
 });
 
-test("the key cards run most-measured first with the median and count", () => {
+test("the key cards run most-measured first with the mean and count", () => {
   renderView();
-  expect(screen.getByText(/キー別レイテンシ中央値/)).toBeDefined();
+  expect(screen.getByText(/キー別レイテンシ平均値/)).toBeDefined();
   const cells = screen
     .getAllByRole("button")
     .filter((b) => b.getAttribute("aria-pressed") !== null);
   // a has 4 samples, e has 3, the space has 2.
+  // The number on a card is the mean, not the median.
   expect(cells.map((b) => b.textContent)).toEqual([
-    "a150ms4回",
-    "e160ms3回",
-    "␣120ms2回",
+    "a155ms4回",
+    "e210ms3回",
+    "␣118ms2回",
   ]);
   expect(cells.every((b) => b.getAttribute("aria-pressed") === "false")).toBe(
     true,

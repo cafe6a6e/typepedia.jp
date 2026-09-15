@@ -155,6 +155,8 @@ export interface LatencyKeyStat {
   key: string;
   /** How many gaps ended on this key. */
   count: number;
+  /** Mean gap in ms — what the key cards are ranked and labelled by. */
+  mean: number;
   median: number;
   /** Counts per bucket, aligned 1:1 with LatencyStats.buckets. */
   buckets: number[];
@@ -168,6 +170,8 @@ export interface LatencyKeyStat {
 export interface LatencyStats {
   /** How many gaps were measured. */
   count: number;
+  /** Average gap in ms; 0 when nothing was measured. */
+  mean: number;
   /** Middle gap in ms; 0 when nothing was measured. */
   median: number;
   /** Log-spaced buckets with the empty ends trimmed off. */

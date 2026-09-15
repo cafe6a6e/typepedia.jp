@@ -139,12 +139,18 @@ test("latency buckets drop the empty ends but keep gaps in the middle", () => {
 /** Shorthand: samples all attributed to the same key. */
 const gaps = (key: string, ...ms: number[]) => ms.map((n) => ({ key, ms: n }));
 
-test("summariseLatency reports the median, not the mean", () => {
-  // The 9000ms outlier would drag a mean far off; the median ignores it.
-  expect(summariseLatency(gaps("a", 100, 120, 140, 9000)).median).toBe(130);
-  expect(summariseLatency(gaps("a", 100, 120, 140)).median).toBe(120);
+test("summariseLatency reports both the mean and the median", () => {
+  // The 9000ms outlier drags the mean far off; the median ignores it. Both are
+  // reported so the gap between them is itself readable.
+  const skewed = summariseLatency(gaps("a", 100, 120, 140, 9000));
+  expect(skewed.median).toBe(130);
+  expect(skewed.mean).toBe(2340); // (100 + 120 + 140 + 9000) / 4
+  const even = summariseLatency(gaps("a", 100, 120, 140));
+  expect(even.median).toBe(120);
+  expect(even.mean).toBe(120);
   expect(summariseLatency([])).toEqual({
     count: 0,
+    mean: 0,
     median: 0,
     buckets: [],
     keys: [],
@@ -159,8 +165,13 @@ test("latency is split per key, case-folded and alphabetical", () => {
     ...gaps(" ", 90),
   ]);
   expect(s.keys.map((k) => k.key)).toEqual([" ", "a", "b"]);
-  // A and a fold together: three gaps, median 120.
-  expect(s.keys[1]).toMatchObject({ key: "a", count: 3, median: 120 });
+  // A and a fold together: three gaps, median 120 and mean 120.
+  expect(s.keys[1]).toMatchObject({
+    key: "a",
+    count: 3,
+    mean: 120,
+    median: 120,
+  });
 });
 
 test("per-key buckets line up with the overall ones and sum to them", () => {

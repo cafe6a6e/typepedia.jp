@@ -45,7 +45,13 @@ export function bucketLatencies(samples: number[]): LatencyBucket[] {
   return buckets.slice(first, last + 1);
 }
 
-/** Middle value; the mean would be dragged around by the odd long pause. */
+/** Arithmetic mean; reported next to the median, which long pauses leave alone. */
+function mean(samples: number[]): number {
+  if (samples.length === 0) return 0;
+  return samples.reduce((a, b) => a + b, 0) / samples.length;
+}
+
+/** Middle value; the mean alone would be dragged around by the odd long pause. */
 function median(samples: number[]): number {
   if (samples.length === 0) return 0;
   const sorted = [...samples].sort((a, b) => a - b);
@@ -84,6 +90,7 @@ export function summariseLatency(samples: LatencySample[]): LatencyStats {
     .map(([key, list]) => ({
       key,
       count: list.length,
+      mean: Math.round(mean(list)),
       median: Math.round(median(list)),
       buckets: countInto(list, buckets),
     }))
@@ -91,6 +98,7 @@ export function summariseLatency(samples: LatencySample[]): LatencyStats {
 
   return {
     count: samples.length,
+    mean: Math.round(mean(all)),
     median: Math.round(median(all)),
     buckets,
     keys,

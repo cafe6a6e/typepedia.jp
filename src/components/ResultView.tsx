@@ -141,14 +141,12 @@ export function ResultView({ result, onBack }: Props) {
   const picked = latency.keys.find((k) => k.key === shownKey) ?? null;
 
   // Most-measured first: the keys with the most samples are the ones whose
-  // median actually says something.
+  // average actually says something.
   const latencyCards = useMemo(
     () =>
       [...latency.keys].sort(
         (a, b) =>
-          b.count - a.count ||
-          b.median - a.median ||
-          a.key.localeCompare(b.key),
+          b.count - a.count || b.mean - a.mean || a.key.localeCompare(b.key),
       ),
     [latency.keys],
   );
@@ -270,8 +268,9 @@ export function ResultView({ result, onBack }: Props) {
           </EmptyNote>
         ) : (
           <>
-            <StatBox value={`${latency.median}ms`}>
-              中央値 ・ 計測 <Num>{latency.count}</Num> 回
+            <StatBox value={`${latency.mean}ms`}>
+              平均値 ・ 中央値 <Num>{latency.median}</Num>ms ・ 計測{" "}
+              <Num>{latency.count}</Num> 回
             </StatBox>
 
             <ChartFrame
@@ -282,7 +281,7 @@ export function ResultView({ result, onBack }: Props) {
 
             <div className="mt-4 mb-2">
               <Heading>
-                キー別レイテンシ中央値（マウスオーバー・クリックでグラフに反映）
+                キー別レイテンシ平均値（マウスオーバー・クリックでグラフに反映）
               </Heading>
             </div>
             <div className="grid grid-cols-[repeat(auto-fill,minmax(4.5rem,1fr))] gap-1">
@@ -310,7 +309,7 @@ export function ResultView({ result, onBack }: Props) {
                     }`}
                   >
                     <span className="font-mono text-lg">{visChar(k.key)}</span>
-                    <span className="text-xs tabular-nums">{k.median}ms</span>
+                    <span className="text-xs tabular-nums">{k.mean}ms</span>
                     <span className="text-[10px] tabular-nums text-white/40">
                       {k.count}回
                     </span>
