@@ -63,12 +63,32 @@ const BAND = "rgba(148, 163, 184, 0.1)";
  */
 const MISS_BAND = "rgba(248, 113, 113, 0.25)";
 
+/**
+ * Keys that spell themselves out rather than printing a character. 長文課題 is
+ * typed into a real field, so Backspace and the arrows are ordinary work and
+ * reach the statistics; spelled out they would overflow the square key cards.
+ * Looked up lower-cased, because `computeScore` folds case — and no printable
+ * key collides, every one of those being a single character.
+ */
+const NAMED_KEYS: Record<string, string> = {
+  backspace: "⌫",
+  delete: "⌦",
+  arrowleft: "←",
+  arrowright: "→",
+  arrowup: "↑",
+  arrowdown: "↓",
+  home: "⇱",
+  end: "⇲",
+  tab: "⇥",
+  enter: "⏎",
+};
+
 /** Make an otherwise-invisible key visible on the axis. */
 export function visChar(ch: string): string {
   if (ch === " ") return "␣";
   if (ch === "\t") return "⇥";
   if (ch === "\n") return "⏎";
-  return ch;
+  return NAMED_KEYS[ch.toLowerCase()] ?? ch;
 }
 
 /** Accuracy axis bounds: 0-100 with a little headroom so points are not clipped. */

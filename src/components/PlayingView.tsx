@@ -39,6 +39,10 @@ interface Props {
    * one passage read in order. Trails the current question faintly.
    */
   nextDisp?: string;
+  /** 長文課題 only: the line being typed, and the two callbacks it reports to. */
+  lineIndex: number;
+  onStroke: (key: string) => void;
+  onSubmitLine: (text: string) => boolean;
   /** Pause/resume the game key listener while the memo modal is open. */
   suspendKeys: (v: boolean) => void;
 }
@@ -62,6 +66,9 @@ export function PlayingView({
   speechVoiceEn,
   hideInput,
   nextDisp,
+  lineIndex,
+  onStroke,
+  onSubmitLine,
   suspendKeys,
 }: Props) {
   // 長文（コード）は 1 問がプログラム 1 本ぶん。表示もミス時の扱いも短文とは変わる。
@@ -174,7 +181,14 @@ export function PlayingView({
           )}
         </div>
         {isCode && (
-          <SentenceView sentence={sentence} matcher={matcher} engine={engine} />
+          <SentenceView
+            sentence={sentence}
+            matcher={matcher}
+            engine={engine}
+            lineIndex={lineIndex}
+            onStroke={onStroke}
+            onSubmitLine={onSubmitLine}
+          />
         )}
         {hideInput && !revealed && !isCode && (
           <button

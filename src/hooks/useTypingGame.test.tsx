@@ -385,47 +385,98 @@ const TWO_LINES: RawSentence = {
   lang: "code",
 };
 
-test("Enter types the newline in a code question", async () => {
+/** Start a code course and wait until it is playing. */
+async function startCode(settings = codeSettings()) {
   installCodeFetch([TWO_LINES]);
-  const { result } = renderHook(() => useTypingGame(codeSettings()));
-
+  const { result } = renderHook(() => useTypingGame(settings));
   await press(" ");
   await waitFor(() => expect(result.current.phase).toBe("playing"));
+  return result;
+}
 
-  // Type what the cursor asks for; the indentation is filled in by Enter.
-  let guard = 0;
-  while (result.current.phase === "playing" && guard++ < 200) {
-    const { currentMatcher, engine } = result.current;
-    await press(currentMatcher[engine.slotIndex].variants[0]);
+test("a code question is handed in one line at a time", async () => {
+  const result = await startCode();
+  expect(result.current.lineIndex).toBe(0);
+
+  for (const line of ["fn f() {", "    let x = 1;"]) {
+    let ok = false;
+    await act(async () => {
+      ok = result.current.submitLine(line);
+    });
+    expect(ok).toBe(true);
   }
+  expect(result.current.lineIndex).toBe(2);
 
+  await act(async () => {
+    result.current.submitLine("}");
+  });
   expect(result.current.phase).toBe("result");
   expect(result.current.result?.miss).toBe(0);
-  // The four spaces of line 2 are never pressed.
-  expect(result.current.result?.total).toBe("fn f() {\nlet x = 1;\n}".length);
 });
 
-test("Shift+Enter is the memo shortcut, not a newline", async () => {
-  installCodeFetch([TWO_LINES]);
-  const { result } = renderHook(() => useTypingGame(codeSettings()));
-  await press(" ");
-  await waitFor(() => expect(result.current.phase).toBe("playing"));
+test("a line handed in wrong is a miss and stays on its line", async () => {
+  const result = await startCode();
 
+  let ok = true;
+  await act(async () => {
+    ok = result.current.submitLine("fn f() }");
+  });
+  expect(ok).toBe(false);
+  expect(result.current.lineIndex).toBe(0);
+  expect(result.current.stats.miss).toBe(1);
+
+  // The same line, right this time, moves on.
+  await act(async () => {
+    result.current.submitLine("fn f() {");
+  });
+  expect(result.current.lineIndex).toBe(1);
+});
+
+test("the indentation still has to be handed in with the line", async () => {
+  // The field is pre-filled with it, but a line that lost it is not the line.
+  const result = await startCode();
+  await act(async () => {
+    result.current.submitLine("fn f() {");
+  });
+  let ok = true;
+  await act(async () => {
+    ok = result.current.submitLine("let x = 1;");
+  });
+  expect(ok).toBe(false);
+  expect(result.current.lineIndex).toBe(1);
+});
+
+test("every keystroke counts, arrows and Backspace included", async () => {
+  // `Vec<u64>` is really typed as `<>` then the caret goes back between them.
+  const result = await startCode();
+  await act(async () => {
+    for (const k of ["<", ">", "ArrowLeft", "u", "Backspace"]) {
+      result.current.recordStroke(k);
+    }
+  });
+  expect(result.current.stats).toEqual({ correct: 5, miss: 0 });
+
+  await act(async () => {
+    result.current.submitLine("fn f() {");
+    result.current.submitLine("    let x = 1;");
+    result.current.submitLine("}");
+  });
+  const keys = result.current.result?.keyStats.map((k) => k.key) ?? [];
+  expect(keys).toContain("arrowleft");
+  expect(keys).toContain("backspace");
+});
+
+test("the global key listener leaves code keys to the input", async () => {
+  // Code is typed into a real input so the caret can be moved; swallowing the
+  // keys here would stop the text from ever reaching it.
+  const result = await startCode();
+  await press("f");
+  await press("Tab");
   await act(async () => {
     fireEvent.keyDown(window, { key: "Enter", shiftKey: true });
   });
   expect(result.current.stats).toEqual({ correct: 0, miss: 0 });
-  expect(result.current.engine.slotIndex).toBe(0);
-});
-
-test("Tab is swallowed rather than typed or counted as a miss", async () => {
-  installCodeFetch([TWO_LINES]);
-  const { result } = renderHook(() => useTypingGame(codeSettings()));
-  await press(" ");
-  await waitFor(() => expect(result.current.phase).toBe("playing"));
-
-  await press("Tab");
-  expect(result.current.stats).toEqual({ correct: 0, miss: 0 });
+  expect(result.current.lineIndex).toBe(0);
 });
 
 test("長文課題 is sized by 長文の出題数, not by 出題数", async () => {

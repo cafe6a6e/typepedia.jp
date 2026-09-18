@@ -18,6 +18,10 @@ interface Props {
    * this question so the sentence keeps reading across the break.
    */
   nextDisp?: string;
+  /** 長文課題 only: the line being typed, and the two callbacks it reports to. */
+  lineIndex?: number;
+  onStroke?: (key: string) => void;
+  onSubmitLine?: (text: string) => boolean;
 }
 
 /** How many characters of the next question trail the current one. */
@@ -68,11 +72,22 @@ export function SentenceView({
   engine,
   hideInput = false,
   nextDisp,
+  lineIndex = 0,
+  onStroke,
+  onSubmitLine,
 }: Props) {
-  // Code is a whole multi-line program, so it gets its own screen. `hideInput`
-  // is meaningless there — nobody recalls 40 lines of Rust — and is dropped.
+  // Code is a whole multi-line program, typed a line at a time on its own
+  // screen. `hideInput` is meaningless there — nobody recalls 40 lines of Rust
+  // — and is dropped, as is the romaji matcher: lines are judged as text.
   if (sentence.lang === "code") {
-    return <CodeView sentence={sentence} matcher={matcher} engine={engine} />;
+    return (
+      <CodeView
+        sentence={sentence}
+        lineIndex={lineIndex}
+        onStroke={onStroke}
+        onSubmitLine={onSubmitLine}
+      />
+    );
   }
 
   return (

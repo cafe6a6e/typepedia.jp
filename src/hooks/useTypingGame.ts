@@ -41,6 +41,9 @@ export function useTypingGame(settings: Settings) {
   const [matchers, setMatchers] = useState<Matcher[]>([]);
   const [sentenceIndex, setSentenceIndex] = useState(0);
   const [engine, setEngine] = useState<EngineState>(INITIAL_ENGINE);
+  // 長文課題 only: which line of the program is being typed. Short sentences
+  // never leave line 0.
+  const [lineIndex, setLineIndex] = useState(0);
   const [stats, setStats] = useState({ correct: 0, miss: 0 });
   const [result, setResult] = useState<ScoreResult | null>(null);
   const [missFlash, setMissFlash] = useState(0);
@@ -55,6 +58,7 @@ export function useTypingGame(settings: Settings) {
   const reviewsRef = useRef<(ReviewInfo | null)[]>([]);
   const sentenceIndexRef = useRef(0);
   const engineRef = useRef<EngineState>(INITIAL_ENGINE);
+  const lineIndexRef = useRef(0);
   const correctRef = useRef(0);
   const missRef = useRef(0);
   // Per-expected-key statistics, keyed by the key that should have been pressed.
@@ -118,8 +122,10 @@ export function useTypingGame(settings: Settings) {
     strokesRef.current = [];
     missTimesRef.current = [];
     sentenceIndexRef.current = 0;
+    lineIndexRef.current = 0;
     engineRef.current = start;
     setStats({ correct: 0, miss: 0 });
+    setLineIndex(0);
     setSentenceIndex(0);
     setEngine(start);
     setPhase("playing");
@@ -192,6 +198,37 @@ export function useTypingGame(settings: Settings) {
     beginPlay();
   }, [beginPlay, clearTimers]);
 
+  /**
+   * Book the question just finished and move on, or end the course. Shared by
+   * the per-keystroke path (short sentences) and the per-line one (長文課題).
+   */
+  const completeQuestion = useCallback(() => {
+    // If the just-finished question was a review, book it as reviewed.
+    if (reviewsRef.current[sentenceIndexRef.current]) {
+      const done = sentencesRef.current[sentenceIndexRef.current];
+      if (done)
+        recordReview(
+          settingsRef.current.category,
+          done.q,
+          settingsRef.current.study.reviewCount,
+        );
+    }
+    const next = sentenceIndexRef.current + 1;
+    if (next >= matchersRef.current.length) {
+      finish();
+      return;
+    }
+    sentenceIndexRef.current = next;
+    // A new question starts the rhythm over.
+    prevCorrectTsRef.current = null;
+    lineIndexRef.current = 0;
+    const fresh = initialEngineState(matchersRef.current[next]);
+    engineRef.current = fresh;
+    setLineIndex(0);
+    setSentenceIndex(next);
+    setEngine(fresh);
+  }, [finish]);
+
   const handlePlayKey = useCallback(
     (key: string) => {
       const matcher = matchersRef.current[sentenceIndexRef.current];
@@ -244,32 +281,65 @@ export function useTypingGame(settings: Settings) {
       setEngine(state);
       setStats({ correct: correctRef.current, miss: missRef.current });
 
-      if (res === "complete-all") {
-        // If the just-finished question was a review, book it as reviewed.
-        if (reviewsRef.current[sentenceIndexRef.current]) {
-          const done = sentencesRef.current[sentenceIndexRef.current];
-          if (done)
-            recordReview(
-              settingsRef.current.category,
-              done.q,
-              settingsRef.current.study.reviewCount,
-            );
-        }
-        const next = sentenceIndexRef.current + 1;
-        if (next >= matchersRef.current.length) {
-          finish();
-        } else {
-          sentenceIndexRef.current = next;
-          // A new question starts the rhythm over.
-          prevCorrectTsRef.current = null;
-          const fresh = initialEngineState(matchersRef.current[next]);
-          engineRef.current = fresh;
-          setSentenceIndex(next);
-          setEngine(fresh);
-        }
-      }
+      if (res === "complete-all") completeQuestion();
     },
-    [finish],
+    [completeQuestion],
+  );
+
+  /**
+   * Count one keystroke of a 長文課題's free-form line entry. Every key actually
+   * pressed counts — Backspace and the arrows included, because moving the caret
+   * back into `<u64>` is how that line really gets typed. Correctness is judged
+   * per line here, so a keystroke is never a miss on its own.
+   */
+  const recordStroke = useCallback((key: string) => {
+    const now = performance.now();
+    // A keystroke that follows a rejected line is the recovery, not the rhythm.
+    if (prevCorrectTsRef.current !== null && !lastWasMissRef.current) {
+      latenciesRef.current.push({ key, ms: now - prevCorrectTsRef.current });
+    }
+    prevCorrectTsRef.current = now;
+    if (strokesRef.current.length === 0) startTsRef.current = now;
+    strokesRef.current.push({
+      at: now - startTsRef.current,
+      sentence: sentencesRef.current[sentenceIndexRef.current]?.disp ?? "",
+    });
+    lastWasMissRef.current = false;
+    keyCorrectRef.current[key] = (keyCorrectRef.current[key] ?? 0) + 1;
+    correctRef.current += 1;
+    setStats({ correct: correctRef.current, miss: missRef.current });
+  }, []);
+
+  /**
+   * Hand in the line just typed. Returns whether it matched, so the view can
+   * leave a rejected line in place to be fixed. A line handed in wrong is the
+   * only kind of miss a 長文課題 has — every key that built it was a real one.
+   */
+  const submitLine = useCallback(
+    (text: string) => {
+      const sentence = sentencesRef.current[sentenceIndexRef.current];
+      if (!sentence) return false;
+      const lines = sentence.q.split("\n");
+      const i = lineIndexRef.current;
+      if (text !== lines[i]) {
+        missRef.current += 1;
+        missTimesRef.current.push(performance.now());
+        keyMissRef.current.Enter = (keyMissRef.current.Enter ?? 0) + 1;
+        lastWasMissRef.current = true;
+        setStats({ correct: correctRef.current, miss: missRef.current });
+        setMissFlash((f) => f + 1);
+        return false;
+      }
+      lastWasMissRef.current = false;
+      if (i + 1 >= lines.length) {
+        completeQuestion();
+        return true;
+      }
+      lineIndexRef.current = i + 1;
+      setLineIndex(i + 1);
+      return true;
+    },
+    [completeQuestion],
   );
 
   // Single global keydown listener for the whole lifecycle.
@@ -297,6 +367,12 @@ export function useTypingGame(settings: Settings) {
         return;
       }
       if (p === "playing" && !e.ctrlKey && !e.metaKey && !e.altKey) {
+        // 長文課題 types into a real input so the caret can be moved mid-line.
+        // Those keys belong to that element; swallowing them here would stop
+        // the text from ever reaching it.
+        if (sentencesRef.current[sentenceIndexRef.current]?.lang === "code") {
+          return;
+        }
         // Indentation is filled in automatically, so Tab is never typed — but
         // it still has to be swallowed or it moves focus off the game.
         if (e.key === "Tab") {
@@ -338,6 +414,9 @@ export function useTypingGame(settings: Settings) {
     currentSentence: sentences[sentenceIndex],
     currentMatcher: matchers[sentenceIndex],
     currentReview: reviews[sentenceIndex] ?? null,
+    lineIndex,
+    recordStroke,
+    submitLine,
     start,
     goIdle,
     suspendKeys,

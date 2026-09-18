@@ -1,94 +1,202 @@
-import { afterEach, expect, test } from "bun:test";
-import { cleanup, render } from "@testing-library/react";
-import { centeredScrollTop } from "@/components/CodeView";
+import { afterEach, expect, mock, test } from "bun:test";
+import { cleanup, fireEvent, render } from "@testing-library/react";
+import { centeredScrollTop, indentOf, splitLines } from "@/components/CodeView";
 import { SentenceView } from "@/components/SentenceView";
-import { compileMatcher, initialEngineState } from "@/lib/romajiEngine";
+import { compileMatcher } from "@/lib/romajiEngine";
 import { DEFAULT_SETTINGS } from "@/lib/settings";
-import type { EngineState, Sentence } from "@/types";
+import type { Sentence } from "@/types";
 
 const Q = "fn f() {\n    let x = 1;\n}";
 const code: Sentence = { disp: "二分探索", q: Q, lang: "code", uuid: "u-code" };
+// Code is judged as text now; the matcher only rides along as an unused prop.
 const matcher = compileMatcher(Q, DEFAULT_SETTINGS, "code");
 
 afterEach(cleanup);
 
-function show(engine: EngineState, hideInput = false) {
+interface Handlers {
+  onStroke?: (key: string) => void;
+  onSubmitLine?: (text: string) => boolean;
+  hideInput?: boolean;
+}
+
+function show(lineIndex = 0, h: Handlers = {}) {
   const { container } = render(
     <SentenceView
       sentence={code}
       matcher={matcher}
-      engine={engine}
-      hideInput={hideInput}
+      engine={{ slotIndex: 0, buffer: "" }}
+      hideInput={h.hideInput ?? false}
+      lineIndex={lineIndex}
+      onStroke={h.onStroke}
+      onSubmitLine={h.onSubmitLine ?? (() => true)}
     />,
   );
   return container;
 }
 
-/** The rows inside the scrolling code block (the outer flex layout is not one). */
+/** The per-line wrappers inside the scrolling code block. */
 function codeRows(container: HTMLElement): Element[] {
   const box = container.querySelector(".overflow-y-auto");
   expect(box).not.toBeNull();
   return [...(box as Element).children];
 }
 
-/** The rows of the code block, line number stripped. */
+/** The program's lines as rendered, line number stripped. */
 function codeLines(container: HTMLElement): string[] {
-  return codeRows(container).map((row) => row.children[1].textContent ?? "");
+  return codeRows(container).map(
+    (row) => row.children[0].children[1].textContent ?? "",
+  );
 }
 
+/** The line-entry field. */
+function input(container: HTMLElement): HTMLInputElement {
+  const el = container.querySelector("input");
+  if (!el) throw new Error("no line input");
+  return el;
+}
+
+// --- 行の組み立て ---
+
+test("splitLines keeps blank lines and indentation", () => {
+  expect(splitLines("a\n\n    b")).toEqual(["a", "", "    b"]);
+});
+
+test("indentOf reads the leading spaces the input starts with", () => {
+  expect(indentOf("    let x = 1;")).toBe("    ");
+  expect(indentOf("}")).toBe("");
+  expect(indentOf("")).toBe("");
+});
+
+// --- 表示 ---
+
 test("code is laid out one row per line, indentation intact", () => {
-  const lines = codeLines(show(initialEngineState(matcher)));
-  expect(lines).toEqual(["fn f() {", "    let x = 1;", "}"]);
-  // Not the ␣ the single-line view uses — that would be noise in code.
-  expect(lines.join("")).not.toContain("␣");
+  expect(codeLines(show())).toEqual(["fn f() {", "    let x = 1;", "}"]);
 });
 
 test("rows are numbered from 1", () => {
-  const container = show(initialEngineState(matcher));
-  const nums = codeRows(container).map((row) => row.children[0].textContent);
+  const nums = codeRows(show()).map(
+    (row) => row.children[0].children[0].textContent,
+  );
   expect(nums).toEqual(["1", "2", "3"]);
 });
 
 test("the title is shown above the code", () => {
-  const container = show(initialEngineState(matcher));
-  expect(container.querySelector("p")?.textContent).toBe("二分探索");
-});
-
-test("the cursor sits on the character the engine is waiting for", () => {
-  // Four characters in: "fn f" typed, cursor on "(".
-  const container = show({ slotIndex: 4, buffer: "" });
-  const cursor = container.querySelector(".bg-white\\/30");
-  expect(cursor?.textContent).toBe("(");
-});
-
-test("the cursor becomes ⏎ when the line owes an Enter", () => {
-  // slotIndex 8 is the "\n" that ends line 1.
-  expect(matcher[8].variants[0]).toBe("\n");
-  const container = show({ slotIndex: 8, buffer: "" });
-  expect(container.querySelector(".bg-white\\/30")?.textContent).toBe("⏎");
-});
-
-test("auto-filled indentation reads as already typed", () => {
-  // Right after the Enter the cursor is past line 2's four spaces, on "l".
-  const afterEnter = 8 + 1 + 4;
-  expect(matcher[afterEnter].variants[0]).toBe("l");
-  const container = show({ slotIndex: afterEnter, buffer: "" });
-  expect(container.querySelector(".bg-white\\/30")?.textContent).toBe("l");
-  // The indentation it skipped is shown in the typed colour, so the learner
-  // can see it was filled in rather than missed.
-  const row = codeRows(container)[1];
-  expect(row.querySelector(".text-green-400")?.textContent).toBe("    ");
+  expect(show().textContent).toContain("二分探索");
 });
 
 test("the current line number is reported", () => {
-  const container = show({ slotIndex: 8 + 1 + 4, buffer: "" });
-  expect(container.textContent).toContain("2 / 3 行");
+  expect(show(1).textContent).toContain("2 / 3 行");
 });
 
 test("hideInput does not hide code", () => {
   // 40 行の Rust を暗記で打つことはないので、この設定はコードには効かせない。
-  const lines = codeLines(show(initialEngineState(matcher), true));
-  expect(lines).toEqual(["fn f() {", "    let x = 1;", "}"]);
+  const c = show(0, { hideInput: true });
+  expect(codeLines(c)).toEqual(["fn f() {", "    let x = 1;", "}"]);
+  expect(input(c)).toBeDefined();
+});
+
+// --- 行単位の入力 ---
+
+test("the input sits under the line being typed", () => {
+  const rows = codeRows(show(1));
+  // Only the current line's wrapper carries the entry row.
+  expect(rows.map((r) => r.children.length)).toEqual([1, 2, 1]);
+  expect(rows[1].querySelector("input")).not.toBeNull();
+});
+
+test("the input starts pre-filled with the line's indentation", () => {
+  // エディタの自動インデントと同じ。毎行スペースを打ち直させても練習にならない。
+  expect(input(show(1)).value).toBe("    ");
+  expect(input(show(0)).value).toBe("");
+});
+
+test("Enter hands the typed line in", () => {
+  const onSubmitLine = mock(() => true);
+  const c = show(1, { onSubmitLine });
+  fireEvent.change(input(c), { target: { value: "    let x = 1;" } });
+  fireEvent.keyDown(input(c), { key: "Enter" });
+  expect(onSubmitLine).toHaveBeenCalledWith("    let x = 1;");
+});
+
+test("a rejected line is left in the field to be fixed", () => {
+  const onSubmitLine = mock(() => false);
+  const c = show(1, { onSubmitLine });
+  fireEvent.change(input(c), { target: { value: "    let x = 2;" } });
+  fireEvent.keyDown(input(c), { key: "Enter" });
+  expect(input(c).value).toBe("    let x = 2;");
+});
+
+test("a blank line is handed in as the empty string", () => {
+  const blank: Sentence = { ...code, q: "a\n\nb" };
+  const onSubmitLine = mock(() => true);
+  const { container } = render(
+    <SentenceView
+      sentence={blank}
+      matcher={matcher}
+      engine={{ slotIndex: 0, buffer: "" }}
+      lineIndex={1}
+      onSubmitLine={onSubmitLine}
+    />,
+  );
+  expect(input(container).value).toBe("");
+  fireEvent.keyDown(input(container), { key: "Enter" });
+  expect(onSubmitLine).toHaveBeenCalledWith("");
+});
+
+test("every keystroke is reported, arrows and Backspace included", () => {
+  // `Vec<u64>` gets typed as `<>` and then the caret goes back between them,
+  // so those keys are real work and belong in the statistics.
+  const keys: string[] = [];
+  const c = show(0, { onStroke: (k) => keys.push(k) });
+  for (const key of ["<", ">", "ArrowLeft", "u", "Backspace", "Enter"]) {
+    fireEvent.keyDown(input(c), { key });
+  }
+  expect(keys).toEqual(["<", ">", "ArrowLeft", "u", "Backspace", "Enter"]);
+});
+
+test("a line is judged by its text, not by the order it was typed", () => {
+  // The whole point of line entry: `Vec<u64>` is typed as `Vec<>`, then the
+  // caret goes back between the brackets and `u64` goes in. Key-by-key judging
+  // rejected that outright; here only the finished line is looked at.
+  const generic: Sentence = { ...code, q: "let v: Vec<u64>;" };
+  const onSubmitLine = mock(() => true);
+  const keys: string[] = [];
+  const { container } = render(
+    <SentenceView
+      sentence={generic}
+      matcher={matcher}
+      engine={{ slotIndex: 0, buffer: "" }}
+      lineIndex={0}
+      onStroke={(k) => keys.push(k)}
+      onSubmitLine={onSubmitLine}
+    />,
+  );
+  const field = input(container);
+
+  fireEvent.change(field, { target: { value: "let v: Vec<>;" } });
+  for (const k of ["ArrowLeft", "ArrowLeft"])
+    fireEvent.keyDown(field, { key: k });
+  fireEvent.change(field, { target: { value: "let v: Vec<u64>;" } });
+  fireEvent.keyDown(field, { key: "Enter" });
+
+  expect(onSubmitLine).toHaveBeenCalledWith("let v: Vec<u64>;");
+  expect(keys).toEqual(["ArrowLeft", "ArrowLeft", "Enter"]);
+});
+
+test("Tab is swallowed rather than moving focus off the field", () => {
+  const keys: string[] = [];
+  const c = show(0, { onStroke: (k) => keys.push(k) });
+  fireEvent.keyDown(input(c), { key: "Tab" });
+  expect(keys).toEqual([]);
+});
+
+test("Shift+Enter is left to the memo modal", () => {
+  const onSubmitLine = mock(() => true);
+  const keys: string[] = [];
+  const c = show(0, { onSubmitLine, onStroke: (k) => keys.push(k) });
+  fireEvent.keyDown(input(c), { key: "Enter", shiftKey: true });
+  expect(onSubmitLine).not.toHaveBeenCalled();
+  expect(keys).toEqual([]);
 });
 
 // --- 縦スクロール: カーソル行を中央付近に保つ ---

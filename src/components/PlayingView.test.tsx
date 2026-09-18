@@ -36,6 +36,9 @@ function renderView(
       speechVoiceJa=""
       speechVoiceEn=""
       hideInput={hideInput}
+      lineIndex={0}
+      onStroke={() => {}}
+      onSubmitLine={() => true}
       suspendKeys={suspendKeys}
     />,
   );
@@ -119,6 +122,9 @@ function renderSpeaking(s: Sentence, autoPlayAudio = true, rate = 1) {
       speechVoiceJa=""
       speechVoiceEn=""
       hideInput={false}
+      lineIndex={0}
+      onStroke={() => {}}
+      onSubmitLine={() => true}
       suspendKeys={mock(() => {})}
     />,
   );
@@ -176,6 +182,9 @@ test("shows a review banner when the question is a review", () => {
       speechVoiceJa=""
       speechVoiceEn=""
       hideInput={false}
+      lineIndex={0}
+      onStroke={() => {}}
+      onSubmitLine={() => true}
       suspendKeys={mock(() => {})}
     />,
   );
@@ -351,6 +360,9 @@ function renderCode(missFlash = 0, hideInput = false) {
       speechVoiceJa=""
       speechVoiceEn=""
       hideInput={hideInput}
+      lineIndex={0}
+      onStroke={() => {}}
+      onSubmitLine={() => true}
       suspendKeys={mock(() => {})}
     />,
   );

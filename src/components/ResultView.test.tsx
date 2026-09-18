@@ -594,3 +594,13 @@ test("visChar names the keys that would otherwise print blank", () => {
   expect(visChar("\n")).toBe("⏎");
   expect(visChar("a")).toBe("a");
 });
+
+test("keys that spell themselves out get a symbol on the charts", () => {
+  // 長文課題 is typed into a real field, so these reach the statistics.
+  expect(visChar("backspace")).toBe("⌫");
+  expect(visChar("arrowleft")).toBe("←");
+  expect(visChar("enter")).toBe("⏎");
+  // Printable keys are untouched — none of them is more than one character.
+  expect(visChar("e")).toBe("e");
+  expect(visChar(" ")).toBe("␣");
+});

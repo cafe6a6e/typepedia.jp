@@ -122,6 +122,9 @@ export function StartPage() {
             speechVoiceEn={settings.speechVoiceEn}
             hideInput={settings.hideInput}
             nextDisp={nextDisp}
+            lineIndex={game.lineIndex}
+            onStroke={game.recordStroke}
+            onSubmitLine={game.submitLine}
             suspendKeys={game.suspendKeys}
           />
         )}
