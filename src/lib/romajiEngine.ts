@@ -147,9 +147,45 @@ function compileCode(q: string): Matcher {
 }
 
 /**
+ * A run of `q` to be typed exactly as written rather than read as romaji.
+ * A Japanese sentence quoting an English word needs this: left to the romaji
+ * reader, "Amazon" ends on ん and starts demanding "Amazonn". The braces are
+ * markers only — they are never typed — and are doubled because two of them in
+ * a row will not turn up in real text.
+ */
+const LITERAL_SPAN = /\{\{([^{}]*)\}\}/g;
+
+/** Japanese romaji: one slot per kana, spellings from the table. */
+function compileKana(q: string, cByKana: Record<string, string>): Slot[] {
+  return tokenize(q).map((t) => {
+    let variants = preferAuthored(variantsFor(t.kana, cByKana), t.spelling);
+    if (t.sokuon) variants = applySokuon(variants);
+    return { kana: t.kana, display: variants[0], variants };
+  });
+}
+
+/**
+ * IME ん rule: a single `n` only stands for ん when the next sound cannot be
+ * mistaken for part of it. Run over the finished slot list, so a ん that sits
+ * right before a literal span still sees what follows instead of reading as
+ * the end of the sentence.
+ */
+function applyNRule(slots: Slot[]): Slot[] {
+  for (let idx = 0; idx < slots.length; idx++) {
+    if (slots[idx].kana !== "ん") continue;
+    const next = slots[idx + 1];
+    const requireDouble = !next || N_REQUIRES_DOUBLE.has(next.variants[0][0]);
+    slots[idx].variants = requireDouble ? ["nn"] : ["nn", "n"];
+    slots[idx].display = "nn";
+  }
+  return slots;
+}
+
+/**
  * Compile a sentence's `q` into a matcher.
  * Anything but Japanese is typed literally, so each character becomes its own
- * slot; code additionally gets its indentation marked as auto-filled.
+ * slot; code additionally gets its indentation marked as auto-filled. Japanese
+ * is read as romaji except for `{{...}}` spans, which are typed as written.
  */
 export function compileMatcher(
   q: string,
@@ -160,23 +196,16 @@ export function compileMatcher(
   if (lang === "en") return compileLiteral(q);
 
   const cByKana = buildCByKana(settings);
-  const tokens = tokenize(q);
-  const slots: Slot[] = tokens.map((t) => {
-    let variants = preferAuthored(variantsFor(t.kana, cByKana), t.spelling);
-    if (t.sokuon) variants = applySokuon(variants);
-    return { kana: t.kana, display: variants[0], variants };
-  });
-
-  // IME ん rule: decide whether a single `n` is allowed based on the next slot.
-  for (let idx = 0; idx < slots.length; idx++) {
-    if (slots[idx].kana !== "ん") continue;
-    const next = slots[idx + 1];
-    const requireDouble = !next || N_REQUIRES_DOUBLE.has(next.variants[0][0]);
-    slots[idx].variants = requireDouble ? ["nn"] : ["nn", "n"];
-    slots[idx].display = "nn";
+  const slots: Slot[] = [];
+  let last = 0;
+  for (const m of q.matchAll(LITERAL_SPAN)) {
+    slots.push(...compileKana(q.slice(last, m.index), cByKana));
+    slots.push(...compileLiteral(m[1]));
+    last = m.index + m[0].length;
   }
+  slots.push(...compileKana(q.slice(last), cByKana));
 
-  return slots;
+  return applyNRule(slots);
 }
 
 /** The first slot from `from` on that the learner actually has to type. */

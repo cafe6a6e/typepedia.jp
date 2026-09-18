@@ -262,3 +262,57 @@ describe("source code", () => {
     });
   });
 });
+
+describe("literal spans in a Japanese sentence", () => {
+  /** What the guide asks the learner to type, marker characters excluded. */
+  const asked = (q: string) =>
+    compileMatcher(q, DEFAULT_SETTINGS, "ja")
+      .map((s) => s.display)
+      .join("");
+
+  test("an English word inside {{ }} is typed as written", () => {
+    // Read as romaji, "Amazon" ends on ん and starts demanding "Amazonn".
+    expect(asked("Amazon")).toBe("Amazonn");
+    expect(asked("{{Amazon}}")).toBe("Amazon");
+    expect(play("{{Amazon}}", "Amazon").completed).toBe(true);
+  });
+
+  test("a long word is not re-read as kana either", () => {
+    expect(asked("{{Enshittification}}")).toBe("Enshittification");
+    expect(play("{{Enshittification}}", "Enshittification").completed).toBe(
+      true,
+    );
+  });
+
+  test("the markers themselves are never typed", () => {
+    const slots = compileMatcher("{{SNS}}", DEFAULT_SETTINGS, "ja");
+    expect(slots.map((s) => s.variants)).toEqual([["S"], ["N"], ["S"]]);
+  });
+
+  test("kana and literal spans sit side by side in one sentence", () => {
+    const q = "ookuno{{SNS}}dejissaini";
+    expect(asked(q)).toBe("ookunoSNSdejissaini");
+    expect(play(q, "ookunoSNSdejissaini").completed).toBe(true);
+  });
+
+  test("a ん right before a span still sees what follows", () => {
+    // The ん rule runs over the finished slot list; per-span it would read as
+    // the end of the sentence and force "nn".
+    const slots = compileMatcher("ann{{Amazon}}", DEFAULT_SETTINGS, "ja");
+    expect(slots[1].kana).toBe("ん");
+    expect(slots[1].variants).toEqual(["nn", "n"]);
+    expect(play("ann{{Amazon}}", "anAmazon").completed).toBe(true);
+  });
+
+  test("a sentence with no span compiles exactly as before", () => {
+    for (const q of ["kouennnoannnaibannni", "annunn", "innyou", "chi-mu"]) {
+      expect(asked(q)).toBe(q);
+    }
+  });
+
+  test("an unpaired brace is just a character to type", () => {
+    // Authoring slip: better to stay completable than to swallow the rest.
+    expect(asked("a{{b")).toBe("a{{b");
+    expect(play("a{{b", "a{{b").completed).toBe(true);
+  });
+});
