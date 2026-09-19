@@ -423,7 +423,8 @@ test("a line handed in wrong is a miss and stays on its line", async () => {
   });
   expect(ok).toBe(false);
   expect(result.current.lineIndex).toBe(0);
-  expect(result.current.stats.miss).toBe(1);
+  // The rejected line itself is not a miss — only taking characters back is.
+  expect(result.current.stats.miss).toBe(0);
 
   // The same line, right this time, moves on.
   await act(async () => {
@@ -446,24 +447,69 @@ test("the indentation still has to be handed in with the line", async () => {
   expect(result.current.lineIndex).toBe(1);
 });
 
-test("every keystroke counts, arrows and Backspace included", async () => {
-  // `Vec<u64>` is really typed as `<>` then the caret goes back between them.
+test("keystrokes that move the line forward count as progress", async () => {
+  // `Vec<u64>` is really typed as `<>` then the caret goes back between them,
+  // so the arrows are work, not mistakes.
   const result = await startCode();
   await act(async () => {
-    for (const k of ["<", ">", "ArrowLeft", "u", "Backspace"]) {
+    for (const k of ["<", ">", "ArrowLeft", "u"])
       result.current.recordStroke(k);
-    }
   });
-  expect(result.current.stats).toEqual({ correct: 5, miss: 0 });
+  expect(result.current.stats).toEqual({ correct: 4, miss: 0 });
 
   await act(async () => {
     result.current.submitLine("fn f() {");
     result.current.submitLine("    let x = 1;");
     result.current.submitLine("}");
   });
-  const keys = result.current.result?.keyStats.map((k) => k.key) ?? [];
-  expect(keys).toContain("arrowleft");
-  expect(keys).toContain("backspace");
+  expect(result.current.result?.keyStats.map((k) => k.key)).toContain(
+    "arrowleft",
+  );
+});
+
+test("taking a character back is the miss, booked against that character", async () => {
+  // The line is only judged when it is handed in, so a correction is the one
+  // trace a fumbled key leaves behind.
+  const result = await startCode();
+  await act(async () => {
+    result.current.recordStroke("l");
+    result.current.recordStroke("e");
+    result.current.recordStroke("t");
+    result.current.recordStroke("Backspace", "t");
+  });
+  expect(result.current.stats).toEqual({ correct: 3, miss: 1 });
+
+  await act(async () => {
+    result.current.submitLine("fn f() {");
+    result.current.submitLine("    let x = 1;");
+    result.current.submitLine("}");
+  });
+  const t = result.current.result?.keyStats.find((k) => k.key === "t");
+  expect(t).toMatchObject({ correct: 1, miss: 1 });
+  // The key that did the deleting is not itself blamed.
+  expect(result.current.result?.keyStats.map((k) => k.key)).not.toContain(
+    "backspace",
+  );
+});
+
+test("a Backspace that removes nothing is just a keystroke", async () => {
+  // At the start of a line there is nothing to take back.
+  const result = await startCode();
+  await act(async () => {
+    result.current.recordStroke("Backspace", "");
+  });
+  expect(result.current.stats).toEqual({ correct: 1, miss: 0 });
+});
+
+test("a rejected line flashes but is not counted as a miss", async () => {
+  const result = await startCode();
+  const flash = result.current.missFlash;
+  await act(async () => {
+    result.current.submitLine("fn f() }");
+  });
+  expect(result.current.stats.miss).toBe(0);
+  expect(result.current.missFlash).toBe(flash + 1);
+  expect(result.current.lineIndex).toBe(0);
 });
 
 test("the global key listener leaves code keys to the input", async () => {

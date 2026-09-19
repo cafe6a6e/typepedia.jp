@@ -41,7 +41,7 @@ interface Props {
   nextDisp?: string;
   /** 長文課題 only: the line being typed, and the two callbacks it reports to. */
   lineIndex: number;
-  onStroke: (key: string) => void;
+  onStroke: (key: string, removed: string) => void;
   onSubmitLine: (text: string) => boolean;
   /** Pause/resume the game key listener while the memo modal is open. */
   suspendKeys: (v: boolean) => void;

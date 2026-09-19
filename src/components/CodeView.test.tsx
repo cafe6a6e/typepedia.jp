@@ -1,6 +1,11 @@
 import { afterEach, expect, mock, test } from "bun:test";
 import { cleanup, fireEvent, render } from "@testing-library/react";
-import { centeredScrollTop, indentOf, splitLines } from "@/components/CodeView";
+import {
+  centeredScrollTop,
+  indentOf,
+  removedBy,
+  splitLines,
+} from "@/components/CodeView";
 import { SentenceView } from "@/components/SentenceView";
 import { compileMatcher } from "@/lib/romajiEngine";
 import { DEFAULT_SETTINGS } from "@/lib/settings";
@@ -14,7 +19,7 @@ const matcher = compileMatcher(Q, DEFAULT_SETTINGS, "code");
 afterEach(cleanup);
 
 interface Handlers {
-  onStroke?: (key: string) => void;
+  onStroke?: (key: string, removed: string) => void;
   onSubmitLine?: (text: string) => boolean;
   hideInput?: boolean;
 }
@@ -181,6 +186,48 @@ test("a line is judged by its text, not by the order it was typed", () => {
 
   expect(onSubmitLine).toHaveBeenCalledWith("let v: Vec<u64>;");
   expect(keys).toEqual(["ArrowLeft", "ArrowLeft", "Enter"]);
+});
+
+// --- 打ち直し: 何が消えるかはカーソルから読む ---
+
+/** A stand-in for the line field with the caret placed by hand. */
+function field(value: string, from: number, to = from) {
+  return { value, selectionStart: from, selectionEnd: to } as HTMLInputElement;
+}
+
+test("Backspace reports the character it takes back", () => {
+  expect(removedBy("Backspace", field("let", 3))).toBe("t");
+  // Caret moved back inside the line — the very move line entry exists for.
+  expect(removedBy("Backspace", field("Vec<u64>", 7))).toBe("4");
+});
+
+test("Delete reports the character under the caret", () => {
+  expect(removedBy("Delete", field("let", 0))).toBe("l");
+});
+
+test("a selection goes in one piece", () => {
+  expect(removedBy("Backspace", field("let x", 0, 3))).toBe("let");
+});
+
+test("nothing is taken back at the edges, or by any other key", () => {
+  expect(removedBy("Backspace", field("let", 0))).toBe("");
+  expect(removedBy("Delete", field("let", 3))).toBe("");
+  expect(removedBy("a", field("let", 3))).toBe("");
+  expect(removedBy("ArrowLeft", field("let", 3))).toBe("");
+});
+
+test("the keystroke is reported with what it removed", () => {
+  const seen: [string, string][] = [];
+  const c = show(0, { onStroke: (k, removed) => seen.push([k, removed]) });
+  const el = input(c);
+  fireEvent.change(el, { target: { value: "let" } });
+  el.setSelectionRange(3, 3);
+  fireEvent.keyDown(el, { key: "Backspace" });
+  fireEvent.keyDown(el, { key: "x" });
+  expect(seen).toEqual([
+    ["Backspace", "t"],
+    ["x", ""],
+  ]);
 });
 
 test("Tab is swallowed rather than moving focus off the field", () => {

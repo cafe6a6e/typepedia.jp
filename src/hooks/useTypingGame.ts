@@ -287,14 +287,29 @@ export function useTypingGame(settings: Settings) {
   );
 
   /**
-   * Count one keystroke of a 長文課題's free-form line entry. Every key actually
-   * pressed counts — Backspace and the arrows included, because moving the caret
-   * back into `<u64>` is how that line really gets typed. Correctness is judged
-   * per line here, so a keystroke is never a miss on its own.
+   * Count one keystroke of a 長文課題's free-form line entry.
+   *
+   * A keystroke that takes text back (`removed` is what it deletes) is the
+   * miss: the line is judged only when it is handed in, so a correction is the
+   * one trace a fumbled key leaves. It is booked against the character that was
+   * deleted, the way the short-sentence path books a miss against the key that
+   * was expected. Every other key — the arrows included, since moving the caret
+   * back into `<u64>` is how that line really gets typed — counts as progress.
    */
-  const recordStroke = useCallback((key: string) => {
+  const recordStroke = useCallback((key: string, removed = "") => {
     const now = performance.now();
-    // A keystroke that follows a rejected line is the recovery, not the rhythm.
+    if (removed) {
+      missRef.current += 1;
+      missTimesRef.current.push(now);
+      keyMissRef.current[removed[0]] =
+        (keyMissRef.current[removed[0]] ?? 0) + 1;
+      // The next keystroke is the recovery, not the rhythm; and a correction
+      // moves the text backwards, so it is no part of the speed curve.
+      lastWasMissRef.current = true;
+      setStats({ correct: correctRef.current, miss: missRef.current });
+      return;
+    }
+    // A keystroke that follows a correction is the recovery, not the rhythm.
     if (prevCorrectTsRef.current !== null && !lastWasMissRef.current) {
       latenciesRef.current.push({ key, ms: now - prevCorrectTsRef.current });
     }
@@ -312,8 +327,9 @@ export function useTypingGame(settings: Settings) {
 
   /**
    * Hand in the line just typed. Returns whether it matched, so the view can
-   * leave a rejected line in place to be fixed. A line handed in wrong is the
-   * only kind of miss a 長文課題 has — every key that built it was a real one.
+   * leave a rejected line in place to be fixed. A rejected line flashes but is
+   * not counted: the miss was the fumbled key, and it was already booked when
+   * the learner took it back.
    */
   const submitLine = useCallback(
     (text: string) => {
@@ -322,11 +338,7 @@ export function useTypingGame(settings: Settings) {
       const lines = sentence.q.split("\n");
       const i = lineIndexRef.current;
       if (text !== lines[i]) {
-        missRef.current += 1;
-        missTimesRef.current.push(performance.now());
-        keyMissRef.current.Enter = (keyMissRef.current.Enter ?? 0) + 1;
         lastWasMissRef.current = true;
-        setStats({ correct: correctRef.current, miss: missRef.current });
         setMissFlash((f) => f + 1);
         return false;
       }

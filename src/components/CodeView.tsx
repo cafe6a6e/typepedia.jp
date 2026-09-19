@@ -5,8 +5,12 @@ interface Props {
   sentence: Sentence;
   /** Index of the line being typed. */
   lineIndex: number;
-  /** Count one keystroke. Called for every key, Backspace and arrows included. */
-  onStroke?: (key: string) => void;
+  /**
+   * Count one keystroke. Called for every key, Backspace and arrows included.
+   * `removed` is the text that keystroke takes back, which is what makes it a
+   * correction rather than progress.
+   */
+  onStroke?: (key: string, removed: string) => void;
   /** Hand in the typed line; returns whether it matched the expected one. */
   onSubmitLine?: (text: string) => boolean;
 }
@@ -19,6 +23,24 @@ export function splitLines(q: string): string[] {
 /** The leading spaces a line opens with, which the input starts pre-filled. */
 export function indentOf(line: string): string {
   return line.match(/^ */)?.[0] ?? "";
+}
+
+/**
+ * The text a keystroke is about to take back, read from the caret before the
+ * browser applies the edit. Remembering the last key typed would get this wrong
+ * for the very move line entry exists for — moving the caret back inside
+ * `Vec<u64>` and deleting there. "" when nothing is removed: any other key, or
+ * Backspace at the start / Delete at the end of the line.
+ */
+export function removedBy(key: string, el: HTMLInputElement): string {
+  if (key !== "Backspace" && key !== "Delete") return "";
+  const { value, selectionStart: from, selectionEnd: to } = el;
+  if (from === null || to === null) return "";
+  // A selection goes in one piece, and counts as one correction.
+  if (from !== to) return value.slice(from, to);
+  return key === "Backspace"
+    ? value.slice(Math.max(0, from - 1), from)
+    : value.slice(from, from + 1);
 }
 
 const DONE = "text-green-400";
@@ -114,7 +136,7 @@ export function CodeView({
       e.preventDefault();
       return;
     }
-    onStroke?.(e.key);
+    onStroke?.(e.key, removedBy(e.key, e.currentTarget));
     if (e.key === "Enter") {
       e.preventDefault();
       // A rejected line stays put, so it can be fixed instead of retyped.
