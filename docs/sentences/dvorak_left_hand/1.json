@@ -1,0 +1,3502 @@
+[
+  {
+    "disp": "ペイペイ、ジェエジェエ。",
+    "kana": "ぺいぺい、じぇえじぇえ。",
+    "q": "peipei,jeejee.",
+    "lang": "ja",
+    "uuid": "762983c7-55ad-4299-96be-c65f31a64fce"
+  },
+  {
+    "disp": "ピョユピョユ、ジャアジャア。",
+    "kana": "ぴょゆぴょゆ、じゃあじゃあ。",
+    "q": "pyoyupyoyu,jaajaa.",
+    "lang": "ja",
+    "uuid": "c025a207-f6f2-4645-9982-fba9f1e5dc2a"
+  },
+  {
+    "disp": "オヨオヨ、ヨピヨピ。",
+    "kana": "およおよ、よぴよぴ。",
+    "q": "oyooyo,yopiyopi.",
+    "lang": "ja",
+    "uuid": "2476741f-b00a-497f-a3ee-6f244f10d1df"
+  },
+  {
+    "disp": "オウエオウエ、ピヤピヤ。",
+    "kana": "おうえおうえ、ぴやぴや。",
+    "q": "oueoue,piyapiya.",
+    "lang": "ja",
+    "uuid": "83e0f771-1f8a-4c32-ba2b-079cb475f7c8"
+  },
+  {
+    "disp": "ジェヤジェヤ、ジャウジャウ。",
+    "kana": "じぇやじぇや、じゃうじゃう。",
+    "q": "jeyajeya,jaujau.",
+    "lang": "ja",
+    "uuid": "0ba057b1-9334-4cd6-9ad2-b1f527a76e26"
+  },
+  {
+    "disp": "ピヨピヨ、ペウペウ。",
+    "kana": "ぴよぴよ、ぺうぺう。",
+    "q": "piyopiyo,peupeu.",
+    "lang": "ja",
+    "uuid": "7eb5d1d4-dd07-49d4-b36c-7b52c4a65232"
+  },
+  {
+    "disp": "ヨエヨエ、ユポユポ。",
+    "kana": "よえよえ、ゆぽゆぽ。",
+    "q": "yoeyoe,yupoyupo.",
+    "lang": "ja",
+    "uuid": "dfc7132d-a84f-47c9-98ae-c3ef0b29ba8c"
+  },
+  {
+    "disp": "アイオアイオ、ヨヤヨヤ。",
+    "kana": "あいおあいお、よやよや。",
+    "q": "aioaio,yoyayoya.",
+    "lang": "ja",
+    "uuid": "45346f2e-16cb-4cd3-9736-e745fe7bc0b2"
+  },
+  {
+    "disp": "ジェウジェウ、ジョヤジョヤ。",
+    "kana": "じぇうじぇう、じょやじょや。",
+    "q": "jeujeu,joyajoya.",
+    "lang": "ja",
+    "uuid": "3e09262b-e328-4708-a215-6203e363a74e"
+  },
+  {
+    "disp": "エオエオ、ウピャウピャ。",
+    "kana": "えおえお、うぴゃうぴゃ。",
+    "q": "eoeo,upyaupya.",
+    "lang": "ja",
+    "uuid": "2ebd6409-291e-41e7-aa26-e5c386932cd5"
+  },
+  {
+    "disp": "ヤジュヤジュ、ヤウヤウ。",
+    "kana": "やじゅやじゅ、やうやう。",
+    "q": "yajuyaju,yauyau.",
+    "lang": "ja",
+    "uuid": "d32515ce-78b5-42f3-b7f6-0f16e3ece03e"
+  },
+  {
+    "disp": "プジャプジャ、イユイユ。",
+    "kana": "ぷじゃぷじゃ、いゆいゆ。",
+    "q": "pujapuja,iyuiyu.",
+    "lang": "ja",
+    "uuid": "503952fa-f58d-4195-8cd6-ab5d276558b4"
+  },
+  {
+    "disp": "イウエイウエ、ペジュペジュ。",
+    "kana": "いうえいうえ、ぺじゅぺじゅ。",
+    "q": "iueiue,pejupeju.",
+    "lang": "ja",
+    "uuid": "4d8e4d44-4a87-4a2c-a54c-a85eaec11707"
+  },
+  {
+    "disp": "パジョパジョ、ユペユペ。",
+    "kana": "ぱじょぱじょ、ゆぺゆぺ。",
+    "q": "pajopajo,yupeyupe.",
+    "lang": "ja",
+    "uuid": "f278e6d5-f6c1-44fb-8eae-22e3ce191faf"
+  },
+  {
+    "disp": "エヨエヨ、オイウオイウ。",
+    "kana": "えよえよ、おいうおいう。",
+    "q": "eyoeyo,oiuoiu.",
+    "lang": "ja",
+    "uuid": "8fc5a955-7a80-46b8-9722-47f12c0d7835"
+  },
+  {
+    "disp": "ヤプヤプ、ペジェペジェ。",
+    "kana": "やぷやぷ、ぺじぇぺじぇ。",
+    "q": "yapuyapu,pejepeje.",
+    "lang": "ja",
+    "uuid": "0567c4c1-8899-434d-9035-fb20b24673bf"
+  },
+  {
+    "disp": "プジュプジュ、アエイアエイ。",
+    "kana": "ぷじゅぷじゅ、あえいあえい。",
+    "q": "pujupuju,aeiaei.",
+    "lang": "ja",
+    "uuid": "2971e558-3088-4dea-a3ae-38afa0df6157"
+  },
+  {
+    "disp": "イヨイヨ、エユエユ。",
+    "kana": "いよいよ、えゆえゆ。",
+    "q": "iyoiyo,eyueyu.",
+    "lang": "ja",
+    "uuid": "b44ab4b4-eca9-43cc-97e9-f1cef6b739c5"
+  },
+  {
+    "disp": "オペオペ、イウイウ。",
+    "kana": "おぺおぺ、いういう。",
+    "q": "opeope,iuiu.",
+    "lang": "ja",
+    "uuid": "a706afba-bf83-4d92-b922-206136f6cb98"
+  },
+  {
+    "disp": "ウピュウピュ、オピオピ。",
+    "kana": "うぴゅうぴゅ、おぴおぴ。",
+    "q": "upyuupyu,opiopi.",
+    "lang": "ja",
+    "uuid": "8ec4e629-0eb6-4439-9f07-bca7c8988719"
+  },
+  {
+    "disp": "イアイア、ジェペジェペ。",
+    "kana": "いあいあ、じぇぺじぇぺ。",
+    "q": "iaia,jepejepe.",
+    "lang": "ja",
+    "uuid": "de25acfb-beb1-42da-ae1b-15a7d41aba5f"
+  },
+  {
+    "disp": "ジェオジェオ、ピュアピュア。",
+    "kana": "じぇおじぇお、ぴゅあぴゅあ。",
+    "q": "jeojeo,pyuapyua.",
+    "lang": "ja",
+    "uuid": "ce40295c-95ca-4c04-a079-739c691069f8"
+  },
+  {
+    "disp": "アピュアピュ、ペアペア。",
+    "kana": "あぴゅあぴゅ、ぺあぺあ。",
+    "q": "apyuapyu,peapea.",
+    "lang": "ja",
+    "uuid": "4bf8eb8b-9322-46eb-97d0-529449e2f604"
+  },
+  {
+    "disp": "ヤジェヤジェ、ジャヨジャヨ。",
+    "kana": "やじぇやじぇ、じゃよじゃよ。",
+    "q": "yajeyaje,jayojayo.",
+    "lang": "ja",
+    "uuid": "286f734b-5680-4cd2-828e-979837deb178"
+  },
+  {
+    "disp": "ピャアピャア、ポウポウ。",
+    "kana": "ぴゃあぴゃあ、ぽうぽう。",
+    "q": "pyaapyaa,poupou.",
+    "lang": "ja",
+    "uuid": "d174351f-bb2d-4ba9-b59c-0afd3834befa"
+  },
+  {
+    "disp": "ピュイピュイ、ジャペジャペ。",
+    "kana": "ぴゅいぴゅい、じゃぺじゃぺ。",
+    "q": "pyuipyui,japejape.",
+    "lang": "ja",
+    "uuid": "fec85593-9870-4ad7-a536-ef4357371c56"
+  },
+  {
+    "disp": "プユプユ、パアパア。",
+    "kana": "ぷゆぷゆ、ぱあぱあ。",
+    "q": "puyupuyu,paapaa.",
+    "lang": "ja",
+    "uuid": "1423b966-534b-42db-9944-a83901ec1629"
+  },
+  {
+    "disp": "イジェイジェ、ピユピユ。",
+    "kana": "いじぇいじぇ、ぴゆぴゆ。",
+    "q": "ijeije,piyupiyu.",
+    "lang": "ja",
+    "uuid": "6957398a-b775-4202-ab64-26740af96b9d"
+  },
+  {
+    "disp": "オアウオアウ、アジェアジェ。",
+    "kana": "おあうおあう、あじぇあじぇ。",
+    "q": "oauoau,ajeaje.",
+    "lang": "ja",
+    "uuid": "33c2e216-f16c-41b7-9dd7-b96d513c4ed2"
+  },
+  {
+    "disp": "イピョイピョ、イエイエ。",
+    "kana": "いぴょいぴょ、いえいえ。",
+    "q": "ipyoipyo,ieie.",
+    "lang": "ja",
+    "uuid": "281f28b5-1c4c-4d42-ad30-f82b520e233d"
+  },
+  {
+    "disp": "ウジョウジョ、ペパペパ。",
+    "kana": "うじょうじょ、ぺぱぺぱ。",
+    "q": "ujoujo,pepapepa.",
+    "lang": "ja",
+    "uuid": "ede5c18e-d7c8-4f3f-b9ce-4c1cdd6708de"
+  },
+  {
+    "disp": "エアエア、エイオエイオ。",
+    "kana": "えあえあ、えいおえいお。",
+    "q": "eaea,eioeio.",
+    "lang": "ja",
+    "uuid": "8631b0a7-68ea-4627-8e27-bbc3bb6fe368"
+  },
+  {
+    "disp": "オジェオジェ、イジョイジョ。",
+    "kana": "おじぇおじぇ、いじょいじょ。",
+    "q": "ojeoje,ijoijo.",
+    "lang": "ja",
+    "uuid": "52712bbd-12c1-4429-8e48-6f1cadfd7bb8"
+  },
+  {
+    "disp": "ピョヨピョヨ、イポイポ。",
+    "kana": "ぴょよぴょよ、いぽいぽ。",
+    "q": "pyoyopyoyo,ipoipo.",
+    "lang": "ja",
+    "uuid": "feb9c6cf-36da-4bfd-9bca-b98d9cf91715"
+  },
+  {
+    "disp": "ユオユオ、ジョウジョウ。",
+    "kana": "ゆおゆお、じょうじょう。",
+    "q": "yuoyuo,joujou.",
+    "lang": "ja",
+    "uuid": "22ad21d9-8c7d-4078-9409-1159eb768b50"
+  },
+  {
+    "disp": "ピョヤピョヤ、オピョオピョ。",
+    "kana": "ぴょやぴょや、おぴょおぴょ。",
+    "q": "pyoyapyoya,opyoopyo.",
+    "lang": "ja",
+    "uuid": "deebbfb1-cb38-41a9-b63e-3002842da053"
+  },
+  {
+    "disp": "オアエオアエ、ピエピエ。",
+    "kana": "おあえおあえ、ぴえぴえ。",
+    "q": "oaeoae,piepie.",
+    "lang": "ja",
+    "uuid": "c4526b1e-1562-4451-96b4-e0c1b33ee4ac"
+  },
+  {
+    "disp": "ポジェポジェ、ヨプヨプ。",
+    "kana": "ぽじぇぽじぇ、よぷよぷ。",
+    "q": "pojepoje,yopuyopu.",
+    "lang": "ja",
+    "uuid": "b99580b3-88ef-4fea-a90b-bfe05d80c15e"
+  },
+  {
+    "disp": "ピュウピュウ、エイエイ。",
+    "kana": "ぴゅうぴゅう、えいえい。",
+    "q": "pyuupyuu,eiei.",
+    "lang": "ja",
+    "uuid": "4ac7cdd6-02ed-4f61-8434-658a91732db2"
+  },
+  {
+    "disp": "ジャユジャユ、ウイオウイオ。",
+    "kana": "じゃゆじゃゆ、ういおういお。",
+    "q": "jayujayu,uiouio.",
+    "lang": "ja",
+    "uuid": "9e15097f-3cbe-441a-be9b-752a263f971a"
+  },
+  {
+    "disp": "パユパユ、エピョエピョ。",
+    "kana": "ぱゆぱゆ、えぴょえぴょ。",
+    "q": "payupayu,epyoepyo.",
+    "lang": "ja",
+    "uuid": "2315b431-e127-4afa-a786-a6c6118e7362"
+  },
+  {
+    "disp": "ユジェユジェ、アウアウ。",
+    "kana": "ゆじぇゆじぇ、あうあう。",
+    "q": "yujeyuje,auau.",
+    "lang": "ja",
+    "uuid": "6d390290-327b-4641-bc68-8d235517c472"
+  },
+  {
+    "disp": "ユピャユピャ、ヨイヨイ。",
+    "kana": "ゆぴゃゆぴゃ、よいよい。",
+    "q": "yupyayupya,yoiyoi.",
+    "lang": "ja",
+    "uuid": "bd0ff380-da1f-4b04-8adc-b7f8f87d970a"
+  },
+  {
+    "disp": "オパオパ、ウペウペ。",
+    "kana": "おぱおぱ、うぺうぺ。",
+    "q": "opaopa,upeupe.",
+    "lang": "ja",
+    "uuid": "bc30ab37-7e7c-4cbe-9b3e-318849dae5ce"
+  },
+  {
+    "disp": "オジュオジュ、オジャオジャ。",
+    "kana": "おじゅおじゅ、おじゃおじゃ。",
+    "q": "ojuoju,ojaoja.",
+    "lang": "ja",
+    "uuid": "b9e3de97-10a1-40df-8666-69bc3b618c5b"
+  },
+  {
+    "disp": "ウアイウアイ、ウオウオ。",
+    "kana": "うあいうあい、うおうお。",
+    "q": "uaiuai,uouo.",
+    "lang": "ja",
+    "uuid": "95ab1dc3-70e6-4ade-8a8b-f46b556e1f39"
+  },
+  {
+    "disp": "ジェパジェパ、ウアウア。",
+    "kana": "じぇぱじぇぱ、うあうあ。",
+    "q": "jepajepa,uaua.",
+    "lang": "ja",
+    "uuid": "1fdfd1f5-aaf2-4117-9067-147f4afb5675"
+  },
+  {
+    "disp": "ジェイジェイ、ジョペジョペ。",
+    "kana": "じぇいじぇい、じょぺじょぺ。",
+    "q": "jeijei,jopejope.",
+    "lang": "ja",
+    "uuid": "75e6ce84-74aa-4d78-b88c-27e912024a19"
+  },
+  {
+    "disp": "アポアポ、ウユウユ。",
+    "kana": "あぽあぽ、うゆうゆ。",
+    "q": "apoapo,uyuuyu.",
+    "lang": "ja",
+    "uuid": "90ef9713-e649-44e5-8218-5bcdbcae0004"
+  },
+  {
+    "disp": "ピャイピャイ、ジュウジュウ。",
+    "kana": "ぴゃいぴゃい、じゅうじゅう。",
+    "q": "pyaipyai,juujuu.",
+    "lang": "ja",
+    "uuid": "85c1ee3d-7e0b-43f4-aaa7-efacb7147d03"
+  },
+  {
+    "disp": "ジャポジャポ、イジャイジャ。",
+    "kana": "じゃぽじゃぽ、いじゃいじゃ。",
+    "q": "japojapo,ijaija.",
+    "lang": "ja",
+    "uuid": "cfa834c6-0025-4189-8735-67fdbe8e5342"
+  },
+  {
+    "disp": "ピパピパ、エアウエアウ。",
+    "kana": "ぴぱぴぱ、えあうえあう。",
+    "q": "pipapipa,eaueau.",
+    "lang": "ja",
+    "uuid": "381c25b0-0520-4b0a-9b0a-e68c4e2326f0"
+  },
+  {
+    "disp": "アジョアジョ、エイアエイア。",
+    "kana": "あじょあじょ、えいあえいあ。",
+    "q": "ajoajo,eiaeia.",
+    "lang": "ja",
+    "uuid": "69885988-41f4-4f4d-96d7-aeb43f4d9f9e"
+  },
+  {
+    "disp": "ピュヤピュヤ、ヨジュヨジュ。",
+    "kana": "ぴゅやぴゅや、よじゅよじゅ。",
+    "q": "pyuyapyuya,yojuyoju.",
+    "lang": "ja",
+    "uuid": "3e7997e3-ea1e-48a9-ac85-aa60275f3bf0"
+  },
+  {
+    "disp": "パヨパヨ、ジュプジュプ。",
+    "kana": "ぱよぱよ、じゅぷじゅぷ。",
+    "q": "payopayo,jupujupu.",
+    "lang": "ja",
+    "uuid": "a20acf10-a647-459d-aabf-f20372850cba"
+  },
+  {
+    "disp": "アウオアウオ、アジャアジャ。",
+    "kana": "あうおあうお、あじゃあじゃ。",
+    "q": "auoauo,ajaaja.",
+    "lang": "ja",
+    "uuid": "63f8eb74-7739-4a81-bac5-1dd099235aef"
+  },
+  {
+    "disp": "パジェパジェ、ペユペユ。",
+    "kana": "ぱじぇぱじぇ、ぺゆぺゆ。",
+    "q": "pajepaje,peyupeyu.",
+    "lang": "ja",
+    "uuid": "d66b3c1c-25b3-4e15-90b3-d873fe28de04"
+  },
+  {
+    "disp": "パプパプ、ジュペジュペ。",
+    "kana": "ぱぷぱぷ、じゅぺじゅぺ。",
+    "q": "papupapu,jupejupe.",
+    "lang": "ja",
+    "uuid": "a772e115-1321-4370-a321-6fb461ac3e41"
+  },
+  {
+    "disp": "アエウアエウ、ヨウヨウ。",
+    "kana": "あえうあえう、ようよう。",
+    "q": "aeuaeu,youyou.",
+    "lang": "ja",
+    "uuid": "5baa3136-84c2-4710-a204-197bcd50b797"
+  },
+  {
+    "disp": "ピャヨピャヨ、イエオイエオ。",
+    "kana": "ぴゃよぴゃよ、いえおいえお。",
+    "q": "pyayopyayo,ieoieo.",
+    "lang": "ja",
+    "uuid": "52a3fee4-16cd-4b89-a089-bf0ad75164d7"
+  },
+  {
+    "disp": "イエウイエウ、ジャピジャピ。",
+    "kana": "いえういえう、じゃぴじゃぴ。",
+    "q": "ieuieu,japijapi.",
+    "lang": "ja",
+    "uuid": "a1698897-d3de-44b4-8ebc-416772eec244"
+  },
+  {
+    "disp": "パペパペ、ヨユヨユ。",
+    "kana": "ぱぺぱぺ、よゆよゆ。",
+    "q": "papepape,yoyuyoyu.",
+    "lang": "ja",
+    "uuid": "cd3ce8e2-cd2a-4c62-b29b-1d2721390836"
+  },
+  {
+    "disp": "ポピポピ、ユアユア。",
+    "kana": "ぽぴぽぴ、ゆあゆあ。",
+    "q": "popipopi,yuayua.",
+    "lang": "ja",
+    "uuid": "c4301052-44a5-42a3-a482-e259175df8e7"
+  },
+  {
+    "disp": "エヤエヤ、アジュアジュ。",
+    "kana": "えやえや、あじゅあじゅ。",
+    "q": "eyaeya,ajuaju.",
+    "lang": "ja",
+    "uuid": "2bf3b792-1f14-4bea-a16d-5fab5b9c4c65"
+  },
+  {
+    "disp": "ウオアウオア、アペアペ。",
+    "kana": "うおあうおあ、あぺあぺ。",
+    "q": "uoauoa,apeape.",
+    "lang": "ja",
+    "uuid": "971c38fc-2166-4fc8-8034-ec3b7e6aa739"
+  },
+  {
+    "disp": "アヤアヤ、オユオユ。",
+    "kana": "あやあや、おゆおゆ。",
+    "q": "ayaaya,oyuoyu.",
+    "lang": "ja",
+    "uuid": "d527ff26-1b2a-42f9-9c9a-b1cdc566e347"
+  },
+  {
+    "disp": "イオエイオエ、ジャオジャオ。",
+    "kana": "いおえいおえ、じゃおじゃお。",
+    "q": "ioeioe,jaojao.",
+    "lang": "ja",
+    "uuid": "bfa1a11b-7195-45f3-a5ae-7fc037ce1d4a"
+  },
+  {
+    "disp": "ジュパジュパ、イオウイオウ。",
+    "kana": "じゅぱじゅぱ、いおういおう。",
+    "q": "jupajupa,iouiou.",
+    "lang": "ja",
+    "uuid": "856bcbf7-dcde-4f6c-ba3b-515797090644"
+  },
+  {
+    "disp": "ピウピウ、アウエアウエ。",
+    "kana": "ぴうぴう、あうえあうえ。",
+    "q": "piupiu,aueaue.",
+    "lang": "ja",
+    "uuid": "2e3f5818-cc1c-4053-93c1-8c2e15935f3a"
+  },
+  {
+    "disp": "イエアイエア、ピジェピジェ。",
+    "kana": "いえあいえあ、ぴじぇぴじぇ。",
+    "q": "ieaiea,pijepije.",
+    "lang": "ja",
+    "uuid": "3093582a-8c6c-49e1-bbea-53f312112492"
+  },
+  {
+    "disp": "パポパポ、エウエウ。",
+    "kana": "ぱぽぱぽ、えうえう。",
+    "q": "papopapo,eueu.",
+    "lang": "ja",
+    "uuid": "53182706-d10f-4091-a2a6-80083a278515"
+  },
+  {
+    "disp": "ペヤペヤ、プエプエ。",
+    "kana": "ぺやぺや、ぷえぷえ。",
+    "q": "peyapeya,puepue.",
+    "lang": "ja",
+    "uuid": "3b04fa85-1def-40c3-85a2-4974a19d3ee9"
+  },
+  {
+    "disp": "ジュポジュポ、ウジャウジャ。",
+    "kana": "じゅぽじゅぽ、うじゃうじゃ。",
+    "q": "jupojupo,ujauja.",
+    "lang": "ja",
+    "uuid": "4d8acb48-cbeb-4bf4-b8b1-66a7e814f1aa"
+  },
+  {
+    "disp": "エプエプ、オヤオヤ。",
+    "kana": "えぷえぷ、おやおや。",
+    "q": "epuepu,oyaoya.",
+    "lang": "ja",
+    "uuid": "01e3db1f-4e6a-4036-b43c-eea33656f1d6"
+  },
+  {
+    "disp": "ピョイピョイ、ジョオジョオ。",
+    "kana": "ぴょいぴょい、じょおじょお。",
+    "q": "pyoipyoi,joojoo.",
+    "lang": "ja",
+    "uuid": "0c90b47e-edb6-45ea-8546-8a9cdb8f1a7e"
+  },
+  {
+    "disp": "ヤジョヤジョ、プポプポ。",
+    "kana": "やじょやじょ、ぷぽぷぽ。",
+    "q": "yajoyajo,pupopupo.",
+    "lang": "ja",
+    "uuid": "9dd0cee2-77c3-429f-a142-81f6237b9cce"
+  },
+  {
+    "disp": "エオイエオイ、ジュユジュユ。",
+    "kana": "えおいえおい、じゅゆじゅゆ。",
+    "q": "eoieoi,juyujuyu.",
+    "lang": "ja",
+    "uuid": "d6324368-72c1-40a2-b53f-170b24e4e36f"
+  },
+  {
+    "disp": "ジェアジェア、ユジャユジャ。",
+    "kana": "じぇあじぇあ、ゆじゃゆじゃ。",
+    "q": "jeajea,yujayuja.",
+    "lang": "ja",
+    "uuid": "774c4a42-3189-4c1e-b97c-294eaadf0b77"
+  },
+  {
+    "disp": "ピャヤピャヤ、プジェプジェ。",
+    "kana": "ぴゃやぴゃや、ぷじぇぷじぇ。",
+    "q": "pyayapyaya,pujepuje.",
+    "lang": "ja",
+    "uuid": "3599db26-c9d1-4707-85cc-95fd21e15246"
+  },
+  {
+    "disp": "オウイオウイ、ポオポオ。",
+    "kana": "おういおうい、ぽおぽお。",
+    "q": "ouioui,poopoo.",
+    "lang": "ja",
+    "uuid": "436041f2-ea41-4ae6-bd62-d0f2f1c130cd"
+  },
+  {
+    "disp": "ジュエジュエ、イアウイアウ。",
+    "kana": "じゅえじゅえ、いあういあう。",
+    "q": "juejue,iauiau.",
+    "lang": "ja",
+    "uuid": "7e804ae6-258e-4219-b16f-4093d56d4eb9"
+  },
+  {
+    "disp": "アオエアオエ、アウイアウイ。",
+    "kana": "あおえあおえ、あういあうい。",
+    "q": "aoeaoe,auiaui.",
+    "lang": "ja",
+    "uuid": "8a286ebe-7b85-4fc8-bca4-f2e5d8456e98"
+  },
+  {
+    "disp": "アユアユ、ヨオヨオ。",
+    "kana": "あゆあゆ、よおよお。",
+    "q": "ayuayu,yooyoo.",
+    "lang": "ja",
+    "uuid": "a9632b31-e088-4098-89e0-fbccfe598ee9"
+  },
+  {
+    "disp": "ヤユヤユ、ユイユイ。",
+    "kana": "やゆやゆ、ゆいゆい。",
+    "q": "yayuyayu,yuiyui.",
+    "lang": "ja",
+    "uuid": "0d2c17a1-0181-4e9c-9434-9ed5ec118dc8"
+  },
+  {
+    "disp": "ヤピュヤピュ、イパイパ。",
+    "kana": "やぴゅやぴゅ、いぱいぱ。",
+    "q": "yapyuyapyu,ipaipa.",
+    "lang": "ja",
+    "uuid": "d53fa44a-78f9-463a-aaeb-5fdcf8a7e51f"
+  },
+  {
+    "disp": "ペジョペジョ、パジュパジュ。",
+    "kana": "ぺじょぺじょ、ぱじゅぱじゅ。",
+    "q": "pejopejo,pajupaju.",
+    "lang": "ja",
+    "uuid": "e8c9c39f-3749-4a1e-af61-807298a82f8d"
+  },
+  {
+    "disp": "オジョオジョ、ヤピヤピ。",
+    "kana": "おじょおじょ、やぴやぴ。",
+    "q": "ojoojo,yapiyapi.",
+    "lang": "ja",
+    "uuid": "357ed67d-2c87-4c1c-bbf8-1665520995b1"
+  },
+  {
+    "disp": "ヨアヨア、プアプア。",
+    "kana": "よあよあ、ぷあぷあ。",
+    "q": "yoayoa,puapua.",
+    "lang": "ja",
+    "uuid": "0ccf36e5-b15a-4fdc-9828-0f711e753e35"
+  },
+  {
+    "disp": "ユジョユジョ、ジャヤジャヤ。",
+    "kana": "ゆじょゆじょ、じゃやじゃや。",
+    "q": "yujoyujo,jayajaya.",
+    "lang": "ja",
+    "uuid": "375f8454-ba08-4bf2-9238-3121fd59eb1a"
+  },
+  {
+    "disp": "アピアピ、ウイアウイア。",
+    "kana": "あぴあぴ、ういあういあ。",
+    "q": "apiapi,uiauia.",
+    "lang": "ja",
+    "uuid": "1e6377b5-8fc8-477f-a3ed-aa0c420020fc"
+  },
+  {
+    "disp": "パオパオ、ウオエウオエ。",
+    "kana": "ぱおぱお、うおえうおえ。",
+    "q": "paopao,uoeuoe.",
+    "lang": "ja",
+    "uuid": "4c2d3e7f-5de5-4701-9665-ac9bef4dfde9"
+  },
+  {
+    "disp": "オイオイ、プペプペ。",
+    "kana": "おいおい、ぷぺぷぺ。",
+    "q": "oioi,pupepupe.",
+    "lang": "ja",
+    "uuid": "029eeebc-3793-4922-8b01-f70b00b0c507"
+  },
+  {
+    "disp": "ユピョユピョ、アオイアオイ。",
+    "kana": "ゆぴょゆぴょ、あおいあおい。",
+    "q": "yupyoyupyo,aoiaoi.",
+    "lang": "ja",
+    "uuid": "0c15e475-c73c-4ec4-a37c-5bf8f7b75ed5"
+  },
+  {
+    "disp": "ジョエジョエ、イピュイピュ。",
+    "kana": "じょえじょえ、いぴゅいぴゅ。",
+    "q": "joejoe,ipyuipyu.",
+    "lang": "ja",
+    "uuid": "7600faef-3e55-44f1-ba0e-fb7603e8555b"
+  },
+  {
+    "disp": "アオアオ、オエウオエウ。",
+    "kana": "あおあお、おえうおえう。",
+    "q": "aoao,oeuoeu.",
+    "lang": "ja",
+    "uuid": "a49533b2-a4a9-4658-998b-743f72c36eab"
+  },
+  {
+    "disp": "イウアイウア、ジョピジョピ。",
+    "kana": "いうあいうあ、じょぴじょぴ。",
+    "q": "iuaiua,jopijopi.",
+    "lang": "ja",
+    "uuid": "4b5f8f75-feea-4871-b6df-de1f4d5d7bc5"
+  },
+  {
+    "disp": "ユジュユジュ、ジョイジョイ。",
+    "kana": "ゆじゅゆじゅ、じょいじょい。",
+    "q": "yujuyuju,joijoi.",
+    "lang": "ja",
+    "uuid": "99b36743-f9de-4d8e-bba9-a367dad317b0"
+  },
+  {
+    "disp": "プヤプヤ、エウイエウイ。",
+    "kana": "ぷやぷや、えういえうい。",
+    "q": "puyapuya,euieui.",
+    "lang": "ja",
+    "uuid": "2a0eaf4b-a864-406d-b92e-ace983a3c726"
+  },
+  {
+    "disp": "ピジョピジョ、エアオエアオ。",
+    "kana": "ぴじょぴじょ、えあおえあお。",
+    "q": "pijopijo,eaoeao.",
+    "lang": "ja",
+    "uuid": "3ca5ea66-6c5f-4e5d-bc29-868dc90372e0"
+  },
+  {
+    "disp": "イプイプ、ユウユウ。",
+    "kana": "いぷいぷ、ゆうゆう。",
+    "q": "ipuipu,yuuyuu.",
+    "lang": "ja",
+    "uuid": "420c5bcd-078d-45d9-b9fa-98a7a7c1939d"
+  },
+  {
+    "disp": "エポエポ、イウオイウオ。",
+    "kana": "えぽえぽ、いうおいうお。",
+    "q": "epoepo,iuoiuo.",
+    "lang": "ja",
+    "uuid": "f682ba7f-7c93-48b5-93cd-a4b0d82ff7c3"
+  },
+  {
+    "disp": "ヤペヤペ、ピオピオ。",
+    "kana": "やぺやぺ、ぴおぴお。",
+    "q": "yapeyape,piopio.",
+    "lang": "ja",
+    "uuid": "c43636a4-20a8-44bf-b46e-7737025172fa"
+  },
+  {
+    "disp": "エウアエウア、エパエパ。",
+    "kana": "えうあえうあ、えぱえぱ。",
+    "q": "euaeua,epaepa.",
+    "lang": "ja",
+    "uuid": "9a0ee727-1ea5-46bb-89f1-39365658924a"
+  },
+  {
+    "disp": "ウヨウヨ、イペイペ。",
+    "kana": "うようよ、いぺいぺ。",
+    "q": "uyouyo,ipeipe.",
+    "lang": "ja",
+    "uuid": "1a2667f3-58cb-446f-ad84-d56802935800"
+  },
+  {
+    "disp": "ピョエピョエ、ウエイウエイ。",
+    "kana": "ぴょえぴょえ、うえいうえい。",
+    "q": "pyoepyoe,ueiuei.",
+    "lang": "ja",
+    "uuid": "ce67c299-0525-4fba-92d9-fbbbb276896e"
+  },
+  {
+    "disp": "ピョウピョウ、ユエユエ。",
+    "kana": "ぴょうぴょう、ゆえゆえ。",
+    "q": "pyoupyou,yueyue.",
+    "lang": "ja",
+    "uuid": "4a69f64a-9265-416a-8827-f35f05b7a9e4"
+  },
+  {
+    "disp": "ヨジェヨジェ、ピペピペ。",
+    "kana": "よじぇよじぇ、ぴぺぴぺ。",
+    "q": "yojeyoje,pipepipe.",
+    "lang": "ja",
+    "uuid": "680915ce-f626-46e8-8845-043c2ffe506f"
+  },
+  {
+    "disp": "ユパユパ、ピプピプ。",
+    "kana": "ゆぱゆぱ、ぴぷぴぷ。",
+    "q": "yupayupa,pipupipu.",
+    "lang": "ja",
+    "uuid": "17f4ba5b-559e-45df-8c95-8883a8fb6cad"
+  },
+  {
+    "disp": "エウオエウオ、ポジョポジョ。",
+    "kana": "えうおえうお、ぽじょぽじょ。",
+    "q": "euoeuo,pojopojo.",
+    "lang": "ja",
+    "uuid": "17beda23-b10e-48cf-a65e-91dd9741971b"
+  },
+  {
+    "disp": "ジョヨジョヨ、ジュオジュオ。",
+    "kana": "じょよじょよ、じゅおじゅお。",
+    "q": "joyojoyo,juojuo.",
+    "lang": "ja",
+    "uuid": "db17cab3-548c-4749-8a14-fb2eb83a8e23"
+  },
+  {
+    "disp": "エジョエジョ、ポアポア。",
+    "kana": "えじょえじょ、ぽあぽあ。",
+    "q": "ejoejo,poapoa.",
+    "lang": "ja",
+    "uuid": "6c1d1316-4460-4272-9a72-be89244e5534"
+  },
+  {
+    "disp": "ユピュユピュ、ヤパヤパ。",
+    "kana": "ゆぴゅゆぴゅ、やぱやぱ。",
+    "q": "yupyuyupyu,yapayapa.",
+    "lang": "ja",
+    "uuid": "9feaa138-e2e8-42f1-9ce6-af8032c2b8c7"
+  },
+  {
+    "disp": "ポヨポヨ、ジョユジョユ。",
+    "kana": "ぽよぽよ、じょゆじょゆ。",
+    "q": "poyopoyo,joyujoyu.",
+    "lang": "ja",
+    "uuid": "f9908a4c-36a2-42ef-9f89-d41f37e8236c"
+  },
+  {
+    "disp": "イピャイピャ、ピャオピャオ。",
+    "kana": "いぴゃいぴゃ、ぴゃおぴゃお。",
+    "q": "ipyaipya,pyaopyao.",
+    "lang": "ja",
+    "uuid": "2195291b-d19f-4264-b30d-d1bc967a1ebb"
+  },
+  {
+    "disp": "ピアピア、ヨジャヨジャ。",
+    "kana": "ぴあぴあ、よじゃよじゃ。",
+    "q": "piapia,yojayoja.",
+    "lang": "ja",
+    "uuid": "185697d7-5a7a-4172-9161-7250bd898ea2"
+  },
+  {
+    "disp": "オエアオエア、オピュオピュ。",
+    "kana": "おえあおえあ、おぴゅおぴゅ。",
+    "q": "oeaoea,opyuopyu.",
+    "lang": "ja",
+    "uuid": "6ce1bc77-35e7-40bf-9adb-23a1e0c533fe"
+  },
+  {
+    "disp": "ヤポヤポ、オエオエ。",
+    "kana": "やぽやぽ、おえおえ。",
+    "q": "yapoyapo,oeoe.",
+    "lang": "ja",
+    "uuid": "b571ed27-eb70-4bcc-9d90-13c8f4b0e978"
+  },
+  {
+    "disp": "オアオア、ジャパジャパ。",
+    "kana": "おあおあ、じゃぱじゃぱ。",
+    "q": "oaoa,japajapa.",
+    "lang": "ja",
+    "uuid": "f3d5b23a-7f6e-421c-882a-1be79c39bd06"
+  },
+  {
+    "disp": "オプオプ、ヤイヤイ。",
+    "kana": "おぷおぷ、やいやい。",
+    "q": "opuopu,yaiyai.",
+    "lang": "ja",
+    "uuid": "7ac68e4b-2f3d-4c69-9c79-418b5dd33c98"
+  },
+  {
+    "disp": "ウエアウエア、ピイピイ。",
+    "kana": "うえあうえあ、ぴいぴい。",
+    "q": "ueauea,piipii.",
+    "lang": "ja",
+    "uuid": "98621532-5876-48da-91c5-b64e2f813f48"
+  },
+  {
+    "disp": "ペヨペヨ、プジョプジョ。",
+    "kana": "ぺよぺよ、ぷじょぷじょ。",
+    "q": "peyopeyo,pujopujo.",
+    "lang": "ja",
+    "uuid": "6e49149c-09b4-4bdd-9704-9dd4345dada2"
+  },
+  {
+    "disp": "ジュヤジュヤ、ポペポペ。",
+    "kana": "じゅやじゅや、ぽぺぽぺ。",
+    "q": "juyajuya,popepope.",
+    "lang": "ja",
+    "uuid": "ddf94de4-167b-464b-9cc3-67e9914c8d17"
+  },
+  {
+    "disp": "イジュイジュ、イアオイアオ。",
+    "kana": "いじゅいじゅ、いあおいあお。",
+    "q": "ijuiju,iaoiao.",
+    "lang": "ja",
+    "uuid": "ccf68810-1bd1-400d-92bf-283412a69289"
+  },
+  {
+    "disp": "アオウアオウ、ウプウプ。",
+    "kana": "あおうあおう、うぷうぷ。",
+    "q": "aouaou,upuupu.",
+    "lang": "ja",
+    "uuid": "20e95669-911e-4f17-b55a-d0af4219a482"
+  },
+  {
+    "disp": "ジュアジュア、プオプオ。",
+    "kana": "じゅあじゅあ、ぷおぷお。",
+    "q": "juajua,puopuo.",
+    "lang": "ja",
+    "uuid": "8c91d2b5-4d12-44a7-9dda-8060fd95ad12"
+  },
+  {
+    "disp": "オアイオアイ、ピャエピャエ。",
+    "kana": "おあいおあい、ぴゃえぴゃえ。",
+    "q": "oaioai,pyaepyae.",
+    "lang": "ja",
+    "uuid": "bd1164e7-f39d-471b-8abf-8b3b1bc8fb88"
+  },
+  {
+    "disp": "ウエオウエオ、エオウエオウ。",
+    "kana": "うえおうえお、えおうえおう。",
+    "q": "ueoueo,eoueou.",
+    "lang": "ja",
+    "uuid": "f0d0038e-1c6a-4138-aab6-1086dc53d3e8"
+  },
+  {
+    "disp": "イオイオ、エオアエオア。",
+    "kana": "いおいお、えおあえおあ。",
+    "q": "ioio,eoaeoa.",
+    "lang": "ja",
+    "uuid": "3c9682b9-3b6f-4b6a-9a3b-917f59722076"
+  },
+  {
+    "disp": "オイエオイエ、ジョアジョア。",
+    "kana": "おいえおいえ、じょあじょあ。",
+    "q": "oieoie,joajoa.",
+    "lang": "ja",
+    "uuid": "e3bd3a85-d01d-45dd-a92e-02516b819f89"
+  },
+  {
+    "disp": "プパプパ、ジェポジェポ。",
+    "kana": "ぷぱぷぱ、じぇぽじぇぽ。",
+    "q": "pupapupa,jepojepo.",
+    "lang": "ja",
+    "uuid": "34b02aa7-a855-4392-92b2-b3b09cc9e343"
+  },
+  {
+    "disp": "ジャプジャプ、プヨプヨ。",
+    "kana": "じゃぷじゃぷ、ぷよぷよ。",
+    "q": "japujapu,puyopuyo.",
+    "lang": "ja",
+    "uuid": "d4916589-f915-4ba3-9b69-9af12e011726"
+  },
+  {
+    "disp": "ウジェウジェ、エジャエジャ。",
+    "kana": "うじぇうじぇ、えじゃえじゃ。",
+    "q": "ujeuje,ejaeja.",
+    "lang": "ja",
+    "uuid": "c15f2d27-5fd4-479c-b654-7cf9c7f7a8a1"
+  },
+  {
+    "disp": "エピュエピュ、ウヤウヤ。",
+    "kana": "えぴゅえぴゅ、うやうや。",
+    "q": "epyuepyu,uyauya.",
+    "lang": "ja",
+    "uuid": "41a51687-6ff2-40a0-af55-63ee355548a2"
+  },
+  {
+    "disp": "ジョポジョポ、ユヤユヤ。",
+    "kana": "じょぽじょぽ、ゆやゆや。",
+    "q": "jopojopo,yuyayuya.",
+    "lang": "ja",
+    "uuid": "7bfe4c9c-f3c9-4938-9746-e901631c1efb"
+  },
+  {
+    "disp": "ヤエヤエ、ピャユピャユ。",
+    "kana": "やえやえ、ぴゃゆぴゃゆ。",
+    "q": "yaeyae,pyayupyayu.",
+    "lang": "ja",
+    "uuid": "3453b657-8e9b-4e0d-a0ae-70724a2818a5"
+  },
+  {
+    "disp": "ヤピョヤピョ、ピャウピャウ。",
+    "kana": "やぴょやぴょ、ぴゃうぴゃう。",
+    "q": "yapyoyapyo,pyaupyau.",
+    "lang": "ja",
+    "uuid": "dd83b703-e91a-4ba6-83bd-c1da077f6d97"
+  },
+  {
+    "disp": "オイアオイア、ペエペエ。",
+    "kana": "おいあおいあ、ぺえぺえ。",
+    "q": "oiaoia,peepee.",
+    "lang": "ja",
+    "uuid": "c502c8b6-c3b5-4b20-b6c8-d7428589c63c"
+  },
+  {
+    "disp": "ウパウパ、ペオペオ。",
+    "kana": "うぱうぱ、ぺおぺお。",
+    "q": "upaupa,peopeo.",
+    "lang": "ja",
+    "uuid": "e27e989d-d67f-49c9-8f1f-62440e4e3e6a"
+  },
+  {
+    "disp": "ジュピジュピ、ウジュウジュ。",
+    "kana": "じゅぴじゅぴ、うじゅうじゅ。",
+    "q": "jupijupi,ujuuju.",
+    "lang": "ja",
+    "uuid": "4fe575c9-1504-4257-9704-009d61e897d4"
+  },
+  {
+    "disp": "エアイエアイ、ジャエジャエ。",
+    "kana": "えあいえあい、じゃえじゃえ。",
+    "q": "eaieai,jaejae.",
+    "lang": "ja",
+    "uuid": "c8406a4e-da11-4582-aa6b-107a44cceda6"
+  },
+  {
+    "disp": "ポプポプ、ヨジョヨジョ。",
+    "kana": "ぽぷぽぷ、よじょよじょ。",
+    "q": "popupopu,yojoyojo.",
+    "lang": "ja",
+    "uuid": "d1a0dda4-de7c-4394-8156-8ca5d44876e2"
+  },
+  {
+    "disp": "オエイオエイ、イオアイオア。",
+    "kana": "おえいおえい、いおあいおあ。",
+    "q": "oeioei,ioaioa.",
+    "lang": "ja",
+    "uuid": "9d4669e2-cffe-4236-a5cd-1be0bbafcb20"
+  },
+  {
+    "disp": "アピャアピャ、ユピユピ。",
+    "kana": "あぴゃあぴゃ、ゆぴゆぴ。",
+    "q": "apyaapya,yupiyupi.",
+    "lang": "ja",
+    "uuid": "3b61bb9d-0c6d-46ec-be92-711170931f58"
+  },
+  {
+    "disp": "オウアオウア、ジャイジャイ。",
+    "kana": "おうあおうあ、じゃいじゃい。",
+    "q": "ouaoua,jaijai.",
+    "lang": "ja",
+    "uuid": "3db45ace-df2e-4439-ba3a-fc82318df5e3"
+  },
+  {
+    "disp": "ウオイウオイ、オポオポ。",
+    "kana": "うおいうおい、おぽおぽ。",
+    "q": "uoiuoi,opoopo.",
+    "lang": "ja",
+    "uuid": "0eca888c-19b9-4c0b-a97c-2c35a3c62a0f"
+  },
+  {
+    "disp": "ピュオピュオ、ピョアピョア。",
+    "kana": "ぴゅおぴゅお、ぴょあぴょあ。",
+    "q": "pyuopyuo,pyoapyoa.",
+    "lang": "ja",
+    "uuid": "b6811994-e1ef-430f-a1e1-ff7b7fa4d706"
+  },
+  {
+    "disp": "エピエピ、オウオウ。",
+    "kana": "えぴえぴ、おうおう。",
+    "q": "epiepi,ouou.",
+    "lang": "ja",
+    "uuid": "ee823b50-01bd-4e35-828e-8f3f03a17f57"
+  },
+  {
+    "disp": "ウアエウアエ、ジュイジュイ。",
+    "kana": "うあえうあえ、じゅいじゅい。",
+    "q": "uaeuae,juijui.",
+    "lang": "ja",
+    "uuid": "93169672-ec78-4f50-bbb0-0a33c5bd1e67"
+  },
+  {
+    "disp": "ポイポイ、パエパエ。",
+    "kana": "ぽいぽい、ぱえぱえ。",
+    "q": "poipoi,paepae.",
+    "lang": "ja",
+    "uuid": "1a77e169-bdc7-4a93-9ad2-3b930041edf5"
+  },
+  {
+    "disp": "エイウエイウ、ピュエピュエ。",
+    "kana": "えいうえいう、ぴゅえぴゅえ。",
+    "q": "eiueiu,pyuepyue.",
+    "lang": "ja",
+    "uuid": "1ad24f07-dd01-4cce-bb9a-eedfeaec8ca0"
+  },
+  {
+    "disp": "ペプペプ、アイエアイエ。",
+    "kana": "ぺぷぺぷ、あいえあいえ。",
+    "q": "pepupepu,aieaie.",
+    "lang": "ja",
+    "uuid": "6c349b50-563f-4ea6-98ec-24696c9ea2af"
+  },
+  {
+    "disp": "エジュエジュ、プピプピ。",
+    "kana": "えじゅえじゅ、ぷぴぷぴ。",
+    "q": "ejueju,pupipupi.",
+    "lang": "ja",
+    "uuid": "02f614e2-095b-4cc6-9219-f1e28ffb4405"
+  },
+  {
+    "disp": "ウピョウピョ、ヨピャヨピャ。",
+    "kana": "うぴょうぴょ、よぴゃよぴゃ。",
+    "q": "upyoupyo,yopyayopya.",
+    "lang": "ja",
+    "uuid": "0ea145bc-b1f1-4117-bb4a-de7d97a3559e"
+  },
+  {
+    "disp": "ヨポヨポ、ジェユジェユ。",
+    "kana": "よぽよぽ、じぇゆじぇゆ。",
+    "q": "yopoyopo,jeyujeyu.",
+    "lang": "ja",
+    "uuid": "8abb9aaf-a346-4bb3-868b-d4e1e24748df"
+  },
+  {
+    "disp": "ポエポエ、ヤオヤオ。",
+    "kana": "ぽえぽえ、やおやお。",
+    "q": "poepoe,yaoyao.",
+    "lang": "ja",
+    "uuid": "821ab7dd-9359-4e0e-8d82-aeedd743f414"
+  },
+  {
+    "disp": "ウイウイ、ペポペポ。",
+    "kana": "ういうい、ぺぽぺぽ。",
+    "q": "uiui,pepopepo.",
+    "lang": "ja",
+    "uuid": "1157f8cf-7a8d-4e76-a051-fed4730dbebf"
+  },
+  {
+    "disp": "ジェピジェピ、イアエイアエ。",
+    "kana": "じぇぴじぇぴ、いあえいあえ。",
+    "q": "jepijepi,iaeiae.",
+    "lang": "ja",
+    "uuid": "88fac751-22b0-46b8-a0b1-672544a89edc"
+  },
+  {
+    "disp": "ヤピャヤピャ、アイウアイウ。",
+    "kana": "やぴゃやぴゃ、あいうあいう。",
+    "q": "yapyayapya,aiuaiu.",
+    "lang": "ja",
+    "uuid": "709baa01-95ea-4f45-b198-331f653a2baa"
+  },
+  {
+    "disp": "ピュユピュユ、アヨアヨ。",
+    "kana": "ぴゅゆぴゅゆ、あよあよ。",
+    "q": "pyuyupyuyu,ayoayo.",
+    "lang": "ja",
+    "uuid": "b1b7c13c-59aa-4bc5-b1ac-3c1a798ece63"
+  },
+  {
+    "disp": "オピャオピャ、エジェエジェ。",
+    "kana": "おぴゃおぴゃ、えじぇえじぇ。",
+    "q": "opyaopya,ejeeje.",
+    "lang": "ja",
+    "uuid": "cce54fe8-f66d-4d30-9612-532e5b2e1499"
+  },
+  {
+    "disp": "ペジャペジャ、ユプユプ。",
+    "kana": "ぺじゃぺじゃ、ゆぷゆぷ。",
+    "q": "pejapeja,yupuyupu.",
+    "lang": "ja",
+    "uuid": "ba29c137-a4db-4a06-bb73-ba3f1c87c0ee"
+  },
+  {
+    "disp": "ヤアヤア、ピジャピジャ。",
+    "kana": "やあやあ、ぴじゃぴじゃ。",
+    "q": "yaayaa,pijapija.",
+    "lang": "ja",
+    "uuid": "fa65e249-5b34-490d-902b-59ae0d6ef14e"
+  },
+  {
+    "disp": "ウアオウアオ、パヤパヤ。",
+    "kana": "うあおうあお、ぱやぱや。",
+    "q": "uaouao,payapaya.",
+    "lang": "ja",
+    "uuid": "52f90496-6278-4daa-961f-c51d78fbdfb0"
+  },
+  {
+    "disp": "ウイエウイエ、アエアエ。",
+    "kana": "ういえういえ、あえあえ。",
+    "q": "uieuie,aeae.",
+    "lang": "ja",
+    "uuid": "c66df8e3-ac1b-4f90-afd7-72ebdf4ae688"
+  },
+  {
+    "disp": "エピャエピャ、ユヨユヨ。",
+    "kana": "えぴゃえぴゃ、ゆよゆよ。",
+    "q": "epyaepya,yuyoyuyo.",
+    "lang": "ja",
+    "uuid": "98d69dfa-6cf5-4077-a4d5-2068a586aecb"
+  },
+  {
+    "disp": "ヨピュヨピュ、プウプウ。",
+    "kana": "よぴゅよぴゅ、ぷうぷう。",
+    "q": "yopyuyopyu,puupuu.",
+    "lang": "ja",
+    "uuid": "508ab5b2-b3ce-4bf6-9378-87b04dea48ea"
+  },
+  {
+    "disp": "パピパピ、ジョパジョパ。",
+    "kana": "ぱぴぱぴ、じょぱじょぱ。",
+    "q": "papipapi,jopajopa.",
+    "lang": "ja",
+    "uuid": "0191e4f5-2a44-4ccc-961b-2689be30a91a"
+  },
+  {
+    "disp": "アプアプ、ヤヨヤヨ。",
+    "kana": "あぷあぷ、やよやよ。",
+    "q": "apuapu,yayoyayo.",
+    "lang": "ja",
+    "uuid": "a83bfebd-73e5-49d7-b99a-c5ea702705aa"
+  },
+  {
+    "disp": "アイアイ、ピュヨピュヨ。",
+    "kana": "あいあい、ぴゅよぴゅよ。",
+    "q": "aiai,pyuyopyuyo.",
+    "lang": "ja",
+    "uuid": "8bb74bed-4630-4c56-a970-787a9866cbd9"
+  },
+  {
+    "disp": "アパアパ、アエオアエオ。",
+    "kana": "あぱあぱ、あえおあえお。",
+    "q": "apaapa,aeoaeo.",
+    "lang": "ja",
+    "uuid": "9c030090-9e2a-4899-95d1-301d2439f000"
+  },
+  {
+    "disp": "ヨピョヨピョ、アピョアピョ。",
+    "kana": "よぴょよぴょ、あぴょあぴょ。",
+    "q": "yopyoyopyo,apyoapyo.",
+    "lang": "ja",
+    "uuid": "221d506a-3894-4237-b878-0d490ceb16ca"
+  },
+  {
+    "disp": "ウピウピ、パジャパジャ。",
+    "kana": "うぴうぴ、ぱじゃぱじゃ。",
+    "q": "upiupi,pajapaja.",
+    "lang": "ja",
+    "uuid": "d59d92e7-a29b-491b-adc6-45ec96e9a7dd"
+  },
+  {
+    "disp": "ジュヨジュヨ、ポジャポジャ。",
+    "kana": "じゅよじゅよ、ぽじゃぽじゃ。",
+    "q": "juyojuyo,pojapoja.",
+    "lang": "ja",
+    "uuid": "71b050e9-46e3-4d2a-8674-394e0ad89dff"
+  },
+  {
+    "disp": "ヤジャヤジャ、ウポウポ。",
+    "kana": "やじゃやじゃ、うぽうぽ。",
+    "q": "yajayaja,upoupo.",
+    "lang": "ja",
+    "uuid": "56fd5365-0fb1-4985-8b87-aeac1d55b8f7"
+  },
+  {
+    "disp": "ジェヨジェヨ、ポユポユ。",
+    "kana": "じぇよじぇよ、ぽゆぽゆ。",
+    "q": "jeyojeyo,poyupoyu.",
+    "lang": "ja",
+    "uuid": "d545acdb-5999-486f-8b6d-9b54340e2240"
+  },
+  {
+    "disp": "ピョオピョオ、ピポピポ。",
+    "kana": "ぴょおぴょお、ぴぽぴぽ。",
+    "q": "pyoopyoo,pipopipo.",
+    "lang": "ja",
+    "uuid": "09fb612c-719c-4b56-a349-6e72242d0229"
+  },
+  {
+    "disp": "ペピペピ、ポヤポヤ。",
+    "kana": "ぺぴぺぴ、ぽやぽや。",
+    "q": "pepipepi,poyapoya.",
+    "lang": "ja",
+    "uuid": "bb74b062-be9c-4c66-87be-a3c1819710f8"
+  },
+  {
+    "disp": "イピイピ、イヤイヤ。",
+    "kana": "いぴいぴ、いやいや。",
+    "q": "ipiipi,iyaiya.",
+    "lang": "ja",
+    "uuid": "fc2893cc-b148-4e17-aaa7-a7ef27f7bded"
+  },
+  {
+    "disp": "ヨパヨパ、ピジュピジュ。",
+    "kana": "よぱよぱ、ぴじゅぴじゅ。",
+    "q": "yopayopa,pijupiju.",
+    "lang": "ja",
+    "uuid": "8a9a3238-ea51-4775-b92b-d943d1484008"
+  },
+  {
+    "disp": "ポパポパ、ジェプジェプ。",
+    "kana": "ぽぱぽぱ、じぇぷじぇぷ。",
+    "q": "popapopa,jepujepu.",
+    "lang": "ja",
+    "uuid": "4856a48c-74b3-4ca3-9131-46bf454236a6"
+  },
+  {
+    "disp": "パウパウ、プイプイ。",
+    "kana": "ぱうぱう、ぷいぷい。",
+    "q": "paupau,puipui.",
+    "lang": "ja",
+    "uuid": "f2f66509-af33-428e-9e4a-52aa99acf48a"
+  },
+  {
+    "disp": "エペエペ、ウエウエ。",
+    "kana": "えぺえぺ、うえうえ。",
+    "q": "epeepe,ueue.",
+    "lang": "ja",
+    "uuid": "ff802e27-9264-41c6-bd96-1380e5d5329a"
+  },
+  {
+    "disp": "ポジュポジュ、ジョプジョプ。",
+    "kana": "ぽじゅぽじゅ、じょぷじょぷ。",
+    "q": "pojupoju,jopujopu.",
+    "lang": "ja",
+    "uuid": "4940dbb4-60e7-4299-8942-3d64d41f73c2"
+  },
+  {
+    "disp": "ジェアジェア、ヨピョヨピョ。",
+    "kana": "じぇあじぇあ、よぴょよぴょ。",
+    "q": "jeajea,yopyoyopyo.",
+    "lang": "ja",
+    "uuid": "d419fedd-7ea3-4bce-91bc-4b494f69bfcd"
+  },
+  {
+    "disp": "アペアペ、パプパプ。",
+    "kana": "あぺあぺ、ぱぷぱぷ。",
+    "q": "apeape,papupapu.",
+    "lang": "ja",
+    "uuid": "a854092f-95b6-4149-aafe-1baf4863c972"
+  },
+  {
+    "disp": "イジュイジュ、ジョヤジョヤ。",
+    "kana": "いじゅいじゅ、じょやじょや。",
+    "q": "ijuiju,joyajoya.",
+    "lang": "ja",
+    "uuid": "1faf497f-4929-419b-9615-5d99fb3f8b67"
+  },
+  {
+    "disp": "パユパユ、ポプポプ。",
+    "kana": "ぱゆぱゆ、ぽぷぽぷ。",
+    "q": "payupayu,popupopu.",
+    "lang": "ja",
+    "uuid": "c9e91c1b-f177-44a8-82ac-437a1395bf24"
+  },
+  {
+    "disp": "ジェイジェイ、ピュユピュユ。",
+    "kana": "じぇいじぇい、ぴゅゆぴゅゆ。",
+    "q": "jeijei,pyuyupyuyu.",
+    "lang": "ja",
+    "uuid": "ff749ba0-9df8-4e23-973a-451da2627aad"
+  },
+  {
+    "disp": "ウピョウピョ、オエアオエア。",
+    "kana": "うぴょうぴょ、おえあおえあ。",
+    "q": "upyoupyo,oeaoea.",
+    "lang": "ja",
+    "uuid": "0408c00b-11b0-4085-a800-788425b2b830"
+  },
+  {
+    "disp": "アエイアエイ、イエオイエオ。",
+    "kana": "あえいあえい、いえおいえお。",
+    "q": "aeiaei,ieoieo.",
+    "lang": "ja",
+    "uuid": "8d047c54-29f0-46ab-a223-0a8b7699bc10"
+  },
+  {
+    "disp": "ウピュウピュ、ピャウピャウ。",
+    "kana": "うぴゅうぴゅ、ぴゃうぴゃう。",
+    "q": "upyuupyu,pyaupyau.",
+    "lang": "ja",
+    "uuid": "7161bde6-5e38-479c-8bd9-ed7bf1001700"
+  },
+  {
+    "disp": "プジョプジョ、ペヤペヤ。",
+    "kana": "ぷじょぷじょ、ぺやぺや。",
+    "q": "pujopujo,peyapeya.",
+    "lang": "ja",
+    "uuid": "4aa04dd7-73f1-42bd-9099-c562adade54a"
+  },
+  {
+    "disp": "ユピョユピョ、ペジョペジョ。",
+    "kana": "ゆぴょゆぴょ、ぺじょぺじょ。",
+    "q": "yupyoyupyo,pejopejo.",
+    "lang": "ja",
+    "uuid": "46ebdadd-22a1-4955-af9a-07d6b3488550"
+  },
+  {
+    "disp": "ウイウイ、アエアエ。",
+    "kana": "ういうい、あえあえ。",
+    "q": "uiui,aeae.",
+    "lang": "ja",
+    "uuid": "78bde8a0-a3a5-421d-a70b-3909ac1471f6"
+  },
+  {
+    "disp": "エオウエオウ、ユピャユピャ。",
+    "kana": "えおうえおう、ゆぴゃゆぴゃ。",
+    "q": "eoueou,yupyayupya.",
+    "lang": "ja",
+    "uuid": "318a7210-bba0-4b81-8982-eccdf4149250"
+  },
+  {
+    "disp": "アポアポ、ジョオジョオ。",
+    "kana": "あぽあぽ、じょおじょお。",
+    "q": "apoapo,joojoo.",
+    "lang": "ja",
+    "uuid": "e817dc35-e967-4084-b2c0-5167fd80f7f6"
+  },
+  {
+    "disp": "ヤイヤイ、ウピウピ。",
+    "kana": "やいやい、うぴうぴ。",
+    "q": "yaiyai,upiupi.",
+    "lang": "ja",
+    "uuid": "76925ad4-3444-47f6-bda7-f50a8f31d732"
+  },
+  {
+    "disp": "オイエオイエ、ヨウヨウ。",
+    "kana": "おいえおいえ、ようよう。",
+    "q": "oieoie,youyou.",
+    "lang": "ja",
+    "uuid": "c67d6c8b-6185-404f-85b6-48c3520fbe2b"
+  },
+  {
+    "disp": "ペアペア、イポイポ。",
+    "kana": "ぺあぺあ、いぽいぽ。",
+    "q": "peapea,ipoipo.",
+    "lang": "ja",
+    "uuid": "80c1189a-53dd-45db-aa26-3e2901615178"
+  },
+  {
+    "disp": "ポジョポジョ、ウオアウオア。",
+    "kana": "ぽじょぽじょ、うおあうおあ。",
+    "q": "pojopojo,uoauoa.",
+    "lang": "ja",
+    "uuid": "5bda7938-35bd-47ab-a385-ae778cb9a845"
+  },
+  {
+    "disp": "ポヨポヨ、ヨエヨエ。",
+    "kana": "ぽよぽよ、よえよえ。",
+    "q": "poyopoyo,yoeyoe.",
+    "lang": "ja",
+    "uuid": "f43b7f9d-bfcf-49a9-ae8e-1e9112245d16"
+  },
+  {
+    "disp": "ポジュポジュ、アウオアウオ。",
+    "kana": "ぽじゅぽじゅ、あうおあうお。",
+    "q": "pojupoju,auoauo.",
+    "lang": "ja",
+    "uuid": "684f986d-d074-4e4e-b2f1-01ad47d4df82"
+  },
+  {
+    "disp": "ウエイウエイ、エジュエジュ。",
+    "kana": "うえいうえい、えじゅえじゅ。",
+    "q": "ueiuei,ejueju.",
+    "lang": "ja",
+    "uuid": "b3c3c0d6-c889-47ac-b7ee-35e39d0212fb"
+  },
+  {
+    "disp": "ジェポジェポ、イピイピ。",
+    "kana": "じぇぽじぇぽ、いぴいぴ。",
+    "q": "jepojepo,ipiipi.",
+    "lang": "ja",
+    "uuid": "7a453d1e-2b7d-4995-97e6-78e2034a5294"
+  },
+  {
+    "disp": "ピジェピジェ、ジョイジョイ。",
+    "kana": "ぴじぇぴじぇ、じょいじょい。",
+    "q": "pijepije,joijoi.",
+    "lang": "ja",
+    "uuid": "e32979f5-1e82-4eba-8a44-da571b24c922"
+  },
+  {
+    "disp": "ポイポイ、ポユポユ。",
+    "kana": "ぽいぽい、ぽゆぽゆ。",
+    "q": "poipoi,poyupoyu.",
+    "lang": "ja",
+    "uuid": "48ec7062-49e2-4c35-91c0-6568aec7e548"
+  },
+  {
+    "disp": "ヨポヨポ、ピヤピヤ。",
+    "kana": "よぽよぽ、ぴやぴや。",
+    "q": "yopoyopo,piyapiya.",
+    "lang": "ja",
+    "uuid": "5f39e251-3a28-4579-b215-c05eaa5fba94"
+  },
+  {
+    "disp": "エヨエヨ、アパアパ。",
+    "kana": "えよえよ、あぱあぱ。",
+    "q": "eyoeyo,apaapa.",
+    "lang": "ja",
+    "uuid": "b47f9380-ce5f-40d3-a5cf-3a025e6374c6"
+  },
+  {
+    "disp": "ユピユピ、ユジェユジェ。",
+    "kana": "ゆぴゆぴ、ゆじぇゆじぇ。",
+    "q": "yupiyupi,yujeyuje.",
+    "lang": "ja",
+    "uuid": "3a3b9e8b-ad89-411d-804c-bbac62b7c86d"
+  },
+  {
+    "disp": "ヨピヨピ、イピョイピョ。",
+    "kana": "よぴよぴ、いぴょいぴょ。",
+    "q": "yopiyopi,ipyoipyo.",
+    "lang": "ja",
+    "uuid": "51065ccd-b8fe-468b-a799-b88e88003429"
+  },
+  {
+    "disp": "エパエパ、イウイウ。",
+    "kana": "えぱえぱ、いういう。",
+    "q": "epaepa,iuiu.",
+    "lang": "ja",
+    "uuid": "86cf05ad-e55a-4a6b-9401-1d7b12456d59"
+  },
+  {
+    "disp": "ユアユア、ジュヨジュヨ。",
+    "kana": "ゆあゆあ、じゅよじゅよ。",
+    "q": "yuayua,juyojuyo.",
+    "lang": "ja",
+    "uuid": "94cd0645-04c0-41fe-ad14-77c1bd7f4cc3"
+  },
+  {
+    "disp": "ピパピパ、プイプイ。",
+    "kana": "ぴぱぴぱ、ぷいぷい。",
+    "q": "pipapipa,puipui.",
+    "lang": "ja",
+    "uuid": "977e8556-b0e7-4eee-96af-0a01bfa49a72"
+  },
+  {
+    "disp": "アオウアオウ、ポオポオ。",
+    "kana": "あおうあおう、ぽおぽお。",
+    "q": "aouaou,poopoo.",
+    "lang": "ja",
+    "uuid": "242d5c88-37d1-4e36-8d8a-9fe9a655492d"
+  },
+  {
+    "disp": "オジャオジャ、ウイオウイオ。",
+    "kana": "おじゃおじゃ、ういおういお。",
+    "q": "ojaoja,uiouio.",
+    "lang": "ja",
+    "uuid": "2087e63c-d8c9-4b2b-8efc-691d9eccd27a"
+  },
+  {
+    "disp": "エアイエアイ、エヤエヤ。",
+    "kana": "えあいえあい、えやえや。",
+    "q": "eaieai,eyaeya.",
+    "lang": "ja",
+    "uuid": "f8f7fbec-fd80-41ac-9aaa-449a9e8415d9"
+  },
+  {
+    "disp": "イプイプ、ピュオピュオ。",
+    "kana": "いぷいぷ、ぴゅおぴゅお。",
+    "q": "ipuipu,pyuopyuo.",
+    "lang": "ja",
+    "uuid": "3600b5c3-dc50-4cc2-85e5-3650619311e3"
+  },
+  {
+    "disp": "ジュオジュオ、ポピポピ。",
+    "kana": "じゅおじゅお、ぽぴぽぴ。",
+    "q": "juojuo,popipopi.",
+    "lang": "ja",
+    "uuid": "4c5d5802-0357-4159-998e-e3558ba31fe0"
+  },
+  {
+    "disp": "ジェペジェペ、ヤポヤポ。",
+    "kana": "じぇぺじぇぺ、やぽやぽ。",
+    "q": "jepejepe,yapoyapo.",
+    "lang": "ja",
+    "uuid": "a2b1af70-a458-4c70-8f17-d561a10280f2"
+  },
+  {
+    "disp": "プピプピ、ジェヤジェヤ。",
+    "kana": "ぷぴぷぴ、じぇやじぇや。",
+    "q": "pupipupi,jeyajeya.",
+    "lang": "ja",
+    "uuid": "d11312c8-827c-47e2-8ad9-15444953c68c"
+  },
+  {
+    "disp": "パウパウ、オアオア。",
+    "kana": "ぱうぱう、おあおあ。",
+    "q": "paupau,oaoa.",
+    "lang": "ja",
+    "uuid": "b45e11d0-51d4-4d3a-a6fa-e6cf39a923ba"
+  },
+  {
+    "disp": "ユヤユヤ、アピアピ。",
+    "kana": "ゆやゆや、あぴあぴ。",
+    "q": "yuyayuya,apiapi.",
+    "lang": "ja",
+    "uuid": "682b06a6-3a56-4d39-afe4-f468efd552fe"
+  },
+  {
+    "disp": "プヨプヨ、パアパア。",
+    "kana": "ぷよぷよ、ぱあぱあ。",
+    "q": "puyopuyo,paapaa.",
+    "lang": "ja",
+    "uuid": "f76f671a-295f-4aa5-bc7b-0a9eeb5d4f5b"
+  },
+  {
+    "disp": "イウオイウオ、ウオイウオイ。",
+    "kana": "いうおいうお、うおいうおい。",
+    "q": "iuoiuo,uoiuoi.",
+    "lang": "ja",
+    "uuid": "2c3b08af-6fea-4375-a136-8555f7d51ce1"
+  },
+  {
+    "disp": "オイウオイウ、ピジョピジョ。",
+    "kana": "おいうおいう、ぴじょぴじょ。",
+    "q": "oiuoiu,pijopijo.",
+    "lang": "ja",
+    "uuid": "1e27e8e8-7294-426d-9208-8d26249555b6"
+  },
+  {
+    "disp": "ヤユヤユ、エオアエオア。",
+    "kana": "やゆやゆ、えおあえおあ。",
+    "q": "yayuyayu,eoaeoa.",
+    "lang": "ja",
+    "uuid": "9e1986c3-2b3c-436b-b962-165df7ccefba"
+  },
+  {
+    "disp": "イジョイジョ、エピャエピャ。",
+    "kana": "いじょいじょ、えぴゃえぴゃ。",
+    "q": "ijoijo,epyaepya.",
+    "lang": "ja",
+    "uuid": "756e26a0-9b78-4fa8-a104-1c24d8039e24"
+  },
+  {
+    "disp": "エユエユ、エイウエイウ。",
+    "kana": "えゆえゆ、えいうえいう。",
+    "q": "eyueyu,eiueiu.",
+    "lang": "ja",
+    "uuid": "3442caab-ba62-4107-9c74-d6c9e493b990"
+  },
+  {
+    "disp": "オウオウ、エイエイ。",
+    "kana": "おうおう、えいえい。",
+    "q": "ouou,eiei.",
+    "lang": "ja",
+    "uuid": "8af83b02-660f-454c-9673-7cb7ec8b214c"
+  },
+  {
+    "disp": "オウアオウア、アジョアジョ。",
+    "kana": "おうあおうあ、あじょあじょ。",
+    "q": "ouaoua,ajoajo.",
+    "lang": "ja",
+    "uuid": "86cc5f80-8aa6-46f2-a8e9-e2efea37d4f6"
+  },
+  {
+    "disp": "パジュパジュ、ポペポペ。",
+    "kana": "ぱじゅぱじゅ、ぽぺぽぺ。",
+    "q": "pajupaju,popepope.",
+    "lang": "ja",
+    "uuid": "18abdd05-3ed3-488d-90e0-3efe8f242ad5"
+  },
+  {
+    "disp": "プジェプジェ、ピョイピョイ。",
+    "kana": "ぷじぇぷじぇ、ぴょいぴょい。",
+    "q": "pujepuje,pyoipyoi.",
+    "lang": "ja",
+    "uuid": "76768f99-93dc-4f79-b10c-0fad4ca06e90"
+  },
+  {
+    "disp": "アオエアオエ、ユオユオ。",
+    "kana": "あおえあおえ、ゆおゆお。",
+    "q": "aoeaoe,yuoyuo.",
+    "lang": "ja",
+    "uuid": "16c8e3b5-1fac-4343-a9a4-e21f39f8be3e"
+  },
+  {
+    "disp": "ウアウア、ジョアジョア。",
+    "kana": "うあうあ、じょあじょあ。",
+    "q": "uaua,joajoa.",
+    "lang": "ja",
+    "uuid": "bb1ad806-7479-4cdf-ac47-8b507b193fde"
+  },
+  {
+    "disp": "ポジェポジェ、ジェパジェパ。",
+    "kana": "ぽじぇぽじぇ、じぇぱじぇぱ。",
+    "q": "pojepoje,jepajepa.",
+    "lang": "ja",
+    "uuid": "7ffc2d68-ae4c-4848-821e-7189938e9b98"
+  },
+  {
+    "disp": "エアウエアウ、イオイオ。",
+    "kana": "えあうえあう、いおいお。",
+    "q": "eaueau,ioio.",
+    "lang": "ja",
+    "uuid": "7f41ea55-91fe-47e6-a98b-45e04719b9be"
+  },
+  {
+    "disp": "アイアイ、ヤプヤプ。",
+    "kana": "あいあい、やぷやぷ。",
+    "q": "aiai,yapuyapu.",
+    "lang": "ja",
+    "uuid": "cd5de4ec-15dd-4f37-8a42-e912d521f632"
+  },
+  {
+    "disp": "プウプウ、ジャユジャユ。",
+    "kana": "ぷうぷう、じゃゆじゃゆ。",
+    "q": "puupuu,jayujayu.",
+    "lang": "ja",
+    "uuid": "37a43273-a641-4c75-b03e-f3a16991808d"
+  },
+  {
+    "disp": "ポヤポヤ、アオイアオイ。",
+    "kana": "ぽやぽや、あおいあおい。",
+    "q": "poyapoya,aoiaoi.",
+    "lang": "ja",
+    "uuid": "4d89c687-42ae-4393-9c26-ca3e330ed78b"
+  },
+  {
+    "disp": "オプオプ、ウアエウアエ。",
+    "kana": "おぷおぷ、うあえうあえ。",
+    "q": "opuopu,uaeuae.",
+    "lang": "ja",
+    "uuid": "d6925390-52a0-4756-9d6b-15308259d8a0"
+  },
+  {
+    "disp": "ジョペジョペ、ヨジョヨジョ。",
+    "kana": "じょぺじょぺ、よじょよじょ。",
+    "q": "jopejope,yojoyojo.",
+    "lang": "ja",
+    "uuid": "512b4e33-1708-4c01-8eb0-bb30c6a4af1a"
+  },
+  {
+    "disp": "オピュオピュ、ポジャポジャ。",
+    "kana": "おぴゅおぴゅ、ぽじゃぽじゃ。",
+    "q": "opyuopyu,pojapoja.",
+    "lang": "ja",
+    "uuid": "4b04d4eb-b76b-4e04-a8b4-676af7642cb8"
+  },
+  {
+    "disp": "ジュウジュウ、ヨアヨア。",
+    "kana": "じゅうじゅう、よあよあ。",
+    "q": "juujuu,yoayoa.",
+    "lang": "ja",
+    "uuid": "e51cdbe7-fd6b-4f0e-9f8d-be8d43ad7275"
+  },
+  {
+    "disp": "ウプウプ、ヤウヤウ。",
+    "kana": "うぷうぷ、やうやう。",
+    "q": "upuupu,yauyau.",
+    "lang": "ja",
+    "uuid": "f2028b41-0cf0-4b43-b785-83b4f72acc20"
+  },
+  {
+    "disp": "オユオユ、エプエプ。",
+    "kana": "おゆおゆ、えぷえぷ。",
+    "q": "oyuoyu,epuepu.",
+    "lang": "ja",
+    "uuid": "1db34253-3be9-4303-8693-80ebdf4f655d"
+  },
+  {
+    "disp": "オヤオヤ、ヨペヨペ。",
+    "kana": "おやおや、よぺよぺ。",
+    "q": "oyaoya,yopeyope.",
+    "lang": "ja",
+    "uuid": "ac15eb3a-8f2f-4cf5-a33c-3a8e59d66c79"
+  },
+  {
+    "disp": "ヨジェヨジェ、ピユピユ。",
+    "kana": "よじぇよじぇ、ぴゆぴゆ。",
+    "q": "yojeyoje,piyupiyu.",
+    "lang": "ja",
+    "uuid": "bc16a0c4-7017-4499-b0d6-e9e9becbb063"
+  },
+  {
+    "disp": "プポプポ、ジャウジャウ。",
+    "kana": "ぷぽぷぽ、じゃうじゃう。",
+    "q": "pupopupo,jaujau.",
+    "lang": "ja",
+    "uuid": "5f7caba4-b794-4a3b-8fce-8e50686f947e"
+  },
+  {
+    "disp": "ピエピエ、ピョヨピョヨ。",
+    "kana": "ぴえぴえ、ぴょよぴょよ。",
+    "q": "piepie,pyoyopyoyo.",
+    "lang": "ja",
+    "uuid": "fff1da5b-c454-43a5-8dab-9e1e829e2a8a"
+  },
+  {
+    "disp": "オピオピ、ヨプヨプ。",
+    "kana": "おぴおぴ、よぷよぷ。",
+    "q": "opiopi,yopuyopu.",
+    "lang": "ja",
+    "uuid": "c2be9243-c497-4786-9890-104c9f5e55ac"
+  },
+  {
+    "disp": "エピョエピョ、ピイピイ。",
+    "kana": "えぴょえぴょ、ぴいぴい。",
+    "q": "epyoepyo,piipii.",
+    "lang": "ja",
+    "uuid": "c905d76a-4acc-4b51-b321-c5dfc4bd196c"
+  },
+  {
+    "disp": "エウアエウア、ウイアウイア。",
+    "kana": "えうあえうあ、ういあういあ。",
+    "q": "euaeua,uiauia.",
+    "lang": "ja",
+    "uuid": "638af125-5eee-4a23-88f5-d029482a6688"
+  },
+  {
+    "disp": "ジュヤジュヤ、オピャオピャ。",
+    "kana": "じゅやじゅや、おぴゃおぴゃ。",
+    "q": "juyajuya,opyaopya.",
+    "lang": "ja",
+    "uuid": "79c0bcb0-2879-4cc8-9591-fe61983fabed"
+  },
+  {
+    "disp": "ピャアピャア、アウアウ。",
+    "kana": "ぴゃあぴゃあ、あうあう。",
+    "q": "pyaapyaa,auau.",
+    "lang": "ja",
+    "uuid": "faacb9f9-a9eb-4957-825b-297c874a2b75"
+  },
+  {
+    "disp": "ウオエウオエ、ジェオジェオ。",
+    "kana": "うおえうおえ、じぇおじぇお。",
+    "q": "uoeuoe,jeojeo.",
+    "lang": "ja",
+    "uuid": "3aac0ec2-3def-4d6b-a484-2d2ccaa638de"
+  },
+  {
+    "disp": "ポアポア、イピュイピュ。",
+    "kana": "ぽあぽあ、いぴゅいぴゅ。",
+    "q": "poapoa,ipyuipyu.",
+    "lang": "ja",
+    "uuid": "85de00c5-47b7-464a-8d3e-9dce3ac0526d"
+  },
+  {
+    "disp": "イジェイジェ、ウイエウイエ。",
+    "kana": "いじぇいじぇ、ういえういえ。",
+    "q": "ijeije,uieuie.",
+    "lang": "ja",
+    "uuid": "d6976af3-162e-4944-a2a8-12aaac1bbfc8"
+  },
+  {
+    "disp": "ピャヨピャヨ、ピジュピジュ。",
+    "kana": "ぴゃよぴゃよ、ぴじゅぴじゅ。",
+    "q": "pyayopyayo,pijupiju.",
+    "lang": "ja",
+    "uuid": "8e394966-efc7-437d-9c99-46515d96c452"
+  },
+  {
+    "disp": "ヨヤヨヤ、イペイペ。",
+    "kana": "よやよや、いぺいぺ。",
+    "q": "yoyayoya,ipeipe.",
+    "lang": "ja",
+    "uuid": "1236c8c1-ee39-4d8a-982d-169fae18767e"
+  },
+  {
+    "disp": "エウエウ、ヤピャヤピャ。",
+    "kana": "えうえう、やぴゃやぴゃ。",
+    "q": "eueu,yapyayapya.",
+    "lang": "ja",
+    "uuid": "6c49336b-62e2-48f4-b041-59aea22081c2"
+  },
+  {
+    "disp": "オイアオイア、ヨユヨユ。",
+    "kana": "おいあおいあ、よゆよゆ。",
+    "q": "oiaoia,yoyuyoyu.",
+    "lang": "ja",
+    "uuid": "4ddeb84d-289e-47ec-b719-f5aef0554daf"
+  },
+  {
+    "disp": "アウイアウイ、オアイオアイ。",
+    "kana": "あういあうい、おあいおあい。",
+    "q": "auiaui,oaioai.",
+    "lang": "ja",
+    "uuid": "6ed295f4-72e7-4fa8-946f-87a9867a5a65"
+  },
+  {
+    "disp": "アエウアエウ、ヤジャヤジャ。",
+    "kana": "あえうあえう、やじゃやじゃ。",
+    "q": "aeuaeu,yajayaja.",
+    "lang": "ja",
+    "uuid": "bdb396bc-d2a1-48ef-a74b-01e5e031148d"
+  },
+  {
+    "disp": "ジャパジャパ、イウエイウエ。",
+    "kana": "じゃぱじゃぱ、いうえいうえ。",
+    "q": "japajapa,iueiue.",
+    "lang": "ja",
+    "uuid": "8856e51b-d431-470c-80d1-5efe2449e6fb"
+  },
+  {
+    "disp": "オウイオウイ、ヨイヨイ。",
+    "kana": "おういおうい、よいよい。",
+    "q": "ouioui,yoiyoi.",
+    "lang": "ja",
+    "uuid": "129458d5-118a-4fb1-bdf4-d71c7434121a"
+  },
+  {
+    "disp": "エピエピ、エジャエジャ。",
+    "kana": "えぴえぴ、えじゃえじゃ。",
+    "q": "epiepi,ejaeja.",
+    "lang": "ja",
+    "uuid": "806bd9c7-b00d-4890-82d0-6bb7067bf0ce"
+  },
+  {
+    "disp": "ピアピア、イウアイウア。",
+    "kana": "ぴあぴあ、いうあいうあ。",
+    "q": "piapia,iuaiua.",
+    "lang": "ja",
+    "uuid": "2396b35f-0a55-4e29-a3f1-b1a5cdadd3a3"
+  },
+  {
+    "disp": "ユエユエ、オエイオエイ。",
+    "kana": "ゆえゆえ、おえいおえい。",
+    "q": "yueyue,oeioei.",
+    "lang": "ja",
+    "uuid": "54e8c94f-597e-4a26-886b-4a8be85bb0d8"
+  },
+  {
+    "disp": "ピオピオ、ジョポジョポ。",
+    "kana": "ぴおぴお、じょぽじょぽ。",
+    "q": "piopio,jopojopo.",
+    "lang": "ja",
+    "uuid": "81b71194-e8ad-4f4f-9a5d-e7a654d651f8"
+  },
+  {
+    "disp": "ユポユポ、ジャエジャエ。",
+    "kana": "ゆぽゆぽ、じゃえじゃえ。",
+    "q": "yupoyupo,jaejae.",
+    "lang": "ja",
+    "uuid": "5a79edbc-1e5f-467c-8db5-c65a065e32b8"
+  },
+  {
+    "disp": "イアエイアエ、アジャアジャ。",
+    "kana": "いあえいあえ、あじゃあじゃ。",
+    "q": "iaeiae,ajaaja.",
+    "lang": "ja",
+    "uuid": "c9c4758c-800b-414a-9735-c38159b10289"
+  },
+  {
+    "disp": "ジャアジャア、オピョオピョ。",
+    "kana": "じゃあじゃあ、おぴょおぴょ。",
+    "q": "jaajaa,opyoopyo.",
+    "lang": "ja",
+    "uuid": "cfabf0db-ad51-46eb-baa8-9b11bcd92940"
+  },
+  {
+    "disp": "ペオペオ、ウオウオ。",
+    "kana": "ぺおぺお、うおうお。",
+    "q": "peopeo,uouo.",
+    "lang": "ja",
+    "uuid": "3be45b58-9542-497a-bde5-56ed7ea99518"
+  },
+  {
+    "disp": "アヨアヨ、プオプオ。",
+    "kana": "あよあよ、ぷおぷお。",
+    "q": "ayoayo,puopuo.",
+    "lang": "ja",
+    "uuid": "912ab161-4d70-4c6b-a96f-e9ab7e385887"
+  },
+  {
+    "disp": "プジュプジュ、ジェユジェユ。",
+    "kana": "ぷじゅぷじゅ、じぇゆじぇゆ。",
+    "q": "pujupuju,jeyujeyu.",
+    "lang": "ja",
+    "uuid": "c4832f82-f04f-4807-b43e-f3362d7ecfa5"
+  },
+  {
+    "disp": "オジョオジョ、ウヤウヤ。",
+    "kana": "おじょおじょ、うやうや。",
+    "q": "ojoojo,uyauya.",
+    "lang": "ja",
+    "uuid": "b40469bb-852c-47c5-8d06-e0d40a643816"
+  },
+  {
+    "disp": "エジョエジョ、ヤオヤオ。",
+    "kana": "えじょえじょ、やおやお。",
+    "q": "ejoejo,yaoyao.",
+    "lang": "ja",
+    "uuid": "4067f203-ecd9-49ea-8e04-18435ce12ae2"
+  },
+  {
+    "disp": "ジャヤジャヤ、イヨイヨ。",
+    "kana": "じゃやじゃや、いよいよ。",
+    "q": "jayajaya,iyoiyo.",
+    "lang": "ja",
+    "uuid": "8daedfbb-61d5-4593-a481-c0f9e15a1d67"
+  },
+  {
+    "disp": "パヨパヨ、ピュイピュイ。",
+    "kana": "ぱよぱよ、ぴゅいぴゅい。",
+    "q": "payopayo,pyuipyui.",
+    "lang": "ja",
+    "uuid": "d735e309-1272-4c69-9bab-2a8ac8740ae0"
+  },
+  {
+    "disp": "ユピュユピュ、ヨジュヨジュ。",
+    "kana": "ゆぴゅゆぴゅ、よじゅよじゅ。",
+    "q": "yupyuyupyu,yojuyoju.",
+    "lang": "ja",
+    "uuid": "64e73b1e-4c78-4119-8ee0-5c30210658c9"
+  },
+  {
+    "disp": "ウポウポ、エウイエウイ。",
+    "kana": "うぽうぽ、えういえうい。",
+    "q": "upoupo,euieui.",
+    "lang": "ja",
+    "uuid": "e5d56d96-4d01-41d2-9cbc-4b074f10343b"
+  },
+  {
+    "disp": "ピャヤピャヤ、ジェプジェプ。",
+    "kana": "ぴゃやぴゃや、じぇぷじぇぷ。",
+    "q": "pyayapyaya,jepujepu.",
+    "lang": "ja",
+    "uuid": "0a410cc1-78bd-4f3d-a9cf-59ae8268852f"
+  },
+  {
+    "disp": "エオエオ、ヨパヨパ。",
+    "kana": "えおえお、よぱよぱ。",
+    "q": "eoeo,yopayopa.",
+    "lang": "ja",
+    "uuid": "f58a5eee-2d85-4875-b1ee-b8e46c09127f"
+  },
+  {
+    "disp": "ジョヨジョヨ、イユイユ。",
+    "kana": "じょよじょよ、いゆいゆ。",
+    "q": "joyojoyo,iyuiyu.",
+    "lang": "ja",
+    "uuid": "c6ed6706-8e37-4328-a226-9d3217bbadfa"
+  },
+  {
+    "disp": "ジュエジュエ、イヤイヤ。",
+    "kana": "じゅえじゅえ、いやいや。",
+    "q": "juejue,iyaiya.",
+    "lang": "ja",
+    "uuid": "7d893dee-b8d1-407e-b012-46a808aacfbd"
+  },
+  {
+    "disp": "イアオイアオ、ジェウジェウ。",
+    "kana": "いあおいあお、じぇうじぇう。",
+    "q": "iaoiao,jeujeu.",
+    "lang": "ja",
+    "uuid": "cee64097-b391-4c68-bcd3-fd87539276c9"
+  },
+  {
+    "disp": "アエオアエオ、ピャオピャオ。",
+    "kana": "あえおあえお、ぴゃおぴゃお。",
+    "q": "aeoaeo,pyaopyao.",
+    "lang": "ja",
+    "uuid": "5391ed4a-ff0a-4717-b2a1-638bd9c20055"
+  },
+  {
+    "disp": "イジャイジャ、ジャイジャイ。",
+    "kana": "いじゃいじゃ、じゃいじゃい。",
+    "q": "ijaija,jaijai.",
+    "lang": "ja",
+    "uuid": "ca52677d-ace3-43f2-8d51-6b97a045ea22"
+  },
+  {
+    "disp": "ジョピジョピ、ポエポエ。",
+    "kana": "じょぴじょぴ、ぽえぽえ。",
+    "q": "jopijopi,poepoe.",
+    "lang": "ja",
+    "uuid": "458303ea-bbac-4c91-9c04-622b526166a4"
+  },
+  {
+    "disp": "オジェオジェ、ヤジョヤジョ。",
+    "kana": "おじぇおじぇ、やじょやじょ。",
+    "q": "ojeoje,yajoyajo.",
+    "lang": "ja",
+    "uuid": "b3593b6a-ff8e-41a5-a542-6ef4fbe7955c"
+  },
+  {
+    "disp": "ヤジェヤジェ、ピペピペ。",
+    "kana": "やじぇやじぇ、ぴぺぴぺ。",
+    "q": "yajeyaje,pipepipe.",
+    "lang": "ja",
+    "uuid": "797a0712-b3c2-40c8-b234-33e03ba52d74"
+  },
+  {
+    "disp": "ジャオジャオ、ピョウピョウ。",
+    "kana": "じゃおじゃお、ぴょうぴょう。",
+    "q": "jaojao,pyoupyou.",
+    "lang": "ja",
+    "uuid": "b194af74-5468-4583-acd4-aeee91173fc1"
+  },
+  {
+    "disp": "アイエアイエ、パエパエ。",
+    "kana": "あいえあいえ、ぱえぱえ。",
+    "q": "aieaie,paepae.",
+    "lang": "ja",
+    "uuid": "ecc92c2f-db74-4ce5-a44a-aba2ae8e6b89"
+  },
+  {
+    "disp": "オパオパ、オエオエ。",
+    "kana": "おぱおぱ、おえおえ。",
+    "q": "opaopa,oeoe.",
+    "lang": "ja",
+    "uuid": "4a8956a1-4f3d-45cd-8e93-23d155ec9be3"
+  },
+  {
+    "disp": "プユプユ、ジャプジャプ。",
+    "kana": "ぷゆぷゆ、じゃぷじゃぷ。",
+    "q": "puyupuyu,japujapu.",
+    "lang": "ja",
+    "uuid": "052ac29a-f0f9-4fd2-bb9b-994f58a7d535"
+  },
+  {
+    "disp": "ポパポパ、ユジャユジャ。",
+    "kana": "ぽぱぽぱ、ゆじゃゆじゃ。",
+    "q": "popapopa,yujayuja.",
+    "lang": "ja",
+    "uuid": "9278eb7c-3558-4ed3-a226-a9b841ceb845"
+  },
+  {
+    "disp": "ウアイウアイ、ジュペジュペ。",
+    "kana": "うあいうあい、じゅぺじゅぺ。",
+    "q": "uaiuai,jupejupe.",
+    "lang": "ja",
+    "uuid": "35c27149-42fc-4e2e-8a80-9232f4961bef"
+  },
+  {
+    "disp": "ピョヤピョヤ、ピュウピュウ。",
+    "kana": "ぴょやぴょや、ぴゅうぴゅう。",
+    "q": "pyoyapyoya,pyuupyuu.",
+    "lang": "ja",
+    "uuid": "f0c04940-288d-43a2-bb88-e9a73383fce7"
+  },
+  {
+    "disp": "プペプペ、ヤピュヤピュ。",
+    "kana": "ぷぺぷぺ、やぴゅやぴゅ。",
+    "q": "pupepupe,yapyuyapyu.",
+    "lang": "ja",
+    "uuid": "65acac3a-b619-4f99-90af-9f8ff2375c73"
+  },
+  {
+    "disp": "ペピペピ、ペエペエ。",
+    "kana": "ぺぴぺぴ、ぺえぺえ。",
+    "q": "pepipepi,peepee.",
+    "lang": "ja",
+    "uuid": "ff46019b-2a25-423b-a668-299876538890"
+  },
+  {
+    "disp": "ヤヨヤヨ、オウエオウエ。",
+    "kana": "やよやよ、おうえおうえ。",
+    "q": "yayoyayo,oueoue.",
+    "lang": "ja",
+    "uuid": "5060790e-5ab1-47d6-993b-1637b55830f3"
+  },
+  {
+    "disp": "パジョパジョ、ジェピジェピ。",
+    "kana": "ぱじょぱじょ、じぇぴじぇぴ。",
+    "q": "pajopajo,jepijepi.",
+    "lang": "ja",
+    "uuid": "e2900a50-b349-46f6-9e6c-790af680de34"
+  },
+  {
+    "disp": "ヤピヤピ、アピョアピョ。",
+    "kana": "やぴやぴ、あぴょあぴょ。",
+    "q": "yapiyapi,apyoapyo.",
+    "lang": "ja",
+    "uuid": "ffd2913c-d56f-4f33-9584-d20bd00ebed9"
+  },
+  {
+    "disp": "エペエペ、ジェヨジェヨ。",
+    "kana": "えぺえぺ、じぇよじぇよ。",
+    "q": "epeepe,jeyojeyo.",
+    "lang": "ja",
+    "uuid": "8e555cac-f558-4d65-a2ae-8acf1679c378"
+  },
+  {
+    "disp": "イピャイピャ、ヤピョヤピョ。",
+    "kana": "いぴゃいぴゃ、やぴょやぴょ。",
+    "q": "ipyaipya,yapyoyapyo.",
+    "lang": "ja",
+    "uuid": "0cb5ae4b-dbd6-4803-acee-2140bea4adda"
+  },
+  {
+    "disp": "イオウイオウ、ピョエピョエ。",
+    "kana": "いおういおう、ぴょえぴょえ。",
+    "q": "iouiou,pyoepyoe.",
+    "lang": "ja",
+    "uuid": "3a4ac0d2-8d7f-4e26-8c1a-dbb72e6ba0cf"
+  },
+  {
+    "disp": "エピュエピュ、エイオエイオ。",
+    "kana": "えぴゅえぴゅ、えいおえいお。",
+    "q": "epyuepyu,eioeio.",
+    "lang": "ja",
+    "uuid": "bf67edbe-d991-455e-bdcf-09704fd31a76"
+  },
+  {
+    "disp": "ピョオピョオ、アウエアウエ。",
+    "kana": "ぴょおぴょお、あうえあうえ。",
+    "q": "pyoopyoo,aueaue.",
+    "lang": "ja",
+    "uuid": "f78a4d93-7421-4824-84a7-8f4f0503087c"
+  },
+  {
+    "disp": "エアオエアオ、オジュオジュ。",
+    "kana": "えあおえあお、おじゅおじゅ。",
+    "q": "eaoeao,ojuoju.",
+    "lang": "ja",
+    "uuid": "cbb47f8e-a609-4de3-b173-7ffea85444f8"
+  },
+  {
+    "disp": "ピプピプ、ジョユジョユ。",
+    "kana": "ぴぷぴぷ、じょゆじょゆ。",
+    "q": "pipupipu,joyujoyu.",
+    "lang": "ja",
+    "uuid": "58dfa84b-b758-428a-a0d5-6818e4d6fb55"
+  },
+  {
+    "disp": "イアイア、アオアオ。",
+    "kana": "いあいあ、あおあお。",
+    "q": "iaia,aoao.",
+    "lang": "ja",
+    "uuid": "1a57fd90-4d9b-4f95-bd03-ec15dc641e0e"
+  },
+  {
+    "disp": "ヤペヤペ、ジェエジェエ。",
+    "kana": "やぺやぺ、じぇえじぇえ。",
+    "q": "yapeyape,jeejee.",
+    "lang": "ja",
+    "uuid": "1506184c-738b-4f93-bd3b-b95b9adc9c87"
+  },
+  {
+    "disp": "ウジャウジャ、アジュアジュ。",
+    "kana": "うじゃうじゃ、あじゅあじゅ。",
+    "q": "ujauja,ajuaju.",
+    "lang": "ja",
+    "uuid": "dd5da1e4-b1c2-4ff6-b427-b80149b6de24"
+  },
+  {
+    "disp": "エオイエオイ、ウエウエ。",
+    "kana": "えおいえおい、うえうえ。",
+    "q": "eoieoi,ueue.",
+    "lang": "ja",
+    "uuid": "ad1dfad3-ddd7-487b-84da-73ff2d095447"
+  },
+  {
+    "disp": "ウエアウエア、プジャプジャ。",
+    "kana": "うえあうえあ、ぷじゃぷじゃ。",
+    "q": "ueauea,pujapuja.",
+    "lang": "ja",
+    "uuid": "cebaa6bf-e0cd-42ba-a218-56d576fac4ca"
+  },
+  {
+    "disp": "ペジャペジャ、ピウピウ。",
+    "kana": "ぺじゃぺじゃ、ぴうぴう。",
+    "q": "pejapeja,piupiu.",
+    "lang": "ja",
+    "uuid": "613b02dc-f47a-4105-aef9-a656d8ad33c5"
+  },
+  {
+    "disp": "ヤアヤア、ユペユペ。",
+    "kana": "やあやあ、ゆぺゆぺ。",
+    "q": "yaayaa,yupeyupe.",
+    "lang": "ja",
+    "uuid": "27330b3a-1598-48a5-bcb4-7a37c3ffe601"
+  },
+  {
+    "disp": "ユヨユヨ、ペプペプ。",
+    "kana": "ゆよゆよ、ぺぷぺぷ。",
+    "q": "yuyoyuyo,pepupepu.",
+    "lang": "ja",
+    "uuid": "83ea875e-010b-4fd5-858d-40ec737b7332"
+  },
+  {
+    "disp": "ヨジャヨジャ、ピジャピジャ。",
+    "kana": "よじゃよじゃ、ぴじゃぴじゃ。",
+    "q": "yojayoja,pijapija.",
+    "lang": "ja",
+    "uuid": "a107e7f3-c038-4fe6-8132-c5158d04158d"
+  },
+  {
+    "disp": "ピャエピャエ、オイオイ。",
+    "kana": "ぴゃえぴゃえ、おいおい。",
+    "q": "pyaepyae,oioi.",
+    "lang": "ja",
+    "uuid": "265ac22a-641c-4a72-97b9-157d3ef62152"
+  },
+  {
+    "disp": "エジェエジェ、ジャポジャポ。",
+    "kana": "えじぇえじぇ、じゃぽじゃぽ。",
+    "q": "ejeeje,japojapo.",
+    "lang": "ja",
+    "uuid": "04245efd-ca52-4f9e-a496-ef37a8b92d1e"
+  },
+  {
+    "disp": "エウオエウオ、ピュエピュエ。",
+    "kana": "えうおえうお、ぴゅえぴゅえ。",
+    "q": "euoeuo,pyuepyue.",
+    "lang": "ja",
+    "uuid": "6e02c0d5-3e69-4618-bb86-20c0c8463f63"
+  },
+  {
+    "disp": "ペユペユ、ピョアピョア。",
+    "kana": "ぺゆぺゆ、ぴょあぴょあ。",
+    "q": "peyupeyu,pyoapyoa.",
+    "lang": "ja",
+    "uuid": "3b80510e-5607-492a-a412-63b4234a5b84"
+  },
+  {
+    "disp": "エイアエイア、ウパウパ。",
+    "kana": "えいあえいあ、うぱうぱ。",
+    "q": "eiaeia,upaupa.",
+    "lang": "ja",
+    "uuid": "9348c988-6a85-4487-b5ac-e1a151ba602a"
+  },
+  {
+    "disp": "イアウイアウ、ジャピジャピ。",
+    "kana": "いあういあう、じゃぴじゃぴ。",
+    "q": "iauiau,japijapi.",
+    "lang": "ja",
+    "uuid": "dfe020fe-fdb9-44fa-bb57-8dcecd61aada"
+  },
+  {
+    "disp": "ヤジュヤジュ、パオパオ。",
+    "kana": "やじゅやじゅ、ぱおぱお。",
+    "q": "yajuyaju,paopao.",
+    "lang": "ja",
+    "uuid": "6f9baf6d-7b10-4f83-85c5-2de5615d7ec4"
+  },
+  {
+    "disp": "ペジェペジェ、パピパピ。",
+    "kana": "ぺじぇぺじぇ、ぱぴぱぴ。",
+    "q": "pejepeje,papipapi.",
+    "lang": "ja",
+    "uuid": "074c0f05-bd80-4140-afe9-3dd5502b9726"
+  },
+  {
+    "disp": "ピュアピュア、パヤパヤ。",
+    "kana": "ぴゅあぴゅあ、ぱやぱや。",
+    "q": "pyuapyua,payapaya.",
+    "lang": "ja",
+    "uuid": "826da302-80ca-48d7-a4fd-2dcd57692ef8"
+  },
+  {
+    "disp": "エポエポ、ユイユイ。",
+    "kana": "えぽえぽ、ゆいゆい。",
+    "q": "epoepo,yuiyui.",
+    "lang": "ja",
+    "uuid": "51583487-c609-498b-87a4-92f91f9a5800"
+  },
+  {
+    "disp": "ジュユジュユ、ウジュウジュ。",
+    "kana": "じゅゆじゅゆ、うじゅうじゅ。",
+    "q": "juyujuyu,ujuuju.",
+    "lang": "ja",
+    "uuid": "676953f5-1cfa-4a54-ae79-9e69b81b3ee6"
+  },
+  {
+    "disp": "ウユウユ、パジェパジェ。",
+    "kana": "うゆうゆ、ぱじぇぱじぇ。",
+    "q": "uyuuyu,pajepaje.",
+    "lang": "ja",
+    "uuid": "fcb763b7-062d-4cbb-b8d4-cc8da976ce5a"
+  },
+  {
+    "disp": "オペオペ、プヤプヤ。",
+    "kana": "おぺおぺ、ぷやぷや。",
+    "q": "opeope,puyapuya.",
+    "lang": "ja",
+    "uuid": "0ee3e323-6000-455a-95e2-7b17d6a39d01"
+  },
+  {
+    "disp": "ウエオウエオ、ジュプジュプ。",
+    "kana": "うえおうえお、じゅぷじゅぷ。",
+    "q": "ueoueo,jupujupu.",
+    "lang": "ja",
+    "uuid": "7d196d3c-1cd6-4f12-9034-db56a44e255a"
+  },
+  {
+    "disp": "アプアプ、オアエオアエ。",
+    "kana": "あぷあぷ、おあえおあえ。",
+    "q": "apuapu,oaeoae.",
+    "lang": "ja",
+    "uuid": "f3314ed8-edcd-44f9-86c2-0c749335ebca"
+  },
+  {
+    "disp": "プパプパ、ペポペポ。",
+    "kana": "ぷぱぷぱ、ぺぽぺぽ。",
+    "q": "pupapupa,pepopepo.",
+    "lang": "ja",
+    "uuid": "5aed7052-a2e8-4e93-bfaf-44a26d4235ec"
+  },
+  {
+    "disp": "ウアオウアオ、ペウペウ。",
+    "kana": "うあおうあお、ぺうぺう。",
+    "q": "uaouao,peupeu.",
+    "lang": "ja",
+    "uuid": "57c3c240-7c26-42e6-b6a3-87effce8214a"
+  },
+  {
+    "disp": "パペパペ、ピャイピャイ。",
+    "kana": "ぱぺぱぺ、ぴゃいぴゃい。",
+    "q": "papepape,pyaipyai.",
+    "lang": "ja",
+    "uuid": "26569055-ca35-4dff-a281-c799b3b7a231"
+  },
+  {
+    "disp": "オヨオヨ、ペジュペジュ。",
+    "kana": "およおよ、ぺじゅぺじゅ。",
+    "q": "oyooyo,pejupeju.",
+    "lang": "ja",
+    "uuid": "cd1187b6-600a-4145-8243-afbfa1b30574"
+  },
+  {
+    "disp": "イエウイエウ、ペパペパ。",
+    "kana": "いえういえう、ぺぱぺぱ。",
+    "q": "ieuieu,pepapepa.",
+    "lang": "ja",
+    "uuid": "85e99663-6757-4941-8321-f547cf192ad5"
+  },
+  {
+    "disp": "ウジェウジェ、アイオアイオ。",
+    "kana": "うじぇうじぇ、あいおあいお。",
+    "q": "ujeuje,aioaio.",
+    "lang": "ja",
+    "uuid": "988b11dc-ce24-42b9-b357-663eec256f83"
+  },
+  {
+    "disp": "ウペウペ、ジュイジュイ。",
+    "kana": "うぺうぺ、じゅいじゅい。",
+    "q": "upeupe,juijui.",
+    "lang": "ja",
+    "uuid": "b1c79fbe-d122-42f1-93a5-303bff63ec4a"
+  },
+  {
+    "disp": "ユプユプ、ポウポウ。",
+    "kana": "ゆぷゆぷ、ぽうぽう。",
+    "q": "yupuyupu,poupou.",
+    "lang": "ja",
+    "uuid": "cce9ee24-9a62-43bb-867b-0cc9ed619585"
+  },
+  {
+    "disp": "オエウオエウ、プエプエ。",
+    "kana": "おえうおえう、ぷえぷえ。",
+    "q": "oeuoeu,puepue.",
+    "lang": "ja",
+    "uuid": "459811b1-9fbf-46ed-9a4a-c706b0a4be90"
+  },
+  {
+    "disp": "アヤアヤ、ヤエヤエ。",
+    "kana": "あやあや、やえやえ。",
+    "q": "ayaaya,yaeyae.",
+    "lang": "ja",
+    "uuid": "24469779-35aa-4619-b977-63d84831173a"
+  },
+  {
+    "disp": "ウヨウヨ、パポパポ。",
+    "kana": "うようよ、ぱぽぱぽ。",
+    "q": "uyouyo,papopapo.",
+    "lang": "ja",
+    "uuid": "862f8fb2-b898-445d-b684-e7b830e99dd5"
+  },
+  {
+    "disp": "アユアユ、アピュアピュ。",
+    "kana": "あゆあゆ、あぴゅあぴゅ。",
+    "q": "ayuayu,apyuapyu.",
+    "lang": "ja",
+    "uuid": "880e294e-2caf-4440-87e1-c69f98ede031"
+  },
+  {
+    "disp": "ユパユパ、ジュピジュピ。",
+    "kana": "ゆぱゆぱ、じゅぴじゅぴ。",
+    "q": "yupayupa,jupijupi.",
+    "lang": "ja",
+    "uuid": "8c4e4f00-c617-411f-aed7-1f4f263a8cbf"
+  },
+  {
+    "disp": "パジャパジャ、ユジョユジョ。",
+    "kana": "ぱじゃぱじゃ、ゆじょゆじょ。",
+    "q": "pajapaja,yujoyujo.",
+    "lang": "ja",
+    "uuid": "cd3b50a5-245c-4b31-9372-5719cf2b0662"
+  },
+  {
+    "disp": "イオアイオア、オアウオアウ。",
+    "kana": "いおあいおあ、おあうおあう。",
+    "q": "ioaioa,oauoau.",
+    "lang": "ja",
+    "uuid": "90bde85b-913b-4184-8ede-ac9c155c5e40"
+  },
+  {
+    "disp": "アイウアイウ、ヤパヤパ。",
+    "kana": "あいうあいう、やぱやぱ。",
+    "q": "aiuaiu,yapayapa.",
+    "lang": "ja",
+    "uuid": "9f3f8de8-b844-4134-b765-18827e338e8c"
+  },
+  {
+    "disp": "ピョユピョユ、ウピャウピャ。",
+    "kana": "ぴょゆぴょゆ、うぴゃうぴゃ。",
+    "q": "pyoyupyoyu,upyaupya.",
+    "lang": "ja",
+    "uuid": "c636e588-a157-4ff6-a998-d307d8b7a94d"
+  },
+  {
+    "disp": "ジョパジョパ、ジャヨジャヨ。",
+    "kana": "じょぱじょぱ、じゃよじゃよ。",
+    "q": "jopajopa,jayojayo.",
+    "lang": "ja",
+    "uuid": "ee3a4a10-b13c-4286-9ed8-c2b276cb1456"
+  },
+  {
+    "disp": "イパイパ、イエイエ。",
+    "kana": "いぱいぱ、いえいえ。",
+    "q": "ipaipa,ieie.",
+    "lang": "ja",
+    "uuid": "75f88459-445a-4e4e-ae79-05432ba7772c"
+  },
+  {
+    "disp": "ジュパジュパ、ピポピポ。",
+    "kana": "じゅぱじゅぱ、ぴぽぴぽ。",
+    "q": "jupajupa,pipopipo.",
+    "lang": "ja",
+    "uuid": "15c857ab-8614-4f38-8e9f-da120ff9d642"
+  },
+  {
+    "disp": "ピャユピャユ、ユウユウ。",
+    "kana": "ぴゃゆぴゃゆ、ゆうゆう。",
+    "q": "pyayupyayu,yuuyuu.",
+    "lang": "ja",
+    "uuid": "39eca53e-c642-4c40-a107-4a541fd40800"
+  },
+  {
+    "disp": "ピヨピヨ、イエアイエア。",
+    "kana": "ぴよぴよ、いえあいえあ。",
+    "q": "piyopiyo,ieaiea.",
+    "lang": "ja",
+    "uuid": "a32d0f80-1cf9-42c2-b9e8-b0649f8c91f7"
+  },
+  {
+    "disp": "アジェアジェ、イオエイオエ。",
+    "kana": "あじぇあじぇ、いおえいおえ。",
+    "q": "ajeaje,ioeioe.",
+    "lang": "ja",
+    "uuid": "1df587f0-fa64-4918-89a9-145a47f10e3c"
+  },
+  {
+    "disp": "ペイペイ、ジャペジャペ。",
+    "kana": "ぺいぺい、じゃぺじゃぺ。",
+    "q": "peipei,japejape.",
+    "lang": "ja",
+    "uuid": "6e90519c-8926-4184-bf99-bc9a7fba2e1a"
+  },
+  {
+    "disp": "ヨピュヨピュ、ジュアジュア。",
+    "kana": "よぴゅよぴゅ、じゅあじゅあ。",
+    "q": "yopyuyopyu,juajua.",
+    "lang": "ja",
+    "uuid": "a592eb12-80ce-4812-ac51-85fa2b8a2118"
+  },
+  {
+    "disp": "ヨオヨオ、ペヨペヨ。",
+    "kana": "よおよお、ぺよぺよ。",
+    "q": "yooyoo,peyopeyo.",
+    "lang": "ja",
+    "uuid": "54dc235f-f1b4-42ce-b861-b6c72360a2b3"
+  },
+  {
+    "disp": "ヨピャヨピャ、ピュヨピュヨ。",
+    "kana": "よぴゃよぴゃ、ぴゅよぴゅよ。",
+    "q": "yopyayopya,pyuyopyuyo.",
+    "lang": "ja",
+    "uuid": "8a23e065-f914-4b2f-ab85-444cccca0484"
+  },
+  {
+    "disp": "ジョエジョエ、プアプア。",
+    "kana": "じょえじょえ、ぷあぷあ。",
+    "q": "joejoe,puapua.",
+    "lang": "ja",
+    "uuid": "a8782bb0-aba5-4af5-9a84-3d1715e3aff3"
+  },
+  {
+    "disp": "ジュポジュポ、アピャアピャ。",
+    "kana": "じゅぽじゅぽ、あぴゃあぴゃ。",
+    "q": "jupojupo,apyaapya.",
+    "lang": "ja",
+    "uuid": "c83967bd-f15c-48a2-b2d3-f424b2b02f75"
+  },
+  {
+    "disp": "ピュヤピュヤ、ジョプジョプ。",
+    "kana": "ぴゅやぴゅや、じょぷじょぷ。",
+    "q": "pyuyapyuya,jopujopu.",
+    "lang": "ja",
+    "uuid": "e1bc3337-a4c2-4c5e-a873-808c9572b5c0"
+  },
+  {
+    "disp": "ユジュユジュ、エアエア。",
+    "kana": "ゆじゅゆじゅ、えあえあ。",
+    "q": "yujuyuju,eaea.",
+    "lang": "ja",
+    "uuid": "ea14fbba-95e4-4fe1-a74e-afdd1aa4fd48"
+  },
+  {
+    "disp": "オポオポ、ジョウジョウ。",
+    "kana": "おぽおぽ、じょうじょう。",
+    "q": "opoopo,joujou.",
+    "lang": "ja",
+    "uuid": "59b6b9a9-06ea-4988-8b65-42e84091d6a5"
+  },
+  {
+    "disp": "ペイペイ、ヤイヤイ。",
+    "kana": "ぺいぺい、やいやい。",
+    "q": "peipei,yaiyai.",
+    "lang": "ja",
+    "uuid": "5fdc74a4-99f1-4573-9654-60949b5d63f4"
+  },
+  {
+    "disp": "オポオポ、ジャウジャウ。",
+    "kana": "おぽおぽ、じゃうじゃう。",
+    "q": "opoopo,jaujau.",
+    "lang": "ja",
+    "uuid": "da619190-8c72-43e1-a178-79525bb63653"
+  },
+  {
+    "disp": "アオイアオイ、ヨポヨポ。",
+    "kana": "あおいあおい、よぽよぽ。",
+    "q": "aoiaoi,yopoyopo.",
+    "lang": "ja",
+    "uuid": "698f5182-03ee-42c0-a6ea-5261c0482b03"
+  },
+  {
+    "disp": "ピュアピュア、ジェヨジェヨ。",
+    "kana": "ぴゅあぴゅあ、じぇよじぇよ。",
+    "q": "pyuapyua,jeyojeyo.",
+    "lang": "ja",
+    "uuid": "ce31a2fa-d3a7-4eaa-bf9d-128b86d64977"
+  },
+  {
+    "disp": "ジャヨジャヨ、ウアイウアイ。",
+    "kana": "じゃよじゃよ、うあいうあい。",
+    "q": "jayojayo,uaiuai.",
+    "lang": "ja",
+    "uuid": "ad10d3c2-ae60-46c7-909a-cb50ef045991"
+  },
+  {
+    "disp": "イアウイアウ、イアエイアエ。",
+    "kana": "いあういあう、いあえいあえ。",
+    "q": "iauiau,iaeiae.",
+    "lang": "ja",
+    "uuid": "a63d7d86-a61a-4a30-83a3-dad6ef3674df"
+  },
+  {
+    "disp": "ジュポジュポ、ピョユピョユ。",
+    "kana": "じゅぽじゅぽ、ぴょゆぴょゆ。",
+    "q": "jupojupo,pyoyupyoyu.",
+    "lang": "ja",
+    "uuid": "6682728c-0807-40a8-9d3b-8a8235313815"
+  },
+  {
+    "disp": "ピユピユ、ジャエジャエ。",
+    "kana": "ぴゆぴゆ、じゃえじゃえ。",
+    "q": "piyupiyu,jaejae.",
+    "lang": "ja",
+    "uuid": "c3d34fe4-9a38-468a-846c-02e56423e66c"
+  },
+  {
+    "disp": "ユヤユヤ、ピョヨピョヨ。",
+    "kana": "ゆやゆや、ぴょよぴょよ。",
+    "q": "yuyayuya,pyoyopyoyo.",
+    "lang": "ja",
+    "uuid": "06402018-e3cc-4f5c-85b9-24f6ec67703b"
+  },
+  {
+    "disp": "ヨジョヨジョ、ジョユジョユ。",
+    "kana": "よじょよじょ、じょゆじょゆ。",
+    "q": "yojoyojo,joyujoyu.",
+    "lang": "ja",
+    "uuid": "dd3bc163-15e4-47da-abe7-13ddc964c997"
+  },
+  {
+    "disp": "エペエペ、プアプア。",
+    "kana": "えぺえぺ、ぷあぷあ。",
+    "q": "epeepe,puapua.",
+    "lang": "ja",
+    "uuid": "f461489d-dda6-45ed-8d91-b2038208a1a0"
+  },
+  {
+    "disp": "パエパエ、ウジャウジャ。",
+    "kana": "ぱえぱえ、うじゃうじゃ。",
+    "q": "paepae,ujauja.",
+    "lang": "ja",
+    "uuid": "ae07adea-9232-4469-9ddc-c3e050c52d94"
+  },
+  {
+    "disp": "ジョヨジョヨ、ヨエヨエ。",
+    "kana": "じょよじょよ、よえよえ。",
+    "q": "joyojoyo,yoeyoe.",
+    "lang": "ja",
+    "uuid": "3698b270-0470-4942-af19-59524e6755cc"
+  },
+  {
+    "disp": "ウオウオ、ペウペウ。",
+    "kana": "うおうお、ぺうぺう。",
+    "q": "uouo,peupeu.",
+    "lang": "ja",
+    "uuid": "e12826c3-5b17-42a1-ae28-18464039d743"
+  },
+  {
+    "disp": "ジェウジェウ、オウイオウイ。",
+    "kana": "じぇうじぇう、おういおうい。",
+    "q": "jeujeu,ouioui.",
+    "lang": "ja",
+    "uuid": "97820bae-df58-412b-b66e-590928b0a197"
+  },
+  {
+    "disp": "パピパピ、ウヨウヨ。",
+    "kana": "ぱぴぱぴ、うようよ。",
+    "q": "papipapi,uyouyo.",
+    "lang": "ja",
+    "uuid": "d1d989df-255b-4c11-9f14-4b6be42946b7"
+  },
+  {
+    "disp": "エプエプ、ペジュペジュ。",
+    "kana": "えぷえぷ、ぺじゅぺじゅ。",
+    "q": "epuepu,pejupeju.",
+    "lang": "ja",
+    "uuid": "3be75946-b40a-4e3d-a368-e3cf0f5d76ce"
+  },
+  {
+    "disp": "アピョアピョ、ジョイジョイ。",
+    "kana": "あぴょあぴょ、じょいじょい。",
+    "q": "apyoapyo,joijoi.",
+    "lang": "ja",
+    "uuid": "580b4e56-a130-4ce2-875e-8c981a178595"
+  },
+  {
+    "disp": "ポジョポジョ、エジャエジャ。",
+    "kana": "ぽじょぽじょ、えじゃえじゃ。",
+    "q": "pojopojo,ejaeja.",
+    "lang": "ja",
+    "uuid": "374363e8-6ce0-438a-bd75-84afa62febc3"
+  },
+  {
+    "disp": "オパオパ、ジェイジェイ。",
+    "kana": "おぱおぱ、じぇいじぇい。",
+    "q": "opaopa,jeijei.",
+    "lang": "ja",
+    "uuid": "6c752272-2ebf-4fef-8f39-6fe02a8b2137"
+  },
+  {
+    "disp": "ポウポウ、ユプユプ。",
+    "kana": "ぽうぽう、ゆぷゆぷ。",
+    "q": "poupou,yupuyupu.",
+    "lang": "ja",
+    "uuid": "39b19b68-2a29-45ba-b3b7-cc6028e387e6"
+  },
+  {
+    "disp": "エオアエオア、ポプポプ。",
+    "kana": "えおあえおあ、ぽぷぽぷ。",
+    "q": "eoaeoa,popupopu.",
+    "lang": "ja",
+    "uuid": "6e84a4f5-ec20-435a-8930-bb4d3b9c760a"
+  },
+  {
+    "disp": "ペジョペジョ、ユウユウ。",
+    "kana": "ぺじょぺじょ、ゆうゆう。",
+    "q": "pejopejo,yuuyuu.",
+    "lang": "ja",
+    "uuid": "b2977397-c1f8-40bf-b1a4-eaa23c98d3e8"
+  },
+  {
+    "disp": "パプパプ、エピャエピャ。",
+    "kana": "ぱぷぱぷ、えぴゃえぴゃ。",
+    "q": "papupapu,epyaepya.",
+    "lang": "ja",
+    "uuid": "4eb42ccd-d432-4824-8cde-51e95bcdaeef"
+  },
+  {
+    "disp": "ウイオウイオ、アウアウ。",
+    "kana": "ういおういお、あうあう。",
+    "q": "uiouio,auau.",
+    "lang": "ja",
+    "uuid": "64120702-0bb2-4524-b8cd-eb56cea9ed74"
+  },
+  {
+    "disp": "ピジェピジェ、ポペポペ。",
+    "kana": "ぴじぇぴじぇ、ぽぺぽぺ。",
+    "q": "pijepije,popepope.",
+    "lang": "ja",
+    "uuid": "28dee02b-e8b2-49e7-aea9-e27aa9fa4109"
+  },
+  {
+    "disp": "ペヤペヤ、ジェペジェペ。",
+    "kana": "ぺやぺや、じぇぺじぇぺ。",
+    "q": "peyapeya,jepejepe.",
+    "lang": "ja",
+    "uuid": "fddaa50c-b819-4f88-86eb-6bcc325e89af"
+  },
+  {
+    "disp": "オペオペ、オイオイ。",
+    "kana": "おぺおぺ、おいおい。",
+    "q": "opeope,oioi.",
+    "lang": "ja",
+    "uuid": "1065bd51-2dce-421f-aebc-4a8e95d00133"
+  },
+  {
+    "disp": "ウオイウオイ、オアウオアウ。",
+    "kana": "うおいうおい、おあうおあう。",
+    "q": "uoiuoi,oauoau.",
+    "lang": "ja",
+    "uuid": "98d9cf35-f677-4843-866e-ee3010bde20e"
+  },
+  {
+    "disp": "ヨアヨア、プユプユ。",
+    "kana": "よあよあ、ぷゆぷゆ。",
+    "q": "yoayoa,puyupuyu.",
+    "lang": "ja",
+    "uuid": "0ee77e75-2f16-4f29-962c-a76044523a6e"
+  },
+  {
+    "disp": "イジャイジャ、ジュウジュウ。",
+    "kana": "いじゃいじゃ、じゅうじゅう。",
+    "q": "ijaija,juujuu.",
+    "lang": "ja",
+    "uuid": "68b1a9d8-43b5-4a6e-aa20-03ffe6fdefc1"
+  },
+  {
+    "disp": "ジャピジャピ、オジェオジェ。",
+    "kana": "じゃぴじゃぴ、おじぇおじぇ。",
+    "q": "japijapi,ojeoje.",
+    "lang": "ja",
+    "uuid": "5c2a371b-e190-43b9-b84e-63ca123f4cc2"
+  },
+  {
+    "disp": "ピョエピョエ、ジョピジョピ。",
+    "kana": "ぴょえぴょえ、じょぴじょぴ。",
+    "q": "pyoepyoe,jopijopi.",
+    "lang": "ja",
+    "uuid": "fb663111-4f2b-4957-83fd-76c1ae8b9142"
+  },
+  {
+    "disp": "ヨピヨピ、エオウエオウ。",
+    "kana": "よぴよぴ、えおうえおう。",
+    "q": "yopiyopi,eoueou.",
+    "lang": "ja",
+    "uuid": "e44ee93f-4d4d-491a-bcaf-74c3f0d9728e"
+  },
+  {
+    "disp": "ウエウエ、ピュイピュイ。",
+    "kana": "うえうえ、ぴゅいぴゅい。",
+    "q": "ueue,pyuipyui.",
+    "lang": "ja",
+    "uuid": "e3e3e5a3-453d-4657-98ee-76166cc4175c"
+  },
+  {
+    "disp": "イオエイオエ、ピャヨピャヨ。",
+    "kana": "いおえいおえ、ぴゃよぴゃよ。",
+    "q": "ioeioe,pyayopyayo.",
+    "lang": "ja",
+    "uuid": "8e9759f0-5ca1-4c8a-8cff-7dc9965a1527"
+  },
+  {
+    "disp": "ペジェペジェ、イポイポ。",
+    "kana": "ぺじぇぺじぇ、いぽいぽ。",
+    "q": "pejepeje,ipoipo.",
+    "lang": "ja",
+    "uuid": "b2495ca7-6391-4010-96f0-c9f949b204b6"
+  },
+  {
+    "disp": "ヨペヨペ、ジュオジュオ。",
+    "kana": "よぺよぺ、じゅおじゅお。",
+    "q": "yopeyope,juojuo.",
+    "lang": "ja",
+    "uuid": "1e74ebeb-f039-40f4-a65e-78ae7929f5b7"
+  },
+  {
+    "disp": "エアオエアオ、ピイピイ。",
+    "kana": "えあおえあお、ぴいぴい。",
+    "q": "eaoeao,piipii.",
+    "lang": "ja",
+    "uuid": "d34e084a-86e6-4285-b4fc-c4485b8dff47"
+  },
+  {
+    "disp": "エピョエピョ、ユポユポ。",
+    "kana": "えぴょえぴょ、ゆぽゆぽ。",
+    "q": "epyoepyo,yupoyupo.",
+    "lang": "ja",
+    "uuid": "55ae19d2-9171-451c-bd94-248a2b59e2a4"
+  },
+  {
+    "disp": "ウエオウエオ、ヨプヨプ。",
+    "kana": "うえおうえお、よぷよぷ。",
+    "q": "ueoueo,yopuyopu.",
+    "lang": "ja",
+    "uuid": "0a059ec4-4853-4e68-8ed2-cad6999365f4"
+  },
+  {
+    "disp": "ウペウペ、ジョエジョエ。",
+    "kana": "うぺうぺ、じょえじょえ。",
+    "q": "upeupe,joejoe.",
+    "lang": "ja",
+    "uuid": "7b3ab4cc-a3d4-46ad-8215-6e2b148e7efd"
+  },
+  {
+    "disp": "イウアイウア、アプアプ。",
+    "kana": "いうあいうあ、あぷあぷ。",
+    "q": "iuaiua,apuapu.",
+    "lang": "ja",
+    "uuid": "15fc83a0-6db5-4c39-a4ff-badf3a26e8a6"
+  },
+  {
+    "disp": "イパイパ、アウオアウオ。",
+    "kana": "いぱいぱ、あうおあうお。",
+    "q": "ipaipa,auoauo.",
+    "lang": "ja",
+    "uuid": "4bbb2f42-31e5-44de-8bb0-f08825307e7f"
+  },
+  {
+    "disp": "ピャウピャウ、ヨジェヨジェ。",
+    "kana": "ぴゃうぴゃう、よじぇよじぇ。",
+    "q": "pyaupyau,yojeyoje.",
+    "lang": "ja",
+    "uuid": "3c247000-c570-45d3-b285-d867e8e941ed"
+  },
+  {
+    "disp": "ジュヤジュヤ、ジョヤジョヤ。",
+    "kana": "じゅやじゅや、じょやじょや。",
+    "q": "juyajuya,joyajoya.",
+    "lang": "ja",
+    "uuid": "0a987959-c53b-472f-80f8-97f313958cdd"
+  },
+  {
+    "disp": "イエイエ、ピペピペ。",
+    "kana": "いえいえ、ぴぺぴぺ。",
+    "q": "ieie,pipepipe.",
+    "lang": "ja",
+    "uuid": "4b3e6504-0447-4aa4-94b1-e18a8e0afdb7"
+  },
+  {
+    "disp": "ポヤポヤ、エジェエジェ。",
+    "kana": "ぽやぽや、えじぇえじぇ。",
+    "q": "poyapoya,ejeeje.",
+    "lang": "ja",
+    "uuid": "542f15e3-ea33-4e77-ae7e-2c4cd339d460"
+  },
+  {
+    "disp": "ヤパヤパ、ジェパジェパ。",
+    "kana": "やぱやぱ、じぇぱじぇぱ。",
+    "q": "yapayapa,jepajepa.",
+    "lang": "ja",
+    "uuid": "85eb5d00-7e15-4f52-9a7c-acf3533a35ab"
+  },
+  {
+    "disp": "ジュイジュイ、パヤパヤ。",
+    "kana": "じゅいじゅい、ぱやぱや。",
+    "q": "juijui,payapaya.",
+    "lang": "ja",
+    "uuid": "07242447-97cd-43a6-8088-6379fbe6d58b"
+  },
+  {
+    "disp": "ピパピパ、オアイオアイ。",
+    "kana": "ぴぱぴぱ、おあいおあい。",
+    "q": "pipapipa,oaioai.",
+    "lang": "ja",
+    "uuid": "867582fd-8906-41fc-b84e-91d88d2752da"
+  },
+  {
+    "disp": "ピャオピャオ、アイアイ。",
+    "kana": "ぴゃおぴゃお、あいあい。",
+    "q": "pyaopyao,aiai.",
+    "lang": "ja",
+    "uuid": "e8a658ba-af46-40e5-8b90-47e21201236d"
+  },
+  {
+    "disp": "ペオペオ、アジュアジュ。",
+    "kana": "ぺおぺお、あじゅあじゅ。",
+    "q": "peopeo,ajuaju.",
+    "lang": "ja",
+    "uuid": "620c7585-c998-4ff0-ac55-1bec10606fd5"
+  },
+  {
+    "disp": "イジェイジェ、アイオアイオ。",
+    "kana": "いじぇいじぇ、あいおあいお。",
+    "q": "ijeije,aioaio.",
+    "lang": "ja",
+    "uuid": "29f6f3b6-1bac-43fb-a47c-cdfdac576f79"
+  },
+  {
+    "disp": "プジュプジュ、ヤアヤア。",
+    "kana": "ぷじゅぷじゅ、やあやあ。",
+    "q": "pujupuju,yaayaa.",
+    "lang": "ja",
+    "uuid": "b947793c-cd56-447e-b7e8-41a979e28257"
+  },
+  {
+    "disp": "オエオエ、イアオイアオ。",
+    "kana": "おえおえ、いあおいあお。",
+    "q": "oeoe,iaoiao.",
+    "lang": "ja",
+    "uuid": "82fdf23d-2a12-4cb7-8893-980fa6ee1d94"
+  },
+  {
+    "disp": "ユパユパ、ヨオヨオ。",
+    "kana": "ゆぱゆぱ、よおよお。",
+    "q": "yupayupa,yooyoo.",
+    "lang": "ja",
+    "uuid": "f19bebdf-371a-4b69-a82b-b3241ee5bb29"
+  },
+  {
+    "disp": "ヨユヨユ、オピュオピュ。",
+    "kana": "よゆよゆ、おぴゅおぴゅ。",
+    "q": "yoyuyoyu,opyuopyu.",
+    "lang": "ja",
+    "uuid": "71617bab-e05b-4e86-8649-58c27499d939"
+  },
+  {
+    "disp": "イピイピ、ピオピオ。",
+    "kana": "いぴいぴ、ぴおぴお。",
+    "q": "ipiipi,piopio.",
+    "lang": "ja",
+    "uuid": "ec01c34c-20ad-4860-b9c3-279732e831c4"
+  },
+  {
+    "disp": "ジェエジェエ、ウユウユ。",
+    "kana": "じぇえじぇえ、うゆうゆ。",
+    "q": "jeejee,uyuuyu.",
+    "lang": "ja",
+    "uuid": "8679ae39-43a2-4b59-af9a-0b4df2572e3a"
+  },
+  {
+    "disp": "イエオイエオ、ジュアジュア。",
+    "kana": "いえおいえお、じゅあじゅあ。",
+    "q": "ieoieo,juajua.",
+    "lang": "ja",
+    "uuid": "64d782a8-b1d6-424c-a938-300e2a20bd4b"
+  },
+  {
+    "disp": "ヤユヤユ、プポプポ。",
+    "kana": "やゆやゆ、ぷぽぷぽ。",
+    "q": "yayuyayu,pupopupo.",
+    "lang": "ja",
+    "uuid": "21d4962b-1865-4c23-b312-1779b8b51f43"
+  },
+  {
+    "disp": "ペプペプ、ペピペピ。",
+    "kana": "ぺぷぺぷ、ぺぴぺぴ。",
+    "q": "pepupepu,pepipepi.",
+    "lang": "ja",
+    "uuid": "b00acb71-a1eb-4da6-9f2b-c7f8fc2bc29f"
+  },
+  {
+    "disp": "イペイペ、ジュヨジュヨ。",
+    "kana": "いぺいぺ、じゅよじゅよ。",
+    "q": "ipeipe,juyojuyo.",
+    "lang": "ja",
+    "uuid": "bf0a0553-d515-44c9-b382-ae07c299ba8b"
+  },
+  {
+    "disp": "ピプピプ、ピャアピャア。",
+    "kana": "ぴぷぴぷ、ぴゃあぴゃあ。",
+    "q": "pipupipu,pyaapyaa.",
+    "lang": "ja",
+    "uuid": "30fa1678-3065-4edb-9231-96c8b04b37fd"
+  },
+  {
+    "disp": "ピョウピョウ、ウエアウエア。",
+    "kana": "ぴょうぴょう、うえあうえあ。",
+    "q": "pyoupyou,ueauea.",
+    "lang": "ja",
+    "uuid": "461b783e-3df1-48f3-a4d0-6db7a2997960"
+  },
+  {
+    "disp": "オヤオヤ、エポエポ。",
+    "kana": "おやおや、えぽえぽ。",
+    "q": "oyaoya,epoepo.",
+    "lang": "ja",
+    "uuid": "77dbfe79-e3fc-4541-8875-94f67b2fa908"
+  },
+  {
+    "disp": "ピャイピャイ、イエウイエウ。",
+    "kana": "ぴゃいぴゃい、いえういえう。",
+    "q": "pyaipyai,ieuieu.",
+    "lang": "ja",
+    "uuid": "b5db745d-e1d9-4e65-89a3-d7e52be11d98"
+  },
+  {
+    "disp": "ジェユジェユ、オピョオピョ。",
+    "kana": "じぇゆじぇゆ、おぴょおぴょ。",
+    "q": "jeyujeyu,opyoopyo.",
+    "lang": "ja",
+    "uuid": "328d75f7-3742-4166-b24b-4152f32e147c"
+  },
+  {
+    "disp": "ヤペヤペ、プヨプヨ。",
+    "kana": "やぺやぺ、ぷよぷよ。",
+    "q": "yapeyape,puyopuyo.",
+    "lang": "ja",
+    "uuid": "7c1815ac-33d4-48bd-855a-9797f7cfd7fe"
+  },
+  {
+    "disp": "イウエイウエ、ポパポパ。",
+    "kana": "いうえいうえ、ぽぱぽぱ。",
+    "q": "iueiue,popapopa.",
+    "lang": "ja",
+    "uuid": "3fbd5e54-e838-4c52-ab05-9776ba6b481e"
+  },
+  {
+    "disp": "イプイプ、オウオウ。",
+    "kana": "いぷいぷ、おうおう。",
+    "q": "ipuipu,ouou.",
+    "lang": "ja",
+    "uuid": "51fafe18-83e1-408f-86a0-3959a23300dc"
+  },
+  {
+    "disp": "エパエパ、ピャユピャユ。",
+    "kana": "えぱえぱ、ぴゃゆぴゃゆ。",
+    "q": "epaepa,pyayupyayu.",
+    "lang": "ja",
+    "uuid": "bdc498cd-0e74-466a-95bf-27c87523cf6e"
+  },
+  {
+    "disp": "ウアウア、オウエオウエ。",
+    "kana": "うあうあ、おうえおうえ。",
+    "q": "uaua,oueoue.",
+    "lang": "ja",
+    "uuid": "119f6f3e-5aa6-4387-a2d6-8f5cd03bee12"
+  },
+  {
+    "disp": "パポパポ、オアエオアエ。",
+    "kana": "ぱぽぱぽ、おあえおあえ。",
+    "q": "papopapo,oaeoae.",
+    "lang": "ja",
+    "uuid": "413d33cf-2560-40ed-b651-8fca9f798972"
+  },
+  {
+    "disp": "ピュヨピュヨ、パウパウ。",
+    "kana": "ぴゅよぴゅよ、ぱうぱう。",
+    "q": "pyuyopyuyo,paupau.",
+    "lang": "ja",
+    "uuid": "ee5b6d4e-2a21-4023-ab86-e8c5f7f1daff"
+  },
+  {
+    "disp": "ヨピュヨピュ、ジュパジュパ。",
+    "kana": "よぴゅよぴゅ、じゅぱじゅぱ。",
+    "q": "yopyuyopyu,jupajupa.",
+    "lang": "ja",
+    "uuid": "3026fbfa-0616-4674-924f-54607969f1d4"
+  },
+  {
+    "disp": "イオアイオア、オジュオジュ。",
+    "kana": "いおあいおあ、おじゅおじゅ。",
+    "q": "ioaioa,ojuoju.",
+    "lang": "ja",
+    "uuid": "0e14a8ae-d910-4631-badd-e1563790a089"
+  },
+  {
+    "disp": "ウイアウイア、ユオユオ。",
+    "kana": "ういあういあ、ゆおゆお。",
+    "q": "uiauia,yuoyuo.",
+    "lang": "ja",
+    "uuid": "8f937c97-003b-4757-a925-6440c29abbd6"
+  },
+  {
+    "disp": "プパプパ、ヤジョヤジョ。",
+    "kana": "ぷぱぷぱ、やじょやじょ。",
+    "q": "pupapupa,yajoyajo.",
+    "lang": "ja",
+    "uuid": "369a4e0b-cf44-451c-8c62-e357fdf59495"
+  },
+  {
+    "disp": "ピウピウ、ヤウヤウ。",
+    "kana": "ぴうぴう、やうやう。",
+    "q": "piupiu,yauyau.",
+    "lang": "ja",
+    "uuid": "0ffe2d17-d12a-499e-b1c2-3b6742272deb"
+  },
+  {
+    "disp": "ポヨポヨ、ウパウパ。",
+    "kana": "ぽよぽよ、うぱうぱ。",
+    "q": "poyopoyo,upaupa.",
+    "lang": "ja",
+    "uuid": "2e7bb720-7467-4073-a66f-18427b8c9867"
+  },
+  {
+    "disp": "ジャオジャオ、ジュピジュピ。",
+    "kana": "じゃおじゃお、じゅぴじゅぴ。",
+    "q": "jaojao,jupijupi.",
+    "lang": "ja",
+    "uuid": "2178946c-a6fd-4227-96b2-bc5b6933c8c9"
+  },
+  {
+    "disp": "ピュオピュオ、ジェプジェプ。",
+    "kana": "ぴゅおぴゅお、じぇぷじぇぷ。",
+    "q": "pyuopyuo,jepujepu.",
+    "lang": "ja",
+    "uuid": "0b2c3b47-5fc5-4900-a2af-67830192a276"
+  },
+  {
+    "disp": "ユピャユピャ、ポジェポジェ。",
+    "kana": "ゆぴゃゆぴゃ、ぽじぇぽじぇ。",
+    "q": "yupyayupya,pojepoje.",
+    "lang": "ja",
+    "uuid": "3ba0d4d6-2733-44ad-bd95-0c67bbd24689"
+  },
+  {
+    "disp": "ジャイジャイ、オヨオヨ。",
+    "kana": "じゃいじゃい、およおよ。",
+    "q": "jaijai,oyooyo.",
+    "lang": "ja",
+    "uuid": "427909ed-248a-45b7-bc03-46705745a938"
+  },
+  {
+    "disp": "ウポウポ、イユイユ。",
+    "kana": "うぽうぽ、いゆいゆ。",
+    "q": "upoupo,iyuiyu.",
+    "lang": "ja",
+    "uuid": "e725a7ed-7fee-42bb-a238-b9976e7b8b0a"
+  },
+  {
+    "disp": "イピャイピャ、ペアペア。",
+    "kana": "いぴゃいぴゃ、ぺあぺあ。",
+    "q": "ipyaipya,peapea.",
+    "lang": "ja",
+    "uuid": "e62333cc-5436-4ad4-8370-dedf7c792b20"
+  },
+  {
+    "disp": "アイエアイエ、ウオエウオエ。",
+    "kana": "あいえあいえ、うおえうおえ。",
+    "q": "aieaie,uoeuoe.",
+    "lang": "ja",
+    "uuid": "18374348-829f-4c89-9857-a364867fd8be"
+  },
+  {
+    "disp": "アオエアオエ、ウピュウピュ。",
+    "kana": "あおえあおえ、うぴゅうぴゅ。",
+    "q": "aoeaoe,upyuupyu.",
+    "lang": "ja",
+    "uuid": "964d467f-244c-4789-8cbb-a724861eb402"
+  },
+  {
+    "disp": "ポピポピ、アウイアウイ。",
+    "kana": "ぽぴぽぴ、あういあうい。",
+    "q": "popipopi,auiaui.",
+    "lang": "ja",
+    "uuid": "f26cfe95-addb-4ca1-8a94-ceca3ea2015a"
+  },
+  {
+    "disp": "ユペユペ、イウイウ。",
+    "kana": "ゆぺゆぺ、いういう。",
+    "q": "yupeyupe,iuiu.",
+    "lang": "ja",
+    "uuid": "b1035a7b-c5af-4601-b8de-4b156097664d"
+  },
+  {
+    "disp": "ユピュユピュ、ジョプジョプ。",
+    "kana": "ゆぴゅゆぴゅ、じょぷじょぷ。",
+    "q": "yupyuyupyu,jopujopu.",
+    "lang": "ja",
+    "uuid": "06357050-244e-46dc-b05f-569ad1a8659c"
+  },
+  {
+    "disp": "ウプウプ、ユヨユヨ。",
+    "kana": "うぷうぷ、ゆよゆよ。",
+    "q": "upuupu,yuyoyuyo.",
+    "lang": "ja",
+    "uuid": "690bfafc-b94c-4c8d-835c-c140af681dea"
+  },
+  {
+    "disp": "イジョイジョ、ジョウジョウ。",
+    "kana": "いじょいじょ、じょうじょう。",
+    "q": "ijoijo,joujou.",
+    "lang": "ja",
+    "uuid": "2ade7cfc-ecda-4fef-af69-b090d60da050"
+  },
+  {
+    "disp": "ウピウピ、ピュエピュエ。",
+    "kana": "うぴうぴ、ぴゅえぴゅえ。",
+    "q": "upiupi,pyuepyue.",
+    "lang": "ja",
+    "uuid": "bda99f01-1186-434e-b55f-ca7d61ad6800"
+  },
+  {
+    "disp": "ジャプジャプ、エウイエウイ。",
+    "kana": "じゃぷじゃぷ、えういえうい。",
+    "q": "japujapu,euieui.",
+    "lang": "ja",
+    "uuid": "21b8c80a-0b6d-40db-a545-cdf67e7deee4"
+  },
+  {
+    "disp": "ウオアウオア、ヨウヨウ。",
+    "kana": "うおあうおあ、ようよう。",
+    "q": "uoauoa,youyou.",
+    "lang": "ja",
+    "uuid": "e46960d4-b1a7-45a3-94b9-8d2375669a33"
+  },
+  {
+    "disp": "ウジュウジュ、アエアエ。",
+    "kana": "うじゅうじゅ、あえあえ。",
+    "q": "ujuuju,aeae.",
+    "lang": "ja",
+    "uuid": "cf398b55-cc22-4750-99e3-ae0bdde7b95e"
+  },
+  {
+    "disp": "ピジュピジュ、パアパア。",
+    "kana": "ぴじゅぴじゅ、ぱあぱあ。",
+    "q": "pijupiju,paapaa.",
+    "lang": "ja",
+    "uuid": "67a23423-460b-4a56-bdae-3320a5d18bf1"
+  },
+  {
+    "disp": "オエアオエア、エイエイ。",
+    "kana": "おえあおえあ、えいえい。",
+    "q": "oeaoea,eiei.",
+    "lang": "ja",
+    "uuid": "45289c4e-72a4-4db3-bc64-5089d283ad0e"
+  },
+  {
+    "disp": "ユジェユジェ、プピプピ。",
+    "kana": "ゆじぇゆじぇ、ぷぴぷぴ。",
+    "q": "yujeyuje,pupipupi.",
+    "lang": "ja",
+    "uuid": "f0840333-5f6f-42a4-9198-c23ac7af0e80"
+  },
+  {
+    "disp": "ヤヨヤヨ、パジョパジョ。",
+    "kana": "やよやよ、ぱじょぱじょ。",
+    "q": "yayoyayo,pajopajo.",
+    "lang": "ja",
+    "uuid": "46f8ef95-7846-4653-a376-5083ef6fdd5e"
+  },
+  {
+    "disp": "オウアオウア、アパアパ。",
+    "kana": "おうあおうあ、あぱあぱ。",
+    "q": "ouaoua,apaapa.",
+    "lang": "ja",
+    "uuid": "8b33db10-2a4e-4b91-8e38-b731250abac2"
+  },
+  {
+    "disp": "エピエピ、ユイユイ。",
+    "kana": "えぴえぴ、ゆいゆい。",
+    "q": "epiepi,yuiyui.",
+    "lang": "ja",
+    "uuid": "d5c0aee1-ac1c-4f45-a3b2-e05a4a867812"
+  },
+  {
+    "disp": "ジョポジョポ、プウプウ。",
+    "kana": "じょぽじょぽ、ぷうぷう。",
+    "q": "jopojopo,puupuu.",
+    "lang": "ja",
+    "uuid": "b642785b-6df7-4ba0-a187-27e25685cded"
+  },
+  {
+    "disp": "アジャアジャ、ジェピジェピ。",
+    "kana": "あじゃあじゃ、じぇぴじぇぴ。",
+    "q": "ajaaja,jepijepi.",
+    "lang": "ja",
+    "uuid": "e7a80faf-a90c-4100-8f0f-8d3b4ae83d62"
+  },
+  {
+    "disp": "ヤエヤエ、アポアポ。",
+    "kana": "やえやえ、あぽあぽ。",
+    "q": "yaeyae,apoapo.",
+    "lang": "ja",
+    "uuid": "ed5bb09d-d1f7-446f-b056-cf9d4e1ae61b"
+  },
+  {
+    "disp": "ウアエウアエ、ヨイヨイ。",
+    "kana": "うあえうあえ、よいよい。",
+    "q": "uaeuae,yoiyoi.",
+    "lang": "ja",
+    "uuid": "6d930043-7c6a-4a03-9837-d55ae54f8862"
+  },
+  {
+    "disp": "ジョオジョオ、ポジュポジュ。",
+    "kana": "じょおじょお、ぽじゅぽじゅ。",
+    "q": "joojoo,pojupoju.",
+    "lang": "ja",
+    "uuid": "8aca11a1-a036-4d43-b7a7-a5e440627bcf"
+  },
+  {
+    "disp": "ペユペユ、ユエユエ。",
+    "kana": "ぺゆぺゆ、ゆえゆえ。",
+    "q": "peyupeyu,yueyue.",
+    "lang": "ja",
+    "uuid": "eeb7329f-0c94-4a16-a7b4-50b422cef165"
+  },
+  {
+    "disp": "ペエペエ、エジョエジョ。",
+    "kana": "ぺえぺえ、えじょえじょ。",
+    "q": "peepee,ejoejo.",
+    "lang": "ja",
+    "uuid": "b31ac11c-54b8-4207-83ba-0d69d7245315"
+  },
+  {
+    "disp": "オイアオイア、ヤピョヤピョ。",
+    "kana": "おいあおいあ、やぴょやぴょ。",
+    "q": "oiaoia,yapyoyapyo.",
+    "lang": "ja",
+    "uuid": "aa34789c-486e-41cd-93f2-ed35390801e5"
+  },
+  {
+    "disp": "プイプイ、ヨピャヨピャ。",
+    "kana": "ぷいぷい、よぴゃよぴゃ。",
+    "q": "puipui,yopyayopya.",
+    "lang": "ja",
+    "uuid": "78ad9076-bad2-4c35-a15a-6a4ba22c7daa"
+  },
+  {
+    "disp": "アジェアジェ、アピャアピャ。",
+    "kana": "あじぇあじぇ、あぴゃあぴゃ。",
+    "q": "ajeaje,apyaapya.",
+    "lang": "ja",
+    "uuid": "74543984-c05c-47e8-9b0b-374fd4b636dc"
+  },
+  {
+    "disp": "エユエユ、ジョペジョペ。",
+    "kana": "えゆえゆ、じょぺじょぺ。",
+    "q": "eyueyu,jopejope.",
+    "lang": "ja",
+    "uuid": "50ba6bc9-1ff3-43e8-823b-d31de3b654a0"
+  },
+  {
+    "disp": "ヨジュヨジュ、ユピユピ。",
+    "kana": "よじゅよじゅ、ゆぴゆぴ。",
+    "q": "yojuyoju,yupiyupi.",
+    "lang": "ja",
+    "uuid": "2fec3b80-4849-4335-ac1b-ba965b55d055"
+  },
+  {
+    "disp": "ジェアジェア、パジェパジェ。",
+    "kana": "じぇあじぇあ、ぱじぇぱじぇ。",
+    "q": "jeajea,pajepaje.",
+    "lang": "ja",
+    "uuid": "01013359-c126-46bb-a524-a2c9ca597d01"
+  },
+  {
+    "disp": "パジャパジャ、イヤイヤ。",
+    "kana": "ぱじゃぱじゃ、いやいや。",
+    "q": "pajapaja,iyaiya.",
+    "lang": "ja",
+    "uuid": "37083047-fa7a-4d75-8ccc-178a261f6b0a"
+  },
+  {
+    "disp": "ジャパジャパ、エイオエイオ。",
+    "kana": "じゃぱじゃぱ、えいおえいお。",
+    "q": "japajapa,eioeio.",
+    "lang": "ja",
+    "uuid": "75e2a639-0f2a-40fa-addd-0a7985d808a9"
+  },
+  {
+    "disp": "アヨアヨ、ペポペポ。",
+    "kana": "あよあよ、ぺぽぺぽ。",
+    "q": "ayoayo,pepopepo.",
+    "lang": "ja",
+    "uuid": "9ae1a03e-d401-424e-8abd-b2bd62378538"
+  },
+  {
+    "disp": "ウピャウピャ、ウイウイ。",
+    "kana": "うぴゃうぴゃ、ういうい。",
+    "q": "upyaupya,uiui.",
+    "lang": "ja",
+    "uuid": "32956276-6858-4598-9b0f-53ffbe1fad57"
+  },
+  {
+    "disp": "ヤプヤプ、ヤオヤオ。",
+    "kana": "やぷやぷ、やおやお。",
+    "q": "yapuyapu,yaoyao.",
+    "lang": "ja",
+    "uuid": "f76a82e9-bf2b-44fe-a874-69b63d566d70"
+  },
+  {
+    "disp": "ウアオウアオ、エオイエオイ。",
+    "kana": "うあおうあお、えおいえおい。",
+    "q": "uaouao,eoieoi.",
+    "lang": "ja",
+    "uuid": "0f52cbfc-187a-47b0-b206-ccb79f1993dd"
+  },
+  {
+    "disp": "プヤプヤ、アユアユ。",
+    "kana": "ぷやぷや、あゆあゆ。",
+    "q": "puyapuya,ayuayu.",
+    "lang": "ja",
+    "uuid": "ab6fa9bd-c2af-4b95-b5d9-a13060316b2f"
+  },
+  {
+    "disp": "ジョアジョア、ヤピャヤピャ。",
+    "kana": "じょあじょあ、やぴゃやぴゃ。",
+    "q": "joajoa,yapyayapya.",
+    "lang": "ja",
+    "uuid": "55646e5e-64a6-452a-90a7-9aa2fc5a86db"
+  },
+  {
+    "disp": "ヨジャヨジャ、オイウオイウ。",
+    "kana": "よじゃよじゃ、おいうおいう。",
+    "q": "yojayoja,oiuoiu.",
+    "lang": "ja",
+    "uuid": "376ef469-5961-4349-8aa9-47f1d0408326"
+  },
+  {
+    "disp": "エピュエピュ、ピョオピョオ。",
+    "kana": "えぴゅえぴゅ、ぴょおぴょお。",
+    "q": "epyuepyu,pyoopyoo.",
+    "lang": "ja",
+    "uuid": "33533448-ae51-4a64-8872-c6ac8978587c"
+  },
+  {
+    "disp": "ヨピョヨピョ、イウオイウオ。",
+    "kana": "よぴょよぴょ、いうおいうお。",
+    "q": "yopyoyopyo,iuoiuo.",
+    "lang": "ja",
+    "uuid": "4b15ead8-9396-41eb-931e-60d6d9701a18"
+  },
+  {
+    "disp": "プジェプジェ、エジュエジュ。",
+    "kana": "ぷじぇぷじぇ、えじゅえじゅ。",
+    "q": "pujepuje,ejueju.",
+    "lang": "ja",
+    "uuid": "ef94f0d8-6b46-4ddf-a02b-94e19c5ef325"
+  },
+  {
+    "disp": "エアイエアイ、アエイアエイ。",
+    "kana": "えあいえあい、あえいあえい。",
+    "q": "eaieai,aeiaei.",
+    "lang": "ja",
+    "uuid": "c33f7250-42b8-499b-9bb3-da047d91b04a"
+  },
+  {
+    "disp": "イオウイオウ、アウエアウエ。",
+    "kana": "いおういおう、あうえあうえ。",
+    "q": "iouiou,aueaue.",
+    "lang": "ja",
+    "uuid": "b82e6f7a-baf5-43ed-8853-b1584967953b"
+  },
+  {
+    "disp": "ジェポジェポ、ウピョウピョ。",
+    "kana": "じぇぽじぇぽ、うぴょうぴょ。",
+    "q": "jepojepo,upyoupyo.",
+    "lang": "ja",
+    "uuid": "18b69642-5a5b-44d6-9ff7-29a0a1ef5cb7"
+  },
+  {
+    "disp": "オピャオピャ、イアイア。",
+    "kana": "おぴゃおぴゃ、いあいあ。",
+    "q": "opyaopya,iaia.",
+    "lang": "ja",
+    "uuid": "64d5020b-ac99-4f40-b288-3960ac85afd7"
+  }
+]
