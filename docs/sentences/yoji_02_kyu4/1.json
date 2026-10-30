@@ -191,14 +191,14 @@
   {
     "disp": "一寸光陰",
     "kana": "いっすんのこういん",
-    "q": "issunnokouin",
+    "q": "issunnnokouin",
     "lang": "ja",
     "uuid": "b1c9135b-bec4-414a-a3ce-da3dfb4cac79"
   },
   {
     "disp": "一寸丹心",
     "kana": "いっすんのたんしん",
-    "q": "issunnotanshin",
+    "q": "issunnnotanshin",
     "lang": "ja",
     "uuid": "e7759950-8e16-4558-a77c-96b35952b5fa"
   },
@@ -219,7 +219,7 @@
   {
     "disp": "一片氷心",
     "kana": "いっぺんのひょうしん",
-    "q": "ippennohyoushin",
+    "q": "ippennnohyoushin",
     "lang": "ja",
     "uuid": "ae07e1c5-819d-43f7-94b0-dddb1b09e594"
   },
@@ -534,7 +534,7 @@
   {
     "disp": "鬼出電入",
     "kana": "きしゅつでんにゅう",
-    "q": "kishutsudennyuu",
+    "q": "kishutsudennnyuu",
     "lang": "ja",
     "uuid": "db869c3a-84fb-4287-a51c-73c4c5f44eba"
   },
@@ -688,7 +688,7 @@
   {
     "disp": "君子万年",
     "kana": "くんしばんねん",
-    "q": "kunshibannen",
+    "q": "kunshibannnen",
     "lang": "ja",
     "uuid": "c71ab6c8-e0e4-434e-b4ed-3fb013742abc"
   },
@@ -1598,7 +1598,7 @@
   {
     "disp": "先難後獲",
     "kana": "せんなんこうかく",
-    "q": "sennankoukaku",
+    "q": "sennnankoukaku",
     "lang": "ja",
     "uuid": "71578a79-dd7f-40c7-bfc4-858f46d4991e"
   },
@@ -1682,7 +1682,7 @@
   {
     "disp": "善男善女",
     "kana": "ぜんなんぜんにょ",
-    "q": "zennanzennyo",
+    "q": "zennnanzennnyo",
     "lang": "ja",
     "uuid": "40e04f4f-6d33-4510-a21f-44789a51e5e0"
   },
@@ -2137,7 +2137,7 @@
   {
     "disp": "年年歳歳",
     "kana": "ねんねんさいさい",
-    "q": "nennensaisai",
+    "q": "nennnensaisai",
     "lang": "ja",
     "uuid": "9fea4f70-664d-44b6-81d4-d1e1233a5ea8"
   },
@@ -2284,7 +2284,7 @@
   {
     "disp": "万能一心",
     "kana": "ばんのういっしん",
-    "q": "bannouisshin",
+    "q": "bannnouisshin",
     "lang": "ja",
     "uuid": "35f685f9-6e46-41f3-9906-c4f883e41d9d"
   },

@@ -16,7 +16,7 @@
   {
     "disp": "安寧秩序",
     "kana": "あんねいちつじょ",
-    "q": "anneichitsujo",
+    "q": "annneichitsujo",
     "lang": "ja",
     "uuid": "5de6f987-6dca-4fed-9d29-b8b2976dfbf6"
   },
@@ -184,7 +184,7 @@
   {
     "disp": "隠忍自重",
     "kana": "いんにんじちょう",
-    "q": "inninjichou",
+    "q": "innninjichou",
     "lang": "ja",
     "uuid": "c916f393-8979-4a2d-b1d6-2870f644f9cb"
   },
@@ -716,21 +716,21 @@
   {
     "disp": "堅忍果決",
     "kana": "けんにんかけつ",
-    "q": "kenninkaketsu",
+    "q": "kennninkaketsu",
     "lang": "ja",
     "uuid": "396586e4-f359-4181-b5f0-61a8064a5969"
   },
   {
     "disp": "堅忍質直",
     "kana": "けんにんしっちょく",
-    "q": "kenninshicchoku",
+    "q": "kennninshicchoku",
     "lang": "ja",
     "uuid": "7ded55e4-943f-439d-9187-9d3d89a659cb"
   },
   {
     "disp": "堅忍不抜",
     "kana": "けんにんふばつ",
-    "q": "kenninfubatsu",
+    "q": "kennninfubatsu",
     "lang": "ja",
     "uuid": "46bf7a84-b777-4803-ab25-48d19affcb8b"
   },
@@ -926,7 +926,7 @@
   {
     "disp": "残忍酷薄",
     "kana": "ざんにんこくはく",
-    "q": "zanninkokuhaku",
+    "q": "zannninkokuhaku",
     "lang": "ja",
     "uuid": "74b83d6f-f61c-481e-a488-34f3bc51337f"
   },
@@ -1479,7 +1479,7 @@
   {
     "disp": "積善余慶",
     "kana": "せきぜんのよけい",
-    "q": "sekizennoyokei",
+    "q": "sekizennnoyokei",
     "lang": "ja",
     "uuid": "60fb2b85-3d2f-4fbf-b035-423b2a22d0e0"
   },
@@ -1570,7 +1570,7 @@
   {
     "disp": "漸入佳境",
     "kana": "ぜんにゅうかきょう",
-    "q": "zennyuukakyou",
+    "q": "zennnyuukakyou",
     "lang": "ja",
     "uuid": "0c94116d-ea65-46e7-b877-17a579086fb5"
   },
@@ -1703,7 +1703,7 @@
   {
     "disp": "断悪修善",
     "kana": "だんなくしゅぜん",
-    "q": "dannakushuzen",
+    "q": "dannnakushuzen",
     "lang": "ja",
     "uuid": "9ace4ec8-8cbe-4286-9e7c-0fd507db9f72"
   },
@@ -2158,7 +2158,7 @@
   {
     "disp": "百八煩悩",
     "kana": "ひゃくはちぼんのう",
-    "q": "hyakuhachibonnou",
+    "q": "hyakuhachibonnnou",
     "lang": "ja",
     "uuid": "93e02966-648b-486f-aeaf-ad794a954cef"
   },
@@ -2326,7 +2326,7 @@
   {
     "disp": "奔南狩北",
     "kana": "ほんなんしゅほく",
-    "q": "honnanshuhoku",
+    "q": "honnnanshuhoku",
     "lang": "ja",
     "uuid": "1198c6d6-f2c0-4981-bc64-c0b0844f2e59"
   },

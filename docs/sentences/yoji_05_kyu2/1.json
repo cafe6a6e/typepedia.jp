@@ -352,7 +352,7 @@
   {
     "disp": "金輪奈落",
     "kana": "こんりんならく",
-    "q": "konrinnaraku",
+    "q": "konrinnnaraku",
     "lang": "ja",
     "uuid": "aed12b39-9f51-4b4c-8959-f159418e39b3"
   },
@@ -394,7 +394,7 @@
   {
     "disp": "三人成虎",
     "kana": "さんにんせいこ",
-    "q": "sanninseiko",
+    "q": "sannninseiko",
     "lang": "ja",
     "uuid": "146314bd-f42d-49c3-bc15-2e541d0d327a"
   },
@@ -618,7 +618,7 @@
   {
     "disp": "頂門金椎",
     "kana": "ちょうもんのきんつい",
-    "q": "choumonnokintsui",
+    "q": "choumonnnokintsui",
     "lang": "ja",
     "uuid": "58b6f0d0-782c-4557-a47b-0d1b231a3500"
   },

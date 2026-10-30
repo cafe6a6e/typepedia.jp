@@ -121,7 +121,7 @@
   {
     "disp": "衣錦之栄",
     "kana": "いきんのえい",
-    "q": "ikinnoei",
+    "q": "ikinnnoei",
     "lang": "ja",
     "uuid": "05d400fa-4889-4ded-b4b4-6671f8bf8a1c"
   },
@@ -296,7 +296,7 @@
   {
     "disp": "一飯之恩",
     "kana": "いっぱんのおん",
-    "q": "ippannoon",
+    "q": "ippannnoon",
     "lang": "ja",
     "uuid": "8186cf44-93f3-447a-878a-76174bbe224f"
   },
@@ -506,7 +506,7 @@
   {
     "disp": "円融三諦",
     "kana": "えんにゅうさんだい",
-    "q": "ennyuusandai",
+    "q": "ennnyuusandai",
     "lang": "ja",
     "uuid": "109e1fc4-54b5-41e7-b694-0af3cc14a17b"
   },
@@ -618,7 +618,7 @@
   {
     "disp": "廻天之力",
     "kana": "かいてんのちから",
-    "q": "kaitennochikara",
+    "q": "kaitennnochikara",
     "lang": "ja",
     "uuid": "d5286bb3-820b-4ab7-b9cf-aab8bf63c9eb"
   },
@@ -639,7 +639,7 @@
   {
     "disp": "河漢之言",
     "kana": "かかんのげん",
-    "q": "kakannogen",
+    "q": "kakannnogen",
     "lang": "ja",
     "uuid": "ea3ffcee-1fcb-4b13-9f1b-a024a1d66ab3"
   },
@@ -1017,7 +1017,7 @@
   {
     "disp": "箕山之志",
     "kana": "きざんのこころざし",
-    "q": "kizannokokorozashi",
+    "q": "kizannnokokorozashi",
     "lang": "ja",
     "uuid": "803fa737-2867-457d-bbdf-132f7abc4c98"
   },
@@ -1101,7 +1101,7 @@
   {
     "disp": "客塵煩悩",
     "kana": "きゃくじんぼんのう",
-    "q": "kyakujinbonnou",
+    "q": "kyakujinbonnnou",
     "lang": "ja",
     "uuid": "87114388-ab8e-4ec1-8d5b-60a8712689b1"
   },
@@ -1129,7 +1129,7 @@
   {
     "disp": "丘山之功",
     "kana": "きゅうざんのこう",
-    "q": "kyuuzannokou",
+    "q": "kyuuzannnokou",
     "lang": "ja",
     "uuid": "a03f630d-4475-40a1-8524-bc2061f9590f"
   },
@@ -1437,7 +1437,7 @@
   {
     "disp": "鶏群一鶴",
     "kana": "けいぐんのいっかく",
-    "q": "keigunnoikkaku",
+    "q": "keigunnnoikkaku",
     "lang": "ja",
     "uuid": "c61c0bb1-defe-412e-95f5-0b2d1ff93fb8"
   },
@@ -1451,7 +1451,7 @@
   {
     "disp": "荊山之玉",
     "kana": "けいざんのぎょく",
-    "q": "keizannogyoku",
+    "q": "keizannnogyoku",
     "lang": "ja",
     "uuid": "d04b956e-cc04-4c0f-919e-4a2e9f575567"
   },
@@ -1528,7 +1528,7 @@
   {
     "disp": "桂林一枝",
     "kana": "けいりんのいっし",
-    "q": "keirinnoisshi",
+    "q": "keirinnnoisshi",
     "lang": "ja",
     "uuid": "541665bf-de5c-48e7-88f8-81d593e5e703"
   },
@@ -1801,7 +1801,7 @@
   {
     "disp": "浩然之気",
     "kana": "こうぜんのき",
-    "q": "kouzennoki",
+    "q": "kouzennnoki",
     "lang": "ja",
     "uuid": "206c6a5a-845b-4fbf-b511-7846e15e9b0a"
   },
@@ -1885,14 +1885,14 @@
   {
     "disp": "鴻門之会",
     "kana": "こうもんのかい",
-    "q": "koumonnokai",
+    "q": "koumonnnokai",
     "lang": "ja",
     "uuid": "85bbfafa-b865-46b4-918a-b32adb7eb402"
   },
   {
     "disp": "鴻門玉斗",
     "kana": "こうもんのぎょくと",
-    "q": "koumonnogyokuto",
+    "q": "koumonnnogyokuto",
     "lang": "ja",
     "uuid": "c9fd428f-aa62-452f-b0d2-88da539b5e83"
   },
@@ -1969,7 +1969,7 @@
   {
     "disp": "胡孫入袋",
     "kana": "こそんにゅうたい",
-    "q": "kosonnyuutai",
+    "q": "kosonnnyuutai",
     "lang": "ja",
     "uuid": "316e8e71-e920-41ae-b025-3a94c24e82ec"
   },
@@ -2123,7 +2123,7 @@
   {
     "disp": "採薪之憂",
     "kana": "さいしんのうれい",
-    "q": "saishinnourei",
+    "q": "saishinnnourei",
     "lang": "ja",
     "uuid": "f7cd9231-d249-4693-9726-fcdd00cfabcf"
   },
@@ -2529,7 +2529,7 @@
   {
     "disp": "出藍之誉",
     "kana": "しゅつらんのほまれ",
-    "q": "shutsurannohomare",
+    "q": "shutsurannnohomare",
     "lang": "ja",
     "uuid": "3904defd-54c3-430e-9599-0c2d4554a52e"
   },
@@ -2578,7 +2578,7 @@
   {
     "disp": "小人之勇",
     "kana": "しょうじんのゆう",
-    "q": "shoujinnoyuu",
+    "q": "shoujinnnoyuu",
     "lang": "ja",
     "uuid": "63bf7808-1299-4313-8d44-f81550ad8215"
   },
@@ -2690,14 +2690,14 @@
   {
     "disp": "芝蘭之室",
     "kana": "しらんのしつ",
-    "q": "shirannoshitsu",
+    "q": "shirannnoshitsu",
     "lang": "ja",
     "uuid": "242afac6-81b6-4721-877c-c501602e5725"
   },
   {
     "disp": "芝蘭之交",
     "kana": "しらんのまじわり",
-    "q": "shirannomajiwari",
+    "q": "shirannnomajiwari",
     "lang": "ja",
     "uuid": "df4dce64-3834-46f6-9dd3-6dc256cdf563"
   },
@@ -2788,7 +2788,7 @@
   {
     "disp": "慈悲忍辱",
     "kana": "じひにんにく",
-    "q": "jihininniku",
+    "q": "jihininnniku",
     "lang": "ja",
     "uuid": "1c7e657b-4bd0-44cb-9ffa-4579e3d2f58d"
   },
@@ -2802,7 +2802,7 @@
   {
     "disp": "儒林棟梁",
     "kana": "じゅりんのとうりょう",
-    "q": "jurinnotouryou",
+    "q": "jurinnnotouryou",
     "lang": "ja",
     "uuid": "2a442de3-1748-4a0b-9f1c-5e9594a0a9fa"
   },
@@ -2991,7 +2991,7 @@
   {
     "disp": "青雲之志",
     "kana": "せいうんのこころざし",
-    "q": "seiunnokokorozashi",
+    "q": "seiunnnokokorozashi",
     "lang": "ja",
     "uuid": "7d0c8a88-d24d-4d83-8e16-994df96458d3"
   },
@@ -3075,7 +3075,7 @@
   {
     "disp": "積薪之嘆",
     "kana": "せきしんのたん",
-    "q": "sekishinnotan",
+    "q": "sekishinnnotan",
     "lang": "ja",
     "uuid": "6b4c41ce-cc1a-46f9-9532-772a55ac1011"
   },
@@ -3089,21 +3089,21 @@
   {
     "disp": "尺寸之功",
     "kana": "せきすんのこう",
-    "q": "sekisunnokou",
+    "q": "sekisunnnokou",
     "lang": "ja",
     "uuid": "3784795f-28f4-4f96-ab8c-8109884666d6"
   },
   {
     "disp": "尺寸之地",
     "kana": "せきすんのち",
-    "q": "sekisunnochi",
+    "q": "sekisunnnochi",
     "lang": "ja",
     "uuid": "7435e14c-018c-4212-93df-b1cc63507c49"
   },
   {
     "disp": "尺寸之柄",
     "kana": "せきすんのへい",
-    "q": "sekisunnohei",
+    "q": "sekisunnnohei",
     "lang": "ja",
     "uuid": "bca45f6c-e987-4d40-9054-edbefac5d378"
   },
@@ -3180,7 +3180,7 @@
   {
     "disp": "先見之明",
     "kana": "せんけんのめい",
-    "q": "senkennomei",
+    "q": "senkennnomei",
     "lang": "ja",
     "uuid": "25673029-4cc5-4bd0-aab4-abdf9761c70d"
   },
@@ -3222,14 +3222,14 @@
   {
     "disp": "栴檀双葉",
     "kana": "せんだんのふたば",
-    "q": "sendannofutaba",
+    "q": "sendannnofutaba",
     "lang": "ja",
     "uuid": "e572eb7c-a638-4819-a12a-096521817581"
   },
   {
     "disp": "千成瓢箪",
     "kana": "せんなりびょうたん",
-    "q": "sennaribyoutan",
+    "q": "sennnaribyoutan",
     "lang": "ja",
     "uuid": "efcc6b83-b547-4da8-b774-ee73dd1b8110"
   },
@@ -3390,7 +3390,7 @@
   {
     "disp": "曾参歌声",
     "kana": "そうしんのかせい",
-    "q": "soushinnokasei",
+    "q": "soushinnnokasei",
     "lang": "ja",
     "uuid": "cf0e2c61-7d88-4f3d-a86e-8fb271231bdc"
   },
@@ -3523,7 +3523,7 @@
   {
     "disp": "泰山之安",
     "kana": "たいざんのやすき",
-    "q": "taizannoyasuki",
+    "q": "taizannnoyasuki",
     "lang": "ja",
     "uuid": "acaefa67-c52f-45fd-9980-4a501fcc06a7"
   },
@@ -3551,7 +3551,7 @@
   {
     "disp": "他山之石",
     "kana": "たざんのいし",
-    "q": "tazannoishi",
+    "q": "tazannnoishi",
     "lang": "ja",
     "uuid": "95d25955-2dc7-4fd8-8550-e92d0cbfff6a"
   },
@@ -3593,7 +3593,7 @@
   {
     "disp": "探卵之患",
     "kana": "たんらんのうれい",
-    "q": "tanrannourei",
+    "q": "tanrannnourei",
     "lang": "ja",
     "uuid": "9815daff-2a6a-4950-96e8-712a242e258c"
   },
@@ -3614,7 +3614,7 @@
   {
     "disp": "弾丸之地",
     "kana": "だんがんのち",
-    "q": "dangannochi",
+    "q": "dangannnochi",
     "lang": "ja",
     "uuid": "aaaa88e8-c3a3-4770-9330-1b0c45c8b794"
   },
@@ -3628,7 +3628,7 @@
   {
     "disp": "断金之交",
     "kana": "だんきんのまじわり",
-    "q": "dankinnomajiwari",
+    "q": "dankinnnomajiwari",
     "lang": "ja",
     "uuid": "c3eb48a9-be97-40c0-ad52-25aee793e333"
   },
@@ -3698,7 +3698,7 @@
   {
     "disp": "中原之鹿",
     "kana": "ちゅうげんのしか",
-    "q": "chuugennoshika",
+    "q": "chuugennnoshika",
     "lang": "ja",
     "uuid": "31850ebb-a807-4133-a9e2-fade9f655bed"
   },
@@ -3852,7 +3852,7 @@
   {
     "disp": "重卵之危",
     "kana": "ちょうらんのき",
-    "q": "chourannoki",
+    "q": "chourannnoki",
     "lang": "ja",
     "uuid": "966472d3-8688-41d2-863d-9debd4d49b36"
   },
@@ -3992,7 +3992,7 @@
   {
     "disp": "天淵之差",
     "kana": "てんえんのさ",
-    "q": "tennennosa",
+    "q": "tennennnosa",
     "lang": "ja",
     "uuid": "f0524001-b436-4f39-940f-d2556babba5c"
   },
@@ -4020,7 +4020,7 @@
   {
     "disp": "輪廻転生",
     "kana": "りんねてんしょう",
-    "q": "rinnetenshou",
+    "q": "rinnnetenshou",
     "lang": "ja",
     "uuid": "01d4b4b0-be55-4439-81fc-077247494f25"
   },
@@ -4055,14 +4055,14 @@
   {
     "disp": "天之美禄",
     "kana": "てんのびろく",
-    "q": "tennobiroku",
+    "q": "tennnobiroku",
     "lang": "ja",
     "uuid": "977573e9-e4be-4099-92e4-8f9c7047f16f"
   },
   {
     "disp": "天之暦数",
     "kana": "てんのれきすう",
-    "q": "tennorekisuu",
+    "q": "tennnorekisuu",
     "lang": "ja",
     "uuid": "e2c28be5-5c88-43d4-9bc9-ea0b7ac41eb4"
   },
@@ -4153,7 +4153,7 @@
   {
     "disp": "倒懸之急",
     "kana": "とうけんのきゅう",
-    "q": "toukennokyuu",
+    "q": "toukennnokyuu",
     "lang": "ja",
     "uuid": "db7a9ddb-9bd7-4644-b0e2-48a147a765b5"
   },
@@ -4398,7 +4398,7 @@
   {
     "disp": "南山之寿",
     "kana": "なんざんのじゅ",
-    "q": "nanzannoju",
+    "q": "nanzannnoju",
     "lang": "ja",
     "uuid": "c39941aa-4bd5-44a7-83b2-84c2e86d1210"
   },
@@ -4489,7 +4489,7 @@
   {
     "disp": "敗軍之将",
     "kana": "はいぐんのしょう",
-    "q": "haigunnoshou",
+    "q": "haigunnnoshou",
     "lang": "ja",
     "uuid": "2dc4d2c1-d02c-4d38-93f6-16cab0136579"
   },
@@ -4671,7 +4671,7 @@
   {
     "disp": "半面之識",
     "kana": "はんめんのしき",
-    "q": "hanmennoshiki",
+    "q": "hanmennnoshiki",
     "lang": "ja",
     "uuid": "98e0edeb-8be4-4be1-96c9-ac64e898aee7"
   },
@@ -4762,7 +4762,7 @@
   {
     "disp": "万全之策",
     "kana": "ばんぜんのさく",
-    "q": "banzennosaku",
+    "q": "banzennnosaku",
     "lang": "ja",
     "uuid": "e08d4fcd-3937-4537-b03b-d33db73a5e97"
   },
@@ -4881,14 +4881,14 @@
   {
     "disp": "百年之業",
     "kana": "ひゃくねんのぎょう",
-    "q": "hyakunennogyou",
+    "q": "hyakunennnogyou",
     "lang": "ja",
     "uuid": "6a107bc4-9c63-44c1-8f3f-c9b358b8b753"
   },
   {
     "disp": "百年之柄",
     "kana": "ひゃくねんのへい",
-    "q": "hyakunennohei",
+    "q": "hyakunennnohei",
     "lang": "ja",
     "uuid": "3d1971d2-79dd-4e4c-bb6d-1c69b106f84c"
   },
@@ -5105,7 +5105,7 @@
   {
     "disp": "浮雲之志",
     "kana": "ふうんのこころざし",
-    "q": "fuunnokokorozashi",
+    "q": "fuunnnokokorozashi",
     "lang": "ja",
     "uuid": "f96da81f-f6b4-45e5-a829-2db67c87a348"
   },
@@ -5133,7 +5133,7 @@
   {
     "disp": "不刊之書",
     "kana": "ふかんのしょ",
-    "q": "fukannosho",
+    "q": "fukannnosho",
     "lang": "ja",
     "uuid": "b6e659c6-dbf4-4e9c-947f-084864f1ef1b"
   },
@@ -5182,7 +5182,7 @@
   {
     "disp": "不言之教",
     "kana": "ふげんのおしえ",
-    "q": "fugennooshie",
+    "q": "fugennnooshie",
     "lang": "ja",
     "uuid": "77a1d1e3-b176-4302-bf37-b8ef32824008"
   },
@@ -5210,14 +5210,14 @@
   {
     "disp": "負薪之憂",
     "kana": "ふしんのうれい",
-    "q": "fushinnourei",
+    "q": "fushinnnourei",
     "lang": "ja",
     "uuid": "316ca365-6ae2-4af0-ac1d-87a1d60e9ca6"
   },
   {
     "disp": "負薪之病",
     "kana": "ふしんのへい",
-    "q": "fushinnohei",
+    "q": "fushinnnohei",
     "lang": "ja",
     "uuid": "b57d84ba-e5a2-4efb-b945-6305c33c135d"
   },
@@ -5245,7 +5245,7 @@
   {
     "disp": "敷天之下",
     "kana": "ふてんのもと",
-    "q": "futennomoto",
+    "q": "futennnomoto",
     "lang": "ja",
     "uuid": "6719d146-0cf8-4e68-8b2d-4283d5d369a5"
   },
@@ -5399,7 +5399,7 @@
   {
     "disp": "米泉之精",
     "kana": "べいせんのせい",
-    "q": "beisennosei",
+    "q": "beisennnosei",
     "lang": "ja",
     "uuid": "b50222e4-b97a-4db5-b32a-50b2df4b7eb0"
   },
@@ -5574,7 +5574,7 @@
   {
     "disp": "煩悩菩提",
     "kana": "ぼんのうぼだい",
-    "q": "bonnoubodai",
+    "q": "bonnnoubodai",
     "lang": "ja",
     "uuid": "57268e0e-b868-479f-95b9-212487612465"
   },
@@ -5847,7 +5847,7 @@
   {
     "disp": "鷹犬之才",
     "kana": "ようけんのさい",
-    "q": "youkennosai",
+    "q": "youkennnosai",
     "lang": "ja",
     "uuid": "4697abd8-4a72-4a7e-a016-1c78dd8fd7c7"
   },
@@ -5959,7 +5959,7 @@
   {
     "disp": "六言六蔽",
     "kana": "りくげんのりくへい",
-    "q": "rikugennorikuhei",
+    "q": "rikugennnorikuhei",
     "lang": "ja",
     "uuid": "aae3891d-1c8d-4005-9503-824dd81d907b"
   },
@@ -6008,7 +6008,7 @@
   {
     "disp": "凌雲之志",
     "kana": "りょううんのこころざし",
-    "q": "ryouunnokokorozashi",
+    "q": "ryouunnnokokorozashi",
     "lang": "ja",
     "uuid": "a1075543-e23b-45cb-9f75-2081f6554a59"
   },
@@ -6183,7 +6183,7 @@
   {
     "disp": "六道輪廻",
     "kana": "ろくどうりんね",
-    "q": "rokudourinne",
+    "q": "rokudourinnne",
     "lang": "ja",
     "uuid": "1bd98c8e-6191-4ac1-b98c-532038dcd2d2"
   },

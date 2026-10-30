@@ -58,7 +58,7 @@
   {
     "disp": "阿諛便佞",
     "kana": "あゆべんねい",
-    "q": "ayubennei",
+    "q": "ayubennnei",
     "lang": "ja",
     "uuid": "81577f6e-1ab9-4178-bb35-d3325e0d89b8"
   },
@@ -373,7 +373,7 @@
   {
     "disp": "猗頓之富",
     "kana": "いとんのとみ",
-    "q": "itonnotomi",
+    "q": "itonnnotomi",
     "lang": "ja",
     "uuid": "71ee7dee-9976-4fb2-b5b3-c611616c953e"
   },
@@ -394,7 +394,7 @@
   {
     "disp": "渭浜漁父",
     "kana": "いひんのぎょほ",
-    "q": "ihinnogyoho",
+    "q": "ihinnnogyoho",
     "lang": "ja",
     "uuid": "106fc3d3-6563-4f04-8794-b8f78027de7a"
   },
@@ -422,7 +422,7 @@
   {
     "disp": "倚門之望",
     "kana": "いもんのぼう",
-    "q": "imonnobou",
+    "q": "imonnnobou",
     "lang": "ja",
     "uuid": "5e4cabf9-3a49-47ae-9012-e36ad7941e6b"
   },
@@ -660,7 +660,7 @@
   {
     "disp": "盈満之咎",
     "kana": "えいまんのとがめ",
-    "q": "eimannotogame",
+    "q": "eimannnotogame",
     "lang": "ja",
     "uuid": "ef6caa20-8d14-44dd-bcb7-94a71c22407d"
   },
@@ -842,7 +842,7 @@
   {
     "disp": "轅門二竜",
     "kana": "えんもんにりょう",
-    "q": "enmonniryou",
+    "q": "enmonnniryou",
     "lang": "ja",
     "uuid": "ce10bec3-540e-4ce5-b133-aa0e811abf59"
   },
@@ -1276,14 +1276,14 @@
   {
     "disp": "邯鄲之歩",
     "kana": "かんたんのほ",
-    "q": "kantannoho",
+    "q": "kantannnoho",
     "lang": "ja",
     "uuid": "14ae8ae7-34a2-47d7-8a2b-8b817580fe5d"
   },
   {
     "disp": "邯鄲之夢",
     "kana": "かんたんのゆめ",
-    "q": "kantannoyume",
+    "q": "kantannnoyume",
     "lang": "ja",
     "uuid": "fa7b4eb9-de37-4c84-a73c-166a491a3452"
   },
@@ -1332,14 +1332,14 @@
   {
     "disp": "艱難辛苦",
     "kana": "かんなんしんく",
-    "q": "kannanshinku",
+    "q": "kannnanshinku",
     "lang": "ja",
     "uuid": "cc841577-8ed8-4ed5-86a8-9d48c0a06d6f"
   },
   {
     "disp": "奸佞邪智",
     "kana": "かんねいじゃち",
-    "q": "kanneijachi",
+    "q": "kannneijachi",
     "lang": "ja",
     "uuid": "22caec10-aeac-47ce-a4e7-b80200e119f2"
   },
@@ -1472,7 +1472,7 @@
   {
     "disp": "鬼瞰之禍",
     "kana": "きかんのわざわい",
-    "q": "kikannowazawai",
+    "q": "kikannnowazawai",
     "lang": "ja",
     "uuid": "4837422a-9e2b-48e0-a991-97c9fa02630a"
   },
@@ -2599,7 +2599,7 @@
   {
     "disp": "国歩艱難",
     "kana": "こくほかんなん",
-    "q": "kokuhokannan",
+    "q": "kokuhokannnan",
     "lang": "ja",
     "uuid": "a243b820-1a86-4c76-a56e-005d419381cc"
   },
@@ -2620,7 +2620,7 @@
   {
     "disp": "古人糟魄",
     "kana": "こじんのそうはく",
-    "q": "kojinnosouhaku",
+    "q": "kojinnnosouhaku",
     "lang": "ja",
     "uuid": "11598925-5feb-4968-8abe-8d725d8e2cbd"
   },
@@ -2704,7 +2704,7 @@
   {
     "disp": "蒟蒻問答",
     "kana": "こんにゃくもんどう",
-    "q": "konnyakumondou",
+    "q": "konnnyakumondou",
     "lang": "ja",
     "uuid": "0e7ee15e-dd64-4d6d-83bb-6562a0ffe9e8"
   },
@@ -3271,7 +3271,7 @@
   {
     "disp": "酒甕飯嚢",
     "kana": "しゅおうはんのう",
-    "q": "shuouhannou",
+    "q": "shuouhannnou",
     "lang": "ja",
     "uuid": "3f96348a-b65c-4d52-a17c-d589d36545f1"
   },
@@ -3495,7 +3495,7 @@
   {
     "disp": "浸潤之譖",
     "kana": "しんじゅんのそしり",
-    "q": "shinjunnososhiri",
+    "q": "shinjunnnososhiri",
     "lang": "ja",
     "uuid": "442b68e2-ebb9-47a3-a35f-c050fede075d"
   },
@@ -3614,7 +3614,7 @@
   {
     "disp": "常山蛇勢",
     "kana": "じょうざんのだせい",
-    "q": "jouzannodasei",
+    "q": "jouzannnodasei",
     "lang": "ja",
     "uuid": "8ef03bde-53ce-462b-a0b7-2aac0ff27535"
   },
@@ -3859,7 +3859,7 @@
   {
     "disp": "青天霹靂",
     "kana": "せいてんのへきれき",
-    "q": "seitennohekireki",
+    "q": "seitennnohekireki",
     "lang": "ja",
     "uuid": "870bd9cb-4859-43ac-a114-b4d57ad4dbff"
   },
@@ -4006,7 +4006,7 @@
   {
     "disp": "千仞之谿",
     "kana": "せんじんのたに",
-    "q": "senjinnotani",
+    "q": "senjinnnotani",
     "lang": "ja",
     "uuid": "39fcb4fc-8af5-4f1c-9bf8-a5954b3a110f"
   },
@@ -4272,7 +4272,7 @@
   {
     "disp": "尊皇攘夷",
     "kana": "そんのうじょうい",
-    "q": "sonnoujoui",
+    "q": "sonnnoujoui",
     "lang": "ja",
     "uuid": "dda414f9-ce29-49c2-958d-5e7256d51e56"
   },
@@ -4545,7 +4545,7 @@
   {
     "disp": "誅心之法",
     "kana": "ちゅうしんのほう",
-    "q": "chuushinnohou",
+    "q": "chuushinnnohou",
     "lang": "ja",
     "uuid": "4eb1ddc6-1486-49b6-be6f-517179f0c62c"
   },
@@ -4671,7 +4671,7 @@
   {
     "disp": "喋喋喃喃",
     "kana": "ちょうちょうなんなん",
-    "q": "chouchounannan",
+    "q": "chouchounannnan",
     "lang": "ja",
     "uuid": "b7941217-7cdf-4c64-a512-4696b7c0f5dc"
   },
@@ -4930,7 +4930,7 @@
   {
     "disp": "天歩艱難",
     "kana": "てんぽかんなん",
-    "q": "tenpokannan",
+    "q": "tenpokannnan",
     "lang": "ja",
     "uuid": "d916a523-0268-4a8a-a18d-abd33078876a"
   },
@@ -5952,7 +5952,7 @@
   {
     "disp": "巫山之夢",
     "kana": "ふざんのゆめ",
-    "q": "fuzannoyume",
+    "q": "fuzannnoyume",
     "lang": "ja",
     "uuid": "75620db5-a107-40ca-b677-0b9bef0f4f40"
   },
@@ -6841,7 +6841,7 @@
   {
     "disp": "鴒原之情",
     "kana": "れいげんのじょう",
-    "q": "reigennojou",
+    "q": "reigennnojou",
     "lang": "ja",
     "uuid": "018ea1b6-f09a-479d-be66-566acb2f2da6"
   },

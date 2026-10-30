@@ -254,7 +254,7 @@
   {
     "disp": "一団和気",
     "kana": "いちだんのわき",
-    "q": "ichidannowaki",
+    "q": "ichidannnowaki",
     "lang": "ja",
     "uuid": "e8fee93b-d0de-47d7-934f-b42f814f9d6c"
   },
@@ -940,7 +940,7 @@
   {
     "disp": "顔常山舌",
     "kana": "がんじょうざんのした",
-    "q": "ganjouzannoshita",
+    "q": "ganjouzannnoshita",
     "lang": "ja",
     "uuid": "6c9456ae-d492-4f41-bf65-b122a64ab5c3"
   },
@@ -1598,7 +1598,7 @@
   {
     "disp": "残念無念",
     "kana": "ざんねんむねん",
-    "q": "zannenmunen",
+    "q": "zannnenmunen",
     "lang": "ja",
     "uuid": "1239a011-f1ca-4a65-8075-b1e75e553c68"
   },
@@ -1612,7 +1612,7 @@
   {
     "disp": "思案投首",
     "kana": "しあんなげくび",
-    "q": "shiannagekubi",
+    "q": "shiannnagekubi",
     "lang": "ja",
     "uuid": "e7058e46-1d3b-458b-ae85-dbe0bc237bd5"
   },
@@ -1626,7 +1626,7 @@
   {
     "disp": "子見南子",
     "kana": "しけんなんし",
-    "q": "shikennanshi",
+    "q": "shikennnanshi",
     "lang": "ja",
     "uuid": "551c5954-21a1-4227-ba4f-63c43998c437"
   },
@@ -2494,7 +2494,7 @@
   {
     "disp": "全知全能",
     "kana": "ぜんちぜんのう",
-    "q": "zenchizennou",
+    "q": "zenchizennnou",
     "lang": "ja",
     "uuid": "2204de13-50b9-4f3a-a399-a84396416662"
   },
@@ -2606,7 +2606,7 @@
   {
     "disp": "対岸火災",
     "kana": "たいがんのかさい",
-    "q": "taigannokasai",
+    "q": "taigannnokasai",
     "lang": "ja",
     "uuid": "2e6d769e-d4f6-458f-8c43-abe9008fb247"
   },
@@ -2858,7 +2858,7 @@
   {
     "disp": "長安日辺",
     "kana": "ちょうあんにっぺん",
-    "q": "chouannippen",
+    "q": "chouannnippen",
     "lang": "ja",
     "uuid": "67f78480-db1d-405f-a4ca-b6b7ab94227c"
   },
@@ -2893,7 +2893,7 @@
   {
     "disp": "頂門一針",
     "kana": "ちょうもんのいっしん",
-    "q": "choumonnoisshin",
+    "q": "choumonnnoisshin",
     "lang": "ja",
     "uuid": "c06bd713-09fb-4ff2-8ec4-bd1565a050f9"
   },
@@ -3334,7 +3334,7 @@
   {
     "disp": "白板天子",
     "kana": "はくはんのてんし",
-    "q": "hakuhannotenshi",
+    "q": "hakuhannnotenshi",
     "lang": "ja",
     "uuid": "f3fb5819-00dd-44e2-864c-3987cfc0b352"
   },
@@ -3362,7 +3362,7 @@
   {
     "disp": "白面書生",
     "kana": "はくめんのしょせい",
-    "q": "hakumennoshosei",
+    "q": "hakumennnoshosei",
     "lang": "ja",
     "uuid": "a70ce482-5ea9-433f-bfa1-3ca658e4a239"
   },
@@ -3530,7 +3530,7 @@
   {
     "disp": "美意延年",
     "kana": "びいえんねん",
-    "q": "biiennen",
+    "q": "biiennnen",
     "lang": "ja",
     "uuid": "39478551-2fc2-49be-854d-6fa445967e51"
   },
@@ -3593,7 +3593,7 @@
   {
     "disp": "不知案内",
     "kana": "ふちあんない",
-    "q": "fuchiannai",
+    "q": "fuchiannnai",
     "lang": "ja",
     "uuid": "6b0e4d7a-48bf-48b6-b3d1-55741e010a3d"
   },
